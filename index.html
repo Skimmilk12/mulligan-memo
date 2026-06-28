@@ -1,31 +1,435 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>mulligan-memo</title>
+  <title>Mulligan Memo — Notes from the course</title>
+  <meta name="description" content="Mulligan Memo — golf, gear, and the long game. Field reports, honest equipment takes, and practice that actually lowers scores." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,900&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet">
+
   <style>
-    :root { color-scheme: light dark; }
-    body { font: 17px/1.7 system-ui, sans-serif; max-width: 720px; margin: 0 auto; padding: 3rem 1.25rem; }
-    header { border-bottom: 1px solid #8884; padding-bottom: 1rem; margin-bottom: 2rem; }
-    h1 { margin: 0; font-size: 2rem; }
-    .muted { opacity: .6; }
-    article { margin: 2.5rem 0; }
-    article h2 { margin-bottom: .25rem; }
-    a { color: #4f8cff; }
+    :root {
+      --paper:     #f2ebdb;
+      --paper-2:   #ece2cd;
+      --paper-3:   #e6dabf;
+      --ink:       #1b2a20;
+      --pine:      #21422f;
+      --pine-deep: #142319;
+      --brass:     #a9772a;
+      --flag:      #b03a2b;
+      --line:      rgba(27, 42, 32, 0.22);
+      --line-soft: rgba(27, 42, 32, 0.12);
+
+      --display: "Fraunces", Georgia, serif;
+      --body:    "Newsreader", Georgia, serif;
+      --mono:    "Courier Prime", "Courier New", monospace;
+    }
+
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      background-color: var(--paper);
+      background-image:
+        radial-gradient(120% 80% at 50% -10%, rgba(33,66,47,0.10), transparent 60%),
+        radial-gradient(100% 60% at 100% 100%, rgba(169,119,42,0.08), transparent 55%);
+      color: var(--ink);
+      font-family: var(--body);
+      font-size: 18px;
+      line-height: 1.65;
+      -webkit-font-smoothing: antialiased;
+      overflow-x: hidden;
+    }
+
+    /* paper grain overlay */
+    body::after {
+      content: "";
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      z-index: 9999;
+      opacity: 0.05;
+      mix-blend-mode: multiply;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+    }
+
+    .wrap { max-width: 1120px; margin: 0 auto; padding: 0 28px; }
+
+    a { color: inherit; }
+
+    /* ---------- MASTHEAD ---------- */
+    .topbar {
+      display: flex; justify-content: space-between; align-items: center;
+      padding: 16px 0; font-family: var(--mono); font-size: 12.5px;
+      letter-spacing: 0.04em; text-transform: uppercase; color: var(--pine);
+      border-bottom: 1px solid var(--line-soft);
+    }
+    .topbar .dot { color: var(--flag); }
+
+    .masthead { text-align: center; padding: 40px 0 22px; position: relative; }
+    .masthead .kicker {
+      font-family: var(--mono); font-size: 12px; letter-spacing: 0.45em;
+      text-transform: uppercase; color: var(--brass); margin-bottom: 14px;
+    }
+    .wordmark {
+      font-family: var(--display); font-weight: 900;
+      font-size: clamp(44px, 9vw, 104px); line-height: 0.92;
+      letter-spacing: -0.02em; margin: 0; color: var(--pine-deep);
+    }
+    .wordmark .amp { color: var(--flag); }
+    .tagline {
+      font-family: var(--body); font-style: italic; font-size: clamp(16px, 2.2vw, 21px);
+      color: var(--ink); opacity: 0.8; margin: 14px 0 0;
+    }
+    .rule-double { border: 0; border-top: 3px double var(--line); margin: 22px 0 0; }
+    .periodical {
+      display: flex; justify-content: center; gap: 22px; flex-wrap: wrap;
+      font-family: var(--mono); font-size: 11.5px; letter-spacing: 0.18em;
+      text-transform: uppercase; color: var(--pine); padding: 12px 0;
+      border-bottom: 1px solid var(--line);
+    }
+
+    /* nav */
+    nav.cats {
+      display: flex; justify-content: center; gap: 6px 30px; flex-wrap: wrap;
+      padding: 16px 0; font-family: var(--mono); font-size: 13px;
+      text-transform: uppercase; letter-spacing: 0.1em;
+      border-bottom: 1px solid var(--line); margin-bottom: 46px;
+    }
+    nav.cats a { text-decoration: none; color: var(--ink); position: relative; padding: 4px 0; }
+    nav.cats a::after {
+      content: ""; position: absolute; left: 0; bottom: 0; height: 2px; width: 0;
+      background: var(--flag); transition: width 0.28s ease;
+    }
+    nav.cats a:hover::after { width: 100%; }
+
+    /* ---------- HERO ---------- */
+    .hero { display: grid; grid-template-columns: 1.35fr 1fr; gap: 54px; align-items: center; margin-bottom: 30px; }
+    .lead .tag {
+      display: inline-flex; align-items: center; gap: 8px;
+      font-family: var(--mono); font-size: 12px; text-transform: uppercase;
+      letter-spacing: 0.14em; color: var(--flag); margin-bottom: 18px;
+    }
+    .lead .tag::before { content: "●"; font-size: 9px; }
+    .lead h2 {
+      font-family: var(--display); font-weight: 600;
+      font-size: clamp(34px, 5vw, 60px); line-height: 1.02;
+      letter-spacing: -0.015em; margin: 0 0 18px;
+    }
+    .lead p.dek { font-size: 20px; line-height: 1.55; max-width: 46ch; margin: 0 0 24px; opacity: 0.86; }
+    .byline { font-family: var(--mono); font-size: 12.5px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--pine); margin-bottom: 26px; }
+    .byline b { color: var(--ink); }
+    .read-link {
+      font-family: var(--mono); font-size: 13px; text-transform: uppercase; letter-spacing: 0.12em;
+      text-decoration: none; color: var(--pine-deep); border-bottom: 2px solid var(--brass);
+      padding-bottom: 3px; transition: color 0.2s, border-color 0.2s;
+    }
+    .read-link:hover { color: var(--flag); border-color: var(--flag); }
+
+    /* the signature MEMO card */
+    .memo {
+      position: relative; background: #fbf7ec; color: var(--ink);
+      padding: 30px 30px 34px; transform: rotate(1.6deg);
+      box-shadow: 0 18px 40px -22px rgba(20,35,25,0.55), 0 2px 0 rgba(0,0,0,0.04);
+      border: 1px solid rgba(27,42,32,0.10);
+    }
+    .memo::before { /* tape */
+      content: ""; position: absolute; top: -12px; left: 50%; transform: translateX(-50%) rotate(-3deg);
+      width: 110px; height: 26px; background: rgba(169,119,42,0.28);
+      box-shadow: inset 0 0 0 1px rgba(169,119,42,0.25);
+    }
+    .memo::after { /* coffee ring */
+      content: ""; position: absolute; right: 22px; bottom: 16px; width: 60px; height: 60px;
+      border-radius: 50%; border: 7px solid rgba(122,80,30,0.13); opacity: 0.8;
+    }
+    .memo .memo-hd {
+      font-family: var(--mono); font-weight: 700; font-size: 13px; letter-spacing: 0.22em;
+      text-transform: uppercase; text-align: center; padding-bottom: 10px;
+      border-bottom: 2px solid var(--ink); margin-bottom: 16px;
+    }
+    .memo dl { font-family: var(--mono); font-size: 13.5px; line-height: 1.9; margin: 0 0 16px; }
+    .memo dl .row { display: flex; gap: 10px; }
+    .memo dl dt { color: var(--flag); min-width: 52px; }
+    .memo dl dd { margin: 0; }
+    .memo .note { font-family: var(--body); font-size: 17px; line-height: 1.55; font-style: italic; }
+    .memo .sign { font-family: var(--mono); font-size: 12px; text-transform: uppercase; letter-spacing: 0.1em; margin-top: 16px; color: var(--pine); }
+
+    /* ---------- SECTION LABEL ---------- */
+    .sec-label {
+      display: flex; align-items: center; gap: 16px; margin: 64px 0 30px;
+      font-family: var(--mono); font-size: 13px; text-transform: uppercase; letter-spacing: 0.22em; color: var(--pine);
+    }
+    .sec-label::after { content: ""; flex: 1; height: 1px; background: var(--line); }
+    .sec-label .n { color: var(--flag); }
+
+    /* ---------- DISPATCH GRID ---------- */
+    .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px; background: var(--line-soft); border: 1px solid var(--line-soft); }
+    .card {
+      background: var(--paper); padding: 28px 26px 30px; display: flex; flex-direction: column;
+      transition: background 0.3s ease, transform 0.3s ease; text-decoration: none; color: inherit; min-height: 250px;
+    }
+    .card:hover { background: var(--paper-2); }
+    .card .ct { font-family: var(--mono); font-size: 11.5px; text-transform: uppercase; letter-spacing: 0.13em; color: var(--brass); margin-bottom: 14px; }
+    .card h3 { font-family: var(--display); font-weight: 600; font-size: 25px; line-height: 1.12; letter-spacing: -0.01em; margin: 0 0 12px; }
+    .card p { font-size: 16.5px; line-height: 1.5; opacity: 0.82; margin: 0 0 18px; flex: 1; }
+    .card .meta { font-family: var(--mono); font-size: 11.5px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--pine); display: flex; gap: 14px; }
+    .card .meta .arrow { margin-left: auto; color: var(--flag); transition: transform 0.25s ease; }
+    .card:hover .meta .arrow { transform: translateX(5px); }
+
+    /* ---------- SCORECARD STRIP ---------- */
+    .scorecard { margin: 70px 0; border: 2px solid var(--ink); }
+    .scorecard .sc-hd {
+      display: grid; grid-template-columns: 1.4fr repeat(5, 1fr);
+      font-family: var(--mono); font-size: 12px; text-transform: uppercase; letter-spacing: 0.08em;
+      background: var(--pine); color: var(--paper);
+    }
+    .scorecard .sc-hd div { padding: 12px 16px; border-right: 1px solid rgba(242,235,219,0.18); }
+    .scorecard .sc-hd div:last-child { border-right: 0; }
+    .scorecard .sc-row { display: grid; grid-template-columns: 1.4fr repeat(5, 1fr); }
+    .scorecard .sc-row div { padding: 16px; border-right: 1px solid var(--line-soft); border-top: 1px solid var(--line-soft); }
+    .scorecard .sc-row div:last-child { border-right: 0; }
+    .scorecard .sc-row .lab { font-family: var(--mono); font-size: 12px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--pine); }
+    .scorecard .sc-row a { font-family: var(--display); font-size: 18px; text-decoration: none; color: var(--ink); transition: color 0.2s; display: block; }
+    .scorecard .sc-row a:hover { color: var(--flag); }
+    .scorecard .sc-row a small { display: block; font-family: var(--mono); font-size: 10.5px; letter-spacing: 0.05em; color: var(--brass); margin-top: 4px; text-transform: uppercase; }
+
+    /* ---------- NEWSLETTER ---------- */
+    .signup {
+      margin: 70px 0; background: var(--pine-deep); color: var(--paper);
+      padding: 54px 44px; text-align: center; position: relative; overflow: hidden;
+    }
+    .signup::before {
+      content: ""; position: absolute; inset: 0; opacity: 0.16; pointer-events: none;
+      background-image: repeating-linear-gradient(135deg, transparent 0 22px, rgba(242,235,219,0.4) 22px 23px);
+    }
+    .signup .inner { position: relative; }
+    .signup .ek { font-family: var(--mono); font-size: 12px; letter-spacing: 0.32em; text-transform: uppercase; color: var(--brass); }
+    .signup h2 { font-family: var(--display); font-weight: 600; font-size: clamp(28px, 4vw, 42px); margin: 14px 0 10px; }
+    .signup p { opacity: 0.82; max-width: 48ch; margin: 0 auto 26px; }
+    .signup form { display: flex; gap: 10px; max-width: 460px; margin: 0 auto; flex-wrap: wrap; justify-content: center; }
+    .signup input {
+      flex: 1; min-width: 220px; padding: 14px 18px; border: 1px solid rgba(242,235,219,0.4);
+      background: rgba(242,235,219,0.06); color: var(--paper); font-family: var(--mono); font-size: 14px;
+    }
+    .signup input::placeholder { color: rgba(242,235,219,0.5); }
+    .signup button {
+      padding: 14px 26px; border: 0; background: var(--brass); color: var(--pine-deep);
+      font-family: var(--mono); font-weight: 700; font-size: 13px; text-transform: uppercase;
+      letter-spacing: 0.1em; cursor: pointer; transition: background 0.2s, transform 0.1s;
+    }
+    .signup button:hover { background: #c08f3a; }
+    .signup button:active { transform: translateY(1px); }
+    .signup .msg { font-family: var(--mono); font-size: 13px; color: var(--brass); margin-top: 18px; min-height: 18px; }
+
+    /* ---------- FOOTER ---------- */
+    footer { border-top: 3px double var(--line); padding: 40px 0 60px; margin-top: 20px; }
+    footer .frow { display: flex; justify-content: space-between; gap: 24px; flex-wrap: wrap; align-items: baseline; }
+    footer .fmark { font-family: var(--display); font-weight: 900; font-size: 24px; color: var(--pine-deep); letter-spacing: -0.01em; }
+    footer .flinks { font-family: var(--mono); font-size: 12px; text-transform: uppercase; letter-spacing: 0.1em; display: flex; gap: 22px; flex-wrap: wrap; }
+    footer .flinks a { text-decoration: none; color: var(--pine); }
+    footer .flinks a:hover { color: var(--flag); }
+    footer .fine { font-family: var(--mono); font-size: 11px; color: var(--pine); opacity: 0.7; margin-top: 22px; letter-spacing: 0.04em; }
+
+    /* ---------- ANIMATION ---------- */
+    @keyframes rise { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: translateY(0); } }
+    .reveal { opacity: 0; animation: rise 0.8s cubic-bezier(0.2, 0.7, 0.2, 1) forwards; }
+    .d1 { animation-delay: 0.05s; } .d2 { animation-delay: 0.18s; } .d3 { animation-delay: 0.32s; }
+    .d4 { animation-delay: 0.46s; } .d5 { animation-delay: 0.6s; }
+    .memo.reveal { animation-name: rise; }
+
+    @media (prefers-reduced-motion: reduce) {
+      .reveal { animation: none; opacity: 1; }
+      html { scroll-behavior: auto; }
+    }
+
+    /* ---------- RESPONSIVE ---------- */
+    @media (max-width: 860px) {
+      .hero { grid-template-columns: 1fr; gap: 44px; }
+      .memo { transform: rotate(0.8deg); max-width: 440px; margin: 0 auto; }
+      .grid { grid-template-columns: 1fr 1fr; }
+      .scorecard .sc-hd, .scorecard .sc-row { grid-template-columns: 1fr 1fr; }
+      .scorecard .sc-hd div:nth-child(n+3), .scorecard .sc-row div:nth-child(n+3) { display: none; }
+    }
+    @media (max-width: 540px) {
+      body { font-size: 17px; }
+      .grid { grid-template-columns: 1fr; }
+      .periodical { gap: 10px 16px; }
+    }
   </style>
 </head>
-<body>
-  <header>
-    <h1>mulligan-memo</h1>
-    <p class="muted">A blog about things worth writing down.</p>
-  </header>
 
-  <article>
-    <h2>Hello, world</h2>
-    <p class="muted">Posted today</p>
-    <p>This is your first post. Edit <code>index.html</code> to change it, or ask
-       Claude Code to add a real post list, an about page, or a newsletter signup.</p>
-  </article>
+<body>
+  <div class="wrap">
+
+    <!-- TOP BAR -->
+    <div class="topbar">
+      <span>Sunday Edition</span>
+      <span>Golf <span class="dot">●</span> Gear <span class="dot">●</span> The Long Game</span>
+      <span id="today">—</span>
+    </div>
+
+    <!-- MASTHEAD -->
+    <header class="masthead reveal d1">
+      <div class="kicker">Est. 2026 — A Weekend Golf Dispatch</div>
+      <h1 class="wordmark">Mulligan<span class="amp"> · </span>Memo</h1>
+      <p class="tagline">Notes from the course — golf, gear, and the long game.</p>
+      <hr class="rule-double" />
+    </header>
+
+    <div class="periodical reveal d1">
+      <span>Issue No. 01</span>
+      <span>The Honest Golf Report</span>
+      <span>Play it as it lies</span>
+    </div>
+
+    <nav class="cats reveal d2">
+      <a href="#dispatches">The Bag</a>
+      <a href="#dispatches">On the Course</a>
+      <a href="#dispatches">The Tour</a>
+      <a href="#dispatches">The Long Game</a>
+      <a href="#dispatches">The 19th Hole</a>
+      <a href="#about">About</a>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="lead reveal d2">
+        <span class="tag">On the Course — Field Report</span>
+        <h2>Bandon in a Gale: What 36 Holes in the Rain Taught Me About Course Management</h2>
+        <p class="dek">A two-club wind, sideways drizzle, and a caddie who refused to let me hit driver. By the back nine I'd stopped fighting the course and started playing it — and shot my best round of the trip.</p>
+        <div class="byline">By <b>The Editor</b> — 9 min read</div>
+        <a class="read-link" href="#dispatches">Read the field report →</a>
+      </div>
+
+      <aside class="memo reveal d3" aria-label="The Mulligan Memo">
+        <div class="memo-hd">★ Inter-Office Memo ★</div>
+        <dl>
+          <div class="row"><dt>To:</dt><dd>Every weekend golfer</dd></div>
+          <div class="row"><dt>From:</dt><dd>The first tee</dd></div>
+          <div class="row"><dt>Re:</dt><dd>Forgiveness</dd></div>
+        </dl>
+        <p class="note">"The best shot you'll hit all day is the one you let go of. Take the mulligan. Then take notes."</p>
+        <div class="sign">— Filed under: Play it as it lies</div>
+      </aside>
+    </section>
+
+    <!-- DISPATCHES -->
+    <div class="sec-label" id="dispatches"><span class="n">§</span> Latest Dispatches</div>
+
+    <section class="grid">
+      <a class="card reveal d2" href="#">
+        <div class="ct">The Bag — Gear</div>
+        <h3>The Best Budget Drivers of 2026, Tested by a 14-Handicap</h3>
+        <p>You don't need a $600 driver to find the fairway. We hit six under-$300 heads and ranked them on forgiveness, sound, and dollars-per-yard.</p>
+        <div class="meta"><span>Jun 21</span><span>11 min</span><span class="arrow">→</span></div>
+      </a>
+
+      <a class="card reveal d3" href="#">
+        <div class="ct">The Long Game — Practice</div>
+        <h3>The 20-Minute Practice Plan That Actually Lowers Scores</h3>
+        <p>Beating balls isn't practice. Here's the short, boring, repeatable range routine that moves your handicap — built around the shots you actually face.</p>
+        <div class="meta"><span>Jun 18</span><span>7 min</span><span class="arrow">→</span></div>
+      </a>
+
+      <a class="card reveal d4" href="#">
+        <div class="ct">The Tour — Analysis</div>
+        <h3>The Distance Rollback Is Coming for Your Game Too</h3>
+        <p>The 2028 ball change isn't just a pro problem. We break down what it means for the average amateur — and why it might be the best thing for your scoring.</p>
+        <div class="meta"><span>Jun 14</span><span>6 min</span><span class="arrow">→</span></div>
+      </a>
+
+      <a class="card reveal d2" href="#">
+        <div class="ct">The Bag — Gear</div>
+        <h3>Are $500 Putters Worth It? We Rolled 1,000 Putts to Find Out</h3>
+        <p>Premium milled flatstick vs. a big-box blade. Same green, same golfer, a thousand five-footers. The make rate might surprise you (and save you money).</p>
+        <div class="meta"><span>Jun 10</span><span>9 min</span><span class="arrow">→</span></div>
+      </a>
+
+      <a class="card reveal d3" href="#">
+        <div class="ct">On the Course — Travel</div>
+        <h3>Five Underrated Munis That Beat the Resort Courses</h3>
+        <p>You don't need a tee-time lottery and a $400 green fee to play great golf. A love letter to the working-class tracks that punch above their weight.</p>
+        <div class="meta"><span>Jun 6</span><span>8 min</span><span class="arrow">→</span></div>
+      </a>
+
+      <a class="card reveal d4" href="#">
+        <div class="ct">The 19th Hole — Culture</div>
+        <h3>A Field Guide to the Golfers You'll Meet at Your Muni</h3>
+        <p>The Range Hero. The Rules Lawyer. The Guy With One Glove and Zero Tees. An affectionate taxonomy of everyone in your Saturday group.</p>
+        <div class="meta"><span>Jun 2</span><span>5 min</span><span class="arrow">→</span></div>
+      </a>
+    </section>
+
+    <!-- SCORECARD STRIP -->
+    <div class="sec-label"><span class="n">§</span> The Card — Sections</div>
+    <section class="scorecard" aria-label="Sections">
+      <div class="sc-hd">
+        <div>Section</div><div>No. 1</div><div>No. 2</div><div>No. 3</div><div>No. 4</div><div>No. 5</div>
+      </div>
+      <div class="sc-row">
+        <div class="lab">Browse by</div>
+        <div><a href="#dispatches">The Bag<small>Gear & reviews</small></a></div>
+        <div><a href="#dispatches">On the Course<small>Play & travel</small></a></div>
+        <div><a href="#dispatches">The Tour<small>Pro golf</small></a></div>
+        <div><a href="#dispatches">The Long Game<small>Get better</small></a></div>
+        <div><a href="#dispatches">The 19th Hole<small>Culture</small></a></div>
+      </div>
+    </section>
+
+    <!-- NEWSLETTER -->
+    <section class="signup" id="about">
+      <div class="inner">
+        <div class="ek">The Sunday Memo</div>
+        <h2>One useful golf note, every Sunday.</h2>
+        <p>The best read of the week, an honest gear take, and one tip you can use on Saturday. No spam, no swing-tip overload — just the good stuff.</p>
+        <form id="subform">
+          <input type="email" required placeholder="you@example.com" aria-label="Email address" />
+          <button type="submit">Send me the Memo</button>
+        </form>
+        <div class="msg" id="submsg"></div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="frow">
+        <span class="fmark">Mulligan Memo</span>
+        <div class="flinks">
+          <a href="#dispatches">Dispatches</a>
+          <a href="#about">Newsletter</a>
+          <a href="https://github.com/Skimmilk12/mulligan-memo">Source</a>
+        </div>
+      </div>
+      <div class="fine">© <span id="yr">2026</span> Mulligan Memo — Play it as it lies. Built with Claude Code.</div>
+    </footer>
+
+  </div>
+
+  <script>
+    // date in masthead
+    (function () {
+      var d = new Date();
+      var months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+      var el = document.getElementById('today');
+      if (el) el.textContent = months[d.getMonth()] + ' ' + d.getDate() + ', ' + d.getFullYear();
+      var yr = document.getElementById('yr');
+      if (yr) yr.textContent = d.getFullYear();
+    })();
+
+    // newsletter (front-end only for now)
+    var form = document.getElementById('subform');
+    if (form) {
+      form.addEventListener('submit', function (e) {
+        e.preventDefault();
+        document.getElementById('submsg').textContent = "✓ You're on the list. See you Sunday.";
+        form.reset();
+      });
+    }
+  </script>
 </body>
 </html>
