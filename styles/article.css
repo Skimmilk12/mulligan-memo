@@ -175,3 +175,13 @@ figure.fig figcaption .src { display: block; margin-top: 4px; text-transform: no
 .related a .rk { font-family: var(--mono); font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em; color: var(--brass); }
 .related a h4 { font-family: var(--display); font-weight: 600; font-size: 18px; line-height: 1.16; margin: 6px 0 0; }
 @media (max-width: 640px) { .related .rgrid { grid-template-columns: 1fr; } }
+
+/* table of contents */
+.toc { border: 1px solid var(--line); background: var(--paper-2); padding: 16px 20px; margin: 26px 0 6px; }
+.toc .toc-h { font-family: var(--mono); font-size: 11px; text-transform: uppercase; letter-spacing: 0.18em; color: var(--brass); margin-bottom: 10px; }
+.toc ul { margin: 0; padding: 0; list-style: none; columns: 2; column-gap: 30px; }
+.toc li { margin: 0 0 7px; break-inside: avoid; }
+.toc a { font-family: var(--body); font-size: 16px; color: var(--pine); text-decoration: none; border-bottom: 1px solid transparent; }
+.toc a:hover { color: var(--flag); border-color: var(--flag); }
+.copy h2[id] { scroll-margin-top: 18px; }
+@media (max-width: 540px) { .toc ul { columns: 1; } }
