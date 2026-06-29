@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "mulligan-memo",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["-m", "http.server", "4317"],
+      "port": 4317
+    }
+  ]
+}

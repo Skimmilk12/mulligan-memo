@@ -1,0 +1,145 @@
+/* Mulligan Memo — shared article stylesheet.
+   Articles in /posts link this with: <link rel="stylesheet" href="../styles/article.css" />
+   Pair it with the Google Fonts <link> for Fraunces, Newsreader, and Courier Prime. */
+
+:root {
+  --paper: #f2ebdb; --paper-2: #ece2cd; --ink: #1b2a20; --pine: #21422f;
+  --pine-deep: #142319; --brass: #a9772a; --flag: #b03a2b;
+  --line: rgba(27,42,32,0.22); --line-soft: rgba(27,42,32,0.12);
+  --display: "Fraunces", Georgia, serif; --body: "Newsreader", Georgia, serif; --mono: "Courier Prime", monospace;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0; background-color: var(--paper);
+  background-image: radial-gradient(120% 70% at 50% -10%, rgba(33,66,47,0.08), transparent 60%);
+  color: var(--ink); font-family: var(--body); font-size: 19px; line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+body::after {
+  content: ""; position: fixed; inset: 0; pointer-events: none; z-index: 9999;
+  opacity: 0.045; mix-blend-mode: multiply;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+a { color: inherit; }
+.wrap { max-width: 720px; margin: 0 auto; padding: 0 26px; }
+
+/* top bar */
+.bar {
+  max-width: 1120px; margin: 0 auto; padding: 18px 26px; display: flex; justify-content: space-between;
+  align-items: center; font-family: var(--mono); font-size: 12.5px; text-transform: uppercase;
+  letter-spacing: 0.08em; border-bottom: 1px solid var(--line-soft);
+}
+.bar .home { text-decoration: none; color: var(--pine-deep); font-weight: 700; letter-spacing: 0.04em; }
+.bar .home:hover { color: var(--flag); }
+.bar .back { text-decoration: none; color: var(--pine); }
+.bar .back:hover { color: var(--flag); }
+
+/* article header */
+.ahead { padding: 56px 0 30px; }
+.crumb { font-family: var(--mono); font-size: 12px; text-transform: uppercase; letter-spacing: 0.14em; color: var(--flag); margin-bottom: 18px; }
+.crumb::before { content: "● "; font-size: 9px; }
+h1.title {
+  font-family: var(--display); font-weight: 600; font-size: clamp(32px, 5.5vw, 52px);
+  line-height: 1.05; letter-spacing: -0.015em; margin: 0 0 20px;
+}
+.dek { font-size: 21px; line-height: 1.5; font-style: italic; opacity: 0.82; margin: 0 0 26px; }
+.byline {
+  display: flex; gap: 16px; flex-wrap: wrap; align-items: center;
+  font-family: var(--mono); font-size: 12.5px; text-transform: uppercase; letter-spacing: 0.06em;
+  color: var(--pine); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); padding: 14px 0;
+}
+.byline b { color: var(--ink); }
+.byline .sep { color: var(--brass); }
+
+/* affiliate disclosure banner */
+.disclose {
+  background: var(--paper-2); border-left: 3px solid var(--brass); padding: 14px 18px;
+  font-family: var(--mono); font-size: 13px; line-height: 1.6; color: var(--pine); margin: 28px 0 10px;
+}
+
+/* body copy */
+.copy { padding-bottom: 20px; }
+.copy h2 {
+  font-family: var(--display); font-weight: 600; font-size: clamp(26px, 4vw, 34px);
+  line-height: 1.15; margin: 50px 0 8px; letter-spacing: -0.01em;
+}
+.copy h2 .kick { display: block; font-family: var(--mono); font-size: 12px; font-weight: 400; text-transform: uppercase; letter-spacing: 0.18em; color: var(--brass); margin-bottom: 8px; }
+.copy h3 { font-family: var(--display); font-weight: 600; font-size: 22px; margin: 34px 0 6px; }
+.copy p { margin: 0 0 20px; }
+.copy p.lead-p::first-letter {
+  font-family: var(--display); font-weight: 900; float: left; font-size: 64px; line-height: 0.78;
+  padding: 6px 12px 0 0; color: var(--flag);
+}
+.copy ul { margin: 0 0 22px; padding-left: 0; list-style: none; }
+.copy ul li { position: relative; padding-left: 28px; margin-bottom: 12px; }
+.copy ul li::before { content: "◗"; position: absolute; left: 4px; color: var(--brass); }
+.copy ol { margin: 0 0 22px; padding-left: 24px; }
+.copy ol li { margin-bottom: 12px; }
+.copy strong { color: var(--pine-deep); }
+.copy table { width: 100%; border-collapse: collapse; margin: 8px 0 26px; font-size: 16.5px; }
+.copy table th, .copy table td { text-align: left; padding: 11px 14px; border: 1px solid var(--line-soft); }
+.copy table th { font-family: var(--mono); font-size: 12px; text-transform: uppercase; letter-spacing: 0.06em; background: var(--paper-2); color: var(--pine); }
+a.inline { color: var(--pine); text-decoration: underline; text-decoration-color: var(--brass); text-underline-offset: 3px; }
+a.inline:hover { color: var(--flag); }
+
+/* pull quote */
+.pull {
+  font-family: var(--display); font-weight: 500; font-size: clamp(22px, 3.4vw, 28px); line-height: 1.3;
+  color: var(--pine-deep); border-top: 3px double var(--line); border-bottom: 3px double var(--line);
+  padding: 26px 0; margin: 36px 0; text-align: center; font-style: italic;
+}
+
+/* quick-answer box */
+.tldr { background: var(--pine-deep); color: var(--paper); padding: 26px 28px; margin: 30px 0; }
+.tldr .h { font-family: var(--mono); font-size: 12px; text-transform: uppercase; letter-spacing: 0.2em; color: var(--brass); margin-bottom: 12px; }
+.tldr p { margin: 0; font-size: 18px; }
+.tldr p + p { margin-top: 12px; }
+
+/* product picks */
+.picks { margin: 30px 0; }
+.pick {
+  display: grid; grid-template-columns: 56px 1fr; gap: 0 20px; align-items: start;
+  border: 1px solid var(--line); background: #fbf7ec; padding: 24px 26px; margin-bottom: 16px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.pick:hover { transform: translateY(-2px); box-shadow: 0 14px 30px -20px rgba(20,35,25,0.5); }
+.pick .num { font-family: var(--display); font-weight: 900; font-size: 40px; color: var(--brass); line-height: 1; }
+.pick .cat { font-family: var(--mono); font-size: 11.5px; text-transform: uppercase; letter-spacing: 0.12em; color: var(--flag); margin-bottom: 6px; }
+.pick h3 { font-family: var(--display); font-weight: 600; font-size: 24px; margin: 0 0 8px; }
+.pick p { margin: 0 0 14px; font-size: 17px; line-height: 1.55; }
+.pick .bestfor { font-family: var(--mono); font-size: 12.5px; color: var(--pine); margin-bottom: 16px; }
+.pick .bestfor b { color: var(--ink); }
+.pick .cta {
+  display: inline-block; font-family: var(--mono); font-weight: 700; font-size: 13px; text-transform: uppercase;
+  letter-spacing: 0.08em; background: var(--brass); color: var(--pine-deep); padding: 11px 20px; text-decoration: none;
+  transition: background 0.2s, transform 0.1s;
+}
+.pick .cta:hover { background: #c08f3a; }
+.pick .cta:active { transform: translateY(1px); }
+
+/* FAQ */
+.faq { margin: 30px 0; }
+.faq details { border-bottom: 1px solid var(--line); padding: 6px 0; }
+.faq summary {
+  cursor: pointer; list-style: none; padding: 16px 0; font-family: var(--display); font-weight: 600; font-size: 20px;
+  display: flex; justify-content: space-between; align-items: center;
+}
+.faq summary::-webkit-details-marker { display: none; }
+.faq summary::after { content: "+"; font-family: var(--mono); color: var(--flag); font-size: 24px; }
+.faq details[open] summary::after { content: "–"; }
+.faq details p { margin: 0 0 18px; }
+
+/* footer */
+footer { border-top: 3px double var(--line); margin-top: 50px; }
+.fwrap { max-width: 720px; margin: 0 auto; padding: 36px 26px 60px; }
+.fmark { font-family: var(--display); font-weight: 900; font-size: 22px; color: var(--pine-deep); }
+.fdisc { font-family: var(--mono); font-size: 11.5px; line-height: 1.6; color: var(--pine); opacity: 0.85; margin-top: 14px; max-width: 70ch; }
+.fback { font-family: var(--mono); font-size: 12.5px; text-transform: uppercase; letter-spacing: 0.08em; margin-top: 18px; display: inline-block; text-decoration: none; color: var(--pine); border-bottom: 2px solid var(--brass); padding-bottom: 3px; }
+.fback:hover { color: var(--flag); border-color: var(--flag); }
+
+@media (max-width: 540px) {
+  body { font-size: 18px; }
+  .pick { grid-template-columns: 1fr; }
+  .pick .num { font-size: 30px; margin-bottom: 6px; }
+}
