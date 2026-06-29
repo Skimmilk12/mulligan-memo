@@ -143,3 +143,35 @@ footer { border-top: 3px double var(--line); margin-top: 50px; }
   .pick { grid-template-columns: 1fr; }
   .pick .num { font-size: 30px; margin-bottom: 6px; }
 }
+
+/* ===== visual components (charts, diagrams, callouts, tables, related) ===== */
+
+/* figures: charts & diagrams */
+figure.fig { margin: 34px 0; }
+figure.fig .frame { border: 1px solid var(--line); background: #fbf7ec; padding: 24px 22px 16px; }
+figure.fig svg { display: block; width: 100%; height: auto; }
+figure.fig figcaption { font-family: var(--mono); font-size: 12px; text-transform: uppercase; letter-spacing: 0.07em; color: var(--pine); margin-top: 12px; text-align: center; }
+figure.fig figcaption .src { display: block; margin-top: 4px; text-transform: none; letter-spacing: 0; opacity: 0.7; }
+
+/* at-a-glance / verdict callout */
+.callout { border: 2px solid var(--ink); margin: 30px 0; }
+.callout .ttl { background: var(--ink); color: var(--paper); font-family: var(--mono); font-size: 12px; letter-spacing: 0.16em; text-transform: uppercase; padding: 10px 18px; }
+.callout .bd { padding: 18px 20px; }
+.callout .bd p { margin: 0 0 10px; } .callout .bd p:last-child { margin: 0; }
+.callout .bd ul { margin: 0; }
+
+/* spec / comparison table niceties (use class="spec" on a .copy table) */
+.copy table.spec tbody tr:nth-child(even) td { background: rgba(27,42,32,0.035); }
+.copy table.spec td.win, .copy table.spec th.win { background: rgba(169,119,42,0.16); }
+.copy table .rate { font-family: var(--mono); font-size: 12.5px; letter-spacing: 0.02em; }
+.copy table .rate.hi { color: var(--pine); } .copy table .rate.mid { color: var(--brass); } .copy table .rate.lo { color: var(--flag); }
+
+/* related guides block */
+.related { margin: 52px 0 6px; border-top: 3px double var(--line); padding-top: 26px; }
+.related .rh { font-family: var(--mono); font-size: 13px; text-transform: uppercase; letter-spacing: 0.2em; color: var(--pine); margin-bottom: 18px; }
+.related .rgrid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+.related a { display: block; text-decoration: none; color: inherit; border: 1px solid var(--line); background: #fbf7ec; padding: 16px 16px 18px; transition: background 0.25s ease, transform 0.25s ease; }
+.related a:hover { background: var(--paper-2); transform: translateY(-2px); }
+.related a .rk { font-family: var(--mono); font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em; color: var(--brass); }
+.related a h4 { font-family: var(--display); font-weight: 600; font-size: 18px; line-height: 1.16; margin: 6px 0 0; }
+@media (max-width: 640px) { .related .rgrid { grid-template-columns: 1fr; } }
