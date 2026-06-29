@@ -131,6 +131,30 @@
             "@type": "Answer",
             "text": "Water-resistance ratings vary by model, so don't assume. Many are rated to handle rain and splashes (some to an IPX7-style standard), but that isn't the same as being swim-proof. Check the rating for the exact model you're considering rather than assuming all are equally waterproof."
           }
+        },
+        {
+          "@type": "Question",
+          "name": "Monochrome or color screen — which should I get?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It comes down to one trade-off. A monochrome, button-operated screen like the Garmin S12's is brilliantly readable in bright sun and sips battery, getting roughly five rounds per charge. A color touchscreen like the Bushnell iON Elite's shows you a graphic of the hole and supports slope, but drains faster, so expect a couple of rounds. If you want maximum battery and zero fuss, go mono. If you want to see the hole and tap to plan, go color."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does it track my shots and stats like strokes gained?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not at this price, with one exception. The watches under $200 focus on yardages and basic scoring, not automatic shot tracking. If you actually want club distances, greens in regulation and strokes-gained data, the Shot Scope X5 (around $299) pairs GPS with 16 club tags that auto-log every shot and feed 100+ stats, all subscription-free. It's just over our budget, but it's the value leader if improvement is the goal."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I fine-tune the number when the pin is tucked?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "On most models, yes. The watch defaults to green center, but a Green View lets you drag the pin to where it's actually cut that day, and the yardage updates to match. It's a manual estimate by eye, not a laser read, but it's handy when the flag is clearly front or back on a deep green. The Garmin S12, for example, offers manual pin placement."
+          }
         }
       ]
     }
@@ -168,6 +192,46 @@
       <p>Here's the single most important thing to understand, because it's the most common misconception in this category: <strong>a GPS watch does not give you the exact distance to the pin.</strong> It gives you distances to the <em>green</em>, specifically the front edge, the geometric center, and the back edge, plus distances to mapped hazards, layups and dogleg corners. The pin moves every day; the green doesn't. So the watch maps the green and reports your distance to fixed points on it.</p>
 
       <p>The number to play is almost always the <strong>center-green yardage</strong>. On a deep green, the actual pin can sit 10 to 15 yards in front of or behind that center number, which is why front/middle/back matters: it tells you the depth you're working with. If the pin is cut at the front and you've got a fronting bunker, the front number keeps you honest; if it's tucked at the back, the back number stops you from coming up short. As a default, though, aim for the middle and you'll rarely be badly wrong.</p>
+
+      <figure class="fig"><div class="frame">
+        <svg viewBox="0 0 640 380" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Diagram of a golfer reading front, middle and back of green yardages, showing the pin can sit 10 to 15 yards in front of or behind the center number on a deep green">
+          <!-- fairway base -->
+          <rect x="0" y="0" width="640" height="380" fill="#ece2cd"/>
+          <!-- ball / player marker -->
+          <circle cx="78" cy="330" r="9" fill="#f2ebdb" stroke="#1b2a20" stroke-width="2"/>
+          <circle cx="78" cy="330" r="2.4" fill="#1b2a20"/>
+          <text x="78" y="362" font-family="Courier Prime, monospace" font-size="12" fill="#1b2a20" text-anchor="middle">YOUR BALL</text>
+          <!-- green shape (deep, oval) -->
+          <ellipse cx="470" cy="150" rx="125" ry="92" fill="#21422f" opacity="0.92"/>
+          <ellipse cx="470" cy="150" rx="125" ry="92" fill="none" stroke="#142319" stroke-width="2"/>
+          <!-- front / middle / back markers -->
+          <circle cx="470" cy="240" r="5" fill="#a9772a"/>
+          <circle cx="470" cy="150" r="5" fill="#f2ebdb"/>
+          <circle cx="470" cy="60" r="5" fill="#a9772a"/>
+          <!-- distance lines from ball to each point -->
+          <line x1="78" y1="330" x2="470" y2="240" stroke="#a9772a" stroke-width="1.6" stroke-dasharray="5 5"/>
+          <line x1="78" y1="330" x2="470" y2="150" stroke="#f2ebdb" stroke-width="2.4"/>
+          <line x1="78" y1="330" x2="470" y2="60" stroke="#a9772a" stroke-width="1.6" stroke-dasharray="5 5"/>
+          <!-- yardage labels -->
+          <rect x="300" y="252" width="92" height="22" fill="#ece2cd" stroke="#a9772a" stroke-width="1"/>
+          <text x="346" y="267" font-family="Courier Prime, monospace" font-size="12" fill="#1b2a20" text-anchor="middle">FRONT 142</text>
+          <rect x="250" y="186" width="100" height="24" fill="#1b2a20"/>
+          <text x="300" y="203" font-family="Courier Prime, monospace" font-size="13" font-weight="700" fill="#f2ebdb" text-anchor="middle">MIDDLE 153</text>
+          <rect x="300" y="92" width="86" height="22" fill="#ece2cd" stroke="#a9772a" stroke-width="1"/>
+          <text x="343" y="107" font-family="Courier Prime, monospace" font-size="12" fill="#1b2a20" text-anchor="middle">BACK 164</text>
+          <!-- pin / flag with daily-position arrow -->
+          <line x1="510" y1="200" x2="510" y2="118" stroke="#f2ebdb" stroke-width="2"/>
+          <path d="M510 118 L538 126 L510 134 Z" fill="#b03a2b"/>
+          <text x="510" y="218" font-family="Courier Prime, monospace" font-size="11" fill="#f2ebdb" text-anchor="middle">TODAY'S PIN</text>
+          <!-- depth bracket -->
+          <line x1="612" y1="60" x2="612" y2="240" stroke="#a9772a" stroke-width="1.4"/>
+          <line x1="606" y1="60" x2="612" y2="60" stroke="#a9772a" stroke-width="1.4"/>
+          <line x1="606" y1="240" x2="612" y2="240" stroke="#a9772a" stroke-width="1.4"/>
+          <text x="626" y="155" font-family="Courier Prime, monospace" font-size="11" fill="#1b2a20" text-anchor="middle" transform="rotate(90 626 155)">~22 YD DEEP GREEN</text>
+          <!-- title -->
+          <text x="36" y="40" font-family="Fraunces, Georgia, serif" font-size="20" font-weight="600" fill="#1b2a20">The number you play is the middle</text>
+        </svg>
+      </div><figcaption>Reading a green: front, middle, back<span class="src">The pin can sit 10–15 yds ahead of or behind center on a deep green, so the watch maps fixed edges. Yardages shown are illustrative.</span></figcaption></figure>
 
       <p class="pull">"The pin moves every day. The green doesn't. That's why the center-green number is the one you play."</p>
 
@@ -241,6 +305,50 @@
 
       <p>Neither is "better." They're answers to different questions. If you want to glance, read, and swing with maximum battery and zero fuss, monochrome-and-buttons wins. If you want to <em>see</em> the hole, get an uphill/downhill-adjusted number, and don't mind charging more often, the color touchscreen is the best budget golf watch with course maps you can buy. Decide which of those golfers you are before you compare anything else, and the pick almost makes itself.</p>
 
+      <figure class="fig"><div class="frame">
+        <svg viewBox="0 0 640 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Diagram showing how a slope feature converts the flat GPS distance into a plays-like distance by adding elevation gain on an uphill shot">
+          <rect x="0" y="0" width="640" height="360" fill="#ece2cd"/>
+          <!-- ground profile: uphill -->
+          <path d="M40 300 L300 300 Q420 300 500 215 L600 215 L600 330 L40 330 Z" fill="#21422f" opacity="0.18"/>
+          <path d="M40 300 L300 300 Q420 300 500 215 L600 215" fill="none" stroke="#21422f" stroke-width="2.5"/>
+          <!-- ball -->
+          <circle cx="70" cy="300" r="8" fill="#f2ebdb" stroke="#1b2a20" stroke-width="2"/>
+          <text x="70" y="324" font-family="Courier Prime, monospace" font-size="11" fill="#1b2a20" text-anchor="middle">BALL</text>
+          <!-- flag on the upper green -->
+          <line x1="560" y1="215" x2="560" y2="150" stroke="#1b2a20" stroke-width="2"/>
+          <path d="M560 150 L588 158 L560 166 Z" fill="#b03a2b"/>
+          <!-- flat GPS line (horizontal distance) -->
+          <line x1="70" y1="300" x2="560" y2="300" stroke="#a9772a" stroke-width="1.6" stroke-dasharray="5 5"/>
+          <text x="300" y="294" font-family="Courier Prime, monospace" font-size="12" fill="#1b2a20" text-anchor="middle">GPS (FLAT): 150 YD</text>
+          <!-- elevation rise -->
+          <line x1="560" y1="300" x2="560" y2="215" stroke="#21422f" stroke-width="1.6"/>
+          <line x1="555" y1="215" x2="565" y2="215" stroke="#21422f" stroke-width="1.6"/>
+          <line x1="555" y1="300" x2="565" y2="300" stroke="#21422f" stroke-width="1.6"/>
+          <text x="600" y="262" font-family="Courier Prime, monospace" font-size="11" fill="#21422f" text-anchor="middle">RISE</text>
+          <!-- plays-like line (hypotenuse to flag) -->
+          <line x1="70" y1="300" x2="560" y2="215" stroke="#b03a2b" stroke-width="2.4"/>
+          <rect x="232" y="232" width="176" height="24" fill="#1b2a20"/>
+          <text x="320" y="249" font-family="Courier Prime, monospace" font-size="12" font-weight="700" fill="#f2ebdb" text-anchor="middle">PLAYS LIKE: ~158 YD</text>
+          <!-- title -->
+          <text x="36" y="44" font-family="Fraunces, Georgia, serif" font-size="20" font-weight="600" fill="#1b2a20">Slope: uphill plays longer</text>
+          <text x="36" y="66" font-family="Courier Prime, monospace" font-size="11.5" fill="#21422f">A "plays-like" number adds the climb to the flat yardage.</text>
+        </svg>
+      </div><figcaption>How a slope / "plays-like" number works<span class="src">Uphill shots play longer than the flat GPS distance; slope features estimate the adjustment. Yardages illustrative. Slope must be off in many competitions.</span></figcaption></figure>
+
+      <h3>Match the watch to how you play</h3>
+      <table class="spec">
+        <thead>
+          <tr><th>If you are…</th><th>What you care about</th><th>Get</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Most golfers</td><td>Trustworthy numbers, best battery, zero fuss</td><td class="win"><strong>Garmin Approach S12</strong></td></tr>
+          <tr><td>A visual planner</td><td>Color hole map + slope "plays-like" distance</td><td><strong>Bushnell iON Elite</strong></td></tr>
+          <tr><td>Watching every dollar</td><td>Accurate front/middle/back as cheaply as possible</td><td><strong>TecTecTec ULT-G</strong></td></tr>
+          <tr><td>Set on Garmin, on a budget</td><td>Cheapest way in, shorter rounds, big discount</td><td><strong>Garmin Approach S10</strong></td></tr>
+          <tr><td>Trying to get better</td><td>Auto shot tracking + 100+ stats, no subscription</td><td><strong>Shot Scope X5/V5</strong></td></tr>
+        </tbody>
+      </table>
+
       <h2><span class="kick">Our Picks</span>The best golf GPS watch under $200</h2>
 
       <p>These picks are based on reputation, independent reviews and consensus among golfers, not on prices or specs we invented. Prices in this category move constantly with sales and retailer, so we use approximate ranges and send every link to the current live price. Confirm the price, battery rating and exact features for the specific model before you buy, since they vary.</p>
@@ -304,6 +412,86 @@
 
       </div>
 
+      <h3>The five picks, side by side</h3>
+      <p>Same facts as the write-ups above, lined up so you can scan them. Screen and slope decide the "feel" of the watch; battery and price decide the trade-offs. Confirm the live price for any model before buying.</p>
+      <table class="spec">
+        <thead>
+          <tr><th>Model</th><th>Best for</th><th>Screen</th><th>Slope</th><th>No sub?</th><th>Battery</th><th>Price tier</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Garmin S12</strong></td><td class="win">Best overall, simplest</td><td>Mono, buttons</td>
+            <td><span class="rate lo">No</span></td><td><span class="rate hi">Core free</span></td>
+            <td class="win"><span class="rate hi">~5 rounds</span></td><td>~$200</td>
+          </tr>
+          <tr>
+            <td><strong>Bushnell iON Elite</strong></td><td>Most features</td><td>Color touch</td>
+            <td class="win"><span class="rate hi">Yes</span></td><td><span class="rate hi">Yes</span></td>
+            <td><span class="rate mid">~2+ rounds</span></td><td>~$200</td>
+          </tr>
+          <tr>
+            <td><strong>TecTecTec ULT-G</strong></td><td>Best value</td><td>Mono</td>
+            <td><span class="rate lo">No</span></td><td><span class="rate hi">Yes</span></td>
+            <td><span class="rate mid">~2–2.5</span></td><td class="win">~$100–130</td>
+          </tr>
+          <tr>
+            <td><strong>Garmin S10</strong></td><td>Cheapest Garmin</td><td>Mono, small</td>
+            <td><span class="rate lo">No</span></td><td><span class="rate hi">Core free</span></td>
+            <td><span class="rate lo">~1.5</span></td><td>Below S12 (on sale)</td>
+          </tr>
+          <tr>
+            <td><strong>Shot Scope X5/V5</strong></td><td>GPS + shot tracking</td><td>Color touch</td>
+            <td><span class="rate lo">No</span></td><td><span class="rate hi">Yes</span></td>
+            <td><span class="rate mid">Color, charge often</span></td><td>~$299 (over budget)</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <figure class="fig"><div class="frame">
+        <svg viewBox="0 0 640 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Horizontal bar chart comparing approximate rounds of golf per charge: Garmin Approach S12 about five rounds, Bushnell iON Elite about two-plus, TecTecTec ULT-G about two to two and a half, Garmin Approach S10 about one and a half">
+          <rect x="0" y="0" width="640" height="300" fill="#ece2cd"/>
+          <text x="28" y="36" font-family="Fraunces, Georgia, serif" font-size="20" font-weight="600" fill="#1b2a20">Battery: approximate rounds per charge</text>
+          <!-- gridlines at 1..5 rounds; scale: x0=210, 80px per round -->
+          <g font-family="Courier Prime, monospace" font-size="10" fill="#21422f" opacity="0.55">
+            <line x1="210" y1="64" x2="210" y2="262" stroke="#1b2a20" stroke-width="1" opacity="0.4"/>
+            <line x1="290" y1="64" x2="290" y2="262" stroke="#1b2a20" stroke-width="0.6" opacity="0.25"/><text x="290" y="278" text-anchor="middle">1</text>
+            <line x1="370" y1="64" x2="370" y2="262" stroke="#1b2a20" stroke-width="0.6" opacity="0.25"/><text x="370" y="278" text-anchor="middle">2</text>
+            <line x1="450" y1="64" x2="450" y2="262" stroke="#1b2a20" stroke-width="0.6" opacity="0.25"/><text x="450" y="278" text-anchor="middle">3</text>
+            <line x1="530" y1="64" x2="530" y2="262" stroke="#1b2a20" stroke-width="0.6" opacity="0.25"/><text x="530" y="278" text-anchor="middle">4</text>
+            <line x1="610" y1="64" x2="610" y2="262" stroke="#1b2a20" stroke-width="0.6" opacity="0.25"/><text x="610" y="278" text-anchor="middle">5</text>
+          </g>
+          <!-- S12: ~5 rounds (30h) -> 210 + 5*80 = 610 -->
+          <text x="200" y="92" font-family="Courier Prime, monospace" font-size="12" fill="#1b2a20" text-anchor="end">Garmin S12</text>
+          <rect x="210" y="78" width="400" height="22" fill="#21422f"/>
+          <text x="602" y="94" font-family="Courier Prime, monospace" font-size="11" fill="#f2ebdb" text-anchor="end">~5 (30h)</text>
+          <!-- ULT-G: ~2.25 rounds -> 210 + 2.25*80 = 390 -->
+          <text x="200" y="138" font-family="Courier Prime, monospace" font-size="12" fill="#1b2a20" text-anchor="end">TecTecTec ULT-G</text>
+          <rect x="210" y="124" width="180" height="22" fill="#a9772a"/>
+          <text x="398" y="140" font-family="Courier Prime, monospace" font-size="11" fill="#1b2a20">~2–2.5</text>
+          <!-- iON Elite: ~2+ rounds -> 210 + 2*80 = 370 -->
+          <text x="200" y="184" font-family="Courier Prime, monospace" font-size="12" fill="#1b2a20" text-anchor="end">Bushnell iON Elite</text>
+          <rect x="210" y="170" width="160" height="22" fill="#a9772a"/>
+          <text x="378" y="186" font-family="Courier Prime, monospace" font-size="11" fill="#1b2a20">~2+</text>
+          <!-- S10: ~1.5 rounds (10h) -> 210 + 1.5*80 = 330 -->
+          <text x="200" y="230" font-family="Courier Prime, monospace" font-size="12" fill="#1b2a20" text-anchor="end">Garmin S10</text>
+          <rect x="210" y="216" width="120" height="22" fill="#b03a2b"/>
+          <text x="338" y="232" font-family="Courier Prime, monospace" font-size="11" fill="#1b2a20">~1.5 (10h)</text>
+        </svg>
+      </div><figcaption>Rounds per charge, side by side<span class="src">Built from the battery figures stated in this guide (GPS-mode hours and rounds). Color screens drain faster than monochrome.</span></figcaption></figure>
+
+      <h2><span class="kick">Avoid These</span>Common mistakes buyers make</h2>
+
+      <p>Most regret in this category comes from a handful of avoidable errors, not from picking the "wrong" brand. Watch for these before you buy and on your first few rounds.</p>
+
+      <ul>
+        <li><strong>Chasing the course count.</strong> A watch with 42,000 courses isn't meaningfully better than one with 36,000 for a US golfer. Both already have your home course. Let battery, screen and slope drive the decision instead.</li>
+        <li><strong>Treating the center number like a pin number.</strong> The watch reads to green center, not the flag. On a deep green that's 10 to 15 yards off the actual pin. Use front and back to judge how much green you have, then commit to the middle as your default.</li>
+        <li><strong>Buying the S10 to save a few dollars.</strong> The S10 gets roughly 10 hours of GPS battery versus the S12's 30, on a smaller, harder-to-read screen. Only worth it when it's clearly cheaper, not a few dollars under the S12.</li>
+        <li><strong>Forgetting to sync.</strong> GPS accuracy depends on the course map being current. If a course was renovated and the map is stale, yardages drift. Open the companion app every so often to pull updates. It's free.</li>
+        <li><strong>Overpaying for slope you can't use.</strong> Slope is great for casual rounds, but in many competitions it must be turned off. If you mostly play tournaments, you may not need to pay for it at all.</li>
+        <li><strong>Buying for subscription extras you won't open.</strong> Garmin's core yardages are free forever. Only factor in the ~$99/year membership if green contours and aerial imagery are genuinely the reason you're buying.</li>
+      </ul>
+
       <h2>The last word</h2>
 
       <p>For the great majority of golfers, the decision is simpler than the spec sheets make it look. If you want the safest, most-recommended buy, get the <strong>Garmin Approach S12</strong>: accurate, simple, the best battery in the class, and complete without any subscription. If you'd rather see a color map of the hole and get a slope-adjusted "plays-like" number, the <strong>Bushnell iON Elite</strong> gives you the most on-watch information at the same price, with no fees ever. And if you're watching every dollar, the <strong>TecTecTec ULT-G</strong> proves you don't have to spend much to get yardages you can trust.</p>
@@ -329,7 +517,18 @@
         <details><summary>Is a golf GPS watch legal in tournament play?</summary><p>Generally yes for distance-only use, since distance-measuring devices are permitted under most competition rules and local rules. The catch is slope ("plays-like" elevation adjustment): in many competitions slope features must be turned off. Check the specific event's rules, and if your watch has slope, make sure you can disable it.</p></details>
 
         <details><summary>Is it waterproof or rain-proof?</summary><p>Water-resistance ratings vary by model, so don't assume. Many are rated to handle rain and splashes (some to an IPX7-style standard), but that isn't the same as being swim-proof. Check the rating for the exact model you're considering rather than assuming all are equally waterproof.</p></details>
+
+        <details><summary>Monochrome or color screen — which should I get?</summary><p>It comes down to one trade-off. A monochrome, button-operated screen like the Garmin S12's is brilliantly readable in bright sun and sips battery, getting roughly five rounds per charge. A color touchscreen like the Bushnell iON Elite's shows you a graphic of the hole and supports slope, but drains faster, so expect a couple of rounds. If you want maximum battery and zero fuss, go mono. If you want to see the hole and tap to plan, go color.</p></details>
+
+        <details><summary>Does it track my shots and stats like strokes gained?</summary><p>Not at this price, with one exception. The watches under $200 focus on yardages and basic scoring, not automatic shot tracking. If you actually want club distances, greens in regulation and strokes-gained data, the Shot Scope X5 (around $299) pairs GPS with 16 club tags that auto-log every shot and feed 100+ stats, all subscription-free. It's just over our budget, but it's the value leader if improvement is the goal.</p></details>
+
+        <details><summary>Can I fine-tune the number when the pin is tucked?</summary><p>On most models, yes. The watch defaults to green center, but a Green View lets you drag the pin to where it's actually cut that day, and the yardage updates to match. It's a manual estimate by eye, not a laser read, but it's handy when the flag is clearly front or back on a deep green. The Garmin S12, for example, offers manual pin placement.</p></details>
       </div>
+      <div class="related"><div class="rh">Keep reading</div><div class="rgrid">
+        <a href="./best-golf-rangefinder-under-100.html"><span class="rk">Rangefinders</span><h4>Best Golf Rangefinder Under $100</h4></a>
+        <a href="./golf-rangefinder-slope-vs-non-slope.html"><span class="rk">Buying Guide</span><h4>Rangefinder Slope vs Non-Slope</h4></a>
+        <a href="./best-golf-rangefinder-for-shaky-hands.html"><span class="rk">Accessibility</span><h4>Best Rangefinder for Shaky Hands</h4></a>
+      </div></div>
     </div>
   </article>
   <footer>
