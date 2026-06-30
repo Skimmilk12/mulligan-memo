@@ -185,3 +185,21 @@ figure.fig figcaption .src { display: block; margin-top: 4px; text-transform: no
 .toc a:hover { color: var(--flag); border-color: var(--flag); }
 .copy h2[id] { scroll-margin-top: 18px; }
 @media (max-width: 540px) { .toc ul { columns: 1; } }
+
+
+/* mm hub + breadcrumb */
+.hub-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:2px; background:var(--line-soft); border:1px solid var(--line-soft); margin:30px 0 10px; }
+.hub-card { background:var(--paper); padding:24px 22px 26px; display:flex; flex-direction:column; text-decoration:none; color:inherit; transition:background .25s ease; min-height:200px; }
+.hub-card:hover { background:var(--paper-2); }
+.hub-card .ct { font-family:var(--mono); font-size:11px; text-transform:uppercase; letter-spacing:.12em; color:var(--brass); margin-bottom:10px; }
+.hub-card h3 { font-family:var(--display); font-weight:600; font-size:21px; line-height:1.14; margin:0 0 10px; }
+.hub-card p { font-size:15.5px; line-height:1.5; opacity:.82; margin:0; }
+.hubnav { font-family:var(--mono); font-size:12px; text-transform:uppercase; letter-spacing:.08em; margin:18px 0 0; }
+.hubnav a { color:var(--pine); text-decoration:none; border-bottom:1px solid var(--brass); }
+.hubnav a:hover { color:var(--flag); }
+.crumbs { font-family:var(--mono); font-size:12px; text-transform:uppercase; letter-spacing:.1em; color:var(--pine); margin-bottom:18px; }
+.crumbs a { color:var(--pine); text-decoration:none; }
+.crumbs a:hover { color:var(--flag); text-decoration:underline; }
+.crumbs .sep { color:var(--brass); margin:0 8px; }
+@media (max-width:860px){ .hub-grid{ grid-template-columns:1fr 1fr; } }
+@media (max-width:540px){ .hub-grid{ grid-template-columns:1fr; } }
