@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://skimmilk12.github.io/mulligan-memo/sitemap.xml
+Sitemap: https://mulliganmemo.com/sitemap.xml
