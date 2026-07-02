@@ -8,269 +8,18 @@
   <meta name="p:domain_verify" content="07e415f0e59eb6cc59d578a5b8f4648a" />
   <link rel="alternate" type="application/rss+xml" title="Mulligan Memo" href="/feed.xml" />
   <title>Mulligan Memo — Honest Golf Gear Reviews &amp; Buying Guides</title>
-  <meta name="description" content="Mulligan Memo — golf, gear, and the long game. Field reports, honest equipment takes, and practice that actually lowers scores." />
+  <meta name="description" content="Honest golf gear reviews and buying guides from a five-columnist desk — every trade-off named, nothing sponsored, and every update dated." />
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,900&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=Newsreader:ital,opsz,wght@0,6..72,300..800;1,6..72,300..800&family=Courier+Prime:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/article.css" />
 
-  <style>
-    :root {
-      --paper:     #f2ebdb;
-      --paper-2:   #ece2cd;
-      --paper-3:   #e6dabf;
-      --ink:       #1b2a20;
-      --pine:      #21422f;
-      --pine-deep: #142319;
-      --brass:     #a9772a;
-      --flag:      #b03a2b;
-      --line:      rgba(27, 42, 32, 0.22);
-      --line-soft: rgba(27, 42, 32, 0.12);
-
-      --display: "Fraunces", Georgia, serif;
-      --body:    "Newsreader", Georgia, serif;
-      --mono:    "Courier Prime", "Courier New", monospace;
-    }
-
-    * { box-sizing: border-box; }
-
-    html { scroll-behavior: smooth; }
-
-    body {
-      margin: 0;
-      background-color: var(--paper);
-      background-image:
-        radial-gradient(120% 80% at 50% -10%, rgba(33,66,47,0.10), transparent 60%),
-        radial-gradient(100% 60% at 100% 100%, rgba(169,119,42,0.08), transparent 55%);
-      color: var(--ink);
-      font-family: var(--body);
-      font-size: 18px;
-      line-height: 1.65;
-      -webkit-font-smoothing: antialiased;
-      overflow-x: hidden;
-    }
-
-    /* paper grain overlay */
-    body::after {
-      content: "";
-      position: fixed;
-      inset: 0;
-      pointer-events: none;
-      z-index: 9999;
-      opacity: 0.05;
-      mix-blend-mode: multiply;
-      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
-    }
-
-    .wrap { max-width: 1120px; margin: 0 auto; padding: 0 28px; }
-
-    a { color: inherit; }
-
-    /* ---------- MASTHEAD ---------- */
-    .topbar {
-      display: flex; justify-content: space-between; align-items: center;
-      padding: 16px 0; font-family: var(--mono); font-size: 12.5px;
-      letter-spacing: 0.04em; text-transform: uppercase; color: var(--pine);
-      border-bottom: 1px solid var(--line-soft);
-    }
-    .topbar .dot { color: var(--flag); }
-
-    .masthead { text-align: center; padding: 40px 0 22px; position: relative; }
-    .masthead .kicker {
-      font-family: var(--mono); font-size: 12px; letter-spacing: 0.45em;
-      text-transform: uppercase; color: var(--brass); margin-bottom: 14px;
-    }
-    .wordmark {
-      font-family: var(--display); font-weight: 900;
-      font-size: clamp(44px, 9vw, 104px); line-height: 0.92;
-      letter-spacing: -0.02em; margin: 0; color: var(--pine-deep);
-    }
-    .wordmark .amp { color: var(--flag); }
-    .tagline {
-      font-family: var(--body); font-style: italic; font-size: clamp(16px, 2.2vw, 21px);
-      color: var(--ink); opacity: 0.8; margin: 14px 0 0;
-    }
-    .rule-double { border: 0; border-top: 3px double var(--line); margin: 22px 0 0; }
-    .periodical {
-      display: flex; justify-content: center; gap: 22px; flex-wrap: wrap;
-      font-family: var(--mono); font-size: 11.5px; letter-spacing: 0.18em;
-      text-transform: uppercase; color: var(--pine); padding: 12px 0;
-      border-bottom: 1px solid var(--line);
-    }
-
-    /* nav */
-    nav.cats {
-      display: flex; justify-content: center; gap: 6px 30px; flex-wrap: wrap;
-      padding: 16px 0; font-family: var(--mono); font-size: 13px;
-      text-transform: uppercase; letter-spacing: 0.1em;
-      border-bottom: 1px solid var(--line); margin-bottom: 46px;
-    }
-    nav.cats a { text-decoration: none; color: var(--ink); position: relative; padding: 4px 0; }
-    nav.cats a::after {
-      content: ""; position: absolute; left: 0; bottom: 0; height: 2px; width: 0;
-      background: var(--flag); transition: width 0.28s ease;
-    }
-    nav.cats a:hover::after { width: 100%; }
-
-    /* ---------- HERO ---------- */
-    .hero { display: grid; grid-template-columns: 1.35fr 1fr; gap: 54px; align-items: center; margin-bottom: 30px; }
-    .lead .tag {
-      display: inline-flex; align-items: center; gap: 8px;
-      font-family: var(--mono); font-size: 12px; text-transform: uppercase;
-      letter-spacing: 0.14em; color: var(--flag); margin-bottom: 18px;
-    }
-    .lead .tag::before { content: "●"; font-size: 9px; }
-    .lead h2 {
-      font-family: var(--display); font-weight: 600;
-      font-size: clamp(34px, 5vw, 60px); line-height: 1.02;
-      letter-spacing: -0.015em; margin: 0 0 18px;
-    }
-    .lead p.dek { font-size: 20px; line-height: 1.55; max-width: 46ch; margin: 0 0 24px; opacity: 0.86; }
-    .byline { font-family: var(--mono); font-size: 12.5px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--pine); margin-bottom: 26px; }
-    .byline b { color: var(--ink); }
-    .read-link {
-      font-family: var(--mono); font-size: 13px; text-transform: uppercase; letter-spacing: 0.12em;
-      text-decoration: none; color: var(--pine-deep); border-bottom: 2px solid var(--brass);
-      padding-bottom: 3px; transition: color 0.2s, border-color 0.2s;
-    }
-    .read-link:hover { color: var(--flag); border-color: var(--flag); }
-
-    /* the signature MEMO card */
-    .memo {
-      position: relative; background: #fbf7ec; color: var(--ink);
-      padding: 30px 30px 34px; transform: rotate(1.6deg);
-      box-shadow: 0 18px 40px -22px rgba(20,35,25,0.55), 0 2px 0 rgba(0,0,0,0.04);
-      border: 1px solid rgba(27,42,32,0.10);
-    }
-    .memo::before { /* tape */
-      content: ""; position: absolute; top: -12px; left: 50%; transform: translateX(-50%) rotate(-3deg);
-      width: 110px; height: 26px; background: rgba(169,119,42,0.28);
-      box-shadow: inset 0 0 0 1px rgba(169,119,42,0.25);
-    }
-    .memo::after { /* coffee ring */
-      content: ""; position: absolute; right: 22px; bottom: 16px; width: 60px; height: 60px;
-      border-radius: 50%; border: 7px solid rgba(122,80,30,0.13); opacity: 0.8;
-    }
-    .memo .memo-hd {
-      font-family: var(--mono); font-weight: 700; font-size: 13px; letter-spacing: 0.22em;
-      text-transform: uppercase; text-align: center; padding-bottom: 10px;
-      border-bottom: 2px solid var(--ink); margin-bottom: 16px;
-    }
-    .memo dl { font-family: var(--mono); font-size: 13.5px; line-height: 1.9; margin: 0 0 16px; }
-    .memo dl .row { display: flex; gap: 10px; }
-    .memo dl dt { color: var(--flag); min-width: 52px; }
-    .memo dl dd { margin: 0; }
-    .memo .note { font-family: var(--body); font-size: 17px; line-height: 1.55; font-style: italic; }
-    .memo .sign { font-family: var(--mono); font-size: 12px; text-transform: uppercase; letter-spacing: 0.1em; margin-top: 16px; color: var(--pine); }
-
-    /* ---------- SECTION LABEL ---------- */
-    .sec-label {
-      display: flex; align-items: center; gap: 16px; margin: 64px 0 30px;
-      font-family: var(--mono); font-size: 13px; text-transform: uppercase; letter-spacing: 0.22em; color: var(--pine);
-    }
-    .sec-label::after { content: ""; flex: 1; height: 1px; background: var(--line); }
-    .sec-label .n { color: var(--flag); }
-
-    /* ---------- DISPATCH GRID ---------- */
-    .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px; background: var(--line-soft); border: 1px solid var(--line-soft); }
-    .card {
-      background: var(--paper); padding: 28px 26px 30px; display: flex; flex-direction: column;
-      transition: background 0.3s ease, transform 0.3s ease; text-decoration: none; color: inherit; min-height: 250px;
-    }
-    .card:hover { background: var(--paper-2); }
-    .card .ct { font-family: var(--mono); font-size: 11.5px; text-transform: uppercase; letter-spacing: 0.13em; color: var(--brass); margin-bottom: 14px; }
-    .card h3 { font-family: var(--display); font-weight: 600; font-size: 25px; line-height: 1.12; letter-spacing: -0.01em; margin: 0 0 12px; }
-    .card p { font-size: 16.5px; line-height: 1.5; opacity: 0.82; margin: 0 0 18px; flex: 1; }
-    .card .meta { font-family: var(--mono); font-size: 11.5px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--pine); display: flex; gap: 14px; }
-    .card .meta .arrow { margin-left: auto; color: var(--flag); transition: transform 0.25s ease; }
-    .card:hover .meta .arrow { transform: translateX(5px); }
-
-    /* ---------- SCORECARD STRIP ---------- */
-    .scorecard { margin: 70px 0; border: 2px solid var(--ink); }
-    .scorecard .sc-hd {
-      display: grid; grid-template-columns: 1.4fr repeat(5, 1fr);
-      font-family: var(--mono); font-size: 12px; text-transform: uppercase; letter-spacing: 0.08em;
-      background: var(--pine); color: var(--paper);
-    }
-    .scorecard .sc-hd div { padding: 12px 16px; border-right: 1px solid rgba(242,235,219,0.18); }
-    .scorecard .sc-hd div:last-child { border-right: 0; }
-    .scorecard .sc-row { display: grid; grid-template-columns: 1.4fr repeat(5, 1fr); }
-    .scorecard .sc-row div { padding: 16px; border-right: 1px solid var(--line-soft); border-top: 1px solid var(--line-soft); }
-    .scorecard .sc-row div:last-child { border-right: 0; }
-    .scorecard .sc-row .lab { font-family: var(--mono); font-size: 12px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--pine); }
-    .scorecard .sc-row a { font-family: var(--display); font-size: 18px; text-decoration: none; color: var(--ink); transition: color 0.2s; display: block; }
-    .scorecard .sc-row a:hover { color: var(--flag); }
-    .scorecard .sc-row a small { display: block; font-family: var(--mono); font-size: 10.5px; letter-spacing: 0.05em; color: var(--brass); margin-top: 4px; text-transform: uppercase; }
-
-    /* ---------- NEWSLETTER ---------- */
-    .signup {
-      margin: 70px 0; background: var(--pine-deep); color: var(--paper);
-      padding: 54px 44px; text-align: center; position: relative; overflow: hidden;
-    }
-    .signup::before {
-      content: ""; position: absolute; inset: 0; opacity: 0.16; pointer-events: none;
-      background-image: repeating-linear-gradient(135deg, transparent 0 22px, rgba(242,235,219,0.4) 22px 23px);
-    }
-    .signup .inner { position: relative; }
-    .signup .ek { font-family: var(--mono); font-size: 12px; letter-spacing: 0.32em; text-transform: uppercase; color: var(--brass); }
-    .signup h2 { font-family: var(--display); font-weight: 600; font-size: clamp(28px, 4vw, 42px); margin: 14px 0 10px; }
-    .signup p { opacity: 0.82; max-width: 48ch; margin: 0 auto 26px; }
-    .signup form { display: flex; gap: 10px; max-width: 460px; margin: 0 auto; flex-wrap: wrap; justify-content: center; }
-    .signup input {
-      flex: 1; min-width: 220px; padding: 14px 18px; border: 1px solid rgba(242,235,219,0.4);
-      background: rgba(242,235,219,0.06); color: var(--paper); font-family: var(--mono); font-size: 14px;
-    }
-    .signup input::placeholder { color: rgba(242,235,219,0.5); }
-    .signup button {
-      padding: 14px 26px; border: 0; background: var(--brass); color: var(--pine-deep);
-      font-family: var(--mono); font-weight: 700; font-size: 13px; text-transform: uppercase;
-      letter-spacing: 0.1em; cursor: pointer; transition: background 0.2s, transform 0.1s;
-    }
-    .signup button:hover { background: #c08f3a; }
-    .signup button:active { transform: translateY(1px); }
-    .signup .msg { font-family: var(--mono); font-size: 13px; color: var(--brass); margin-top: 18px; min-height: 18px; }
-
-    /* ---------- FOOTER ---------- */
-    footer { border-top: 3px double var(--line); padding: 40px 0 60px; margin-top: 20px; }
-    footer .frow { display: flex; justify-content: space-between; gap: 24px; flex-wrap: wrap; align-items: baseline; }
-    footer .fmark { font-family: var(--display); font-weight: 900; font-size: 24px; color: var(--pine-deep); letter-spacing: -0.01em; }
-    footer .flinks { font-family: var(--mono); font-size: 12px; text-transform: uppercase; letter-spacing: 0.1em; display: flex; gap: 22px; flex-wrap: wrap; }
-    footer .flinks a { text-decoration: none; color: var(--pine); }
-    footer .flinks a:hover { color: var(--flag); }
-    footer .fine { font-family: var(--mono); font-size: 11px; color: var(--pine); opacity: 0.7; margin-top: 22px; letter-spacing: 0.04em; }
-    footer .fine.disclosure { margin-top: 10px; max-width: 74ch; line-height: 1.6; }
-
-    /* ---------- ANIMATION ---------- */
-    @keyframes rise { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: translateY(0); } }
-    .reveal { opacity: 0; animation: rise 0.8s cubic-bezier(0.2, 0.7, 0.2, 1) forwards; }
-    .d1 { animation-delay: 0.05s; } .d2 { animation-delay: 0.18s; } .d3 { animation-delay: 0.32s; }
-    .d4 { animation-delay: 0.46s; } .d5 { animation-delay: 0.6s; }
-    .memo.reveal { animation-name: rise; }
-
-    @media (prefers-reduced-motion: reduce) {
-      .reveal { animation: none; opacity: 1; }
-      html { scroll-behavior: auto; }
-    }
-
-    /* ---------- RESPONSIVE ---------- */
-    @media (max-width: 860px) {
-      .hero { grid-template-columns: 1fr; gap: 44px; }
-      .memo { transform: rotate(0.8deg); max-width: 440px; margin: 0 auto; }
-      .grid { grid-template-columns: 1fr 1fr; }
-      .scorecard .sc-hd, .scorecard .sc-row { grid-template-columns: 1fr 1fr; }
-      .scorecard .sc-hd div:nth-child(n+3), .scorecard .sc-row div:nth-child(n+3) { display: none; }
-    }
-    @media (max-width: 540px) {
-      body { font-size: 17px; }
-      .grid { grid-template-columns: 1fr; }
-      .periodical { gap: 10px 16px; }
-    }
-  </style>
   <!-- mm-seo:start -->
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Mulligan Memo" />
   <meta property="og:title" content="Mulligan Memo" />
-  <meta property="og:description" content="Mulligan Memo — golf, gear, and the long game. Field reports, honest equipment takes, and practice that actually lowers scores." />
+  <meta property="og:description" content="Honest golf gear reviews and buying guides from a five-columnist desk — every trade-off named, nothing sponsored, and every update dated." />
   <meta property="og:url" content="https://mulliganmemo.com/" />
   <meta property="og:image" content="https://mulliganmemo.com/og-cover.png" />
   <meta property="og:image:width" content="1200" />
@@ -285,7 +34,7 @@
       "@type": "WebSite",
       "name": "Mulligan Memo",
       "url": "https://mulliganmemo.com/",
-      "description": "Mulligan Memo — golf, gear, and the long game. Field reports, honest equipment takes, and practice that actually lowers scores."
+      "description": "Honest golf gear reviews and buying guides from a five-columnist desk — every trade-off named, nothing sponsored, and every update dated."
     },
     {
       "@type": "Organization",
@@ -307,452 +56,469 @@
 </head>
 
 <body>
-  <div class="wrap">
 
-    <!-- TOP BAR -->
-    <div class="topbar">
-      <span>Sunday Edition</span>
-      <span>Golf <span class="dot">●</span> Gear <span class="dot">●</span> The Long Game</span>
-      <span id="today">—</span>
-    </div>
-
-    <!-- MASTHEAD -->
-    <header class="masthead reveal d1">
-      <div class="kicker">Est. 2026 — A Weekend Golf Dispatch</div>
-      <h1 class="wordmark">Mulligan<span class="amp"> · </span>Memo</h1>
-      <p class="tagline">Notes from the course — golf, gear, and the long game.</p>
-      <hr class="rule-double" />
-    </header>
-
-    <div class="periodical reveal d1">
-      <span>Issue No. 01</span>
-      <span>The Honest Golf Report</span>
-      <span>Play it as it lies</span>
-    </div>
-
-    <nav class="cats reveal d2">
-      <a href="beginners.html">Beginners</a>
-      <a href="clubs.html">Clubs</a>
-      <a href="tech.html">Tech</a>
-      <a href="accessories.html">Accessories</a>
-      <a href="golf-balls.html">Balls</a>
-      <a href="glossary.html">Glossary</a>
-      <a href="distance-chart.html">Distances</a>
-      <a href="author.html">Writers</a>
-      <a href="about.html">About</a>
-    </nav>
-
-    <div class="periodical reveal d2">
-      <p>Mulligan Memo is a reader-first golf gear desk — honest, gear-focused buying guides built on real research, with no fabricated test data and no paid placements. We only point you toward equipment we'd actually carry in our own bag.</p>
-    </div>
-
-    <!-- START HERE -->
-    <div class="sec-label">★ Start Here</div>
-    <section class="grid">
-      <a class="card reveal d2" href="posts/how-many-clubs-does-a-beginner-need.html">
-        <div class="ct">Start Here — Beginners</div>
-        <h3>How Many Clubs Does a Beginner Need?</h3>
-        <p>New to the game? Start here. The right starter bag is smaller than you think — and a lot cheaper.</p>
-        <div class="meta"><span>Guide</span><span>10 min</span><span class="arrow">→</span></div>
-      </a>
-      <a class="card reveal d3" href="posts/complete-golf-set-vs-buying-clubs-individually.html">
-        <div class="ct">Start Here — Buying</div>
-        <h3>Complete Set vs Individual Clubs</h3>
-        <p>The first big decision every new golfer faces: one ready-made box, or build your bag piece by piece?</p>
-        <div class="meta"><span>Guide</span><span>12 min</span><span class="arrow">→</span></div>
-      </a>
-      <a class="card reveal d4" href="posts/best-beginner-golf-set-under-500.html">
-        <div class="ct">Start Here — Sets</div>
-        <h3>Best Beginner Sets Under $500</h3>
-        <p>Want one box that covers it all? The complete sets actually worth your money, ranked and sized.</p>
-        <div class="meta"><span>Buying Guide</span><span>12 min</span><span class="arrow">→</span></div>
-      </a>
-    </section>
-
-    <!-- HERO -->
-    <section class="hero">
-      <div class="lead reveal d2">
-        <span class="tag">Buying Guide — Golf Balls</span>
-        <h2>The Best Golf Ball for Your Game: A 2026 Buyer's Guide</h2>
-        <p class="dek">It's the only piece of equipment you use on every single shot — and the most over-thought purchase in golf. Here's how to match the ball to your swing, skip the marketing, and stop overpaying.</p>
-        <div class="byline">By <b><a class="inline" href="author.html#hank-sullivan">Hank Sullivan</a></b> — 12 min read</div>
-        <a class="read-link" href="posts/golf-ball-buyers-guide.html">Read the full guide →</a>
-      </div>
-
-      <aside class="memo reveal d3" aria-label="The Mulligan Memo">
-        <div class="memo-hd">★ Inter-Office Memo ★</div>
-        <dl>
-          <div class="row"><dt>To:</dt><dd>Every weekend golfer</dd></div>
-          <div class="row"><dt>From:</dt><dd>The first tee</dd></div>
-          <div class="row"><dt>Re:</dt><dd>Forgiveness</dd></div>
-        </dl>
-        <p class="note">"The best shot you'll hit all day is the one you let go of. Take the mulligan. Then take notes."</p>
-        <div class="sign">— Filed under: Play it as it lies</div>
-      </aside>
-    </section>
-
-    <!-- DISPATCHES -->
-    <div class="sec-label" id="beginners"><span class="n">§</span> Beginners &amp; First Clubs</div>
-    <section class="grid">
-      <a class="card reveal d2" href="posts/how-many-clubs-does-a-beginner-need.html">
-        <div class="ct">Beginners — Guide</div>
-        <h3>How Many Clubs Does a Beginner Need?</h3>
-        <p>Forget all 14. The ideal 7–10 club starter bag, which clubs to skip at first, and a budget pick for every slot.</p>
-        <div class="meta"><span>Guide</span><span>10 min</span><span class="arrow">→</span></div>
-      </a>
-      <a class="card reveal d3" href="posts/complete-golf-set-vs-buying-clubs-individually.html">
-        <div class="ct">Beginners — Guide</div>
-        <h3>Complete Set vs Individual Clubs</h3>
-        <p>Convenience vs customization, new vs used, and the smart-money path for your very first bag.</p>
-        <div class="meta"><span>Guide</span><span>12 min</span><span class="arrow">→</span></div>
-      </a>
-      <a class="card reveal d4" href="posts/best-beginner-golf-set-under-500.html">
-        <div class="ct">Sets — Buying Guide</div>
-        <h3>Best Beginner Sets Under $500</h3>
-        <p>The complete sets actually worth your money — ranked, with sizing for tall, senior, and women golfers.</p>
-        <div class="meta"><span>Buying Guide</span><span>12 min</span><span class="arrow">→</span></div>
-      </a>
-      <a class="card reveal d2" href="posts/callaway-strata-complete-set-review.html">
-        <div class="ct">Sets — Review</div>
-        <h3>Callaway Strata Set Review</h3>
-        <p>The best-selling beginner set, reviewed honestly — the missing sand wedge, the weak putter, and who should buy it.</p>
-        <div class="meta"><span>Review</span><span>12 min</span><span class="arrow">→</span></div>
-      </a>
-      <a class="card reveal d3" href="posts/callaway-strata-vs-wilson-beginner-set.html">
-        <div class="ct">Sets — Comparison</div>
-        <h3>Strata vs Wilson Profile SGI</h3>
-        <p>The two top budget sets head-to-head — club quality, sizing options, and which one wins for you.</p>
-        <div class="meta"><span>Comparison</span><span>11 min</span><span class="arrow">→</span></div>
-      </a>
-      <a class="card reveal d4" href="posts/junior-golf-club-size-chart-by-height.html">
-        <div class="ct">Juniors — Sizing Guide</div>
-        <h3>Junior Club Size Chart by Height</h3>
-        <p>The exact club length for your child's height, plus which US Kids, Callaway XJ, or Cobra set to buy.</p>
-        <div class="meta"><span>Sizing Guide</span><span>12 min</span><span class="arrow">→</span></div>
-      </a>
-      <a class="card reveal d2" href="posts/driver-vs-3-wood-off-the-tee-high-handicapper.html">
-        <div class="ct">Strategy — Guide</div>
-        <h3>Driver vs 3-Wood Off the Tee</h3>
-        <p>Which club should a high-handicapper actually hit off the tee? An honest, data-backed answer.</p>
-        <div class="meta"><span>Guide</span><span>10 min</span><span class="arrow">→</span></div>
-      </a>
-          <a class="card reveal d2" href="posts/best-womens-complete-golf-set.html">
-        <div class="ct">Sets — Women's</div>
-        <h3>Best Women's Complete Golf Sets</h3>
-        <p>A complete starter bag built for women's swing speeds and heights — ranked, with tall and petite sizing.</p>
-        <div class="meta"><span>Buying Guide</span><span>12 min</span><span class="arrow">→</span></div>
-      </a>
-          <a class="card reveal d3" href="posts/best-left-handed-golf-club-sets.html">
-        <div class="ct">Sets — Left-Handed</div>
-        <h3>Best Left-Handed Golf Sets</h3>
-        <p>Lefties get fewer options and pay more — the complete left-handed sets actually worth buying.</p>
-        <div class="meta"><span>Buying Guide</span><span>11 min</span><span class="arrow">→</span></div>
-      </a>
-    </section>
-
-    <div class="sec-label" id="clubs"><span class="n">§</span> Drivers, Irons, Wedges &amp; Putters</div>
-    <section class="grid">
-      <a class="card reveal d2" href="posts/cleveland-launcher-xl2-driver-review.html">
-        <div class="ct">Drivers — Review</div>
-        <h3>Cleveland Launcher XL2 Driver Review</h3>
-        <p>The budget driver for slicers and slow swings — the Draw model, the right loft, and is it worth it under $300.</p>
-        <div class="meta"><span>Review</span><span>11 min</span><span class="arrow">→</span></div>
-      </a>
-      <a class="card reveal d3" href="posts/senior-flex-vs-regular-flex-shaft.html">
-        <div class="ct">Shafts — Guide</div>
-        <h3>Senior Flex vs Regular Flex</h3>
-        <p>Match your swing speed to the right shaft flex — including the tricky 80–90 mph overlap zone.</p>
-        <div class="meta"><span>Guide</span><span>10 min</span><span class="arrow">→</span></div>
-      </a>
-      <a class="card reveal d4" href="posts/best-used-irons-for-mid-handicappers.html">
-        <div class="ct">Irons — Buying Guide</div>
-        <h3>Best Used Irons for Mid-Handicappers</h3>
-        <p>Used irons are the smart-money upgrade. Which models to hunt under $400, and where to buy safely.</p>
-        <div class="meta"><span>Buying Guide</span><span>12 min</span><span class="arrow">→</span></div>
-      </a>
-      <a class="card reveal d2" href="posts/56-vs-60-degree-wedge-setup.html">
-        <div class="ct">Wedges — Setup Guide</div>
-        <h3>56 vs 60° Wedge: Do You Need Both?</h3>
-        <p>Why your pitching-wedge loft changes the whole math — and the exact wedges to buy, by handicap.</p>
-        <div class="meta"><span>Setup Guide</span><span>10 min</span><span class="arrow">→</span></div>
-      </a>
-      <a class="card reveal d3" href="posts/best-golf-wedges-under-100.html">
-        <div class="ct">Wedges — Buying Guide</div>
-        <h3>Best Golf Wedges Under $100</h3>
-        <p>Spin without the splurge — forgiving value wedges and the loft and bounce that fit your swing.</p>
-        <div class="meta"><span>Buying Guide</span><span>10 min</span><span class="arrow">→</span></div>
-      </a>
-      <a class="card reveal d4" href="posts/kirkland-ks1-putter-vs-scotty-cameron.html">
-        <div class="ct">Putters — Comparison</div>
-        <h3>Kirkland KS1 vs Scotty Cameron</h3>
-        <p>Is the viral $150 Costco putter really most of a $450 Scotty? An honest head-to-head.</p>
-        <div class="meta"><span>Comparison</span><span>11 min</span><span class="arrow">→</span></div>
-      </a>
-      <a class="card reveal d2" href="posts/best-golf-putters-under-100.html">
-        <div class="ct">Putters — Buying Guide</div>
-        <h3>Best Putters Under $100</h3>
-        <p>Mallets and blades that roll pure without the premium price — ranked for feel and forgiveness.</p>
-        <div class="meta"><span>Buying Guide</span><span>11 min</span><span class="arrow">→</span></div>
-      </a>
-          <a class="card reveal d3" href="posts/hybrid-vs-long-iron.html">
-        <div class="ct">Clubs — Comparison</div>
-        <h3>Hybrid vs Long Iron</h3>
-        <p>Should you swap hard-to-hit long irons for hybrids? A loft-by-loft replacement guide by handicap.</p>
-        <div class="meta"><span>Comparison</span><span>11 min</span><span class="arrow">→</span></div>
-      </a>
-          <a class="card reveal d4" href="posts/best-golf-hybrids-for-high-handicappers.html">
-        <div class="ct">Hybrids — Buying Guide</div>
-        <h3>Best Hybrids for High Handicappers</h3>
-        <p>The most forgiving, easy-launch hybrids — the right loft and the models that get the ball up fast.</p>
-        <div class="meta"><span>Buying Guide</span><span>10 min</span><span class="arrow">→</span></div>
-      </a>
-          <a class="card reveal d2" href="posts/best-golf-training-aids.html">
-        <div class="ct">Practice — Buying Guide</div>
-        <h3>Best Training Aids That Actually Work</h3>
-        <p>Which practice aids genuinely help and which are gimmicks — for alignment, tempo, impact, and putting.</p>
-        <div class="meta"><span>Buying Guide</span><span>10 min</span><span class="arrow">→</span></div>
-      </a>
-          <a class="card reveal d2" href="posts/best-driver-for-seniors.html">
-        <div class="ct">Drivers — Buying Guide</div>
-        <h3>Best Drivers for Seniors</h3>
-        <p>Lightweight, easy-launch, draw-biased drivers that add speed and forgiveness for slower swings.</p>
-        <div class="meta"><span>Buying Guide</span><span>11 min</span><span class="arrow">→</span></div>
-      </a>
-          <a class="card reveal d3" href="posts/best-golf-irons-for-seniors.html">
-        <div class="ct">Irons — Buying Guide</div>
-        <h3>Best Golf Irons for Seniors</h3>
-        <p>Light, forgiving, easy-to-launch irons (and the graphite-shaft case) built for senior golfers.</p>
-        <div class="meta"><span>Buying Guide</span><span>11 min</span><span class="arrow">→</span></div>
-      </a>
-          <a class="card reveal d4" href="posts/what-driver-loft-should-i-use.html">
-        <div class="ct">Drivers — Guide</div>
-        <h3>What Driver Loft Should You Use?</h3>
-        <p>More loft helps most amateurs carry it farther and straighter — how to pick the right driver loft for your speed.</p>
-        <div class="meta"><span>Guide</span><span>10 min</span><span class="arrow">→</span></div>
-      </a>
-          <a class="card reveal d2" href="posts/best-fairway-woods-for-high-handicappers.html">
-        <div class="ct">Fairway Woods — Buying Guide</div>
-        <h3>Best Fairway Woods for High Handicappers</h3>
-        <p>The biggest forgiveness upgrade isn't which 3-wood you buy — it's not buying a 3-wood at all. The 5- and 7-woods that actually get airborne.</p>
-        <div class="meta"><span>Buying Guide</span><span>12 min</span><span class="arrow">→</span></div>
-      </a>
-          <a class="card reveal d3" href="posts/graphite-vs-steel-shafts-for-irons.html">
-        <div class="ct">Shafts — Comparison</div>
-        <h3>Graphite vs Steel Iron Shafts</h3>
-        <p>The old "steel for good players, graphite for everyone else" rule is half wrong now — how to choose on hands, speed, and budget.</p>
-        <div class="meta"><span>Comparison</span><span>11 min</span><span class="arrow">→</span></div>
-      </a>
-          <a class="card reveal d4" href="posts/mallet-vs-blade-putter.html">
-        <div class="ct">Putters — Comparison</div>
-        <h3>Mallet vs Blade Putter</h3>
-        <p>Forget handicap and status — it's a stroke-path decision, and one free five-second test settles it before you spend a dime.</p>
-        <div class="meta"><span>Comparison</span><span>12 min</span><span class="arrow">→</span></div>
-      </a>
-    </section>
-
-    <div class="sec-label" id="tech"><span class="n">§</span> Rangefinders &amp; Tech</div>
-    <section class="grid">
-      <a class="card reveal d2" href="posts/best-golf-rangefinder-under-100.html">
-        <div class="ct">Tech — Buying Guide</div>
-        <h3>Best Rangefinders Under $100</h3>
-        <p>Are cheap lasers really as accurate as a Bushnell? We settle it and pick the budget winners.</p>
-        <div class="meta"><span>Buying Guide</span><span>11 min</span><span class="arrow">→</span></div>
-      </a>
-      <a class="card reveal d3" href="posts/best-golf-rangefinder-for-shaky-hands.html">
-        <div class="ct">Tech — Buying Guide</div>
-        <h3>Best Rangefinders for Shaky Hands</h3>
-        <p>Image-stabilized lasers that lock onto the pin despite tremors — Nikon vs Bushnell, plus steadying tricks.</p>
-        <div class="meta"><span>Buying Guide</span><span>11 min</span><span class="arrow">→</span></div>
-      </a>
-      <a class="card reveal d4" href="posts/golf-rangefinder-slope-vs-non-slope.html">
-        <div class="ct">Tech — Comparison</div>
-        <h3>Rangefinder: Slope vs Non-Slope</h3>
-        <p>Do you actually need slope? What it does, the tournament-legal rule, and which to buy.</p>
-        <div class="meta"><span>Comparison</span><span>10 min</span><span class="arrow">→</span></div>
-      </a>
-      <a class="card reveal d2" href="posts/best-golf-gps-watch-under-200.html">
-        <div class="ct">Tech — Buying Guide</div>
-        <h3>Best Golf GPS Watches Under $200</h3>
-        <p>GPS watch or laser? What $200 buys you, the subscription traps to dodge, and the best picks.</p>
-        <div class="meta"><span>Buying Guide</span><span>11 min</span><span class="arrow">→</span></div>
-      </a>
-          <a class="card reveal d3" href="posts/best-golf-launch-monitor-under-500.html">
-        <div class="ct">Tech — Buying Guide</div>
-        <h3>Best Launch Monitors Under $500</h3>
-        <p>At-home swing data without the $2,000 price tag — what is accurate enough, and the best budget picks.</p>
-        <div class="meta"><span>Buying Guide</span><span>11 min</span><span class="arrow">→</span></div>
-      </a>
-          <a class="card reveal d4" href="posts/best-golf-rangefinder-vs-gps.html">
-        <div class="ct">Tech — Comparison</div>
-        <h3>Rangefinder vs GPS</h3>
-        <p>Laser precision or GPS overview? Which distance tool fits your game — or whether to carry both.</p>
-        <div class="meta"><span>Comparison</span><span>11 min</span><span class="arrow">→</span></div>
-      </a>
-    </section>
-
-    <div class="sec-label" id="accessories"><span class="n">§</span> Grips, Bags &amp; Accessories</div>
-    <section class="grid">
-      <a class="card reveal d2" href="posts/golf-grips-for-arthritic-hands.html">
-        <div class="ct">Grips — Buying Guide</div>
-        <h3>Best Grips for Arthritic Hands</h3>
-        <p>Oversized, tacky, shock-absorbing grips that let you hold the club with less squeezing — and less pain.</p>
-        <div class="meta"><span>Buying Guide</span><span>11 min</span><span class="arrow">→</span></div>
-      </a>
-      <a class="card reveal d3" href="posts/winn-dri-tac-vs-golf-pride-cp2-wrap.html">
-        <div class="ct">Grips — Comparison</div>
-        <h3>Winn Dri-Tac vs Golf Pride CP2</h3>
-        <p>The two most popular soft, tacky grips head-to-head — feel, durability, and a clear verdict.</p>
-        <div class="meta"><span>Comparison</span><span>10 min</span><span class="arrow">→</span></div>
-      </a>
-      <a class="card reveal d4" href="posts/how-to-regrip-golf-clubs-at-home.html">
-        <div class="ct">Grips — How-To</div>
-        <h3>How to Regrip Clubs at Home</h3>
-        <p>A step-by-step DIY walkthrough, the cheap gear you need, and what it really costs vs a shop.</p>
-        <div class="meta"><span>How-To</span><span>11 min</span><span class="arrow">→</span></div>
-      </a>
-      <a class="card reveal d2" href="posts/push-cart-3-wheel-vs-4-wheel.html">
-        <div class="ct">Accessories — Comparison</div>
-        <h3>3-Wheel vs 4-Wheel Push Cart</h3>
-        <p>Stability, turning, and fold size compared — plus the best picks in each format for walkers.</p>
-        <div class="meta"><span>Comparison</span><span>10 min</span><span class="arrow">→</span></div>
-      </a>
-      <a class="card reveal d3" href="posts/stand-bag-vs-cart-bag.html">
-        <div class="ct">Accessories — Guide</div>
-        <h3>Stand Bag vs Cart Bag</h3>
-        <p>Which bag fits how you play — walking, riding, or push cart — and the best of each kind.</p>
-        <div class="meta"><span>Guide</span><span>10 min</span><span class="arrow">→</span></div>
-      </a>
-          <a class="card reveal d4" href="posts/spikeless-vs-spiked-golf-shoes.html">
-        <div class="ct">Shoes — Comparison</div>
-        <h3>Spikeless vs Spiked Golf Shoes</h3>
-        <p>Grip vs comfort vs versatility — which golf shoe type fits how and where you actually play.</p>
-        <div class="meta"><span>Comparison</span><span>11 min</span><span class="arrow">→</span></div>
-      </a>
-          <a class="card reveal d2" href="posts/best-golf-glove-for-sweaty-hands.html">
-        <div class="ct">Gloves — Buying Guide</div>
-        <h3>Best Gloves for Sweaty Hands</h3>
-        <p>Stop losing your grip in the heat — materials, the rain-glove trick, and the longest-lasting picks.</p>
-        <div class="meta"><span>Buying Guide</span><span>10 min</span><span class="arrow">→</span></div>
-      </a>
-          <a class="card reveal d3" href="posts/how-to-clean-golf-clubs.html">
-        <div class="ct">Care — How-To</div>
-        <h3>How to Clean Your Golf Clubs</h3>
-        <p>Cleaner grooves mean more spin and control — how to clean irons, woods, and grips the right way.</p>
-        <div class="meta"><span>How-To</span><span>10 min</span><span class="arrow">→</span></div>
-      </a>
-          <a class="card reveal d2" href="posts/best-putting-mat-for-home.html">
-        <div class="ct">Practice — Buying Guide</div>
-        <h3>Best Putting Mats for Home</h3>
-        <p>Sharpen your stroke at home — true-roll mats with alignment help and ball return, ranked by budget.</p>
-        <div class="meta"><span>Buying Guide</span><span>10 min</span><span class="arrow">→</span></div>
-      </a>
-          <a class="card reveal d3" href="posts/golf-grip-size-chart.html">
-        <div class="ct">Grips — Sizing Guide</div>
-        <h3>Golf Grip Size Chart</h3>
-        <p>Undersize, standard, midsize, or jumbo? Measure your hands and pick the grip size that fixes your miss.</p>
-        <div class="meta"><span>Sizing Guide</span><span>10 min</span><span class="arrow">→</span></div>
-      </a>
-          <a class="card reveal d4" href="posts/best-golf-shoes-for-wide-feet.html">
-        <div class="ct">Shoes — Buying Guide</div>
-        <h3>Best Golf Shoes for Wide Feet</h3>
-        <p>Stop cramming into narrow shoes — the most comfortable wide-fit golf shoes that still grip and last.</p>
-        <div class="meta"><span>Buying Guide</span><span>11 min</span><span class="arrow">→</span></div>
-      </a>
-    </section>
-
-    <div class="sec-label" id="balls"><span class="n">§</span> Golf Balls</div>
-    <section class="grid">
-      <a class="card reveal d2" href="posts/golf-ball-buyers-guide.html">
-        <div class="ct">Balls — Buying Guide</div>
-        <h3>The Complete Golf Ball Buyer's Guide</h3>
-        <p>Match the ball to your swing, skip the marketing, and stop overpaying — for every handicap.</p>
-        <div class="meta"><span>Buying Guide</span><span>12 min</span><span class="arrow">→</span></div>
-      </a>
-      <a class="card reveal d3" href="posts/best-golf-balls-for-slow-swing-speeds.html">
-        <div class="ct">Balls — Buying Guide</div>
-        <h3>Best Balls for Slow Swing Speeds</h3>
-        <p>Low-compression balls that add distance and feel soft — ranked for slower swings and seniors.</p>
-        <div class="meta"><span>Buying Guide</span><span>10 min</span><span class="arrow">→</span></div>
-      </a>
-          <a class="card reveal d4" href="posts/best-golf-balls-for-beginners.html">
-        <div class="ct">Balls — Buying Guide</div>
-        <h3>Best Golf Balls for Beginners</h3>
-        <p>Soft, straight, and cheap — the right balls to learn with, and the tour balls to skip for now.</p>
-        <div class="meta"><span>Buying Guide</span><span>11 min</span><span class="arrow">→</span></div>
-      </a>
-          <a class="card reveal d2" href="posts/best-golf-balls-for-distance.html">
-        <div class="ct">Balls — Buying Guide</div>
-        <h3>Best Golf Balls for Distance</h3>
-        <p>Low-spin, fast balls built for maximum carry and roll — and who should (and should not) play them.</p>
-        <div class="meta"><span>Buying Guide</span><span>10 min</span><span class="arrow">→</span></div>
-      </a>
-          <a class="card reveal d3" href="posts/best-golf-balls-under-25-dollars.html">
-        <div class="ct">Balls — Buying Guide</div>
-        <h3>Best Golf Balls Under $25 a Dozen</h3>
-        <p>The gap between a $25 ball and a $50 ball is smaller than you think — the cheap balls that actually perform, and one budget urethane wildcard.</p>
-        <div class="meta"><span>Buying Guide</span><span>11 min</span><span class="arrow">→</span></div>
-      </a>
-          <a class="card reveal d4" href="posts/soft-vs-distance-golf-balls.html">
-        <div class="ct">Balls — Comparison</div>
-        <h3>Soft vs Distance Golf Balls</h3>
-        <p>"Soft" and "distance" are mostly labels stuck on similar balls — and what most golfers believe about them is backwards. How to pick.</p>
-        <div class="meta"><span>Comparison</span><span>10 min</span><span class="arrow">→</span></div>
-      </a>
-    </section>
-
-    <!-- NEWSLETTER -->
-    <section class="signup" id="about">
-      <div class="inner">
-        <div class="ek">The Sunday Memo</div>
-        <h2>One useful golf note, every Sunday.</h2>
-        <p>The best read of the week, an honest gear take, and one tip you can use on Saturday. No spam, no swing-tip overload — just the good stuff.</p>
-        <form id="subform">
-          <input type="email" required placeholder="you@example.com" aria-label="Email address" />
-          <button type="submit">Send me the Memo</button>
-        </form>
-        <div class="msg" id="submsg"></div>
-      </div>
-    </section>
-
-    <!-- FOOTER -->
-    <footer>
-      <div class="frow">
-        <span class="fmark">Mulligan Memo</span>
-        <div class="flinks">
-          <a href="#beginners">All guides</a>
-          <a href="#about">Newsletter</a>
-          <a href="author.html">Writers</a>
-          <a href="https://github.com/Skimmilk12/mulligan-memo">Source</a>
-          <a href="privacy-policy.html">Privacy</a>
-          <a href="feed.xml">RSS</a>
-        </div>
-      </div>
-      <div class="fine">© <span id="yr">2026</span> Mulligan Memo — Play it as it lies. Built with Claude Code.</div>
-      <div class="fine disclosure">Mulligan Memo is reader-supported. When you buy through links on our site, we may earn an affiliate commission at no extra cost to you. We only recommend gear we'd actually put in our own bag.</div>
-    </footer>
-
+  <!-- dateline topbar -->
+  <div class="mm-topbar">
+    <span>EST. 2026</span>
+    <span>✶ THE GEAR DESK ✶</span>
+    <span id="mm-date">PLAY IT AS IT LIES</span>
   </div>
 
-  <script>
-    // date in masthead
-    (function () {
-      var d = new Date();
-      var months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
-      var el = document.getElementById('today');
-      if (el) el.textContent = months[d.getMonth()] + ' ' + d.getDate() + ', ' + d.getFullYear();
-      var yr = document.getElementById('yr');
-      if (yr) yr.textContent = d.getFullYear();
-    })();
+  <!-- masthead -->
+  <header class="home-mast">
+    <h1>Mulligan Memo</h1>
+    <p class="home-tag">Golf gear, read closely — five columnists, every trade-off named, nothing sponsored.</p>
+  </header>
 
-    // newsletter (front-end only for now)
-    var form = document.getElementById('subform');
-    if (form) {
+  <!-- primary nav + archive search -->
+  <nav class="mm-nav" aria-label="Primary" style="border-top: 1px solid rgba(27,42,32,0.45);">
+    <div class="mm-nav-in">
+      <a href="/beginners.html">BEGINNERS</a>
+      <a href="/clubs.html">CLUBS</a>
+      <a href="/tech.html">TECH</a>
+      <a href="/accessories.html">ACCESSORIES</a>
+      <a href="/golf-balls.html">BALLS</a>
+      <a href="/glossary.html">GLOSSARY</a>
+      <a href="/distance-chart.html">DISTANCES</a>
+      <a href="/author.html">WRITERS</a>
+      <a href="/about.html">ABOUT</a>
+      <form class="mm-search" role="search" onsubmit="return false;">
+        <label for="archive-search">⌕</label>
+        <input id="archive-search" type="search" placeholder="SEARCH THE ARCHIVE…" autocomplete="off">
+        <div class="mm-search-results" id="archive-results"></div>
+      </form>
+    </div>
+  </nav>
+
+  <!-- the lead review -->
+  <section class="lead-wrap">
+    <div class="lead-main">
+      <p class="lead-kick">THE LEAD REVIEW ✶ FROM THE BALLS DESK</p>
+      <h2>The best golf ball for your game — and the marketing you can skip</h2>
+      <p class="lead-dek">It's the only piece of equipment you use on every single shot, and the most over-thought purchase in golf. How to match the ball to your swing, ignore the box copy, and stop overpaying.</p>
+      <div class="lead-meta">
+        <span>BY <b>HANK SULLIVAN</b> — THE BALLS DESK</span>
+        <span class="stamp">UPDATED JUN 2026</span>
+        <span class="stamp">12 MIN READ</span>
+      </div>
+      <div class="lead-ctas">
+        <a class="cta" href="/posts/golf-ball-buyers-guide.html">READ THE FULL GUIDE →</a>
+        <a class="link-plain" href="/golf-balls.html">ALL 6 BALL GUIDES</a>
+      </div>
+    </div>
+    <figure class="lead-fig fig">
+      <div class="frame">
+        <svg viewBox="0 0 440 300" role="img" aria-label="Line drawing of a golf ball on a tee with a rising flight arc">
+          <g fill="none" stroke="#21422f" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M24,272 L416,272" stroke-width="3" stroke-dasharray="1 9" opacity="0.6"></path>
+            <circle cx="150" cy="176" r="62"></circle>
+            <path d="M118,150 a7,7 0 1,0 0.1,0" stroke-width="1.6" opacity="0.6"></path>
+            <path d="M143,132 a7,7 0 1,0 0.1,0" stroke-width="1.6" opacity="0.6"></path>
+            <path d="M172,142 a7,7 0 1,0 0.1,0" stroke-width="1.6" opacity="0.6"></path>
+            <path d="M112,182 a7,7 0 1,0 0.1,0" stroke-width="1.6" opacity="0.6"></path>
+            <path d="M140,196 a7,7 0 1,0 0.1,0" stroke-width="1.6" opacity="0.6"></path>
+            <path d="M172,186 a7,7 0 1,0 0.1,0" stroke-width="1.6" opacity="0.6"></path>
+            <path d="M190,160 a7,7 0 1,0 0.1,0" stroke-width="1.6" opacity="0.6"></path>
+            <path d="M142,240 L142,262 M158,240 L158,262 M134,264 L166,264" stroke-width="2.2"></path>
+            <path d="M226,150 C280,96 348,62 412,48" stroke-width="2.2" stroke-dasharray="2 10"></path>
+            <path d="M392,40 L414,47 L400,66" stroke-width="2.2"></path>
+          </g>
+        </svg>
+        <figcaption>FIG. 1 — THE ONLY CLUB YOU USE ON EVERY SHOT</figcaption>
+      </div>
+      <span class="seal-large" aria-hidden="true">
+        <svg viewBox="0 0 140 140" width="116" height="116">
+          <defs>
+            <radialGradient id="sealwax" cx="36%" cy="30%" r="80%">
+              <stop offset="0%" stop-color="#c99c50"></stop>
+              <stop offset="55%" stop-color="#a9772a"></stop>
+              <stop offset="100%" stop-color="#7c5716"></stop>
+            </radialGradient>
+            <path id="sealarc" d="M70,70 m-47,0 a47,47 0 1,1 94,0 a47,47 0 1,1 -94,0"></path>
+          </defs>
+          <path d="M70,6 C86,3 98,12 107,20 C119,26 133,36 132,52 C137,62 135,76 129,86 C127,102 117,115 101,121 C91,133 76,137 62,131 C46,135 33,125 25,115 C11,109 5,96 8,82 C2,70 4,55 12,45 C14,31 24,19 38,14 C48,3 60,9 70,6 Z" fill="url(#sealwax)"></path>
+          <circle cx="70" cy="70" r="53" fill="none" stroke="#f4e9d2" stroke-width="1.4" stroke-dasharray="3 3" opacity="0.85"></circle>
+          <text font-family="'Courier Prime', monospace" font-size="12.5" font-weight="700" letter-spacing="3.5" fill="#f6ecd8">
+            <textPath href="#sealarc" startOffset="6">THE MEMO PICK</textPath>
+          </text>
+          <g fill="none" stroke="#f6ecd8" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M62,48 L62,92"></path>
+            <path d="M62,50 L88,58 L62,66"></path>
+            <ellipse cx="70" cy="94" rx="16" ry="5"></ellipse>
+          </g>
+          <text x="70" y="112" text-anchor="middle" font-family="'Courier Prime', monospace" font-size="9" letter-spacing="2" fill="#f4e9d2">EST. 2026</text>
+          <text x="70" y="38" text-anchor="middle" font-family="'Courier Prime', monospace" font-size="9" letter-spacing="4" fill="#f4e9d2">✶ ✶ ✶</text>
+        </svg>
+      </span>
+    </figure>
+  </section>
+
+  <!-- latest from the desk -->
+  <section class="home-sec">
+    <div class="home-sec-head">
+      <p class="sec-kick" style="color: var(--ink); letter-spacing: 0.24em;">LATEST FROM THE DESK</p>
+      <span class="sec-kick" style="color: var(--pine); font-weight: 400; letter-spacing: 0.14em;">FILED HONESTLY · DATED ALWAYS</span>
+    </div>
+    <div class="cardgrid">
+      <a class="gcard" href="/posts/best-fairway-woods-for-high-handicappers.html">
+        <p class="filed">FILED JUN 30, 2026</p>
+        <h3>Best fairway woods for high handicappers</h3>
+        <p>The biggest forgiveness upgrade isn't which 3-wood you buy — it's not buying a 3-wood at all.</p>
+        <span class="gmeta">WALT CARRICK · GOLF CLUBS</span>
+      </a>
+      <a class="gcard" href="/posts/soft-vs-distance-golf-balls.html">
+        <p class="filed">FILED JUN 30, 2026</p>
+        <h3>Soft vs distance golf balls: which should you play?</h3>
+        <p>"Soft" and "distance" are mostly labels stuck on similar balls — and the common wisdom is backwards.</p>
+        <span class="gmeta">HANK SULLIVAN · GOLF BALLS</span>
+      </a>
+      <a class="gcard" href="/posts/mallet-vs-blade-putter.html">
+        <p class="filed">FILED JUN 30, 2026</p>
+        <h3>Mallet vs blade: which putter suits your stroke</h3>
+        <p>Forget handicap and status — one free, five-second test settles it before you spend a dime.</p>
+        <span class="gmeta">CHARLIE BECK · PUTTING &amp; PRACTICE</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- the inter-office memo: how we pick -->
+  <section class="memo-wrap" id="memo-method">
+    <div class="memo-card">
+      <span class="memo-tape tl" aria-hidden="true"></span>
+      <span class="memo-tape tr" aria-hidden="true"></span>
+      <span class="memo-ring echo" aria-hidden="true"></span>
+      <span class="memo-ring" aria-hidden="true"></span>
+      <p class="memo-title">INTER-OFFICE MEMO</p>
+      <p class="memo-sub">MULLIGAN MEMO · THE GEAR DESK · INTERNAL</p>
+      <div class="memo-rule"></div>
+      <div class="memo-fields">
+        <b>TO:</b><span>The readers</span>
+        <b>FROM:</b><span>The gear desk — all five of us</span>
+        <b>RE:</b><span>How we pick, and what we ignore</span>
+      </div>
+      <div class="memo-body">
+        <p>We don't run a lab, and we won't pretend to. The method is plainer: <em>we read the tests, the owner threads, and the spec sheets so you don't have to — then we name the trade-off.</em></p>
+        <ul>
+          <li>Verified specs, from the sheet — never from the ad.</li>
+          <li>Independent test data, credited to the people who did the testing.</li>
+          <li>Owner feedback in the hundreds, one-star reviews read first.</li>
+          <li>Street prices sanity-checked before every update. MSRP is a work of fiction.</li>
+        </ul>
+        <p>If a claim can't survive those checks, it doesn't make the memo. And when a pick changes, we date the change — no silent edits.</p>
+      </div>
+      <p class="memo-sig">— THE DESK ✶ HANK · WALT · MAYA · CHARLIE · ROSA</p>
+    </div>
+  </section>
+
+  <!-- beginners -->
+  <section class="home-sec" id="beginners">
+    <div class="home-sec-head">
+      <div>
+        <p class="sec-kick">FROM THE BEGINNERS DESK ✶ HANK SULLIVAN</p>
+        <h2 class="sec-title">Beginners</h2>
+      </div>
+      <a class="link-plain" href="/beginners.html">VIEW ALL 9 GUIDES →</a>
+    </div>
+    <div class="cardgrid">
+      <a class="gcard" href="/posts/best-beginner-golf-set-under-500.html">
+        <span class="seal-mini"><svg viewBox="0 0 36 36" width="24" height="24" aria-hidden="true"><circle cx="18" cy="18" r="15" fill="#a9772a" stroke="#7c5716" stroke-width="1.5"></circle><circle cx="18" cy="18" r="11.5" fill="none" stroke="#f4e9d2" stroke-width="1" stroke-dasharray="2.4 2.2"></circle><path d="M15,10 L15,25 M15,11 L24,14.5 L15,18" fill="none" stroke="#f6ecd8" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"></path><path d="M10,26 C13,24.5 23,24.5 26,26" fill="none" stroke="#f6ecd8" stroke-width="1.4" stroke-linecap="round"></path></svg><span class="seal-label">MEMO PICK</span></span>
+        <h3>Best beginner golf sets under $500</h3>
+        <p>The complete sets actually worth your money — ranked, with sizing for tall, senior, and women golfers.</p>
+        <span class="gmeta"><span class="stamp">UPDATED JUN 2026</span></span>
+      </a>
+      <a class="gcard" href="/posts/how-many-clubs-does-a-beginner-need.html">
+        <h3>How many clubs does a beginner need?</h3>
+        <p>Forget all 14. The ideal 7–10 club starter bag, which clubs to skip at first, and a budget pick for every slot.</p>
+        <span class="gmeta"><span class="stamp">UPDATED JUN 2026</span></span>
+      </a>
+      <a class="gcard" href="/posts/complete-golf-set-vs-buying-clubs-individually.html">
+        <h3>Complete set vs individual clubs</h3>
+        <p>Convenience vs customization, new vs used, and the smart-money path for your very first bag.</p>
+        <span class="gmeta"><span class="stamp">UPDATED JUN 2026</span></span>
+      </a>
+    </div>
+  </section>
+
+  <!-- interlude -->
+  <aside class="interlude">
+    <div class="in">
+      <p class="ik">OVERHEARD AT THE DESK</p>
+      <p class="iq">"Buy the club that fixes your miss, not the one that won the ad break."</p>
+      <p class="attr">— WALT CARRICK, THE CLUBS DESK</p>
+    </div>
+  </aside>
+
+  <!-- clubs -->
+  <section class="home-sec" id="clubs">
+    <div class="home-sec-head">
+      <div>
+        <p class="sec-kick">FROM THE CLUBS DESK ✶ WALT CARRICK</p>
+        <h2 class="sec-title">Golf Clubs</h2>
+      </div>
+      <a class="link-plain" href="/clubs.html">VIEW ALL 16 GUIDES →</a>
+    </div>
+    <div class="cardgrid">
+      <a class="gcard" href="/posts/best-fairway-woods-for-high-handicappers.html">
+        <span class="seal-mini"><svg viewBox="0 0 36 36" width="24" height="24" aria-hidden="true"><circle cx="18" cy="18" r="15" fill="#a9772a" stroke="#7c5716" stroke-width="1.5"></circle><circle cx="18" cy="18" r="11.5" fill="none" stroke="#f4e9d2" stroke-width="1" stroke-dasharray="2.4 2.2"></circle><path d="M15,10 L15,25 M15,11 L24,14.5 L15,18" fill="none" stroke="#f6ecd8" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"></path><path d="M10,26 C13,24.5 23,24.5 26,26" fill="none" stroke="#f6ecd8" stroke-width="1.4" stroke-linecap="round"></path></svg><span class="seal-label">MEMO PICK</span></span>
+        <h3>Best fairway woods for high handicappers</h3>
+        <p>Why a 5- or 7-wood beats a 3-wood for most golfers — and the forgiving heads that actually get airborne.</p>
+        <span class="gmeta"><span class="stamp">UPDATED JUN 2026</span></span>
+      </a>
+      <a class="gcard" href="/posts/graphite-vs-steel-shafts-for-irons.html">
+        <h3>Graphite vs steel shafts for your irons</h3>
+        <p>The old "steel for good players, graphite for everyone else" rule is half wrong now — decide on hands, speed, and budget.</p>
+        <span class="gmeta"><span class="stamp">UPDATED JUN 2026</span></span>
+      </a>
+      <a class="gcard" href="/posts/mallet-vs-blade-putter.html">
+        <h3>Mallet vs blade putter</h3>
+        <p>It's a stroke-path decision, not a status one — and one free five-second test settles it.</p>
+        <span class="gmeta"><span class="stamp">UPDATED JUN 2026</span></span>
+      </a>
+    </div>
+  </section>
+
+  <!-- tech -->
+  <section class="home-sec" id="tech">
+    <div class="home-sec-head">
+      <div>
+        <p class="sec-kick">FROM THE TECH DESK ✶ MAYA CHEN</p>
+        <h2 class="sec-title">Golf Tech</h2>
+      </div>
+      <a class="link-plain" href="/tech.html">VIEW ALL 6 GUIDES →</a>
+    </div>
+    <div class="cardgrid">
+      <a class="gcard" href="/posts/best-golf-rangefinder-under-100.html">
+        <span class="seal-mini"><svg viewBox="0 0 36 36" width="24" height="24" aria-hidden="true"><circle cx="18" cy="18" r="15" fill="#a9772a" stroke="#7c5716" stroke-width="1.5"></circle><circle cx="18" cy="18" r="11.5" fill="none" stroke="#f4e9d2" stroke-width="1" stroke-dasharray="2.4 2.2"></circle><path d="M15,10 L15,25 M15,11 L24,14.5 L15,18" fill="none" stroke="#f6ecd8" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"></path><path d="M10,26 C13,24.5 23,24.5 26,26" fill="none" stroke="#f6ecd8" stroke-width="1.4" stroke-linecap="round"></path></svg><span class="seal-label">MEMO PICK</span></span>
+        <h3>Best rangefinders under $100</h3>
+        <p>Are cheap lasers really as accurate as a Bushnell? We settle it and pick the budget winners.</p>
+        <span class="gmeta"><span class="stamp">UPDATED JUN 2026</span></span>
+      </a>
+      <a class="gcard" href="/posts/best-golf-rangefinder-vs-gps.html">
+        <h3>Rangefinder vs GPS</h3>
+        <p>Laser precision or GPS overview? Which distance tool fits your game — or whether to carry both.</p>
+        <span class="gmeta"><span class="stamp">UPDATED JUN 2026</span></span>
+      </a>
+      <a class="gcard" href="/posts/best-golf-launch-monitor-under-500.html">
+        <h3>Best launch monitors under $500</h3>
+        <p>At-home swing data without the $2,000 price tag — what's accurate enough, and what's invented.</p>
+        <span class="gmeta"><span class="stamp">UPDATED JUN 2026</span></span>
+      </a>
+    </div>
+  </section>
+
+  <!-- accessories -->
+  <section class="home-sec" id="accessories">
+    <div class="home-sec-head">
+      <div>
+        <p class="sec-kick">FROM THE ACCESSORIES DESK ✶ ROSA MARIN</p>
+        <h2 class="sec-title">Accessories</h2>
+      </div>
+      <a class="link-plain" href="/accessories.html">VIEW ALL 11 GUIDES →</a>
+    </div>
+    <div class="cardgrid">
+      <a class="gcard" href="/posts/golf-grips-for-arthritic-hands.html">
+        <span class="seal-mini"><svg viewBox="0 0 36 36" width="24" height="24" aria-hidden="true"><circle cx="18" cy="18" r="15" fill="#a9772a" stroke="#7c5716" stroke-width="1.5"></circle><circle cx="18" cy="18" r="11.5" fill="none" stroke="#f4e9d2" stroke-width="1" stroke-dasharray="2.4 2.2"></circle><path d="M15,10 L15,25 M15,11 L24,14.5 L15,18" fill="none" stroke="#f6ecd8" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"></path><path d="M10,26 C13,24.5 23,24.5 26,26" fill="none" stroke="#f6ecd8" stroke-width="1.4" stroke-linecap="round"></path></svg><span class="seal-label">MEMO PICK</span></span>
+        <h3>Best golf grips for arthritic hands</h3>
+        <p>Oversized, tacky, shock-absorbing grips that let you hold the club with less squeezing — and less pain.</p>
+        <span class="gmeta"><span class="stamp">UPDATED JUN 2026</span></span>
+      </a>
+      <a class="gcard" href="/posts/golf-grip-size-chart.html">
+        <h3>Golf grip size chart</h3>
+        <p>Undersize, standard, midsize, or jumbo? Measure your hands and pick the size that fixes your miss.</p>
+        <span class="gmeta"><span class="stamp">UPDATED JUN 2026</span></span>
+      </a>
+      <a class="gcard" href="/posts/spikeless-vs-spiked-golf-shoes.html">
+        <h3>Spikeless vs spiked golf shoes</h3>
+        <p>Grip vs comfort vs versatility — which shoe type fits how and where you actually play.</p>
+        <span class="gmeta"><span class="stamp">UPDATED JUN 2026</span></span>
+      </a>
+    </div>
+  </section>
+
+  <!-- balls -->
+  <section class="home-sec" id="balls">
+    <div class="home-sec-head">
+      <div>
+        <p class="sec-kick">FROM THE BALLS DESK ✶ HANK SULLIVAN</p>
+        <h2 class="sec-title">Golf Balls</h2>
+      </div>
+      <a class="link-plain" href="/golf-balls.html">VIEW ALL 6 GUIDES →</a>
+    </div>
+    <div class="cardgrid">
+      <a class="gcard" href="/posts/best-golf-balls-for-slow-swing-speeds.html">
+        <span class="seal-mini"><svg viewBox="0 0 36 36" width="24" height="24" aria-hidden="true"><circle cx="18" cy="18" r="15" fill="#a9772a" stroke="#7c5716" stroke-width="1.5"></circle><circle cx="18" cy="18" r="11.5" fill="none" stroke="#f4e9d2" stroke-width="1" stroke-dasharray="2.4 2.2"></circle><path d="M15,10 L15,25 M15,11 L24,14.5 L15,18" fill="none" stroke="#f6ecd8" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"></path><path d="M10,26 C13,24.5 23,24.5 26,26" fill="none" stroke="#f6ecd8" stroke-width="1.4" stroke-linecap="round"></path></svg><span class="seal-label">MEMO PICK</span></span>
+        <h3>Best balls for slow swing speeds</h3>
+        <p>Low-compression balls that add distance and feel soft — ranked for slower swings and seniors.</p>
+        <span class="gmeta"><span class="stamp">UPDATED JUN 2026</span></span>
+      </a>
+      <a class="gcard" href="/posts/best-golf-balls-under-25-dollars.html">
+        <h3>Best golf balls under $25 a dozen</h3>
+        <p>The cheap balls that actually perform — plus one budget urethane wildcard worth knowing about.</p>
+        <span class="gmeta"><span class="stamp">UPDATED JUN 2026</span></span>
+      </a>
+      <a class="gcard" href="/posts/soft-vs-distance-golf-balls.html">
+        <h3>Soft vs distance golf balls</h3>
+        <p>Mostly labels stuck on similar balls — what most golfers believe about them is backwards.</p>
+        <span class="gmeta"><span class="stamp">UPDATED JUN 2026</span></span>
+      </a>
+    </div>
+  </section>
+
+  <!-- the reference desk -->
+  <section class="home-sec" id="reference">
+    <div class="home-sec-head">
+      <p class="sec-kick" style="color: var(--ink); letter-spacing: 0.24em;">THE REFERENCE DESK</p>
+      <span class="sec-kick" style="color: var(--pine); font-weight: 400; letter-spacing: 0.14em;">BOOKMARKED · RETURNED TO · ARGUED WITH</span>
+    </div>
+    <div class="refgrid">
+      <a class="refcard" href="/distance-chart.html">
+        <div class="rc-head"><span>REF. CARD No. 1</span><span>KEPT CURRENT</span></div>
+        <div class="rc-body">
+          <svg viewBox="0 0 84 68" width="84" height="68" aria-hidden="true">
+            <g fill="none" stroke="#21422f" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M14,8 L14,56 L76,56"></path>
+              <path d="M22,56 L22,40 L32,40 L32,56"></path>
+              <path d="M40,56 L40,30 L50,30 L50,56"></path>
+              <path d="M58,56 L58,18 L68,18 L68,56"></path>
+              <path d="M16,50 C34,26 54,16 76,12" stroke-dasharray="4 5" stroke-width="1.8" opacity="0.7"></path>
+            </g>
+          </svg>
+          <div>
+            <h3 class="rc-title">The Golf Club Distance Chart</h3>
+            <p class="rc-sub">Average carry by club and swing speed — the chart readers bookmark, print, and argue with.</p>
+            <p class="rc-cta">OPEN THE CHART →</p>
+          </div>
+        </div>
+      </a>
+      <a class="refcard" href="/glossary.html">
+        <div class="rc-head"><span>REF. CARD No. 2</span><span>A TO W</span></div>
+        <div class="rc-body">
+          <svg viewBox="0 0 84 68" width="84" height="68" aria-hidden="true">
+            <g fill="none" stroke="#21422f" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M42,16 C34,9 20,9 13,13 L13,54 C20,50 34,50 42,57 C50,50 64,50 71,54 L71,13 C64,9 50,9 42,16 Z"></path>
+              <path d="M42,16 L42,57"></path>
+              <path d="M20,22 L36,22 M20,29 L36,29 M20,36 L36,36 M20,43 L34,43" stroke-width="1.6" opacity="0.65"></path>
+              <path d="M48,22 L64,22 M48,29 L64,29 M48,36 L64,36 M50,43 L64,43" stroke-width="1.6" opacity="0.65"></path>
+            </g>
+          </svg>
+          <div>
+            <h3 class="rc-title">The Golf Glossary</h3>
+            <p class="rc-sub">Plain-English definitions from albatross to worm-burner — no jargon left undefined.</p>
+            <p class="rc-cta">OPEN THE GLOSSARY →</p>
+          </div>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <!-- the desk log -->
+  <section class="home-sec" id="desk-log">
+    <div class="home-sec-head">
+      <p class="sec-kick" style="color: var(--ink); letter-spacing: 0.24em;">THE DESK LOG</p>
+      <span class="sec-kick" style="color: var(--pine); font-weight: 400; letter-spacing: 0.14em;">RECENTLY FILED &amp; RE-CHECKED</span>
+    </div>
+    <p style="margin: 12px 0 0; font-style: italic; font-size: 17px; color: var(--pine);">We date every update — no silent edits.</p>
+    <div class="desklog">
+      <div class="dl-row"><span class="dl-date">JUL 1</span><p class="dl-txt">The Memo moved to <a href="/">mulliganmemo.com</a> — every old link forwards automatically.</p></div>
+      <div class="dl-row"><span class="dl-date">JUN 30</span><p class="dl-txt">Five new guides filed: <a href="/posts/best-fairway-woods-for-high-handicappers.html">fairway woods</a>, <a href="/posts/graphite-vs-steel-shafts-for-irons.html">graphite vs steel</a>, <a href="/posts/mallet-vs-blade-putter.html">mallet vs blade</a>, <a href="/posts/best-golf-balls-under-25-dollars.html">budget balls</a>, and <a href="/posts/soft-vs-distance-golf-balls.html">soft vs distance</a>.</p></div>
+      <div class="dl-row"><span class="dl-date">JUN 30</span><p class="dl-txt">All 48 guides re-organized by category; five hub pages opened for browsing.</p></div>
+      <div class="dl-row"><span class="dl-date">JUN 29</span><p class="dl-txt"><a href="/distance-chart.html">Distance chart</a> fact-checked and re-averaged before publish — a 7-iron will no longer out-fly a 6-iron.</p></div>
+      <div class="dl-row"><span class="dl-date">JUN 28</span><p class="dl-txt">The Memo opens its doors: 43 guides on day one, every one researched and cross-checked.</p></div>
+    </div>
+  </section>
+
+  <!-- the sunday memo -->
+  <section class="newsletter" id="sunday-memo">
+    <div class="nl-frame">
+      <div class="nl-inner">
+        <p class="nl-kick">THE SUNDAY MEMO</p>
+        <h2 class="nl-h">One memo. Sunday morning. That's it.</h2>
+        <p class="nl-p">What changed on the desk this week, what's newly worth your money, and what isn't. No deals, no countdowns, no fourteen-part welcome series. Unsubscribe and we part friends.</p>
+        <form class="nl-form" id="subform">
+          <input type="email" required name="email" placeholder="YOUR@EMAIL.COM" aria-label="Email address">
+          <button type="submit">GET THE MEMO</button>
+        </form>
+        <p class="nl-ok" id="submsg" aria-live="polite"></p>
+        <p class="nl-note">WE NEVER SELL THE LIST. WE BARELY EVEN EMAIL.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer -->
+  <footer id="the-desk">
+    <div class="fwrap">
+      <div class="mm-foot-top">
+        <div class="fmark">Mulligan Memo</div>
+        <p class="mm-foot-tag">The Independent Golf Gear Desk · Est. 2026</p>
+      </div>
+      <div class="mm-foot-rule"></div>
+      <div class="mm-foot-grid">
+        <div>
+          <h4>Guides</h4>
+          <ul>
+            <li><a href="/beginners.html">Beginners</a></li>
+            <li><a href="/clubs.html">Golf Clubs</a></li>
+            <li><a href="/tech.html">Golf Tech</a></li>
+            <li><a href="/accessories.html">Accessories</a></li>
+            <li><a href="/golf-balls.html">Golf Balls</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Reference</h4>
+          <ul>
+            <li><a href="/distance-chart.html">Club Distance Chart</a></li>
+            <li><a href="/glossary.html">Golf Glossary</a></li>
+            <li><a href="/about.html">How We Pick</a></li>
+            <li><a href="/privacy-policy.html">Privacy &amp; Disclosure</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>The Desk</h4>
+          <ul>
+            <li><a href="/author.html#hank-sullivan">Hank Sullivan · Beginners &amp; Balls</a></li>
+            <li><a href="/author.html#walt-carrick">Walt Carrick · Clubs</a></li>
+            <li><a href="/author.html#maya-chen">Maya Chen · Tech</a></li>
+            <li><a href="/author.html#charlie-beck">Charlie Beck · Putting</a></li>
+            <li><a href="/author.html#rosa-marin">Rosa Marin · Accessories</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Follow</h4>
+          <ul>
+            <li><a href="/#sunday-memo">The Sunday Memo</a></li>
+            <li><a href="/feed.xml">RSS Feed</a></li>
+            <li><a href="https://www.pinterest.com/mulliganmemo/" rel="noopener">Pinterest</a></li>
+            <li><a href="https://github.com/Skimmilk12/mulligan-memo" rel="noopener">Source</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="mm-foot-badges">
+        <span class="badge">Independent</span>
+        <span class="badge">Reader-Supported</span>
+        <span class="badge">Never Sponsored</span>
+      </div>
+      <p class="fdisc">When you buy through links on the Memo we may earn a small commission — it never changes the pick. As an Amazon Associate, we earn from qualifying purchases.</p>
+      <div class="mm-foot-bottom">
+        <span>© <span id="yr">2026</span> Mulligan Memo · All five of us</span>
+        <span>Set in Fraunces &amp; Newsreader · Printed on Parchment №2</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/search.js" defer></script>
+  <script>
+    // newsletter (front-end only until a provider is wired up)
+    (function () {
+      var form = document.getElementById('subform');
+      if (!form) return;
       form.addEventListener('submit', function (e) {
         e.preventDefault();
-        document.getElementById('submsg').textContent = "✓ You're on the list. See you Sunday.";
+        document.getElementById('submsg').textContent = 'FILED ✶ YOUR FIRST MEMO LANDS SUNDAY.';
         form.reset();
       });
-    }
+      var yr = document.getElementById('yr');
+      if (yr) yr.textContent = new Date().getFullYear();
+    })();
   </script>
 </body>
 </html>
