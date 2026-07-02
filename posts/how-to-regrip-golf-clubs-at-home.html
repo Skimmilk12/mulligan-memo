@@ -175,10 +175,29 @@
   </script>
 </head>
 <body>
-  <div class="bar">
-    <a class="home" href="../index.html">Mulligan Memo</a>
-    <a class="back" href="../index.html">&larr; All dispatches</a>
+  <div class="mm-topbar">
+    <span>✶ THE GEAR DESK</span>
+    <a class="mm-brand" href="/">Mulligan Memo</a>
+    <span id="mm-date">EST. 2026</span>
   </div>
+  <nav class="mm-nav" aria-label="Primary">
+    <div class="mm-nav-in">
+      <a href="/beginners.html">BEGINNERS</a>
+      <a href="/clubs.html">CLUBS</a>
+      <a href="/tech.html">TECH</a>
+      <a href="/accessories.html" class="active">ACCESSORIES</a>
+      <a href="/golf-balls.html">BALLS</a>
+      <a href="/glossary.html">GLOSSARY</a>
+      <a href="/distance-chart.html">DISTANCES</a>
+      <a href="/author.html">WRITERS</a>
+      <a href="/about.html">ABOUT</a>
+      <form class="mm-search" role="search" onsubmit="return false;">
+        <label for="archive-search">⌕</label>
+        <input id="archive-search" type="search" placeholder="SEARCH THE ARCHIVE…" autocomplete="off">
+        <div class="mm-search-results" id="archive-results"></div>
+      </form>
+    </div>
+  </nav>
   <article class="wrap">
     <nav class="crumbs" aria-label="Breadcrumb"><a href="../index.html">Home</a><span class="sep">›</span><a href="../accessories.html">Golf Accessories</a></nav>
     <header class="ahead">
@@ -594,12 +613,64 @@
     </div>
   </article>
   <footer>
-    <div class="fwrap">
+  <div class="fwrap">
+    <div class="mm-foot-top">
       <div class="fmark">Mulligan Memo</div>
-      <div class="fdisc">As an affiliate, Mulligan Memo may earn from qualifying purchases made through links on this page, at no additional cost to you. Recommendations reflect our honest opinion and are never paid placements.</div>
-      <div class="fdisc"><a href="../privacy-policy.html" style="color:inherit;text-decoration:underline;">Privacy Policy &amp; Disclosure</a></div>
-      <a class="fback" href="../index.html">&larr; Back to Mulligan Memo</a>
+      <p class="mm-foot-tag">The Independent Golf Gear Desk · Est. 2026</p>
     </div>
-  </footer>
+    <div class="mm-foot-rule"></div>
+    <div class="mm-foot-grid">
+      <div>
+        <h4>Guides</h4>
+        <ul>
+          <li><a href="/beginners.html">Beginners</a></li>
+          <li><a href="/clubs.html">Golf Clubs</a></li>
+          <li><a href="/tech.html">Golf Tech</a></li>
+          <li><a href="/accessories.html">Accessories</a></li>
+          <li><a href="/golf-balls.html">Golf Balls</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Reference</h4>
+        <ul>
+          <li><a href="/distance-chart.html">Club Distance Chart</a></li>
+          <li><a href="/glossary.html">Golf Glossary</a></li>
+          <li><a href="/about.html">How We Pick</a></li>
+          <li><a href="/privacy-policy.html">Privacy &amp; Disclosure</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>The Desk</h4>
+        <ul>
+          <li><a href="/author.html#hank-sullivan">Hank Sullivan · Beginners &amp; Balls</a></li>
+          <li><a href="/author.html#walt-carrick">Walt Carrick · Clubs</a></li>
+          <li><a href="/author.html#maya-chen">Maya Chen · Tech</a></li>
+          <li><a href="/author.html#charlie-beck">Charlie Beck · Putting</a></li>
+          <li><a href="/author.html#rosa-marin">Rosa Marin · Accessories</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Follow</h4>
+        <ul>
+          <li><a href="/#sunday-memo">The Sunday Memo</a></li>
+          <li><a href="/feed.xml">RSS Feed</a></li>
+          <li><a href="https://www.pinterest.com/mulliganmemo/" rel="noopener">Pinterest</a></li>
+          <li><a href="/about.html">About the Memo</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="mm-foot-badges">
+      <span class="badge">Independent</span>
+      <span class="badge">Reader-Supported</span>
+      <span class="badge">Never Sponsored</span>
+    </div>
+    <p class="fdisc">When you buy through links on the Memo we may earn a small commission — it never changes the pick. As an Amazon Associate, we earn from qualifying purchases.</p>
+    <div class="mm-foot-bottom">
+      <span>© 2026 Mulligan Memo · All five of us</span>
+      <span>Set in Fraunces &amp; Newsreader · Printed on Parchment №2</span>
+    </div>
+  </div>
+</footer>
+  <script src="/search.js" defer></script>
 </body>
 </html>
