@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="max-image-preview:large">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
   <link rel="canonical" href="https://mulliganmemo.com/" />
   <meta name="p:domain_verify" content="07e415f0e59eb6cc59d578a5b8f4648a" />
@@ -507,15 +508,34 @@
 
   <script src="/search.js" defer></script>
   <script>
-    // newsletter (front-end only until a provider is wired up)
+    // newsletter — pre-wired for Buttondown. Set BUTTONDOWN_USER to the account
+    // slug and the form goes live; until then it tells the truth.
     (function () {
+      var BUTTONDOWN_USER = '';
       var form = document.getElementById('subform');
       if (!form) return;
-      form.addEventListener('submit', function (e) {
-        e.preventDefault();
-        document.getElementById('submsg').textContent = 'FILED ✶ YOUR FIRST MEMO LANDS SUNDAY.';
-        form.reset();
-      });
+      var msg = document.getElementById('submsg');
+      if (BUTTONDOWN_USER) {
+        form.action = 'https://buttondown.com/api/emails/embed-subscribe/' + BUTTONDOWN_USER;
+        form.method = 'post';
+        form.target = 'nl-sink';
+        var sink = document.createElement('iframe');
+        sink.name = 'nl-sink';
+        sink.style.display = 'none';
+        sink.setAttribute('aria-hidden', 'true');
+        document.body.appendChild(sink);
+        form.addEventListener('submit', function () {
+          setTimeout(function () {
+            msg.textContent = 'FILED ✶ CHECK YOUR INBOX TO CONFIRM.';
+            form.reset();
+          }, 300);
+        });
+      } else {
+        form.addEventListener('submit', function (e) {
+          e.preventDefault();
+          msg.textContent = 'THE MAILROOM ISN’T WIRED UP YET — YOUR ADDRESS WASN’T SAVED. BACK SHORTLY.';
+        });
+      }
       var yr = document.getElementById('yr');
       if (yr) yr.textContent = new Date().getFullYear();
     })();
