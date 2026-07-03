@@ -466,6 +466,30 @@ h1.title {
 .copy table.spec td.win, .copy table.spec th.win { background: var(--pickrow); }
 .copy table td.win { background: var(--pickrow); }
 
+/* shortlist-at-a-glance ledger under the TLDR */
+.glance { margin: 18px 0 30px; }
+.glance table { margin-bottom: 0; }
+.glance table td:first-child {
+  font-family: var(--mono);
+  font-weight: 700;
+  font-size: 12.5px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--pine);
+  padding-top: 16px;
+}
+.glance table td:nth-child(2) { font-family: var(--display); font-weight: 700; font-size: 17.5px; }
+.glance table th.g-go, .glance table td.g-go { text-align: right; white-space: nowrap; }
+.glance .cta-mini { padding: 8px 14px; font-size: 12px; box-shadow: 3px 3px 0 var(--brass-edge); }
+.glance figcaption {
+  font-family: var(--mono);
+  font-size: 12.5px;
+  letter-spacing: 0.04em;
+  color: var(--pine);
+  padding: 8px 2px 0;
+}
+.g-more { font-family: var(--mono); font-size: 13px; margin: 10px 0 0; }
+
 /* --------------------------------------------------------------------------
    CALLOUT (dashed box, e.g. "what we ignored") + TL;DR (short answer)
    -------------------------------------------------------------------------- */
