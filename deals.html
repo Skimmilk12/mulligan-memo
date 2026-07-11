@@ -38,38 +38,7 @@
 }
   </script>
 
-  <style>
-    /* Deals Desk components — page-scoped, on the article.css token palette */
-    .dd-disclosure { border: 1.5px solid var(--hairline); background: var(--memo); padding: 12px 16px; font-family: "Courier Prime", monospace; font-size: 0.82rem; letter-spacing: 0.02em; color: var(--pine); margin: 0 0 26px; }
-    .dd-stamp { font-family: "Courier Prime", monospace; font-size: 0.8rem; color: var(--pine); border-bottom: 1px dashed var(--dotdash); padding-bottom: 10px; }
-    .dd-hero { display: flex; gap: 22px; align-items: flex-start; border: 2px solid var(--ink); background: var(--card); padding: 20px 22px; margin: 26px 0 8px; }
-    .dd-seal { flex: 0 0 auto; width: 92px; height: 92px; border-radius: 50%; background: var(--brass); color: var(--cta-ink); border: 3px solid var(--brass-edge); box-shadow: 0 0 0 3px var(--brass), inset 0 0 0 2px rgba(0,0,0,0.15); display: flex; align-items: center; justify-content: center; text-align: center; font-family: "Courier Prime", monospace; font-weight: 700; font-size: 0.78rem; line-height: 1.25; transform: rotate(-6deg); }
-    .dd-hero-body { flex: 1 1 auto; min-width: 0; }
-    .dd-ledger { border-top: 2px solid var(--ink); }
-    .dd-row { border-bottom: 1px solid var(--divider); padding: 18px 2px; }
-    .dd-row:hover { background: var(--card); }
-    .dd-row-top { display: flex; gap: 10px; align-items: baseline; font-family: "Courier Prime", monospace; font-size: 0.74rem; letter-spacing: 0.06em; text-transform: uppercase; }
-    .dd-chip { border: 1px solid var(--hairline); padding: 1px 8px; color: var(--pine); }
-    .dd-retailer { color: var(--muted); }
-    .dd-item { font-family: Fraunces, serif; font-weight: 600; font-size: 1.25rem; margin: 8px 0 4px; color: var(--ink); }
-    .dd-verdict { font-style: italic; color: var(--muted); margin: 4px 0 10px; max-width: 60ch; }
-    .dd-row-price { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; }
-    .dd-was { text-decoration: line-through; color: var(--muted); font-family: "Courier Prime", monospace; }
-    .dd-now { font-family: Fraunces, serif; font-weight: 900; font-size: 1.45rem; color: var(--ink); }
-    .dd-pct { font-family: "Courier Prime", monospace; font-weight: 700; color: var(--flag); }
-    .dd-buy { font-family: "Courier Prime", monospace; font-weight: 700; font-size: 0.85rem; letter-spacing: 0.05em; background: var(--brass); color: var(--cta-ink); border: 1.5px solid var(--brass-edge); padding: 7px 14px; text-decoration: none; }
-    .dd-buy:hover { background: var(--brass-dark); color: #fff; }
-    .dd-linktag { font-family: "Courier Prime", monospace; font-size: 0.72rem; color: var(--pine); letter-spacing: 0.04em; }
-    .dd-cuts { background: var(--pine-deep); color: var(--cream-dark); padding: 26px 24px; margin: 34px 0; }
-    .dd-cuts-label { font-family: "Courier Prime", monospace; font-size: 0.78rem; letter-spacing: 0.14em; color: var(--brass-light); margin: 0 0 14px; }
-    .dd-cuts-grid { display: flex; flex-wrap: wrap; gap: 26px; }
-    .dd-cut { flex: 1 1 160px; }
-    .dd-cut-pct { display: block; font-family: Fraunces, serif; font-weight: 900; font-size: 3.2rem; line-height: 1; color: var(--brass-light); }
-    .dd-cut-name { display: block; font-size: 0.86rem; margin-top: 6px; }
-    .dd-floor li { margin-bottom: 10px; }
-    .dd-how { border: 1.5px dashed var(--hairline); padding: 14px 18px; background: var(--memo); margin: 30px 0; }
-    @media (max-width: 560px) { .dd-hero { flex-direction: column; } .dd-seal { transform: rotate(-6deg) scale(0.9); } }
-  </style>
+  <link rel="stylesheet" href="/styles/deals.css" />
 
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-8VD95MJ4D9"></script>
@@ -219,8 +188,53 @@
       <p><strong>How the Deals Desk works.</strong> A bot checks golf retailers' listed prices every night; every "was" price you see above is the retailer's own compare-at figure, never one we invented. Every verdict is an editorial judgment, not an automated feed — most of what the bot finds never makes this page. We link the best price we can find whether or not anyone pays us, and we pull deals down when they end. Details in our <a class="inline" href="/privacy-policy.html">disclosure policy</a>.</p>
     </div>
 
-    <h2><span class="kick">The Desk</span>New departments are coming</h2>
-    <p>The bot currently watches the launch-monitor, simulator, and practice-gear corner of the market hardest — that's where the biggest honest cuts live in July. Balls, apparel, shoes, push carts, and club departments wire in as we add sources. If you want the best of the ledger in your inbox once a week, <a class="inline" href="/#sunday-memo">get on the Sunday Memo list</a> — the deals drop is coming to it first.</p>
+    <h2><span class="kick">The Desk</span>Open the departments</h2>
+    <p>Everything below the fold of today's picks lives in the department ledgers — every on-sale item the bot verified overnight, biggest cuts first.</p>
+    <!-- departments:auto:start -->
+    <div class="dd-depts">
+      <a class="dd-dept" href="/deals/launch-monitor-deals.html">
+        <span class="dd-dept-name">Launch Monitors</span>
+        <span class="dd-dept-count">91 on sale tonight</span>
+        <span class="dd-dept-open">OPEN THE LEDGER →</span>
+      </a>
+      <a class="dd-dept" href="/deals/golf-simulator-deals.html">
+        <span class="dd-dept-name">Simulators</span>
+        <span class="dd-dept-count">350 on sale tonight</span>
+        <span class="dd-dept-open">OPEN THE LEDGER →</span>
+      </a>
+      <a class="dd-dept" href="/deals/golf-practice-deals.html">
+        <span class="dd-dept-name">Practice Gear</span>
+        <span class="dd-dept-count">27 on sale tonight</span>
+        <span class="dd-dept-open">OPEN THE LEDGER →</span>
+      </a>
+      <a class="dd-dept" href="/deals/golf-rangefinder-gps-deals.html">
+        <span class="dd-dept-name">Rangefinders &amp; GPS</span>
+        <span class="dd-dept-count">15 on sale tonight</span>
+        <span class="dd-dept-open">OPEN THE LEDGER →</span>
+      </a>
+      <span class="dd-dept soon">
+        <span class="dd-dept-name">Golf Balls</span>
+        <span class="dd-dept-count">source wiring in</span>
+        <span class="dd-dept-open">COMING SOON</span>
+      </span>
+      <span class="dd-dept soon">
+        <span class="dd-dept-name">Apparel</span>
+        <span class="dd-dept-count">source wiring in</span>
+        <span class="dd-dept-open">COMING SOON</span>
+      </span>
+      <span class="dd-dept soon">
+        <span class="dd-dept-name">Golf Shoes</span>
+        <span class="dd-dept-count">source wiring in</span>
+        <span class="dd-dept-open">COMING SOON</span>
+      </span>
+      <span class="dd-dept soon">
+        <span class="dd-dept-name">Push Carts</span>
+        <span class="dd-dept-count">source wiring in</span>
+        <span class="dd-dept-open">COMING SOON</span>
+      </span>
+    </div>
+    <!-- departments:auto:end -->
+    <p>Balls, apparel, shoes, and push-cart departments wire in as we add sources. If you want the best of the ledger in your inbox once a week, <a class="inline" href="/#sunday-memo">get on the Sunday Memo list</a> — the deals drop is coming to it first.</p>
 
     </div>
   </article>
@@ -288,5 +302,17 @@
 </footer>
 
   <script src="/search.js" defer></script>
+  <script>
+    document.addEventListener('click', function (e) {
+      var a = e.target.closest && e.target.closest('a.dd-buy');
+      if (!a || typeof gtag !== 'function') return;
+      var row = a.closest('.dd-row, .dd-hero');
+      var item = row && row.querySelector('.dd-item');
+      gtag('event', 'deal_click', {
+        item_name: item ? item.textContent.trim() : a.href,
+        page_path: location.pathname
+      });
+    });
+  </script>
 </body>
 </html>

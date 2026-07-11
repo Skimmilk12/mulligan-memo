@@ -1,0 +1,42 @@
+/* Deals Desk components — shared by deals.html and the /deals/ category hubs.
+   Built on the article.css token palette. */
+.dd-disclosure { border: 1.5px solid var(--hairline); background: var(--memo); padding: 12px 16px; font-family: "Courier Prime", monospace; font-size: 0.82rem; letter-spacing: 0.02em; color: var(--pine); margin: 0 0 26px; }
+.dd-stamp { font-family: "Courier Prime", monospace; font-size: 0.8rem; color: var(--pine); border-bottom: 1px dashed var(--dotdash); padding-bottom: 10px; }
+.dd-hero { display: flex; gap: 22px; align-items: flex-start; border: 2px solid var(--ink); background: var(--card); padding: 20px 22px; margin: 26px 0 8px; }
+.dd-seal { flex: 0 0 auto; width: 92px; height: 92px; border-radius: 50%; background: var(--brass); color: var(--cta-ink); border: 3px solid var(--brass-edge); box-shadow: 0 0 0 3px var(--brass), inset 0 0 0 2px rgba(0,0,0,0.15); display: flex; align-items: center; justify-content: center; text-align: center; font-family: "Courier Prime", monospace; font-weight: 700; font-size: 0.78rem; line-height: 1.25; transform: rotate(-6deg); }
+.dd-hero-body { flex: 1 1 auto; min-width: 0; }
+.dd-ledger { border-top: 2px solid var(--ink); }
+.dd-row { border-bottom: 1px solid var(--divider); padding: 18px 2px; }
+.dd-row:hover { background: var(--card); }
+.dd-row-top { display: flex; gap: 10px; align-items: baseline; font-family: "Courier Prime", monospace; font-size: 0.74rem; letter-spacing: 0.06em; text-transform: uppercase; }
+.dd-chip { border: 1px solid var(--hairline); padding: 1px 8px; color: var(--pine); }
+.dd-retailer { color: var(--muted); }
+.dd-item { font-family: Fraunces, serif; font-weight: 600; font-size: 1.25rem; margin: 8px 0 4px; color: var(--ink); }
+.dd-verdict { font-style: italic; color: var(--muted); margin: 4px 0 10px; max-width: 60ch; }
+.dd-row-price { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; }
+.dd-was { text-decoration: line-through; color: var(--muted); font-family: "Courier Prime", monospace; }
+.dd-now { font-family: Fraunces, serif; font-weight: 900; font-size: 1.45rem; color: var(--ink); }
+.dd-pct { font-family: "Courier Prime", monospace; font-weight: 700; color: var(--flag); }
+.dd-buy { font-family: "Courier Prime", monospace; font-weight: 700; font-size: 0.85rem; letter-spacing: 0.05em; background: var(--brass); color: var(--cta-ink); border: 1.5px solid var(--brass-edge); padding: 7px 14px; text-decoration: none; }
+.dd-buy:hover { background: var(--brass-dark); color: #fff; }
+.dd-linktag { font-family: "Courier Prime", monospace; font-size: 0.72rem; color: var(--pine); letter-spacing: 0.04em; }
+.dd-cuts { background: var(--pine-deep); color: var(--cream-dark); padding: 26px 24px; margin: 34px 0; }
+.dd-cuts-label { font-family: "Courier Prime", monospace; font-size: 0.78rem; letter-spacing: 0.14em; color: var(--brass-light); margin: 0 0 14px; }
+.dd-cuts-grid { display: flex; flex-wrap: wrap; gap: 26px; }
+.dd-cut { flex: 1 1 160px; }
+.dd-cut-pct { display: block; font-family: Fraunces, serif; font-weight: 900; font-size: 3.2rem; line-height: 1; color: var(--brass-light); }
+.dd-cut-name { display: block; font-size: 0.86rem; margin-top: 6px; }
+.dd-floor li { margin-bottom: 10px; }
+.dd-how { border: 1.5px dashed var(--hairline); padding: 14px 18px; background: var(--memo); margin: 30px 0; }
+
+/* Department grid (deals.html) */
+.dd-depts { display: grid; grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); gap: 14px; margin: 20px 0 8px; }
+.dd-dept { border: 1.5px solid var(--ink); background: var(--card); padding: 14px 16px; text-decoration: none; display: block; }
+.dd-dept:hover { background: var(--memo); }
+.dd-dept-name { display: block; font-family: Fraunces, serif; font-weight: 600; font-size: 1.05rem; color: var(--ink); }
+.dd-dept-count { display: block; font-family: "Courier Prime", monospace; font-size: 0.76rem; letter-spacing: 0.05em; color: var(--brass-dark); margin-top: 4px; text-transform: uppercase; }
+.dd-dept-open { display: block; font-family: "Courier Prime", monospace; font-size: 0.76rem; letter-spacing: 0.05em; color: var(--pine); margin-top: 8px; }
+.dd-dept.soon { opacity: 0.65; }
+.dd-dept.soon .dd-dept-open { color: var(--muted); }
+
+@media (max-width: 560px) { .dd-hero { flex-direction: column; } .dd-seal { transform: rotate(-6deg) scale(0.9); } }

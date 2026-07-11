@@ -17,11 +17,13 @@ jobs:
           node-version: 20
       - name: Run price bot
         run: node scripts/price-bot.mjs
+      - name: Refresh department hub pages
+        run: node scripts/build-deal-hubs.mjs
       - name: Commit price log
         run: |
           git config user.name "mm-price-bot"
           git config user.email "price-bot@mulliganmemo.com"
-          git add data/
+          git add data/ deals/ deals.html
           if git diff --cached --quiet; then
             echo "no changes"
           else
