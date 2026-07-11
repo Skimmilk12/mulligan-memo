@@ -78,6 +78,8 @@ ${cur.cutting_room_floor.map(f => `      <li><strong>${esc(f.claim)}</strong> â€
 let page = fs.readFileSync(PAGE, 'utf8');
 const re = /(<!-- deals:auto:start -->)[\s\S]*?(<!-- deals:auto:end -->)/;
 if (!re.test(page)) { console.error('markers not found in deals.html'); process.exit(1); }
-page = page.replace(re, `$1${html}    $2`);
+// Replacer FUNCTION, not a string: dollar amounts in deal copy ("$1,099")
+// would otherwise be eaten as $1/$2 capture-group references.
+page = page.replace(re, (_m, start, end) => `${start}${html}    ${end}`);
 fs.writeFileSync(PAGE, page);
 console.log(`deals.html rebuilt: 1 deal of the day + ${cur.deals.length} ledger rows + ${cur.cutting_room_floor.length} kill-list items (checked ${cur.checked_label})`);
