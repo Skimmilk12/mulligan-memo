@@ -9,6 +9,8 @@ import path from 'path';
 
 const ROOT = process.cwd();
 const latest = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'deals-latest.json'), 'utf8'));
+const killlist = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'deals-killlist.json'), 'utf8')).killed;
+const killedUrls = new Set(killlist.map(k => k.url));
 const esc = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 const money = n => '$' + (Number.isInteger(n) ? n.toLocaleString('en-US') : n.toLocaleString('en-US', { minimumFractionDigits: 2 }));
 
@@ -299,12 +301,17 @@ function guardAndInject(file, marker, html) {
   fs.writeFileSync(file, page);
 }
 
-// ---- assign candidates to hubs (first match wins) ----
+// ---- assign candidates to hubs (first match wins); kill list excluded HARD ----
 const buckets = new Map(HUBS.map(h => [h.slug, []]));
+const killedByHub = new Map(HUBS.map(h => [h.slug, []]));
 for (const c of latest.candidates) {
   if (!c.available) continue;
   for (const h of HUBS) {
-    if (h.match(c)) { buckets.get(h.slug).push(c); break; }
+    if (h.match(c)) {
+      if (killedUrls.has(c.url)) killedByHub.get(h.slug).push(c);
+      else buckets.get(h.slug).push(c);
+      break;
+    }
   }
 }
 
@@ -316,11 +323,16 @@ for (const hub of HUBS) {
   const file = path.join(dir, `${hub.slug}.html`);
   if (!fs.existsSync(file)) { fs.writeFileSync(file, shell(hub)); console.log(`created shell: deals/${hub.slug}.html`); }
   const rows = buckets.get(hub.slug).sort((a, b) => b.pct_off - a.pct_off).slice(0, MAX_ROWS);
-  const body = rows.length
+  let body = rows.length
     ? `${stamp}\n\n    <h2><span class="kick">The Ledger</span>${rows.length} verified deal${rows.length === 1 ? '' : 's'} live</h2>\n    <div class="dd-ledger">\n${rows.map(rowHtml).join('\n')}\n    </div>`
     : `${stamp}\n\n    <h2><span class="kick">The Ledger</span>Nothing clears the bar today</h2>\n    <p>The bot found no discounts in this department worth your money overnight — a quiet day is better than a padded one. Check back tomorrow.</p>`;
+  // Department-level kill list: killed items that would have landed in this ledger.
+  const kills = killedByHub.get(hub.slug).map(c => killlist.find(k => k.url === c.url)).filter(Boolean);
+  if (kills.length) {
+    body += `\n\n    <h2><span class="kick">Kill List</span>Left on the cutting-room floor</h2>\n    <p>The loudest “discounts” the bot found in this department did not survive verification:</p>\n    <ul class="dd-floor">\n${kills.map(f => `      <li><strong>${esc(f.claim)}</strong> — ${esc(f.reason)}</li>`).join('\n')}\n    </ul>`;
+  }
   guardAndInject(file, 'hub:auto', body);
-  console.log(`deals/${hub.slug}.html: ${rows.length} rows (of ${buckets.get(hub.slug).length} matched)`);
+  console.log(`deals/${hub.slug}.html: ${rows.length} rows (of ${buckets.get(hub.slug).length} matched, ${kills.length} killed)`);
 }
 
 // ---- departments grid on deals.html ----

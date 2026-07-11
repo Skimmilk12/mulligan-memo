@@ -5,7 +5,13 @@ import path from 'path';
 
 const ROOT = process.cwd();
 const cur = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'deals-curated.json'), 'utf8'));
+const killlist = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'deals-killlist.json'), 'utf8')).killed;
 const PAGE = path.join(ROOT, 'deals.html');
+
+// A curated pick must never be on the kill list.
+for (const d of [cur.deal_of_the_day, ...cur.deals]) {
+  if (killlist.some(k => k.url === d.url)) { console.error(`ABORT: curated deal is on the kill list: ${d.title}`); process.exit(1); }
+}
 
 const esc = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 const money = n => '$' + (Number.isInteger(n) ? n.toLocaleString('en-US') : n.toLocaleString('en-US', { minimumFractionDigits: 2 }));
@@ -70,9 +76,9 @@ ${topCuts.map(d => `        <div class="dd-cut"><span class="dd-cut-pct">${d.pct
     </section>
 
     <h2><span class="kick">Kill List</span>Left on the cutting-room floor</h2>
-    <p>Every morning the bot surfaces the loudest “discounts” on the internet. The loudest ones are usually lying. Today's rejects:</p>
+    <p>Every morning the bot surfaces the loudest “discounts” on the internet. The loudest ones are usually lying. The current rejects — excluded from every page of this desk:</p>
     <ul class="dd-floor">
-${cur.cutting_room_floor.map(f => `      <li><strong>${esc(f.claim)}</strong> — ${esc(f.reason)}</li>`).join('\n')}
+${killlist.filter(k => !k.expired).map(f => `      <li><strong>${esc(f.claim)}</strong> — ${esc(f.reason)}</li>`).join('\n')}
     </ul>
 `;
 
@@ -97,4 +103,4 @@ const re = /(<!-- deals:auto:start -->)[\s\S]*?(<!-- deals:auto:end -->)/;
 // would otherwise be eaten as $1/$2 capture-group references.
 page = page.replace(re, (_m, start, end) => `${start}${html}    ${end}`);
 fs.writeFileSync(PAGE, page);
-console.log(`deals.html rebuilt: 1 deal of the day + ${cur.deals.length} ledger rows + ${cur.cutting_room_floor.length} kill-list items (checked ${cur.checked_label})`);
+console.log(`deals.html rebuilt: 1 deal of the day + ${cur.deals.length} ledger rows + ${killlist.filter(k => !k.expired).length} kill-list items (checked ${cur.checked_label})`);

@@ -58,14 +58,5 @@
       "verdict": "Already own a Mevo+? The Pro Package software unlock — the full 50-plus data parameters plus face impact location — at $650 off is the cheapest we know of to turn it into the tour-data version."
     }
   ],
-  "cutting_room_floor": [
-    {
-      "claim": "“94% off” E6 APEX simulation software ($2,500 → $150)",
-      "reason": "That $2,500 anchor is a commercial-license price no home user ever paid. Against the home license it replaces, the cut is real but far smaller. Fake anchor — skipped."
-    },
-    {
-      "claim": "“89% off” Voice Caddie SC200 practice bundle ($3,098 → $349)",
-      "reason": "The “was” price is a bundle misconfiguration — the SC200 is a ~$300 device on its best day. Skipped."
-    }
-  ]
+  "_killlist_note": "Rejected deals live in data/deals-killlist.json — the single source of truth enforced by BOTH build-deals.mjs and build-deal-hubs.mjs."
 }
