@@ -11,10 +11,11 @@ const esc = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(
 const money = n => '$' + (Number.isInteger(n) ? n.toLocaleString('en-US') : n.toLocaleString('en-US', { minimumFractionDigits: 2 }));
 
 function linkTag(d) {
-  // Affiliate links are marked "(paid link)"; non-affiliate ones say so too — honesty both ways.
+  // FTC: paid links get an adjacent "paid link" marker. Non-affiliate links get
+  // no tag — the best-price-regardless stance lives in the How-it-works box.
   const rel = d.affiliate ? 'nofollow sponsored noopener' : 'nofollow noopener';
-  const tag = d.affiliate ? 'paid link' : 'no commission on this one';
-  return `<a class="dd-buy" href="${esc(d.url)}" rel="${rel}" target="_blank">GET THE DEAL →</a><span class="dd-linktag">${tag}</span>`;
+  const tag = d.affiliate ? '<span class="dd-linktag">paid link</span>' : '';
+  return `<a class="dd-buy" href="${esc(d.url)}" rel="${rel}" target="_blank">GET THE DEAL →</a>${tag}`;
 }
 
 function dealRow(d) {
@@ -75,9 +76,23 @@ ${cur.cutting_room_floor.map(f => `      <li><strong>${esc(f.claim)}</strong> �
     </ul>
 `;
 
+// Guard: generated content must never contain the markers themselves — a
+// corrupted injection here is how the 2026-07-11 page scramble happened.
+if (html.includes('deals:auto:start') || html.includes('deals:auto:end')) {
+  console.error('ABORT: generated html contains marker text'); process.exit(1);
+}
+// Guard: every rendered price must be a complete dollar figure.
+for (const m of html.matchAll(/class="dd-(?:was|now)">([^<]*)</g)) {
+  if (!/^\$[\d,]+(\.\d{2})?$/.test(m[1])) { console.error(`ABORT: malformed price "${m[1]}"`); process.exit(1); }
+}
+
 let page = fs.readFileSync(PAGE, 'utf8');
+const count = s => (page.match(new RegExp(s, 'g')) || []).length;
+if (count('<!-- deals:auto:start -->') !== 1 || count('<!-- deals:auto:end -->') !== 1) {
+  console.error(`ABORT: deals.html shell is corrupted (${count('<!-- deals:auto:start -->')} start / ${count('<!-- deals:auto:end -->')} end markers; need exactly 1 of each). Restore the shell before rebuilding.`);
+  process.exit(1);
+}
 const re = /(<!-- deals:auto:start -->)[\s\S]*?(<!-- deals:auto:end -->)/;
-if (!re.test(page)) { console.error('markers not found in deals.html'); process.exit(1); }
 // Replacer FUNCTION, not a string: dollar amounts in deal copy ("$1,099")
 // would otherwise be eaten as $1/$2 capture-group references.
 page = page.replace(re, (_m, start, end) => `${start}${html}    ${end}`);
