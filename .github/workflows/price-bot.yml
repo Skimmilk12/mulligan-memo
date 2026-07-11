@@ -1,0 +1,30 @@
+name: price-bot
+on:
+  schedule:
+    - cron: '15 10 * * *'   # ~6:15 AM ET during EDT
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  log-prices:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Run price bot
+        run: node scripts/price-bot.mjs
+      - name: Commit price log
+        run: |
+          git config user.name "mm-price-bot"
+          git config user.email "price-bot@mulliganmemo.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "no changes"
+          else
+            git commit -m "price-bot: nightly log $(date -u +%Y-%m-%d)"
+            git push
+          fi
