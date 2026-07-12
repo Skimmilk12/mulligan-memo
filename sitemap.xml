@@ -10,11 +10,6 @@
   <url><loc>https://mulliganmemo.com/golf-balls.html</loc><lastmod>2026-07-11</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://mulliganmemo.com/glossary.html</loc><lastmod>2026-07-11</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://mulliganmemo.com/distance-chart.html</loc><lastmod>2026-07-11</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://mulliganmemo.com/deals.html</loc><lastmod>2026-07-11</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
-  <url><loc>https://mulliganmemo.com/deals/launch-monitor-deals.html</loc><lastmod>2026-07-11</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-  <url><loc>https://mulliganmemo.com/deals/golf-simulator-deals.html</loc><lastmod>2026-07-11</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-  <url><loc>https://mulliganmemo.com/deals/golf-practice-deals.html</loc><lastmod>2026-07-11</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-  <url><loc>https://mulliganmemo.com/deals/golf-rangefinder-gps-deals.html</loc><lastmod>2026-07-11</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
   <url><loc>https://mulliganmemo.com/privacy-policy.html</loc><lastmod>2026-07-11</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
   <url><loc>https://mulliganmemo.com/posts/56-vs-60-degree-wedge-setup.html</loc><lastmod>2026-07-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://mulliganmemo.com/posts/are-refurbished-golf-balls-worth-it.html</loc><lastmod>2026-07-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
@@ -58,6 +53,7 @@
   <url><loc>https://mulliganmemo.com/posts/golf-grip-size-chart.html</loc><lastmod>2026-07-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://mulliganmemo.com/posts/golf-grips-for-arthritic-hands.html</loc><lastmod>2026-07-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://mulliganmemo.com/posts/golf-rangefinder-slope-vs-non-slope.html</loc><lastmod>2026-07-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://mulliganmemo.com/posts/golf-simulator-shed.html</loc><lastmod>2026-07-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://mulliganmemo.com/posts/graphite-vs-steel-shafts-for-irons.html</loc><lastmod>2026-07-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://mulliganmemo.com/posts/handheld-golf-gps-vs-phone-app.html</loc><lastmod>2026-07-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://mulliganmemo.com/posts/how-many-clubs-does-a-beginner-need.html</loc><lastmod>2026-07-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
@@ -72,10 +68,11 @@
   <url><loc>https://mulliganmemo.com/posts/soft-vs-distance-golf-balls.html</loc><lastmod>2026-07-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://mulliganmemo.com/posts/spikeless-vs-spiked-golf-shoes.html</loc><lastmod>2026-07-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://mulliganmemo.com/posts/stand-bag-vs-cart-bag.html</loc><lastmod>2026-07-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://mulliganmemo.com/posts/used-golf-launch-monitor.html</loc><lastmod>2026-07-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://mulliganmemo.com/posts/what-driver-loft-should-i-use.html</loc><lastmod>2026-07-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://mulliganmemo.com/posts/when-do-golf-clubs-go-on-sale.html</loc><lastmod>2026-07-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://mulliganmemo.com/posts/winn-dri-tac-vs-golf-pride-cp2-wrap.html</loc><lastmod>2026-07-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://mulliganmemo.com/memo.html</loc><lastmod>2026-07-11</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://mulliganmemo.com/memo/2026-07-05.html</loc><lastmod>2026-07-05</lastmod><changefreq>yearly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://mulliganmemo.com/memo/2026-07-12.html</loc><lastmod>2026-07-12</lastmod><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://mulliganmemo.com/memo/2026-07-05.html</loc><lastmod>2026-07-11</lastmod><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://mulliganmemo.com/memo/2026-07-12.html</loc><lastmod>2026-07-11</lastmod><changefreq>yearly</changefreq><priority>0.5</priority></url>
 </urlset>
