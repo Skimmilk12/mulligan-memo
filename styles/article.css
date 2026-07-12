@@ -700,6 +700,14 @@ figure.fig .frame {
 }
 figure.fig svg { display: block; width: 100%; height: auto; }
 figure.fig img { display: block; width: 100%; height: auto; }
+.desknote {
+  margin: 10px 0 0;
+  font-family: var(--mono);
+  font-size: 12.5px;
+  letter-spacing: 0.04em;
+  color: var(--pine);
+  opacity: 0.85;
+}
 figure.fig figcaption {
   border-top: 1px dashed var(--dotdash);
   margin-top: 14px;
