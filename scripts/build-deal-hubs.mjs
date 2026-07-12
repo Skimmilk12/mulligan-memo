@@ -35,7 +35,7 @@ const HUBS = [
     title: 'Golf Simulator Deals: Screens, Projectors & Packages on Sale',
     h1: 'Golf Simulator Deals',
     dek: 'Simulator packages, impact screens, projectors and enclosures genuinely on sale — verified nightly against retailer-listed prices.',
-    match: c => /simulat|projector|impact screen|enclosure|studio|simulation software/i.test(c.type + ' ' + c.title),
+    match: c => /simulat|projector|impact screen|enclosure|studio/i.test(c.type + ' ' + c.title),
     intro: `<p class="lead-p">A home simulator is really four purchases wearing a trench coat: the launch monitor, the screen and enclosure, the projector, and the software. The good news is they rarely go on sale at the same time — which means a patient builder can assemble a bay one verified deal at a time. Screens are the sneaky one: they're consumables that wear out with use, so a genuine half-price clearance screen is worth buying <em>before</em> yours dies.</p>
 <p>One caution that repeats across this department: clearance screens and enclosures come in odd sizes. Measure your space twice before the BUY click — a screen that doesn't fit your frame is not a deal at any percentage.</p>`,
     related: [
@@ -302,10 +302,19 @@ function guardAndInject(file, marker, html) {
 }
 
 // ---- assign candidates to hubs (first match wins); kill list excluded HARD ----
+// NOT_GOLF_GEAR: audit P0-5 feed-pollution fix — fitness watches, powersports
+// navigators, control boxes and software-only upgrades matched the loose
+// category regexes (they contain "gps"/"simulat") but are not golf gear deals.
+const NOT_GOLF_GEAR = /\b(polar|tread|powersport|smartwatch|fitness watch|instinct|fenix|venu|forerunner|vivoactive|control box|controller box|software upgrade|license upgrade|subscription)\b/i;
+// Variant dedupe: near-identical listings (e.g. nine Big Moss size/color
+// variants) collapse to the best-discount one per normalized model key.
+const modelKey = (c) => c.title.toLowerCase().replace(/\b(\d+['"x×w]?\s*){1,3}$/,'').replace(/[^a-z0-9 ]/g,'').split(/\s+/).slice(0, 4).join(' ');
 const buckets = new Map(HUBS.map(h => [h.slug, []]));
 const killedByHub = new Map(HUBS.map(h => [h.slug, []]));
+let polluted = 0;
 for (const c of latest.candidates) {
   if (!c.available) continue;
+  if (NOT_GOLF_GEAR.test(c.title + ' ' + c.type)) { polluted++; continue; }
   for (const h of HUBS) {
     if (h.match(c)) {
       if (killedUrls.has(c.url)) killedByHub.get(h.slug).push(c);
@@ -313,6 +322,17 @@ for (const c of latest.candidates) {
       break;
     }
   }
+}
+if (polluted) console.log(`excluded ${polluted} non-golf-gear candidate(s) (NOT_GOLF_GEAR filter)`);
+for (const [slug, arr] of buckets) {
+  const seen = new Map();
+  for (const c of arr.sort((a, b) => b.pct_off - a.pct_off)) {
+    const k = modelKey(c);
+    if (!seen.has(k)) seen.set(k, c);
+  }
+  const deduped = [...seen.values()];
+  if (deduped.length !== arr.length) console.log(`${slug}: deduped ${arr.length} -> ${deduped.length} (variant collapse)`);
+  buckets.set(slug, deduped);
 }
 
 const dir = path.join(ROOT, 'deals');
@@ -340,7 +360,7 @@ const cells = HUBS.map(h => {
   const n = buckets.get(h.slug).length;
   return `      <a class="dd-dept" href="/deals/${h.slug}.html">
         <span class="dd-dept-name">${esc(h.nav)}</span>
-        <span class="dd-dept-count">${n} on sale tonight</span>
+        <span class="dd-dept-count">top ${Math.min(n, MAX_ROWS)} shown of ${n} scanned sale candidates</span>
         <span class="dd-dept-open">OPEN THE LEDGER →</span>
       </a>`;
 }).concat(COMING_SOON.map(name => `      <span class="dd-dept soon">
