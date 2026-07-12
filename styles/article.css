@@ -699,6 +699,7 @@ figure.fig .frame {
   box-shadow: 7px 7px 0 rgba(27,42,32,0.12);
 }
 figure.fig svg { display: block; width: 100%; height: auto; }
+figure.fig img { display: block; width: 100%; height: auto; }
 figure.fig figcaption {
   border-top: 1px dashed var(--dotdash);
   margin-top: 14px;
