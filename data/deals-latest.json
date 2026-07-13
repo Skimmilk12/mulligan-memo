@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-07-12T11:31:32.639Z",
- "date": "2026-07-12",
+ "generated_at": "2026-07-13T12:42:18.258Z",
+ "date": "2026-07-13",
  "sources": [
   {
    "retailer": "PlayBetter",
    "status": "ok",
-   "on_sale_items": 216
+   "on_sale_items": 218
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -2520,6 +2520,28 @@
    "pct_off": 18,
    "available": true,
    "url": "https://www.topshelfgolf.com/products/foresight-sports-gc3-perfectbay-golf-simulator-package"
+  },
+  {
+   "retailer": "PlayBetter",
+   "title": "Garmin Approach J1 Junior Golf GPS Watch",
+   "vendor": "Garmin",
+   "type": "Golf GPS Watch",
+   "price": 249.99,
+   "compare_at": 299.99,
+   "pct_off": 17,
+   "available": true,
+   "url": "https://www.playbetter.com/products/garmin-approach-j1-golf-gps-watch"
+  },
+  {
+   "retailer": "PlayBetter",
+   "title": "Garmin Bounce 2 Kids GPS Smartwatch",
+   "vendor": "Garmin",
+   "type": "Fitness GPS Watch",
+   "price": 249.99,
+   "compare_at": 299.99,
+   "pct_off": 17,
+   "available": true,
+   "url": "https://www.playbetter.com/products/garmin-bounce-2-kids-gps-smartwatch"
   },
   {
    "retailer": "PlayBetter",
