@@ -1,6 +1,6 @@
 {
-  "checked_at": "2026-07-11T15:45:00Z",
-  "checked_label": "July 11, 2026",
+  "checked_at": "2026-07-13T12:42:00Z",
+  "checked_label": "July 13, 2026",
   "deal_of_the_day": {
     "title": "FlightScope Mevo+ Launch Monitor",
     "retailer": "Shop Indoor Golf",
@@ -10,19 +10,19 @@
     "pct_off": 52,
     "url": "https://shopindoorgolf.com/products/flightscope-mevo-plus",
     "affiliate": false,
-    "verdict": "The Mevo+ has been the serious-amateur launch monitor for years, and it simply does not visit $1,099. At better than half off its usual ticket, this is the kind of price that used to require waiting for Black Friday — and even then, rarely on this unit."
+    "verdict": "Still the best single deal on the board three mornings running: the Mevo+ has been the serious-amateur launch monitor for years, and better than half off its usual $2,299 is the kind of price that used to mean waiting for Black Friday — and even then, rarely on this unit."
   },
   "deals": [
     {
-      "title": "SkyTrak+ Launch Monitor & Simulator (Certified Pre-Owned)",
+      "title": "SkyTrak+ SimStudio ESSENTIALS Package (Complete Studio)",
       "retailer": "PlayBetter",
-      "category": "Launch Monitors",
-      "price": 1350,
-      "compare_at": 2495,
-      "pct_off": 46,
-      "url": "https://www.playbetter.com/products/skytrak-golf-launch-monitor-certified-refurbished",
+      "category": "Simulators",
+      "price": 3495,
+      "compare_at": 6095,
+      "pct_off": 43,
+      "url": "https://www.playbetter.com/products/skytrak-plus-with-playbetter-simstudio-essentials-package-golf-simulator-studio",
       "affiliate": false,
-      "verdict": "Certified pre-owned from the retailer itself, not a marketplace gamble. If you wanted a SkyTrak+ but not the $2,500 sticker, this is the honest way in."
+      "verdict": "A whole bay in one box — SkyTrak+ launch monitor, impact screen, enclosure, hitting mat, projector and a year of Foresight course play — for $2,600 under its usual ask. If you'd rather buy the room than assemble it deal by deal, this is the honest all-in number."
     },
     {
       "title": "SwingBay Simulator Screen & Enclosure",
@@ -58,5 +58,5 @@
       "verdict": "Already own a Mevo+? The Pro Package software unlock — the full 50-plus data parameters plus face impact location — at $650 off is the cheapest we know of to turn it into the tour-data version."
     }
   ],
-  "_killlist_note": "Rejected deals live in data/deals-killlist.json — the single source of truth enforced by BOTH build-deals.mjs and build-deal-hubs.mjs."
+  "_killlist_note": "Rejected deals live in data/deals-killlist.json — the single source of truth enforced by BOTH build-deals.mjs and build-deal-hubs.mjs. Note (Jul 13): the SkyTrak+ Certified Pre-Owned at $1,350 was dropped from the board because the nightly bot no longer confirms it discounted/available — re-verify before restoring."
 }
