@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-07-13T12:42:18.258Z",
- "date": "2026-07-13",
+ "generated_at": "2026-07-14T11:45:06.054Z",
+ "date": "2026-07-14",
  "sources": [
   {
    "retailer": "PlayBetter",
@@ -179,6 +179,17 @@
    "url": "https://rainorshinegolf.com/products/panasonic-pt-vmz62u7-6500-lumen-wuxga-standard-throw-golf-simulator-projector"
   },
   {
+   "retailer": "PlayBetter",
+   "title": "SkyTrak+ with PlayBetter SimStudio™ BYO (Build Your Own) Package – Custom Home Golf Simulator Studio Builder with Impact Screen, Enclosure, Optional Mats, Projector & 1-Year FREE Foresight Course Play",
+   "vendor": "SkyTrak",
+   "type": "Golf Simulator Studio Package",
+   "price": 2995,
+   "compare_at": 5845,
+   "pct_off": 49,
+   "available": true,
+   "url": "https://www.playbetter.com/products/skytrak-playbetter-simstudio-byo-home-golf-studio-package"
+  },
+  {
    "retailer": "Shop Indoor Golf",
    "title": "84\" x 84\" Premium Screen (Clearance)",
    "vendor": "Shop Indoor Golf",
@@ -235,7 +246,7 @@
   },
   {
    "retailer": "PlayBetter",
-   "title": "SkyTrak ST MAX Golf Launch Monitor and Simulator (Certified Pre-Owned)",
+   "title": "SkyTrak ST MAX Golf Launch Monitor and Simulator (Certified Pre-Owned) with 1-Year FREE Foresight Course Play Package",
    "vendor": "SkyTrak",
    "type": "Golf Launch Monitor & Simulator",
    "price": 1595,
@@ -268,7 +279,7 @@
   },
   {
    "retailer": "PlayBetter",
-   "title": "SkyTrak+ Golf Launch Monitor & Simulator (Certified Pre-Owned)",
+   "title": "SkyTrak+ Golf Launch Monitor & Simulator (Certified Pre-Owned) with 1-Year FREE Foresight Course Play Package",
    "vendor": "SkyTrak",
    "type": "Golf Launch Monitor & Simulator",
    "price": 1350,
@@ -279,14 +290,14 @@
   },
   {
    "retailer": "PlayBetter",
-   "title": "SkyTrak+ with PlayBetter SimStudio™ BYO (Build Your Own) Package – Custom Home Golf Simulator Studio Builder with Impact Screen, Enclosure, Optional Mats, Projector & 1-Year FREE Foresight Course Play",
+   "title": "SkyTrak+ with PlayBetter SimStudio™ ESSENTIALS Package | Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Projector, Protective Case & 1-Year FREE Foresight Course Play",
    "vendor": "SkyTrak",
    "type": "Golf Simulator Studio Package",
-   "price": 2995,
-   "compare_at": 5595,
-   "pct_off": 46,
+   "price": 3495,
+   "compare_at": 6345,
+   "pct_off": 45,
    "available": true,
-   "url": "https://www.playbetter.com/products/skytrak-playbetter-simstudio-byo-home-golf-studio-package"
+   "url": "https://www.playbetter.com/products/skytrak-plus-with-playbetter-simstudio-essentials-package-golf-simulator-studio"
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -345,17 +356,6 @@
   },
   {
    "retailer": "PlayBetter",
-   "title": "SkyTrak+ with PlayBetter SimStudio™ ESSENTIALS Package | Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Projector, Protective Case & 1-Year FREE Foresight Course Play",
-   "vendor": "SkyTrak",
-   "type": "Golf Simulator Studio Package",
-   "price": 3495,
-   "compare_at": 6095,
-   "pct_off": 43,
-   "available": true,
-   "url": "https://www.playbetter.com/products/skytrak-plus-with-playbetter-simstudio-essentials-package-golf-simulator-studio"
-  },
-  {
-   "retailer": "PlayBetter",
    "title": "PlayMakar Dual USB Adapter & Charging Cables",
    "vendor": "PlayMakar",
    "type": "Recovery Accessories",
@@ -408,6 +408,17 @@
    "pct_off": 43,
    "available": true,
    "url": "https://rainorshinegolf.com/products/pansonic-pt-vmz6st-8000-lumen-wuxga-short-throw-golf-simulator-projector"
+  },
+  {
+   "retailer": "PlayBetter",
+   "title": "SkyTrak+ with PlayBetter SimStudio™ COMPLETE Package | Golf Simulator Studio with Impact Screen, Enclosure, Side Barriers, Hitting/Putting Mats, Projector, Protective Case & 1-Year FREE Foresight Course Play",
+   "vendor": "SkyTrak",
+   "type": "Golf Simulator Studio Package",
+   "price": 3995,
+   "compare_at": 6845,
+   "pct_off": 42,
+   "available": true,
+   "url": "https://www.playbetter.com/products/skytrak-plus-golf-simulator-studio-package-playbetter-simstudio-with-impact-screen-enclosure-hitting-putting-mats-projector"
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -496,17 +507,6 @@
    "pct_off": 40,
    "available": true,
    "url": "https://rainorshinegolf.com/products/foresight-sports-quadmax-launch-monitor"
-  },
-  {
-   "retailer": "PlayBetter",
-   "title": "SkyTrak+ with PlayBetter SimStudio™ COMPLETE Package | Golf Simulator Studio with Impact Screen, Enclosure, Side Barriers, Hitting/Putting Mats, Projector, Protective Case & 1-Year FREE Foresight Course Play",
-   "vendor": "SkyTrak",
-   "type": "Golf Simulator Studio Package",
-   "price": 3995,
-   "compare_at": 6595,
-   "pct_off": 39,
-   "available": true,
-   "url": "https://www.playbetter.com/products/skytrak-plus-golf-simulator-studio-package-playbetter-simstudio-with-impact-screen-enclosure-hitting-putting-mats-projector"
   },
   {
    "retailer": "PlayBetter",
