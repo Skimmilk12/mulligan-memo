@@ -1618,3 +1618,31 @@ footer {
 .dispatches li { margin:5px 0; }
 .dispatches a { color:var(--pine); text-decoration:none; border-bottom:1px solid var(--line); }
 .dispatches a:hover { color:var(--flag); }
+
+/* Answer-first restructure (Codex spec, 2026-07-16) */
+.disclose { margin-bottom: 14px; }
+.disclose + .tldr { margin: 0 0 18px; }
+.tldr + .byline { margin: 0 0 10px; }
+.byline + .desknote { margin: 0 0 18px; }
+
+details.toc { padding: 0; margin: 18px 0 6px; }
+details.toc summary {
+  list-style: none; cursor: pointer; padding: 14px 18px;
+  display: flex; align-items: center;
+  font-family: var(--mono); font-size: 13px; font-weight: 700;
+  letter-spacing: .16em; text-transform: uppercase; color: var(--ink);
+}
+details.toc summary::-webkit-details-marker { display: none; }
+details.toc summary::after {
+  content: "+"; margin-left: auto; color: var(--brass-dark);
+  font-size: 20px; line-height: 1; transition: transform .18s ease;
+}
+details.toc[open] summary { border-bottom: 1px dotted var(--dotdash); }
+details.toc[open] summary::after { transform: rotate(45deg); }
+details.toc summary:focus-visible { outline: 2px solid var(--flag); outline-offset: 3px; }
+details.toc nav { padding: 4px 22px 20px; }
+
+@media (max-width: 700px) {
+  details.toc summary { padding: 12px 14px; }
+  details.toc nav { padding: 2px 14px 16px; }
+}
