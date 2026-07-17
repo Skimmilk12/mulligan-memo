@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-07-16T11:54:39.807Z",
- "date": "2026-07-16",
+ "generated_at": "2026-07-17T11:41:22.808Z",
+ "date": "2026-07-17",
  "sources": [
   {
    "retailer": "PlayBetter",
    "status": "ok",
-   "on_sale_items": 201
+   "on_sale_items": 202
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -961,17 +961,6 @@
   },
   {
    "retailer": "Shop Indoor Golf",
-   "title": "Bushnell Launch Pro Golf Launch Monitor",
-   "vendor": "Bushnell Golf",
-   "type": "Launch Monitor",
-   "price": 2499.99,
-   "compare_at": 3499.99,
-   "pct_off": 29,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/bushnell-launch-pro"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
    "title": "Foam Undulation Kit",
    "vendor": "Shop Indoor Golf",
    "type": "Accessory",
@@ -1456,7 +1445,7 @@
   },
   {
    "retailer": "PlayBetter",
-   "title": "Uneekor EYE XR SportScreen Vanish LITE Semi-Retractable Golf Studio Complete Package | Home Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Putting Turf & Projector",
+   "title": "Uneekor EYE XR SportScreen Vanish LITE Hybrid-Retractable Golf Studio Complete Package | Home Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Putting Turf & Projector",
    "vendor": "SportScreen",
    "type": "Retractable Golf Simulator Studio Package",
    "price": 10398.97,
@@ -2468,7 +2457,7 @@
   },
   {
    "retailer": "PlayBetter",
-   "title": "SkyTrak+ SportScreen Vanish LITE Semi-Retractable Golf Studio Complete Package | Home Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Putting Turf, Projector & 1-Year FREE Foresight Course Play",
+   "title": "SkyTrak+ SportScreen Vanish LITE Hybrid-Retractable Golf Studio Complete Package | Home Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Putting Turf, Projector & 1-Year FREE Foresight Course Play",
    "vendor": "SportScreen",
    "type": "Retractable Golf Simulator Studio Package",
    "price": 6044.97,
@@ -2633,6 +2622,17 @@
   },
   {
    "retailer": "Shop Indoor Golf",
+   "title": "Bushnell Launch Pro Golf Launch Monitor",
+   "vendor": "Bushnell Golf",
+   "type": "Launch Monitor",
+   "price": 2999.99,
+   "compare_at": 3499.99,
+   "pct_off": 14,
+   "available": true,
+   "url": "https://shopindoorgolf.com/products/bushnell-launch-pro"
+  },
+  {
+   "retailer": "Shop Indoor Golf",
    "title": "SL2 Active Hybrid GPS Laser Rangefinder",
    "vendor": "Voice Caddie",
    "type": "Golf Rangefinder",
@@ -2743,7 +2743,7 @@
   },
   {
    "retailer": "PlayBetter",
-   "title": "SkyTrak ST MAX SportScreen Vanish LITE Semi-Retractable Golf Studio Complete Package | Home Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Putting Turf & Projector",
+   "title": "SkyTrak ST MAX SportScreen Vanish LITE Hybrid-Retractable Golf Studio Complete Package | Home Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Putting Turf & Projector",
    "vendor": "SportScreen",
    "type": "Retractable Golf Simulator Studio Package",
    "price": 6544.97,
@@ -3491,7 +3491,7 @@
   },
   {
    "retailer": "PlayBetter",
-   "title": "Uneekor EYE XO2 SportScreen Vanish LITE Semi-Retractable Golf Studio Complete Package | Home Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Putting Turf & Projector",
+   "title": "Uneekor EYE XO2 SportScreen Vanish LITE Hybrid-Retractable Golf Studio Complete Package | Home Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Putting Turf & Projector",
    "vendor": "SportScreen",
    "type": "Retractable Golf Simulator Studio Package",
    "price": 15899.97,
@@ -4305,6 +4305,17 @@
   },
   {
    "retailer": "PlayBetter",
+   "title": "Garmin Approach R50 (Certified Pre-Owned) with PlayBetter SimStudio™ COMPLETE Package | Golf Simulator Studio with Impact Screen, Enclosure, Side Barriers, Hitting/Putting Mats, Projector & Wireless HDMI Transmitter",
+   "vendor": "Garmin",
+   "type": "Golf Simulator Studio Package",
+   "price": 7990,
+   "compare_at": 8490,
+   "pct_off": 6,
+   "available": true,
+   "url": "https://www.playbetter.com/products/garmin-approach-r50-certified-refurbished-playbetter-simstudio-complete-package"
+  },
+  {
+   "retailer": "PlayBetter",
    "title": "Full Swing KIT with PlayBetter SimStudio™ BYO (Build Your Own) Package – Custom Home Golf Simulator Studio Builder with Impact Screen, Enclosure, Optional Mats, Projector & More",
    "vendor": "Full Swing Golf",
    "type": "Golf Simulator Studio Package",
@@ -4514,7 +4525,7 @@
   },
   {
    "retailer": "PlayBetter",
-   "title": "TruGolf LaunchBox SportScreen Vanish LITE Semi-Retractable Golf Studio Complete Package | Home Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Putting Turf & Projector",
+   "title": "TruGolf LaunchBox SportScreen Vanish LITE Hybrid-Retractable Golf Studio Complete Package | Home Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Putting Turf & Projector",
    "vendor": "SportScreen",
    "type": "Retractable Golf Simulator Studio Package",
    "price": 7978.97,
@@ -5075,7 +5086,7 @@
   },
   {
    "retailer": "PlayBetter",
-   "title": "Rapsodo MLM2PRO SportScreen Vanish LITE Semi-Retractable Golf Studio Complete Package | Home Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Putting Turf & Projector",
+   "title": "Rapsodo MLM2PRO SportScreen Vanish LITE Hybrid-Retractable Golf Studio Complete Package | Home Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Putting Turf & Projector",
    "vendor": "SportScreen",
    "type": "Retractable Golf Simulator Studio Package",
    "price": 5499.96,
