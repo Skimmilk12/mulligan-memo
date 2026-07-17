@@ -1582,14 +1582,46 @@ footer {
   .desklog .dl-row { grid-template-columns: 74px 1fr; gap: 10px; }
   .refcard .rc-body { align-items: flex-start; }
 }
+/* Mobile nav drawer (NAV-SPEC, Codex 2026-07-17) — base rules */
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; border: 0; }
+.mm-nav-toggle, .mm-mobile-row { display: none; }
+.mm-nav a:focus-visible, .mm-brand:focus-visible, .mm-search input:focus-visible { outline: 2px solid var(--flag); outline-offset: 3px; }
+
 @media (max-width: 700px) {
-  .mm-nav { position: static; }
-  .mm-nav a { padding: 9px 10px; }
-  .mm-search { padding: 6px 12px 10px; margin-left: 0; width: 100%; }
+  .mm-topbar { display: none; }
+  .bar { padding: 10px 20px; }
+  .mm-nav { position: sticky; top: 0; }
+  .mm-nav-toggle {
+    display: block; position: absolute; width: 1px; height: 1px; margin: -1px;
+    overflow: hidden; clip-path: inset(50%);
+  }
+  .mm-mobile-row {
+    display: flex; height: 54px; padding: 0 16px; align-items: center;
+    justify-content: space-between;
+  }
+  .mm-mobile-brand { font: 800 23px/1 var(--display); color: var(--ink); text-decoration: none; }
+  .mm-menu-label {
+    display: flex; min-width: 72px; min-height: 44px; align-items: center;
+    justify-content: center; border-left: 1px solid var(--divider);
+    font: 700 12.5px/1 var(--mono); letter-spacing: .14em; cursor: pointer;
+  }
+  .mm-menu-word::after { content: "MENU"; }
+  .mm-nav-toggle:checked ~ .mm-mobile-row .mm-menu-word::after { content: "CLOSE"; }
+  .mm-nav-toggle:focus-visible ~ .mm-mobile-row .mm-menu-label { outline: 2px solid var(--flag); outline-offset: -3px; }
+  .mm-nav-toggle:not(:checked) ~ .mm-nav-in { display: none; }
+  .mm-nav-toggle:checked ~ .mm-nav-in {
+    display: grid; grid-template-columns: 1fr 1fr;
+    max-height: calc(100vh - 54px); max-height: calc(100dvh - 54px);
+    overflow-y: auto; overscroll-behavior: contain; border-top: 1px solid var(--divider);
+  }
+  .mm-nav-in > a { display: flex; align-items: center; min-height: 48px; padding: 10px 16px; border-bottom: 1px solid var(--divider); }
+  .mm-nav a + a { border-left: 0; }
+  .mm-nav-in > a:nth-of-type(odd) { border-right: 1px solid var(--divider); }
+  .mm-search { grid-column: 1 / -1; width: 100%; margin: 0; padding: 12px 16px; }
   .mm-search input { width: 100%; }
+  .mm-search-results { left: 16px; right: 16px; width: auto; }
   body { font-size: 17px; }
   .wrap { padding: 0 20px 24px; }
-  .bar, .mm-topbar { padding: 10px 20px; }
   footer { padding: 36px 20px 26px; }
 }
 

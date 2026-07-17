@@ -143,7 +143,15 @@ function shell(hub) {
     <span id="mm-date">EST. 2026</span>
   </div>
   <nav class="mm-nav" aria-label="Primary">
-    <div class="mm-nav-in">
+    <input class="mm-nav-toggle" id="mm-nav-toggle" type="checkbox" aria-controls="primary-menu">
+    <div class="mm-mobile-row">
+      <a class="mm-mobile-brand" href="/">Mulligan Memo</a>
+      <label class="mm-menu-label" for="mm-nav-toggle">
+        <span class="sr-only">Toggle primary menu</span>
+        <span class="mm-menu-word" aria-hidden="true"></span>
+      </label>
+    </div>
+    <div class="mm-nav-in" id="primary-menu">
       <a href="/beginners.html">BEGINNERS</a>
       <a href="/clubs.html">CLUBS</a>
       <a href="/tech.html">TECH</a>
@@ -155,7 +163,7 @@ function shell(hub) {
       <a href="/author.html">THE DESK</a>
       <a href="/about.html">ABOUT</a>
       <form class="mm-search" role="search" onsubmit="return false;">
-        <label for="archive-search">⌕</label>
+        <label for="archive-search"><span aria-hidden="true">⌕</span><span class="sr-only">Search the archive</span></label>
         <input id="archive-search" type="search" placeholder="SEARCH THE ARCHIVE…" autocomplete="off">
         <div class="mm-search-results" id="archive-results"></div>
       </form>
@@ -368,5 +376,5 @@ const cells = HUBS.map(h => {
         <span class="dd-dept-count">source wiring in</span>
         <span class="dd-dept-open">COMING SOON</span>
       </span>`));
-guardAndInject(path.join(ROOT, 'deals.html'), 'departments:auto', `    <div class="dd-depts">\n${cells.join('\n')}\n    </div>`);
+guardAndInject(path.join(ROOT, 'deals.html'), 'departments:auto', `    <div class="dd-depts" id="dd-departments">\n${cells.join('\n')}\n    </div>`);
 console.log(`deals.html departments grid: ${HUBS.length} open + ${COMING_SOON.length} coming soon`);
