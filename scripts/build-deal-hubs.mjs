@@ -1,4 +1,4 @@
-// Builds/refreshes the /deals/ category hub pages from data/deals-latest.json,
+﻿// Builds/refreshes the /deals/ category hub pages from data/deals-latest.json,
 // and renders the departments grid on deals.html.
 // - First run writes each hub shell if the file doesn't exist yet.
 // - Every run refreshes ONLY the content between the auto markers (hand edits
@@ -221,7 +221,7 @@ ${hub.related.map(([href, label]) => `      <li><a class="inline" href="${href}"
           <li><a href="/deals.html">The Deals Desk</a></li>
           <li><a href="/distance-chart.html">Club Distance Chart</a></li>
           <li><a href="/glossary.html">Golf Glossary</a></li>
-          <li><a href="/about.html">How We Pick</a></li>
+          <li><a href="/about.html">About</a></li>
           <li><a href="/privacy-policy.html">Privacy &amp; Disclosure</a></li>
         </ul>
       </div>
