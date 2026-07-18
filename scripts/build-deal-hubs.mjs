@@ -88,6 +88,7 @@ function shell(hub) {
   <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
   <link rel="canonical" href="https://mulliganmemo.com/deals/${hub.slug}.html" />
   <meta name="p:domain_verify" content="07e415f0e59eb6cc59d578a5b8f4648a" />
+  <meta name='impact-site-verification' value='80248b4c-2d8c-4778-866a-9634568a7419'>
   <title>${esc(hub.title)} — Mulligan Memo</title>
   <meta name="description" content="${esc(hub.dek)}" />
 
@@ -138,9 +139,7 @@ function shell(hub) {
 <body>
 
   <div class="mm-topbar">
-    <span>✶ THE GEAR DESK</span>
     <a class="mm-brand" href="/">Mulligan Memo</a>
-    <span id="mm-date">EST. 2026</span>
   </div>
   <nav class="mm-nav" aria-label="Primary">
     <input class="mm-nav-toggle" id="mm-nav-toggle" type="checkbox" aria-controls="primary-menu">
@@ -203,7 +202,6 @@ ${hub.related.map(([href, label]) => `      <li><a class="inline" href="${href}"
   <div class="mm-foot-in">
     <div class="mm-foot-brand">
       <a class="mm-brand" href="/">Mulligan Memo</a>
-      <p class="mm-foot-tag">The Independent Golf Gear Desk · Est. 2026</p>
     </div>
     <div class="mm-foot-rule"></div>
     <div class="mm-foot-grid">
@@ -248,15 +246,9 @@ ${hub.related.map(([href, label]) => `      <li><a class="inline" href="${href}"
         </ul>
       </div>
     </div>
-    <div class="mm-foot-badges">
-      <span class="badge">Independent</span>
-      <span class="badge">Reader-Supported</span>
-      <span class="badge">Never Sponsored</span>
-    </div>
     <p class="fdisc">When you buy through links on the Memo we may earn a small commission — it never changes the pick. As an Amazon Associate, we earn from qualifying purchases.</p>
     <div class="mm-foot-bottom">
-      <span>© 2026 Mulligan Memo · The Research Desk</span>
-      <span>Set in Fraunces &amp; Newsreader · Printed on Parchment №2</span>
+      <span>© 2026 Mulligan Memo</span>
     </div>
   </div>
 </footer>
