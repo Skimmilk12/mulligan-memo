@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-07-19T11:30:17.248Z",
- "date": "2026-07-19",
+ "generated_at": "2026-07-21T12:00:44.100Z",
+ "date": "2026-07-21",
  "sources": [
   {
    "retailer": "PlayBetter",
    "status": "ok",
-   "on_sale_items": 202
+   "on_sale_items": 204
   },
   {
    "retailer": "Shop Indoor Golf",
    "status": "ok",
-   "on_sale_items": 263
+   "on_sale_items": 256
   },
   {
    "retailer": "Rain or Shine Golf",
@@ -334,17 +334,6 @@
   },
   {
    "retailer": "PlayBetter",
-   "title": "FlightScope Pro Package and Face Impact Location",
-   "vendor": "FlightScope",
-   "type": "Golf Launch Monitor Software",
-   "price": 850,
-   "compare_at": 1499,
-   "pct_off": 43,
-   "available": true,
-   "url": "https://www.playbetter.com/products/flightscope-pro-package-and-face-impact-location"
-  },
-  {
-   "retailer": "PlayBetter",
    "title": "PlayMakar Dual USB Adapter & Charging Cables",
    "vendor": "PlayMakar",
    "type": "Recovery Accessories",
@@ -353,17 +342,6 @@
    "pct_off": 43,
    "available": true,
    "url": "https://www.playbetter.com/products/playmakar-dual-usb-adapter-charging-cables"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
-   "title": "FlightScope MEVO+ Pro Package & Face Impact Bundle",
-   "vendor": "Flightscope",
-   "type": "Golf Simulation Software",
-   "price": 850,
-   "compare_at": 1499,
-   "pct_off": 43,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/flightscope-mevo-pro-package-face-impact-bundle"
   },
   {
    "retailer": "Rain or Shine Golf",
@@ -454,28 +432,6 @@
    "url": "https://www.playbetter.com/products/skytrak-plus-golf-launch-monitor-simulator"
   },
   {
-   "retailer": "PlayBetter",
-   "title": "FlightScope Face Impact Location Upgrade (Software Only)",
-   "vendor": "FlightScope",
-   "type": "Golf Launch Monitor Software",
-   "price": 299,
-   "compare_at": 499,
-   "pct_off": 40,
-   "available": true,
-   "url": "https://www.playbetter.com/products/flightscope-face-impact-location-software-upgrade"
-  },
-  {
-   "retailer": "PlayBetter",
-   "title": "FlightScope Pro Package Upgrade (Software Only)",
-   "vendor": "FlightScope",
-   "type": "Golf Launch Monitor Software",
-   "price": 599,
-   "compare_at": 1000,
-   "pct_off": 40,
-   "available": true,
-   "url": "https://www.playbetter.com/products/flightscope-mevo-plus-pro-package-upgrade"
-  },
-  {
    "retailer": "Shop Indoor Golf",
    "title": "SkyTrak+ Launch Monitor",
    "vendor": "SkyTrak",
@@ -485,28 +441,6 @@
    "pct_off": 40,
    "available": true,
    "url": "https://shopindoorgolf.com/products/skytrak-plus-launch-monitor"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
-   "title": "Face Impact Location for MEVO+ Pro Package",
-   "vendor": "Flightscope",
-   "type": "Golf Simulation Software",
-   "price": 299,
-   "compare_at": 499,
-   "pct_off": 40,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/face-impact-location-for-mevo-pro-package"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
-   "title": "FlightScope MEVO+ Pro Package",
-   "vendor": "Flightscope",
-   "type": "Golf Simulation Software",
-   "price": 599,
-   "compare_at": 1000,
-   "pct_off": 40,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/flightscope-mevo-pro-package"
   },
   {
    "retailer": "PlayBetter",
@@ -639,6 +573,17 @@
    "pct_off": 36,
    "available": true,
    "url": "https://shopindoorgolf.com/products/skytrak-max-net-practice-bundle"
+  },
+  {
+   "retailer": "Shop Indoor Golf",
+   "title": "FlightScope MEVO+ Pro Package & Face Impact Bundle",
+   "vendor": "Flightscope",
+   "type": "Golf Simulation Software",
+   "price": 975,
+   "compare_at": 1500,
+   "pct_off": 35,
+   "available": true,
+   "url": "https://shopindoorgolf.com/products/flightscope-mevo-pro-package-face-impact-bundle"
   },
   {
    "retailer": "Rain or Shine Golf",
@@ -884,6 +829,28 @@
   },
   {
    "retailer": "Shop Indoor Golf",
+   "title": "Face Impact Location for MEVO+ Pro Package",
+   "vendor": "Flightscope",
+   "type": "Golf Simulation Software",
+   "price": 349,
+   "compare_at": 499,
+   "pct_off": 30,
+   "available": true,
+   "url": "https://shopindoorgolf.com/products/face-impact-location-for-mevo-pro-package"
+  },
+  {
+   "retailer": "Shop Indoor Golf",
+   "title": "FlightScope MEVO+ Pro Package",
+   "vendor": "Flightscope",
+   "type": "Golf Simulation Software",
+   "price": 699,
+   "compare_at": 1000,
+   "pct_off": 30,
+   "available": true,
+   "url": "https://shopindoorgolf.com/products/flightscope-mevo-pro-package"
+  },
+  {
+   "retailer": "Shop Indoor Golf",
    "title": "Panasonic PT-VZ580U Golf Simulator Projector",
    "vendor": "Panasonic",
    "type": "Projector",
@@ -1125,6 +1092,17 @@
    "url": "https://www.playbetter.com/products/skytrak-core-fs-membership"
   },
   {
+   "retailer": "PlayBetter",
+   "title": "Bushnell LPi Circle B Personal Launch Monitor & Simulator",
+   "vendor": "Bushnell",
+   "type": "Golf Launch Monitor & Simulator",
+   "price": 1499.99,
+   "compare_at": 1999.99,
+   "pct_off": 25,
+   "available": true,
+   "url": "https://www.playbetter.com/products/bushnell-lpi-personal-launch-monitor-simulator"
+  },
+  {
    "retailer": "Shop Indoor Golf",
    "title": "Square Golf SIG DIY Golf Simulator Studio Package",
    "vendor": "Square Golf",
@@ -1200,17 +1178,6 @@
    "pct_off": 23,
    "available": true,
    "url": "https://www.playbetter.com/products/skytrak-core-tm-membership"
-  },
-  {
-   "retailer": "PlayBetter",
-   "title": "FlightScope Mevo Gen2 Golf Launch Monitor",
-   "vendor": "FlightScope",
-   "type": "Golf Launch Monitor & Simulator",
-   "price": 2149,
-   "compare_at": 2798,
-   "pct_off": 23,
-   "available": true,
-   "url": "https://www.playbetter.com/products/flightscope-mevo-gen2-golf-launch-monitor"
   },
   {
    "retailer": "PlayBetter",
@@ -1500,14 +1467,14 @@
   },
   {
    "retailer": "PlayBetter",
-   "title": "FlightScope Mevo Gen2 with PlayBetter SimStudio™ BYO (Build Your Own) Package – Custom Home Golf Simulator Studio Builder with Impact Screen, Enclosure, Optional Mats, Projector & More",
-   "vendor": "FlightScope",
+   "title": "Bushnell LPi Circle B with PlayBetter SimStudio™ BYO (Build Your Own) Package – Custom Home Golf Simulator Studio Builder with Impact Screen, Enclosure, Optional Mats, Projector & More",
+   "vendor": "Bushnell",
    "type": "Golf Simulator Studio Package",
-   "price": 4644,
-   "compare_at": 5793,
+   "price": 4124,
+   "compare_at": 5124,
    "pct_off": 20,
    "available": true,
-   "url": "https://www.playbetter.com/products/flightscope-mevo-gen2-playbetter-simstudio-byo-home-golf-studio-package"
+   "url": "https://www.playbetter.com/products/bushnell-lpi-playbetter-simstudio-byo-home-golf-studio-package"
   },
   {
    "retailer": "PlayBetter",
@@ -1521,17 +1488,6 @@
    "url": "https://www.playbetter.com/products/uneekor-eye-xr-sportscreen-vanish-retractable-golf-studio-complete-package"
   },
   {
-   "retailer": "PlayBetter",
-   "title": "FlightScope i4 Smart AI Golf Laser Rangefinder",
-   "vendor": "FlightScope",
-   "type": "Golf Rangefinder",
-   "price": 399,
-   "compare_at": 499,
-   "pct_off": 20,
-   "available": true,
-   "url": "https://www.playbetter.com/products/flightscope-i4-golf-laser-rangefinder"
-  },
-  {
    "retailer": "Shop Indoor Golf",
    "title": "119 1/4\" x 158\" Premium Screen (Clearance)",
    "vendor": "Shop Indoor Golf",
@@ -1541,17 +1497,6 @@
    "pct_off": 20,
    "available": true,
    "url": "https://shopindoorgolf.com/products/119-1-4-x-158-premium-screen-clearance"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
-   "title": "FlightScope i4 Rangefinder",
-   "vendor": "Flightscope",
-   "type": "Golf Rangefinder",
-   "price": 399,
-   "compare_at": 499,
-   "pct_off": 20,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/flightscope-i4-rangefinder"
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -1741,6 +1686,17 @@
    "url": "https://www.playbetter.com/products/uneekor-eye-xr-overhead-launch-monitor-with-carls-place-curved-enclosure-home-golf-studio-package"
   },
   {
+   "retailer": "PlayBetter",
+   "title": "Bushnell LPi Circle B Personal Launch Monitor & Simulator Home Net Studio with The Net Return Premium Hitting Net Package",
+   "vendor": "Bushnell",
+   "type": "Golf Simulator Net Package",
+   "price": 2194,
+   "compare_at": 2694,
+   "pct_off": 19,
+   "available": true,
+   "url": "https://www.playbetter.com/products/bushnell-launch-proi-personal-launch-monitor-simulator-home-net-studio"
+  },
+  {
    "retailer": "Shop Indoor Golf",
    "title": "SIGPRO™ Premium Golf Impact Screen Raw Material",
    "vendor": "Shop Indoor Golf",
@@ -1819,25 +1775,14 @@
   },
   {
    "retailer": "PlayBetter",
-   "title": "Uneekor EYE XO Golf Launch Monitor & Simulator",
-   "vendor": "Uneekor",
-   "type": "Golf Launch Monitor & Simulator",
-   "price": 8000,
-   "compare_at": 9700,
-   "pct_off": 18,
-   "available": true,
-   "url": "https://www.playbetter.com/products/uneekor-eye-xo-golf-launch-monitor"
-  },
-  {
-   "retailer": "PlayBetter",
-   "title": "FlightScope Mevo Gen2 with PlayBetter SimStudio™ ESSENTIALS Package | Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat & Projector",
-   "vendor": "FlightScope",
+   "title": "Bushnell LPi Circle B with PlayBetter SimStudio™ ESSENTIALS Package | Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat & Projector",
+   "vendor": "Bushnell",
    "type": "Golf Simulator Studio Package",
-   "price": 5144,
-   "compare_at": 6293,
+   "price": 4624,
+   "compare_at": 5624,
    "pct_off": 18,
    "available": true,
-   "url": "https://www.playbetter.com/products/flightscope-mevo-gen2-with-playbetter-simstudio-essentials-golf-simulator-studio-package"
+   "url": "https://www.playbetter.com/products/bushnell-lpi-home-golf-simulator-playbetter-simstudio-essentials-studio-package"
   },
   {
    "retailer": "PlayBetter",
@@ -1984,17 +1929,6 @@
   },
   {
    "retailer": "PlayBetter",
-   "title": "FlightScope Mevo Gen2 with PlayBetter SimStudio™ COMPLETE Package | Golf Simulator Studio with Impact Screen, Enclosure, Side Barriers, Hitting/Putting Mats, Projector & Alignment Stand",
-   "vendor": "FlightScope",
-   "type": "Golf Simulator Studio Package",
-   "price": 5644,
-   "compare_at": 6793,
-   "pct_off": 17,
-   "available": true,
-   "url": "https://www.playbetter.com/products/flightscope-mevo-gen2-with-playbetter-simstudio-complete-golf-simulator-studio-package"
-  },
-  {
-   "retailer": "PlayBetter",
    "title": "Garmin Xero C1 Pro Chronograph",
    "vendor": "Garmin",
    "type": "Hunting & Archery Scope",
@@ -2003,6 +1937,17 @@
    "pct_off": 17,
    "available": true,
    "url": "https://www.playbetter.com/products/garmin-xero-c1-pro-chronograph"
+  },
+  {
+   "retailer": "PlayBetter",
+   "title": "Bushnell Launch Pro Circle B Golf Launch Monitor & Simulator",
+   "vendor": "Bushnell",
+   "type": "Golf Launch Monitor & Simulator",
+   "price": 2499.99,
+   "compare_at": 2999.99,
+   "pct_off": 17,
+   "available": true,
+   "url": "https://www.playbetter.com/products/bushnell-launch-pro-launch-monitor"
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -2193,6 +2138,17 @@
   },
   {
    "retailer": "PlayBetter",
+   "title": "Bushnell Launch Pro Circle B with PlayBetter SimStudio™ BYO (Build Your Own) Package – Custom Home Golf Simulator Studio Builder with Impact Screen, Enclosure, Optional Mats, Projector & More",
+   "vendor": "Bushnell",
+   "type": "Golf Simulator Studio Package",
+   "price": 5124,
+   "compare_at": 6124,
+   "pct_off": 16,
+   "available": true,
+   "url": "https://www.playbetter.com/products/bushnell-launch-pro-playbetter-simstudio-byo-home-golf-studio-package"
+  },
+  {
+   "retailer": "PlayBetter",
    "title": "Rapsodo MLM2PRO with PlayBetter SimStudio™ BYO (Build Your Own) Package – Custom Home Golf Simulator Studio Builder with Impact Screen, Enclosure, Optional Mats, Projector & More",
    "vendor": "Rapsodo",
    "type": "Golf Simulator Studio Package",
@@ -2201,6 +2157,17 @@
    "pct_off": 16,
    "available": true,
    "url": "https://www.playbetter.com/products/rapsodo-mlm2pro-playbetter-simstudio-byo-home-golf-studio-package"
+  },
+  {
+   "retailer": "PlayBetter",
+   "title": "Bushnell LPi Circle B with PlayBetter SimStudio™ COMPLETE Package | Golf Simulator Studio with Impact Screen, Enclosure, Side Barriers, Hitting/Putting Mats, Projector & Protective Case",
+   "vendor": "Bushnell",
+   "type": "Golf Simulator Studio Package",
+   "price": 5124,
+   "compare_at": 6124,
+   "pct_off": 16,
+   "available": true,
+   "url": "https://www.playbetter.com/products/bushnell-lpi-personal-launch-monitor-simulator-studio-package"
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -2314,14 +2281,14 @@
   },
   {
    "retailer": "PlayBetter",
-   "title": "FlightScope X3C Golf Launch Monitor & Simulator",
-   "vendor": "FlightScope",
-   "type": "Golf Launch Monitor & Simulator",
-   "price": 12745,
-   "compare_at": 14995,
+   "title": "Bushnell Launch Pro Circle B with PlayBetter SimStudio™ ESSENTIALS Package | Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat & Projector",
+   "vendor": "Bushnell",
+   "type": "Golf Simulator Studio Package",
+   "price": 5624,
+   "compare_at": 6624,
    "pct_off": 15,
    "available": true,
-   "url": "https://www.playbetter.com/products/flightscope-x3c-golf-launch-monitor-simulator"
+   "url": "https://www.playbetter.com/products/bushnell-launch-pro-with-playbetter-simstudio-essentials-package-golf-simulator-studio"
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -2336,17 +2303,6 @@
   },
   {
    "retailer": "Shop Indoor Golf",
-   "title": "Flightscope X3C Golf Net Practice Bundle",
-   "vendor": "Flightscope",
-   "type": "Golf Simulator",
-   "price": 12794.99,
-   "compare_at": 15044.99,
-   "pct_off": 15,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/flightscope-x3-golf-net-practice-bundle"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
    "title": "Garmin R10 Golf Net Practice Bundle",
    "vendor": "Garmin",
    "type": "Golf Simulator",
@@ -2355,17 +2311,6 @@
    "pct_off": 15,
    "available": true,
    "url": "https://shopindoorgolf.com/products/garmin-golf-net-practice-bundle"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
-   "title": "FlightScope X3C Launch Monitor",
-   "vendor": "Flightscope",
-   "type": "Launch Monitor",
-   "price": 12745,
-   "compare_at": 14995,
-   "pct_off": 15,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/flightscope-x3"
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -2468,6 +2413,17 @@
   },
   {
    "retailer": "PlayBetter",
+   "title": "Bushnell Launch Pro Circle B with PlayBetter SimStudio™ COMPLETE Package | Golf Simulator Studio with Impact Screen, Enclosure, Side Barriers, Hitting/Putting Mats, Projector & Protective Case",
+   "vendor": "Bushnell",
+   "type": "Golf Simulator Studio Package",
+   "price": 6124,
+   "compare_at": 7124,
+   "pct_off": 14,
+   "available": true,
+   "url": "https://www.playbetter.com/products/bushnell-launch-pro-playbetter-simstudio-home-golf-simulator-package"
+  },
+  {
+   "retailer": "PlayBetter",
    "title": "Uneekor EYE XO2 with PlayBetter SimStudio™ BYO (Build Your Own) Package – Custom Home Golf Simulator Studio Builder with Impact Screen, Enclosure, Optional Mats, Projector & More",
    "vendor": "Uneekor",
    "type": "Golf Simulator Studio Package",
@@ -2542,6 +2498,17 @@
    "pct_off": 14,
    "available": true,
    "url": "https://www.playbetter.com/products/playbetter-simstudio-essentials-golf-simulator-studio-package"
+  },
+  {
+   "retailer": "PlayBetter",
+   "title": "Bushnell Launch Pro Circle B Golf Launch Monitor Home Net Studio with The Net Return Premium Hitting Net Package",
+   "vendor": "Bushnell",
+   "type": "Golf Simulator Net Package",
+   "price": 3194,
+   "compare_at": 3694,
+   "pct_off": 14,
+   "available": true,
+   "url": "https://www.playbetter.com/products/bushnell-launch-pro-golf-simulator-studio-net-return-package"
   },
   {
    "retailer": "PlayBetter",
@@ -2919,17 +2886,6 @@
   },
   {
    "retailer": "Shop Indoor Golf",
-   "title": "Flightscope X3C Garage Golf Simulator Package",
-   "vendor": "Flightscope",
-   "type": "Golf Simulator",
-   "price": 14802.99,
-   "compare_at": 17052.99,
-   "pct_off": 13,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/flightscope-x3-garage-golf-simulator-package"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
    "title": "T9 Hybrid Golf GPS Watch",
    "vendor": "Voice Caddie",
    "type": "Golf Watch",
@@ -2938,39 +2894,6 @@
    "pct_off": 13,
    "available": true,
    "url": "https://shopindoorgolf.com/products/t9-hybrid-golf-gps-watch"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
-   "title": "FlightScope X3C SIG12 Golf Simulator Package",
-   "vendor": "Flightscope",
-   "type": "Golf Simulator",
-   "price": 14844.99,
-   "compare_at": 17094.99,
-   "pct_off": 13,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/flightscope-x3-sig-12-golf-simulator-package"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
-   "title": "FlightScope X3C SIG8 Golf Simulator Package",
-   "vendor": "Flightscope",
-   "type": "Golf Simulator",
-   "price": 14444.99,
-   "compare_at": 16694.99,
-   "pct_off": 13,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/flightscope-x3-sig-8-golf-simulator-package"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
-   "title": "FlightScope X3C SIG10 Golf Simulator Package",
-   "vendor": "Flightscope",
-   "type": "Golf Simulator",
-   "price": 14644.99,
-   "compare_at": 16894.99,
-   "pct_off": 13,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/flightscope-x3-sig-10-golf-simulator-package"
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -3158,6 +3081,17 @@
    "pct_off": 12,
    "available": true,
    "url": "https://www.playbetter.com/products/skytrak-st-max-sportscreen-vanish-retractable-golf-studio-complete-package"
+  },
+  {
+   "retailer": "PlayBetter",
+   "title": "FlightScope Mevo Gen2 with PlayBetter SimStudio™ BYO (Build Your Own) Package – Custom Home Golf Simulator Studio Builder with Impact Screen, Enclosure, Optional Mats, Projector & More",
+   "vendor": "FlightScope",
+   "type": "Golf Simulator Studio Package",
+   "price": 3794,
+   "compare_at": 4294,
+   "pct_off": 12,
+   "available": true,
+   "url": "https://www.playbetter.com/products/flightscope-mevo-gen2-playbetter-simstudio-byo-home-golf-studio-package"
   },
   {
    "retailer": "PlayBetter",
@@ -3513,14 +3447,14 @@
   },
   {
    "retailer": "PlayBetter",
-   "title": "Bushnell LPi Circle B with PlayBetter SimStudio™ BYO (Build Your Own) Package – Custom Home Golf Simulator Studio Builder with Impact Screen, Enclosure, Optional Mats, Projector & More",
-   "vendor": "Bushnell",
+   "title": "FlightScope Mevo Gen2 with PlayBetter SimStudio™ ESSENTIALS Package | Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat & Projector",
+   "vendor": "FlightScope",
    "type": "Golf Simulator Studio Package",
-   "price": 4624,
-   "compare_at": 5124,
+   "price": 4294,
+   "compare_at": 4794,
    "pct_off": 10,
    "available": true,
-   "url": "https://www.playbetter.com/products/bushnell-lpi-playbetter-simstudio-byo-home-golf-studio-package"
+   "url": "https://www.playbetter.com/products/flightscope-mevo-gen2-with-playbetter-simstudio-essentials-golf-simulator-studio-package"
   },
   {
    "retailer": "PlayBetter",
@@ -3667,14 +3601,14 @@
   },
   {
    "retailer": "PlayBetter",
-   "title": "Bushnell LPi Circle B with PlayBetter SimStudio™ ESSENTIALS Package | Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat & Projector",
-   "vendor": "Bushnell",
+   "title": "FlightScope Mevo Gen2 with PlayBetter SimStudio™ COMPLETE Package | Golf Simulator Studio with Impact Screen, Enclosure, Side Barriers, Hitting/Putting Mats, Projector & Alignment Stand",
+   "vendor": "FlightScope",
    "type": "Golf Simulator Studio Package",
-   "price": 5124,
-   "compare_at": 5624,
+   "price": 4794,
+   "compare_at": 5294,
    "pct_off": 9,
    "available": true,
-   "url": "https://www.playbetter.com/products/bushnell-lpi-home-golf-simulator-playbetter-simstudio-essentials-studio-package"
+   "url": "https://www.playbetter.com/products/flightscope-mevo-gen2-with-playbetter-simstudio-complete-golf-simulator-studio-package"
   },
   {
    "retailer": "PlayBetter",
@@ -3865,6 +3799,17 @@
   },
   {
    "retailer": "PlayBetter",
+   "title": "Bushnell LPi Circle B SportScreen Vanish LITE Hybrid-Retractable Golf Studio Complete Package | Home Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Putting Turf & Projector",
+   "vendor": "SportScreen",
+   "type": "Retractable Golf Simulator Studio Package",
+   "price": 5898.97,
+   "compare_at": 6398.97,
+   "pct_off": 8,
+   "available": true,
+   "url": "https://www.playbetter.com/products/bushnell-lpi-circle-b-sportscreen-vanish-lite-semi-retractable-golf-studio-complete-package"
+  },
+  {
+   "retailer": "PlayBetter",
    "title": "TruGolf LaunchBox with PlayBetter SimStudio™ BYO (Build Your Own) Package – Custom Home Golf Simulator Studio Builder with Impact Screen, Enclosure, Optional Mats, Projector & More",
    "vendor": "TruGolf",
    "type": "Golf Simulator Studio Package",
@@ -3887,28 +3832,6 @@
   },
   {
    "retailer": "PlayBetter",
-   "title": "Bushnell Launch Pro Circle B with PlayBetter SimStudio™ BYO (Build Your Own) Package – Custom Home Golf Simulator Studio Builder with Impact Screen, Enclosure, Optional Mats, Projector & More",
-   "vendor": "Bushnell",
-   "type": "Golf Simulator Studio Package",
-   "price": 5624.99,
-   "compare_at": 6124,
-   "pct_off": 8,
-   "available": true,
-   "url": "https://www.playbetter.com/products/bushnell-launch-pro-playbetter-simstudio-byo-home-golf-studio-package"
-  },
-  {
-   "retailer": "PlayBetter",
-   "title": "Bushnell Launch Pro Circle B with PlayBetter SimStudio™ ESSENTIALS Package | Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat & Projector",
-   "vendor": "Bushnell",
-   "type": "Golf Simulator Studio Package",
-   "price": 6124,
-   "compare_at": 6624,
-   "pct_off": 8,
-   "available": true,
-   "url": "https://www.playbetter.com/products/bushnell-launch-pro-with-playbetter-simstudio-essentials-package-golf-simulator-studio"
-  },
-  {
-   "retailer": "PlayBetter",
    "title": "Uneekor EYE MINI LITE with PlayBetter SimStudio™ ESSENTIALS Package | Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, & Projector",
    "vendor": "Uneekor",
    "type": "Golf Simulator Studio Package",
@@ -3917,17 +3840,6 @@
    "pct_off": 8,
    "available": true,
    "url": "https://www.playbetter.com/products/uneekor-eye-mini-lite-home-golf-simulator-playbetter-simstudio-essentials-studio-package"
-  },
-  {
-   "retailer": "PlayBetter",
-   "title": "Bushnell LPi Circle B with PlayBetter SimStudio™ COMPLETE Package | Golf Simulator Studio with Impact Screen, Enclosure, Side Barriers, Hitting/Putting Mats, Projector & Protective Case",
-   "vendor": "Bushnell",
-   "type": "Golf Simulator Studio Package",
-   "price": 5624,
-   "compare_at": 6124,
-   "pct_off": 8,
-   "available": true,
-   "url": "https://www.playbetter.com/products/bushnell-lpi-personal-launch-monitor-simulator-studio-package"
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -4107,6 +4019,17 @@
   },
   {
    "retailer": "PlayBetter",
+   "title": "Bushnell Launch Pro Circle B SportScreen Vanish LITE Hybrid-Retractable Golf Studio Complete Package | Home Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Putting Turf & Projector",
+   "vendor": "SportScreen",
+   "type": "Retractable Golf Simulator Studio Package",
+   "price": 6898.97,
+   "compare_at": 7398.97,
+   "pct_off": 7,
+   "available": true,
+   "url": "https://www.playbetter.com/products/bushnell-launch-pro-circle-b-sportscreen-vanish-lite-semi-retractable-golf-studio-complete-package"
+  },
+  {
+   "retailer": "PlayBetter",
    "title": "TruGolf LaunchBox with PlayBetter SimStudio™ COMPLETE Package | Golf Simulator Studio with Impact Screen, Enclosure, Side Barriers, Hitting/Putting Mats & Projector",
    "vendor": "TruGolf",
    "type": "Golf Simulator Studio Package",
@@ -4129,14 +4052,14 @@
   },
   {
    "retailer": "PlayBetter",
-   "title": "Bushnell Launch Pro Circle B with PlayBetter SimStudio™ COMPLETE Package | Golf Simulator Studio with Impact Screen, Enclosure, Side Barriers, Hitting/Putting Mats, Projector & Protective Case",
-   "vendor": "Bushnell",
-   "type": "Golf Simulator Studio Package",
-   "price": 6624.99,
-   "compare_at": 7124,
+   "title": "Bushnell LPi Circle B SportScreen Vanish Retractable Golf Studio Complete Package | Home Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Putting Turf & Projector",
+   "vendor": "SportScreen",
+   "type": "Retractable Golf Simulator Studio Package",
+   "price": 6598.97,
+   "compare_at": 7098.97,
    "pct_off": 7,
    "available": true,
-   "url": "https://www.playbetter.com/products/bushnell-launch-pro-playbetter-simstudio-home-golf-simulator-package"
+   "url": "https://www.playbetter.com/products/bushnell-lpi-sportscreen-vanish-retractable-golf-studio-complete-package"
   },
   {
    "retailer": "PlayBetter",
@@ -4357,6 +4280,17 @@
    "pct_off": 6,
    "available": true,
    "url": "https://www.playbetter.com/products/garmin-approach-r50-home-golf-simulator-essentials-studio-package"
+  },
+  {
+   "retailer": "PlayBetter",
+   "title": "Bushnell Launch Pro Circle B SportScreen Vanish Retractable Golf Studio Complete Package | Home Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Putting Turf & Projector",
+   "vendor": "SportScreen",
+   "type": "Retractable Golf Simulator Studio Package",
+   "price": 7598.97,
+   "compare_at": 8098.97,
+   "pct_off": 6,
+   "available": true,
+   "url": "https://www.playbetter.com/products/bushnell-launch-pro-sportscreen-vanish-retractable-golf-studio-complete-package"
   },
   {
    "retailer": "PlayBetter",
