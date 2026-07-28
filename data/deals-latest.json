@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-07-27T13:22:27.554Z",
- "date": "2026-07-27",
+ "generated_at": "2026-07-28T12:14:18.046Z",
+ "date": "2026-07-28",
  "sources": [
   {
    "retailer": "PlayBetter",
    "status": "ok",
-   "on_sale_items": 218
+   "on_sale_items": 217
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -2927,17 +2927,6 @@
    "pct_off": 14,
    "available": true,
    "url": "https://www.playbetter.com/products/foresight-gc3-golf-launch-monitor-simulator-with-link-enabled-technology"
-  },
-  {
-   "retailer": "PlayBetter",
-   "title": "Garmin Tread 2 Powersports GPS Navigator",
-   "vendor": "Garmin",
-   "type": "Off-Road ATV GPS",
-   "price": 599.99,
-   "compare_at": 699.99,
-   "pct_off": 14,
-   "available": true,
-   "url": "https://www.playbetter.com/products/garmin-tread-2-powersports-gps-navigator"
   },
   {
    "retailer": "PlayBetter",
