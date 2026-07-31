@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-07-30T12:04:25.236Z",
- "date": "2026-07-30",
+ "generated_at": "2026-07-31T12:17:09.665Z",
+ "date": "2026-07-31",
  "sources": [
   {
    "retailer": "PlayBetter",
@@ -10,7 +10,7 @@
   {
    "retailer": "Shop Indoor Golf",
    "status": "ok",
-   "on_sale_items": 264
+   "on_sale_items": 263
   },
   {
    "retailer": "Rain or Shine Golf",
@@ -20,7 +20,7 @@
   {
    "retailer": "Top Shelf Golf",
    "status": "ok",
-   "on_sale_items": 39
+   "on_sale_items": 32
   }
  ],
  "candidates": [
@@ -410,17 +410,6 @@
    "url": "https://www.playbetter.com/products/skytrak-plus-golf-launch-monitor-simulator"
   },
   {
-   "retailer": "Shop Indoor Golf",
-   "title": "SkyTrak+ Launch Monitor",
-   "vendor": "SkyTrak",
-   "type": "Launch Monitor",
-   "price": 1495,
-   "compare_at": 2495,
-   "pct_off": 40,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/skytrak-plus-launch-monitor"
-  },
-  {
    "retailer": "PlayBetter",
    "title": "PlayBetter COMPLETE Garage SimStudio™ by Golficity | Home Golf Simulator Package with Impact Screen, Enclosure, Hitting Mat & Projector",
    "vendor": "PlayBetter",
@@ -639,17 +628,6 @@
    "pct_off": 34,
    "available": true,
    "url": "https://rainorshinegolf.com/products/skytrak-plus-protective-case"
-  },
-  {
-   "retailer": "PlayBetter",
-   "title": "Rapsodo MLM2PRO Golf Launch Monitor & Simulator (Certified Pre-Owned)",
-   "vendor": "Rapsodo",
-   "type": "Golf Launch Monitor & Simulator",
-   "price": 399.99,
-   "compare_at": 599.99,
-   "pct_off": 33,
-   "available": true,
-   "url": "https://www.playbetter.com/products/rapsodo-mlm2pro-golf-launch-monitor-simulator-certified-pre-owned"
   },
   {
    "retailer": "PlayBetter",
@@ -1079,6 +1057,17 @@
    "pct_off": 26,
    "available": true,
    "url": "https://rainorshinegolf.com/products/skytrak-max-practice-package"
+  },
+  {
+   "retailer": "PlayBetter",
+   "title": "Rapsodo MLM2PRO Golf Launch Monitor & Simulator (Certified Pre-Owned)",
+   "vendor": "Rapsodo",
+   "type": "Golf Launch Monitor & Simulator",
+   "price": 449.99,
+   "compare_at": 599.99,
+   "pct_off": 25,
+   "available": true,
+   "url": "https://www.playbetter.com/products/rapsodo-mlm2pro-golf-launch-monitor-simulator-certified-pre-owned"
   },
   {
    "retailer": "PlayBetter",
@@ -2289,6 +2278,17 @@
    "pct_off": 17,
    "available": true,
    "url": "https://www.playbetter.com/products/garmin-approach-j1-golf-gps-watch"
+  },
+  {
+   "retailer": "PlayBetter",
+   "title": "Garmin Bounce 2 Kids GPS Smartwatch",
+   "vendor": "Garmin",
+   "type": "Fitness GPS Watch",
+   "price": 249.99,
+   "compare_at": 299.99,
+   "pct_off": 17,
+   "available": true,
+   "url": "https://www.playbetter.com/products/garmin-bounce-2-kids-gps-smartwatch"
   },
   {
    "retailer": "PlayBetter",
@@ -5006,17 +5006,6 @@
    "pct_off": 5,
    "available": true,
    "url": "https://www.playbetter.com/products/full-swing-kit-golf-launch-monitor-simulator-open-box"
-  },
-  {
-   "retailer": "PlayBetter",
-   "title": "Foresight QuadMAX Golf Launch Monitor & Simulator (Open Box)",
-   "vendor": "Foresight Sports",
-   "type": "Golf Launch Monitor & Simulator",
-   "price": 21374,
-   "compare_at": 22499,
-   "pct_off": 5,
-   "available": true,
-   "url": "https://www.playbetter.com/products/foresight-quadmax-golf-launch-monitor-simulator-open-box"
   },
   {
    "retailer": "Shop Indoor Golf",
