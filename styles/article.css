@@ -1926,3 +1926,15 @@ details.toc nav { padding: 4px 22px 20px; }
   .gsc-or { padding: 0; text-align: center; }
   .gsc-size { font-size: 30px; }
 }
+
+/* Club length calculator extras — reuses .gsc from the grip calculator. */
+.lc-toggles { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 16px;
+  font-family: var(--mono); font-size: 12.5px; margin: 0 0 16px; padding-bottom: 14px;
+  border-bottom: 1px dotted var(--dotdash); }
+.lc-toggles label { display: inline-flex; align-items: center; gap: 6px; cursor: pointer; }
+.lc-toggles input { accent-color: var(--pine); }
+.lc-sep { color: var(--divider); }
+.lc-table { margin-top: 14px; }
+.lc-table td.k { font-family: var(--display); font-weight: 700; }
+.lc-table td.v { font-family: var(--mono); font-weight: 700; color: var(--flag); }
+@media (max-width: 640px) { .lc-toggles { font-size: 12px; gap: 6px 12px; } .lc-sep { display: none; } }
