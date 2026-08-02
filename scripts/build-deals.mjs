@@ -112,7 +112,7 @@ const html = `
       </div>
     </section>
 
-    <h2><span class="kick">The Ledger</span>Today's verified deals</h2>
+    <h2><span class="kick">The Ledger</span>The board</h2>
     <div class="dd-ledger">
 ${cur.deals.map(dealRow).join('\n')}
     </div>
