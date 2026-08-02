@@ -662,7 +662,8 @@ h1.title {
 /* --------------------------------------------------------------------------
    Bag Fit & Gap Lab (distance-chart.html)
    -------------------------------------------------------------------------- */
-.gaplab { border: 1px solid var(--brass-edge); background: #fbf7ec; padding: 22px 20px 24px; margin: 30px 0 34px; }
+.gaplab { border: 1px solid var(--brass-edge); background: #fbf7ec; padding: 22px 20px 24px; margin: 30px 0 34px;
+  scroll-margin-top: 70px; /* clears the sticky nav when linked to as #gaplab */ }
 .gaplab h3 { font-family: var(--display); font-size: 22px; margin: 0 0 4px; }
 .gaplab .gl-sub { font-family: var(--mono); font-size: 12.5px; letter-spacing: 0.04em; color: var(--pine); margin: 0 0 16px; }
 .gaplab .gl-bar { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 16px; }

@@ -638,6 +638,25 @@
     var out = document.getElementById('gl-out');
     if (!grid || !out) return;
 
+    /* Deep links land here from the Sunday Memo. The browser jumps to the
+       anchor before the web fonts finish loading, and the reflow above the
+       anchor then pushes the target off screen — so re-aim once things
+       settle. Backs off the moment the reader takes over. */
+    if (location.hash === '#gaplab') {
+      var taken = false;
+      ['wheel', 'touchstart', 'keydown', 'pointerdown'].forEach(function (t) {
+        window.addEventListener(t, function () { taken = true; }, { passive: true, once: true });
+      });
+      var aim = function () {
+        if (taken) return;
+        var el = document.getElementById('gaplab');
+        if (el) el.scrollIntoView({ block: 'start' });
+      };
+      window.addEventListener('load', aim);
+      if (document.fonts && document.fonts.ready) document.fonts.ready.then(aim);
+      setTimeout(aim, 400);
+    }
+
     function ev(name, params) { if (window.gtag) gtag('event', name, params || {}); }
     function esc(s) { return String(s).replace(/[&<>"]/g, function (c) {
       return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
