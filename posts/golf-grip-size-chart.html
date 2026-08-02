@@ -292,6 +292,55 @@
 
       <p>This guide walks through exactly how to measure golf grip size at home, gives you a clean chart by hand length, explains what "standard," "midsize," and "jumbo" actually mean in inches, and covers the parts most charts skip: the glove-size cross-check, the tape build-up trick, and how grip size nudges your ball flight. Let's get you fitted.</p>
 
+      <h2 id="calculator"><span class="kick">The Tool</span>Grip size calculator</h2>
+
+      <p>Measure your upper grip hand from the crease of your wrist to the tip of your middle finger, then enter it below. If you have not got a tape measure handy, your glove size gets you most of the way there.</p>
+
+      <div class="gsc" id="gripcalc">
+        <div class="gsc-inputs">
+          <label class="gsc-field">
+            <span>Hand length <small>wrist crease to middle fingertip, inches</small></span>
+            <input type="number" id="gsc-hand" min="3" max="12" step="0.1" inputmode="decimal" placeholder="e.g. 7.2">
+          </label>
+          <div class="gsc-or">or</div>
+          <label class="gsc-field">
+            <span>Glove size</span>
+            <select id="gsc-glove">
+              <option value="">Choose…</option>
+              <option value="junior">Junior / Women&rsquo;s XS</option>
+              <option value="undersize">Men&rsquo;s S · Cadet S · Women&rsquo;s S or M</option>
+              <option value="standard">Men&rsquo;s M or M/L · Cadet M or M/L · Women&rsquo;s M/L or L</option>
+              <option value="midsize">Men&rsquo;s L or XL · Cadet L or XL</option>
+              <option value="jumbo">Men&rsquo;s XL, XXL, XXXL · Cadet XXL</option>
+            </select>
+          </label>
+        </div>
+        <div class="gsc-out" id="gsc-out" role="status" aria-live="polite">
+          <p class="gsc-empty">Enter a hand length or pick a glove size.</p>
+        </div>
+        <p class="gsc-foot">Mapping as published by Golf Pride, the largest grip manufacturer, checked August 2026. It is their scale, not an industry standard &mdash; see below for why the same size name differs between brands.</p>
+      </div>
+
+      <figure class="fig">
+        <div class="frame">
+          <img src="/img/figures/golf-grip-size-chart-measured.png" width="1200" height="760" loading="lazy"
+               alt="Golf grip size chart by hand measurement: Junior under 5 inches, Undersize 5 to 6.5 inches, Standard 6.6 to 7.5 inches, Midsize 7.6 to 9 inches, Jumbo over 9 inches, with the matching glove sizes for each." />
+        </div>
+        <figcaption>Grip size by hand length and glove size<span class="src">Golf Pride, Swing Grip Size Guide, checked August 2026</span></figcaption>
+      </figure>
+
+      <h2><span class="kick">The catch</span>&ldquo;Midsize&rdquo; is not a standard measurement</h2>
+
+      <p>The chart above gets you to the right category. It does not get you to a diameter, because the size names are not standardised between manufacturers &mdash; the same problem that afflicts shaft flex and golf ball compression.</p>
+
+      <p>A midsize grip is usually about <sup>1</sup>&frasl;<sub>16</sub> of an inch larger than that brand&rsquo;s standard. Usually. Some makers build midsize at <sup>1</sup>&frasl;<sub>32</sub> or <sup>3</sup>&frasl;<sub>64</sub> over, some go larger than <sup>1</sup>&frasl;<sub>16</sub>, and some call <sup>1</sup>&frasl;<sub>16</sub> over &ldquo;oversize&rdquo; rather than midsize. Two grips wearing the same word on the label can measure differently in your hand.</p>
+
+      <p>There is a second variable that catches people out, and Golf Pride explains it themselves:</p>
+
+      <blockquote class="pull">&ldquo;Core size can affect how a grip feels in your hand. Typically, if the core size is smaller than the shaft diameter, it will feel firmer and bigger than its true size. For example, a .58 core standard size grip on a .600 shaft will feel thicker than a .60 core standard size grip on a .600 shaft.&rdquo;<cite>Golf Pride, <a class="inline" href="https://www.golfpride.com/us/en-us/grip-academy/swing-grip-size-guide.html" rel="nofollow noopener" target="_blank">Swing Grip Size Guide</a></cite></blockquote>
+
+      <p>So the same grip, in the same size, fitted to two different shafts, is two different thicknesses. That is why a &ldquo;standard&rdquo; regrip can come back feeling fatter than the one it replaced, and why the honest sequence is: measure your hand, use the chart to pick a category, then check the actual grip you are buying rather than trusting the word on the label.</p>
+
       <h2 id="how-to-measure"><span class="kick">Step One</span>How to measure golf grip size at home</h2>
 
       <p>You only need a straight ruler and your <strong>lead hand</strong> — that's the top hand on the club, the left hand for a right-handed golfer. This is the hand the chart is built around, so don't measure your trail hand by mistake.</p>
@@ -798,5 +847,77 @@
   </div>
 </footer>
   <script src="/search.js" defer></script>
+
+<script>
+(function () {
+  // Golf Pride's published mapping — their scale, not an industry standard.
+  var BANDS = [
+    { id: 'junior',    name: 'Junior',    lo: 0,   hi: 4.99, glove: 'Women\u2019s XS, Junior' },
+    { id: 'undersize', name: 'Undersize', lo: 5,   hi: 6.5,  glove: 'Men\u2019s S, Cadet S, Women\u2019s S or M' },
+    { id: 'standard',  name: 'Standard',  lo: 6.6, hi: 7.5,  glove: 'Men\u2019s M or M/L, Cadet M or M/L, Women\u2019s M/L or L' },
+    { id: 'midsize',   name: 'Midsize',   lo: 7.6, hi: 9,    glove: 'Men\u2019s L or XL, Cadet L or XL' },
+    { id: 'jumbo',     name: 'Jumbo',     lo: 9.01, hi: 99,  glove: 'Men\u2019s XL, XXL, XXXL, Cadet XXL' }
+  ];
+  var hand = document.getElementById('gsc-hand');
+  var glove = document.getElementById('gsc-glove');
+  var out = document.getElementById('gsc-out');
+  if (!hand || !glove || !out) return;
+  var sent = false;
+
+  function bandFor(v) {
+    for (var i = 0; i < BANDS.length; i++) if (v >= BANDS[i].lo && v <= BANDS[i].hi) return BANDS[i];
+    // Golf Pride's published bands do not quite meet: 6.51-6.59 and 7.51-7.59 fall
+    // between rows. Rather than silently round, name both candidates and say why.
+    for (var j = 0; j < BANDS.length - 1; j++) {
+      if (v > BANDS[j].hi && v < BANDS[j + 1].lo) {
+        return { straddle: true, lower: BANDS[j], upper: BANDS[j + 1],
+                 name: BANDS[j].name + ' or ' + BANDS[j + 1].name,
+                 glove: BANDS[j].glove + '  /  ' + BANDS[j + 1].glove };
+      }
+    }
+    return null;
+  }
+  function render(band, how, raw) {
+    if (!band) { out.innerHTML = '<p class="gsc-empty">Enter a hand length or pick a glove size.</p>'; return; }
+    // Flag the gaps in Golf Pride's own bands: 6.51-6.59 and 7.51-7.59 fall between rows.
+    var gap = '';
+    if (band.straddle) {
+      gap = '<p class="gsc-note">Your measurement falls in a genuine gap between Golf Pride&rsquo;s published bands &mdash; their rows stop at ' + band.lower.hi + '&Prime; and resume at ' + band.upper.lo + '&Prime;, so there is no published answer for exactly your hand. Hit both sizes before committing a full set.</p>';
+    } else if (how === 'hand' && raw != null) {
+      if (raw - band.lo < 0.2 || band.hi - raw < 0.2) {
+        gap = '<p class="gsc-note">You are within a fifth of an inch of the next band. Worth hitting both before you regrip everything.</p>';
+      }
+    }
+    out.innerHTML =
+      '<div class="gsc-result">' +
+        '<div class="gsc-size">' + band.name + '</div>' +
+        '<div class="gsc-detail">' +
+          '<p><strong>Matching glove size:</strong> ' + band.glove + '</p>' +
+          (how === 'glove' ? '<p class="gsc-note">From glove size. A tape measure is more precise &mdash; glove sizing varies by brand too.</p>' : '') +
+          gap +
+        '</div>' +
+      '</div>' +
+      '<p class="gsc-next">Now check the grip itself. &ldquo;' + band.name + '&rdquo; is Golf Pride&rsquo;s wording for this category; another maker may size the same name differently, and core size changes the feel again.</p>';
+
+    if (!sent && typeof gtag === 'function') {
+      sent = true;
+      gtag('event', 'grip_size_calc', { tool: 'grip-size', method: how, result: band.id });
+    }
+  }
+
+  hand.addEventListener('input', function () {
+    var v = parseFloat(hand.value);
+    if (!(v > 0)) { render(null); return; }
+    glove.value = '';
+    render(bandFor(v), 'hand', v);
+  });
+  glove.addEventListener('change', function () {
+    if (!glove.value) { render(null); return; }
+    hand.value = '';
+    var b = BANDS.filter(function (x) { return x.id === glove.value; })[0];
+    render(b, 'glove');
+  });
+})();
+</script>
 </body>
 </html>
