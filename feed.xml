@@ -6,7 +6,7 @@
     <atom:link href="https://mulliganmemo.com/feed.xml" rel="self" type="application/rss+xml" />
     <description>Honest golf gear reviews and buying guides — clubs, balls, tech, and accessories.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 02 Aug 2026 19:28:11 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 02 Aug 2026 21:14:03 GMT</lastBuildDate>
     <item>
       <title>Golf Ball Compression Chart: What the Numbers Actually Mean</title>
       <link>https://mulliganmemo.com/posts/golf-ball-compression-chart.html</link>
@@ -14,6 +14,14 @@
       <category>Golf Balls</category>
       <pubDate>Sun, 02 Aug 2026 12:00:00 GMT</pubDate>
       <description>We checked five manufacturers&apos; own pages for the compression numbers everyone quotes. Here is what they publish, what they don&apos;t, and what to use instead.</description>
+    </item>
+    <item>
+      <title>Golf Shaft Flex Chart: What It Can and Can&apos;t Tell You</title>
+      <link>https://mulliganmemo.com/posts/golf-shaft-flex-chart.html</link>
+      <guid isPermaLink="true">https://mulliganmemo.com/posts/golf-shaft-flex-chart.html</guid>
+      <category>Golf Clubs</category>
+      <pubDate>Sun, 02 Aug 2026 12:00:00 GMT</pubDate>
+      <description>Every shaft flex chart maps swing speed to a letter. Here&apos;s where those numbers come from, why flex isn&apos;t standardised, and what measured data says instead.</description>
     </item>
     <item>
       <title>Golf Simulator Room Dimensions: What Each Launch Monitor Requires</title>

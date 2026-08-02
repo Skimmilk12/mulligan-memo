@@ -1829,3 +1829,10 @@ details.toc nav { padding: 4px 22px 20px; }
 .rc-stack { margin: 0 0 20px; padding-left: 22px; }
 .rc-stack li { margin: 0 0 9px; padding-left: 4px; }
 .rc-stack li::marker { font-family: var(--mono); font-weight: 700; color: var(--brass-dark); }
+
+/* Standalone emphatic line — a finding that deserves its own beat but has no
+   external speaker, so it must not look like a sourced .pull quote. */
+.pull-alt { font-family: var(--display); font-size: 22px; line-height: 1.4; text-align: center;
+  margin: 26px 0 28px; padding: 18px 22px; background: var(--memo);
+  border-top: 2px solid var(--brass-edge); border-bottom: 2px solid var(--brass-edge); }
+@media (max-width: 640px) { .pull-alt { font-size: 19px; padding: 15px 16px; } }
