@@ -1826,3 +1826,6 @@ details.toc nav { padding: 4px 22px 20px; }
 }
 .rc-advisory { font-family: var(--mono); font-size: 12.5px; line-height: 1.65; color: var(--ink);
   background: var(--skipfill); border-left: 3px solid var(--flag); padding: 10px 12px; margin: 0 0 16px; }
+.rc-stack { margin: 0 0 20px; padding-left: 22px; }
+.rc-stack li { margin: 0 0 9px; padding-left: 4px; }
+.rc-stack li::marker { font-family: var(--mono); font-weight: 700; color: var(--brass-dark); }
