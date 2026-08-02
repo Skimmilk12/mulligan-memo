@@ -467,7 +467,7 @@ h1.title {
 .copy table td.win { background: var(--pickrow); }
 
 /* shortlist-at-a-glance ledger under the TLDR */
-.glance { margin: 18px 0 30px; }
+.glance { margin: 18px 0 30px; overflow-x: auto; -webkit-overflow-scrolling: touch; }
 .glance table { margin-bottom: 0; }
 .glance table td:first-child {
   font-family: var(--mono);
@@ -481,6 +481,11 @@ h1.title {
 .glance table td:nth-child(2) { font-family: var(--display); font-weight: 700; font-size: 17.5px; }
 .glance table th.g-go, .glance table td.g-go { text-align: right; white-space: nowrap; }
 .glance .cta-mini { padding: 8px 14px; font-size: 12px; box-shadow: 3px 3px 0 var(--brass-edge); }
+/* narrow screens: tighten the merchant buttons so the picks table stops
+   needing a sideways swipe to reach the CTA column */
+@media (max-width: 560px) {
+  .glance .cta-mini { padding: 7px 9px; font-size: 11px; letter-spacing: 0.05em; }
+}
 .glance figcaption {
   font-family: var(--mono);
   font-size: 12.5px;
@@ -630,6 +635,22 @@ h1.title {
   transform: translate(2px, 2px);
   box-shadow: 2px 2px 0 rgba(27,42,32,0.25);
 }
+/* secondary merchant CTA — outlined, so the primary stays primary */
+.cta-sec, .pick .cta-sec {
+  background: transparent;
+  color: var(--brass-dark);
+  box-shadow: 4px 4px 0 rgba(27,42,32,0.14);
+}
+.cta-sec:hover, .pick .cta-sec:hover { background: var(--brass); color: var(--cta-ink); }
+/* pair wrapper: side by side, stacking cleanly when the column is tight */
+.cta-pair {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-end;
+}
+.glance td.g-go .cta-pair { gap: 6px; }
 .cta-note {
   font-family: var(--mono);
   font-size: 12.5px;
