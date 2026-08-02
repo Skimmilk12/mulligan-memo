@@ -1836,3 +1836,59 @@ details.toc nav { padding: 4px 22px 20px; }
   margin: 26px 0 28px; padding: 18px 22px; background: var(--memo);
   border-top: 2px solid var(--brass-edge); border-bottom: 2px solid var(--brass-edge); }
 @media (max-width: 640px) { .pull-alt { font-size: 19px; padding: 15px 16px; } }
+
+/* --------------------------------------------------------------------------
+   Yardage card — yardage-card.html
+   Deliberately blank: we publish no invented averages here. Print layout puts
+   two identical cards on one sheet so one can be cut out for the bag.
+   -------------------------------------------------------------------------- */
+.yc-bar { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; margin: 22px 0 18px; }
+.yc-btn { font-family: var(--mono); font-size: 12.5px; font-weight: 700; letter-spacing: 0.09em;
+  text-transform: uppercase; padding: 11px 18px; border: 1px solid var(--brass-edge);
+  background: var(--brass); color: var(--cta-ink); cursor: pointer; }
+.yc-btn:hover { background: var(--brass-dark); color: #f6ecd8; }
+.yc-btn.yc-ghost { background: transparent; color: var(--brass-dark); }
+.yc-btn:focus-visible { outline: 2px solid var(--flag); outline-offset: 3px; }
+.yc-saved { font-family: var(--mono); font-size: 12px; letter-spacing: 0.08em; color: var(--pine); }
+
+.yc-sheet { display: grid; grid-template-columns: 1fr; gap: 20px; margin: 0 0 32px; }
+.yc-card { border: 2.5px solid var(--ink); background: var(--memo); padding: 16px 18px 12px; }
+.yc-head { display: flex; align-items: baseline; gap: 12px; border-bottom: 2px solid var(--ink);
+  padding-bottom: 9px; margin-bottom: 4px; }
+.yc-title { font-family: var(--mono); font-weight: 700; font-size: 13px; letter-spacing: 0.18em; }
+.yc-name { margin-left: auto; }
+.yc-name input { font-family: var(--mono); font-size: 12.5px; border: 0; border-bottom: 1px dotted var(--dotdash);
+  background: transparent; width: 130px; padding: 2px 4px; text-align: right; color: var(--pine); }
+.yc-table { width: 100%; border-collapse: collapse; margin: 0; }
+.yc-table th { font-family: var(--mono); font-size: 11px; letter-spacing: 0.12em; color: var(--pine);
+  text-align: left; padding: 8px 6px 6px; border-bottom: 1px solid var(--divider); }
+.yc-table th:nth-child(2), .yc-table th:nth-child(3) { text-align: center; width: 27%; }
+.yc-table td { padding: 0; border-bottom: 1px dotted #d6cbb0; }
+.yc-table tr:last-child td { border-bottom: 0; }
+.yc-club { font-family: var(--display); font-weight: 700; font-size: 15px; padding: 5px 6px !important; }
+.yc-table input { width: 100%; font-family: var(--mono); font-size: 16px; text-align: center;
+  border: 0; background: transparent; padding: 7px 4px; color: var(--ink); }
+.yc-table input:focus { outline: 0; background: rgba(169,119,42,0.13); }
+.yc-foot { font-family: var(--mono); font-size: 10.5px; letter-spacing: 0.14em; color: var(--brass-dark);
+  text-align: right; padding-top: 8px; }
+.yc-card + .yc-card { display: none; }  /* second copy is print-only */
+
+@media (max-width: 640px) {
+  .yc-card { padding: 13px 12px 10px; }
+  .yc-club { font-size: 14px; }
+  .yc-table input { font-size: 16px; } /* 16px avoids iOS zoom on focus */
+}
+
+@media print {
+  @page { size: portrait; margin: 10mm; }
+  .mm-topbar, .mm-nav, .crumbs, .ahead, .tldr, .no-print, .fdisc, footer, .mm-search { display: none !important; }
+  body { background: #fff; }
+  .wrap { max-width: none; margin: 0; padding: 0; }
+  .yc-sheet { display: grid; grid-template-columns: 1fr 1fr; gap: 8mm; margin: 0; }
+  .yc-card + .yc-card { display: block; }
+  .yc-card { background: #fff; border-color: #000; page-break-inside: avoid; break-inside: avoid; }
+  .yc-table input { border-bottom: 0; }
+  .yc-club { font-size: 12px; }
+  .yc-table input { font-size: 12px; padding: 5px 2px; }
+  .yc-table th { font-size: 9px; }
+}
