@@ -6,11 +6,46 @@ import path from 'path';
 const ROOT = process.cwd();
 const cur = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'deals-curated.json'), 'utf8'));
 const killlist = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'deals-killlist.json'), 'utf8')).killed;
+const feed = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'deals-latest.json'), 'utf8'));
 const PAGE = path.join(ROOT, 'deals.html');
 
 // A curated pick must never be on the kill list.
 for (const d of [cur.deal_of_the_day, ...cur.deals]) {
   if (killlist.some(k => k.url === d.url)) { console.error(`ABORT: curated deal is on the kill list: ${d.title}`); process.exit(1); }
+}
+
+// The verdicts are hand-written and stay that way — that is the editorial value.
+// The PRICES are not: a hand-typed price silently rots the moment the retailer
+// moves it, which is how this board came to advertise a $850 bundle that had
+// gone back to $975. Reconcile every curated price against tonight's feed, and
+// drop anything the feed can no longer see rather than publish a dead deal.
+const live = new Map((feed.candidates || []).map((c) => [c.url, c]));
+function reconcile(d) {
+  const hit = live.get(d.url);
+  if (!hit) return null;
+  const price = Number(hit.price);
+  const compare_at = hit.compare_at != null ? Number(hit.compare_at) : d.compare_at;
+  if (Math.round(price) !== Math.round(Number(d.price))) {
+    console.log(`  price refreshed: $${Math.round(Number(d.price))} -> $${Math.round(price)}  ${String(d.title).slice(0, 48)}`);
+  }
+  return { ...d, price, compare_at };
+}
+const dropped = [];
+cur.deal_of_the_day = (() => {
+  const r = reconcile(cur.deal_of_the_day);
+  if (!r) dropped.push(cur.deal_of_the_day.title);
+  return r;
+})();
+cur.deals = cur.deals.map((d) => { const r = reconcile(d); if (!r) dropped.push(d.title); return r; }).filter(Boolean);
+if (dropped.length) console.log(`  DROPPED (no longer in feed): ${dropped.join(' | ')}`);
+if (!cur.deal_of_the_day && cur.deals.length) cur.deal_of_the_day = cur.deals.shift();
+// The stamp is the feed's own check date, never a hand-typed one. checked_label
+// used to be typed into deals-curated.json by hand, so it kept saying July 13
+// while the bot ran nightly underneath it.
+if (feed.date) {
+  const [y, m, d] = feed.date.split('-').map(Number);
+  cur.checked_label = new Date(Date.UTC(y, m - 1, d))
+    .toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' });
 }
 
 const esc = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');

@@ -17,6 +17,11 @@ jobs:
           node-version: 20
       - name: Run price bot
         run: node scripts/price-bot.mjs
+      - name: Refresh the curated front-page board
+        # Verdicts stay hand-written; prices and the check date come from tonight's
+        # feed. Without this step the board only updated when someone ran it by
+        # hand, which is how it sat on July 13 prices for three weeks.
+        run: node scripts/build-deals.mjs
       - name: Refresh department hub pages
         run: node scripts/build-deal-hubs.mjs
       - name: Refresh the launch-monitor price ladder
