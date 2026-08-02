@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-01T11:34:58.836Z",
- "date": "2026-08-01",
+ "generated_at": "2026-08-02T11:34:36.880Z",
+ "date": "2026-08-02",
  "sources": [
   {
    "retailer": "PlayBetter",
@@ -20,7 +20,7 @@
   {
    "retailer": "Top Shelf Golf",
    "status": "ok",
-   "on_sale_items": 32
+   "on_sale_items": 20
   }
  ],
  "candidates": [
@@ -89,17 +89,6 @@
    "pct_off": 52,
    "available": true,
    "url": "https://shopindoorgolf.com/products/flightscope-mevo-plus"
-  },
-  {
-   "retailer": "PlayBetter",
-   "title": "Polar Grit X Rugged Outdoor Watch",
-   "vendor": "Polar",
-   "type": "Outdoor GPS Watch",
-   "price": 229.98,
-   "compare_at": 459.95,
-   "pct_off": 50,
-   "available": true,
-   "url": "https://www.playbetter.com/products/polar-grit-x-rugged-outdoor-watch"
   },
   {
    "retailer": "PlayBetter",
@@ -1180,28 +1169,6 @@
    "url": "https://rainorshinegolf.com/products/bushnell-lpi-retractable-package"
   },
   {
-   "retailer": "Top Shelf Golf",
-   "title": "Foresight Sports GCQuad Launch Monitor and Golf Simulator",
-   "vendor": "Foresight Sports",
-   "type": "Golf Launch Monitor",
-   "price": 11999,
-   "compare_at": 15999,
-   "pct_off": 25,
-   "available": true,
-   "url": "https://www.topshelfgolf.com/products/foresight-sports-gcquad-launch-monitor-and-golf-simulator"
-  },
-  {
-   "retailer": "Top Shelf Golf",
-   "title": "Foresight Sports QuadMAX Launch Monitor and Golf Simulator",
-   "vendor": "Foresight Sports",
-   "type": "Golf Launch Monitor",
-   "price": 14999,
-   "compare_at": 19999,
-   "pct_off": 25,
-   "available": true,
-   "url": "https://www.topshelfgolf.com/products/foresight-sports-quadmax-launch-monitor-and-golf-simulator"
-  },
-  {
    "retailer": "PlayBetter",
    "title": "Foresight GC3 (Certified Pre-Owned) with PlayBetter SimStudio™ COMPLETE Package with PlayBetter SimStudio™ COMPLETE Package | Golf Simulator Studio with Impact Screen, Enclosure, Side Barriers, Hitting/Putting Mats, Projector & Protective Case",
    "vendor": "Foresight Sports",
@@ -1433,17 +1400,6 @@
    "url": "https://rainorshinegolf.com/products/skytrak-golf-simulation-software-add-on"
   },
   {
-   "retailer": "Top Shelf Golf",
-   "title": "Foresight Sports GCQuad Home Golf Simulator Package",
-   "vendor": "Foresight Sports",
-   "type": "Golf Simulator Package",
-   "price": 13249,
-   "compare_at": 17249,
-   "pct_off": 23,
-   "available": true,
-   "url": "https://www.topshelfgolf.com/products/foresight-sports-gcquad-home-golf-simulator-package"
-  },
-  {
    "retailer": "PlayBetter",
    "title": "Uneekor EYE XR with PlayBetter SimStudio™ OVERHEAD Premium Home Golf Studio Package with Carl's Place Pro Enclosure",
    "vendor": "Uneekor",
@@ -1532,17 +1488,6 @@
    "url": "https://rainorshinegolf.com/products/trugolf-apogee-swingbay-golf-simulator-package"
   },
   {
-   "retailer": "Top Shelf Golf",
-   "title": "Foresight Sports GCQuad Premium Golf Simulator Package",
-   "vendor": "Foresight Sports",
-   "type": "Golf Simulator Package",
-   "price": 14549,
-   "compare_at": 18549,
-   "pct_off": 22,
-   "available": true,
-   "url": "https://www.topshelfgolf.com/products/foresight-sports-gcquad-premium-golf-simulator-package"
-  },
-  {
    "retailer": "PlayBetter",
    "title": "Uneekor EYE XR SportScreen Vanish LITE Hybrid-Retractable Golf Studio Complete Package | Home Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Putting Turf & Projector",
    "vendor": "SportScreen",
@@ -1607,17 +1552,6 @@
    "pct_off": 21,
    "available": true,
    "url": "https://rainorshinegolf.com/products/bushnell-launch-pro-swingbay-package"
-  },
-  {
-   "retailer": "Top Shelf Golf",
-   "title": "Foresight Sports GCQuad PerfectBay Golf Simulator Package",
-   "vendor": "Foresight Sports",
-   "type": "Golf Simulator Package",
-   "price": 14849,
-   "compare_at": 18849,
-   "pct_off": 21,
-   "available": true,
-   "url": "https://www.topshelfgolf.com/products/foresight-sports-gcquad-perfectbay-golf-simulator-package"
   },
   {
    "retailer": "PlayBetter",
@@ -1775,17 +1709,6 @@
   },
   {
    "retailer": "Top Shelf Golf",
-   "title": "Foresight Sports QuadMAX All-In-One Golf Simulator",
-   "vendor": "Foresight Sports",
-   "type": "Golf Simulator Package",
-   "price": 19899,
-   "compare_at": 24899,
-   "pct_off": 20,
-   "available": true,
-   "url": "https://www.topshelfgolf.com/products/foresight-sports-quadmax-all-in-one-golf-simulator"
-  },
-  {
-   "retailer": "Top Shelf Golf",
    "title": "Swing Caddie SC200 Plus Golf Launch Monitor",
    "vendor": "Voice Caddie",
    "type": "Golf Launch Monitor",
@@ -1915,17 +1838,6 @@
    "pct_off": 19,
    "available": true,
    "url": "https://rainorshinegolf.com/products/nvisage-n1-swingbay-golf-simulator-package"
-  },
-  {
-   "retailer": "Top Shelf Golf",
-   "title": "Foresight Sports GCQuad All-In-One Golf Simulator",
-   "vendor": "Foresight Sports",
-   "type": "Golf Simulator Package",
-   "price": 16899,
-   "compare_at": 20899,
-   "pct_off": 19,
-   "available": true,
-   "url": "https://www.topshelfgolf.com/products/foresight-sports-gcquad-all-in-one-golf-simulator"
   },
   {
    "retailer": "PlayBetter",
@@ -2853,17 +2765,6 @@
   },
   {
    "retailer": "Top Shelf Golf",
-   "title": "Foresight Sports GC3 Golf Launch Monitor (Ball & Club Data)",
-   "vendor": "Foresight Sports",
-   "type": "Golf Launch Monitor",
-   "price": 5999,
-   "compare_at": 6999,
-   "pct_off": 14,
-   "available": true,
-   "url": "https://www.topshelfgolf.com/products/foresight-sports-gc3-launch-monitor-and-golf-simulator"
-  },
-  {
-   "retailer": "Top Shelf Golf",
    "title": "Uneekor EYE XR Launch Monitor & Golf Simulator",
    "vendor": "Uneekor",
    "type": "Golf Launch Monitor",
@@ -3347,17 +3248,6 @@
    "url": "https://rainorshinegolf.com/products/golf-simulator-gaming-pc-katana"
   },
   {
-   "retailer": "Top Shelf Golf",
-   "title": "Foresight Sports GC3 Home Golf Simulator Package",
-   "vendor": "Foresight Sports",
-   "type": "Golf Simulator Package",
-   "price": 7249,
-   "compare_at": 8249,
-   "pct_off": 12,
-   "available": true,
-   "url": "https://www.topshelfgolf.com/products/foresight-sports-gc3-home-golf-simulator-package"
-  },
-  {
    "retailer": "PlayBetter",
    "title": "Blue Tees Golf Rainmaker with PlayBetter SimStudio™ COMPLETE Package | Golf Simulator Studio with Impact Screen, Enclosure, Side Barriers, Hitting/Putting Mats & Projector",
    "vendor": "Blue Tees Golf",
@@ -3766,28 +3656,6 @@
   },
   {
    "retailer": "Top Shelf Golf",
-   "title": "Foresight Sports GC3 PerfectBay Golf Simulator Package",
-   "vendor": "Foresight Sports",
-   "type": "Golf Simulator Package",
-   "price": 8849,
-   "compare_at": 9849,
-   "pct_off": 10,
-   "available": true,
-   "url": "https://www.topshelfgolf.com/products/foresight-sports-gc3-perfectbay-golf-simulator-package"
-  },
-  {
-   "retailer": "Top Shelf Golf",
-   "title": "Foresight Sports GC3 Premium Golf Simulator Package",
-   "vendor": "Foresight Sports",
-   "type": "Golf Simulator Package",
-   "price": 8549,
-   "compare_at": 9549,
-   "pct_off": 10,
-   "available": true,
-   "url": "https://www.topshelfgolf.com/products/foresight-sports-gc3-premium-golf-simulator-package"
-  },
-  {
-   "retailer": "Top Shelf Golf",
    "title": "Uneekor EYE XR PerfectBay Golf Simulator Package",
    "vendor": "Uneekor",
    "type": "Golf Simulator Package",
@@ -4192,17 +4060,6 @@
    "pct_off": 8,
    "available": true,
    "url": "https://rainorshinegolf.com/products/optoma-gt2400hdr-laser-short-throw-projector"
-  },
-  {
-   "retailer": "Top Shelf Golf",
-   "title": "Foresight Sports GC3 All-In-One Golf Simulator",
-   "vendor": "Foresight Sports",
-   "type": "Golf Simulator Package",
-   "price": 10899,
-   "compare_at": 11899,
-   "pct_off": 8,
-   "available": true,
-   "url": "https://www.topshelfgolf.com/products/foresight-sports-gc3-all-in-one-golf-simulator"
   },
   {
    "retailer": "PlayBetter",
