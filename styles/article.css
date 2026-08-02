@@ -659,6 +659,45 @@ h1.title {
   margin: 10px 0 0;
 }
 
+/* --------------------------------------------------------------------------
+   Bag Fit & Gap Lab (distance-chart.html)
+   -------------------------------------------------------------------------- */
+.gaplab { border: 1px solid var(--brass-edge); background: #fbf7ec; padding: 22px 20px 24px; margin: 30px 0 34px; }
+.gaplab h3 { font-family: var(--display); font-size: 22px; margin: 0 0 4px; }
+.gaplab .gl-sub { font-family: var(--mono); font-size: 12.5px; letter-spacing: 0.04em; color: var(--pine); margin: 0 0 16px; }
+.gaplab .gl-bar { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 16px; }
+.gaplab button { font-family: var(--mono); font-size: 12px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase;
+  padding: 9px 14px; border: 1px solid var(--brass-edge); background: var(--brass); color: var(--cta-ink); cursor: pointer; }
+.gaplab button.gl-ghost { background: transparent; color: var(--brass-dark); }
+.gaplab button:hover { background: var(--brass-dark); color: #f6ecd8; }
+.gl-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 8px 14px; margin: 0 0 18px; }
+.gl-row { display: flex; align-items: center; gap: 8px; }
+.gl-row label { font-family: var(--mono); font-size: 12.5px; flex: 1 1 auto; cursor: pointer; }
+.gl-row input[type="number"] { width: 66px; font-family: var(--mono); font-size: 13px; padding: 5px 6px;
+  border: 1px solid var(--brass-edge); background: #fff; }
+.gl-row input[type="number"]:disabled { background: #efe9db; color: #9a927f; }
+.gl-out { margin-top: 6px; }
+.gl-headline { font-family: var(--display); font-size: 19px; line-height: 1.35; margin: 0 0 12px; }
+.gl-map { list-style: none; margin: 0 0 16px; padding: 0; }
+.gl-map li { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 10px;
+  font-family: var(--mono); font-size: 13px; padding: 5px 0; border-bottom: 1px dotted #d6cbb0; }
+.gl-map .gl-club { font-weight: 700; }
+.gl-map .gl-yd { text-align: right; color: var(--pine); }
+.gl-gap { grid-column: 1 / -1; font-size: 12px; padding: 3px 0 3px 14px; border: 0; color: var(--pine); }
+.gl-gap.is-hole { color: #9a3412; font-weight: 700; }
+.gl-gap.is-overlap { color: #7c5c00; font-weight: 700; }
+.gl-note { font-family: var(--mono); font-size: 12.5px; color: var(--pine); margin: 14px 0 0; }
+.gl-flag { border-left: 3px solid var(--brass); padding: 8px 0 8px 12px; margin: 12px 0; font-size: 15px; }
+@media (max-width: 560px) {
+  /* comfortable tap targets — this screen gets a lot of tapping */
+  .gaplab button { padding: 13px 16px; }
+  .gaplab .gl-row input[type="number"] { padding: 9px 8px; width: 78px; }
+}
+@media print {
+  .mm-nav, .mm-topbar, footer, .gl-bar, .gaplab .gl-inputs { display: none !important; }
+  .gaplab { border: 0; background: none; padding: 0; }
+}
+
 /* buy-it-if / skip-it-if (stage-5+ markup) */
 .buyskip {
   display: grid;

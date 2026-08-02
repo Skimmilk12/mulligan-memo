@@ -493,6 +493,27 @@
 
       <p>So chase distance if it's fun — and the right <a class="inline" href="posts/best-golf-balls-for-distance.html">distance ball</a> or <a class="inline" href="posts/best-used-irons-for-mid-handicappers.html">well-fit irons</a> can genuinely help — but understand that clean, consistent gaps will lower your scores more reliably than five extra yards off the tee ever will. And if you want the fundamentals behind the numbers, our <a class="inline" href="posts/golf-ball-buyers-guide.html">golf ball buyer's guide</a> explains how the ball itself nudges carry and spin.</p>
 
+      <div class="gaplab" id="gaplab">
+        <h3>The Gap Lab: find the hole in your bag</h3>
+        <p class="gl-sub">Enter your typical <b>carry</b> for the clubs you actually carry. Everything stays in your browser.</p>
+
+        <div class="gl-bar gl-inputs">
+          <button type="button" id="gl-fill" class="gl-ghost">Start from the chart averages</button>
+          <button type="button" id="gl-clear" class="gl-ghost">Clear</button>
+        </div>
+
+        <div class="gl-grid gl-inputs" id="gl-grid"></div>
+
+        <div class="gl-bar gl-inputs">
+          <button type="button" id="gl-run">Map my gaps</button>
+          <button type="button" id="gl-print" class="gl-ghost">Print this</button>
+        </div>
+
+        <div class="gl-out" id="gl-out" role="region" aria-live="polite"></div>
+
+        <p class="gl-note"><b>What this is:</b> a carry-gap check, not a club fitting. It compares the numbers you enter and shows where the steps between clubs are too big or too small. It can't tell you what loft, shaft, or lie you need — only a fitting with real ball data can do that. Garbage in, garbage out: if you enter your best-ever strike instead of your typical one, the map will lie to you.</p>
+      </div>
+
       <h2 id="faq"><span class="kick">FAQ</span>Quick answers</h2>
       <div class="faq">
         <details>
@@ -592,5 +613,188 @@
   </div>
 </footer>
   <script src="/search.js" defer></script>
+  <script>
+  /* Bag Fit & Gap Lab — all client-side. Yardages never leave the browser
+     and are never sent to analytics; only issue categories are reported. */
+  (function () {
+    var CLUBS = [
+      { id: 'dr', name: 'Driver',         avg: 210, band: 'long',  on: 1 },
+      { id: '3w', name: '3-wood',         avg: 198, band: 'long',  on: 1 },
+      { id: '5w', name: '5-wood',         avg: 183, band: 'long',  on: 0 },
+      { id: 'hy', name: 'Hybrid (3/4)',   avg: 173, band: 'long',  on: 1 },
+      { id: '4i', name: '4-iron',         avg: 165, band: 'long',  on: 0 },
+      { id: '5i', name: '5-iron',         avg: 155, band: 'mid',   on: 1 },
+      { id: '6i', name: '6-iron',         avg: 145, band: 'mid',   on: 1 },
+      { id: '7i', name: '7-iron',         avg: 140, band: 'mid',   on: 1 },
+      { id: '8i', name: '8-iron',         avg: 135, band: 'mid',   on: 1 },
+      { id: '9i', name: '9-iron',         avg: 123, band: 'mid',   on: 1 },
+      { id: 'pw', name: 'Pitching wedge', avg: 110, band: 'wedge', on: 1 },
+      { id: 'gw', name: 'Gap wedge',      avg: 95,  band: 'wedge', on: 0 },
+      { id: 'sw', name: 'Sand wedge',     avg: 80,  band: 'wedge', on: 1 },
+      { id: 'lw', name: 'Lob wedge',      avg: 65,  band: 'wedge', on: 0 }
+    ];
+    var KEY = 'mm-gaplab-v1', started = false;
+    var grid = document.getElementById('gl-grid');
+    var out = document.getElementById('gl-out');
+    if (!grid || !out) return;
+
+    function ev(name, params) { if (window.gtag) gtag('event', name, params || {}); }
+    function esc(s) { return String(s).replace(/[&<>"]/g, function (c) {
+      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
+
+    CLUBS.forEach(function (c) {
+      var row = document.createElement('div');
+      row.className = 'gl-row';
+      row.innerHTML = '<input type="checkbox" id="chk-' + c.id + '"' + (c.on ? ' checked' : '') + '>'
+        + '<label for="chk-' + c.id + '">' + esc(c.name) + '</label>'
+        + '<input type="number" id="yd-' + c.id + '" min="20" max="400" step="1" inputmode="numeric"'
+        + ' aria-label="' + esc(c.name) + ' carry distance in yards"' + (c.on ? '' : ' disabled') + '>';
+      grid.appendChild(row);
+    });
+
+    function chk(id) { return document.getElementById('chk-' + id); }
+    function yd(id) { return document.getElementById('yd-' + id); }
+
+    grid.addEventListener('change', function (e) {
+      if (e.target.type === 'checkbox') {
+        var id = e.target.id.slice(4);
+        yd(id).disabled = !e.target.checked;
+        if (!e.target.checked) yd(id).value = '';
+      }
+      save();
+    });
+    grid.addEventListener('input', function () {
+      if (!started) { started = true; ev('lab_start', { tool: 'gap_lab' }); }
+      save();
+    });
+
+    function save() {
+      try {
+        var d = {};
+        CLUBS.forEach(function (c) { d[c.id] = [chk(c.id).checked ? 1 : 0, yd(c.id).value]; });
+        localStorage.setItem(KEY, JSON.stringify(d));
+      } catch (err) { /* private mode — the tool still works, it just won't remember */ }
+    }
+    function load() {
+      try {
+        var d = JSON.parse(localStorage.getItem(KEY) || 'null');
+        if (!d) return;
+        CLUBS.forEach(function (c) {
+          if (!d[c.id]) return;
+          chk(c.id).checked = !!d[c.id][0];
+          yd(c.id).disabled = !d[c.id][0];
+          yd(c.id).value = d[c.id][1] || '';
+        });
+      } catch (err) { /* ignore malformed saved state */ }
+    }
+    load();
+
+    document.getElementById('gl-fill').addEventListener('click', function () {
+      CLUBS.forEach(function (c) { if (chk(c.id).checked) yd(c.id).value = c.avg; });
+      save();
+    });
+    document.getElementById('gl-clear').addEventListener('click', function () {
+      CLUBS.forEach(function (c) { yd(c.id).value = ''; });
+      out.innerHTML = ''; save();
+    });
+    document.getElementById('gl-print').addEventListener('click', function () { window.print(); });
+    document.getElementById('gl-run').addEventListener('click', run);
+
+    function classify(gap) {
+      if (gap <= 5) return { key: 'overlap', label: 'overlap — these two do the same job' };
+      if (gap <= 9) return { key: 'tight', label: 'tight' };
+      if (gap <= 15) return { key: 'good', label: 'good step' };
+      if (gap <= 19) return { key: 'wide', label: 'a little wide' };
+      return { key: 'hole', label: 'HOLE — no club covers this' };
+    }
+
+    function run() {
+      var bag = CLUBS.filter(function (c) {
+        return chk(c.id).checked && yd(c.id).value !== '' && isFinite(+yd(c.id).value);
+      }).map(function (c) { return { name: c.name, band: c.band, y: Math.round(+yd(c.id).value) }; })
+        .filter(function (c) { return c.y >= 20 && c.y <= 400; })
+        .sort(function (a, b) { return b.y - a.y; });
+
+      if (bag.length < 3) {
+        out.innerHTML = '<p class="gl-flag">Enter a carry number for at least three clubs and I can map the steps between them.</p>';
+        return;
+      }
+
+      var gaps = [], holes = 0, overlaps = 0, biggest = null;
+      for (var i = 0; i < bag.length - 1; i++) {
+        var g = bag[i].y - bag[i + 1].y, cl = classify(g);
+        gaps.push({ from: bag[i], to: bag[i + 1], gap: g, cl: cl });
+        if (cl.key === 'hole') holes++;
+        if (cl.key === 'overlap') overlaps++;
+        if (!biggest || g > biggest.gap) biggest = gaps[gaps.length - 1];
+      }
+
+      var html = '';
+      if (holes) {
+        var mid = biggest.to.y + Math.round(biggest.gap / 2);
+        html += '<p class="gl-headline">Your biggest hole is <b>' + biggest.gap + ' yards</b>, between your '
+          + esc(biggest.from.name) + ' and your ' + esc(biggest.to.name) + '.</p>'
+          + '<p class="gl-flag">Next range session, hit a few shots at <b>' + mid + ' yards</b> — that’s the middle of the hole, '
+          + 'and the yardage you currently have no comfortable club for. If you find yourself making a three-quarter swing to cover it, that’s the gap talking.</p>';
+      } else if (overlaps) {
+        html += '<p class="gl-headline">No real holes — but ' + overlaps + ' pair'
+          + (overlaps > 1 ? 's of your clubs are' : ' of your clubs is') + ' doing the same job.</p>';
+      } else {
+        html += '<p class="gl-headline">Nothing alarming. Your steps are reasonably even top to bottom.</p>';
+      }
+
+      html += '<ul class="gl-map">';
+      for (var j = 0; j < bag.length; j++) {
+        html += '<li><span class="gl-club">' + esc(bag[j].name) + '</span><span></span><span class="gl-yd">' + bag[j].y + ' yds</span></li>';
+        if (j < gaps.length) {
+          var gg = gaps[j];
+          html += '<li class="gl-gap ' + (gg.cl.key === 'hole' ? 'is-hole' : gg.cl.key === 'overlap' ? 'is-overlap' : '')
+            + '">&#8593; ' + gg.gap + ' yd &mdash; ' + gg.cl.label + '</li>';
+        }
+      }
+      html += '</ul>';
+
+      /* Route the diagnosis to the guide that actually addresses it. */
+      var tips = [];
+      if (holes) {
+        var band = biggest.to.y >= 140 ? 'long' : biggest.from.y <= 125 ? 'wedge' : 'mid';
+        if (band === 'long') {
+          tips.push('That hole is at the long end, which is the classic hard-to-hit-long-iron problem. A '
+            + '<a class="inline" data-gl="hybrid" href="posts/hybrid-vs-long-iron.html">hybrid in place of a long iron</a> is the usual fix, and our '
+            + '<a class="inline" data-gl="hybrids" href="posts/best-golf-hybrids-for-high-handicappers.html">hybrid roundup</a> covers what to look for.');
+        } else if (band === 'wedge') {
+          tips.push('That hole is down in the scoring clubs — exactly what a gap wedge was invented for. Our '
+            + '<a class="inline" data-gl="wedge-setup" href="posts/56-vs-60-degree-wedge-setup.html">wedge setup guide</a> walks through the lofts, and the '
+            + '<a class="inline" data-gl="wedges" href="posts/best-golf-wedges-under-100.html">best wedges under $100</a> shows you don’t need tour money to close it.');
+        } else {
+          tips.push('That hole sits in the middle of the bag, where it is usually a lofting or shaft inconsistency rather than a missing club. Worth raising at a fitting before buying anything.');
+        }
+      }
+      if (overlaps) {
+        tips.push('Overlapping clubs usually mean one of two things: the lofts are too close, or the numbers you entered came from different days and different strikes. Before changing any clubs, re-measure those two on a '
+          + '<a class="inline" data-gl="launch-monitor" href="posts/best-golf-launch-monitor-under-500.html">launch monitor</a> or with a '
+          + '<a class="inline" data-gl="rangefinder" href="posts/best-golf-rangefinder-under-100.html">rangefinder</a> on the same session.');
+      }
+      if (bag.length < 8) {
+        tips.push('You have mapped ' + bag.length + ' clubs. Fill in the rest when you know them — gaps only show up once the bag is complete.');
+      }
+      if (tips.length) html += '<div class="gl-flag">' + tips.join('</div><div class="gl-flag">') + '</div>';
+
+      out.innerHTML = html;
+      ev('lab_complete', {
+        tool: 'gap_lab',
+        clubs_entered: bag.length,
+        issue: holes ? 'hole' : overlaps ? 'overlap' : 'clean',
+        holes: holes,
+        overlaps: overlaps
+      });
+    }
+
+    out.addEventListener('click', function (e) {
+      var a = e.target.closest ? e.target.closest('a[data-gl]') : null;
+      if (a) ev('lab_guide_click', { tool: 'gap_lab', guide: a.getAttribute('data-gl') });
+    });
+  })();
+  </script>
 </body>
 </html>
