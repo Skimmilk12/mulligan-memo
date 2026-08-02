@@ -151,7 +151,7 @@ const page = `<!doctype html>
 
       <div class="callout">
         <div class="ttl">Read this before the prices</div>
-        <div class="bd"><p>The number on the box is not the number you pay. Almost every unit here needs software to become a simulator, and that is usually an annual subscription bought separately. Photometric units (SkyTrak, Bushnell, Foresight, Uneekor) sit beside the ball and need little depth behind you; radar units (Mevo, Garmin, Rapsodo) track flight and want several metres of room. That single difference decides more purchases than accuracy does &mdash; check your <a class="inline" href="/posts/golf-simulator-shed.html">room dimensions</a> first.</p></div>
+        <div class="bd"><p>The number on the box is not the number you pay. Almost every unit here needs software to become a simulator, and that is usually an annual subscription bought separately. Photometric units (SkyTrak, Bushnell, Foresight, Uneekor) sit beside the ball and need little depth behind you; radar units (Mevo, Garmin, Rapsodo) track flight and want several metres of room. That single difference decides more purchases than accuracy does &mdash; check what your <a class="inline" href="/posts/golf-simulator-room-dimensions.html">room actually allows</a> first.</p></div>
       </div>
 ${body}
       <h2 id="packages">Complete studio packages</h2>
@@ -167,7 +167,7 @@ ${bundleRows}
       <p>The same unit often appears here at three prices. Certified pre-owned means the manufacturer or PlayBetter has refurbished and re-tested it, and it carries a warranty &mdash; unlike a private sale, where a photometric unit with an expired or account-locked software licence is a real risk. On the four-figure hardware the gap between new and certified pre-owned is routinely thousands, which is the largest single saving on this page. Our <a class="inline" href="/posts/used-golf-launch-monitor.html">used launch monitor guide</a> covers what to confirm before buying secondhand.</p>
 
       <h2 id="next">Work out what fits first</h2>
-      <p>Buying the unit before measuring the room is the expensive mistake. Start with <a class="inline" href="/posts/golf-simulator-shed.html">ceiling height and room depth</a>, then decide whether you <a class="inline" href="/posts/do-you-need-a-golf-launch-monitor.html">need a launch monitor at all</a>. If your budget is under $500, the <a class="inline" href="/posts/best-golf-launch-monitor-under-500.html">entry-level guide</a> is the better starting point.</p>
+      <p>Buying the unit before measuring the room is the expensive mistake. Start with <a class="inline" href="/posts/golf-simulator-room-dimensions.html">what each unit publishes for ceiling height and room depth</a>, then decide whether you <a class="inline" href="/posts/do-you-need-a-golf-launch-monitor.html">need a launch monitor at all</a>. If your budget is under $500, the <a class="inline" href="/posts/best-golf-launch-monitor-under-500.html">entry-level guide</a> is the better starting point.</p>
 
     </div>
   </article>
