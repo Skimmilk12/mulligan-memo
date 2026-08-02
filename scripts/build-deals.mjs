@@ -16,12 +16,26 @@ for (const d of [cur.deal_of_the_day, ...cur.deals]) {
 const esc = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 const money = n => '$' + (Number.isInteger(n) ? n.toLocaleString('en-US') : n.toLocaleString('en-US', { minimumFractionDigits: 2 }));
 
+// PlayBetter is an affiliate partner (GrowthHero, live 2026-08-01). Detect their
+// URLs and tag them automatically rather than trusting a hand-set flag — the flag
+// was missed on every entry, so we sent them free traffic.
+const PB_REF = 'ghref=2301%3A1337756';
+function outbound(url) {
+  const u = String(url);
+  if (!/^https?:\/\/(www\.)?playbetter\.com\//i.test(u)) return { href: u, paid: false };
+  const clean = u.split('#')[0];
+  if (clean.includes(PB_REF)) return { href: clean, paid: true };
+  return { href: clean + (clean.includes('?') ? '&' : '?') + PB_REF, paid: true };
+}
+
 function linkTag(d) {
   // FTC: paid links get an adjacent "paid link" marker. Non-affiliate links get
   // no tag — the best-price-regardless stance lives in the How-it-works box.
-  const rel = d.affiliate ? 'nofollow sponsored noopener' : 'nofollow noopener';
-  const tag = d.affiliate ? '<span class="dd-linktag">paid link</span>' : '';
-  return `<a class="dd-buy" href="${esc(d.url)}" rel="${rel}" target="_blank">GET THE DEAL →</a>${tag}`;
+  const link = outbound(d.url);
+  const paid = d.affiliate || link.paid;
+  const rel = paid ? 'nofollow sponsored noopener' : 'nofollow noopener';
+  const tag = paid ? '<span class="dd-linktag">paid link</span>' : '';
+  return `<a class="dd-buy" href="${esc(link.href)}" rel="${rel}" target="_blank">GET THE DEAL →</a>${tag}`;
 }
 
 function dealRow(d) {

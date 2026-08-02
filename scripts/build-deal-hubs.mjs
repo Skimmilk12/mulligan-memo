@@ -12,6 +12,18 @@ const latest = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'deals-latest.
 const killlist = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'deals-killlist.json'), 'utf8')).killed;
 const killedUrls = new Set(killlist.map(k => k.url));
 const esc = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+
+// PlayBetter is an affiliate partner (GrowthHero, live 2026-08-01). Tag their
+// links so the traffic we already send them actually pays. Every other retailer
+// on the board pays us nothing, so their links stay bare and unmarked.
+const PB_REF = 'ghref=2301%3A1337756';
+function outbound(url) {
+  const u = String(url);
+  if (!/^https?:\/\/(www\.)?playbetter\.com\//i.test(u)) return { href: u, paid: false };
+  const clean = u.split('#')[0];
+  if (clean.includes(PB_REF)) return { href: clean, paid: true };
+  return { href: clean + (clean.includes('?') ? '&' : '?') + PB_REF, paid: true };
+}
 const money = n => '$' + (Number.isInteger(n) ? n.toLocaleString('en-US') : n.toLocaleString('en-US', { minimumFractionDigits: 2 }));
 
 const HUBS = [
@@ -272,6 +284,7 @@ ${hub.related.map(([href, label]) => `      <li><a class="inline" href="${href}"
 }
 
 function rowHtml(c) {
+  const link = outbound(c.url);
   return `      <div class="dd-row">
         <div class="dd-row-top">
           <span class="dd-chip">${esc(c.vendor || c.type || 'Gear')}</span>
@@ -282,7 +295,7 @@ function rowHtml(c) {
           <span class="dd-was">${money(c.compare_at)}</span>
           <span class="dd-now">${money(c.price)}</span>
           <span class="dd-pct">${c.pct_off}% OFF</span>
-          <a class="dd-buy" href="${esc(c.url)}" rel="nofollow noopener" target="_blank">GET THE DEAL →</a>
+          <a class="dd-buy" href="${esc(link.href)}" rel="nofollow noopener${link.paid ? ' sponsored' : ''}" target="_blank">GET THE DEAL →</a>${link.paid ? '<span class="dd-linktag">paid link</span>' : ''}
         </div>
       </div>`;
 }
