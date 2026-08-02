@@ -1758,3 +1758,71 @@ details.toc nav { padding: 4px 22px 20px; }
   details.toc summary { padding: 12px 14px; }
   details.toc nav { padding: 2px 14px 16px; }
 }
+
+/* --------------------------------------------------------------------------
+   Room Check — golf-simulator-room-dimensions.html
+   Verdict colours are deliberately not a red/green pass-fail: a clear result
+   means "not ruled out by published figures", never "fits".
+   -------------------------------------------------------------------------- */
+.rc { border: 1px solid var(--brass-edge); background: #fbf7ec; padding: 22px 20px 20px;
+  margin: 26px 0 34px; scroll-margin-top: 70px; }
+.rc-head { margin: 0 0 16px; }
+.rc-title { font-family: var(--display); font-size: 22px; font-weight: 700; }
+.rc-sub { font-family: var(--mono); font-size: 12.5px; letter-spacing: 0.03em; color: var(--pine); }
+.rc-inputs { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin: 0 0 18px; }
+.rc-field { display: flex; flex-direction: column; gap: 5px; }
+.rc-field > span { font-family: var(--mono); font-size: 12px; font-weight: 700;
+  letter-spacing: 0.07em; text-transform: uppercase; color: var(--ink); }
+.rc-field > span small { display: block; font-weight: 400; letter-spacing: 0.02em;
+  text-transform: none; color: var(--pine); font-size: 11.5px; }
+.rc-field input[type="number"] { font-family: var(--mono); font-size: 15px; padding: 9px 10px;
+  border: 1px solid var(--brass-edge); background: #fff; width: 100%; }
+.rc-field-check { grid-column: 1 / -1; flex-direction: row; align-items: center; gap: 9px; }
+.rc-field-check input { width: 17px; height: 17px; accent-color: var(--pine); flex: 0 0 auto; }
+.rc-field-check span { font-family: var(--mono); font-size: 12.5px; text-transform: none;
+  letter-spacing: 0.02em; font-weight: 400; }
+
+.rc-empty { font-family: var(--mono); font-size: 13px; color: var(--pine); margin: 0; padding: 8px 0; }
+.rc-group { margin: 0 0 18px; }
+.rc-group h3 { font-family: var(--mono); font-size: 12.5px; font-weight: 700; letter-spacing: 0.1em;
+  text-transform: uppercase; margin: 0 0 10px; padding-bottom: 6px;
+  border-bottom: 1px solid var(--divider); display: flex; align-items: baseline; gap: 8px; }
+.rc-group h3 span { margin-left: auto; font-size: 15px; color: var(--brass-dark); }
+.rc-group-clear h3 { color: var(--pine); }
+.rc-group-out h3 { color: var(--flag); }
+.rc-group-unknown h3 { color: var(--pine); opacity: 0.8; }
+
+.rc-card { background: var(--memo); border: 1px solid var(--line-soft); border-left: 3px solid var(--divider);
+  padding: 12px 14px; margin: 0 0 8px; }
+.rc-group-clear .rc-card { border-left-color: var(--pine); }
+.rc-group-out .rc-card { border-left-color: var(--flag); }
+.rc-card-h { display: flex; align-items: baseline; gap: 10px; margin: 0 0 6px; }
+.rc-unit { font-family: var(--display); font-size: 17px; font-weight: 700; }
+.rc-tech { font-family: var(--mono); font-size: 11px; letter-spacing: 0.09em; text-transform: uppercase;
+  color: var(--pine); margin-left: auto; }
+.rc-why, .rc-note { margin: 0 0 6px; padding-left: 18px; font-size: 15px; }
+.rc-why li { color: var(--flag); }
+.rc-note li { color: var(--pine); }
+.rc-why-none { margin: 0 0 6px; font-size: 15px; color: var(--pine); }
+.rc-gaps { font-family: var(--mono); font-size: 11.5px; letter-spacing: 0.02em; color: var(--pine);
+  margin: 0 0 6px; opacity: 0.9; }
+.rc-gaps-full { color: var(--brass-dark); }
+.rc-quote { font-size: 14px; line-height: 1.5; color: var(--muted); margin: 0;
+  padding-top: 6px; border-top: 1px dotted var(--dotdash); }
+.rc-foot { font-family: var(--mono); font-size: 12px; line-height: 1.6; color: var(--pine);
+  margin: 12px 0 0; padding-top: 12px; border-top: 1px dotted var(--dotdash); }
+
+.rc-table td.rc-na { color: var(--pine); opacity: 0.75; font-style: italic; }
+.rc-srcline { font-family: var(--mono); font-size: 12px; line-height: 1.7; color: var(--pine);
+  margin: -14px 0 26px; }
+
+@media (max-width: 640px) {
+  .rc { padding: 18px 14px 16px; }
+  .rc-inputs { grid-template-columns: 1fr 1fr; gap: 10px; }
+  .rc-field input[type="number"] { font-size: 16px; padding: 11px 10px; } /* 16px avoids iOS zoom */
+  .rc-field-check input { width: 20px; height: 20px; }
+  .rc-tech { margin-left: 0; }
+  .rc-card-h { flex-wrap: wrap; gap: 4px 10px; }
+}
+.rc-advisory { font-family: var(--mono); font-size: 12.5px; line-height: 1.65; color: var(--ink);
+  background: var(--skipfill); border-left: 3px solid var(--flag); padding: 10px 12px; margin: 0 0 16px; }
