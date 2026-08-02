@@ -19,11 +19,13 @@ jobs:
         run: node scripts/price-bot.mjs
       - name: Refresh department hub pages
         run: node scripts/build-deal-hubs.mjs
+      - name: Refresh the launch-monitor price ladder
+        run: node scripts/build-launch-monitors.mjs
       - name: Commit price log
         run: |
           git config user.name "mm-price-bot"
           git config user.email "price-bot@mulliganmemo.com"
-          git add data/ deals/ deals.html
+          git add data/ deals/ deals.html launch-monitors.html
           if git diff --cached --quiet; then
             echo "no changes"
           else

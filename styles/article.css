@@ -660,6 +660,25 @@ h1.title {
 }
 
 /* --------------------------------------------------------------------------
+   Launch-monitor price ladder (launch-monitors.html)
+   -------------------------------------------------------------------------- */
+.lm-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(232px, 1fr)); gap: 14px; margin: 18px 0 34px; }
+.lm-card { border: 1px solid var(--brass-edge); background: #fbf7ec; padding: 14px 15px 16px; display: flex; flex-direction: column; }
+.lm-top { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; margin-bottom: 6px; }
+.lm-brand { font-family: var(--mono); font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--pine); }
+.lm-cond { font-family: var(--mono); font-size: 10px; letter-spacing: 0.06em; text-transform: uppercase; padding: 2px 6px; border: 1px solid var(--brass-edge); white-space: nowrap; }
+.lm-cond-certified, .lm-cond-open { background: #f0e6cd; }
+.lm-name { font-family: var(--display); font-size: 17px; line-height: 1.25; margin: 0 0 8px; }
+.lm-price { font-family: var(--mono); font-size: 21px; font-weight: 700; color: var(--brass-dark); margin: auto 0 12px; }
+.lm-buy { display: inline-block; font-family: var(--mono); font-size: 11.5px; font-weight: 700; letter-spacing: 0.08em;
+  text-transform: uppercase; text-decoration: none; padding: 9px 12px; text-align: center;
+  background: var(--brass); color: var(--cta-ink); border: 1px solid var(--brass-edge); }
+.lm-buy:hover { background: var(--brass-dark); color: #f6ecd8; }
+.lm-tag { display: block; font-family: var(--mono); font-size: 10px; letter-spacing: 0.06em; text-transform: uppercase;
+  color: var(--pine); margin-top: 5px; text-align: center; }
+.lm-num { font-family: var(--mono); white-space: nowrap; }
+
+/* --------------------------------------------------------------------------
    Bag Fit & Gap Lab (distance-chart.html)
    -------------------------------------------------------------------------- */
 .gaplab { border: 1px solid var(--brass-edge); background: #fbf7ec; padding: 22px 20px 24px; margin: 30px 0 34px;
