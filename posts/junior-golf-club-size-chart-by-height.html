@@ -49,7 +49,7 @@
         }
       },
       "datePublished": "2026-06-28",
-      "dateModified": "2026-06-28",
+      "dateModified": "2026-08-02",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://mulliganmemo.com/posts/junior-golf-club-size-chart-by-height.html"
@@ -358,111 +358,90 @@
       </ul>
       <p>It mainly nudges length and lie angle at the margins. Plenty of parents size perfectly well on standing height alone, so don't let wrist-to-floor become a reason to overthink it.</p>
 
-      <h2 id="the-junior-golf-club-length-for-height-chart">The junior golf club length for height chart</h2>
-      <p>Here's the junior golf club length for height chart, using driver and putter as anchor clubs because those are the two extremes of the set. Treat these as <strong>general ranges that vary by brand</strong>. They are not exact specs for any one model. Always cross-check against the specific set's stated height band before buying.</p>
-      <table>
-        <thead>
-          <tr><th>Child height</th><th>Driver length (approx.)</th><th>Putter length (approx.)</th><th>Rough age range*</th></tr>
-        </thead>
+      <h2 id="finder"><span class="kick">The Tool</span>Which set does your child's height put them in?</h2>
+
+    <p>Measure your child's height in inches, <strong>with their shoes on</strong> — both U.S. Kids Golf and PING say to measure that way, and at a band boundary half an inch of shoe changes the answer. Then read across.</p>
+
+    <div class="gsc" id="juniorcalc">
+      <div class="gsc-inputs">
+        <label class="gsc-field">
+          <span>Child's height <small>inches, shoes on</small></span>
+          <input type="number" id="jr-h" min="24" max="80" step="0.5" inputmode="decimal" placeholder="e.g. 52">
+        </label>
+      </div>
+      <div class="gsc-out" id="jr-out" role="status" aria-live="polite">
+        <p class="gsc-empty">Enter a height to see which set each maker puts your child in.</p>
+      </div>
+      <p class="gsc-foot">Height bands and club lengths are transcribed from each maker's own published page, linked below, and were read in August 2026. Where a maker publishes no club lengths for a set, this says so rather than estimating them.</p>
+    </div>
+
+    <h2 id="the-junior-golf-club-length-for-height-chart">What the makers actually publish</h2>
+
+    <p>There is no industry chart mapping a child's height to a club length. What exists is four makers publishing their own height bands, and only some of them publishing the club lengths inside those bands. Here is all of it, in one place, which is something none of the makers' own fitting tools will show you.</p>
+
+    <div class="glance">
+      <table class="rc-table jr-table">
+        <thead><tr><th>Maker</th><th>Published height bands</th><th>Club lengths published?</th></tr></thead>
         <tbody>
-          <tr><td>36&ndash;41 in</td><td>~28&ndash;31 in</td><td>~23&ndash;25 in</td><td>~3&ndash;5</td></tr>
-          <tr><td>42&ndash;47 in</td><td>~32&ndash;34 in</td><td>~25&ndash;26 in</td><td>~5&ndash;7</td></tr>
-          <tr><td>48&ndash;51 in</td><td>~35 in</td><td>~27 in</td><td>~7&ndash;9</td></tr>
-          <tr><td>52&ndash;54 in</td><td>~37&ndash;38 in</td><td>~28 in</td><td>~9&ndash;11</td></tr>
-          <tr><td>55&ndash;57 in</td><td>~38&ndash;39 in</td><td>~29 in</td><td>~11&ndash;12</td></tr>
-          <tr><td>58&ndash;60+ in</td><td>~39&ndash;40+ in (approaching adult)</td><td>~30&ndash;33 in</td><td>~12+</td></tr>
+          <tr><td>U.S. Kids Golf</td><td>Eleven 3-inch bands from 36&Prime; to 69&Prime;, plus an Infant size &mdash; twelve in total</td><td class="jr-no">Not in their fitting chart</td></tr>
+          <tr><td>Callaway <span class="jr-kind">XJ</span></td><td>XJ1 42&ndash;46&Prime; &middot; XJ2 47&ndash;53&Prime; &middot; XJ3 54&ndash;57&Prime;</td><td class="jr-yes">Yes, per club</td></tr>
+          <tr><td>Cobra <span class="jr-kind">Junior Complete</span></td><td>46&ndash;52&Prime; (labelled ages 5&ndash;8) &middot; 53&ndash;59&Prime; (labelled ages 9&ndash;12)</td><td class="jr-yes">Yes, per club</td></tr>
+          <tr><td>PING <span class="jr-kind">Prodi G</span></td><td>Fits 48&Prime; to 62&Prime;, built to order</td><td class="jr-no">Not published &mdash; built per fitting</td></tr>
+          <tr><td>TaylorMade <span class="jr-kind">Rory</span></td><td class="jr-no">No height guidance at all &mdash; ages 4+ and 8+ only</td><td class="jr-yes">Yes, per club</td></tr>
         </tbody>
       </table>
-      <p class="src">*Age range is a loose cross-check only. Kids the same age vary widely in height, so always size from the measured height, not the age.</p>
-      <figure class="fig"><div class="frame">
-        <svg viewBox="0 0 640 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Horizontal bar chart of approximate driver length by child height band, from 28 to 40 inches">
-          <rect x="0" y="0" width="640" height="400" fill="#f2ebdb"/>
-          <text x="320" y="34" font-family="Fraunces, Georgia, serif" font-size="19" fill="#1b2a20" text-anchor="middle">Driver length climbs with height</text>
-          <!-- x scale: 26in -> 40in mapped to x 150..600 -->
-          <!-- gridlines at 28,31,34,37,40 -->
-          <g font-family="Courier Prime, monospace" font-size="10" fill="#1b2a20">
-            <line x1="150" y1="66" x2="150" y2="350" stroke="rgba(27,42,32,0.22)" stroke-width="1"/>
-            <line x1="246" y1="66" x2="246" y2="350" stroke="rgba(27,42,32,0.22)" stroke-width="1"/>
-            <line x1="343" y1="66" x2="343" y2="350" stroke="rgba(27,42,32,0.22)" stroke-width="1"/>
-            <line x1="439" y1="66" x2="439" y2="350" stroke="rgba(27,42,32,0.22)" stroke-width="1"/>
-            <line x1="536" y1="66" x2="536" y2="350" stroke="rgba(27,42,32,0.22)" stroke-width="1"/>
-            <text x="150" y="368" text-anchor="middle">28</text>
-            <text x="246" y="368" text-anchor="middle">31</text>
-            <text x="343" y="368" text-anchor="middle">34</text>
-            <text x="439" y="368" text-anchor="middle">37</text>
-            <text x="536" y="368" text-anchor="middle">40</text>
-          </g>
-          <text x="375" y="390" font-family="Courier Prime, monospace" font-size="11" fill="#1b2a20" text-anchor="middle">approx. driver length (inches)</text>
-          <!-- bars: scale x(v) = 150 + (v-28)*32.16 ; 1 inch = 32.16px -->
-          <!-- 36-41in: 28-31 -> x150..246.5 -->
-          <g font-family="Courier Prime, monospace" font-size="11">
-            <rect x="150" y="80" width="96" height="26" fill="#21422f"/>
-            <text x="142" y="98" text-anchor="end" fill="#1b2a20">36-41 in</text>
-            <text x="254" y="98" fill="#21422f">~28-31"</text>
+    </div>
+    <p class="jr-src">Published pages, each read August 2026:
+      <a class="inline" href="https://www.uskidsgolf.com/fitting" rel="nofollow noopener" target="_blank">U.S. Kids Golf fitting</a> &middot;
+      <a class="inline" href="https://www.callawaygolf.com/golf-clubs/complete-sets/juniors-2026-xj-2-7-piece.html" rel="nofollow noopener" target="_blank">Callaway XJ</a> &middot;
+      <a class="inline" href="https://www.cobragolf.com/products/junior-complete-set" rel="nofollow noopener" target="_blank">Cobra Junior Complete Set</a> &middot;
+      <a class="inline" href="https://junior.webfit.ping.com/en/fitting" rel="nofollow noopener" target="_blank">PING WebFit Junior</a> &middot;
+      <a class="inline" href="https://www.taylormadegolf.com/rory-junior-golf-clubs.html" rel="nofollow noopener" target="_blank">TaylorMade Rory juniors</a>.</p>
 
-            <rect x="150" y="124" width="193" height="26" fill="#21422f"/>
-            <text x="142" y="142" text-anchor="end" fill="#1b2a20">42-47 in</text>
-            <text x="351" y="142" fill="#21422f">~32-34"</text>
+    <h2 id="the-boundary-problem">One inch of height, six inches of club</h2>
 
-            <rect x="150" y="168" width="225" height="26" fill="#21422f"/>
-            <text x="142" y="186" text-anchor="end" fill="#1b2a20">48-51 in</text>
-            <text x="383" y="186" fill="#21422f">~35"</text>
+    <p>The bands are the problem. They are discrete, they do not line up between makers, and the jump at a boundary is far larger than the measurement that triggers it.</p>
 
-            <rect x="150" y="212" width="322" height="26" fill="#a9772a"/>
-            <text x="142" y="230" text-anchor="end" fill="#1b2a20">52-54 in</text>
-            <text x="480" y="230" fill="#a9772a">~37-38"</text>
+    <p>Cobra publish two junior sets on one page. Their smaller set covers 46&ndash;52&Prime; and its driver is <strong>34.00&Prime;</strong>. Their larger set covers 53&ndash;59&Prime; and its driver is <strong>40.00&Prime;</strong>.</p>
 
-            <rect x="150" y="256" width="354" height="26" fill="#a9772a"/>
-            <text x="142" y="274" text-anchor="end" fill="#1b2a20">55-57 in</text>
-            <text x="512" y="274" fill="#a9772a">~38-39"</text>
+    <div class="pull">A child measured at 52 inches gets a 34-inch driver. Measured at 53 inches, the same child gets a 40-inch driver. One inch of height, six inches of club.</div>
 
-            <rect x="150" y="300" width="386" height="26" fill="#b03a2b"/>
-            <text x="142" y="318" text-anchor="end" fill="#1b2a20">58-60+ in</text>
-            <text x="544" y="318" fill="#b03a2b">~39-40+"</text>
-          </g>
-          <text x="150" y="58" font-family="Courier Prime, monospace" font-size="10" fill="#b03a2b">child height band</text>
-        </svg>
-      </div><figcaption>Driver length by height band<span class="src">Plotted from the standard ranges in the length chart above; brass/red bands trend toward adult length</span></figcaption></figure>
+    <p>Nothing is wrong with either set. A band has to end somewhere, and a six-club junior set cannot be offered in half-inch increments at that price. But it means the measurement genuinely matters, and it explains why both U.S. Kids and PING tell you to measure with shoes on — consistency is worth more than precision when the bands are this coarse.</p>
 
-      <p>US Kids Golf, the brand most fitters point to, sizes in tidy <strong>3-inch bands</strong> running from about 39 inches up to 66, with junior-specific equipment topping out around 66 inches (roughly a 5'6" ceiling for the category). The number after a US Kids set name is the <strong>player height in inches</strong> the set is built for, set at the bottom of its band: a UL7-45 fits roughly 45 to 48 inches, a UL7-48 fits about 48 to 51, and so on. So once you have a height, you read straight to the model whose number sits at or just below it. That one-to-one match is what makes US Kids the easiest brand to size off this chart.</p>
+    <p>The same jump appears between makers. At exactly 53&Prime;, Callaway put a child at the top of XJ2 with a <strong>34.5&Prime;</strong> driver, while Cobra put the same child at the bottom of their larger set with a <strong>40.00&Prime;</strong> driver. Both makers publish that height as in range. The clubs are five and a half inches apart.</p>
 
-      <h3>A quick age cross-check (confirm by height)</h3>
-      <p>If you want a sanity check while you wait to measure, the table below is the rough age shorthand. Use it only to catch obvious mismatches, then confirm by height, every time. This is also the fast answer to questions like <strong>what size golf clubs for an 8 year old</strong> or <strong>junior golf club sizing for a 10 year old</strong>: it points you to a height band, but the height is what decides.</p>
-      <table>
-        <thead>
-          <tr><th>Age</th><th>Typical height</th><th>What that usually means</th></tr>
-        </thead>
-        <tbody>
-          <tr><td>~5</td><td>~42&ndash;46 in</td><td>Smallest junior sets, 4&ndash;5 clubs</td></tr>
-          <tr><td>~8</td><td>~48&ndash;52 in</td><td>Mid-size set; this is the classic "what size golf clubs for 8 year old" zone</td></tr>
-          <tr><td>~10</td><td>~52&ndash;56 in</td><td>Larger junior set; junior golf club sizing for 10 year old lands here</td></tr>
-          <tr><td>~12</td><td>~57&ndash;60+ in</td><td>Biggest junior sets, approaching adult length</td></tr>
-        </tbody>
-      </table>
-      <p>Growth varies wildly, so do not buy off this table alone. A tall eight-year-old may need a ten-year-old's size, and a petite twelve-year-old may sit two bands down. The height chart is the authority; the age table is the cross-check.</p>
+    <p>Away from the boundaries they agree closely. At around 50&Prime;, Callaway's XJ2 driver is 34.5&Prime; and Cobra's smaller set is 34.0&Prime;; their 7-irons are 30.5&Prime; and 30.0&Prime;; their putters are both 27&Prime;. <strong>The disagreement is not about what a 50-inch child needs. It is about where one size stops and the next begins.</strong></p>
 
-      <h2 id="which-set-fits-your-child-s-height-us-kids-callawa">Which set fits your child's height (US Kids, Callaway XJ, Cobra)</h2>
-      <p>Once you have a height, this mapping ties it to each brand's <strong>own stated ranges</strong>. Brand bands drift year to year and differ by region (US vs UK/AU), so confirm against the current product page before buying. Pick the brand whose range <em>centers</em> on your child rather than forcing the edge of another brand's range.</p>
-      <table>
-        <thead>
-          <tr><th>Child height</th><th>US Kids (UL7)</th><th>Callaway XJ tier</th><th>Cobra tier</th></tr>
-        </thead>
-        <tbody>
-          <tr><td>38&ndash;46 in</td><td>UL7-39 / UL7-42 / UL7-45 band</td><td>XJ-1 (~38&ndash;46 in)</td><td>&mdash;</td></tr>
-          <tr><td>47&ndash;53 in</td><td>UL7-48 / UL7-51 band</td><td>XJ-2 (~47&ndash;53 in)</td><td>Younger set (~ages 5&ndash;8, ~46&ndash;52 in)</td></tr>
-          <tr><td>54&ndash;61 in</td><td>UL7-54 / UL7-57 / UL7-60 band</td><td>XJ-3 (~54&ndash;61 in)</td><td>Older 7-club set (~ages 9&ndash;12, ~53 in+)</td></tr>
-          <tr><td>62&ndash;66 in</td><td>UL7-63 / UL7-66 band</td><td>&mdash; (move to short adult/teen)</td><td>Larger/teen sizes</td></tr>
-        </tbody>
-      </table>
-      <p>Notice how much finer US Kids' steps are than the three-tier brands. If your child lands at the very top or bottom of a Callaway XJ or Cobra tier, that's exactly when a different brand, or the more granular US Kids band, is the better fit.</p>
+    <h2 id="height-or-age">Height or age? The makers disagree on that too</h2>
 
-      <h3>One thing to verify on every junior club: the flex</h3>
-      <p>A purpose-built junior set already comes with the right shaft flex, but it's worth knowing what "right" means so you can spot a club that isn't truly junior-grade. Kids have slow swing speeds, so they need a <a class="inline" href="./senior-flex-vs-regular-flex-shaft.html">soft junior or ladies flex shaft</a> that loads and launches the ball for them. A stiffer adult-flex shaft, even a short one, stays dead in a child's hands and produces low, weak shots. Any genuine junior club will already be flexed for kids; if you're handed a "junior" club that feels rigid when you waggle it, it's almost certainly a cut-down adult club wearing a junior label.</p>
+    <p>PING are unusually explicit about which measurement does which job. Their junior fitting tool asks for both, and tells you why:</p>
 
-      <h3>Should you get fitted in a store, or is the chart enough?</h3>
-      <p>For a first set, this chart plus a tape measure is plenty, and most parents never need more. But a free in-store fitting is worth it in two cases: when your child is between bands and you can't decide, or when they're committed enough that small gains matter. US Kids has a network of fitters, and big retailers like PGA Tour Superstore and Golf Galaxy will size a junior at no charge and let them hit a few balls first. Watching a child actually swing a club settles edge cases the chart can only estimate, and it costs nothing but a trip.</p>
+    <blockquote class="quote">We use height to fit for club length, lie angle, bag size, set makeup, and to more accurately predict set gapping.
+      <cite><a class="inline" href="https://junior.webfit.ping.com/en/fitting" rel="nofollow noopener" target="_blank">PING WebFit Junior</a></cite></blockquote>
 
-      <h2 id="the-fit-principle-middle-of-the-range-never-grow-i">The fit principle: middle of the range, never "grow into"</h2>
+    <p>And age, separately, for something else entirely:</p>
+
+    <blockquote class="quote">We use age to power distance and swing-speed estimations for your junior.
+      <cite><a class="inline" href="https://junior.webfit.ping.com/en/fitting" rel="nofollow noopener" target="_blank">PING WebFit Junior</a></cite></blockquote>
+
+    <p>In other words, height determines how long the clubs are; age only informs how far the child is likely to hit them, which in turn affects how many clubs the set needs. TaylorMade take the opposite approach: their Rory sets are sold as &ldquo;ages 4 and up&rdquo; and &ldquo;ages 8 and up&rdquo;, and no height figure appears anywhere on the line page or either product page.</p>
+
+    <p>Cobra sit in between, labelling each height band with an age range — which is a convenience, not an independent measurement, since the band itself is defined in inches.</p>
+
+    <p>Four of the five publish height. On the question of what actually sets club length, the weight of published practice is clear, and PING say it outright.</p>
+
+    <h2 id="grow-into">The makers also disagree with the instinct to buy big</h2>
+
+    <p>Every parent's instinct is to buy a size up so the set lasts. PING address that instruction directly on the fitting page:</p>
+
+    <blockquote class="quote">Enter your junior's current height. Don't be concerned they may out grow their set too quickly, because you can take advantage of our &ldquo;Get Golf Growing&rdquo; Program.
+      <cite><a class="inline" href="https://junior.webfit.ping.com/en/fitting" rel="nofollow noopener" target="_blank">PING WebFit Junior</a></cite></blockquote>
+
+    <p>Their answer to growth is to lengthen the set later, not to sell a long one now. Given that a single band boundary can move a driver six inches, deliberately buying a size up is not a small hedge — it can be most of a full size class of club.</p>
+
+    <p>PING ask for one more measurement that no other junior maker on this page requests: <strong>wrist-to-floor</strong>. They use it for lie angle rather than length, on the same reasoning that applies to <a class="inline" href="./golf-club-length-chart.html">adult club length</a> — where the hands actually sit matters as much as how tall someone is. Their instruction is to have the child stand straight, arms hanging freely, feet shoulder-width apart, shoes on.</p>
+
+    <h2 id="the-fit-principle-middle-of-the-range-never-grow-i">The fit principle: middle of the range, never "grow into"</h2>
       <p>This is the rule that separates a kid who loves golf from one who quietly gives it up. <strong>Keep your child in the middle of a set's range</strong>, at least about a half-inch above the set's minimum height, not scraping the bottom of it. A club that fits now is one they can actually swing. The instinct to "buy big so they grow into it" is the single most common buyer mistake, and it backfires: too-long clubs are harder to hit solidly, they breed compensations, and they discourage kids right when you're trying to hook them.</p>
       <p>If you want any growth room at all, cap it at roughly <strong>one inch over current need</strong>, no more. The few dollars you "save" by buying ahead are paid back with interest in bad contact and lost confidence. When in doubt between two sizes, the slightly shorter one wins.</p>
 
@@ -504,7 +483,7 @@
           <div>
             <div class="cat">Best Value / Brand Name</div>
             <h3>Callaway XJ Junior Sets (XJ-1, XJ-2, XJ-3)</h3>
-            <p>A value-friendly way to get a recognized brand's tech in a junior set. Three clear tiers: XJ-1 (~38&ndash;46 in, about ages 3&ndash;5, a 4-club set), XJ-2 (~47&ndash;53 in, ~6 clubs adding a driver and 9-iron), and XJ-3 (~54&ndash;61 in, ~7 clubs adding a hybrid). Light graphite shafts and forgiving, high-launch heads. Widely available and generally more affordable than US Kids. The trade-off is that three tiers fit more coarsely than US Kids' 3-inch steps.</p>
+            <p>A value-friendly way to get a recognized brand's tech in a junior set. Three tiers, and Callaway publish the height band for each on the product pages: XJ-1 for juniors 42&ndash;46&Prime; tall, XJ-2 for 47&ndash;53&Prime;, and XJ-3 for 54&ndash;57&Prime;. Light graphite shafts and forgiving, high-launch heads. Widely available and generally more affordable than US Kids. The trade-off is that three tiers fit more coarsely than US Kids' 3-inch steps.</p>
             <div class="bestfor"><b>Best for:</b> Budget-conscious parents who want a complete brand-name set in a simple pick-your-tier format.</div>
             <a class="cta" aria-label="Search Amazon for the Callaway XJ Junior Sets (XJ-1, XJ-2, XJ-3)" href="https://www.amazon.com/s?k=Callaway%20XJ%20Junior%20Sets%20golf&tag=mulliganmemo-20" target="_blank" rel="nofollow sponsored">Find it on Amazon &rarr;</a>
           </div>
@@ -654,5 +633,136 @@
   </div>
 </footer>
   <script src="/search.js" defer></script>
+<script>
+(function () {
+  var hEl = document.getElementById('jr-h');
+  if (!hEl) return;
+  var out = document.getElementById('jr-out');
+  var sent = false;
+
+  // Every band and length below is transcribed from the maker's own published page,
+  // read 2026-08-02. Where a maker publishes no club lengths we store null and say
+  // "not published" rather than estimating - the previous version of this page
+  // estimated, and that is precisely what this replaced.
+  var UK = {
+    name: 'U.S. Kids Golf', url: 'https://www.uskidsgolf.com/fitting',
+    bands: [[36,39],[39,42],[42,45],[45,48],[48,51],[51,54],[54,57],[57,60],[60,63],[63,66],[66,69]],
+    note: 'twelve sizes in 3-inch height steps; club lengths are not published in their fitting chart'
+  };
+
+  var MAKERS = [
+    {
+      name: 'Callaway XJ', url: 'https://www.callawaygolf.com/golf-clubs/complete-sets/juniors-2026-xj-2-7-piece.html',
+      sets: [
+        { lo: 42, hi: 46, label: 'XJ1', driver: null, seven: null, putter: null, note: 'lengths not captured for this tier' },
+        { lo: 47, hi: 53, label: 'XJ2', driver: 34.5, seven: 30.5, putter: 27, note: '' },
+        { lo: 54, hi: 57, label: 'XJ3', driver: null, seven: null, putter: null, note: 'lengths not captured for this tier' }
+      ]
+    },
+    {
+      name: 'Cobra Junior', url: 'https://www.cobragolf.com/products/junior-complete-set',
+      sets: [
+        { lo: 46, hi: 52, label: '46-52 inch set', driver: 34.0, seven: 30.0, putter: 27.0, note: 'labelled ages 5-8' },
+        { lo: 53, hi: 59, label: '53-59 inch set', driver: 40.0, seven: 33.0, putter: 30.0, note: 'labelled ages 9-12' }
+      ]
+    },
+    {
+      name: 'PING Prodi G', url: 'https://junior.webfit.ping.com/en/fitting',
+      sets: [{ lo: 48, hi: 62, label: 'in range', driver: null, seven: null, putter: null, note: 'built to order from height and wrist-to-floor' }]
+    }
+  ];
+
+  function fmt(n) { return (Math.round(n * 100) / 100).toString().replace(/\.0$/, ''); }
+
+  function render() {
+    var h = parseFloat(hEl.value);
+    if (isNaN(h)) {
+      out.innerHTML = '<p class="gsc-empty">Enter a height to see which set each maker puts your child in.</p>';
+      return;
+    }
+
+    var rows = '', drivers = [], covered = 0;
+
+    var ukHit = null;
+    UK.bands.forEach(function (b) { if (h >= b[0] && h < b[1]) ukHit = b; });
+    if (h >= 69) ukHit = UK.bands[UK.bands.length - 1];
+    rows += '<tr><td><a class="inline" href="' + UK.url + '" rel="nofollow noopener" target="_blank">U.S. Kids Golf</a></td>' +
+      '<td class="jr-set' + (ukHit ? '' : ' jr-out-of-range') + '">' + (ukHit ? fmt(ukHit[0]) + '&Prime;&ndash;' + fmt(ukHit[1]) + '&Prime; size' : 'below their range') + '</td>' +
+      '<td class="jr-note">' + (ukHit ? UK.note : 'their smallest published band starts at 36&Prime;, below which they list an Infant size') + '</td></tr>';
+    if (ukHit) covered++;
+
+    MAKERS.forEach(function (m) {
+      var hit = null;
+      m.sets.forEach(function (st) { if (h >= st.lo && h <= st.hi) hit = st; });
+      var cell, note;
+      if (hit) {
+        covered++;
+        cell = hit.label;
+        if (hit.driver !== null) {
+          drivers.push({ maker: m.name, len: hit.driver });
+          note = 'driver ' + fmt(hit.driver) + '&Prime;, 7-iron ' + fmt(hit.seven) + '&Prime;, putter ' + fmt(hit.putter) + '&Prime;' + (hit.note ? ' &mdash; ' + hit.note : '');
+        } else {
+          note = hit.note || 'lengths not published';
+        }
+        var edge = null;
+        if (h >= hit.hi - 1 && h <= hit.hi) edge = 'top';
+        else if (h >= hit.lo && h <= hit.lo + 1) edge = 'bottom';
+        if (edge) note += ' <b class="jr-edge">&mdash; at the ' + edge + ' of this band</b>';
+      } else {
+        var los = m.sets.map(function (x) { return x.lo; });
+        var his = m.sets.map(function (x) { return x.hi; });
+        var lo = Math.min.apply(null, los), hi = Math.max.apply(null, his);
+        cell = 'no set';
+        note = 'they publish ' + fmt(lo) + '&Prime; to ' + fmt(hi) + '&Prime;' + (h < lo ? ' &mdash; your child is below it' : ' &mdash; your child is above it');
+      }
+      rows += '<tr><td><a class="inline" href="' + m.url + '" rel="nofollow noopener" target="_blank">' + m.name + '</a></td>' +
+        '<td class="jr-set' + (hit ? '' : ' jr-out-of-range') + '">' + cell + '</td><td class="jr-note">' + note + '</td></tr>';
+    });
+
+    // TaylorMade publish no height guidance at all. That is a finding, so it gets a row.
+    rows += '<tr><td><a class="inline" href="https://www.taylormadegolf.com/rory-junior-golf-clubs.html" rel="nofollow noopener" target="_blank">TaylorMade Rory</a></td>' +
+      '<td class="jr-set jr-out-of-range">cannot say</td>' +
+      '<td class="jr-note">they size by age alone &mdash; no height figure appears anywhere on their junior pages</td></tr>';
+
+    var verdict, detail;
+    if (!covered) {
+      verdict = 'Below these sets';
+      detail = '<p><strong>No maker here publishes a standard set for a child of ' + fmt(h) + '&Prime;.</strong> U.S. Kids Golf publish the smallest range, starting at 36&Prime;, and list an Infant size below that. Under their smallest band you are into cut-down clubs rather than a fitted set.</p>';
+    } else if (drivers.length > 1) {
+      var lens = drivers.map(function (d) { return d.len; });
+      var spread = Math.max.apply(null, lens) - Math.min.apply(null, lens);
+      var listed = drivers.map(function (d) { return d.maker + ' ' + fmt(d.len) + '&Prime;'; }).join(' against ');
+      if (spread >= 2) {
+        verdict = fmt(spread) + '&Prime; apart';
+        detail = '<p><strong>The makers that publish lengths disagree by ' + fmt(spread) + ' inches on the driver for a ' + fmt(h) + '&Prime; child</strong> &mdash; ' + listed +
+          '. That is a band-boundary effect rather than a judgement about your child: one maker has just started a new size and the other has not. Measure again before choosing.</p>';
+      } else {
+        verdict = 'Makers agree';
+        detail = '<p><strong>The makers that publish lengths are within ' + fmt(spread) + '&Prime; of each other here</strong> &mdash; ' + listed +
+          '. Away from the band edges they converge, so at this height you can choose on price, club weight and availability rather than on fit.</p>';
+      }
+    } else if (drivers.length === 1) {
+      verdict = fmt(drivers[0].len) + '&Prime; driver';
+      detail = '<p>Only ' + drivers[0].maker + ' publish club lengths for a child this tall. The others either build to order or do not publish the numbers, so there is nothing to compare against.</p>';
+    } else {
+      verdict = 'In range';
+      detail = '<p>Your child falls inside published height bands, but none of the makers covering this height publish their club lengths, so there is no number to compare.</p>';
+    }
+
+    out.innerHTML =
+      '<div class="gsc-result"><div class="gsc-size">' + verdict + '</div><div class="gsc-detail">' + detail + '</div></div>' +
+      '<div class="glance"><table class="rc-table jr-table"><thead><tr><th>Maker</th><th>Set</th><th>What they publish</th></tr></thead><tbody>' +
+      rows + '</tbody></table></div>' +
+      '<p class="gsc-next">Measure with shoes on, as U.S. Kids Golf and PING both instruct, and measure twice before buying. At a band boundary a single inch moves Cobra&rsquo;s published driver by six inches, so the measurement is doing more work than it appears to.</p>';
+
+    if (!sent && typeof gtag === 'function') {
+      sent = true;
+      gtag('event', 'junior_size_finder', { tool: 'junior-size', height: String(h), makers_covering: covered });
+    }
+  }
+
+  hEl.addEventListener('input', render);
+})();
+</script>
 </body>
 </html>
