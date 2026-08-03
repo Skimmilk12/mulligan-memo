@@ -2130,3 +2130,10 @@ details.toc nav { padding: 4px 22px 20px; }
   color: var(--flag);
   margin-bottom: 8px;
 }
+.lf-preset-bag { border-color: var(--pine); color: var(--pine); font-weight: 700; }
+.lf-preset-bag.is-on { background: var(--pine); color: var(--memo); }
+.bag-prompt { font-family: var(--mono); font-size: 12.5px; line-height: 1.6; color: var(--pine);
+  margin: 12px 0 0; padding-top: 10px; border-top: 1px dotted var(--divider); }
+.bag-inline-btn { font-family: var(--mono); font-size: 12px; padding: 4px 10px; margin-left: 4px;
+  cursor: pointer; background: var(--pine); border: 1px solid var(--pine); border-radius: 2px; color: var(--memo); }
+.bag-inline-btn:hover { background: var(--pine-deep); }

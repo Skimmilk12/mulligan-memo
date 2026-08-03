@@ -205,6 +205,7 @@
         <button type="button" class="lf-preset" data-preset="t350">Titleist T350</button>
         <button type="button" class="lf-preset" data-preset="g730">PING G730</button>
         <button type="button" class="lf-preset" data-preset="bpt">PING Blueprint T</button>
+        <button type="button" class="lf-preset lf-preset-bag" data-preset="mybag" id="lf-usebag" hidden>Use my bag</button>
         <button type="button" class="lf-preset lf-preset-clear" data-preset="clear">Clear</button>
       </div>
 
@@ -427,6 +428,7 @@
   </div>
 </footer>
 
+<script src="/bag.js"></script>
 <script>
 (function () {
   var rowsEl = document.getElementById('lf-rows');
@@ -557,6 +559,7 @@
       var key = b.getAttribute('data-preset');
       if (key === 'clear') {
         load(BLANK.map(function (n) { return [n]; }));
+
       } else if (PRESETS[key]) {
         load(PRESETS[key].clubs.map(function (c) { return [c[0], c[1]]; }));
       }
@@ -566,6 +569,26 @@
   });
 
   load(BLANK.map(function (n) { return [n]; }));
+  // --- My Bag ------------------------------------------------------------
+  // Reads the bag saved on /my-bag.html. One direction only: this fills the
+  // checker, it never writes back, so a reader can try other numbers here
+  // without touching what they saved.
+  var bagBtn = document.getElementById('lf-usebag');
+  if (bagBtn && window.MMBag) {
+    var saved = window.MMBag.load();
+    var usable = saved.clubs.filter(function (c) { return typeof c.loft === 'number' && c.loft > 0; });
+    if (usable.length >= 2) {
+      bagBtn.hidden = false;
+      bagBtn.textContent = 'Use my bag (' + usable.length + ' clubs)';
+      bagBtn.addEventListener('click', function () {
+        load(usable.map(function (c) { return [c.label, c.loft]; }));
+        document.querySelectorAll('.lf-preset').forEach(function (o) { o.classList.remove('is-on'); });
+        bagBtn.classList.add('is-on');
+        if (typeof gtag === 'function') gtag('event', 'bag_used', { tool: 'loft-gap', clubs: usable.length });
+      });
+    }
+  }
+
 })();
 </script>
   <script src="/search.js" defer></script>

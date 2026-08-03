@@ -216,6 +216,7 @@
       <div class="gsc-out" id="pt-out" role="status" aria-live="polite">
         <p class="gsc-empty">Enter a length to see what each publisher calls it.</p>
       </div>
+      <p class="bag-prompt" id="pt-bagprompt" hidden></p>
       <p class="gsc-foot">Every figure below is read from the publisher's own page or spec sheet, linked in the tables that follow, and checked August 2026. Where publishers disagree the checker shows the disagreement rather than picking a winner.</p>
     </div>
 
@@ -382,6 +383,7 @@
   </div>
 </footer>
 
+<script src="/bag.js"></script>
 <script>
 (function () {
   var lenEl = document.getElementById('pt-len');
@@ -527,6 +529,28 @@
   }
 
   lenEl.addEventListener('input', render);
+
+  // --- My Bag -------------------------------------------------------------
+  // If the reader saved a putter with a length on /my-bag.html, offer it. Read
+  // only: filling this box never touches the stored bag.
+  (function () {
+    var prompt = document.getElementById('pt-bagprompt');
+    if (!prompt || !window.MMBag) return;
+    var putters = window.MMBag.load().clubs.filter(function (c) {
+      return /putter/i.test(c.label || '') && typeof c.length === 'number' && c.length > 0;
+    });
+    if (!putters.length) return;
+    var len = putters[0].length;
+    prompt.hidden = false;
+    prompt.innerHTML = 'Your saved bag has a putter at ' + len + '&Prime;. ' +
+      '<button type="button" class="bag-inline-btn" id="pt-usebag">Check that one</button>';
+    document.getElementById('pt-usebag').addEventListener('click', function () {
+      lenEl.value = len;
+      lenEl.dispatchEvent(new Event('input', { bubbles: true }));
+      if (typeof gtag === 'function') gtag('event', 'bag_used', { tool: 'putter-length' });
+    });
+  })();
+
   setEl.addEventListener('change', render);
 })();
 </script>
