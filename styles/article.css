@@ -2072,3 +2072,5 @@ details.toc nav { padding: 4px 22px 20px; }
   .bag-rows { display: none !important; }
   .wrap { max-width: 100%; }
 }
+.bag-warn { font-family: var(--mono); font-size: 12px; line-height: 1.6; color: var(--flag);
+  margin-top: 10px; padding-top: 9px; border-top: 1px dotted var(--flag); }

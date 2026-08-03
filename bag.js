@@ -124,10 +124,34 @@
   }
 
   // ----------------------------------------------------------- analysis ---
+  // Plausible loft range for anything you could carry: a strong driver sits near
+  // 7 degrees, the weakest lob wedges reach the mid 60s. The HTML input carries
+  // max="72" but browsers do not enforce max while typing, so a mistyped 900 would
+  // otherwise sail through and render an "867 degrees wide" gap.
+  var LOFT_MIN = 5, LOFT_MAX = 75;
+
+  function loftOf(c) {
+    // Coerce rather than type-check: a bag restored from storage, or imported
+    // later, can carry "33" as a string and those clubs must not vanish silently.
+    var n = typeof c.loft === 'number' ? c.loft : parseFloat(c.loft);
+    return isNaN(n) ? null : n;
+  }
+
+  function validLoft(c) {
+    var n = loftOf(c);
+    return n !== null && n >= LOFT_MIN && n <= LOFT_MAX;
+  }
+
   // Sorted by loft, because the name is the part that is not standardised.
   function analyse(clubs) {
-    var withLoft = clubs.filter(function (c) { return typeof c.loft === 'number' && c.loft > 0; })
-      .slice().sort(function (a, b) { return a.loft - b.loft; });
+    var outOfRange = clubs.filter(function (c) {
+      var n = loftOf(c);
+      return n !== null && (n < LOFT_MIN || n > LOFT_MAX);
+    });
+
+    var withLoft = clubs.filter(validLoft)
+      .map(function (c) { return { label: c.label, loft: loftOf(c), length: c.length }; })
+      .sort(function (a, b) { return a.loft - b.loft; });
 
     var gaps = [], wide = 0, tight = 0, biggest = null;
     for (var i = 0; i < withLoft.length - 1; i++) {
@@ -140,7 +164,8 @@
 
     return {
       sorted: withLoft, gaps: gaps, wide: wide, tight: tight, biggest: biggest,
-      counted: clubs.length, withLoft: withLoft.length
+      counted: clubs.length, withLoft: withLoft.length,
+      outOfRange: outOfRange
     };
   }
 
@@ -150,7 +175,7 @@
 
   root.MMBag = {
     KEY: KEY, VERSION: VERSION, SETS: SETS,
-    GAP_TIGHT: GAP_TIGHT, GAP_WIDE: GAP_WIDE,
+    GAP_TIGHT: GAP_TIGHT, GAP_WIDE: GAP_WIDE, LOFT_MIN: LOFT_MIN, LOFT_MAX: LOFT_MAX,
     blank: blank, load: load, save: save, clear: clear, available: available,
     analyse: analyse, standardLength: standardLength, ironLabel: ironLabel
   };
