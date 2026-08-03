@@ -235,13 +235,23 @@
       .map(function (c) { return { label: c.label, loft: loftOf(c), length: c.length }; })
       .sort(function (a, b) { return a.loft - b.loft; });
 
+    // The 2-6 degree band is measured from iron sets, so it only judges steps where
+    // both clubs are irons or wedges. Woods, hybrids and drivers still get their gap
+    // shown - we just do not tell the reader it is wrong, because we cannot know.
+    function judgeable(c) { return !/driver|wood|hybrid|putter/i.test(c.label || ''); }
+
     var gaps = [], wide = 0, tight = 0, biggest = null;
     for (var i = 0; i < withLoft.length - 1; i++) {
-      var g = Math.round((withLoft[i + 1].loft - withLoft[i].loft) * 10) / 10;
+      var a2 = withLoft[i], b2 = withLoft[i + 1];
+      var g = Math.round((b2.loft - a2.loft) * 10) / 10;
       var state = 'ok';
-      if (g > GAP_WIDE) { state = 'wide'; wide++; if (!biggest || g > biggest.gap) biggest = { gap: g, from: withLoft[i], to: withLoft[i + 1] }; }
-      else if (g < GAP_TIGHT) { state = 'tight'; tight++; }
-      gaps.push({ from: withLoft[i], to: withLoft[i + 1], gap: g, state: state });
+      if (judgeable(a2) && judgeable(b2)) {
+        if (g > GAP_WIDE) { state = 'wide'; wide++; if (!biggest || g > biggest.gap) biggest = { gap: g, from: a2, to: b2 }; }
+        else if (g < GAP_TIGHT) { state = 'tight'; tight++; }
+      } else {
+        state = 'unjudged';
+      }
+      gaps.push({ from: a2, to: b2, gap: g, state: state });
     }
 
     return {

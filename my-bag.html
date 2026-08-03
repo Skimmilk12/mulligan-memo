@@ -376,12 +376,12 @@
         'A gap that size usually sits where a strong-lofted set ends and separately-bought wedges begin. Whether it costs you a shot depends on how far you actually hit those two clubs &mdash; loft is a map, not a yardage.</p>';
       if (a.tight > 0) {
         detail += '<p>You also have ' + (a.tight === 1 ? 'a pair of clubs' : a.tight + ' pairs of clubs') +
-          ' less than 2&deg; apart, which is tighter than any step inside a manufactured set &mdash; those will fly a very similar distance.</p>';
+          ' less than 2&deg; apart, which is tighter than any step inside a manufactured set &mdash; those two sit closer together than any step inside a manufactured set, which is worth a look next time you are on a range.</p>';
       }
     } else {
       verdict = a.tight === 1 ? '1 tight gap' : a.tight + ' tight gaps';
       detail = '<p><strong>Nothing is missing, but ' + (a.tight === 1 ? 'one pair of clubs sits' : a.tight + ' pairs sit') +
-        ' less than 2&deg; apart</strong> &mdash; tighter than any step inside a manufactured set. One of them may be doing no work.</p>';
+        ' less than 2&deg; apart</strong> &mdash; tighter than any step inside a manufactured set. Whether that matters depends on how far you actually hit them.</p>';
     }
 
     out.innerHTML =
