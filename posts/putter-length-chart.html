@@ -524,7 +524,7 @@
 
     if (!sent && typeof gtag === 'function') {
       sent = true;
-      gtag('event', 'putter_length_check', { tool: 'putter-length', length: String(v), set: set });
+      gtag('event', 'putter_length_check', { tool: 'putter-length', verdict: verdict, conforming: legal });
     }
   }
 

@@ -586,6 +586,11 @@
         bagBtn.classList.add('is-on');
         if (typeof gtag === 'function') gtag('event', 'bag_used', { tool: 'loft-gap', clubs: usable.length });
       });
+      // Drop the "using my bag" state as soon as anything is edited by hand.
+      rowsEl.addEventListener('input', function () { bagBtn.classList.remove('is-on'); });
+      rowsEl.addEventListener('click', function (e) {
+        if (e.target.closest('.lf-del')) bagBtn.classList.remove('is-on');
+      });
     }
   }
 
