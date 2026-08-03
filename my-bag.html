@@ -116,7 +116,7 @@
     <header class="ahead">
       <div class="crumb">Your Bag</div>
       <h1 class="title">My Bag</h1>
-      <p class="dek">Your clubs, your numbers, kept in your own browser. Build the bag once and every tool on this site works from your actual set instead of an average.</p>
+      <p class="dek">Your clubs, your numbers, kept in your own browser &mdash; and a check on the gaps between them, measured against what the makers actually publish.</p>
     </header>
 
     <div class="tldr"><div class="h">How this works</div><p>Pick your iron set and the lofts fill themselves in from the manufacturer's own published specifications. Add your wedges and woods, and the bag checks the gaps between every club you carry. <strong>Everything stays on this device.</strong> There is no account and nothing is uploaded: <strong>no club, loft or length ever leaves your browser.</strong> The only thing our analytics records is that the tool was used, how many clubs were counted and whether any gaps were flagged &mdash; three numbers, never the clubs themselves. Your bag lives in local storage and one button wipes it.</p></div>
@@ -179,12 +179,12 @@
 
     <p>The gap that catches most golfers is at the bottom of the set. Modern game-improvement irons finish with a strong pitching wedge &mdash; 43&deg; is common &mdash; and a traditional 56&deg; sand wedge sits thirteen degrees below it. Nothing on either club warns you, and no chart of standard lofts can tell you, because it depends entirely on which set you own.</p>
 
-    <p>Once your bag is here, these pages read from it:</p>
+    <p>These pages carry the published figures this tool is built on, and each has its own checker. <strong>They do not yet read your bag &mdash; you still enter your numbers separately on each one.</strong> Wiring them to this page is the next job, and until it is done we are not going to pretend otherwise.</p>
 
     <ul class="bag-links">
-      <li><a href="/posts/golf-club-loft-chart.html">Loft chart &amp; gap checker</a> &mdash; where your set sits against what the makers publish</li>
-      <li><a href="/distance-chart.html">Distance chart</a> &mdash; your yardages, with your real lofts beside them</li>
-      <li><a href="/posts/golf-club-length-chart.html">Club length chart</a> &mdash; your lengths against the published standard</li>
+      <li><a href="/posts/golf-club-loft-chart.html">Loft chart &amp; gap checker</a> &mdash; where every published set sits, and where the makers disagree</li>
+      <li><a href="/distance-chart.html">Distance chart</a> &mdash; measured carry distances, and its own gap lab</li>
+      <li><a href="/posts/golf-club-length-chart.html">Club length chart</a> &mdash; the published standard lengths</li>
       <li><a href="/posts/golf-glove-size-chart.html">Glove size finder</a> and <a href="/posts/putter-length-chart.html">putter length checker</a> &mdash; the rest of the fit</li>
     </ul>
 
@@ -416,6 +416,19 @@
     drawOut();
   }
 
+  // Once a club is hand-edited the bag is no longer the published set it came
+  // from, so the provenance line is dropped rather than left to go stale.
+  function dropProvenanceIfEdited(next) {
+    if (!bag.setName) return;
+    var src = null;
+    B.SETS.forEach(function (st) { if (st.brand + ' ' + st.name === bag.setName) src = st.clubs; });
+    if (!src) { bag.setName = null; return; }
+    var same = next.length >= src.length && src.every(function (c) {
+      return next.some(function (n) { return n.label === c.label && n.loft === c.loft && n.length === c.length; });
+    });
+    if (!same) bag.setName = null;
+  }
+
   function readRows() {
     var next = [];
     rowsEl.querySelectorAll('.bag-row').forEach(function (r) {
@@ -427,6 +440,7 @@
         length: isNaN(len) ? null : len
       });
     });
+    dropProvenanceIfEdited(next);
     bag.clubs = next;
   }
 
@@ -517,10 +531,10 @@
 
   document.getElementById('bag-clear').addEventListener('click', function () {
     if (!confirm('Delete your saved bag from this browser? This cannot be undone.')) return;
-    B.clear();
+    var wiped = B.clear();
     bag = B.blank();
     setSel.value = '';
-    drawRows(); drawPicker(); drawOut(); flash('Bag deleted from this browser.');
+    drawRows(); drawPicker(); drawOut(); flash(wiped ? 'Bag deleted from this browser.' : 'Bag cleared here, but storage is blocked so nothing was saved to delete.');
   });
 
   document.getElementById('bag-print').addEventListener('click', function () { window.print(); });

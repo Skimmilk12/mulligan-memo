@@ -23,12 +23,16 @@
   // (verified: their own spec tables hold length and lie still while loft moves).
   var TI_LEN = { '3': 39.00, '4': 38.50, '5': 38.00, '6': 37.50, '7': 37.00, '8': 36.50, '9': 36.00, 'PW': 35.75, 'W': 35.50, 'W2': 35.50 };
 
-  function ti(name, lofts) {
+  // The T-series share one published table; the 620s have their own.
+  var TI_SRC_T = 'https://www.titleist.com/product/t350/563C.html';
+  var TI_SRC_620 = 'https://www.titleist.com/product/620-cb/540C.html';
+
+  function ti(name, lofts, src) {
     var clubs = [];
     Object.keys(lofts).forEach(function (k) {
       clubs.push({ label: ironLabel(k), loft: lofts[k], length: TI_LEN[k] || null });
     });
-    return { name: name, brand: 'Titleist', source: 'https://www.titleist.com/product/t350/563C.html', clubs: clubs };
+    return { name: name, brand: 'Titleist', source: src || TI_SRC_T, clubs: clubs };
   }
 
   function ironLabel(k) {
@@ -40,14 +44,16 @@
     return k;
   }
 
+  function ti620(name, lofts) { return ti(name, lofts, TI_SRC_620); }
+
   var SETS = [
     ti('T100', { '3': 20, '4': 23, '5': 26, '6': 29, '7': 33, '8': 37, '9': 41, 'PW': 45, 'W': 49 }),
     ti('T150', { '3': 19, '4': 22, '5': 25, '6': 28, '7': 32, '8': 36, '9': 40, 'PW': 44, 'W': 48 }),
     ti('T250', { '3': 20, '4': 22, '5': 24, '6': 27, '7': 30.5, '8': 34.5, '9': 38.5, 'PW': 43, 'W': 48 }),
     ti('T250 Launch Spec', { '5': 27, '6': 31, '7': 35, '8': 39, '9': 43, 'PW': 47, 'W': 52 }),
     ti('T350', { '4': 20, '5': 23, '6': 26, '7': 29, '8': 33, '9': 38, 'PW': 43, 'W': 48, 'W2': 53 }),
-    ti('620 CB', { '3': 21, '4': 24, '5': 27, '6': 31, '7': 35, '8': 39, '9': 43, 'PW': 47 }),
-    ti('620 MB', { '3': 21, '4': 24, '5': 27, '6': 31, '7': 35, '8': 39, '9': 43, 'PW': 47 }),
+    ti620('620 CB', { '3': 21, '4': 24, '5': 27, '6': 31, '7': 35, '8': 39, '9': 43, 'PW': 47 }),
+    ti620('620 MB', { '3': 21, '4': 24, '5': 27, '6': 31, '7': 35, '8': 39, '9': 43, 'PW': 47 }),
     {
       name: 'G730', brand: 'PING', source: 'https://ping.com/en-us/golf-clubs/irons/g730-iron',
       clubs: [
@@ -133,7 +139,10 @@
     'Gap wedge':    { loft: 50,   low: 46, high: 54, basis: 'commonly stamped 50 or 52', length: 35.5 },
     'Sand wedge':   { loft: 56,   low: 54, high: 58, basis: 'commonly stamped 54 to 58', length: 35.25 },
     'Lob wedge':    { loft: 60,   low: 58, high: 64, basis: 'commonly stamped 58 to 60', length: 35.25 },
-    'Putter':       { loft: 3,    low: 2,  high: 4,  basis: 'Titleist, Odyssey and PING all publish about 3 degrees', length: 34 }
+    // A putter is not part of a loft ladder, so it carries no loft here. Makers do
+    // publish about 3 degrees (Titleist, Odyssey and PING all do) but feeding that
+    // into a gap check would be meaningless - and the 5-degree floor would reject it.
+    'Putter':       { loft: null, low: null, high: null, basis: 'putters are not part of the gap check', length: 34 }
   };
 
   // The order a bag is actually carried in.
