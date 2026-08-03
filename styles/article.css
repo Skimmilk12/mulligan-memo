@@ -2074,3 +2074,44 @@ details.toc nav { padding: 4px 22px 20px; }
 }
 .bag-warn { font-family: var(--mono); font-size: 12px; line-height: 1.6; color: var(--flag);
   margin-top: 10px; padding-top: 9px; border-top: 1px dotted var(--flag); }
+
+/* My Bag — tap-to-add picker and nudge steppers (no typing required) */
+.bag-picker { display: flex; flex-wrap: wrap; gap: 7px; margin: 0 0 18px; }
+.bag-chip { display: inline-flex; align-items: baseline; gap: 6px; cursor: pointer;
+  font-family: var(--mono); font-size: 12.5px; padding: 7px 11px;
+  background: var(--memo); border: 1px solid var(--line-soft); border-radius: 2px; color: var(--ink); }
+.bag-chip:hover { border-color: var(--pine); }
+.bag-chip-loft { font-size: 11px; color: var(--pine); opacity: 0.75; }
+.bag-chip.is-in { background: var(--pine); border-color: var(--pine); color: var(--memo); }
+.bag-chip.is-in .bag-chip-loft { color: var(--memo); opacity: 0.7; }
+.bag-chip.is-in::before { content: '✓ '; font-size: 11px; }
+
+.bag-name { display: flex; flex-direction: column; gap: 2px; flex: 1 1 0; min-width: 0; }
+.bag-basis { font-family: var(--mono); font-size: 10px; line-height: 1.35; color: var(--pine); opacity: 0.75; }
+
+.bag-step { display: inline-flex; align-items: center; gap: 0; flex: 0 0 auto; }
+.bag-nudge { width: 28px; height: 32px; cursor: pointer; font-family: var(--mono); font-size: 15px;
+  background: var(--memo); border: 1px solid var(--line-soft); color: var(--pine); }
+.bag-nudge:hover { border-color: var(--pine); color: var(--ink); }
+.bag-step .bag-loft, .bag-step .bag-len { width: 54px; text-align: center; border-radius: 0;
+  border-left: none; border-right: none; padding: 7px 2px; }
+.bag-step .bag-unit { width: 14px; text-align: left; font-size: 12px;
+  border-top: 1px solid var(--line-soft); border-bottom: 1px solid var(--line-soft);
+  padding: 7px 0; background: var(--paper); }
+.bag-row { align-items: flex-start; }
+.bag-row .bag-label { margin-top: 0; }
+
+@media (max-width: 640px) {
+  .bag-picker { gap: 6px; }
+  .bag-chip { font-size: 12px; padding: 8px 10px; }
+  .bag-basis { display: none; }
+  /* Four nudge buttons plus two inputs cannot share a phone line with the club
+     name. Give the name its own row and let the two steppers sit beneath it. */
+  .bag-row { flex-wrap: wrap; row-gap: 6px; padding-bottom: 10px;
+    border-bottom: 1px dotted var(--line-soft); }
+  .bag-name { flex: 1 0 100%; }
+  .bag-step { flex: 1 1 auto; }
+  .bag-step .bag-loft, .bag-step .bag-len { width: 100%; min-width: 0; }
+  .bag-nudge { width: 34px; height: 36px; flex: 0 0 auto; }
+  .bag-del { margin-left: auto; }
+}

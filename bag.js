@@ -81,6 +81,79 @@
   // wider or tighter than any maker spaces their own set.
   var GAP_TIGHT = 2, GAP_WIDE = 6;
 
+  // ------------------------------------------------------- club picker ---
+  // Typing a loft is the highest-friction thing on the page, and most golfers do
+  // not know their lofts to begin with. So every club can be added by tapping it,
+  // landing on a starting number the reader then nudges.
+  //
+  // Those starting numbers are NOT invented "standards" — this site's own finding
+  // is that no standard exists. Irons take the MEDIAN of what the published sets
+  // above actually list for that club, computed at runtime so it stays true as
+  // sets are added. Everything else takes a figure a manufacturer publishes, noted
+  // per club. Wedges use their stamped loft, which is the one number a golfer
+  // reliably knows because it is printed on the sole.
+
+  function median(nums) {
+    if (!nums.length) return null;
+    var s = nums.slice().sort(function (a, b) { return a - b; });
+    var m = Math.floor(s.length / 2);
+    var v = s.length % 2 ? s[m] : (s[m - 1] + s[m]) / 2;
+    return Math.round(v * 2) / 2; // published lofts move in half degrees
+  }
+
+  // Pull every published value for a given iron label out of SETS.
+  function publishedLofts(label) {
+    var out = [];
+    SETS.forEach(function (set) {
+      set.clubs.forEach(function (c) { if (c.label === label && typeof c.loft === 'number') out.push(c.loft); });
+    });
+    return out;
+  }
+
+  function ironDefault(label) {
+    var vals = publishedLofts(label);
+    if (!vals.length) return null;
+    return {
+      loft: median(vals),
+      low: Math.min.apply(null, vals),
+      high: Math.max.apply(null, vals),
+      count: vals.length,
+      basis: 'median of ' + vals.length + ' published sets'
+    };
+  }
+
+  // Non-iron starting points, each a figure the maker publishes. Sources are the
+  // same pages cited on the loft, length and putter pages.
+  var OTHER = {
+    'Driver':       { loft: 10.5, low: 8,  high: 12, basis: 'Titleist publish 8-12 degrees across the GT line', length: 45 },
+    '3-wood':       { loft: 15,   low: 13.5, high: 16.5, basis: 'Titleist GT1 and GTS2 both publish 15 degrees', length: 43 },
+    '5-wood':       { loft: 18,   low: 16.5, high: 21, basis: 'Titleist publish 18 degrees', length: 42 },
+    '7-wood':       { loft: 21,   low: 21, high: 24, basis: 'Titleist publish 21 degrees', length: 41.5 },
+    'Hybrid':       { loft: 21,   low: 18, high: 29, basis: 'Titleist hybrids publish 18-29 degrees', length: 40 },
+    'Gap wedge':    { loft: 50,   low: 46, high: 54, basis: 'commonly stamped 50 or 52', length: 35.5 },
+    'Sand wedge':   { loft: 56,   low: 54, high: 58, basis: 'commonly stamped 54 to 58', length: 35.25 },
+    'Lob wedge':    { loft: 60,   low: 58, high: 64, basis: 'commonly stamped 58 to 60', length: 35.25 },
+    'Putter':       { loft: 3,    low: 2,  high: 4,  basis: 'Titleist, Odyssey and PING all publish about 3 degrees', length: 34 }
+  };
+
+  // The order a bag is actually carried in.
+  var PICKER = [
+    'Driver', '3-wood', '5-wood', '7-wood', 'Hybrid',
+    '3-iron', '4-iron', '5-iron', '6-iron', '7-iron', '8-iron', '9-iron',
+    'Pitching wedge', 'Gap wedge', 'Sand wedge', 'Lob wedge', 'Putter'
+  ];
+
+  function defaultFor(label) {
+    if (Object.prototype.hasOwnProperty.call(OTHER, label)) {
+      var o = OTHER[label];
+      return { loft: o.loft, low: o.low, high: o.high, basis: o.basis, length: o.length };
+    }
+    var d = ironDefault(label);
+    if (!d) return { loft: null, low: null, high: null, basis: 'no published figure', length: standardLength(label) };
+    d.length = standardLength(label);
+    return d;
+  }
+
   // ------------------------------------------------------------- storage ---
   function blank() {
     return { v: VERSION, updated: null, setName: null, clubs: [], fit: {} };
@@ -177,6 +250,7 @@
     KEY: KEY, VERSION: VERSION, SETS: SETS,
     GAP_TIGHT: GAP_TIGHT, GAP_WIDE: GAP_WIDE, LOFT_MIN: LOFT_MIN, LOFT_MAX: LOFT_MAX,
     blank: blank, load: load, save: save, clear: clear, available: available,
-    analyse: analyse, standardLength: standardLength, ironLabel: ironLabel
+    analyse: analyse, standardLength: standardLength, ironLabel: ironLabel,
+    PICKER: PICKER, defaultFor: defaultFor, publishedLofts: publishedLofts
   };
 })(window);

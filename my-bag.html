@@ -148,11 +148,12 @@
 
     <h2 id="clubs"><span class="kick">Step Two</span>Your clubs</h2>
 
-    <p>Add anything else you carry &mdash; driver, woods, hybrids, wedges, putter. Loft is what the bag works from, so fill that in wherever you can; length is optional and only used to compare against the published standard.</p>
+    <p><strong>Tap a club to add it.</strong> It arrives on a sensible number and you nudge from there &mdash; no typing unless you want to. The starting figure is not an invented standard: for irons it is the median of what the published sets on this site actually list, and for everything else it is a figure a maker publishes. Each club tells you where its number came from and how wide the real range is.</p>
+
+    <div class="bag-picker" id="bag-picker" role="group" aria-label="Add a club to your bag"></div>
 
     <div class="bag-tools">
-      <button type="button" class="bag-btn" id="bag-add">+ Add a club</button>
-      <button type="button" class="bag-btn bag-btn-quiet" id="bag-wedges">+ Add 52° / 56° / 60° wedges</button>
+      <button type="button" class="bag-btn bag-btn-quiet" id="bag-add">+ Add a club and name it myself</button>
       <span class="bag-status" id="bag-status" role="status" aria-live="polite"></span>
     </div>
 
@@ -263,6 +264,7 @@
   var out = document.getElementById('bag-out');
   var setSel = document.getElementById('bag-set');
   var statusEl = document.getElementById('bag-status');
+  var pickerEl = document.getElementById('bag-picker');
   var bag = B.load();
   var sentUse = false;
 
@@ -292,21 +294,54 @@
   }
 
   // ------------------------------------------------------------- render ---
+  // Every number is a stepper first and a text box second. Tapping - and + is the
+  // expected interaction; the input is still there for anyone who knows their exact
+  // figure and would rather type it than tap eight times.
+  function stepper(kind, val, unit, label, step) {
+    return '<span class="bag-step">' +
+      '<button type="button" class="bag-nudge" data-kind="' + kind + '" data-dir="-1" aria-label="Decrease ' + label + '">&minus;</button>' +
+      '<input type="number" class="bag-' + kind + '" value="' + (val == null ? '' : val) + '" step="' + step + '" inputmode="decimal" aria-label="' + label + '" placeholder="&ndash;">' +
+      '<span class="bag-unit">' + unit + '</span>' +
+      '<button type="button" class="bag-nudge" data-kind="' + kind + '" data-dir="1" aria-label="Increase ' + label + '">+</button>' +
+      '</span>';
+  }
+
   function rowHTML(c, i) {
+    var d = B.defaultFor(c.label);
+    var basis = '';
+    if (d && d.basis && d.low !== null && d.low !== d.high) {
+      basis = '<span class="bag-basis">published ' + d.low + '&ndash;' + d.high + '&deg; &middot; ' + esc(d.basis) + '</span>';
+    }
     return '<div class="bag-row" data-i="' + i + '">' +
-      '<input type="text" class="bag-label" value="' + esc(c.label) + '" aria-label="Club name" maxlength="24" placeholder="Club">' +
-      '<span class="bag-pair"><input type="number" class="bag-loft" value="' + (c.loft == null ? '' : c.loft) + '" min="5" max="72" step="0.5" inputmode="decimal" aria-label="Loft in degrees" placeholder="loft"><span class="bag-unit">&deg;</span></span>' +
-      '<span class="bag-pair"><input type="number" class="bag-len" value="' + (c.length == null ? '' : c.length) + '" min="25" max="52" step="0.25" inputmode="decimal" aria-label="Length in inches" placeholder="length"><span class="bag-unit">&Prime;</span></span>' +
+      '<span class="bag-name">' +
+        '<input type="text" class="bag-label" value="' + esc(c.label) + '" aria-label="Club name" maxlength="24" placeholder="Club">' +
+        basis +
+      '</span>' +
+      stepper('loft', c.loft, '&deg;', 'Loft in degrees for ' + esc(c.label), '0.5') +
+      stepper('len', c.length, '&Prime;', 'Length in inches for ' + esc(c.label), '0.25') +
       '<button type="button" class="bag-del" aria-label="Remove ' + esc(c.label) + '">&times;</button>' +
       '</div>';
   }
 
   function drawRows() {
     if (!bag.clubs.length) {
-      rowsEl.innerHTML = '<p class="bag-empty">Your bag is empty. Load a published set above, or add clubs one at a time.</p>';
+      rowsEl.innerHTML = '<p class="bag-empty">Your bag is empty. Tap a club above, or load a published set.</p>';
       return;
     }
     rowsEl.innerHTML = bag.clubs.map(rowHTML).join('');
+  }
+
+  // The picker: one tap adds a club already carrying a defensible number.
+  function drawPicker() {
+    var have = {};
+    bag.clubs.forEach(function (c) { have[c.label] = true; });
+    pickerEl.innerHTML = B.PICKER.map(function (label) {
+      var d = B.defaultFor(label);
+      var already = have[label] ? ' is-in' : '';
+      var sub = d && d.loft !== null ? '<span class="bag-chip-loft">' + d.loft + '&deg;</span>' : '';
+      return '<button type="button" class="bag-chip' + already + '" data-club="' + esc(label) + '">' +
+        esc(label) + sub + '</button>';
+    }).join('');
   }
 
   function drawOut() {
@@ -412,39 +447,80 @@
     }
     bag.clubs = s.clubs.map(function (c) { return { label: c.label, loft: c.loft, length: c.length }; });
     bag.setName = s.brand + ' ' + s.name;
-    drawRows(); persist();
+    drawRows(); drawPicker(); persist();
     flash('Loaded ' + bag.setName + ' — ' + bag.clubs.length + ' clubs.');
   });
 
   document.getElementById('bag-blank').addEventListener('click', function () {
     if (bag.clubs.length && !confirm('Empty your bag and start again?')) return;
     bag.clubs = []; bag.setName = null;
-    drawRows(); persist(); flash('Bag emptied.');
+    drawRows(); drawPicker(); persist(); flash('Bag emptied.');
   });
 
   document.getElementById('bag-add').addEventListener('click', function () {
     readRows();
     bag.clubs.push({ label: '', loft: null, length: null });
-    drawRows(); persist();
+    drawRows(); drawPicker(); persist();
     var last = rowsEl.querySelector('.bag-row:last-child .bag-label');
     if (last) last.focus();
   });
 
-  document.getElementById('bag-wedges').addEventListener('click', function () {
+  // One tap = one club, already carrying a published starting figure. Tapping a
+  // club already in the bag removes it, so the chips read as a toggle.
+  pickerEl.addEventListener('click', function (e) {
+    var chip = e.target.closest('.bag-chip');
+    if (!chip) return;
+    var label = chip.getAttribute('data-club');
     readRows();
-    [['52° wedge', 52], ['56° wedge', 56], ['60° wedge', 60]].forEach(function (w) {
-      var exists = bag.clubs.some(function (c) { return c.loft === w[1]; });
-      if (!exists) bag.clubs.push({ label: w[0], loft: w[1], length: null });
-    });
-    drawRows(); persist(); flash('Wedges added.');
+    var at = -1;
+    bag.clubs.forEach(function (c, i) { if (c.label === label) at = i; });
+    if (at > -1) {
+      bag.clubs.splice(at, 1);
+      flash(label + ' removed.');
+    } else {
+      var d = B.defaultFor(label);
+      bag.clubs.push({ label: label, loft: d.loft, length: d.length });
+      // Keep the bag in carried order so it reads like a real bag, not a log.
+      bag.clubs.sort(function (a, b) {
+        var ia = B.PICKER.indexOf(a.label), ib = B.PICKER.indexOf(b.label);
+        return (ia < 0 ? 99 : ia) - (ib < 0 ? 99 : ib);
+      });
+      flash(label + ' added at ' + d.loft + '° — nudge it to yours.');
+    }
+    drawRows(); drawPicker(); persist();
   });
+
+  // Nudge buttons. Starting from empty, the first tap lands on the published
+  // figure rather than on zero.
+  rowsEl.addEventListener('click', function (e) {
+    var btn = e.target.closest('.bag-nudge');
+    if (!btn) return;
+    var row = btn.closest('.bag-row');
+    var kind = btn.getAttribute('data-kind');
+    var dir = parseFloat(btn.getAttribute('data-dir'));
+    var input = row.querySelector('.bag-' + kind);
+    var step = kind === 'loft' ? 0.5 : 0.25;
+    var cur = parseFloat(input.value);
+    if (isNaN(cur)) {
+      var d = B.defaultFor(bag.clubs[parseInt(row.getAttribute('data-i'), 10)].label);
+      cur = kind === 'loft' ? d.loft : d.length;
+      if (cur == null) cur = kind === 'loft' ? 30 : 36;
+    } else {
+      cur = cur + dir * step;
+    }
+    var lo = kind === 'loft' ? B.LOFT_MIN : 25;
+    var hi = kind === 'loft' ? B.LOFT_MAX : 52;
+    input.value = Math.min(hi, Math.max(lo, Math.round(cur * 100) / 100));
+    readRows(); persist();
+  });
+
 
   document.getElementById('bag-clear').addEventListener('click', function () {
     if (!confirm('Delete your saved bag from this browser? This cannot be undone.')) return;
     B.clear();
     bag = B.blank();
     setSel.value = '';
-    drawRows(); drawOut(); flash('Bag deleted from this browser.');
+    drawRows(); drawPicker(); drawOut(); flash('Bag deleted from this browser.');
   });
 
   document.getElementById('bag-print').addEventListener('click', function () { window.print(); });
@@ -460,6 +536,7 @@
   });
 
   drawRows();
+  drawPicker();
   drawOut();
 })();
 </script>
