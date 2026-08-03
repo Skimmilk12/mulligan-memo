@@ -6,7 +6,7 @@
     <atom:link href="https://mulliganmemo.com/feed.xml" rel="self" type="application/rss+xml" />
     <description>Honest golf gear reviews and buying guides — clubs, balls, tech, and accessories.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 02 Aug 2026 23:39:12 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 02 Aug 2026 23:59:20 GMT</lastBuildDate>
     <item>
       <title>Golf Ball Compression Chart: What the Numbers Actually Mean</title>
       <link>https://mulliganmemo.com/posts/golf-ball-compression-chart.html</link>
@@ -22,6 +22,14 @@
       <category>Golf Clubs</category>
       <pubDate>Sun, 02 Aug 2026 12:00:00 GMT</pubDate>
       <description>Standard golf club lengths for every club, men&apos;s and women&apos;s, steel and graphite — plus a calculator that turns your height and wrist-to-floor into real numbers.</description>
+    </item>
+    <item>
+      <title>Golf Club Loft Chart: What the Makers Actually Publish</title>
+      <link>https://mulliganmemo.com/posts/golf-club-loft-chart.html</link>
+      <guid isPermaLink="true">https://mulliganmemo.com/posts/golf-club-loft-chart.html</guid>
+      <category>Golf Clubs</category>
+      <pubDate>Sun, 02 Aug 2026 12:00:00 GMT</pubDate>
+      <description>Every current iron loft from Titleist and PING, read from their own spec tables, plus a gap checker that finds the holes between the clubs you actually own.</description>
     </item>
     <item>
       <title>Golf Shaft Flex Chart: What It Can and Can&apos;t Tell You</title>

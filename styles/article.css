@@ -1938,3 +1938,41 @@ details.toc nav { padding: 4px 22px 20px; }
 .lc-table td.k { font-family: var(--display); font-weight: 700; }
 .lc-table td.v { font-family: var(--mono); font-weight: 700; color: var(--flag); }
 @media (max-width: 640px) { .lc-toggles { font-size: 12px; gap: 6px 12px; } .lc-sep { display: none; } }
+
+/* Loft gap checker — golf-club-loft-chart.html */
+.lf-presets { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin: 0 0 16px; }
+.lf-presets-label { font-family: var(--mono); font-size: 11.5px; font-weight: 700; letter-spacing: 0.1em;
+  text-transform: uppercase; color: var(--pine); margin-right: 2px; }
+.lf-preset { font-family: var(--mono); font-size: 12px; padding: 6px 11px; cursor: pointer;
+  background: var(--memo); border: 1px solid var(--line-soft); border-radius: 2px; color: var(--ink); }
+.lf-preset:hover { border-color: var(--pine); }
+.lf-preset.is-on { background: var(--pine); border-color: var(--pine); color: var(--memo); }
+.lf-preset-clear { color: var(--pine); }
+.lf-rows { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px 18px; margin: 0 0 12px; }
+.lf-row { display: flex; align-items: center; gap: 7px; }
+.lf-label { font-family: var(--display); font-size: 14px; font-weight: 600; padding: 7px 8px; min-width: 0; flex: 1 1 auto;
+  border: 1px solid var(--line-soft); border-radius: 2px; background: var(--paper); color: var(--ink); }
+.lf-loft { font-family: var(--mono); font-size: 15px; font-weight: 700; padding: 7px 8px; width: 74px; flex: 0 0 auto;
+  border: 1px solid var(--line-soft); border-radius: 2px; background: var(--paper); color: var(--ink); }
+.lf-deg { font-family: var(--mono); font-size: 14px; color: var(--pine); margin-left: -4px; }
+.lf-del { flex: 0 0 auto; width: 24px; height: 24px; line-height: 1; font-size: 17px; cursor: pointer;
+  background: none; border: none; color: var(--divider); }
+.lf-del:hover { color: var(--flag); }
+.lf-add { font-family: var(--mono); font-size: 12px; padding: 6px 11px; cursor: pointer; margin: 0 0 18px;
+  background: none; border: 1px dashed var(--divider); border-radius: 2px; color: var(--pine); }
+.lf-add:hover { border-color: var(--pine); border-style: solid; }
+.lf-table { margin-top: 14px; }
+.lf-table td.v { font-family: var(--mono); font-weight: 700; color: var(--flag); }
+.lf-table tr.lf-const td { font-family: var(--mono); font-size: 12.5px; color: var(--pine); background: var(--memo); }
+.lf-table tr.lf-const td.v { color: var(--flag); }
+.lf-offset td:first-child { font-family: var(--mono); font-weight: 700; }
+.lf-src { font-family: var(--mono); font-size: 12px; line-height: 1.6; color: var(--pine); margin: -6px 0 26px; }
+.lf-gapcell { white-space: nowrap; }
+.lf-gap { font-family: var(--mono); font-size: 13px; font-weight: 700; color: var(--pine); }
+.lf-gap.lf-wide { color: var(--flag); }
+.lf-gap.lf-tight { color: var(--brass-dark); }
+.lf-gap.lf-end { color: var(--divider); font-weight: 400; }
+@media (max-width: 640px) {
+  .lf-rows { grid-template-columns: 1fr; }
+  .lf-presets-label { width: 100%; margin-bottom: 2px; }
+}
