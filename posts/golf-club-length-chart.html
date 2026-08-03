@@ -413,21 +413,29 @@
     ['Pitching wedge', 35.50, 36.00, 34.50, 35.00],
     ['Sand wedge', 35.25, 35.75, 34.25, 34.75]
   ];
-  // Hireko's published bands. Height in inches; wrist-to-floor in inches.
-  var H_BANDS = [
-    { max: 63.99, adj: -1,    label: 'under 5′4″' },
-    { max: 67.00, adj: -0.5,  label: '5′4″ to 5′7″' },
-    { max: 72.00, adj: 0,     label: '5′7″ to 6′0″' },
-    { max: 76.00, adj: 0.5,   label: '6′0″ to 6′4″' },
-    { max: 999,   adj: 1,     label: 'over 6′4″' }
+  // Hireko's two published tables, transcribed from their guide (read August 2026).
+  //
+  // HEIGHT_ONLY is their "Quick Answer - Recommended Club Length by Height" table.
+  // PAIRED is their second table, where each row states a height range AND a
+  // wrist-to-floor range together. They are NOT two independent scales, and Hireko
+  // never say one overrides the other - so this code never picks a winner.
+  var HEIGHT_ONLY = [
+    { lo: 0,  hi: 63.99, adj: -1,   label: 'under 5\u203214\u2033'.replace('14', '\u2032'), text: 'Under 5\u20324\u2033' },
+    { lo: 64, hi: 67,    adj: -0.5, text: '5\u20324\u2033\u20135\u20327\u2033' },
+    { lo: 67, hi: 72,    adj: 0,    text: '5\u20327\u2033\u20136\u20320\u2033' },
+    { lo: 72, hi: 76,    adj: 0.5,  text: '6\u20320\u2033\u20136\u20324\u2033' },
+    { lo: 76, hi: 999,   adj: 1,    text: 'Over 6\u20324\u2033' }
   ];
-  var W_BANDS = [
-    { max: 29.99, adj: -1 },
-    { max: 32.00, adj: -0.5 },
-    { max: 34.00, adj: -0.25 },
-    { max: 36.00, adj: 0 },
-    { max: 38.00, adj: 0.5 },
-    { max: 999,   adj: 1 }
+
+  // adjLabel is Hireko's own wording. The 5'4"-5'7" row genuinely publishes a
+  // RANGE rather than a single figure, so it is carried as a range, not collapsed.
+  var PAIRED = [
+    { hLo: 58, hHi: 60,  wLo: 0,  wHi: 30, adj: -1,    adjLabel: '\u20131\u2033',            name: 'Petite / Short' },
+    { hLo: 60, hHi: 63,  wLo: 30, wHi: 32, adj: -0.5,  adjLabel: '\u2013\u00bd\u2033',      name: 'Slightly Short' },
+    { hLo: 64, hHi: 67,  wLo: 32, wHi: 34, adj: null,  adjLabel: '\u2013\u00bc\u2033 to \u2013\u00bd\u2033', name: 'Borderline Short' },
+    { hLo: 67, hHi: 72,  wLo: 34, wHi: 36, adj: 0,     adjLabel: 'Standard',                   name: 'Standard Length' },
+    { hLo: 72, hHi: 76,  wLo: 36, wHi: 38, adj: 0.5,   adjLabel: '+\u00bd\u2033',            name: 'Slightly Long' },
+    { hLo: 76, hHi: 999, wLo: 38, wHi: 999, adj: 1,    adjLabel: '+1\u2033',                  name: 'Long Clubs' }
   ];
 
   var hSel = document.getElementById('lc-height');
@@ -444,8 +452,21 @@
     hSel.appendChild(o);
   }
 
-  function band(list, v) { for (var i = 0; i < list.length; i++) if (v <= list[i].max) return list[i]; return list[list.length - 1]; }
-  function fmt(n) { return n.toFixed(2).replace(/\.00$/, '') + '″'; }
+  function fmt(n) { return n.toFixed(2).replace(/\.00$/, '').replace(/(\.\d)0$/, '$1') + '\u2033'; }
+  function signed(n) { return n === 0 ? 'standard' : (n > 0 ? '+' : '') + n + '\u2033'; }
+
+  function heightRow(h) {
+    for (var i = 0; i < HEIGHT_ONLY.length; i++) if (h < HEIGHT_ONLY[i].hi) return HEIGHT_ONLY[i];
+    return HEIGHT_ONLY[HEIGHT_ONLY.length - 1];
+  }
+  function pairedByHeight(h) {
+    for (var i = 0; i < PAIRED.length; i++) if (h >= PAIRED[i].hLo && h < PAIRED[i].hHi) return PAIRED[i];
+    return null;
+  }
+  function pairedByWrist(w) {
+    for (var i = 0; i < PAIRED.length; i++) if (w >= PAIRED[i].wLo && w < PAIRED[i].wHi) return PAIRED[i];
+    return null;
+  }
 
   function render() {
     var hv = parseFloat(hSel.value);
@@ -454,40 +475,64 @@
     var shaft = document.querySelector('input[name="lc-shaft"]:checked').value;
     var col = set === 'mens' ? (shaft === 'steel' ? 1 : 2) : (shaft === 'steel' ? 3 : 4);
 
-    var hB = band(H_BANDS, hv);
+    var hRow = heightRow(hv);
+    var pH = pairedByHeight(hv);
     var wv = parseFloat(wtf.value);
     var useW = wv > 0;
-    var wB = useW ? band(W_BANDS, wv) : null;
-    // Wrist-to-floor describes where the hands are, so it wins when the two disagree.
-    var adj = useW ? wB.adj : hB.adj;
+    var pW = useW ? pairedByWrist(wv) : null;
 
-    var disagree = '';
-    if (useW && wB.adj !== hB.adj) {
-      disagree = '<p class="gsc-note">Your height suggests ' + (hB.adj === 0 ? 'standard' : (hB.adj > 0 ? '+' : '') + hB.adj + '″') +
-        ' but your wrist-to-floor suggests ' + (wB.adj === 0 ? 'standard' : (wB.adj > 0 ? '+' : '') + wB.adj + '″') +
-        '. We have used the wrist-to-floor figure, because it describes where your hands actually sit rather than how tall you are &mdash; but a disagreement this size is worth taking to a fitter.</p>';
-    } else if (!useW) {
-      disagree = '<p class="gsc-note">Height only. Add a wrist-to-floor measurement for a materially better answer &mdash; two golfers of the same height often need different lengths.</p>';
+    var headline, detail, adj = null, method = 'height';
+
+    if (!useW) {
+      adj = hRow.adj;
+      headline = adj === 0 ? 'Standard' : signed(adj);
+      detail = '<p><strong>Hireko\u2019s height table puts you at ' + signed(adj) + '.</strong></p>' +
+        '<p class="gsc-note">That is their quick answer, from height alone. Their second table pairs height with a ' +
+        '<strong>wrist-to-floor</strong> measurement, which is the better of the two &mdash; add yours above and this will tell you ' +
+        'whether the two agree about you.</p>';
+    } else if (pH && pW && pH === pW) {
+      // Both measurements land in the same published row. This is the clean case.
+      adj = pH.adj;
+      method = 'paired-agree';
+      headline = pH.adjLabel;
+      detail = '<p><strong>Your height and wrist-to-floor both land in Hireko\u2019s \u201c' + pH.name + '\u201d row.</strong> ' +
+        (pH.adj === 0 ? 'That row is their standard length: no adjustment.' : 'They publish ' + pH.adjLabel + ' against standard for that row.') + '</p>' +
+        (pH.adj === null ? '<p class="gsc-note">Note that Hireko publish a <em>range</em> for this row rather than one figure, so the table below is not drawn &mdash; there is no single number to draw it from.</p>' : '');
+    } else {
+      // The two measurements fall in different rows. Hireko's table pairs them, so
+      // it simply has no row for this combination. Saying so beats inventing one.
+      method = 'paired-mismatch';
+      headline = 'No published row';
+      var hTxt = pH ? '\u201c' + pH.name + '\u201d (' + pH.adjLabel + ')' : 'no row at all';
+      var wTxt = pW ? '\u201c' + pW.name + '\u201d (' + pW.adjLabel + ')' : 'no row at all';
+      detail = '<p><strong>Hireko\u2019s table has no row for your combination.</strong> Their rows pair a height range with a ' +
+        'wrist-to-floor range, and yours fall in different ones: by height you are in ' + hTxt + ', by wrist-to-floor you are in ' + wTxt + '.</p>' +
+        '<p class="gsc-note">That is not a fault in your measurements &mdash; it means your arms are longer or shorter relative to your height than the ' +
+        'chart assumes, which is exactly the case a chart cannot answer and a fitter can. We are not going to pick one for you, because Hireko do not ' +
+        'say which should win and neither do we.</p>' +
+        '<p class="gsc-note">Their height-only table, for what it is worth, would put you at ' + signed(hRow.adj) + '.</p>';
     }
 
-    var rows = IRONS.map(function (r) {
-      return '<tr><td class="k">' + r[0] + '</td><td>' + fmt(r[col]) + '</td><td class="v">' + fmt(r[col] + adj) + '</td></tr>';
-    }).join('');
+    var table = '';
+    if (adj !== null) {
+      var rows = IRONS.map(function (r) {
+        return '<tr><td class="k">' + r[0] + '</td><td>' + fmt(r[col]) + '</td><td class="v">' + fmt(r[col] + adj) + '</td></tr>';
+      }).join('');
+      table = '<div class="glance"><table class="rc-table lc-table"><thead><tr><th>Club</th><th>Standard</th><th>Yours</th></tr></thead><tbody>' +
+        rows + '</tbody></table></div>' +
+        '<p class="gsc-next">Lengths shown are ' + (set === 'mens' ? "men\u2019s" : "women\u2019s") + ' ' + shaft +
+        '. A half-inch change alters swingweight too, so a fitter will usually adjust head weight to match &mdash; that is why buying an off-the-rack set and cutting it is not the same as a built set.</p>';
+    }
 
     out.innerHTML =
       '<div class="gsc-result">' +
-        '<div class="gsc-size">' + (adj === 0 ? 'Standard' : (adj > 0 ? '+' : '') + adj + '″') + '</div>' +
-        '<div class="gsc-detail"><p><strong>' + (adj === 0 ? 'Standard length looks right for you.' : 'Your set works out ' + Math.abs(adj) + '″ ' + (adj > 0 ? 'longer' : 'shorter') + ' than standard.') + '</strong></p>' +
-        disagree + '</div>' +
-      '</div>' +
-      '<div class="glance"><table class="rc-table lc-table"><thead><tr><th>Club</th><th>Standard</th><th>Yours</th></tr></thead><tbody>' +
-      rows + '</tbody></table></div>' +
-      '<p class="gsc-next">Lengths shown are ' + (set === 'mens' ? "men's" : "women's") + ' ' + shaft +
-      '. A half-inch change alters swingweight too, so a fitter will usually adjust head weight to match &mdash; that is why buying an off-the-rack set and cutting it is not the same as a built set.</p>';
+        '<div class="gsc-size">' + headline + '</div>' +
+        '<div class="gsc-detail">' + detail + '</div>' +
+      '</div>' + table;
 
     if (!sent && typeof gtag === 'function') {
       sent = true;
-      gtag('event', 'club_length_calc', { tool: 'club-length', method: useW ? 'height+wtf' : 'height', adjustment: String(adj) });
+      gtag('event', 'club_length_calc', { tool: 'club-length', method: method });
     }
   }
 

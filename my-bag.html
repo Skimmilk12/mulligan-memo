@@ -374,12 +374,12 @@
     var verdict, detail;
     if (a.wide === 0 && a.tight === 0) {
       verdict = 'Evenly spaced';
-      detail = '<p><strong>Every step in your bag falls inside the range the makers use in their own sets</strong> (2&deg; to 6&deg;). No obvious hole, no obvious overlap.</p>';
+      detail = '<p><strong>Every step in your bag falls inside the 2&deg; to 6&deg; range the makers use inside their own iron sets.</strong> No obvious hole and no obvious overlap &mdash; though that band is derived from irons, so treat it loosely across your woods and wedges.</p>';
     } else if (a.wide > 0) {
       verdict = a.wide === 1 ? '1 wide gap' : a.wide + ' wide gaps';
       detail = '<p><strong>Your widest gap is ' + fmt(a.biggest.gap) + '&deg;, between your ' + esc(a.biggest.from.label) +
-        ' and your ' + esc(a.biggest.to.label) + '.</strong> No set on our loft chart is spaced that wide, so one club is covering ground that would usually take two. ' +
-        'This almost always sits where a strong-lofted set ends and separately-bought wedges begin.</p>';
+        ' and your ' + esc(a.biggest.to.label) + '.</strong> That is wider than any step inside the iron sets on our loft chart, which run 2&deg; to 6&deg;. ' +
+        'A gap that size usually sits where a strong-lofted set ends and separately-bought wedges begin. Whether it costs you a shot depends on how far you actually hit those two clubs &mdash; loft is a map, not a yardage.</p>';
       if (a.tight > 0) {
         detail += '<p>You also have ' + (a.tight === 1 ? 'a pair of clubs' : a.tight + ' pairs of clubs') +
           ' less than 2&deg; apart, which is tighter than any step inside a manufactured set &mdash; those will fly a very similar distance.</p>';
