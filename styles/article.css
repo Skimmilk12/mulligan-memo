@@ -1990,3 +1990,23 @@ details.toc nav { padding: 4px 22px 20px; }
 .gv-size.gv-none { color: var(--divider); }
 .gv-note { font-family: var(--mono); font-size: 11.5px; line-height: 1.55; color: var(--pine); }
 @media (max-width: 640px) { .gv-note { font-size: 11px; } .gv-axis { font-size: 10px; } }
+
+/* Sourced blockquote with citation — used where a page quotes a rule or a maker verbatim */
+.quote { margin: 22px 0 26px; padding: 16px 20px; background: var(--memo);
+  border-left: 3px solid var(--brass); font-family: var(--serif); font-size: 17.5px;
+  line-height: 1.6; font-style: italic; color: var(--ink); }
+.quote cite { display: block; margin-top: 10px; font-family: var(--mono); font-size: 12px;
+  font-style: normal; letter-spacing: 0.02em; color: var(--pine); }
+.quote cite a { color: var(--pine); }
+
+/* Putter length checker — putter-length-chart.html */
+.pt-table td.v { font-family: var(--mono); font-weight: 700; color: var(--flag); }
+.pt-kind { display: block; font-family: var(--mono); font-size: 11px; font-weight: 400;
+  letter-spacing: 0.04em; color: var(--pine); opacity: 0.85; }
+.pt-src { font-family: var(--mono); font-size: 12px; line-height: 1.7; color: var(--pine); margin: -6px 0 26px; }
+.pt-verdict { font-family: var(--mono); font-size: 13px; font-weight: 700; white-space: nowrap; color: var(--pine); }
+.pt-verdict.pt-hit { color: var(--flag); }
+.pt-note { font-family: var(--mono); font-size: 11.5px; line-height: 1.55; color: var(--pine); }
+.pt-legal { font-family: var(--mono); font-size: 12.5px; line-height: 1.6; margin-top: 10px;
+  padding-top: 10px; border-top: 1px dotted var(--divider); color: var(--pine); }
+@media (max-width: 640px) { .pt-note { font-size: 11px; } .quote { font-size: 16px; padding: 14px 16px; } }
