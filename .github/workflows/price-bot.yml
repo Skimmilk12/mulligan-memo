@@ -36,7 +36,27 @@ jobs:
           CJ_PERSONAL_ACCESS_TOKEN: ${{ secrets.CJ_PERSONAL_ACCESS_TOKEN }}
           CJ_COMPANY_ID: ${{ secrets.CJ_COMPANY_ID }}
         run: node scripts/build-deals-grid.mjs --limit 8
+      - name: Fail if the deals grid has gone stale
+        # The rebuild above is continue-on-error so one bad night does not cost
+        # us the whole refresh. The danger in that is silence: the job reports
+        # success, the grid keeps yesterday's cards, and nobody finds out until
+        # a reader clicks a price that no longer exists. So a single miss stays
+        # quiet, and a run of them fails the workflow, which emails Robert.
+        run: |
+          node -e '
+            const fs = require("fs");
+            const f = "data/deals-grid.json";
+            if (!fs.existsSync(f)) { console.error("no deals-grid.json at all"); process.exit(1); }
+            const checked = new Date(JSON.parse(fs.readFileSync(f, "utf8")).checked_at);
+            const days = (Date.now() - checked.getTime()) / 86400000;
+            console.log(`deals grid last verified ${days.toFixed(1)} days ago`);
+            if (days > 3) {
+              console.error("Deals grid has not rebuilt in over 3 days — prices on the homepage and /deals are no longer being checked. Look at the rebuild step above.");
+              process.exit(1);
+            }
+          '
       - name: Commit price log
+        if: always()
         run: |
           git config user.name "mm-price-bot"
           git config user.email "price-bot@mulliganmemo.com"
