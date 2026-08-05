@@ -387,7 +387,7 @@ const block = `<!-- dealsgrid:auto:start -->
     <div class="dg-grid">
 ${items.map(card).join('\n')}
     </div>
-    <p class="dg-foot">Every price above was read off the retailer&rsquo;s own product page on ${esc(checkedNice)}. Stock and prices move without notice.</p>
+    <p class="dg-foot">Stock and prices move without notice.</p>
   </section>
   <!-- dealsgrid:auto:end -->`;
 
