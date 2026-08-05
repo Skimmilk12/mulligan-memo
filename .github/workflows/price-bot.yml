@@ -26,11 +26,21 @@ jobs:
         run: node scripts/build-deal-hubs.mjs
       - name: Refresh the launch-monitor price ladder
         run: node scripts/build-launch-monitors.mjs
+      - name: Rebuild the deals grid and the homepage strip
+        # Re-verifies every card against the retailer's own product page before
+        # republishing it, so a sale that ended overnight drops off instead of
+        # sitting there quoting yesterday's number. continue-on-error because a
+        # CJ outage should cost us the grid for a day, not the whole refresh.
+        continue-on-error: true
+        env:
+          CJ_PERSONAL_ACCESS_TOKEN: ${{ secrets.CJ_PERSONAL_ACCESS_TOKEN }}
+          CJ_COMPANY_ID: ${{ secrets.CJ_COMPANY_ID }}
+        run: node scripts/build-deals-grid.mjs --limit 8
       - name: Commit price log
         run: |
           git config user.name "mm-price-bot"
           git config user.email "price-bot@mulliganmemo.com"
-          git add data/ deals/ deals.html launch-monitors.html
+          git add data/ deals/ deals.html launch-monitors.html index.html styles/deals.css
           if git diff --cached --quiet; then
             echo "no changes"
           else

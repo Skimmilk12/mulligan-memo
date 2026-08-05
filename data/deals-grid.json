@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-05T22:35:38.090Z",
+  "checked_at": "2026-08-05T22:58:40.599Z",
   "items": [
     {
       "title": "Foresight QuadMAX Launch Monitor (Pre-Owned)",
@@ -113,7 +113,7 @@
     },
     {
       "title": "Cobra Darkspeed LS Driver",
-      "feed_title": "DARKSPEED LS Driver | Right 8.0 / graphite stiff / project x hzrdus black gen 4 matte finish",
+      "feed_title": "DARKSPEED LS Driver | Right 8.0 / graphite stiff / ust lin-q m40x white 6",
       "brand": "COBRA Golf",
       "retailer": "Cobra Golf",
       "rate": 4,
@@ -121,7 +121,7 @@
       "sale": 299,
       "image": "https://www.cobragolf.com/cdn/shop/files/d8201_hero_faaee6e8-1d6e-4c73-a7ec-836b83286cca.jpg?v=1761737817",
       "url": "https://www.cobragolf.com/products/darkspeed-ls-driver",
-      "track": "https://www.tkqlhce.com/click-101818675-15600715?url=https%3A%2F%2Fwww.cobragolf.com%2Fproducts%2Fdarkspeed-ls-driver&cjsku=44372096942297",
+      "track": "https://www.kqzyfj.com/click-101818675-15600715?url=https%3A%2F%2Fwww.cobragolf.com%2Fproducts%2Fdarkspeed-ls-driver&cjsku=44372097007833",
       "image_source": "product page",
       "pct": 46,
       "verified": true
@@ -132,6 +132,16 @@
       "title": "Uneekor EYE XR with PlayBetter SimStudio™ Essentials…",
       "url": "https://www.playbetter.com/products/uneekor-eye-xr-home-golf-simulator-playbetter-simstudio-essentials-studio-package",
       "pct": 27
+    },
+    {
+      "title": "Uneekor EYE XR SportScreen Vanish Retractable Golf Studio…",
+      "url": "https://www.playbetter.com/products/uneekor-eye-xr-sportscreen-vanish-retractable-golf-studio-complete-package",
+      "pct": 23
+    },
+    {
+      "title": "Uneekor EYE XR SportScreen Vanish Lite Hybrid",
+      "url": "https://www.playbetter.com/products/uneekor-eye-xr-sportscreen-vanish-lite-semi-retractable-golf-studio-complete-package",
+      "pct": 24
     },
     {
       "title": "SkyTrak+ with PlayBetter SimStudio™ Complete Package",
@@ -204,6 +214,16 @@
       "pct": 29
     },
     {
+      "title": "Uneekor EYE Mini SportScreen Vanish Retractable Golf…",
+      "url": "https://www.playbetter.com/products/uneekor-eye-mini-sportscreen-vanish-retractable-golf-studio-complete-package",
+      "pct": 20
+    },
+    {
+      "title": "Uneekor EYE Mini SportScreen Vanish Lite Hybrid",
+      "url": "https://www.playbetter.com/products/uneekor-eye-mini-sportscreen-vanish-lite-semi-retractable-golf-studio-complete-package",
+      "pct": 21
+    },
+    {
       "title": "Uneekor EYE XO2 Launch Monitor",
       "url": "https://www.playbetter.com/products/uneekor-eye-xo2-golf-launch-monitor",
       "pct": 13
@@ -224,11 +244,6 @@
       "pct": 12
     },
     {
-      "title": "Uneekor EYE Mini Launch Monitor",
-      "url": "https://www.playbetter.com/products/uneekor-eye-mini-launch-monitor",
-      "pct": 33
-    },
-    {
       "title": "Cobra Darkspeed X Driver",
       "url": "https://www.cobragolf.com/products/darkspeed-x-driver",
       "pct": 46
@@ -242,26 +257,6 @@
       "title": "Cobra Darkspeed LS Fairway Wood",
       "url": "https://www.cobragolf.com/products/darkspeed-ls-fairway",
       "pct": 42
-    },
-    {
-      "title": "Cobra DS-ADAPT Hybrid",
-      "url": "https://www.cobragolf.com/products/ds-adapt-hybrid",
-      "pct": 40
-    },
-    {
-      "title": "Cobra Women's DS-ADAPT Hybrid",
-      "url": "https://www.cobragolf.com/products/womens-ds-adapt-hybrid",
-      "pct": 40
-    },
-    {
-      "title": "SkyTrak+ Launch Monitor with 1-Year Free Foresight Course…",
-      "url": "https://www.playbetter.com/products/skytrak-plus-golf-launch-monitor-simulator",
-      "pct": 40
-    },
-    {
-      "title": "Puma AP Knit Golf 1/4 Zip",
-      "url": "https://www.pumagolf.com/products/puma-x-ap-knit-golf-quarter-zip",
-      "pct": 40
     }
   ],
   "dropped": [
@@ -271,34 +266,19 @@
       "reason": "price varies by variant ($3495.00–$8994.99) — our $3995.00 is neither the entry price nor what every buyer sees"
     },
     {
-      "title": "Uneekor EYE XR SportScreen Vanish Lite Hybrid",
-      "url": "https://www.playbetter.com/products/uneekor-eye-xr-sportscreen-vanish-lite-semi-retractable-golf-studio-complete-package",
-      "reason": "feed says $10398.97, live page shows $10053.97"
-    },
-    {
-      "title": "Uneekor EYE XR SportScreen Vanish Retractable Golf Studio…",
-      "url": "https://www.playbetter.com/products/uneekor-eye-xr-sportscreen-vanish-retractable-golf-studio-complete-package",
-      "reason": "feed says $11098.97, live page shows $10648.97"
-    },
-    {
       "title": "PlayBetter Complete Garage SimStudio™ by Golficity",
       "url": "https://www.playbetter.com/products/playbetter-garage-simstudio-golficity-home-golf-simulator-package",
       "reason": "price varies by variant ($3495.00–$8994.99) — our $3995.00 is neither the entry price nor what every buyer sees"
     },
     {
-      "title": "Uneekor EYE XO2 SportScreen Vanish Lite Hybrid",
-      "url": "https://www.playbetter.com/products/uneekor-eye-xo2-sportscreen-vanish-lite-semi-retractable-golf-studio-complete-package",
-      "reason": "feed says $15899.97, live page shows $15479.97"
-    },
-    {
       "title": "Uneekor EYE XO2 SportScreen Vanish Retractable Golf…",
       "url": "https://www.playbetter.com/products/uneekor-eye-xo2-sportscreen-vanish-retractable-golf-studio-complete-package",
-      "reason": "feed says $16599.97, live page shows $16074.97"
+      "reason": "price varies by variant ($16074.97–$18317.17) — our $17349.97 is neither the entry price nor what every buyer sees"
     },
     {
-      "title": "Bushnell LPi Circle B Personal Launch Monitor",
-      "url": "https://www.playbetter.com/products/bushnell-lpi-personal-launch-monitor-simulator",
-      "reason": "price varies by variant ($1999.99–$2129.99) — our $2129.99 is neither the entry price nor what every buyer sees"
+      "title": "Uneekor EYE XO2 SportScreen Vanish Lite Hybrid",
+      "url": "https://www.playbetter.com/products/uneekor-eye-xo2-sportscreen-vanish-lite-semi-retractable-golf-studio-complete-package",
+      "reason": "price varies by variant ($15479.97–$17084.67) — our $16117.47 is neither the entry price nor what every buyer sees"
     },
     {
       "title": "Puma Slipstream G Spikeless Golf Shoes",
@@ -306,19 +286,14 @@
       "reason": "feed says $68.99, live page shows $59.99"
     },
     {
-      "title": "Puma Cloudspun Tech Golf Hoodie",
-      "url": "https://www.pumagolf.com/products/cloudspun-tech-golf-hoodie",
-      "reason": "feed says $50.99, live page shows $52.99"
+      "title": "Cobra Darkspeed Hybrid",
+      "url": "https://www.cobragolf.com/products/darkspeed-hybrid",
+      "reason": "feed says $159.00, live page shows $16.99"
     },
     {
-      "title": "Puma Ripguard Golf Vest",
-      "url": "https://www.pumagolf.com/products/ripguard-golf-vest",
-      "reason": "feed says $59.99, live page shows $74.99"
-    },
-    {
-      "title": "Puma Women's Kyley Quilted Golf Skirt",
-      "url": "https://www.pumagolf.com/products/womens-quilted-golf-skirt",
-      "reason": "feed says $68.99, live page shows $60.00"
+      "title": "Bushnell LPi Circle B Personal Launch Monitor",
+      "url": "https://www.playbetter.com/products/bushnell-lpi-personal-launch-monitor-simulator",
+      "reason": "price varies by variant ($1999.99–$2129.99) — our $2129.99 is neither the entry price nor what every buyer sees"
     }
   ]
 }

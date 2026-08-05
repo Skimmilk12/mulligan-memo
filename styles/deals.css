@@ -177,3 +177,10 @@
   display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2;
   overflow: hidden; min-height: 2.55em;
 }
+
+/* Homepage strip. The home container is wider than the article column, so the
+   shared auto-fill grid opens a fifth track and leaves the four-card strip with
+   a hole in it. Pin the column count here instead. */
+.dg-strip .dg-grid { grid-template-columns: repeat(4, 1fr); }
+@media (max-width: 1000px) { .dg-strip .dg-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 520px)  { .dg-strip .dg-grid { grid-template-columns: repeat(2, 1fr); } }

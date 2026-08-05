@@ -210,16 +210,28 @@ function loadPlayBetter() {
   return out;
 }
 
+/* Credentials come from the environment first so this runs on a CI runner, and
+   fall back to the local secrets file so it still runs by hand on Robert's
+   machine. Neither path ever puts the token in the repo. */
 function loadToken() {
-  let raw;
-  try {
-    raw = readFileSync(SECRETS, 'utf8');
-  } catch {
-    throw new Error(`Cannot read ${SECRETS}. The CJ token lives there and is never committed.`);
+  let token = process.env.CJ_PERSONAL_ACCESS_TOKEN?.trim();
+  let company = process.env.CJ_COMPANY_ID?.trim();
+
+  if (!token || !company) {
+    let raw = '';
+    try {
+      raw = readFileSync(SECRETS, 'utf8');
+    } catch {
+      throw new Error(
+        'No CJ credentials. Set CJ_PERSONAL_ACCESS_TOKEN and CJ_COMPANY_ID in the '
+        + `environment (GitHub Actions secrets), or provide ${SECRETS} locally.`,
+      );
+    }
+    token ||= /^CJ_PERSONAL_ACCESS_TOKEN=(.+)$/m.exec(raw)?.[1]?.trim();
+    company ||= /^CJ_COMPANY_ID=(.+)$/m.exec(raw)?.[1]?.trim();
   }
-  const token = /^CJ_PERSONAL_ACCESS_TOKEN=(.+)$/m.exec(raw)?.[1]?.trim();
-  const company = /^CJ_COMPANY_ID=(.+)$/m.exec(raw)?.[1]?.trim();
-  if (!token || !company) throw new Error('cj.env is missing CJ_PERSONAL_ACCESS_TOKEN or CJ_COMPANY_ID.');
+
+  if (!token || !company) throw new Error('CJ_PERSONAL_ACCESS_TOKEN or CJ_COMPANY_ID missing.');
   return { token, company };
 }
 
@@ -558,6 +570,45 @@ ${items.map(card).join('\n')}
     <p class="dg-foot">Stock and prices move without notice.</p>
   </section>
   <!-- dealsgrid:auto:end -->`;
+
+/* ------------------------------------------------------- homepage strip ----
+   The grid only earns anything if people reach it, and /deals took 3 search
+   impressions last month. Readers arrive for a loft chart or a shaft question,
+   so the big-ticket deals go where that traffic already lands. Four cards, the
+   largest savings only, then out to the full board. */
+const stripItems = [...items]
+  .sort((a, b) => (b.list - b.sale) - (a.list - a.sale))
+  .slice(0, 4);
+
+const strip = `<!-- dealsstrip:auto:start -->
+  <section class="home-sec dg-strip" aria-label="Golf deals on the board">
+    <div class="home-sec-head">
+      <div>
+        <p class="sec-kick">FROM THE DEALS DESK &#10038; CHECKED ${esc(checkedNice.toUpperCase())}</p>
+        <h2 class="sec-title">On the Board</h2>
+      </div>
+      <a class="link-plain" href="/deals.html">SEE THE FULL BOARD &rarr;</a>
+    </div>
+    <div class="dg-grid">
+${stripItems.map(card).join('\n')}
+    </div>
+  </section>
+  <!-- dealsstrip:auto:end -->`;
+
+const HOME = join(ROOT, 'index.html');
+let home = readFileSync(HOME, 'utf8');
+const stripMarker = /<!-- dealsstrip:auto:start -->[\s\S]*?<!-- dealsstrip:auto:end -->/;
+if (stripMarker.test(home)) {
+  home = home.replace(stripMarker, () => strip);
+} else {
+  const anchor = /(\n\s*<!-- latest from the desk -->)/;
+  if (!anchor.test(home)) {
+    throw new Error('index.html: could not find the "latest from the desk" comment to seat the deals strip.');
+  }
+  home = home.replace(anchor, (m) => `\n\n  ${strip}\n${m}`);
+}
+writeFileSync(HOME, home);
+console.log(`rendered ${stripItems.length} cards into index.html`);
 
 const PAGE = join(ROOT, 'deals.html');
 let html = readFileSync(PAGE, 'utf8');
