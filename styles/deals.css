@@ -161,3 +161,19 @@
   .dg-name { font-size: 0.94rem; }
   .dg-now { font-size: 1.25rem; }
 }
+
+/* "from" on configurable packages — the price is the entry configuration, and
+   saying so is more honest than printing a bare number the reader may not get. */
+.dg-from {
+  font-family: var(--mono); font-size: 0.62em; font-weight: 700;
+  letter-spacing: 0.06em; text-transform: uppercase; color: var(--brass-dark);
+  vertical-align: 0.22em;
+}
+
+/* Clamp names to two lines so every card in a row is the same height. Product
+   names here run from "Cobra Darkspeed LS Driver" to "Uneekor EYE XR with
+   PlayBetter SimStudio COMPLETE Package", and a ragged grid reads as careless. */
+.dg-name {
+  display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2;
+  overflow: hidden; min-height: 2.55em;
+}

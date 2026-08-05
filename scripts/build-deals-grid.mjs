@@ -41,6 +41,12 @@ const ADVERTISERS = [
 /* Accessories and consumables that make a deals grid look like a jumble sale.
    The grid is small; every card should be something a golfer would actually
    set out to buy. */
+/* A deals grid is a shop window. Below this, a product is an impulse add-on,
+   not something a golfer comes to the page to buy — and a $9.95 gel pack
+   sitting beside a $15,000 launch monitor makes the whole shelf look like a
+   clearance bin. */
+const MIN_HEADLINE_PRICE = 50;
+
 const NOT_A_HEADLINE = [
   'weight', 'wrench', 'tool kit', 'grip tape', 'headcover', 'towel',
   'shoe bag', 'sock', 'lace', 'insole', 'decal', 'sticker', 'gift card',
@@ -75,8 +81,33 @@ function deShout(word) {
   return word[0] + word.slice(1).toLowerCase();
 }
 
+/* Retailer titles are written for search engines, not for a card. PlayBetter's
+   run to 180 characters — "…BYO (Build Your Own) Package – Custom Home Golf
+   Simulator Studio Builder with Impact Screen, Enclosure, Optional Mats,
+   Projector & More". Clamping that to two lines just hides the mess; the fix is
+   to cut it back to the thing being sold. */
+function tidyRetailTitle(t) {
+  t = t.split(/\s+[–—]\s+/)[0];                       // drop the marketing tail after an en/em dash
+  t = t.replace(/\s*\((?:build your own|byo)\)/ig, ''); // "BYO (Build Your Own)" says it twice
+  t = t.replace(/\bgolf launch monitor (?:and|&) simulator\b/ig, 'Launch Monitor');
+  t = t.replace(/\blaunch monitor (?:and|&) simulator\b/ig, 'Launch Monitor');
+  t = t.replace(/\bgolf simulator studio builder\b/ig, 'Simulator Studio');
+  t = t.replace(/\(certified pre-?owned\)/ig, '(Pre-Owned)');
+  t = t.replace(/\s*\|\s*.*$/, '');                   // trailing pipe-delimited blurb
+  return t.replace(/\s{2,}/g, ' ').replace(/[,\s]+$/, '').trim();
+}
+
+/* Last resort once the rules above have run: cut on a word boundary so a card
+   never shows half a word. */
+function capLength(t, max) {
+  if (t.length <= max) return t;
+  const cut = t.slice(0, max);
+  const sp = cut.lastIndexOf(' ');
+  return (sp > max * 0.6 ? cut.slice(0, sp) : cut).replace(/[,\s]+$/, '') + '…';
+}
+
 function displayTitle(rawTitle, brand) {
-  let t = rawTitle.split(' | ')[0].split(' / ')[0].trim();
+  let t = tidyRetailTitle(rawTitle.split(' | ')[0].split(' / ')[0].trim());
 
   /* Stop after the product noun — everything past it is colour or handedness. */
   let cut = -1;
@@ -88,14 +119,25 @@ function displayTitle(rawTitle, brand) {
   if (cut > -1) t = t.slice(0, cut).trim();
   if (/\bfairway$/i.test(t)) t += ' Wood';              // "Darkspeed LS Fairway" -> "…Fairway Wood"
 
+  /* Strip a trailing colourway. Sqairz name one shoe five ways — "Speed Mesh
+     Light Gray & Blue", "… White & Navy" — and without this the grid fills up
+     with the same shoe wearing different paint. */
+  const COLOUR = '(black|white|navy|gray|grey|blue|red|green|pink|tan|brown|silver|gold|charcoal|cream|sand|teal|purple|orange|yellow|olive|khaki|light|dark|mint|coral|lime|steel|slate)';
+  t = t.replace(new RegExp(`(?:\\s+(?:&|and))?\\s+${COLOUR}(?:\\s+(?:&|and)?\\s*${COLOUR})*\\s*$`, 'i'), '').trim();
+
   t = t.split(/\s+/).map(deShout).join(' ');
 
-  /* Prefix the maker unless the name already carries it. */
+  /* Prefix the maker unless the name already carries it. Match on the maker's
+     FIRST word, not the whole string, or "Foresight Sports" fails to match a
+     title starting "Foresight QuadMAX" and we print the brand twice. */
   const maker = (brand || '').replace(/\s+golf$/i, '').trim();
-  const makerNice = maker ? deShout(maker) : '';
-  if (makerNice && !new RegExp(`\\b${makerNice}\\b`, 'i').test(t)) t = `${makerNice} ${t}`;
+  const makerNice = maker ? maker.split(/\s+/).map(deShout).join(' ') : '';
+  const firstWord = makerNice.split(/\s+/)[0] || '';
+  if (firstWord && !new RegExp(`\\b${firstWord.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`, 'i').test(t)) {
+    t = `${makerNice} ${t}`;
+  }
 
-  return t.replace(/\s{2,}/g, ' ').trim();
+  return capLength(t.replace(/\s{2,}/g, ' ').trim(), 58);
 }
 
 /* The CJ advertiser "Puma Golf and Cobra Golf" covers two storefronts, so the
@@ -112,6 +154,60 @@ function storefront(url, fallback) {
   try { host = new URL(url).hostname; } catch { return fallback; }
   for (const [re, name] of STOREFRONTS) if (re.test(host)) return name;
   return fallback;
+}
+
+/* ---------------------------------------------------------------------------
+   PlayBetter.
+
+   PlayBetter is not on CJ and publishes no product feed we can reach, so their
+   products come from the nightly price bot instead (data/deals-latest.json).
+   They earn their place here on arithmetic: 5% of a $14,999 launch monitor is
+   $750, against $12 for 4% of a $299 driver. 127 of their in-stock sale items
+   are over $1,000. A deals grid that leads with golf shoes while that inventory
+   sits in a text list below it is merchandising the cheapest thing we sell.
+   --------------------------------------------------------------------------- */
+const PB_REF = 'ghref=2301%3A1337756';   // our GrowthHero tracking ref
+const PB_RATE = 5;
+
+function playbetterLink(url) {
+  const clean = String(url).split('#')[0];
+  if (clean.includes(PB_REF)) return clean;
+  return clean + (clean.includes('?') ? '&' : '?') + PB_REF;
+}
+
+function loadPlayBetter() {
+  let raw;
+  try {
+    raw = JSON.parse(readFileSync(join(ROOT, 'data', 'deals-latest.json'), 'utf8'));
+  } catch {
+    console.log('  PlayBetter      (no price-bot data — skipped)');
+    return [];
+  }
+  const out = [];
+  for (const c of raw.candidates || []) {
+    if (c.retailer !== 'PlayBetter' || !c.available) continue;
+    const list = Number(c.compare_at);
+    const sale = Number(c.price);
+    if (!Number.isFinite(list) || !Number.isFinite(sale) || sale >= list) continue;
+    if (sale < MIN_HEADLINE_PRICE) continue;
+    const title = (c.title || '').trim();
+    if (NOT_A_HEADLINE.some((w) => title.toLowerCase().includes(w))) continue;
+    out.push({
+      title: displayTitle(title, c.vendor),
+      feed_title: title,
+      brand: c.vendor || null,
+      retailer: 'PlayBetter',
+      rate: PB_RATE,
+      stale_feed: false,
+      list,
+      sale,
+      pct: (list - sale) / list,
+      image: null,            // no feed image — taken from the product page at verify time
+      url: c.url,
+      track: playbetterLink(c.url),
+    });
+  }
+  return out;
 }
 
 function loadToken() {
@@ -161,6 +257,7 @@ async function fetchAdvertiser(adv, company, token) {
       if (sale >= listPrice) continue;                       // not actually discounted
       if (p.availability !== 'in stock') continue;
       if (!p.imageLink || !p.linkCode?.clickUrl) continue;    // no photo or no commission = no card
+      if (sale < MIN_HEADLINE_PRICE) continue;
       const title = (p.title || '').trim();
       if (NOT_A_HEADLINE.some((w) => title.toLowerCase().includes(w))) continue;
 
@@ -264,13 +361,27 @@ async function verify(item) {
      have no reliable way to generate, so it is dropped instead. */
   if (page.prices.size > 1) {
     const spread = [...page.prices].sort((a, b) => a - b);
-    return {
-      ok: false,
-      reason: `price varies by variant ($${spread[0].toFixed(2)}–$${spread[spread.length - 1].toFixed(2)}) — our $${item.sale.toFixed(2)} is not what every buyer sees`,
-    };
+    /* Simulator packages and launch monitor bundles legitimately price by
+       configuration, and rejecting them outright throws away the most valuable
+       inventory on the board. The honest middle is what the retailers
+       themselves print: if our number is the ENTRY price, say "from $X" and the
+       reader knows the shape of it. If our number sits somewhere in the middle
+       of the range, it is neither the price they will land on nor the cheapest
+       one, and the card still goes. */
+    if (item.sale === spread[0]) {
+      item.from = true;
+      item.spread_high = spread[spread.length - 1];
+    } else {
+      return {
+        ok: false,
+        reason: `price varies by variant ($${spread[0].toFixed(2)}–$${spread[spread.length - 1].toFixed(2)}) — our $${item.sale.toFixed(2)} is neither the entry price nor what every buyer sees`,
+      };
+    }
   }
 
-  let imgProblem = await imageLoads(item.image);
+  /* PlayBetter items arrive with no image at all — the price bot does not carry
+     one — so they go straight to the product page's own hero. */
+  let imgProblem = item.image ? await imageLoads(item.image) : 'no image in source';
   if (imgProblem && page.ogImage && page.ogImage !== item.image) {
     const fallbackProblem = await imageLoads(page.ogImage);
     if (!fallbackProblem) {
@@ -306,25 +417,74 @@ for (const adv of ADVERTISERS) {
   console.log(`  ${adv.label.padEnd(12)} ${String(rows.length).padStart(4)} distinct discounted in-stock products`);
   pool = pool.concat(rows);
 }
-/* Deterministic order. Discount first, then the dearer item, then title as a
-   final tiebreak — otherwise two products tied at the same percentage swap
-   places between runs and the shelf changes for no reason. */
-pool.sort((a, b) => (b.pct - a.pct) || (b.list - a.list) || a.title.localeCompare(b.title));
+const pb = loadPlayBetter();
+if (pb.length) console.log(`  ${'PlayBetter'.padEnd(12)} ${String(pb.length).padStart(4)} distinct discounted in-stock products`);
+pool = pool.concat(pb);
+
+const saved = (x) => x.list - x.sale;
+
+/* Two shelves, deliberately.
+
+   Ranking purely by percentage buries the things that matter: 45% off a $6,345
+   simulator is a bigger event, for the reader AND for us, than 50% off a $100
+   shoe — $2,850 saved against $50, and $175 of commission against $2. But a
+   grid of nothing but $10,000 launch monitors is no use to a golfer who came
+   looking for shoes.
+
+   So the shelf is built from both ends: the biggest real savings first, then
+   the sharpest percentage cuts from what is left. High-ticket leads, affordable
+   follows, and every card is a genuine discount either way. */
+const byMoney = [...pool].sort((a, b) => saved(b) - saved(a) || a.title.localeCompare(b.title));
+const byPercent = [...pool].sort((a, b) => (b.pct - a.pct) || (b.list - a.list) || a.title.localeCompare(b.title));
 
 /* Verify in discount order and stop once the grid is full, so we spend requests
    on the products most likely to lead the page. Verify a few extra so a couple
    of failures do not leave a short grid. */
-const shortlist = pool.slice(0, WANTED * 5);
+const HERO_SLOTS = Math.ceil(WANTED / 2);   // half the grid reserved for big-ticket
+
+/* Dedupe on the DISPLAYED name as well as the URL. Sqairz sell one shoe across
+   several product pages, one per colourway, and a URL-only check happily put
+   the same "Sqairz Speed Mesh" on four consecutive cards. */
+const shortlist = [];
+const seenUrl = new Set();
+const seenName = new Set();
+for (const item of [...byMoney.slice(0, WANTED * 4), ...byPercent.slice(0, WANTED * 4)]) {
+  const key = item.title.toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
+  if (seenUrl.has(item.url) || seenName.has(key)) continue;
+  seenUrl.add(item.url);
+  seenName.add(key);
+  shortlist.push(item);
+}
+
 console.log(`\nverifying ${shortlist.length} candidates against retailer pages…`);
 const verdicts = await mapLimit(shortlist, 4, async (item) => ({ item, ...(await verify(item)) }));
 
-const items = [];
+const okByUrl = new Map();
 const dropped = [];
-const surplus = [];
 for (const v of verdicts) {
-  if (!v.ok) {
-    dropped.push({ title: v.item.title, url: v.item.url, reason: v.reason });
-  } else if (items.length < WANTED) {
+  if (v.ok) okByUrl.set(v.item.url, v.item);
+  else dropped.push({ title: v.item.title, url: v.item.url, reason: v.reason });
+}
+
+/* Fill the big-ticket half first, then top up with the sharpest percentage cuts
+   that are not already on the shelf. */
+const chosen = [];
+const taken = new Set();
+for (const src of [byMoney.slice(0, HERO_SLOTS === 0 ? 0 : Infinity), byPercent]) {
+  const cap = chosen.length < HERO_SLOTS ? HERO_SLOTS : WANTED;
+  for (const cand of src) {
+    if (chosen.length >= cap) break;
+    if (taken.has(cand.url) || !okByUrl.has(cand.url)) continue;
+    taken.add(cand.url);
+    chosen.push(okByUrl.get(cand.url));
+  }
+}
+
+const items = [];
+const surplus = [];
+for (const v of [...chosen.map((item) => ({ item, ok: true })),
+                 ...verdicts.filter((x) => x.ok && !taken.has(x.item.url))]) {
+  if (items.length < WANTED) {
     const { pct, stale_feed, ...rest } = v.item;
     items.push({ ...rest, pct: Math.round(pct * 100), verified: true });
   } else {
@@ -344,13 +504,21 @@ writeFileSync(OUT, JSON.stringify({ checked_at: checked, items, surplus_verified
 const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;')
   .replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 
-const money = (n) => `$${n.toFixed(2).replace(/\.00$/, '')}`;
+/* Thousands separators matter more here than anywhere else on the site: a
+   launch monitor card reading "$14999" looks like a typo, not a price. */
+const money = (n) => {
+  const whole = Number.isInteger(n);
+  return `$${n.toLocaleString('en-US', {
+    minimumFractionDigits: whole ? 0 : 2,
+    maximumFractionDigits: 2,
+  })}`;
+};
 
 /* Dollars beat percentages on a $549 driver; percentages beat dollars on a $70
    pair of shorts. Show whichever number is actually the persuasive one. */
 function savingLabel(list, sale, pct) {
   const off = list - sale;
-  return off >= 50 ? `SAVE $${Math.round(off)}` : `${pct}% OFF`;
+  return off >= 50 ? `SAVE $${Math.round(off).toLocaleString('en-US')}` : `${pct}% OFF`;
 }
 
 function card(it) {
@@ -364,7 +532,7 @@ function card(it) {
           <span class="dg-name">${esc(it.title)}</span>
           <span class="dg-prices">
             <span class="dg-was">${money(it.list)}</span>
-            <span class="dg-now">${money(it.sale)}</span>
+            <span class="dg-now">${it.from ? '<span class="dg-from">from</span> ' : ''}${money(it.sale)}</span>
           </span>
           <span class="dg-cta"><span class="dg-go">GET THE DEAL &rarr;</span></span>
         </span>

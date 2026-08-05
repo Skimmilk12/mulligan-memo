@@ -1,23 +1,119 @@
 {
-  "checked_at": "2026-08-05T03:53:03.117Z",
+  "checked_at": "2026-08-05T22:35:38.090Z",
   "items": [
     {
-      "title": "Puma Fusion Crush Sport Wide Spikeless Golf Shoes",
-      "feed_title": "FUSION CRUSH SPORT Wide Spikeless Golf Shoes Puma black / electric lime / 9.5",
-      "brand": "PUMA Golf",
-      "retailer": "Puma Golf",
-      "rate": 4,
-      "list": 100,
-      "sale": 49.99,
-      "image": "https://www.pumagolf.com/cdn/shop/files/379204_05_sv01_1000x.jpg?v=1766079100",
-      "url": "https://www.pumagolf.com/products/fusion-crush-sport-wide-golf-shoes",
-      "track": "https://www.kqzyfj.com/click-101818675-15600716?url=https%3A%2F%2Fwww.pumagolf.com%2Fproducts%2Ffusion-crush-sport-wide-golf-shoes&cjsku=40789468774473",
+      "title": "Foresight QuadMAX Launch Monitor (Pre-Owned)",
+      "feed_title": "Foresight QuadMAX Golf Launch Monitor & Simulator (Certified Pre-Owned)",
+      "brand": "Foresight Sports",
+      "retailer": "PlayBetter",
+      "rate": 5,
+      "list": 19999,
+      "sale": 14999,
+      "image": "https://www.playbetter.com/cdn/shop/files/foresight-quadmax-5_1200x1200.jpg?v=1781780076",
+      "url": "https://www.playbetter.com/products/foresight-quadmax-golf-launch-monitor-simulator-pre-owned",
+      "track": "https://www.playbetter.com/products/foresight-quadmax-golf-launch-monitor-simulator-pre-owned?ghref=2301%3A1337756",
+      "image_source": "product page",
+      "pct": 25,
+      "verified": true
+    },
+    {
+      "title": "Foresight GCQuad Launch Monitor (Pre-Owned)",
+      "feed_title": "Foresight GCQuad Golf Launch Monitor & Simulator (Certified Pre-Owned)",
+      "brand": "Foresight Sports",
+      "retailer": "PlayBetter",
+      "rate": 5,
+      "list": 15999,
+      "sale": 11999,
+      "image": "https://www.playbetter.com/cdn/shop/files/Foresight-GCQuad-1_1200x1200.jpg?v=1772463473",
+      "url": "https://www.playbetter.com/products/foresight-gcquad-golf-launch-monitor-simulator-pre-owned",
+      "track": "https://www.playbetter.com/products/foresight-gcquad-golf-launch-monitor-simulator-pre-owned?ghref=2301%3A1337756",
+      "from": true,
+      "spread_high": 14499,
+      "image_source": "product page",
+      "pct": 25,
+      "verified": true
+    },
+    {
+      "title": "Uneekor EYE XR with PlayBetter SimStudio™ BYO Package",
+      "feed_title": "Uneekor EYE XR with PlayBetter SimStudio™ BYO (Build Your Own) Package – Custom Home Golf Simulator Studio Builder with Impact Screen, Enclosure, Optional Mats, Projector & More",
+      "brand": "Uneekor",
+      "retailer": "PlayBetter",
+      "rate": 5,
+      "list": 11795,
+      "sale": 8494,
+      "image": "https://www.playbetter.com/cdn/shop/files/Standard-Studio10-Eye-XR_1200x1200.jpg?v=1763003681",
+      "url": "https://www.playbetter.com/products/uneekor-eye-xr-diy-home-golf-simulator-studio-package-with-playbetter-simstudio-customizer",
+      "track": "https://www.playbetter.com/products/uneekor-eye-xr-diy-home-golf-simulator-studio-package-with-playbetter-simstudio-customizer?ghref=2301%3A1337756",
+      "image_source": "product page",
+      "pct": 28,
+      "verified": true
+    },
+    {
+      "title": "Uneekor EYE XR with PlayBetter SimStudio™ Complete Package",
+      "feed_title": "Uneekor EYE XR with PlayBetter SimStudio™ COMPLETE Package | Golf Simulator Studio with Impact Screen, Enclosure, Side Barriers, Hitting/Putting Mats & Projector",
+      "brand": "Uneekor",
+      "retailer": "PlayBetter",
+      "rate": 5,
+      "list": 12795,
+      "sale": 9494,
+      "image": "https://www.playbetter.com/cdn/shop/files/Studio10-Eye-XR-Only_1200x1200.jpg?v=1763003707",
+      "url": "https://www.playbetter.com/products/uneekor-eye-xr-overhead-golf-launch-monitor-simulator-studio-package",
+      "track": "https://www.playbetter.com/products/uneekor-eye-xr-overhead-golf-launch-monitor-simulator-studio-package?ghref=2301%3A1337756",
+      "from": true,
+      "spread_high": 10294,
+      "image_source": "product page",
+      "pct": 26,
+      "verified": true
+    },
+    {
+      "title": "Sqairz Speed™ Mesh",
+      "feed_title": "SPEED™ Mesh Light Gray & Blue / 9 - SQAIRZ",
+      "brand": "SQAIRZ",
+      "retailer": "SQAIRZ",
+      "rate": 5,
+      "list": 179,
+      "sale": 89,
+      "image": "https://cdn.shopify.com/s/files/1/0634/3458/8384/files/men_s_speed_mesh_gray_callout_1x1_01_7befaa9d-6877-4955-99d9-f57691667a8a.jpg?v=1736283724",
+      "url": "https://sqairz.com/products/speed-mesh?variant=44370434883808",
+      "track": "https://www.jdoqocy.com/click-101818675-15766439?url=https%3A%2F%2Fsqairz.com%2Fproducts%2Fspeed-mesh%3Fvariant%3D44370434883808&cjsku=44370434883808",
       "pct": 50,
       "verified": true
     },
     {
+      "title": "SkyTrak+ with PlayBetter SimStudio™ BYO Package",
+      "feed_title": "SkyTrak+ with PlayBetter SimStudio™ BYO (Build Your Own) Package – Custom Home Golf Simulator Studio Builder with Impact Screen, Enclosure, Optional Mats, Projector & 1-Year FREE Foresight Course Play",
+      "brand": "SkyTrak",
+      "retailer": "PlayBetter",
+      "rate": 5,
+      "list": 5845,
+      "sale": 2995,
+      "image": "https://www.playbetter.com/cdn/shop/files/Studio10-STD-SkyTrak-Plus_1200x1200.jpg?v=1753487346",
+      "url": "https://www.playbetter.com/products/skytrak-playbetter-simstudio-byo-home-golf-studio-package",
+      "track": "https://www.playbetter.com/products/skytrak-playbetter-simstudio-byo-home-golf-studio-package?ghref=2301%3A1337756",
+      "from": true,
+      "spread_high": 3445,
+      "image_source": "product page",
+      "pct": 49,
+      "verified": true
+    },
+    {
+      "title": "SkyTrak ST MAX Launch Monitor (Pre-Owned)",
+      "feed_title": "SkyTrak ST MAX Golf Launch Monitor and Simulator (Certified Pre-Owned)",
+      "brand": "SkyTrak",
+      "retailer": "PlayBetter",
+      "rate": 5,
+      "list": 2995,
+      "sale": 1595,
+      "image": "https://www.playbetter.com/cdn/shop/files/skytrak-st-max-launch-monitor-4_1200x1200.jpg?v=1783086511",
+      "url": "https://www.playbetter.com/products/skytrak-st-max-certified-refurbished",
+      "track": "https://www.playbetter.com/products/skytrak-st-max-certified-refurbished?ghref=2301%3A1337756",
+      "image_source": "product page",
+      "pct": 47,
+      "verified": true
+    },
+    {
       "title": "Cobra Darkspeed LS Driver",
-      "feed_title": "DARKSPEED LS Driver | Right 8.0 / graphite x-stiff / ust lin-q m40x white 6",
+      "feed_title": "DARKSPEED LS Driver | Right 8.0 / graphite stiff / project x hzrdus black gen 4 matte finish",
       "brand": "COBRA Golf",
       "retailer": "Cobra Golf",
       "rate": 4,
@@ -25,224 +121,189 @@
       "sale": 299,
       "image": "https://www.cobragolf.com/cdn/shop/files/d8201_hero_faaee6e8-1d6e-4c73-a7ec-836b83286cca.jpg?v=1761737817",
       "url": "https://www.cobragolf.com/products/darkspeed-ls-driver",
-      "track": "https://www.jdoqocy.com/click-101818675-15600715?url=https%3A%2F%2Fwww.cobragolf.com%2Fproducts%2Fdarkspeed-ls-driver&cjsku=44372097171673",
+      "track": "https://www.tkqlhce.com/click-101818675-15600715?url=https%3A%2F%2Fwww.cobragolf.com%2Fproducts%2Fdarkspeed-ls-driver&cjsku=44372096942297",
       "image_source": "product page",
       "pct": 46,
-      "verified": true
-    },
-    {
-      "title": "Cobra Darkspeed X Driver",
-      "feed_title": "DARKSPEED X Driver | Right 12.0 / graphite lite / project x hzrdus red cb 50",
-      "brand": "COBRA Golf",
-      "retailer": "Cobra Golf",
-      "rate": 4,
-      "list": 549,
-      "sale": 299,
-      "image": "https://www.cobragolf.com/cdn/shop/files/d8211_hero.jpg?v=1760626602",
-      "url": "https://www.cobragolf.com/products/darkspeed-x-driver",
-      "track": "https://www.dpbolvw.net/click-101818675-15600715?url=https%3A%2F%2Fwww.cobragolf.com%2Fproducts%2Fdarkspeed-x-driver&cjsku=44372247707865",
-      "image_source": "product page",
-      "pct": 46,
-      "verified": true
-    },
-    {
-      "title": "Cobra Women's Darkspeed Hybrid",
-      "feed_title": "Women's DARKSPEED Hybrid Right / 4 / graphite womens",
-      "brand": "COBRA Golf",
-      "retailer": "Cobra Golf",
-      "rate": 4,
-      "list": 279,
-      "sale": 159,
-      "image": "https://www.cobragolf.com/cdn/shop/files/h8221_hero_3da4554f-1f7c-42f5-9f08-b60d8a9a5822_1000x.jpg?v=1760626989",
-      "url": "https://www.cobragolf.com/products/womens-darkspeed-hybrid",
-      "track": "https://www.anrdoezrs.net/click-101818675-15600715?url=https%3A%2F%2Fwww.cobragolf.com%2Fproducts%2Fwomens-darkspeed-hybrid&cjsku=44371601457369",
-      "pct": 43,
-      "verified": true
-    },
-    {
-      "title": "Cobra Darkspeed LS Fairway Wood",
-      "feed_title": "DARKSPEED LS Fairway Right / 5 / graphite stiff",
-      "brand": "COBRA Golf",
-      "retailer": "Cobra Golf",
-      "rate": 4,
-      "list": 429,
-      "sale": 249,
-      "image": "https://www.cobragolf.com/cdn/shop/files/f8201_hero_1000x.jpg?v=1761159895",
-      "url": "https://www.cobragolf.com/products/darkspeed-ls-fairway",
-      "track": "https://www.dpbolvw.net/click-101818675-15600715?url=https%3A%2F%2Fwww.cobragolf.com%2Fproducts%2Fdarkspeed-ls-fairway&cjsku=44371596706009",
-      "pct": 42,
-      "verified": true
-    },
-    {
-      "title": "Cobra DS-ADAPT Hybrid",
-      "feed_title": "DS-ADAPT Hybrid Right / 5 / graphite regular",
-      "brand": "COBRA Golf",
-      "retailer": "Cobra Golf",
-      "rate": 4,
-      "list": 299,
-      "sale": 179,
-      "image": "https://www.cobragolf.com/cdn/shop/files/h9401_hero_6db811e6-9157-44ef-ab79-130dd1e4561e_1000x.jpg?v=1760626653",
-      "url": "https://www.cobragolf.com/products/ds-adapt-hybrid",
-      "track": "https://www.dpbolvw.net/click-101818675-15600715?url=https%3A%2F%2Fwww.cobragolf.com%2Fproducts%2Fds-adapt-hybrid&cjsku=46213472583897",
-      "pct": 40,
-      "verified": true
-    },
-    {
-      "title": "Cobra Women's DS-ADAPT Hybrid",
-      "feed_title": "Women's DS-ADAPT Hybrid Right / 4 / graphite womens",
-      "brand": "COBRA Golf",
-      "retailer": "Cobra Golf",
-      "rate": 4,
-      "list": 299,
-      "sale": 179,
-      "image": "https://www.cobragolf.com/cdn/shop/files/h9421_hero_0da43ab1-bc66-4dd3-92f8-a6ca57c297f8_1000x.jpg?v=1760624599",
-      "url": "https://www.cobragolf.com/products/womens-ds-adapt-hybrid",
-      "track": "https://www.kqzyfj.com/click-101818675-15600715?url=https%3A%2F%2Fwww.cobragolf.com%2Fproducts%2Fwomens-ds-adapt-hybrid&cjsku=46213476352217",
-      "pct": 40,
-      "verified": true
-    },
-    {
-      "title": "Puma Women's Costa 4\" Golf Shorts",
-      "feed_title": "Women's Costa 4\" Golf Shorts Warm white / m",
-      "brand": "PUMA Golf",
-      "retailer": "Puma Golf",
-      "rate": 4,
-      "list": 70,
-      "sale": 41.99,
-      "image": "https://www.pumagolf.com/cdn/shop/files/623889_11_1000x.jpg?v=1755535026",
-      "url": "https://www.pumagolf.com/products/womens-costa-4-golf-shorts",
-      "track": "https://www.kqzyfj.com/click-101818675-15600716?url=https%3A%2F%2Fwww.pumagolf.com%2Fproducts%2Fwomens-costa-4-golf-shorts&cjsku=41880177410121",
-      "pct": 40,
       "verified": true
     }
   ],
   "surplus_verified": [
     {
-      "title": "Puma AP Knit Golf 1/4 Zip",
-      "url": "https://www.pumagolf.com/products/puma-x-ap-knit-golf-quarter-zip",
-      "pct": 40
+      "title": "Uneekor EYE XR with PlayBetter SimStudio™ Essentials…",
+      "url": "https://www.playbetter.com/products/uneekor-eye-xr-home-golf-simulator-playbetter-simstudio-essentials-studio-package",
+      "pct": 27
     },
     {
-      "title": "Cobra Darkspeed MAX Fairway Wood",
-      "url": "https://www.cobragolf.com/products/darkspeed-max-fairway",
-      "pct": 40
+      "title": "SkyTrak+ with PlayBetter SimStudio™ Complete Package",
+      "url": "https://www.playbetter.com/products/skytrak-plus-golf-simulator-studio-package-playbetter-simstudio-with-impact-screen-enclosure-hitting-putting-mats-projector",
+      "pct": 42
     },
     {
-      "title": "Cobra Darkspeed X Fairway Wood",
-      "url": "https://www.cobragolf.com/products/darkspeed-x-fairway",
-      "pct": 40
+      "title": "SkyTrak+ with PlayBetter SimStudio™ Essentials Package",
+      "url": "https://www.playbetter.com/products/skytrak-plus-with-playbetter-simstudio-essentials-package-golf-simulator-studio",
+      "pct": 45
     },
     {
-      "title": "Cobra DS-ADAPT MAX Fairway Wood",
-      "url": "https://www.cobragolf.com/products/ds-adapt-max-fairway",
-      "pct": 40
+      "title": "Uneekor EYE XR Launch Monitor with Swing Optix Cameras",
+      "url": "https://www.playbetter.com/products/uneekor-eye-xr-golf-launch-monitor-simulator",
+      "pct": 32
     },
     {
-      "title": "Cobra DS-ADAPT X Fairway Wood",
-      "url": "https://www.cobragolf.com/products/ds-adapt-x-fairway",
-      "pct": 40
+      "title": "Foresight GC3 (Pre-Owned) with PlayBetter SimStudio™…",
+      "url": "https://www.playbetter.com/products/foresight-gc3-certified-pre-owned-with-playbetter-simstudio-complete-package",
+      "pct": 24
     },
     {
-      "title": "Cobra Women's DS-ADAPT MAX Fairway Wood",
-      "url": "https://www.cobragolf.com/products/womens-ds-adapt-max-fairway",
-      "pct": 40
-    },
-    {
-      "title": "Cobra DS-ADAPT MAX-K Arnold Palmer Driver",
-      "url": "https://www.cobragolf.com/products/ds-adapt-max-k-arnold-palmer-driver",
-      "pct": 39
-    },
-    {
-      "title": "Cobra DS-ADAPT MAX-K Volition Driver",
-      "url": "https://www.cobragolf.com/products/ds-adapt-max-k-volition-driver",
-      "pct": 39
-    },
-    {
-      "title": "Puma Proadapt Alphacat 2.0 Spikeless Golf Shoes",
-      "url": "https://www.pumagolf.com/products/proadapt-alphacat-2-spikeless-golf-shoes",
+      "title": "SkyTrak ST MAX with PlayBetter SimStudio™ BYO Package",
+      "url": "https://www.playbetter.com/products/skytrak-st-max-with-playbetter-simstudio-byo-build-your-own-package",
       "pct": 38
     },
     {
-      "title": "Cobra DS-ADAPT LS Fairway Wood",
-      "url": "https://www.cobragolf.com/products/ds-adapt-ls-fairway",
-      "pct": 37
+      "title": "SkyTrak ST MAX with PlayBetter SimStudio™ Complete Package",
+      "url": "https://www.playbetter.com/products/skytrak-st-max-with-playbetter-simstudio-complete-package",
+      "pct": 33
+    },
+    {
+      "title": "SkyTrak ST MAX with PlayBetter SimStudio™ Essentials…",
+      "url": "https://www.playbetter.com/products/skytrak-st-max-with-playbetter-simstudio-essentials-package",
+      "pct": 36
+    },
+    {
+      "title": "Uneekor EYE XO2 with PlayBetter SimStudio™ BYO Package",
+      "url": "https://www.playbetter.com/products/uneekor-eye-xo2-diy-home-golf-simulator-studio-package-with-playbetter-simstudio-customizer",
+      "pct": 14
+    },
+    {
+      "title": "Uneekor EYE XO2 with PlayBetter SimStudio™ Complete…",
+      "url": "https://www.playbetter.com/products/uneekor-eye-xo2-front-overhead-golf-launch-monitor-simulator-studio-package",
+      "pct": 13
+    },
+    {
+      "title": "Uneekor EYE XO2 with PlayBetter SimStudio™ Essentials…",
+      "url": "https://www.playbetter.com/products/uneekor-eye-xo2-home-golf-simulator-playbetter-simstudio-essentials-studio-package",
+      "pct": 14
+    },
+    {
+      "title": "Uneekor EYE Mini with PlayBetter SimStudio™ BYO Package",
+      "url": "https://www.playbetter.com/products/uneekor-eye-mini-playbetter-simstudio-byo-home-golf-studio-package",
+      "pct": 27
+    },
+    {
+      "title": "Uneekor EYE Mini with PlayBetter SimStudio™ Complete…",
+      "url": "https://www.playbetter.com/products/uneekor-eye-mini-golf-launch-monitor-simulator-studio-package",
+      "pct": 24
+    },
+    {
+      "title": "Uneekor EYE Mini with PlayBetter SimStudio™ Essentials…",
+      "url": "https://www.playbetter.com/products/uneekor-eye-mini-home-golf-simulator-playbetter-simstudio-essentials-studio-package",
+      "pct": 25
+    },
+    {
+      "title": "Foresight GC3 Launch Monitor (Pre-Owned)",
+      "url": "https://www.playbetter.com/products/foresight-gc3-with-link-used-refurbished",
+      "pct": 29
+    },
+    {
+      "title": "Uneekor EYE XO2 Launch Monitor",
+      "url": "https://www.playbetter.com/products/uneekor-eye-xo2-golf-launch-monitor",
+      "pct": 13
+    },
+    {
+      "title": "TruGolf Apogee with PlayBetter SimStudio™ BYO Package",
+      "url": "https://www.playbetter.com/products/trugolf-apogee-with-playbetter-simstudio-byo-build-your-own-package",
+      "pct": 13
+    },
+    {
+      "title": "TruGolf Apogee with PlayBetter SimStudio™ Complete Package",
+      "url": "https://www.playbetter.com/products/trugolf-apogee-with-playbetter-simstudio-complete-package",
+      "pct": 12
+    },
+    {
+      "title": "TruGolf Apogee with PlayBetter SimStudio™ Essentials…",
+      "url": "https://www.playbetter.com/products/trugolf-apogee-with-playbetter-simstudio-essentials-package",
+      "pct": 12
+    },
+    {
+      "title": "Uneekor EYE Mini Launch Monitor",
+      "url": "https://www.playbetter.com/products/uneekor-eye-mini-launch-monitor",
+      "pct": 33
+    },
+    {
+      "title": "Cobra Darkspeed X Driver",
+      "url": "https://www.cobragolf.com/products/darkspeed-x-driver",
+      "pct": 46
+    },
+    {
+      "title": "Cobra Women's Darkspeed Hybrid",
+      "url": "https://www.cobragolf.com/products/womens-darkspeed-hybrid",
+      "pct": 43
+    },
+    {
+      "title": "Cobra Darkspeed LS Fairway Wood",
+      "url": "https://www.cobragolf.com/products/darkspeed-ls-fairway",
+      "pct": 42
+    },
+    {
+      "title": "Cobra DS-ADAPT Hybrid",
+      "url": "https://www.cobragolf.com/products/ds-adapt-hybrid",
+      "pct": 40
+    },
+    {
+      "title": "Cobra Women's DS-ADAPT Hybrid",
+      "url": "https://www.cobragolf.com/products/womens-ds-adapt-hybrid",
+      "pct": 40
+    },
+    {
+      "title": "SkyTrak+ Launch Monitor with 1-Year Free Foresight Course…",
+      "url": "https://www.playbetter.com/products/skytrak-plus-golf-launch-monitor-simulator",
+      "pct": 40
+    },
+    {
+      "title": "Puma AP Knit Golf 1/4 Zip",
+      "url": "https://www.pumagolf.com/products/puma-x-ap-knit-golf-quarter-zip",
+      "pct": 40
     }
   ],
   "dropped": [
     {
-      "title": "Puma Fusion Crush Sport Spikeless Golf Shoes",
-      "url": "https://www.pumagolf.com/products/fusion-crush-sport-golf-shoes",
-      "reason": "feed says $49.99, live page shows $52.99"
+      "title": "PlayBetter Complete Garage SimStudio™",
+      "url": "https://www.playbetter.com/products/playbetter-garage-simstudio-home-golf-simulator-package",
+      "reason": "price varies by variant ($3495.00–$8994.99) — our $3995.00 is neither the entry price nor what every buyer sees"
     },
     {
-      "title": "Puma Women's Fusion Crush Sport Spikeless Golf Shoes",
-      "url": "https://www.pumagolf.com/products/womens-fusion-crush-sport-golf-shoes",
-      "reason": "feed says $49.99, live page shows $60.00"
+      "title": "Uneekor EYE XR SportScreen Vanish Lite Hybrid",
+      "url": "https://www.playbetter.com/products/uneekor-eye-xr-sportscreen-vanish-lite-semi-retractable-golf-studio-complete-package",
+      "reason": "feed says $10398.97, live page shows $10053.97"
+    },
+    {
+      "title": "Uneekor EYE XR SportScreen Vanish Retractable Golf Studio…",
+      "url": "https://www.playbetter.com/products/uneekor-eye-xr-sportscreen-vanish-retractable-golf-studio-complete-package",
+      "reason": "feed says $11098.97, live page shows $10648.97"
+    },
+    {
+      "title": "PlayBetter Complete Garage SimStudio™ by Golficity",
+      "url": "https://www.playbetter.com/products/playbetter-garage-simstudio-golficity-home-golf-simulator-package",
+      "reason": "price varies by variant ($3495.00–$8994.99) — our $3995.00 is neither the entry price nor what every buyer sees"
+    },
+    {
+      "title": "Uneekor EYE XO2 SportScreen Vanish Lite Hybrid",
+      "url": "https://www.playbetter.com/products/uneekor-eye-xo2-sportscreen-vanish-lite-semi-retractable-golf-studio-complete-package",
+      "reason": "feed says $15899.97, live page shows $15479.97"
+    },
+    {
+      "title": "Uneekor EYE XO2 SportScreen Vanish Retractable Golf…",
+      "url": "https://www.playbetter.com/products/uneekor-eye-xo2-sportscreen-vanish-retractable-golf-studio-complete-package",
+      "reason": "feed says $16599.97, live page shows $16074.97"
+    },
+    {
+      "title": "Bushnell LPi Circle B Personal Launch Monitor",
+      "url": "https://www.playbetter.com/products/bushnell-lpi-personal-launch-monitor-simulator",
+      "reason": "price varies by variant ($1999.99–$2129.99) — our $2129.99 is neither the entry price nor what every buyer sees"
     },
     {
       "title": "Puma Slipstream G Spikeless Golf Shoes",
       "url": "https://www.pumagolf.com/products/slipstream-g-spikeless-golf-shoes",
       "reason": "feed says $68.99, live page shows $59.99"
-    },
-    {
-      "title": "Cobra Darkspeed Hybrid",
-      "url": "https://www.cobragolf.com/products/darkspeed-hybrid",
-      "reason": "feed says $159.00, live page shows $26.99"
-    },
-    {
-      "title": "Puma Women's Cloudspun Scallop Sleeveless Golf Polo",
-      "url": "https://www.pumagolf.com/products/womens-cloudspun-scallop-sleeveless-golf-polo",
-      "reason": "feed says $38.99, live page shows $48.99"
-    },
-    {
-      "title": "Puma Mattr Micro Floral Golf Polo",
-      "url": "https://www.pumagolf.com/products/mattr-micro-floral-golf-polo",
-      "reason": "feed says $41.99, live page shows $52.99"
-    },
-    {
-      "title": "Puma Women's Blake 15.5\" Golf Skirt",
-      "url": "https://www.pumagolf.com/products/womens-blake-golf-skirt",
-      "reason": "feed says $41.99, live page shows $60.00"
-    },
-    {
-      "title": "Puma Women's Blake 17.5\" Golf Skirt",
-      "url": "https://www.pumagolf.com/products/womens-blake-long-golf-skirt",
-      "reason": "feed says $41.99, live page shows $60.00"
-    },
-    {
-      "title": "Puma Women's Blake Piped Knit 15.5\" Golf Skirt",
-      "url": "https://www.pumagolf.com/products/womens-blake-piped-knit-golf-skirt",
-      "reason": "feed says $41.99, live page shows $70.00"
-    },
-    {
-      "title": "Puma Women's Costa 8.5\" Golf Shorts",
-      "url": "https://www.pumagolf.com/products/womens-costa-golf-shorts",
-      "reason": "feed says $41.99, live page shows $60.00"
-    },
-    {
-      "title": "Puma Women's Blake Borrego Knit Golf Skirt",
-      "url": "https://www.pumagolf.com/products/womens-blake-borrego-knit-golf-skirt",
-      "reason": "feed says $44.99, live page shows $60.00"
-    },
-    {
-      "title": "Puma Women's Blake Tropic Golf Skirt",
-      "url": "https://www.pumagolf.com/products/womens-blake-tropic-golf-skirt",
-      "reason": "feed says $44.99, live page shows $60.00"
-    },
-    {
-      "title": "Puma Women's Club Pleated Golf Skirt",
-      "url": "https://www.pumagolf.com/products/womens-club-pleated-golf-skirt",
-      "reason": "feed says $44.99, live page shows $60.00"
-    },
-    {
-      "title": "Puma Women's Haute Golf Skirt",
-      "url": "https://www.pumagolf.com/products/womens-haute-golf-skirt",
-      "reason": "feed says $44.99, live page shows $60.00"
-    },
-    {
-      "title": "Puma Women's Lillie Wrap Golf Skirt",
-      "url": "https://www.pumagolf.com/products/womens-lillie-wrap-golf-skirt",
-      "reason": "feed says $47.99, live page shows $60.00"
     },
     {
       "title": "Puma Cloudspun Tech Golf Hoodie",
@@ -258,26 +319,6 @@
       "title": "Puma Women's Kyley Quilted Golf Skirt",
       "url": "https://www.pumagolf.com/products/womens-quilted-golf-skirt",
       "reason": "feed says $68.99, live page shows $60.00"
-    },
-    {
-      "title": "Puma Countryman Golf Jacket",
-      "url": "https://www.pumagolf.com/products/countryman-golf-jacket",
-      "reason": "feed says $149.99, live page shows $52.99"
-    },
-    {
-      "title": "Cobra DS-ADAPT LS Palm Tree Crew Driver",
-      "url": "https://www.cobragolf.com/products/ds-adapt-ls-ptc-driver",
-      "reason": "feed says $399.00, live page shows $26.99"
-    },
-    {
-      "title": "Cobra DS-ADAPT LS Volition Driver",
-      "url": "https://www.cobragolf.com/products/ds-adapt-ls-volition-driver",
-      "reason": "feed says $399.00, live page shows $26.99"
-    },
-    {
-      "title": "Cobra DS-ADAPT LS Driver",
-      "url": "https://www.cobragolf.com/products/ds-adapt-ls-driver",
-      "reason": "feed says $349.00, live page shows $299.00"
     }
   ]
 }
