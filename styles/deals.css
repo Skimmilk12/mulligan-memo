@@ -40,3 +40,124 @@
 .dd-dept.soon .dd-dept-open { color: var(--muted); }
 
 @media (max-width: 560px) { .dd-hero { flex-direction: column; } .dd-seal { transform: rotate(-6deg) scale(0.9); } }
+
+/* ==========================================================================
+   DEALS GRID — product cards (build-deals-grid.mjs)
+
+   The brief was "premium". In this palette that means restraint: one accent
+   (brass), real rules instead of drop shadows, and generous room around the
+   product. The hard part is the photography — merchant cut-outs arrive on flat
+   white and a parchment page will show every one of those rectangles as a
+   patch. So the image sits in a WELL: a warm off-white alcove, hairline-framed,
+   with a soft inset shadow along the top edge so it reads as a lit recess in
+   the card rather than a sticker on top of it.
+
+   mix-blend-mode: multiply was the obvious trick and is deliberately NOT used —
+   it would knock the white out beautifully on the Cobra clubs and destroy the
+   white Puma shoes, which are a third of the shelf.
+   ========================================================================== */
+
+.dg-wrap { margin: 30px 0 36px; }
+
+.dg-head {
+  display: flex; justify-content: space-between; align-items: baseline;
+  gap: 16px; flex-wrap: wrap;
+  border-bottom: 2px solid var(--ink); padding-bottom: 10px;
+}
+.dg-kick {
+  font-family: var(--mono); font-size: 0.76rem; letter-spacing: 0.14em;
+  text-transform: uppercase; color: var(--flag); margin: 0;
+}
+.dg-title {
+  font-family: var(--display); font-weight: 900; font-size: 1.85rem;
+  letter-spacing: -0.01em; margin: 3px 0 0; color: var(--ink);
+}
+/* The freshness signal is furniture, not a paragraph: a date you read once. */
+.dg-checked {
+  font-family: var(--mono); font-size: 0.74rem; letter-spacing: 0.06em;
+  text-transform: uppercase; color: var(--pine); white-space: nowrap;
+}
+
+.dg-grid {
+  display: grid; gap: 18px; margin-top: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(212px, 1fr));
+}
+
+.dg-card {
+  display: flex; flex-direction: column; position: relative;
+  border: 1.5px solid var(--ink); background: var(--card);
+  text-decoration: none; color: inherit;
+  transition: background 0.15s ease, transform 0.15s ease;
+}
+.dg-card:hover { background: var(--memo); transform: translateY(-2px); }
+.dg-card:focus-visible { outline: 3px solid var(--brass); outline-offset: 2px; }
+
+.dg-well {
+  position: relative; aspect-ratio: 1 / 1; padding: 16px;
+  display: flex; align-items: center; justify-content: center;
+  background: #fdfbf5;
+  border-bottom: 1.5px solid var(--ink);
+  box-shadow: inset 0 7px 16px -9px rgba(27, 42, 32, 0.32),
+              inset 0 -1px 0 rgba(27, 42, 32, 0.06);
+}
+.dg-well img {
+  max-width: 100%; max-height: 100%; width: auto; height: auto;
+  object-fit: contain; display: block;
+}
+
+/* The saving, seated on the well's bottom edge. Brass, not a red starburst —
+   the red-badge move is what makes every other affiliate grid look like a
+   circular. */
+.dg-save {
+  position: absolute; left: 0; bottom: 0;
+  background: var(--brass); color: var(--cta-ink);
+  border-top: 1.5px solid var(--brass-edge);
+  border-right: 1.5px solid var(--brass-edge);
+  font-family: var(--mono); font-weight: 700; font-size: 0.73rem;
+  letter-spacing: 0.06em; padding: 4px 10px;
+}
+
+.dg-body { padding: 12px 14px 14px; display: flex; flex-direction: column; flex: 1 1 auto; }
+.dg-store {
+  font-family: var(--mono); font-size: 0.69rem; letter-spacing: 0.1em;
+  text-transform: uppercase; color: var(--brass-dark);
+}
+.dg-name {
+  font-family: var(--display); font-weight: 600; font-size: 1.02rem;
+  line-height: 1.25; margin: 5px 0 12px; color: var(--ink);
+}
+
+/* Mono for the old price so it reads as a struck ledger figure; Fraunces for
+   the new one so it reads as the headline it is. */
+.dg-prices { display: flex; align-items: baseline; gap: 9px; margin-top: auto; flex-wrap: wrap; }
+.dg-was {
+  font-family: var(--mono); font-size: 0.82rem; color: var(--muted);
+  text-decoration: line-through;
+}
+.dg-now {
+  font-family: var(--display); font-weight: 900; font-size: 1.4rem;
+  letter-spacing: -0.01em; color: var(--ink);
+}
+
+.dg-cta { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-top: 12px; }
+.dg-go {
+  font-family: var(--mono); font-weight: 700; font-size: 0.75rem;
+  letter-spacing: 0.06em; background: var(--brass); color: var(--cta-ink);
+  border: 1.5px solid var(--brass-edge); padding: 7px 12px;
+}
+.dg-card:hover .dg-go { background: var(--brass-dark); color: #fff; }
+.dg-paid { font-family: var(--mono); font-size: 0.65rem; letter-spacing: 0.04em; color: var(--pine); }
+
+.dg-foot {
+  font-family: var(--mono); font-size: 0.74rem; letter-spacing: 0.03em;
+  color: var(--pine); border-top: 1px dashed var(--dotdash);
+  margin-top: 18px; padding-top: 10px;
+}
+
+@media (max-width: 700px) {
+  .dg-title { font-size: 1.55rem; }
+  .dg-grid { gap: 14px; grid-template-columns: repeat(auto-fill, minmax(158px, 1fr)); }
+  .dg-well { padding: 11px; }
+  .dg-name { font-size: 0.94rem; }
+  .dg-now { font-size: 1.25rem; }
+}
