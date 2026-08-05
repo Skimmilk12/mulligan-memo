@@ -60,6 +60,7 @@ const NOT_A_HEADLINE = [
 /* Longest first, so "Fairway Wood" wins over "Fairway" and "Golf Shoes" over "Shoes". */
 const PRODUCT_NOUNS = [
   'Golf Shoes', 'Golf Shorts', 'Golf Pants', 'Golf Skirt', 'Golf Polo', 'Golf Bag',
+  'Golf Jacket', 'Golf Vest', 'Golf Hoodie', '1/4 Zip', 'Quarter Zip', 'Crewneck',
   'Fairway Wood', 'Driver', 'Fairway', 'Hybrid', 'Irons', 'Iron', 'Putter', 'Wedge',
 ];
 
@@ -208,8 +209,15 @@ async function readProductPage(url) {
      Same page, same request we already make for the price. */
   const og = /<meta[^>]+property=["']og:image["'][^>]+content=["']([^"']+)["']/i.exec(html)
           || /<meta[^>]+content=["']([^"']+)["'][^>]+property=["']og:image["']/i.exec(html);
+  /* Shopify emits og:image protocol-relative or on bare http. The site is
+     served over https, so an http src is silently blocked as mixed content —
+     it survived local testing (localhost is http) and shipped two empty wells
+     to production. Force https here, always. */
   let ogImage = og?.[1] || null;
-  if (ogImage && ogImage.startsWith('//')) ogImage = `https:${ogImage}`;
+  if (ogImage) {
+    if (ogImage.startsWith('//')) ogImage = `https:${ogImage}`;
+    else ogImage = ogImage.replace(/^http:\/\//i, 'https://');
+  }
 
   return { prices: prices.size ? prices : null, ogImage };
 }
@@ -245,6 +253,21 @@ async function verify(item) {
   if (!page.prices.has(item.sale)) {
     const low = Math.min(...page.prices);
     return { ok: false, reason: `feed says $${item.sale.toFixed(2)}, live page shows $${low.toFixed(2)}` };
+  }
+
+  /* Codex's catch, and it is the right one: price accuracy is VARIANT accuracy.
+     A page can legitimately contain our number while only one loft, flex, hand
+     or shoe size actually sells at it — the reader clicks a $299 card and lands
+     on the default configuration at $399. Our links go to the product, not a
+     variant, so the only price we can honestly print is one that holds across
+     every variant on the page. Anything else needs a "select lofts" caveat we
+     have no reliable way to generate, so it is dropped instead. */
+  if (page.prices.size > 1) {
+    const spread = [...page.prices].sort((a, b) => a - b);
+    return {
+      ok: false,
+      reason: `price varies by variant ($${spread[0].toFixed(2)}–$${spread[spread.length - 1].toFixed(2)}) — our $${item.sale.toFixed(2)} is not what every buyer sees`,
+    };
   }
 
   let imgProblem = await imageLoads(item.image);
@@ -283,7 +306,10 @@ for (const adv of ADVERTISERS) {
   console.log(`  ${adv.label.padEnd(12)} ${String(rows.length).padStart(4)} distinct discounted in-stock products`);
   pool = pool.concat(rows);
 }
-pool.sort((a, b) => b.pct - a.pct);
+/* Deterministic order. Discount first, then the dearer item, then title as a
+   final tiebreak — otherwise two products tied at the same percentage swap
+   places between runs and the shelf changes for no reason. */
+pool.sort((a, b) => (b.pct - a.pct) || (b.list - a.list) || a.title.localeCompare(b.title));
 
 /* Verify in discount order and stop once the grid is full, so we spend requests
    on the products most likely to lead the page. Verify a few extra so a couple
@@ -294,18 +320,24 @@ const verdicts = await mapLimit(shortlist, 4, async (item) => ({ item, ...(await
 
 const items = [];
 const dropped = [];
+const surplus = [];
 for (const v of verdicts) {
-  if (v.ok && items.length < WANTED) {
+  if (!v.ok) {
+    dropped.push({ title: v.item.title, url: v.item.url, reason: v.reason });
+  } else if (items.length < WANTED) {
     const { pct, stale_feed, ...rest } = v.item;
     items.push({ ...rest, pct: Math.round(pct * 100), verified: true });
-  } else if (!v.ok) {
-    dropped.push({ title: v.item.title, url: v.item.url, reason: v.reason });
+  } else {
+    /* Verified but beyond the grid size. Recorded rather than dropped on the
+       floor — a cap that is not written down reads later as "nothing else
+       qualified", which is not what happened. */
+    surplus.push({ title: v.item.title, url: v.item.url, pct: Math.round(v.item.pct * 100) });
   }
 }
 
 mkdirSync(dirname(OUT), { recursive: true });
 const checked = new Date().toISOString();
-writeFileSync(OUT, JSON.stringify({ checked_at: checked, items, dropped }, null, 2));
+writeFileSync(OUT, JSON.stringify({ checked_at: checked, items, surplus_verified: surplus, dropped }, null, 2));
 
 /* ------------------------------------------------------------------ render */
 
