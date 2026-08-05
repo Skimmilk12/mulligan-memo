@@ -53,7 +53,7 @@ function card(c) {
           <div class="lm-top"><span class="lm-brand">${esc(c.vendor || '')}</span><span class="lm-cond lm-cond-${cond.split(' ')[0].toLowerCase()}">${cond}</span></div>
           <h3 class="lm-name">${esc(name)}</h3>
           <div class="lm-price">${money(price(c))}</div>
-          <a class="lm-buy" href="${esc(link.href)}" rel="nofollow noopener${link.paid ? ' sponsored' : ''}" target="_blank">See it at PlayBetter &rarr;</a>${link.paid ? '<span class="lm-tag">paid link</span>' : ''}
+          <a class="lm-buy" href="${esc(link.href)}" rel="nofollow noopener${link.paid ? ' sponsored' : ''}" target="_blank">See it at PlayBetter &rarr;</a>
         </div>`;
 }
 
@@ -176,7 +176,7 @@ ${bundleRows}
   <div class="fwrap">
     <div class="mm-foot-top"><div class="fmark">Mulligan Memo</div></div>
     <div class="mm-foot-rule"></div>
-    <p class="fdisc">Some links on Mulligan Memo earn us a commission. Those are marked "paid link". As an Amazon Associate, we earn from qualifying purchases.</p>
+    <p class="fdisc">Some links on Mulligan Memo earn us a commission. As an Amazon Associate, we earn from qualifying purchases.</p>
     <div class="mm-foot-bottom"><span>&copy; 2026 Mulligan Memo</span></div>
   </div>
 </footer>

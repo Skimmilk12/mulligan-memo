@@ -366,7 +366,7 @@ function card(it) {
             <span class="dg-was">${money(it.list)}</span>
             <span class="dg-now">${money(it.sale)}</span>
           </span>
-          <span class="dg-cta"><span class="dg-go">GET THE DEAL &rarr;</span><span class="dg-paid">paid link</span></span>
+          <span class="dg-cta"><span class="dg-go">GET THE DEAL &rarr;</span></span>
         </span>
       </a>`;
 }

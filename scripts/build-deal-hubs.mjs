@@ -192,7 +192,7 @@ function shell(hub) {
 
     <div class="copy">
 
-    <div class="dd-disclosure">READER-SUPPORTED: some links on Mulligan Memo earn us a commission — every one of those is marked "paid link" right next to the button. Deals below are listed on merit; most currently earn us nothing.</div>
+    <div class="dd-disclosure">READER-SUPPORTED: some links on Mulligan Memo earn us a commission. Deals below are listed on merit; most currently earn us nothing.</div>
 
 ${hub.intro}
 
@@ -296,7 +296,7 @@ function rowHtml(c) {
           <span class="dd-was">${money(c.compare_at)}</span>
           <span class="dd-now">${money(c.price)}</span>
           <span class="dd-pct">${c.pct_off}% OFF</span>
-          <a class="dd-buy" href="${esc(link.href)}" rel="nofollow noopener${link.paid ? ' sponsored' : ''}" target="_blank">GET THE DEAL →</a>${link.paid ? '<span class="dd-linktag">paid link</span>' : ''}
+          <a class="dd-buy" href="${esc(link.href)}" rel="nofollow noopener${link.paid ? ' sponsored' : ''}" target="_blank">GET THE DEAL →</a>
         </div>
       </div>`;
 }
@@ -360,11 +360,11 @@ for (const hub of HUBS) {
   let body = rows.length
     ? `${stamp}\n\n    <h2><span class="kick">The Ledger</span>${rows.length} verified deal${rows.length === 1 ? '' : 's'} live</h2>\n    <div class="dd-ledger">\n${rows.map(rowHtml).join('\n')}\n    </div>`
     : `${stamp}\n\n    <h2><span class="kick">The Ledger</span>Nothing clears the bar today</h2>\n    <p>The bot found no discounts in this department worth your money overnight — a quiet day is better than a padded one. Check back tomorrow.</p>`;
-  // Department-level kill list: killed items that would have landed in this ledger.
+  /* Killed items are still tracked — they are why the padded "discounts" never
+     reach the ledger — but they are no longer printed. A shopper reading a
+     department page wants what to buy, not a list of what we threw out. The
+     count stays in the build log below for us. */
   const kills = killedByHub.get(hub.slug).map(c => killlist.find(k => k.url === c.url)).filter(Boolean);
-  if (kills.length) {
-    body += `\n\n    <h2><span class="kick">Kill List</span>Left on the cutting-room floor</h2>\n    <p>The loudest “discounts” the bot found in this department did not survive verification:</p>\n    <ul class="dd-floor">\n${kills.map(f => `      <li><strong>${esc(f.claim)}</strong> — ${esc(f.reason)}</li>`).join('\n')}\n    </ul>`;
-  }
   guardAndInject(file, 'hub:auto', body);
   console.log(`deals/${hub.slug}.html: ${rows.length} rows (of ${buckets.get(hub.slug).length} matched, ${kills.length} killed)`);
 }

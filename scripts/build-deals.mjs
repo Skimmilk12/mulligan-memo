@@ -64,13 +64,15 @@ function outbound(url) {
 }
 
 function linkTag(d) {
-  // FTC: paid links get an adjacent "paid link" marker. Non-affiliate links get
-  // no tag — the best-price-regardless stance lives in the How-it-works box.
+  /* Disclosure lives once, in the banner at the top of the page. It used to be
+     repeated as a "paid link" chip beside every button, which on a page of ten
+     deals means telling the reader ten more times something they read on
+     arrival and did not care about the first time. The rel attribute still
+     carries sponsored, which is the part that actually matters. */
   const link = outbound(d.url);
   const paid = d.affiliate || link.paid;
   const rel = paid ? 'nofollow sponsored noopener' : 'nofollow noopener';
-  const tag = paid ? '<span class="dd-linktag">paid link</span>' : '';
-  return `<a class="dd-buy" href="${esc(link.href)}" rel="${rel}" target="_blank">GET THE DEAL →</a>${tag}`;
+  return `<a class="dd-buy" href="${esc(link.href)}" rel="${rel}" target="_blank">GET THE DEAL →</a>`;
 }
 
 function dealRow(d) {
@@ -124,12 +126,12 @@ ${topCuts.map(d => `        <div class="dd-cut"><span class="dd-cut-pct">${d.pct
       </div>
     </section>
 
-    <h2><span class="kick">Kill List</span>Left on the cutting-room floor</h2>
-    <p>Every morning the bot surfaces the loudest “discounts” on the internet. The loudest ones are usually lying. The current rejects — excluded from every page of this desk:</p>
-    <ul class="dd-floor">
-${killlist.filter(k => !k.expired).map(f => `      <li><strong>${esc(f.claim)}</strong> — ${esc(f.reason)}</li>`).join('\n')}
-    </ul>
 `;
+/* The Kill List used to print here — the fake-anchor deals we rejected and why.
+   Removed 2026-08-04 on Robert's instruction, for the third time this pattern
+   has been caught: a reader came for prices, not for an account of our editing.
+   The kill list still runs and still keeps those deals off the page; it just
+   does its work without being narrated. The data stays in the price-bot log. */
 
 // Guard: generated content must never contain the markers themselves — a
 // corrupted injection here is how the 2026-07-11 page scramble happened.
