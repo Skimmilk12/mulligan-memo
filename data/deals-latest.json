@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-08-04T12:18:58.897Z",
- "date": "2026-08-04",
+ "generated_at": "2026-08-05T12:16:54.155Z",
+ "date": "2026-08-05",
  "sources": [
   {
    "retailer": "PlayBetter",
    "status": "ok",
-   "on_sale_items": 202
+   "on_sale_items": 239
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -15,7 +15,7 @@
   {
    "retailer": "Rain or Shine Golf",
    "status": "ok",
-   "on_sale_items": 105
+   "on_sale_items": 109
   },
   {
    "retailer": "Top Shelf Golf",
@@ -1335,6 +1335,17 @@
   },
   {
    "retailer": "PlayBetter",
+   "title": "Uneekor EYE XR SportScreen Vanish LITE Hybrid-Retractable Golf Studio Complete Package | Home Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Putting Turf & Projector",
+   "vendor": "SportScreen",
+   "type": "Retractable Golf Simulator Studio Package",
+   "price": 10053.97,
+   "compare_at": 13199.97,
+   "pct_off": 24,
+   "available": true,
+   "url": "https://www.playbetter.com/products/uneekor-eye-xr-sportscreen-vanish-lite-semi-retractable-golf-studio-complete-package"
+  },
+  {
+   "retailer": "PlayBetter",
    "title": "Garmin Approach S70 Golf GPS Smartwatch (Certified Pre-Owned)",
    "vendor": "Garmin",
    "type": "Golf GPS Watch",
@@ -1365,6 +1376,17 @@
    "pct_off": 23,
    "available": true,
    "url": "https://www.playbetter.com/products/skytrak-core-tm-membership"
+  },
+  {
+   "retailer": "PlayBetter",
+   "title": "Uneekor EYE XR SportScreen Vanish Retractable Golf Studio Complete Package | Home Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Putting Turf & Projector",
+   "vendor": "SportScreen",
+   "type": "Retractable Golf Simulator Studio Package",
+   "price": 10648.97,
+   "compare_at": 13899.97,
+   "pct_off": 23,
+   "available": true,
+   "url": "https://www.playbetter.com/products/uneekor-eye-xr-sportscreen-vanish-retractable-golf-studio-complete-package"
   },
   {
    "retailer": "PlayBetter",
@@ -1643,14 +1665,14 @@
   },
   {
    "retailer": "PlayBetter",
-   "title": "Uneekor EYE XR SportScreen Vanish LITE Hybrid-Retractable Golf Studio Complete Package | Home Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Putting Turf & Projector",
+   "title": "Uneekor EYE MINI SportScreen Vanish LITE Hybrid-Retractable Golf Studio Complete Package | Home Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Putting Turf & Projector",
    "vendor": "SportScreen",
    "type": "Retractable Golf Simulator Studio Package",
-   "price": 10398.97,
-   "compare_at": 13199.97,
+   "price": 7053.97,
+   "compare_at": 8899.97,
    "pct_off": 21,
    "available": true,
-   "url": "https://www.playbetter.com/products/uneekor-eye-xr-sportscreen-vanish-lite-semi-retractable-golf-studio-complete-package"
+   "url": "https://www.playbetter.com/products/uneekor-eye-mini-sportscreen-vanish-lite-semi-retractable-golf-studio-complete-package"
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -1742,14 +1764,14 @@
   },
   {
    "retailer": "PlayBetter",
-   "title": "Uneekor EYE XR SportScreen Vanish Retractable Golf Studio Complete Package | Home Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Putting Turf & Projector",
+   "title": "Uneekor EYE MINI SportScreen Vanish Retractable Golf Studio Complete Package | Home Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Putting Turf & Projector",
    "vendor": "SportScreen",
    "type": "Retractable Golf Simulator Studio Package",
-   "price": 11098.97,
-   "compare_at": 13899.97,
+   "price": 7648.97,
+   "compare_at": 9599.97,
    "pct_off": 20,
    "available": true,
-   "url": "https://www.playbetter.com/products/uneekor-eye-xr-sportscreen-vanish-retractable-golf-studio-complete-package"
+   "url": "https://www.playbetter.com/products/uneekor-eye-mini-sportscreen-vanish-retractable-golf-studio-complete-package"
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -1962,6 +1984,17 @@
   },
   {
    "retailer": "PlayBetter",
+   "title": "SkyTrak+ SportScreen Vanish LITE Hybrid-Retractable Golf Studio Complete Package | Home Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Putting Turf, Projector & 1-Year FREE Foresight Course Play",
+   "vendor": "SportScreen",
+   "type": "Retractable Golf Simulator Studio Package",
+   "price": 5699.97,
+   "compare_at": 7044.97,
+   "pct_off": 19,
+   "available": true,
+   "url": "https://www.playbetter.com/products/skytrak-sportscreen-vanish-lite-semi-retractable-golf-studio-complete-package"
+  },
+  {
+   "retailer": "PlayBetter",
    "title": "FlightScope Mevo Gen2 Golf Launch Monitor",
    "vendor": "FlightScope",
    "type": "Golf Launch Monitor & Simulator",
@@ -1970,6 +2003,17 @@
    "pct_off": 19,
    "available": true,
    "url": "https://www.playbetter.com/products/flightscope-mevo-gen2-golf-launch-monitor"
+  },
+  {
+   "retailer": "PlayBetter",
+   "title": "SkyTrak+ SportScreen Vanish Retractable Golf Studio Complete Package | Home Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Putting Turf, Projector & 1-Year FREE Foresight Course Play",
+   "vendor": "SportScreen",
+   "type": "Retractable Golf Simulator Studio Package",
+   "price": 6144.97,
+   "compare_at": 7594.97,
+   "pct_off": 19,
+   "available": true,
+   "url": "https://www.playbetter.com/products/skytrak-sportscreen-vanish-retractable-golf-studio-complete-package"
   },
   {
    "retailer": "PlayBetter",
@@ -2091,6 +2135,28 @@
    "pct_off": 19,
    "available": true,
    "url": "https://rainorshinegolf.com/products/uneekor-eyexo-golf-simulator"
+  },
+  {
+   "retailer": "PlayBetter",
+   "title": "SkyTrak ST MAX SportScreen Vanish LITE Hybrid-Retractable Golf Studio Complete Package | Home Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Putting Turf & Projector",
+   "vendor": "SportScreen",
+   "type": "Retractable Golf Simulator Studio Package",
+   "price": 6199.97,
+   "compare_at": 7544.97,
+   "pct_off": 18,
+   "available": true,
+   "url": "https://www.playbetter.com/products/skytrak-st-max-sportscreen-vanish-lite-semi-retractable-golf-studio-complete-package"
+  },
+  {
+   "retailer": "PlayBetter",
+   "title": "SkyTrak ST MAX SportScreen Vanish Retractable Golf Studio Complete Package | Home Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Putting Turf & Projector",
+   "vendor": "SportScreen",
+   "type": "Retractable Golf Simulator Studio Package",
+   "price": 6644.97,
+   "compare_at": 8094.97,
+   "pct_off": 18,
+   "available": true,
+   "url": "https://www.playbetter.com/products/skytrak-st-max-sportscreen-vanish-retractable-golf-studio-complete-package"
   },
   {
    "retailer": "PlayBetter",
@@ -2556,6 +2622,28 @@
   },
   {
    "retailer": "PlayBetter",
+   "title": "Uneekor EYE MINI LITE SportScreen Vanish LITE Hybrid-Retractable Golf Studio Complete Package | Home Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Putting Turf & Projector",
+   "vendor": "SportScreen",
+   "type": "Retractable Golf Simulator Studio Package",
+   "price": 6053.97,
+   "compare_at": 7149.97,
+   "pct_off": 15,
+   "available": true,
+   "url": "https://www.playbetter.com/products/uneekor-eye-mini-lite-sportscreen-vanish-lite-semi-retractable-golf-studio-complete-package"
+  },
+  {
+   "retailer": "PlayBetter",
+   "title": "SportScreen Vanish LITE Hybrid-Retractable Golf Studio Enclosure",
+   "vendor": "SportScreen",
+   "type": "Retractable Golf Simulator Studio Package",
+   "price": 1954.99,
+   "compare_at": 2299.99,
+   "pct_off": 15,
+   "available": true,
+   "url": "https://www.playbetter.com/products/sportscreen-vanish-lite-semi-retractable-golf-enclosure"
+  },
+  {
+   "retailer": "PlayBetter",
    "title": "TheStack + Stack Radar Bundle",
    "vendor": "The Stack System",
    "type": "Golf Launch Monitor & Simulator",
@@ -2586,6 +2674,28 @@
    "pct_off": 15,
    "available": true,
    "url": "https://www.playbetter.com/products/flightscope-mevo-gen2-with-playbetter-simstudio-complete-golf-simulator-studio-package"
+  },
+  {
+   "retailer": "PlayBetter",
+   "title": "Uneekor EYE MINI LITE SportScreen Vanish Retractable Golf Studio Complete Package | Home Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Putting Turf & Projector",
+   "vendor": "SportScreen",
+   "type": "Retractable Golf Simulator Studio Package",
+   "price": 6648.97,
+   "compare_at": 7849.97,
+   "pct_off": 15,
+   "available": true,
+   "url": "https://www.playbetter.com/products/uneekor-eye-mini-lite-sportscreen-vanish-retractable-golf-studio-complete-package"
+  },
+  {
+   "retailer": "PlayBetter",
+   "title": "SportScreen Vanish Series Retractable Golf Studio Enclosure",
+   "vendor": "SportScreen",
+   "type": "Retractable Golf Simulator Studio Package",
+   "price": 2549.99,
+   "compare_at": 2999.99,
+   "pct_off": 15,
+   "available": true,
+   "url": "https://www.playbetter.com/products/the-sportscreen-vanish-series-retractable-golf-studio"
   },
   {
    "retailer": "PlayBetter",
@@ -2709,15 +2819,26 @@
    "url": "https://rainorshinegolf.com/products/optoma-zk608tst-4k-uhd-projector"
   },
   {
-   "retailer": "PlayBetter",
-   "title": "SkyTrak+ SportScreen Vanish LITE Hybrid-Retractable Golf Studio Complete Package | Home Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Putting Turf, Projector & 1-Year FREE Foresight Course Play",
-   "vendor": "SportScreen",
-   "type": "Retractable Golf Simulator Studio Package",
-   "price": 6044.97,
-   "compare_at": 7044.97,
-   "pct_off": 14,
+   "retailer": "Rain or Shine Golf",
+   "title": "SportScreen Vanish LITE Retractable",
+   "vendor": "The SportScreen",
+   "type": "Golf Simulator Enclosure",
+   "price": 1954.99,
+   "compare_at": 2299.99,
+   "pct_off": 15,
    "available": true,
-   "url": "https://www.playbetter.com/products/skytrak-sportscreen-vanish-lite-semi-retractable-golf-studio-complete-package"
+   "url": "https://rainorshinegolf.com/products/sportscreen-vanish-lite-retractable-enclosure"
+  },
+  {
+   "retailer": "Rain or Shine Golf",
+   "title": "SportScreen Vanish Retractable",
+   "vendor": "The SportScreen",
+   "type": "Golf Simulator Enclosure",
+   "price": 4249.15,
+   "compare_at": 4999,
+   "pct_off": 15,
+   "available": true,
+   "url": "https://rainorshinegolf.com/products/the-sportscreen-golf-studio-retractable-screen-and-enclosure"
   },
   {
    "retailer": "PlayBetter",
@@ -3040,17 +3161,6 @@
   },
   {
    "retailer": "PlayBetter",
-   "title": "SkyTrak ST MAX SportScreen Vanish LITE Hybrid-Retractable Golf Studio Complete Package | Home Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Putting Turf & Projector",
-   "vendor": "SportScreen",
-   "type": "Retractable Golf Simulator Studio Package",
-   "price": 6544.97,
-   "compare_at": 7544.97,
-   "pct_off": 13,
-   "available": true,
-   "url": "https://www.playbetter.com/products/skytrak-st-max-sportscreen-vanish-lite-semi-retractable-golf-studio-complete-package"
-  },
-  {
-   "retailer": "PlayBetter",
    "title": "TruGolf APOGEE with PlayBetter SimStudio™ BYO (Build Your Own) Package – Custom Home Golf Simulator Studio Builder with Impact Screen, Enclosure, Optional Mats, Projector & More",
    "vendor": "TruGolf",
    "type": "Golf Simulator Studio Package",
@@ -3081,17 +3191,6 @@
    "pct_off": 13,
    "available": true,
    "url": "https://www.playbetter.com/products/playbetter-simstudio-home-golf-simulator-package"
-  },
-  {
-   "retailer": "PlayBetter",
-   "title": "SkyTrak+ SportScreen Vanish Retractable Golf Studio Complete Package | Home Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Putting Turf, Projector & 1-Year FREE Foresight Course Play",
-   "vendor": "SportScreen",
-   "type": "Retractable Golf Simulator Studio Package",
-   "price": 6594.97,
-   "compare_at": 7594.97,
-   "pct_off": 13,
-   "available": true,
-   "url": "https://www.playbetter.com/products/skytrak-sportscreen-vanish-retractable-golf-studio-complete-package"
   },
   {
    "retailer": "PlayBetter",
@@ -3347,17 +3446,6 @@
    "url": "https://rainorshinegolf.com/products/square-golf-launch-monitor-practice-package"
   },
   {
-   "retailer": "Rain or Shine Golf",
-   "title": "Uneekor EYE XR Retractable",
-   "vendor": "Rain or Shine Golf",
-   "type": "Golf Simulator Package",
-   "price": 11298,
-   "compare_at": 12999,
-   "pct_off": 13,
-   "available": true,
-   "url": "https://rainorshinegolf.com/products/uneekor-eye-xr-retractable-golf-simulator"
-  },
-  {
    "retailer": "Top Shelf Golf",
    "title": "Foresight Sports GC3S Launch Monitor & Golf Simulator",
    "vendor": "Foresight Sports",
@@ -3414,6 +3502,17 @@
   },
   {
    "retailer": "PlayBetter",
+   "title": "Uneekor EYE XO2 SportScreen Vanish LITE Hybrid-Retractable Golf Studio Complete Package | Home Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Putting Turf & Projector",
+   "vendor": "SportScreen",
+   "type": "Retractable Golf Simulator Studio Package",
+   "price": 16117.47,
+   "compare_at": 18349.97,
+   "pct_off": 12,
+   "available": true,
+   "url": "https://www.playbetter.com/products/uneekor-eye-xo2-sportscreen-vanish-lite-semi-retractable-golf-studio-complete-package"
+  },
+  {
+   "retailer": "PlayBetter",
    "title": "Blue Tees Golf Rainmaker with PlayBetter SimStudio™ ESSENTIALS Package | Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat & Projector",
    "vendor": "Blue Tees Golf",
    "type": "Golf Simulator Studio Package",
@@ -3447,17 +3546,6 @@
   },
   {
    "retailer": "PlayBetter",
-   "title": "SkyTrak ST MAX SportScreen Vanish Retractable Golf Studio Complete Package | Home Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Putting Turf & Projector",
-   "vendor": "SportScreen",
-   "type": "Retractable Golf Simulator Studio Package",
-   "price": 7094.97,
-   "compare_at": 8094.97,
-   "pct_off": 12,
-   "available": true,
-   "url": "https://www.playbetter.com/products/skytrak-st-max-sportscreen-vanish-retractable-golf-studio-complete-package"
-  },
-  {
-   "retailer": "PlayBetter",
    "title": "Garmin Approach R10 with PlayBetter SimStudio™ ESSENTIALS Package | Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Projector & Alignment Stand",
    "vendor": "Garmin",
    "type": "Golf Simulator Studio Package",
@@ -3488,6 +3576,17 @@
    "pct_off": 12,
    "available": true,
    "url": "https://www.playbetter.com/products/square-golf-home-golf-simulator-playbetter-simstudio-essentials-studio-package"
+  },
+  {
+   "retailer": "PlayBetter",
+   "title": "Uneekor EYE XO2 SportScreen Vanish Retractable Golf Studio Complete Package | Home Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Putting Turf & Projector",
+   "vendor": "SportScreen",
+   "type": "Retractable Golf Simulator Studio Package",
+   "price": 17349.97,
+   "compare_at": 19799.97,
+   "pct_off": 12,
+   "available": true,
+   "url": "https://www.playbetter.com/products/uneekor-eye-xo2-sportscreen-vanish-retractable-golf-studio-complete-package"
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -3545,6 +3644,17 @@
    "url": "https://rainorshinegolf.com/products/golf-simulator-gaming-pc-katana"
   },
   {
+   "retailer": "Rain or Shine Golf",
+   "title": "Uneekor EYE XR Retractable",
+   "vendor": "Rain or Shine Golf",
+   "type": "Golf Simulator Package",
+   "price": 9499,
+   "compare_at": 10799,
+   "pct_off": 12,
+   "available": true,
+   "url": "https://rainorshinegolf.com/products/uneekor-eye-xr-retractable-golf-simulator"
+  },
+  {
    "retailer": "PlayBetter",
    "title": "Blue Tees Golf Rainmaker with PlayBetter SimStudio™ COMPLETE Package | Golf Simulator Studio with Impact Screen, Enclosure, Side Barriers, Hitting/Putting Mats & Projector",
    "vendor": "Blue Tees Golf",
@@ -3576,6 +3686,39 @@
    "pct_off": 11,
    "available": true,
    "url": "https://www.playbetter.com/products/swing-caddie-sc4-golf-simulator-studio-package-playbetter-simstudio-with-impact-screen-enclosure-hitting-putting-mats-projector"
+  },
+  {
+   "retailer": "PlayBetter",
+   "title": "Rapsodo MLM2PRO SportScreen Vanish Retractable Golf Studio Complete Package | Home Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Putting Turf & Projector",
+   "vendor": "SportScreen",
+   "type": "Retractable Golf Simulator Studio Package",
+   "price": 7019.96,
+   "compare_at": 7869.96,
+   "pct_off": 11,
+   "available": true,
+   "url": "https://www.playbetter.com/products/rapsodo-mlm2pro-sportscreen-vanish-retractable-golf-studio-complete-package"
+  },
+  {
+   "retailer": "PlayBetter",
+   "title": "SportScreen Vanish Retractable Golf Studio Complete Package by PlayBetter | Home Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Putting Turf & Projector",
+   "vendor": "SportScreen",
+   "type": "Retractable Golf Simulator Studio Package",
+   "price": 6349.97,
+   "compare_at": 7099.97,
+   "pct_off": 11,
+   "available": true,
+   "url": "https://www.playbetter.com/products/sportscreen-vanish-retractable-golf-studio-complete-package-home-golf-simulator-studio-with-impact-screen-enclosure-hitting-mat-putting-turf-projector"
+  },
+  {
+   "retailer": "PlayBetter",
+   "title": "SportScreen Vanish Retractable Golf Studio Complete Package by Golficity | Home Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Putting Turf & Projector",
+   "vendor": "SportScreen",
+   "type": "Retractable Golf Simulator Studio Package",
+   "price": 6349.97,
+   "compare_at": 7099.97,
+   "pct_off": 11,
+   "available": true,
+   "url": "https://www.playbetter.com/products/sportscreen-vanish-retractable-golf-studio-complete-package-by-golficity"
   },
   {
    "retailer": "PlayBetter",
@@ -3733,14 +3876,14 @@
   },
   {
    "retailer": "PlayBetter",
-   "title": "Uneekor EYE XO2 SportScreen Vanish LITE Hybrid-Retractable Golf Studio Complete Package | Home Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Putting Turf & Projector",
+   "title": "Rapsodo MLM2PRO SportScreen Vanish LITE Hybrid-Retractable Golf Studio Complete Package | Home Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Putting Turf & Projector",
    "vendor": "SportScreen",
    "type": "Retractable Golf Simulator Studio Package",
-   "price": 15899.97,
-   "compare_at": 17599.97,
+   "price": 5717.46,
+   "compare_at": 6349.96,
    "pct_off": 10,
    "available": true,
-   "url": "https://www.playbetter.com/products/uneekor-eye-xo2-sportscreen-vanish-lite-semi-retractable-golf-studio-complete-package"
+   "url": "https://www.playbetter.com/products/rapsodo-mlm2pro-sportscreen-vanish-lite-semi-retractable-golf-studio-complete-package"
   },
   {
    "retailer": "PlayBetter",
@@ -3763,6 +3906,39 @@
    "pct_off": 10,
    "available": true,
    "url": "https://www.playbetter.com/products/square-golf-omni-with-playbetter-simstudio-essentials-package"
+  },
+  {
+   "retailer": "PlayBetter",
+   "title": "Blue Tees Golf Rainmaker SportScreen Vanish Retractable Golf Studio Complete Package | Home Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Putting Turf & Projector",
+   "vendor": "SportScreen",
+   "type": "Retractable Golf Simulator Studio Package",
+   "price": 6949.96,
+   "compare_at": 7699.96,
+   "pct_off": 10,
+   "available": true,
+   "url": "https://www.playbetter.com/products/blue-tees-golf-rainmaker-sportscreen-vanish-retractable-golf-studio-complete-package"
+  },
+  {
+   "retailer": "PlayBetter",
+   "title": "Swing Caddie SC4 PRO SportScreen Vanish Retractable Golf Studio Complete Package | Home Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Putting Turf & Projector",
+   "vendor": "SportScreen",
+   "type": "Retractable Golf Simulator Studio Package",
+   "price": 6949.96,
+   "compare_at": 7699.96,
+   "pct_off": 10,
+   "available": true,
+   "url": "https://www.playbetter.com/products/swing-caddie-sc4-pro-sportscreen-vanish-retractable-golf-studio-complete-package"
+  },
+  {
+   "retailer": "PlayBetter",
+   "title": "Garmin Approach R10 SportScreen Vanish Retractable Golf Studio Complete Package | Home Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Putting Turf & Projector",
+   "vendor": "SportScreen",
+   "type": "Retractable Golf Simulator Studio Package",
+   "price": 6884.96,
+   "compare_at": 7634.96,
+   "pct_off": 10,
+   "available": true,
+   "url": "https://www.playbetter.com/products/garmin-approach-r10-sportscreen-vanish-retractable-golf-studio-complete-package"
   },
   {
    "retailer": "PlayBetter",
@@ -3854,6 +4030,17 @@
   },
   {
    "retailer": "Rain or Shine Golf",
+   "title": "Garmin Approach R10 Retractable",
+   "vendor": "Garmin",
+   "type": "Golf Simulator Package",
+   "price": 4974.14,
+   "compare_at": 5498.99,
+   "pct_off": 10,
+   "available": true,
+   "url": "https://rainorshinegolf.com/products/garmin-r10-retractable-golf-simulator-package"
+  },
+  {
+   "retailer": "Rain or Shine Golf",
    "title": "TruGolf Apogee Retractable",
    "vendor": "TruGolf",
    "type": "Golf Simulator Package",
@@ -3887,6 +4074,50 @@
   },
   {
    "retailer": "PlayBetter",
+   "title": "SportScreen Vanish LITE Hybrid-Retractable Golf Studio Complete Package by PlayBetter | Home Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Putting Turf & Projector",
+   "vendor": "SportScreen",
+   "type": "Retractable Golf Simulator Studio Package",
+   "price": 5117.47,
+   "compare_at": 5649.97,
+   "pct_off": 9,
+   "available": true,
+   "url": "https://www.playbetter.com/products/sportscreen-vanish-lite-semi-retractable-golf-studio-complete-package"
+  },
+  {
+   "retailer": "PlayBetter",
+   "title": "Blue Tees Golf Rainmaker SportScreen Vanish LITE Hybrid-Retractable Golf Studio Complete Package | Home Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Putting Turf & Projector",
+   "vendor": "SportScreen",
+   "type": "Retractable Golf Simulator Studio Package",
+   "price": 5717.46,
+   "compare_at": 6249.96,
+   "pct_off": 9,
+   "available": true,
+   "url": "https://www.playbetter.com/products/blue-tees-golf-rainmaker-sportscreen-vanish-lite-semi-retractable-golf-studio-complete-package"
+  },
+  {
+   "retailer": "PlayBetter",
+   "title": "Garmin Approach R10 SportScreen Vanish LITE Hybrid-Retractable Golf Studio Complete Package | Home Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Putting Turf & Projector",
+   "vendor": "SportScreen",
+   "type": "Retractable Golf Simulator Studio Package",
+   "price": 5617.46,
+   "compare_at": 6149.96,
+   "pct_off": 9,
+   "available": true,
+   "url": "https://www.playbetter.com/products/garmin-approach-r10-sportscreen-vanish-lite-semi-retractable-golf-studio-complete-package"
+  },
+  {
+   "retailer": "PlayBetter",
+   "title": "Square Golf Omni SportScreen Vanish Retractable Golf Studio Complete Package | Home Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Putting Turf & Projector",
+   "vendor": "SportScreen",
+   "type": "Retractable Golf Simulator Studio Package",
+   "price": 7949.96,
+   "compare_at": 8699.96,
+   "pct_off": 9,
+   "available": true,
+   "url": "https://www.playbetter.com/products/square-golf-omni-sportscreen-vanish-retractable-golf-studio-complete-package"
+  },
+  {
+   "retailer": "PlayBetter",
    "title": "Square Golf Omni with PlayBetter SimStudio™ COMPLETE Package | Golf Simulator Studio with Impact Screen, Enclosure, Side Barriers, Hitting/Putting Mats & Projector",
    "vendor": "Square Golf",
    "type": "Golf Simulator Studio Package",
@@ -3898,14 +4129,25 @@
   },
   {
    "retailer": "PlayBetter",
-   "title": "Uneekor EYE XO2 SportScreen Vanish Retractable Golf Studio Complete Package | Home Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Putting Turf & Projector",
+   "title": "FlightScope Mevo Gen2 SportScreen Vanish Retractable Golf Studio Complete Package | Home Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Putting Turf & Projector",
    "vendor": "SportScreen",
    "type": "Retractable Golf Simulator Studio Package",
-   "price": 16599.97,
-   "compare_at": 18299.97,
+   "price": 7683.97,
+   "compare_at": 8433.97,
    "pct_off": 9,
    "available": true,
-   "url": "https://www.playbetter.com/products/uneekor-eye-xo2-sportscreen-vanish-retractable-golf-studio-complete-package"
+   "url": "https://www.playbetter.com/products/flightscope-mevo-gen2-sportscreen-vanish-retractable-golf-studio-complete-package"
+  },
+  {
+   "retailer": "PlayBetter",
+   "title": "Square Golf SportScreen Vanish Retractable Golf Studio Complete Package | Home Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Putting Turf & Projector",
+   "vendor": "SportScreen",
+   "type": "Retractable Golf Simulator Studio Package",
+   "price": 7149.96,
+   "compare_at": 7899.96,
+   "pct_off": 9,
+   "available": true,
+   "url": "https://www.playbetter.com/products/square-golf-sportscreen-vanish-retractable-golf-studio-complete-package"
   },
   {
    "retailer": "PlayBetter",
@@ -4019,25 +4261,25 @@
   },
   {
    "retailer": "Rain or Shine Golf",
-   "title": "Garmin Approach R10 Retractable",
-   "vendor": "Garmin",
-   "type": "Golf Simulator Package",
-   "price": 4000,
-   "compare_at": 4400,
-   "pct_off": 9,
-   "available": true,
-   "url": "https://rainorshinegolf.com/products/garmin-r10-retractable-golf-simulator-package"
-  },
-  {
-   "retailer": "Rain or Shine Golf",
    "title": "Rapsodo MLM2PRO Retractable",
    "vendor": "Rapsodo",
    "type": "Golf Simulator Package",
-   "price": 4099,
-   "compare_at": 4500,
+   "price": 5074.14,
+   "compare_at": 5598.99,
    "pct_off": 9,
    "available": true,
    "url": "https://rainorshinegolf.com/products/rapsodo-mlm2pro-retractable-package"
+  },
+  {
+   "retailer": "Rain or Shine Golf",
+   "title": "Square Golf Retractable",
+   "vendor": "Square Golf",
+   "type": "Golf Simulator Package",
+   "price": 5174.14,
+   "compare_at": 5698.99,
+   "pct_off": 9,
+   "available": true,
+   "url": "https://rainorshinegolf.com/products/square-golf-launch-monitor-retractable-package"
   },
   {
    "retailer": "Rain or Shine Golf",
@@ -4063,6 +4305,28 @@
   },
   {
    "retailer": "PlayBetter",
+   "title": "FlightScope Mevo Gen2 SportScreen Vanish LITE Hybrid-Retractable Golf Studio Complete Package | Home Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Putting Turf & Projector",
+   "vendor": "SportScreen",
+   "type": "Retractable Golf Simulator Studio Package",
+   "price": 6416.47,
+   "compare_at": 6948.97,
+   "pct_off": 8,
+   "available": true,
+   "url": "https://www.playbetter.com/products/flightscope-mevo-gen2-sportscreen-vanish-lite-semi-retractable-golf-studio-complete-package"
+  },
+  {
+   "retailer": "PlayBetter",
+   "title": "Square Golf SportScreen Vanish LITE Hybrid-Retractable Golf Studio Complete Package | Home Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Putting Turf & Projector",
+   "vendor": "SportScreen",
+   "type": "Retractable Golf Simulator Studio Package",
+   "price": 5817.46,
+   "compare_at": 6349.96,
+   "pct_off": 8,
+   "available": true,
+   "url": "https://www.playbetter.com/products/square-golf-sportscreen-vanish-lite-semi-retractable-golf-studio-complete-package"
+  },
+  {
+   "retailer": "PlayBetter",
    "title": "TruGolf LaunchBox with PlayBetter SimStudio™ BYO (Build Your Own) Package – Custom Home Golf Simulator Studio Builder with Impact Screen, Enclosure, Optional Mats, Projector & More",
    "vendor": "TruGolf",
    "type": "Golf Simulator Studio Package",
@@ -4082,6 +4346,28 @@
    "pct_off": 8,
    "available": true,
    "url": "https://www.playbetter.com/products/trugolf-launchbox-with-playbetter-simstudio-essentials-package"
+  },
+  {
+   "retailer": "PlayBetter",
+   "title": "Bushnell LPi Circle B SportScreen Vanish Retractable Golf Studio Complete Package | Home Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Putting Turf & Projector",
+   "vendor": "SportScreen",
+   "type": "Retractable Golf Simulator Studio Package",
+   "price": 8348.97,
+   "compare_at": 9098.97,
+   "pct_off": 8,
+   "available": true,
+   "url": "https://www.playbetter.com/products/bushnell-lpi-sportscreen-vanish-retractable-golf-studio-complete-package"
+  },
+  {
+   "retailer": "PlayBetter",
+   "title": "Bushnell Launch Pro Circle B SportScreen Vanish Retractable Golf Studio Complete Package | Home Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Putting Turf & Projector",
+   "vendor": "SportScreen",
+   "type": "Retractable Golf Simulator Studio Package",
+   "price": 7423.97,
+   "compare_at": 8098.97,
+   "pct_off": 8,
+   "available": true,
+   "url": "https://www.playbetter.com/products/bushnell-launch-pro-sportscreen-vanish-retractable-golf-studio-complete-package"
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -4250,6 +4536,39 @@
   },
   {
    "retailer": "PlayBetter",
+   "title": "Bushnell LPi Circle B SportScreen Vanish LITE Hybrid-Retractable Golf Studio Complete Package | Home Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Putting Turf & Projector",
+   "vendor": "SportScreen",
+   "type": "Retractable Golf Simulator Studio Package",
+   "price": 7116.47,
+   "compare_at": 7648.97,
+   "pct_off": 7,
+   "available": true,
+   "url": "https://www.playbetter.com/products/bushnell-lpi-circle-b-sportscreen-vanish-lite-semi-retractable-golf-studio-complete-package"
+  },
+  {
+   "retailer": "PlayBetter",
+   "title": "Square Golf Omni SportScreen Vanish LITE Hybrid-Retractable Golf Studio Complete Package | Home Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Putting Turf & Projector",
+   "vendor": "SportScreen",
+   "type": "Retractable Golf Simulator Studio Package",
+   "price": 6717.46,
+   "compare_at": 7249.96,
+   "pct_off": 7,
+   "available": true,
+   "url": "https://www.playbetter.com/products/square-golf-omni-sportscreen-vanish-lite-semi-retractable-golf-studio-complete-package"
+  },
+  {
+   "retailer": "PlayBetter",
+   "title": "TruGolf LaunchBox SportScreen Vanish Retractable Golf Studio Complete Package | Home Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Putting Turf & Projector",
+   "vendor": "SportScreen",
+   "type": "Retractable Golf Simulator Studio Package",
+   "price": 9348.97,
+   "compare_at": 10098.97,
+   "pct_off": 7,
+   "available": true,
+   "url": "https://www.playbetter.com/products/trugolf-launchbox-sportscreen-vanish-retractable-golf-studio-complete-package"
+  },
+  {
+   "retailer": "PlayBetter",
    "title": "TruGolf LaunchBox with PlayBetter SimStudio™ COMPLETE Package | Golf Simulator Studio with Impact Screen, Enclosure, Side Barriers, Hitting/Putting Mats & Projector",
    "vendor": "TruGolf",
    "type": "Golf Simulator Studio Package",
@@ -4349,14 +4668,14 @@
   },
   {
    "retailer": "Rain or Shine Golf",
-   "title": "Square Golf Retractable",
-   "vendor": "Square Golf",
+   "title": "Bushnell Launch Pro Retractable",
+   "vendor": "Bushnell Golf",
    "type": "Golf Simulator Package",
-   "price": 4199,
-   "compare_at": 4499,
+   "price": 6973.15,
+   "compare_at": 7498,
    "pct_off": 7,
    "available": true,
-   "url": "https://rainorshinegolf.com/products/square-golf-launch-monitor-retractable-package"
+   "url": "https://rainorshinegolf.com/products/bushnell-launch-pro-retractable-package"
   },
   {
    "retailer": "PlayBetter",
@@ -4368,6 +4687,39 @@
    "pct_off": 6,
    "available": true,
    "url": "https://www.playbetter.com/products/garmin-approach-r50-certified-refurbished-playbetter-simstudio-complete-package"
+  },
+  {
+   "retailer": "PlayBetter",
+   "title": "TruGolf LaunchBox SportScreen Vanish LITE Hybrid-Retractable Golf Studio Complete Package | Home Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Putting Turf & Projector",
+   "vendor": "SportScreen",
+   "type": "Retractable Golf Simulator Studio Package",
+   "price": 8116.47,
+   "compare_at": 8648.97,
+   "pct_off": 6,
+   "available": true,
+   "url": "https://www.playbetter.com/products/trugolf-launchbox-sportscreen-vanish-lite-semi-retractable-golf-studio-complete-package"
+  },
+  {
+   "retailer": "PlayBetter",
+   "title": "Bushnell Launch Pro Circle B SportScreen Vanish LITE Hybrid-Retractable Golf Studio Complete Package | Home Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Putting Turf & Projector",
+   "vendor": "SportScreen",
+   "type": "Retractable Golf Simulator Studio Package",
+   "price": 8116.47,
+   "compare_at": 8648.97,
+   "pct_off": 6,
+   "available": true,
+   "url": "https://www.playbetter.com/products/bushnell-launch-pro-circle-b-sportscreen-vanish-lite-semi-retractable-golf-studio-complete-package"
+  },
+  {
+   "retailer": "PlayBetter",
+   "title": "ProTee VX SportScreen Vanish Retractable Golf Studio Complete Package | Home Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Putting Turf & Projector",
+   "vendor": "SportScreen",
+   "type": "Retractable Golf Simulator Studio Package",
+   "price": 12849.97,
+   "compare_at": 13599.97,
+   "pct_off": 6,
+   "available": true,
+   "url": "https://www.playbetter.com/products/protee-vx-sportscreen-vanish-retractable-golf-studio-complete-package"
   },
   {
    "retailer": "PlayBetter",
@@ -4412,6 +4764,28 @@
    "pct_off": 6,
    "available": true,
    "url": "https://www.playbetter.com/products/garmin-approach-r50-home-golf-simulator-essentials-studio-package"
+  },
+  {
+   "retailer": "PlayBetter",
+   "title": "Full Swing KIT SportScreen Vanish Retractable Golf Studio Complete Package | Home Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Putting Turf & Projector",
+   "vendor": "SportScreen",
+   "type": "Retractable Golf Simulator Studio Package",
+   "price": 11348.97,
+   "compare_at": 12098.97,
+   "pct_off": 6,
+   "available": true,
+   "url": "https://www.playbetter.com/products/full-swing-kit-sportscreen-vanish-retractable-golf-studio-complete-package"
+  },
+  {
+   "retailer": "PlayBetter",
+   "title": "Garmin Approach R50 SportScreen Vanish Retractable Golf Studio Complete Package | Home Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Putting Turf & Projector",
+   "vendor": "SportScreen",
+   "type": "Retractable Golf Simulator Studio Package",
+   "price": 11349.96,
+   "compare_at": 12099.96,
+   "pct_off": 6,
+   "available": true,
+   "url": "https://www.playbetter.com/products/garmin-approach-r50-sportscreen-vanish-retractable-golf-studio-complete-package"
   },
   {
    "retailer": "PlayBetter",
@@ -4580,14 +4954,25 @@
   },
   {
    "retailer": "PlayBetter",
-   "title": "TruGolf LaunchBox SportScreen Vanish LITE Hybrid-Retractable Golf Studio Complete Package | Home Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Putting Turf & Projector",
+   "title": "Full Swing KIT SportScreen Vanish LITE Hybrid-Retractable Golf Studio Complete Package | Home Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Putting Turf & Projector",
    "vendor": "SportScreen",
    "type": "Retractable Golf Simulator Studio Package",
-   "price": 7978.97,
-   "compare_at": 8398.97,
+   "price": 10116.47,
+   "compare_at": 10648.97,
    "pct_off": 5,
    "available": true,
-   "url": "https://www.playbetter.com/products/trugolf-launchbox-sportscreen-vanish-lite-semi-retractable-golf-studio-complete-package"
+   "url": "https://www.playbetter.com/products/full-swing-kit-sportscreen-vanish-lite-semi-retractable-golf-studio-complete-package"
+  },
+  {
+   "retailer": "PlayBetter",
+   "title": "Garmin Approach R50 SportScreen Vanish LITE Hybrid-Retractable Golf Studio Complete Package | Home Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Putting Turf & Projector",
+   "vendor": "SportScreen",
+   "type": "Retractable Golf Simulator Studio Package",
+   "price": 10117.46,
+   "compare_at": 10649.96,
+   "pct_off": 5,
+   "available": true,
+   "url": "https://www.playbetter.com/products/garmin-approach-r50-sportscreen-vanish-lite-semi-retractable-golf-studio-complete-package"
   },
   {
    "retailer": "PlayBetter",
@@ -4654,6 +5039,17 @@
    "pct_off": 5,
    "available": true,
    "url": "https://www.playbetter.com/products/foresight-gc3-with-link-home-golf-simulator-playbetter-simstudio-essentials-studio-package"
+  },
+  {
+   "retailer": "PlayBetter",
+   "title": "Foresight GC3 SportScreen Vanish Retractable Golf Studio Complete Package | Home Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Putting Turf & Projector",
+   "vendor": "SportScreen",
+   "type": "Retractable Golf Simulator Studio Package",
+   "price": 13348.97,
+   "compare_at": 14098.97,
+   "pct_off": 5,
+   "available": true,
+   "url": "https://www.playbetter.com/products/foresight-gc3-gc3s-sportscreen-vanish-retractable-golf-studio-complete-package"
   },
   {
    "retailer": "PlayBetter",
@@ -4789,14 +5185,25 @@
   },
   {
    "retailer": "Rain or Shine Golf",
-   "title": "Bushnell Launch Pro Retractable",
-   "vendor": "Bushnell Golf",
+   "title": "Garmin Approach R50 Retractable",
+   "vendor": "Garmin",
    "type": "Golf Simulator Package",
-   "price": 6299,
-   "compare_at": 6604,
+   "price": 9474.14,
+   "compare_at": 9998.99,
    "pct_off": 5,
    "available": true,
-   "url": "https://rainorshinegolf.com/products/bushnell-launch-pro-retractable-package"
+   "url": "https://rainorshinegolf.com/products/garmin-approach-r50-retractable-golf-simulator-package"
+  },
+  {
+   "retailer": "Rain or Shine Golf",
+   "title": "ProTee VX Retractable",
+   "vendor": "Pro Tee United",
+   "type": "Golf Simulator Package",
+   "price": 10974.15,
+   "compare_at": 11499,
+   "pct_off": 5,
+   "available": true,
+   "url": "https://rainorshinegolf.com/products/protee-vx-retractable-golf-simulator-package"
   },
   {
    "retailer": "Rain or Shine Golf",
@@ -4810,6 +5217,17 @@
    "url": "https://rainorshinegolf.com/products/full-swing-kit-practice-package"
   },
   {
+   "retailer": "Rain or Shine Golf",
+   "title": "NVISAGE N1 Retractable",
+   "vendor": "NVISAGE",
+   "type": "Golf Simulator Package",
+   "price": 9469.15,
+   "compare_at": 9994,
+   "pct_off": 5,
+   "available": true,
+   "url": "https://rainorshinegolf.com/products/nvisage-n1-retractable-golf-simulator-package"
+  },
+  {
    "retailer": "Top Shelf Golf",
    "title": "Alphard Cybercart Remote Electric Golf Caddy",
    "vendor": "Alphard Golf",
@@ -4819,6 +5237,28 @@
    "pct_off": 5,
    "available": true,
    "url": "https://www.topshelfgolf.com/products/alphard-cybercart-remote-control-electric-golf-caddy"
+  },
+  {
+   "retailer": "PlayBetter",
+   "title": "Foresight GC3 SportScreen Vanish LITE Hybrid-Retractable Golf Studio Complete Package | Home Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Putting Turf & Projector",
+   "vendor": "SportScreen",
+   "type": "Retractable Golf Simulator Studio Package",
+   "price": 12246.47,
+   "compare_at": 12778.97,
+   "pct_off": 4,
+   "available": true,
+   "url": "https://www.playbetter.com/products/foresight-gc3-gc3s-sportscreen-vanish-lite-semi-retractable-golf-studio-complete-package"
+  },
+  {
+   "retailer": "PlayBetter",
+   "title": "ProTee VX SportScreen Vanish LITE Hybrid-Retractable Golf Studio Complete Package | Home Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Putting Turf & Projector",
+   "vendor": "SportScreen",
+   "type": "Retractable Golf Simulator Studio Package",
+   "price": 11617.47,
+   "compare_at": 12149.97,
+   "pct_off": 4,
+   "available": true,
+   "url": "https://www.playbetter.com/products/protee-vx-sportscreen-vanish-lite-semi-retractable-golf-studio-complete-package"
   },
   {
    "retailer": "PlayBetter",
@@ -4863,6 +5303,17 @@
    "pct_off": 4,
    "available": true,
    "url": "https://shopindoorgolf.com/products/fiberbuilt-10-x-12-double-hitting-combo-mat"
+  },
+  {
+   "retailer": "Rain or Shine Golf",
+   "title": "Foresight GC3 Retractable",
+   "vendor": "Foresight Sports",
+   "type": "Golf Simulator Package",
+   "price": 11473.15,
+   "compare_at": 11998,
+   "pct_off": 4,
+   "available": true,
+   "url": "https://rainorshinegolf.com/products/foresight-gc3-retractable-golf-simulator-package"
   },
   {
    "retailer": "PlayBetter",
@@ -4929,6 +5380,28 @@
    "pct_off": 3,
    "available": true,
    "url": "https://www.playbetter.com/products/foresight-gcquad-home-golf-simulator-playbetter-simstudio-essentials-studio-package"
+  },
+  {
+   "retailer": "PlayBetter",
+   "title": "Foresight QuadMAX SportScreen Vanish Retractable Golf Studio Complete Package | Home Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Putting Turf & Projector",
+   "vendor": "SportScreen",
+   "type": "Retractable Golf Simulator Studio Package",
+   "price": 26348.97,
+   "compare_at": 27098.97,
+   "pct_off": 3,
+   "available": true,
+   "url": "https://www.playbetter.com/products/foresight-quadmax-sportscreen-vanish-retractable-golf-studio-complete-package"
+  },
+  {
+   "retailer": "PlayBetter",
+   "title": "Foresight Falcon SportScreen Vanish Retractable Golf Studio Complete Package | Home Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Putting Turf & Projector",
+   "vendor": "SportScreen",
+   "type": "Retractable Golf Simulator Studio Package",
+   "price": 23348.97,
+   "compare_at": 24098.97,
+   "pct_off": 3,
+   "available": true,
+   "url": "https://www.playbetter.com/products/foresight-falcon-sportscreen-vanish-retractable-golf-studio-complete-package"
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -5064,6 +5537,17 @@
   },
   {
    "retailer": "Rain or Shine Golf",
+   "title": "Uneekor EYE XO2 Retractable",
+   "vendor": "Uneekor",
+   "type": "Golf Simulator Package",
+   "price": 15473.15,
+   "compare_at": 15998,
+   "pct_off": 3,
+   "available": true,
+   "url": "https://rainorshinegolf.com/products/uneekor-eye-xo2-retractable-golf-simulator-package"
+  },
+  {
+   "retailer": "Rain or Shine Golf",
    "title": "Garmin Approach R50 Practice Bundle",
    "vendor": "Garmin",
    "type": "Golf Simulator Package",
@@ -5075,25 +5559,36 @@
   },
   {
    "retailer": "Rain or Shine Golf",
-   "title": "NVISAGE N1 Retractable",
-   "vendor": "NVISAGE",
+   "title": "Trackman iO Retractable",
+   "vendor": "Trackman",
    "type": "Golf Simulator Package",
-   "price": 8495,
-   "compare_at": 8795,
+   "price": 18469.15,
+   "compare_at": 18994,
    "pct_off": 3,
    "available": true,
-   "url": "https://rainorshinegolf.com/products/nvisage-n1-retractable-golf-simulator-package"
+   "url": "https://rainorshinegolf.com/products/trackman-io-retractable-golf-simulator-package"
   },
   {
    "retailer": "PlayBetter",
-   "title": "Rapsodo MLM2PRO SportScreen Vanish LITE Hybrid-Retractable Golf Studio Complete Package | Home Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Putting Turf & Projector",
+   "title": "Foresight QuadMAX SportScreen Vanish LITE Hybrid-Retractable Golf Studio Complete Package | Home Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Putting Turf & Projector",
    "vendor": "SportScreen",
    "type": "Retractable Golf Simulator Studio Package",
-   "price": 5499.96,
-   "compare_at": 5599.96,
+   "price": 25116.47,
+   "compare_at": 25648.97,
    "pct_off": 2,
    "available": true,
-   "url": "https://www.playbetter.com/products/rapsodo-mlm2pro-sportscreen-vanish-lite-semi-retractable-golf-studio-complete-package"
+   "url": "https://www.playbetter.com/products/foresight-quadmax-sportscreen-vanish-lite-semi-retractable-golf-studio-complete-package"
+  },
+  {
+   "retailer": "PlayBetter",
+   "title": "Foresight Falcon SportScreen Vanish LITE Hybrid-Retractable Golf Studio Complete Package | Home Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Putting Turf & Projector",
+   "vendor": "SportScreen",
+   "type": "Retractable Golf Simulator Studio Package",
+   "price": 23566.47,
+   "compare_at": 24098.97,
+   "pct_off": 2,
+   "available": true,
+   "url": "https://www.playbetter.com/products/foresight-falcon-sportscreen-vanish-lite-semi-retractable-golf-studio-complete-package"
   },
   {
    "retailer": "PlayBetter",
@@ -5163,17 +5658,6 @@
   },
   {
    "retailer": "PlayBetter",
-   "title": "Rapsodo MLM2PRO SportScreen Vanish Retractable Golf Studio Complete Package | Home Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Putting Turf & Projector",
-   "vendor": "SportScreen",
-   "type": "Retractable Golf Simulator Studio Package",
-   "price": 6269.96,
-   "compare_at": 6369.96,
-   "pct_off": 2,
-   "available": true,
-   "url": "https://www.playbetter.com/products/rapsodo-mlm2pro-sportscreen-vanish-retractable-golf-studio-complete-package"
-  },
-  {
-   "retailer": "PlayBetter",
    "title": "Foresight Falcon with PlayBetter SimStudio™ COMPLETE Package | Golf Simulator Studio with Impact Screen, Enclosure, Side Barriers, Hitting/Putting Mats & Projector",
    "vendor": "Foresight Sports",
    "type": "Golf Simulator Studio Package",
@@ -5218,50 +5702,6 @@
   },
   {
    "retailer": "Rain or Shine Golf",
-   "title": "Uneekor EYE XO2 Retractable",
-   "vendor": "Uneekor",
-   "type": "Golf Simulator Package",
-   "price": 14500,
-   "compare_at": 14755,
-   "pct_off": 2,
-   "available": true,
-   "url": "https://rainorshinegolf.com/products/uneekor-eye-xo2-retractable-golf-simulator-package"
-  },
-  {
-   "retailer": "Rain or Shine Golf",
-   "title": "Garmin Approach R50 Retractable",
-   "vendor": "Garmin",
-   "type": "Golf Simulator Package",
-   "price": 8499,
-   "compare_at": 8699,
-   "pct_off": 2,
-   "available": true,
-   "url": "https://rainorshinegolf.com/products/garmin-approach-r50-retractable-golf-simulator-package"
-  },
-  {
-   "retailer": "Rain or Shine Golf",
-   "title": "ProTee VX Retractable",
-   "vendor": "Pro Tee United",
-   "type": "Golf Simulator Package",
-   "price": 9999,
-   "compare_at": 10200,
-   "pct_off": 2,
-   "available": true,
-   "url": "https://rainorshinegolf.com/products/protee-vx-retractable-golf-simulator-package"
-  },
-  {
-   "retailer": "Rain or Shine Golf",
-   "title": "Trackman iO Retractable",
-   "vendor": "Trackman",
-   "type": "Golf Simulator Package",
-   "price": 17495,
-   "compare_at": 17845,
-   "pct_off": 2,
-   "available": true,
-   "url": "https://rainorshinegolf.com/products/trackman-io-retractable-golf-simulator-package"
-  },
-  {
-   "retailer": "Rain or Shine Golf",
    "title": "Ernest Sports Eagle Sim",
    "vendor": "Ernest Sports",
    "type": "Overhead Golf Launch Monitor",
@@ -5270,6 +5710,17 @@
    "pct_off": 2,
    "available": true,
    "url": "https://rainorshinegolf.com/products/ernest-sports-eagle-sim-launch-monitor"
+  },
+  {
+   "retailer": "Rain or Shine Golf",
+   "title": "Foresight GCQuad Retractable",
+   "vendor": "Foresight Sports",
+   "type": "Golf Simulator Package",
+   "price": 20473.15,
+   "compare_at": 20998,
+   "pct_off": 2,
+   "available": true,
+   "url": "https://rainorshinegolf.com/products/foresight-sports-gcquad-retractable-golf-simulator-package"
   },
   {
    "retailer": "Shop Indoor Golf",
