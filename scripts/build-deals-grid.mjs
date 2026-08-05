@@ -22,7 +22,9 @@ import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
-const SECRETS = 'C:\\Users\\kinsm\\.secrets\\cj.env';
+/* Overridable so the no-credentials path can actually be tested, rather than
+   assumed to work. */
+const SECRETS = process.env.MM_CJ_SECRETS_PATH || 'C:\\Users\\kinsm\\.secrets\\cj.env';
 const ENDPOINT = 'https://ads.api.cj.com/query';
 const PID = '101818675';           // our CJ property id — appears in every tracking link
 const OUT = join(ROOT, 'data', 'deals-grid.json');
@@ -221,17 +223,22 @@ function loadToken() {
     let raw = '';
     try {
       raw = readFileSync(SECRETS, 'utf8');
-    } catch {
-      throw new Error(
-        'No CJ credentials. Set CJ_PERSONAL_ACCESS_TOKEN and CJ_COMPANY_ID in the '
-        + `environment (GitHub Actions secrets), or provide ${SECRETS} locally.`,
-      );
-    }
+    } catch { /* no local secrets file; see the note below */ }
     token ||= /^CJ_PERSONAL_ACCESS_TOKEN=(.+)$/m.exec(raw)?.[1]?.trim();
     company ||= /^CJ_COMPANY_ID=(.+)$/m.exec(raw)?.[1]?.trim();
   }
 
-  if (!token || !company) throw new Error('CJ_PERSONAL_ACCESS_TOKEN or CJ_COMPANY_ID missing.');
+  /* CJ IS OPTIONAL, AND THAT MATTERS.
+
+     CJ covers Cobra/Puma, SQAIRZ and SWAG — the cheap end of the shelf. The
+     launch monitors and simulators, which are the whole commercial point of
+     this grid, come from PlayBetter via the price bot and need no CJ
+     credential whatsoever.
+
+     An earlier version threw here when credentials were missing, which would
+     have taken every PlayBetter card down with it over a token they do not
+     use. Missing CJ now costs us the Cobra half and nothing else. */
+  if (!token || !company) return null;
   return { token, company };
 }
 
@@ -421,17 +428,27 @@ async function mapLimit(items, limit, fn) {
 const wantedRaw = process.argv.indexOf('--limit');
 const WANTED = wantedRaw > -1 ? Number(process.argv[wantedRaw + 1]) : 8;
 
-const { token, company } = loadToken();
+const creds = loadToken();
 
 let pool = [];
-for (const adv of ADVERTISERS) {
-  const rows = await fetchAdvertiser(adv, company, token);
-  console.log(`  ${adv.label.padEnd(12)} ${String(rows.length).padStart(4)} distinct discounted in-stock products`);
-  pool = pool.concat(rows);
+if (creds) {
+  for (const adv of ADVERTISERS) {
+    const rows = await fetchAdvertiser(adv, creds.company, creds.token);
+    console.log(`  ${adv.label.padEnd(12)} ${String(rows.length).padStart(4)} distinct discounted in-stock products`);
+    pool = pool.concat(rows);
+  }
+} else {
+  console.log('  CJ           SKIPPED — no CJ_PERSONAL_ACCESS_TOKEN / CJ_COMPANY_ID.');
+  console.log('               Cobra, SQAIRZ and SWAG are out of tonight\'s shelf; PlayBetter is unaffected.');
 }
+
 const pb = loadPlayBetter();
 if (pb.length) console.log(`  ${'PlayBetter'.padEnd(12)} ${String(pb.length).padStart(4)} distinct discounted in-stock products`);
 pool = pool.concat(pb);
+
+if (!pool.length) {
+  throw new Error('No candidate products from any source — refusing to publish an empty grid.');
+}
 
 const saved = (x) => x.list - x.sale;
 
