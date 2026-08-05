@@ -236,6 +236,22 @@
       </a>
     </div>
   </section>
+  <script>
+    document.addEventListener('click', function (e) {
+      var a = e.target.closest && e.target.closest('a.dg-card');
+      if (!a || typeof gtag !== 'function') return;
+      var name = a.querySelector('.dg-name');
+      var store = a.querySelector('.dg-store');
+      var now = a.querySelector('.dg-now');
+      gtag('event', 'deal_click', {
+        item_name: name ? name.textContent.trim() : a.href,
+        retailer: store ? store.textContent.trim() : '',
+        price: now ? now.textContent.trim() : '',
+        placement: document.querySelector('.dg-strip') && a.closest('.dg-strip') ? 'homepage_strip' : 'deals_grid',
+        page_path: location.pathname
+      });
+    });
+  </script>
   <!-- dealsstrip:auto:end -->
 
 
@@ -516,7 +532,7 @@
       <div class="nl-inner">
         <p class="nl-kick">THE SUNDAY MEMO</p>
         <h2 class="nl-h">One memo. Sunday morning. That's it.</h2>
-        <p class="nl-p">What changed on the desk this week, what's newly worth your money, and what isn't. No deals, no countdowns, no fourteen-part welcome series. Unsubscribe and we part friends.</p>
+        <p class="nl-p">What changed on the desk this week, what's newly worth your money, and the price drops worth knowing about. No countdowns, no fourteen-part welcome series. Unsubscribe and we part friends.</p>
         <form class="nl-form" id="subform">
           <input type="email" required name="email" placeholder="YOUR@EMAIL.COM" aria-label="Email address">
           <button type="submit">GET THE MEMO</button>

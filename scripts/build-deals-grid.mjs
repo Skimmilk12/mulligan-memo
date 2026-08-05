@@ -568,6 +568,28 @@ function card(it) {
       </a>`;
 }
 
+/* The page's existing analytics only listens for a.dd-buy, which is the old
+   text ledger. Every card in this grid is an a.dg-card, so without this the
+   most valuable clicks on the site — a $15,000 launch monitor among them — are
+   invisible. Shipped with the block so it can never drift away from the markup
+   it measures. */
+const trackingScript = `  <script>
+    document.addEventListener('click', function (e) {
+      var a = e.target.closest && e.target.closest('a.dg-card');
+      if (!a || typeof gtag !== 'function') return;
+      var name = a.querySelector('.dg-name');
+      var store = a.querySelector('.dg-store');
+      var now = a.querySelector('.dg-now');
+      gtag('event', 'deal_click', {
+        item_name: name ? name.textContent.trim() : a.href,
+        retailer: store ? store.textContent.trim() : '',
+        price: now ? now.textContent.trim() : '',
+        placement: document.querySelector('.dg-strip') && a.closest('.dg-strip') ? 'homepage_strip' : 'deals_grid',
+        page_path: location.pathname
+      });
+    });
+  <\/script>`;
+
 const checkedNice = new Date(checked).toLocaleDateString('en-US', {
   month: 'long', day: 'numeric', year: 'numeric', timeZone: 'America/New_York',
 });
@@ -586,6 +608,7 @@ ${items.map(card).join('\n')}
     </div>
     <p class="dg-foot">Stock and prices move without notice.</p>
   </section>
+${trackingScript}
   <!-- dealsgrid:auto:end -->`;
 
 /* ------------------------------------------------------- homepage strip ----
@@ -610,6 +633,7 @@ const strip = `<!-- dealsstrip:auto:start -->
 ${stripItems.map(card).join('\n')}
     </div>
   </section>
+${trackingScript}
   <!-- dealsstrip:auto:end -->`;
 
 const HOME = join(ROOT, 'index.html');
