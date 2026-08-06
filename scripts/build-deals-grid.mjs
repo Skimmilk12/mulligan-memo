@@ -17,7 +17,7 @@
  * Usage: node scripts/build-deals-grid.mjs [--limit N]
  */
 
-import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
+import { readFileSync, writeFileSync, mkdirSync, readdirSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -43,6 +43,25 @@ const ADVERTISERS = [
 /* Accessories and consumables that make a deals grid look like a jumble sale.
    The grid is small; every card should be something a golfer would actually
    set out to buy. */
+/* PRICE BANDS.
+
+   A flat "top N by saving" makes every product compete against $15,000
+   simulator packages, and the arithmetic is brutal: PlayBetter cut the Uneekor
+   EYE MINI from $4,500 to $2,999 — a genuine $1,501 off a thing people actually
+   buy — and it did not make a 24-item board, because two dozen packages beat it
+   on absolute dollars. A golfer shopping for a launch monitor under $3,000 would
+   never have seen it.
+
+   So the board is grouped. Within a band the biggest saving wins, but a band
+   only competes with itself, and the cheap end always gets shelf space. */
+const BANDS = [
+  { id: 'dropped',  label: 'Just dropped',                              lo: 0,    hi: Infinity, max: 6, newOnly: true },
+  { id: 'flagship', label: 'Simulators &amp; flagship launch monitors', lo: 5000, hi: Infinity, max: 6 },
+  { id: 'serious',  label: 'Serious kit, $2,000 to $5,000',            lo: 2000, hi: 5000,     max: 6 },
+  { id: 'midrange', label: 'Clubs and gear, $250 to $2,000',           lo: 250,  hi: 2000,     max: 6 },
+  { id: 'everyday', label: 'Under $250',                                lo: 0,    hi: 250,      max: 6 },
+];
+
 /* A deals grid is a shop window. Below this, a product is an impulse add-on,
    not something a golfer comes to the page to buy — and a $9.95 gel pack
    sitting beside a $15,000 launch monitor makes the whole shelf look like a
@@ -177,6 +196,29 @@ function playbetterLink(url) {
   return clean + (clean.includes('?') ? '&' : '?') + PB_REF;
 }
 
+/* What changed SINCE YESTERDAY.
+
+   A price cut announced this morning looks identical to one that has been
+   running for a month, and the newer one is the reason somebody opens a deals
+   page. The nightly price log has 25 days of per-product history keyed by URL,
+   so the difference is just a diff — and it works: the run on 2026-08-05 caught
+   all six SportScreen Vanish enclosures dropping overnight, which was exactly
+   the promotion PlayBetter emailed their list about that evening. */
+function loadYesterdayPrices() {
+  let files = [];
+  try {
+    files = readdirSync(join(ROOT, 'data', 'prices')).filter((f) => f.endsWith('.json')).sort();
+  } catch { return new Map(); }
+  if (files.length < 2) return new Map();
+  const prev = JSON.parse(readFileSync(join(ROOT, 'data', 'prices', files[files.length - 2]), 'utf8'));
+  const map = new Map();
+  for (const it of prev.items || []) {
+    if (it.url && Number.isFinite(Number(it.price))) map.set(it.url, Number(it.price));
+  }
+  return map;
+}
+const YESTERDAY = loadYesterdayPrices();
+
 function loadPlayBetter() {
   let raw;
   try {
@@ -207,6 +249,7 @@ function loadPlayBetter() {
       image: null,            // no feed image — taken from the product page at verify time
       url: c.url,
       track: playbetterLink(c.url),
+      dropped_from: (YESTERDAY.get(c.url) > sale) ? YESTERDAY.get(c.url) : null,
     });
   }
   return out;
@@ -594,6 +637,20 @@ const checkedNice = new Date(checked).toLocaleDateString('en-US', {
   month: 'long', day: 'numeric', year: 'numeric', timeZone: 'America/New_York',
 });
 
+/* Group the verified items into price bands. Biggest saving first inside each
+   band, and a band only renders if it has something in it — an empty
+   "Under $250" heading is worse than no heading at all. */
+const bandSections = BANDS.map((band) => {
+  const inBand = items
+    .filter((it) => (band.newOnly ? !!it.dropped_from : it.sale >= band.lo && it.sale < band.hi))
+    .sort((a, b) => (b.list - b.sale) - (a.list - a.sale))
+    .slice(0, band.max);
+  if (!inBand.length) return '';
+  return `    <h3 class="dg-band">${band.label}</h3>\n    <div class="dg-grid">\n`
+    + inBand.map(card).join('\n')
+    + `\n    </div>`;
+}).filter(Boolean).join('\n');
+
 const block = `<!-- dealsgrid:auto:start -->
   <section class="dg-wrap" aria-label="Golf deals on the board">
     <div class="dg-head">
@@ -603,9 +660,7 @@ const block = `<!-- dealsgrid:auto:start -->
       </div>
       <span class="dg-checked">Prices checked ${esc(checkedNice)}</span>
     </div>
-    <div class="dg-grid">
-${items.map(card).join('\n')}
-    </div>
+${bandSections}
     <p class="dg-foot">Stock and prices move without notice.</p>
   </section>
 ${trackingScript}
