@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-05T12:16:54.155Z",
- "date": "2026-08-05",
+ "generated_at": "2026-08-06T12:19:18.880Z",
+ "date": "2026-08-06",
  "sources": [
   {
    "retailer": "PlayBetter",
@@ -10,7 +10,7 @@
   {
    "retailer": "Shop Indoor Golf",
    "status": "ok",
-   "on_sale_items": 270
+   "on_sale_items": 269
   },
   {
    "retailer": "Rain or Shine Golf",
@@ -20,7 +20,7 @@
   {
    "retailer": "Top Shelf Golf",
    "status": "ok",
-   "on_sale_items": 20
+   "on_sale_items": 19
   }
  ],
  "candidates": [
@@ -232,17 +232,6 @@
    "pct_off": 48,
    "available": true,
    "url": "https://www.playbetter.com/products/playmakar-sport-usb-adapter"
-  },
-  {
-   "retailer": "PlayBetter",
-   "title": "SkyTrak ST MAX Golf Launch Monitor and Simulator (Certified Pre-Owned)",
-   "vendor": "SkyTrak",
-   "type": "Golf Launch Monitor & Simulator",
-   "price": 1595,
-   "compare_at": 2995,
-   "pct_off": 47,
-   "available": true,
-   "url": "https://www.playbetter.com/products/skytrak-st-max-certified-refurbished"
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -1753,6 +1742,17 @@
   },
   {
    "retailer": "PlayBetter",
+   "title": "Bushnell LPi Circle B with PlayBetter SimStudio™ BYO (Build Your Own) Package – Custom Home Golf Simulator Studio Builder with Impact Screen, Enclosure, Optional Mats, Projector & More",
+   "vendor": "Bushnell",
+   "type": "Golf Simulator Studio Package",
+   "price": 4494.99,
+   "compare_at": 5624.99,
+   "pct_off": 20,
+   "available": true,
+   "url": "https://www.playbetter.com/products/bushnell-lpi-playbetter-simstudio-byo-home-golf-studio-package"
+  },
+  {
+   "retailer": "PlayBetter",
    "title": "Uneekor EYE MINI LITE with PlayBetter SimStudio™ ESSENTIALS Package | Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, & Projector",
    "vendor": "Uneekor",
    "type": "Golf Simulator Studio Package",
@@ -1772,6 +1772,17 @@
    "pct_off": 20,
    "available": true,
    "url": "https://www.playbetter.com/products/uneekor-eye-mini-sportscreen-vanish-retractable-golf-studio-complete-package"
+  },
+  {
+   "retailer": "PlayBetter",
+   "title": "Garmin Xero C1 Pro Chronograph",
+   "vendor": "Garmin",
+   "type": "Hunting & Archery Scope",
+   "price": 399.99,
+   "compare_at": 499.99,
+   "pct_off": 20,
+   "available": true,
+   "url": "https://www.playbetter.com/products/garmin-xero-c1-pro-chronograph"
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -2171,14 +2182,14 @@
   },
   {
    "retailer": "PlayBetter",
-   "title": "Bushnell LPi Circle B with PlayBetter SimStudio™ BYO (Build Your Own) Package – Custom Home Golf Simulator Studio Builder with Impact Screen, Enclosure, Optional Mats, Projector & More",
+   "title": "Bushnell LPi Circle B with PlayBetter SimStudio™ ESSENTIALS Package | Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat & Projector",
    "vendor": "Bushnell",
    "type": "Golf Simulator Studio Package",
-   "price": 4624.99,
-   "compare_at": 5624.99,
+   "price": 4994.99,
+   "compare_at": 6124.99,
    "pct_off": 18,
    "available": true,
-   "url": "https://www.playbetter.com/products/bushnell-lpi-playbetter-simstudio-byo-home-golf-studio-package"
+   "url": "https://www.playbetter.com/products/bushnell-lpi-home-golf-simulator-playbetter-simstudio-essentials-studio-package"
   },
   {
    "retailer": "PlayBetter",
@@ -2303,14 +2314,36 @@
   },
   {
    "retailer": "PlayBetter",
-   "title": "Garmin Xero C1 Pro Chronograph",
-   "vendor": "Garmin",
-   "type": "Hunting & Archery Scope",
-   "price": 499.99,
-   "compare_at": 599.99,
+   "title": "Bushnell Launch Pro Circle B with PlayBetter SimStudio™ BYO (Build Your Own) Package – Custom Home Golf Simulator Studio Builder with Impact Screen, Enclosure, Optional Mats, Projector & More",
+   "vendor": "Bushnell",
+   "type": "Golf Simulator Studio Package",
+   "price": 5494.99,
+   "compare_at": 6624.99,
    "pct_off": 17,
    "available": true,
-   "url": "https://www.playbetter.com/products/garmin-xero-c1-pro-chronograph"
+   "url": "https://www.playbetter.com/products/bushnell-launch-pro-playbetter-simstudio-byo-home-golf-studio-package"
+  },
+  {
+   "retailer": "PlayBetter",
+   "title": "Rapsodo MLM2PRO with PlayBetter SimStudio™ BYO (Build Your Own) Package – Custom Home Golf Simulator Studio Builder with Impact Screen, Enclosure, Optional Mats, Projector & More",
+   "vendor": "Rapsodo",
+   "type": "Golf Simulator Studio Package",
+   "price": 3094.99,
+   "compare_at": 3724.99,
+   "pct_off": 17,
+   "available": true,
+   "url": "https://www.playbetter.com/products/rapsodo-mlm2pro-playbetter-simstudio-byo-home-golf-studio-package"
+  },
+  {
+   "retailer": "PlayBetter",
+   "title": "Bushnell LPi Circle B with PlayBetter SimStudio™ COMPLETE Package | Golf Simulator Studio with Impact Screen, Enclosure, Side Barriers, Hitting/Putting Mats, Projector & Protective Case",
+   "vendor": "Bushnell",
+   "type": "Golf Simulator Studio Package",
+   "price": 5494.99,
+   "compare_at": 6624.99,
+   "pct_off": 17,
+   "available": true,
+   "url": "https://www.playbetter.com/products/bushnell-lpi-personal-launch-monitor-simulator-studio-package"
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -2479,17 +2512,6 @@
   },
   {
    "retailer": "PlayBetter",
-   "title": "Rapsodo MLM2PRO with PlayBetter SimStudio™ BYO (Build Your Own) Package – Custom Home Golf Simulator Studio Builder with Impact Screen, Enclosure, Optional Mats, Projector & More",
-   "vendor": "Rapsodo",
-   "type": "Golf Simulator Studio Package",
-   "price": 3124.99,
-   "compare_at": 3724.99,
-   "pct_off": 16,
-   "available": true,
-   "url": "https://www.playbetter.com/products/rapsodo-mlm2pro-playbetter-simstudio-byo-home-golf-studio-package"
-  },
-  {
-   "retailer": "PlayBetter",
    "title": "FlightScope Mevo Gen2 with PlayBetter SimStudio™ ESSENTIALS Package | Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat & Projector",
    "vendor": "FlightScope",
    "type": "Golf Simulator Studio Package",
@@ -2501,14 +2523,14 @@
   },
   {
    "retailer": "PlayBetter",
-   "title": "Bushnell LPi Circle B with PlayBetter SimStudio™ ESSENTIALS Package | Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat & Projector",
+   "title": "Bushnell Launch Pro Circle B with PlayBetter SimStudio™ ESSENTIALS Package | Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat & Projector",
    "vendor": "Bushnell",
    "type": "Golf Simulator Studio Package",
-   "price": 5124.99,
-   "compare_at": 6124.99,
+   "price": 5994.99,
+   "compare_at": 7124.99,
    "pct_off": 16,
    "available": true,
-   "url": "https://www.playbetter.com/products/bushnell-lpi-home-golf-simulator-playbetter-simstudio-essentials-studio-package"
+   "url": "https://www.playbetter.com/products/bushnell-launch-pro-with-playbetter-simstudio-essentials-package-golf-simulator-studio"
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -2655,14 +2677,25 @@
   },
   {
    "retailer": "PlayBetter",
-   "title": "Bushnell Launch Pro Circle B with PlayBetter SimStudio™ BYO (Build Your Own) Package – Custom Home Golf Simulator Studio Builder with Impact Screen, Enclosure, Optional Mats, Projector & More",
+   "title": "Bushnell Launch Pro Circle B with PlayBetter SimStudio™ COMPLETE Package | Golf Simulator Studio with Impact Screen, Enclosure, Side Barriers, Hitting/Putting Mats, Projector & Protective Case",
    "vendor": "Bushnell",
    "type": "Golf Simulator Studio Package",
-   "price": 5624.99,
-   "compare_at": 6624.99,
+   "price": 6494.99,
+   "compare_at": 7624.99,
    "pct_off": 15,
    "available": true,
-   "url": "https://www.playbetter.com/products/bushnell-launch-pro-playbetter-simstudio-byo-home-golf-studio-package"
+   "url": "https://www.playbetter.com/products/bushnell-launch-pro-playbetter-simstudio-home-golf-simulator-package"
+  },
+  {
+   "retailer": "PlayBetter",
+   "title": "Garmin Approach R10 with PlayBetter SimStudio™ BYO (Build Your Own) Package – Custom Home Golf Simulator Studio Builder with Impact Screen, Enclosure, Optional Mats, Projector & More",
+   "vendor": "Garmin",
+   "type": "Golf Simulator Studio Package",
+   "price": 2959.99,
+   "compare_at": 3494.99,
+   "pct_off": 15,
+   "available": true,
+   "url": "https://www.playbetter.com/products/garmin-approach-r10-playbetter-simstudio-byo-home-golf-studio-package"
   },
   {
    "retailer": "PlayBetter",
@@ -2674,6 +2707,17 @@
    "pct_off": 15,
    "available": true,
    "url": "https://www.playbetter.com/products/flightscope-mevo-gen2-with-playbetter-simstudio-complete-golf-simulator-studio-package"
+  },
+  {
+   "retailer": "PlayBetter",
+   "title": "Rapsodo MLM2PRO with PlayBetter SimStudio™ ESSENTIALS Package | Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Projector & Alignment Stand",
+   "vendor": "Rapsodo",
+   "type": "Golf Simulator Studio Package",
+   "price": 3594.99,
+   "compare_at": 4224.99,
+   "pct_off": 15,
+   "available": true,
+   "url": "https://www.playbetter.com/products/rapsodo-mlm2pro-home-golf-simulator-playbetter-simstudio-essentials-studio-package"
   },
   {
    "retailer": "PlayBetter",
@@ -2696,17 +2740,6 @@
    "pct_off": 15,
    "available": true,
    "url": "https://www.playbetter.com/products/the-sportscreen-vanish-series-retractable-golf-studio"
-  },
-  {
-   "retailer": "PlayBetter",
-   "title": "Bushnell LPi Circle B with PlayBetter SimStudio™ COMPLETE Package | Golf Simulator Studio with Impact Screen, Enclosure, Side Barriers, Hitting/Putting Mats, Projector & Protective Case",
-   "vendor": "Bushnell",
-   "type": "Golf Simulator Studio Package",
-   "price": 5624.99,
-   "compare_at": 6624.99,
-   "pct_off": 15,
-   "available": true,
-   "url": "https://www.playbetter.com/products/bushnell-lpi-personal-launch-monitor-simulator-studio-package"
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -2886,28 +2919,6 @@
   },
   {
    "retailer": "PlayBetter",
-   "title": "Garmin Approach R10 with PlayBetter SimStudio™ BYO (Build Your Own) Package – Custom Home Golf Simulator Studio Builder with Impact Screen, Enclosure, Optional Mats, Projector & More",
-   "vendor": "Garmin",
-   "type": "Golf Simulator Studio Package",
-   "price": 3029.99,
-   "compare_at": 3529.99,
-   "pct_off": 14,
-   "available": true,
-   "url": "https://www.playbetter.com/products/garmin-approach-r10-playbetter-simstudio-byo-home-golf-studio-package"
-  },
-  {
-   "retailer": "PlayBetter",
-   "title": "Bushnell Launch Pro Circle B with PlayBetter SimStudio™ ESSENTIALS Package | Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat & Projector",
-   "vendor": "Bushnell",
-   "type": "Golf Simulator Studio Package",
-   "price": 6124.99,
-   "compare_at": 7124.99,
-   "pct_off": 14,
-   "available": true,
-   "url": "https://www.playbetter.com/products/bushnell-launch-pro-with-playbetter-simstudio-essentials-package-golf-simulator-studio"
-  },
-  {
-   "retailer": "PlayBetter",
    "title": "Uneekor EYE XO2 with PlayBetter SimStudio™ ESSENTIALS Package | Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, & Projector",
    "vendor": "Uneekor",
    "type": "Golf Simulator Studio Package",
@@ -2916,17 +2927,6 @@
    "pct_off": 14,
    "available": true,
    "url": "https://www.playbetter.com/products/uneekor-eye-xo2-home-golf-simulator-playbetter-simstudio-essentials-studio-package"
-  },
-  {
-   "retailer": "PlayBetter",
-   "title": "Rapsodo MLM2PRO with PlayBetter SimStudio™ ESSENTIALS Package | Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Projector & Alignment Stand",
-   "vendor": "Rapsodo",
-   "type": "Golf Simulator Studio Package",
-   "price": 3624.99,
-   "compare_at": 4224.99,
-   "pct_off": 14,
-   "available": true,
-   "url": "https://www.playbetter.com/products/rapsodo-mlm2pro-home-golf-simulator-playbetter-simstudio-essentials-studio-package"
   },
   {
    "retailer": "PlayBetter",
@@ -3172,17 +3172,6 @@
   },
   {
    "retailer": "PlayBetter",
-   "title": "Bushnell Launch Pro Circle B with PlayBetter SimStudio™ COMPLETE Package | Golf Simulator Studio with Impact Screen, Enclosure, Side Barriers, Hitting/Putting Mats, Projector & Protective Case",
-   "vendor": "Bushnell",
-   "type": "Golf Simulator Studio Package",
-   "price": 6624.99,
-   "compare_at": 7624.99,
-   "pct_off": 13,
-   "available": true,
-   "url": "https://www.playbetter.com/products/bushnell-launch-pro-playbetter-simstudio-home-golf-simulator-package"
-  },
-  {
-   "retailer": "PlayBetter",
    "title": "PlayBetter SimStudio™ COMPLETE Home Golf Simulator Package | Enclosure, Impact Screen, Hitting/Putting Mats, Side Barriers & Projector",
    "vendor": "PlayBetter",
    "type": "Golf Simulator Studio Package",
@@ -3191,6 +3180,17 @@
    "pct_off": 13,
    "available": true,
    "url": "https://www.playbetter.com/products/playbetter-simstudio-home-golf-simulator-package"
+  },
+  {
+   "retailer": "PlayBetter",
+   "title": "Garmin Approach R10 with PlayBetter SimStudio™ ESSENTIALS Package | Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Projector & Alignment Stand",
+   "vendor": "Garmin",
+   "type": "Golf Simulator Studio Package",
+   "price": 3494.99,
+   "compare_at": 4029.99,
+   "pct_off": 13,
+   "available": true,
+   "url": "https://www.playbetter.com/products/garmin-approach-r10-with-playbetter-simstudio-essentials-package-golf-simulator-studio"
   },
   {
    "retailer": "PlayBetter",
@@ -3252,7 +3252,7 @@
    "title": "Rapsodo MLM2PRO with PlayBetter SimStudio™ COMPLETE Package | Golf Simulator Studio with Impact Screen, Enclosure, Side Barriers, Hitting/Putting Mats, Projector & Alignment Stand",
    "vendor": "Rapsodo",
    "type": "Golf Simulator Studio Package",
-   "price": 4124.99,
+   "price": 4094.99,
    "compare_at": 4724.99,
    "pct_off": 13,
    "available": true,
@@ -3301,17 +3301,6 @@
    "pct_off": 13,
    "available": true,
    "url": "https://shopindoorgolf.com/products/square-golf-sig10-golf-simulator-package"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
-   "title": "Foresight Sports GC3S Launch Monitor",
-   "vendor": "Foresight Sports",
-   "type": "Launch Monitor",
-   "price": 3299.99,
-   "compare_at": 3799.99,
-   "pct_off": 13,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/foresight-sports-gc3s-launch-monitor"
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -3513,6 +3502,17 @@
   },
   {
    "retailer": "PlayBetter",
+   "title": "Garmin Approach R50 Golf Simulator & Launch Monitor (Certified Pre-Owned)",
+   "vendor": "Garmin",
+   "type": "Golf Launch Monitor & Simulator",
+   "price": 4399.99,
+   "compare_at": 4999.99,
+   "pct_off": 12,
+   "available": true,
+   "url": "https://www.playbetter.com/products/garmin-approach-r50-golf-simulator-launch-monitor-pre-owned"
+  },
+  {
+   "retailer": "PlayBetter",
    "title": "Blue Tees Golf Rainmaker with PlayBetter SimStudio™ ESSENTIALS Package | Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat & Projector",
    "vendor": "Blue Tees Golf",
    "type": "Golf Simulator Studio Package",
@@ -3546,17 +3546,6 @@
   },
   {
    "retailer": "PlayBetter",
-   "title": "Garmin Approach R10 with PlayBetter SimStudio™ ESSENTIALS Package | Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Projector & Alignment Stand",
-   "vendor": "Garmin",
-   "type": "Golf Simulator Studio Package",
-   "price": 3529.99,
-   "compare_at": 4029.99,
-   "pct_off": 12,
-   "available": true,
-   "url": "https://www.playbetter.com/products/garmin-approach-r10-with-playbetter-simstudio-essentials-package-golf-simulator-studio"
-  },
-  {
-   "retailer": "PlayBetter",
    "title": "Swing Caddie SC4 PRO with PlayBetter SimStudio™ ESSENTIALS Package | Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, & Projector",
    "vendor": "Voice Caddie",
    "type": "Golf Simulator Studio Package",
@@ -3587,6 +3576,17 @@
    "pct_off": 12,
    "available": true,
    "url": "https://www.playbetter.com/products/uneekor-eye-xo2-sportscreen-vanish-retractable-golf-studio-complete-package"
+  },
+  {
+   "retailer": "PlayBetter",
+   "title": "Garmin Approach R10 with PlayBetter SimStudio™ COMPLETE Package | Golf Simulator Studio with Impact Screen, Enclosure, Side Barriers, Hitting/Putting Mats, Projector & Alignment Stand",
+   "vendor": "Garmin",
+   "type": "Golf Simulator Studio Package",
+   "price": 3994.99,
+   "compare_at": 4529.99,
+   "pct_off": 12,
+   "available": true,
+   "url": "https://www.playbetter.com/products/garmin-approach-r10-golf-simulator-studio-package-playbetter-simstudio-with-impact-screen-enclosure-hitting-putting-mats-projector-1"
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -3732,17 +3732,6 @@
    "url": "https://www.playbetter.com/products/square-golf-simulator-launch-monitor-home-studio-package"
   },
   {
-   "retailer": "PlayBetter",
-   "title": "Garmin Approach R10 with PlayBetter SimStudio™ COMPLETE Package | Golf Simulator Studio with Impact Screen, Enclosure, Side Barriers, Hitting/Putting Mats, Projector & Alignment Stand",
-   "vendor": "Garmin",
-   "type": "Golf Simulator Studio Package",
-   "price": 4029.99,
-   "compare_at": 4529.99,
-   "pct_off": 11,
-   "available": true,
-   "url": "https://www.playbetter.com/products/garmin-approach-r10-golf-simulator-studio-package-playbetter-simstudio-with-impact-screen-enclosure-hitting-putting-mats-projector-1"
-  },
-  {
    "retailer": "Shop Indoor Golf",
    "title": "Uneekor EYE XR SIG8 Golf Simulator Package",
    "vendor": "Uneekor",
@@ -3884,17 +3873,6 @@
    "pct_off": 10,
    "available": true,
    "url": "https://www.playbetter.com/products/rapsodo-mlm2pro-sportscreen-vanish-lite-semi-retractable-golf-studio-complete-package"
-  },
-  {
-   "retailer": "PlayBetter",
-   "title": "Garmin Approach R50 Golf Simulator & Launch Monitor (Certified Pre-Owned)",
-   "vendor": "Garmin",
-   "type": "Golf Launch Monitor & Simulator",
-   "price": 4495,
-   "compare_at": 4999.99,
-   "pct_off": 10,
-   "available": true,
-   "url": "https://www.playbetter.com/products/garmin-approach-r50-golf-simulator-launch-monitor-pre-owned"
   },
   {
    "retailer": "PlayBetter",
@@ -4293,17 +4271,6 @@
    "url": "https://rainorshinegolf.com/products/bushnell-lpi-practice-package"
   },
   {
-   "retailer": "Top Shelf Golf",
-   "title": "NVISAGE NEO-E Portable Launch Monitor and Golf Simulator",
-   "vendor": "NVISAGE",
-   "type": "Launch Monitors",
-   "price": 5000,
-   "compare_at": 5500,
-   "pct_off": 9,
-   "available": true,
-   "url": "https://www.topshelfgolf.com/products/nvisage-neo-e-portable-launch-monitor-and-golf-simulator"
-  },
-  {
    "retailer": "PlayBetter",
    "title": "FlightScope Mevo Gen2 SportScreen Vanish LITE Hybrid-Retractable Golf Studio Complete Package | Home Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Putting Turf & Projector",
    "vendor": "SportScreen",
@@ -4357,17 +4324,6 @@
    "pct_off": 8,
    "available": true,
    "url": "https://www.playbetter.com/products/bushnell-lpi-sportscreen-vanish-retractable-golf-studio-complete-package"
-  },
-  {
-   "retailer": "PlayBetter",
-   "title": "Bushnell Launch Pro Circle B SportScreen Vanish Retractable Golf Studio Complete Package | Home Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Putting Turf & Projector",
-   "vendor": "SportScreen",
-   "type": "Retractable Golf Simulator Studio Package",
-   "price": 7423.97,
-   "compare_at": 8098.97,
-   "pct_off": 8,
-   "available": true,
-   "url": "https://www.playbetter.com/products/bushnell-launch-pro-sportscreen-vanish-retractable-golf-studio-complete-package"
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -4601,26 +4557,15 @@
    "url": "https://www.playbetter.com/products/rapsodo-mlm2pro-golf-simulator-net-return-hitting-net-package"
   },
   {
-   "retailer": "Shop Indoor Golf",
-   "title": "Foresight Sports GC3/GC3s SIG DIY Golf Simulator Studio Package",
-   "vendor": "Foresight Sports",
-   "type": "Golf Simulator",
-   "price": 4748.99,
-   "compare_at": 5098.99,
+   "retailer": "PlayBetter",
+   "title": "Bushnell Launch Pro Circle B SportScreen Vanish Retractable Golf Studio Complete Package | Home Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Putting Turf & Projector",
+   "vendor": "SportScreen",
+   "type": "Retractable Golf Simulator Studio Package",
+   "price": 9348.97,
+   "compare_at": 10098.97,
    "pct_off": 7,
    "available": true,
-   "url": "https://shopindoorgolf.com/products/foresight-sports-gc3-gc3s-sig-diy-golf-simulator-studio-package"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
-   "title": "Foresight Sports GC3 / GC3S Garage Golf Simulator Package",
-   "vendor": "Foresight Sports",
-   "type": "Golf Simulator",
-   "price": 7666.98,
-   "compare_at": 8266.98,
-   "pct_off": 7,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/foresight-sports-gc3-garage-golf-simulator-package"
+   "url": "https://www.playbetter.com/products/bushnell-launch-pro-sportscreen-vanish-retractable-golf-studio-complete-package"
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -4646,7 +4591,7 @@
   },
   {
    "retailer": "Shop Indoor Golf",
-   "title": "Foresight Sports GC3S / GC3 SIG10 Golf Simulator Package",
+   "title": "Foresight Sports GC3 SIG10 Golf Simulator Package",
    "vendor": "Foresight Sports",
    "type": "Golf Simulator",
    "price": 14099.99,
@@ -4682,8 +4627,8 @@
    "title": "Garmin Approach R50 (Certified Pre-Owned) with PlayBetter SimStudio™ COMPLETE Package | Golf Simulator Studio with Impact Screen, Enclosure, Side Barriers, Hitting/Putting Mats, Projector & Wireless HDMI Transmitter",
    "vendor": "Garmin",
    "type": "Golf Simulator Studio Package",
-   "price": 7990,
-   "compare_at": 8490,
+   "price": 7894.99,
+   "compare_at": 8394.99,
    "pct_off": 6,
    "available": true,
    "url": "https://www.playbetter.com/products/garmin-approach-r50-certified-refurbished-playbetter-simstudio-complete-package"
@@ -5086,6 +5031,17 @@
   },
   {
    "retailer": "Shop Indoor Golf",
+   "title": "Foresight Sports GC3 Garage Golf Simulator Package",
+   "vendor": "Foresight Sports",
+   "type": "Golf Simulator",
+   "price": 10866.98,
+   "compare_at": 11466.98,
+   "pct_off": 5,
+   "available": true,
+   "url": "https://shopindoorgolf.com/products/foresight-sports-gc3-garage-golf-simulator-package"
+  },
+  {
+   "retailer": "Shop Indoor Golf",
    "title": "TruGolf APOGEE Garage Golf Simulator Package",
    "vendor": "TruGolf",
    "type": "Golf Simulator",
@@ -5292,6 +5248,17 @@
    "pct_off": 4,
    "available": true,
    "url": "https://shopindoorgolf.com/products/sim-in-a-box-birdie-plus-package"
+  },
+  {
+   "retailer": "Shop Indoor Golf",
+   "title": "Foresight Sports GC3 SIG DIY Golf Simulator Studio Package",
+   "vendor": "Foresight Sports",
+   "type": "Golf Simulator",
+   "price": 7948.99,
+   "compare_at": 8298.99,
+   "pct_off": 4,
+   "available": true,
+   "url": "https://shopindoorgolf.com/products/foresight-sports-gc3-gc3s-sig-diy-golf-simulator-studio-package"
   },
   {
    "retailer": "Shop Indoor Golf",

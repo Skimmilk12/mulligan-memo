@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-06T01:14:44.982Z",
+  "checked_at": "2026-08-06T12:19:49.120Z",
   "items": [
     {
       "title": "Foresight QuadMAX Launch Monitor (Pre-Owned)",
@@ -70,57 +70,45 @@
       "verified": true
     },
     {
-      "title": "Uneekor EYE XR with PlayBetter SimStudio™ Essentials…",
-      "feed_title": "Uneekor EYE XR with PlayBetter SimStudio™ ESSENTIALS Package | Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, & Projector",
-      "brand": "Uneekor",
-      "retailer": "PlayBetter",
+      "title": "Sqairz Freedom™ Micro",
+      "feed_title": "FREEDOM™ Micro Black & Teal / 7.5 - SQAIRZ",
+      "brand": "SQAIRZ",
+      "retailer": "SQAIRZ",
       "rate": 5,
-      "list": 12295,
-      "sale": 8994,
-      "image": "https://www.playbetter.com/cdn/shop/files/Standard-Studio10-Eye-XR_1200x1200.jpg?v=1763003681",
-      "url": "https://www.playbetter.com/products/uneekor-eye-xr-home-golf-simulator-playbetter-simstudio-essentials-studio-package",
-      "track": "https://www.playbetter.com/products/uneekor-eye-xr-home-golf-simulator-playbetter-simstudio-essentials-studio-package?ghref=2301%3A1337756",
-      "dropped_from": null,
-      "from": true,
-      "spread_high": 9593,
-      "image_source": "product page",
-      "pct": 27,
+      "list": 199,
+      "sale": 79,
+      "image": "https://cdn.shopify.com/s/files/1/0634/3458/8384/files/women_s_freedom_micro_black_callout_1x1_01.jpg?v=1775163822",
+      "url": "https://sqairz.com/products/freedom-micro?variant=46639213740256",
+      "track": "https://www.kqzyfj.com/click-101818675-15766439?url=https%3A%2F%2Fsqairz.com%2Fproducts%2Ffreedom-micro%3Fvariant%3D46639213740256&cjsku=46639213740256",
+      "pct": 60,
       "verified": true
     },
     {
-      "title": "Uneekor EYE XR SportScreen Vanish Retractable Golf Studio…",
-      "feed_title": "Uneekor EYE XR SportScreen Vanish Retractable Golf Studio Complete Package | Home Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Putting Turf & Projector",
-      "brand": "SportScreen",
-      "retailer": "PlayBetter",
+      "title": "Sqairz Velo™",
+      "feed_title": "VELO™ White & Blue / 9 / Standard - SQAIRZ",
+      "brand": "SQAIRZ",
+      "retailer": "SQAIRZ",
       "rate": 5,
-      "list": 13899.97,
-      "sale": 10648.97,
-      "image": "https://www.playbetter.com/cdn/shop/files/XR-Vanish-Projector-Only_1200x1204.jpg?v=1763010130",
-      "url": "https://www.playbetter.com/products/uneekor-eye-xr-sportscreen-vanish-retractable-golf-studio-complete-package",
-      "track": "https://www.playbetter.com/products/uneekor-eye-xr-sportscreen-vanish-retractable-golf-studio-complete-package?ghref=2301%3A1337756",
-      "dropped_from": 11098.97,
-      "from": true,
-      "spread_high": 13316.17,
-      "image_source": "product page",
-      "pct": 23,
+      "list": 219,
+      "sale": 89,
+      "image": "https://cdn.shopify.com/s/files/1/0634/3458/8384/files/velo_blue_product_callout_1x1_01.jpg?v=1744641403",
+      "url": "https://sqairz.com/products/velo?variant=44537242321120",
+      "track": "https://www.kqzyfj.com/click-101818675-15766439?url=https%3A%2F%2Fsqairz.com%2Fproducts%2Fvelo%3Fvariant%3D44537242321120&cjsku=44537242321120",
+      "pct": 59,
       "verified": true
     },
     {
-      "title": "Uneekor EYE XR SportScreen Vanish Lite Hybrid",
-      "feed_title": "Uneekor EYE XR SportScreen Vanish LITE Hybrid-Retractable Golf Studio Complete Package | Home Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Putting Turf & Projector",
-      "brand": "SportScreen",
-      "retailer": "PlayBetter",
+      "title": "Sqairz Freedom™ Mesh",
+      "feed_title": "FREEDOM™ Mesh White / 6 - SQAIRZ",
+      "brand": "SQAIRZ",
+      "retailer": "SQAIRZ",
       "rate": 5,
-      "list": 13199.97,
-      "sale": 10053.97,
-      "image": "https://www.playbetter.com/cdn/shop/files/uneekor-eye-xr-sportscreen-vanish-lite_1200x1200.jpg?v=1784301527",
-      "url": "https://www.playbetter.com/products/uneekor-eye-xr-sportscreen-vanish-lite-semi-retractable-golf-studio-complete-package",
-      "track": "https://www.playbetter.com/products/uneekor-eye-xr-sportscreen-vanish-lite-semi-retractable-golf-studio-complete-package?ghref=2301%3A1337756",
-      "dropped_from": 10398.97,
-      "from": true,
-      "spread_high": 12083.67,
-      "image_source": "product page",
-      "pct": 24,
+      "list": 179,
+      "sale": 79,
+      "image": "https://cdn.shopify.com/s/files/1/0634/3458/8384/files/women_s_freedom_mesh_gray_callout_1x1_01.jpg?v=1736283720",
+      "url": "https://sqairz.com/products/freedom-mesh?variant=43150779547872",
+      "track": "https://www.tkqlhce.com/click-101818675-15766439?url=https%3A%2F%2Fsqairz.com%2Fproducts%2Ffreedom-mesh%3Fvariant%3D43150779547872&cjsku=43150779547872",
+      "pct": 56,
       "verified": true
     },
     {
@@ -140,351 +128,59 @@
       "image_source": "product page",
       "pct": 49,
       "verified": true
-    },
-    {
-      "title": "SkyTrak+ with PlayBetter SimStudio™ Complete Package",
-      "feed_title": "SkyTrak+ with PlayBetter SimStudio™ COMPLETE Package | Golf Simulator Studio with Impact Screen, Enclosure, Side Barriers, Hitting/Putting Mats, Projector, Protective Case & 1-Year FREE Foresight Course Play",
-      "brand": "SkyTrak",
-      "retailer": "PlayBetter",
-      "rate": 5,
-      "list": 6845,
-      "sale": 3995,
-      "image": "https://www.playbetter.com/cdn/shop/files/Studio10-SkyTrak-Case_1200x1200.jpg?v=1753488166",
-      "url": "https://www.playbetter.com/products/skytrak-plus-golf-simulator-studio-package-playbetter-simstudio-with-impact-screen-enclosure-hitting-putting-mats-projector",
-      "track": "https://www.playbetter.com/products/skytrak-plus-golf-simulator-studio-package-playbetter-simstudio-with-impact-screen-enclosure-hitting-putting-mats-projector?ghref=2301%3A1337756",
-      "dropped_from": null,
-      "from": true,
-      "spread_high": 5470,
-      "image_source": "product page",
-      "pct": 42,
-      "verified": true
-    },
-    {
-      "title": "SkyTrak+ with PlayBetter SimStudio™ Essentials Package",
-      "feed_title": "SkyTrak+ with PlayBetter SimStudio™ ESSENTIALS Package | Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Projector, Protective Case & 1-Year FREE Foresight Course Play",
-      "brand": "SkyTrak",
-      "retailer": "PlayBetter",
-      "rate": 5,
-      "list": 6345,
-      "sale": 3495,
-      "image": "https://www.playbetter.com/cdn/shop/files/Studio10-STD-SkyTrak-Plus_1200x1200.jpg?v=1753487346",
-      "url": "https://www.playbetter.com/products/skytrak-plus-with-playbetter-simstudio-essentials-package-golf-simulator-studio",
-      "track": "https://www.playbetter.com/products/skytrak-plus-with-playbetter-simstudio-essentials-package-golf-simulator-studio?ghref=2301%3A1337756",
-      "dropped_from": null,
-      "from": true,
-      "spread_high": 4470,
-      "image_source": "product page",
-      "pct": 45,
-      "verified": true
-    },
-    {
-      "title": "Uneekor EYE XR Launch Monitor with Swing Optix Cameras",
-      "feed_title": "Uneekor EYE XR Golf Launch Monitor & Simulator with Swing Optix Cameras",
-      "brand": "Uneekor",
-      "retailer": "PlayBetter",
-      "rate": 5,
-      "list": 8800,
-      "sale": 5999,
-      "image": "https://www.playbetter.com/cdn/shop/files/uneekor-eye-xr-swing-optix-ai-trainer-bundle_1200x1200.jpg?v=1776168515",
-      "url": "https://www.playbetter.com/products/uneekor-eye-xr-golf-launch-monitor-simulator",
-      "track": "https://www.playbetter.com/products/uneekor-eye-xr-golf-launch-monitor-simulator?ghref=2301%3A1337756",
-      "dropped_from": null,
-      "image_source": "product page",
-      "pct": 32,
-      "verified": true
-    },
-    {
-      "title": "Foresight GC3 (Pre-Owned) with PlayBetter SimStudio™…",
-      "feed_title": "Foresight GC3 (Certified Pre-Owned) with PlayBetter SimStudio™ COMPLETE Package with PlayBetter SimStudio™ COMPLETE Package | Golf Simulator Studio with Impact Screen, Enclosure, Side Barriers, Hitting/Putting Mats, Projector & Protective Case",
-      "brand": "Foresight Sports",
-      "retailer": "PlayBetter",
-      "rate": 5,
-      "list": 11124,
-      "sale": 8494.99,
-      "image": "https://www.playbetter.com/cdn/shop/files/Studio10-GC3-LINK-Case_1200x1200.jpg?v=1753373360",
-      "url": "https://www.playbetter.com/products/foresight-gc3-certified-pre-owned-with-playbetter-simstudio-complete-package",
-      "track": "https://www.playbetter.com/products/foresight-gc3-certified-pre-owned-with-playbetter-simstudio-complete-package?ghref=2301%3A1337756",
-      "dropped_from": null,
-      "from": true,
-      "spread_high": 9494.99,
-      "image_source": "product page",
-      "pct": 24,
-      "verified": true
-    },
-    {
-      "title": "SkyTrak ST MAX with PlayBetter SimStudio™ BYO Package",
-      "feed_title": "SkyTrak ST MAX with PlayBetter SimStudio™ BYO (Build Your Own) Package – Custom Home Golf Simulator Studio Builder with Impact Screen, Enclosure, Optional Mats, Projector & More",
-      "brand": "SkyTrak",
-      "retailer": "PlayBetter",
-      "rate": 5,
-      "list": 6495,
-      "sale": 3995,
-      "image": "https://www.playbetter.com/cdn/shop/files/Studio-10-Essentials-SkyTrak-ST-Max_1200x1200.jpg?v=1760608022",
-      "url": "https://www.playbetter.com/products/skytrak-st-max-with-playbetter-simstudio-byo-build-your-own-package",
-      "track": "https://www.playbetter.com/products/skytrak-st-max-with-playbetter-simstudio-byo-build-your-own-package?ghref=2301%3A1337756",
-      "dropped_from": null,
-      "from": true,
-      "spread_high": 4445,
-      "image_source": "product page",
-      "pct": 38,
-      "verified": true
-    },
-    {
-      "title": "SkyTrak ST MAX with PlayBetter SimStudio™ Complete Package",
-      "feed_title": "SkyTrak ST MAX with PlayBetter SimStudio™ COMPLETE Package | Golf Simulator Studio with Impact Screen, Enclosure, Side Barriers, Hitting/Putting Mats, Projector & Protective Case",
-      "brand": "SkyTrak",
-      "retailer": "PlayBetter",
-      "rate": 5,
-      "list": 7495,
-      "sale": 4995,
-      "image": "https://www.playbetter.com/cdn/shop/files/Studio-10-Complete-SkyTrak-ST-Max_1200x1200.jpg?v=1760607864",
-      "url": "https://www.playbetter.com/products/skytrak-st-max-with-playbetter-simstudio-complete-package",
-      "track": "https://www.playbetter.com/products/skytrak-st-max-with-playbetter-simstudio-complete-package?ghref=2301%3A1337756",
-      "dropped_from": null,
-      "from": true,
-      "spread_high": 6445,
-      "image_source": "product page",
-      "pct": 33,
-      "verified": true
-    },
-    {
-      "title": "SkyTrak ST MAX with PlayBetter SimStudio™ Essentials…",
-      "feed_title": "SkyTrak ST MAX with PlayBetter SimStudio™ ESSENTIALS Package | Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Projector & Protective Case",
-      "brand": "SkyTrak",
-      "retailer": "PlayBetter",
-      "rate": 5,
-      "list": 6995,
-      "sale": 4495,
-      "image": "https://www.playbetter.com/cdn/shop/files/Studio-10-Essentials-SkyTrak-ST-Max_1200x1200.jpg?v=1760608022",
-      "url": "https://www.playbetter.com/products/skytrak-st-max-with-playbetter-simstudio-essentials-package",
-      "track": "https://www.playbetter.com/products/skytrak-st-max-with-playbetter-simstudio-essentials-package?ghref=2301%3A1337756",
-      "dropped_from": null,
-      "from": true,
-      "spread_high": 5470,
-      "image_source": "product page",
-      "pct": 36,
-      "verified": true
-    },
-    {
-      "title": "Sqairz Speed™ Mesh",
-      "feed_title": "SPEED™ Mesh Light Gray & Blue / 9 - SQAIRZ",
-      "brand": "SQAIRZ",
-      "retailer": "SQAIRZ",
-      "rate": 5,
-      "list": 179,
-      "sale": 89,
-      "image": "https://cdn.shopify.com/s/files/1/0634/3458/8384/files/men_s_speed_mesh_gray_callout_1x1_01_7befaa9d-6877-4955-99d9-f57691667a8a.jpg?v=1736283724",
-      "url": "https://sqairz.com/products/speed-mesh?variant=44370434883808",
-      "track": "https://www.dpbolvw.net/click-101818675-15766439?url=https%3A%2F%2Fsqairz.com%2Fproducts%2Fspeed-mesh%3Fvariant%3D44370434883808&cjsku=44370434883808",
-      "pct": 50,
-      "verified": true
-    },
-    {
-      "title": "SkyTrak ST MAX Launch Monitor (Pre-Owned)",
-      "feed_title": "SkyTrak ST MAX Golf Launch Monitor and Simulator (Certified Pre-Owned)",
-      "brand": "SkyTrak",
-      "retailer": "PlayBetter",
-      "rate": 5,
-      "list": 2995,
-      "sale": 1595,
-      "image": "https://www.playbetter.com/cdn/shop/files/skytrak-st-max-launch-monitor-4_1200x1200.jpg?v=1783086511",
-      "url": "https://www.playbetter.com/products/skytrak-st-max-certified-refurbished",
-      "track": "https://www.playbetter.com/products/skytrak-st-max-certified-refurbished?ghref=2301%3A1337756",
-      "dropped_from": null,
-      "image_source": "product page",
-      "pct": 47,
-      "verified": true
-    },
-    {
-      "title": "Cobra Women's Darkspeed Hybrid",
-      "feed_title": "Women's DARKSPEED Hybrid Right / 7 / graphite womens",
-      "brand": "COBRA Golf",
-      "retailer": "Cobra Golf",
-      "rate": 4,
-      "list": 279,
-      "sale": 159,
-      "image": "https://www.cobragolf.com/cdn/shop/files/h8221_hero_3da4554f-1f7c-42f5-9f08-b60d8a9a5822_1000x.jpg?v=1760626989",
-      "url": "https://www.cobragolf.com/products/womens-darkspeed-hybrid",
-      "track": "https://www.jdoqocy.com/click-101818675-15600715?url=https%3A%2F%2Fwww.cobragolf.com%2Fproducts%2Fwomens-darkspeed-hybrid&cjsku=44371601555673",
-      "pct": 43,
-      "verified": true
-    },
-    {
-      "title": "Cobra Darkspeed LS Fairway Wood",
-      "feed_title": "DARKSPEED LS Fairway Right / 5 / graphite stiff",
-      "brand": "COBRA Golf",
-      "retailer": "Cobra Golf",
-      "rate": 4,
-      "list": 429,
-      "sale": 249,
-      "image": "https://www.cobragolf.com/cdn/shop/files/f8201_hero_1000x.jpg?v=1761159895",
-      "url": "https://www.cobragolf.com/products/darkspeed-ls-fairway",
-      "track": "https://www.dpbolvw.net/click-101818675-15600715?url=https%3A%2F%2Fwww.cobragolf.com%2Fproducts%2Fdarkspeed-ls-fairway&cjsku=44371596706009",
-      "pct": 42,
-      "verified": true
-    },
-    {
-      "title": "Cobra DS-ADAPT Hybrid",
-      "feed_title": "DS-ADAPT Hybrid Right / 5 / graphite regular",
-      "brand": "COBRA Golf",
-      "retailer": "Cobra Golf",
-      "rate": 4,
-      "list": 299,
-      "sale": 179,
-      "image": "https://www.cobragolf.com/cdn/shop/files/h9401_hero_6db811e6-9157-44ef-ab79-130dd1e4561e_1000x.jpg?v=1760626653",
-      "url": "https://www.cobragolf.com/products/ds-adapt-hybrid",
-      "track": "https://www.jdoqocy.com/click-101818675-15600715?url=https%3A%2F%2Fwww.cobragolf.com%2Fproducts%2Fds-adapt-hybrid&cjsku=46213472583897",
-      "pct": 40,
-      "verified": true
-    },
-    {
-      "title": "Cobra Women's DS-ADAPT Hybrid",
-      "feed_title": "Women's DS-ADAPT Hybrid Right / 4 / graphite womens",
-      "brand": "COBRA Golf",
-      "retailer": "Cobra Golf",
-      "rate": 4,
-      "list": 299,
-      "sale": 179,
-      "image": "https://www.cobragolf.com/cdn/shop/files/h9421_hero_0da43ab1-bc66-4dd3-92f8-a6ca57c297f8_1000x.jpg?v=1760624599",
-      "url": "https://www.cobragolf.com/products/womens-ds-adapt-hybrid",
-      "track": "https://www.kqzyfj.com/click-101818675-15600715?url=https%3A%2F%2Fwww.cobragolf.com%2Fproducts%2Fwomens-ds-adapt-hybrid&cjsku=46213476352217",
-      "pct": 40,
-      "verified": true
-    },
-    {
-      "title": "SkyTrak+ Launch Monitor with 1-Year Free Foresight Course…",
-      "feed_title": "SkyTrak+ Golf Launch Monitor & Simulator with 1-Year FREE Foresight Course Play Package",
-      "brand": "SkyTrak",
-      "retailer": "PlayBetter",
-      "rate": 5,
-      "list": 2495,
-      "sale": 1495,
-      "image": "https://www.playbetter.com/cdn/shop/files/2_e848b2da-376f-47d7-b187-cb399ce7e7cc_1200x1200.png?v=1747140412",
-      "url": "https://www.playbetter.com/products/skytrak-plus-golf-launch-monitor-simulator",
-      "track": "https://www.playbetter.com/products/skytrak-plus-golf-launch-monitor-simulator?ghref=2301%3A1337756",
-      "dropped_from": null,
-      "from": true,
-      "spread_high": 2069,
-      "image_source": "product page",
-      "pct": 40,
-      "verified": true
-    },
-    {
-      "title": "Puma AP Knit Golf 1/4 Zip",
-      "feed_title": "AP Knit Golf 1/4 Zip Peaceful blue / m",
-      "brand": "PUMA Golf",
-      "retailer": "Puma Golf",
-      "rate": 4,
-      "list": 180,
-      "sale": 107.99,
-      "image": "https://www.pumagolf.com/cdn/shop/files/627205_05_1000x.jpg?v=1750138533",
-      "url": "https://www.pumagolf.com/products/puma-x-ap-knit-golf-quarter-zip",
-      "track": "https://www.jdoqocy.com/click-101818675-15600716?url=https%3A%2F%2Fwww.pumagolf.com%2Fproducts%2Fpuma-x-ap-knit-golf-quarter-zip&cjsku=54537749200969",
-      "pct": 40,
-      "verified": true
-    },
-    {
-      "title": "Cobra Darkspeed MAX Fairway Wood",
-      "feed_title": "DARKSPEED MAX Fairway Left / 3 / graphite regular",
-      "brand": "COBRA Golf",
-      "retailer": "Cobra Golf",
-      "rate": 4,
-      "list": 329,
-      "sale": 199,
-      "image": "https://www.cobragolf.com/cdn/shop/files/f8215_hero_1000x.jpg?v=1760624302",
-      "url": "https://www.cobragolf.com/products/darkspeed-max-fairway",
-      "track": "https://www.dpbolvw.net/click-101818675-15600715?url=https%3A%2F%2Fwww.cobragolf.com%2Fproducts%2Fdarkspeed-max-fairway&cjsku=44371598213337",
-      "pct": 40,
-      "verified": true
-    },
-    {
-      "title": "Cobra Darkspeed X Fairway Wood",
-      "feed_title": "DARKSPEED X Fairway Right / 3hf / graphite lite",
-      "brand": "COBRA Golf",
-      "retailer": "Cobra Golf",
-      "rate": 4,
-      "list": 329,
-      "sale": 199,
-      "image": "https://www.cobragolf.com/cdn/shop/files/f8211_hero_1000x.jpg?v=1760624433",
-      "url": "https://www.cobragolf.com/products/darkspeed-x-fairway",
-      "track": "https://www.anrdoezrs.net/click-101818675-15600715?url=https%3A%2F%2Fwww.cobragolf.com%2Fproducts%2Fdarkspeed-x-fairway&cjsku=44371599130841",
-      "pct": 40,
-      "verified": true
-    },
-    {
-      "title": "Cobra DS-ADAPT MAX Fairway Wood",
-      "feed_title": "DS-ADAPT MAX Fairway Left / 5 / graphite lite",
-      "brand": "COBRA Golf",
-      "retailer": "Cobra Golf",
-      "rate": 4,
-      "list": 329,
-      "sale": 199,
-      "image": "https://www.cobragolf.com/cdn/shop/files/f9415_hero_1000x.jpg?v=1760626468",
-      "url": "https://www.cobragolf.com/products/ds-adapt-max-fairway",
-      "track": "https://www.jdoqocy.com/click-101818675-15600715?url=https%3A%2F%2Fwww.cobragolf.com%2Fproducts%2Fds-adapt-max-fairway&cjsku=46213474910425",
-      "pct": 40,
-      "verified": true
-    },
-    {
-      "title": "Cobra DS-ADAPT X Fairway Wood",
-      "feed_title": "DS-ADAPT X Fairway Right / 3hf / graphite lite",
-      "brand": "COBRA Golf",
-      "retailer": "Cobra Golf",
-      "rate": 4,
-      "list": 329,
-      "sale": 199,
-      "image": "https://www.cobragolf.com/cdn/shop/files/f9411_hero_8928fcad-6d0d-4f1b-8177-64be22cf8b51_1000x.jpg?v=1760626101",
-      "url": "https://www.cobragolf.com/products/ds-adapt-x-fairway",
-      "track": "https://www.jdoqocy.com/click-101818675-15600715?url=https%3A%2F%2Fwww.cobragolf.com%2Fproducts%2Fds-adapt-x-fairway&cjsku=46213475434713",
-      "pct": 40,
-      "verified": true
-    },
-    {
-      "title": "Puma Proadapt Alphacat 2.0 Spikeless Golf Shoes",
-      "feed_title": "PROADAPT ALPHACAT 2.0 Spikeless Golf Shoes Puma white / puma navy / for all time red / 11",
-      "brand": "PUMA Golf",
-      "retailer": "Puma Golf",
-      "rate": 4,
-      "list": 160,
-      "sale": 99,
-      "image": "https://www.pumagolf.com/cdn/shop/files/377525_03_1000x.jpg?v=1772736884",
-      "url": "https://www.pumagolf.com/products/proadapt-alphacat-2-spikeless-golf-shoes",
-      "track": "https://www.anrdoezrs.net/click-101818675-15600716?url=https%3A%2F%2Fwww.pumagolf.com%2Fproducts%2Fproadapt-alphacat-2-spikeless-golf-shoes&cjsku=55528342552649",
-      "pct": 38,
-      "verified": true
-    },
-    {
-      "title": "Cobra DS-ADAPT LS Fairway Wood",
-      "feed_title": "DS-ADAPT LS Fairway Left / 3 / graphite stiff",
-      "brand": "COBRA Golf",
-      "retailer": "Cobra Golf",
-      "rate": 4,
-      "list": 429,
-      "sale": 269,
-      "image": "https://www.cobragolf.com/cdn/shop/files/f9401_hero_1000x.jpg?v=1760627261",
-      "url": "https://www.cobragolf.com/products/ds-adapt-ls-fairway",
-      "track": "https://www.jdoqocy.com/click-101818675-15600715?url=https%3A%2F%2Fwww.cobragolf.com%2Fproducts%2Fds-adapt-ls-fairway&cjsku=46213473927385",
-      "pct": 37,
-      "verified": true
-    },
-    {
-      "title": "FlightScope Pro Package and Face Impact Location",
-      "feed_title": "FlightScope Pro Package and Face Impact Location",
-      "brand": "FlightScope",
-      "retailer": "PlayBetter",
-      "rate": 5,
-      "list": 1499,
-      "sale": 975,
-      "image": "https://www.playbetter.com/cdn/shop/files/flightscope-pro-package-face-impact-location-7_1200x1200.jpg?v=1762532413",
-      "url": "https://www.playbetter.com/products/flightscope-pro-package-and-face-impact-location",
-      "track": "https://www.playbetter.com/products/flightscope-pro-package-and-face-impact-location?ghref=2301%3A1337756",
-      "dropped_from": null,
-      "image_source": "product page",
-      "pct": 35,
-      "verified": true
     }
   ],
   "surplus_verified": [
+    {
+      "title": "Uneekor EYE XR with PlayBetter SimStudio™ Essentials…",
+      "url": "https://www.playbetter.com/products/uneekor-eye-xr-home-golf-simulator-playbetter-simstudio-essentials-studio-package",
+      "pct": 27
+    },
+    {
+      "title": "Uneekor EYE XR SportScreen Vanish Retractable Golf Studio…",
+      "url": "https://www.playbetter.com/products/uneekor-eye-xr-sportscreen-vanish-retractable-golf-studio-complete-package",
+      "pct": 23
+    },
+    {
+      "title": "Uneekor EYE XR SportScreen Vanish Lite Hybrid",
+      "url": "https://www.playbetter.com/products/uneekor-eye-xr-sportscreen-vanish-lite-semi-retractable-golf-studio-complete-package",
+      "pct": 24
+    },
+    {
+      "title": "SkyTrak+ with PlayBetter SimStudio™ Complete Package",
+      "url": "https://www.playbetter.com/products/skytrak-plus-golf-simulator-studio-package-playbetter-simstudio-with-impact-screen-enclosure-hitting-putting-mats-projector",
+      "pct": 42
+    },
+    {
+      "title": "SkyTrak+ with PlayBetter SimStudio™ Essentials Package",
+      "url": "https://www.playbetter.com/products/skytrak-plus-with-playbetter-simstudio-essentials-package-golf-simulator-studio",
+      "pct": 45
+    },
+    {
+      "title": "Uneekor EYE XR Launch Monitor with Swing Optix Cameras",
+      "url": "https://www.playbetter.com/products/uneekor-eye-xr-golf-launch-monitor-simulator",
+      "pct": 32
+    },
+    {
+      "title": "Foresight GC3 (Pre-Owned) with PlayBetter SimStudio™…",
+      "url": "https://www.playbetter.com/products/foresight-gc3-certified-pre-owned-with-playbetter-simstudio-complete-package",
+      "pct": 24
+    },
+    {
+      "title": "SkyTrak ST MAX with PlayBetter SimStudio™ BYO Package",
+      "url": "https://www.playbetter.com/products/skytrak-st-max-with-playbetter-simstudio-byo-build-your-own-package",
+      "pct": 38
+    },
+    {
+      "title": "SkyTrak ST MAX with PlayBetter SimStudio™ Complete Package",
+      "url": "https://www.playbetter.com/products/skytrak-st-max-with-playbetter-simstudio-complete-package",
+      "pct": 33
+    },
+    {
+      "title": "SkyTrak ST MAX with PlayBetter SimStudio™ Essentials…",
+      "url": "https://www.playbetter.com/products/skytrak-st-max-with-playbetter-simstudio-essentials-package",
+      "pct": 36
+    },
     {
       "title": "Uneekor EYE XO2 with PlayBetter SimStudio™ BYO Package",
       "url": "https://www.playbetter.com/products/uneekor-eye-xo2-diy-home-golf-simulator-studio-package-with-playbetter-simstudio-customizer",
@@ -549,191 +245,6 @@
       "title": "TruGolf Apogee with PlayBetter SimStudio™ Essentials…",
       "url": "https://www.playbetter.com/products/trugolf-apogee-with-playbetter-simstudio-essentials-package",
       "pct": 12
-    },
-    {
-      "title": "Uneekor EYE Mini Launch Monitor",
-      "url": "https://www.playbetter.com/products/uneekor-eye-mini-launch-monitor",
-      "pct": 33
-    },
-    {
-      "title": "FlightScope X3C Launch Monitor",
-      "url": "https://www.playbetter.com/products/flightscope-x3c-golf-launch-monitor-simulator",
-      "pct": 10
-    },
-    {
-      "title": "SkyTrak ST MAX SportScreen Vanish Retractable Golf Studio…",
-      "url": "https://www.playbetter.com/products/skytrak-st-max-sportscreen-vanish-retractable-golf-studio-complete-package",
-      "pct": 18
-    },
-    {
-      "title": "SkyTrak+ SportScreen Vanish Retractable Golf Studio…",
-      "url": "https://www.playbetter.com/products/skytrak-sportscreen-vanish-retractable-golf-studio-complete-package",
-      "pct": 19
-    },
-    {
-      "title": "SkyTrak ST MAX SportScreen Vanish Lite Hybrid",
-      "url": "https://www.playbetter.com/products/skytrak-st-max-sportscreen-vanish-lite-semi-retractable-golf-studio-complete-package",
-      "pct": 18
-    },
-    {
-      "title": "SkyTrak+ SportScreen Vanish Lite Hybrid",
-      "url": "https://www.playbetter.com/products/skytrak-sportscreen-vanish-lite-semi-retractable-golf-studio-complete-package",
-      "pct": 19
-    },
-    {
-      "title": "Uneekor EYE Mini Lite with PlayBetter SimStudio™ BYO…",
-      "url": "https://www.playbetter.com/products/uneekor-eye-mini-lite-playbetter-simstudio-byo-home-golf-studio-package",
-      "pct": 22
-    },
-    {
-      "title": "Uneekor EYE Mini Lite with PlayBetter SimStudio™ Complete…",
-      "url": "https://www.playbetter.com/products/uneekor-eye-mini-lite-golf-launch-monitor-simulator-studio-package",
-      "pct": 19
-    },
-    {
-      "title": "Uneekor EYE Mini Lite with PlayBetter SimStudio™…",
-      "url": "https://www.playbetter.com/products/uneekor-eye-mini-lite-home-golf-simulator-playbetter-simstudio-essentials-studio-package",
-      "pct": 20
-    },
-    {
-      "title": "Uneekor EYE Mini Lite SportScreen Vanish Retractable Golf…",
-      "url": "https://www.playbetter.com/products/uneekor-eye-mini-lite-sportscreen-vanish-retractable-golf-studio-complete-package",
-      "pct": 15
-    },
-    {
-      "title": "Uneekor EYE Mini Lite SportScreen Vanish Lite Hybrid",
-      "url": "https://www.playbetter.com/products/uneekor-eye-mini-lite-sportscreen-vanish-lite-semi-retractable-golf-studio-complete-package",
-      "pct": 15
-    },
-    {
-      "title": "TruGolf Apogee Golf Launch Monitor",
-      "url": "https://www.playbetter.com/products/trugolf-apogee-golf-launch-monitor",
-      "pct": 11
-    },
-    {
-      "title": "Foresight GCQuad Launch Monitor (Open Box)",
-      "url": "https://www.playbetter.com/products/foresight-gcquad-golf-launch-monitor-simulator-open-box",
-      "pct": 6
-    },
-    {
-      "title": "PlayBetter SkyTrak ST MAX Golf Launch Monitor Home Net…",
-      "url": "https://www.playbetter.com/products/skytrak-st-max-golf-launch-monitor-with-the-net-return-premium-hitting-net-package",
-      "pct": 27
-    },
-    {
-      "title": "PlayBetter SkyTrak+ Golf Launch Monitor Home Net Studio…",
-      "url": "https://www.playbetter.com/products/skytrak-golf-launch-monitor-with-the-net-return-pro-series-v2-golf-simulator-package-old",
-      "pct": 31
-    },
-    {
-      "title": "SkyTrak ST MAX Launch Monitor",
-      "url": "https://www.playbetter.com/products/skytrak-st-max-golf-launch-monitor-simulator",
-      "pct": 33
-    },
-    {
-      "title": "Foresight Falcon Golf Overhead Launch Monitor (Pre-Owned)",
-      "url": "https://www.playbetter.com/products/foresight-falcon-golf-overhead-launch-monitor-pre-owned",
-      "pct": 5
-    },
-    {
-      "title": "SkyTrak+ Portable Hitting Net Golf Studio Package",
-      "url": "https://www.playbetter.com/products/skytrak-portable-hitting-net-golf-studio-package",
-      "pct": 23
-    },
-    {
-      "title": "Uneekor EYE Mini Lite Golf Launch Monitor",
-      "url": "https://www.playbetter.com/products/uneekor-eye-mini-lite-golf-launch-monitor",
-      "pct": 27
-    },
-    {
-      "title": "Blue Tees Golf Rainmaker with PlayBetter SimStudio™ BYO…",
-      "url": "https://www.playbetter.com/products/blue-tees-golf-rainmaker-with-playbetter-simstudio-byo-build-your-own-package",
-      "pct": 14
-    },
-    {
-      "title": "Blue Tees Golf Rainmaker with PlayBetter SimStudio™…",
-      "url": "https://www.playbetter.com/products/blue-tees-golf-rainmaker-with-playbetter-simstudio-essentials-package",
-      "pct": 12
-    },
-    {
-      "title": "Bushnell Launch Pro Circle B Launch Monitor",
-      "url": "https://www.playbetter.com/products/bushnell-launch-pro-launch-monitor",
-      "pct": 14
-    },
-    {
-      "title": "Foresight Falcon with PlayBetter SimStudio™ BYO Package",
-      "url": "https://www.playbetter.com/products/foresight-falcon-playbetter-simstudio-byo-home-golf-studio-package",
-      "pct": 3
-    },
-    {
-      "title": "Foresight GC3 with PlayBetter SimStudio™ BYO Package",
-      "url": "https://www.playbetter.com/products/foresight-gc3-playbetter-simstudio-byo-home-golf-studio-package",
-      "pct": 5
-    },
-    {
-      "title": "Foresight GC3 with PlayBetter SimStudio™ Complete Package",
-      "url": "https://www.playbetter.com/products/foresight-gc3-with-link-golf-launch-monitor-studio-package",
-      "pct": 4
-    },
-    {
-      "title": "Foresight GCQuad with PlayBetter SimStudio™ Complete…",
-      "url": "https://www.playbetter.com/products/foresight-gcquad-golf-launch-monitor-studio-package-playbetter-simstudio-with-impact-screen-enclosure-hitting-putting-mats-projector",
-      "pct": 2
-    },
-    {
-      "title": "Foresight GCQuad with PlayBetter SimStudio™ Essentials…",
-      "url": "https://www.playbetter.com/products/foresight-gcquad-home-golf-simulator-playbetter-simstudio-essentials-studio-package",
-      "pct": 3
-    },
-    {
-      "title": "Foresight QuadMAX with PlayBetter SimStudio™ Essentials…",
-      "url": "https://www.playbetter.com/products/foresight-quadmax-home-golf-simulator-essentials-studio-package",
-      "pct": 2
-    },
-    {
-      "title": "Limited Edition Nf1990mo™ 11.5 - Sqairz",
-      "url": "https://sqairz.com/products/limited-edition-nf1990mo?variant=47235223126240",
-      "pct": 33
-    },
-    {
-      "title": "Limited Edition Nf1990mo™ 7 - Sqairz",
-      "url": "https://sqairz.com/products/limited-edition-nf1990mo?variant=47235222831328",
-      "pct": 33
-    },
-    {
-      "title": "Limited Edition Nf1990mo™ 8 - Sqairz",
-      "url": "https://sqairz.com/products/limited-edition-nf1990mo?variant=47235222896864",
-      "pct": 33
-    },
-    {
-      "title": "Limited Edition Nf1990mo™ 8.5 - Sqairz",
-      "url": "https://sqairz.com/products/limited-edition-nf1990mo?variant=47235222929632",
-      "pct": 33
-    },
-    {
-      "title": "Limited Edition Nf1990mo™ 9 - Sqairz",
-      "url": "https://sqairz.com/products/limited-edition-nf1990mo?variant=47235222962400",
-      "pct": 33
-    },
-    {
-      "title": "SkyTrak Essential Membership",
-      "url": "https://www.playbetter.com/products/skytrak-essential-membership",
-      "pct": 31
-    },
-    {
-      "title": "FlightScope Pro Package Upgrade (Software Only)",
-      "url": "https://www.playbetter.com/products/flightscope-mevo-plus-pro-package-upgrade",
-      "pct": 30
-    },
-    {
-      "title": "Cobra Grandsport-35 3D Printed Putter",
-      "url": "https://www.cobragolf.com/products/3dp-grandsport-35-putter",
-      "pct": 28
-    },
-    {
-      "title": "Sqairz Speed2™ LT",
-      "url": "https://sqairz.com/products/speed2-lt?variant=47139701358816",
-      "pct": 27
     }
   ],
   "dropped": [
@@ -756,411 +267,6 @@
       "title": "Uneekor EYE XO2 SportScreen Vanish Lite Hybrid",
       "url": "https://www.playbetter.com/products/uneekor-eye-xo2-sportscreen-vanish-lite-semi-retractable-golf-studio-complete-package",
       "reason": "price varies by variant ($15479.97–$17084.67) — our $16117.47 is neither the entry price nor what every buyer sees"
-    },
-    {
-      "title": "Bushnell LPi Circle B Personal Launch Monitor",
-      "url": "https://www.playbetter.com/products/bushnell-lpi-personal-launch-monitor-simulator",
-      "reason": "price varies by variant ($1999.99–$2129.99) — our $2129.99 is neither the entry price nor what every buyer sees"
-    },
-    {
-      "title": "FlightScope Mevo Gen2 with PlayBetter SimStudio™ BYO…",
-      "url": "https://www.playbetter.com/products/flightscope-mevo-gen2-playbetter-simstudio-byo-home-golf-studio-package",
-      "reason": "price varies by variant ($3794.00–$4769.00) — our $4769.00 is neither the entry price nor what every buyer sees"
-    },
-    {
-      "title": "FlightScope Mevo Gen2 with PlayBetter SimStudio™ Complete…",
-      "url": "https://www.playbetter.com/products/flightscope-mevo-gen2-with-playbetter-simstudio-complete-golf-simulator-studio-package",
-      "reason": "price varies by variant ($4794.00–$6769.00) — our $5769.00 is neither the entry price nor what every buyer sees"
-    },
-    {
-      "title": "FlightScope Mevo Gen2 with PlayBetter SimStudio™…",
-      "url": "https://www.playbetter.com/products/flightscope-mevo-gen2-with-playbetter-simstudio-essentials-golf-simulator-studio-package",
-      "reason": "price varies by variant ($4294.00–$6068.00) — our $5269.00 is neither the entry price nor what every buyer sees"
-    },
-    {
-      "title": "Bushnell Launch Pro Circle B with PlayBetter SimStudio™…",
-      "url": "https://www.playbetter.com/products/bushnell-launch-pro-playbetter-simstudio-byo-home-golf-studio-package",
-      "reason": "feed says $5624.99, live page shows $5494.99"
-    },
-    {
-      "title": "Bushnell LPi Circle B with PlayBetter SimStudio™ BYO…",
-      "url": "https://www.playbetter.com/products/bushnell-lpi-playbetter-simstudio-byo-home-golf-studio-package",
-      "reason": "feed says $4624.99, live page shows $4494.99"
-    },
-    {
-      "title": "Bushnell LPi Circle B with PlayBetter SimStudio™ Complete…",
-      "url": "https://www.playbetter.com/products/bushnell-lpi-personal-launch-monitor-simulator-studio-package",
-      "reason": "feed says $5624.99, live page shows $5494.99"
-    },
-    {
-      "title": "Bushnell LPi Circle B with PlayBetter SimStudio™…",
-      "url": "https://www.playbetter.com/products/bushnell-lpi-home-golf-simulator-playbetter-simstudio-essentials-studio-package",
-      "reason": "feed says $5124.99, live page shows $4994.99"
-    },
-    {
-      "title": "Rapsodo Mlm2pro SportScreen Vanish Retractable Golf…",
-      "url": "https://www.playbetter.com/products/rapsodo-mlm2pro-sportscreen-vanish-retractable-golf-studio-complete-package",
-      "reason": "price varies by variant ($5744.96–$7987.96) — our $7019.96 is neither the entry price nor what every buyer sees"
-    },
-    {
-      "title": "Blue Tees Golf Rainmaker SportScreen Vanish Retractable…",
-      "url": "https://www.playbetter.com/products/blue-tees-golf-rainmaker-sportscreen-vanish-retractable-golf-studio-complete-package",
-      "reason": "price varies by variant ($5249.96–$7917.16) — our $6949.96 is neither the entry price nor what every buyer sees"
-    },
-    {
-      "title": "Bushnell LPi Circle B SportScreen Vanish Retractable Golf…",
-      "url": "https://www.playbetter.com/products/bushnell-lpi-sportscreen-vanish-retractable-golf-studio-complete-package",
-      "reason": "price varies by variant ($6648.97–$9566.17) — our $8348.97 is neither the entry price nor what every buyer sees"
-    },
-    {
-      "title": "Foresight Falcon SportScreen Vanish Retractable Golf…",
-      "url": "https://www.playbetter.com/products/foresight-falcon-sportscreen-vanish-retractable-golf-studio-complete-package",
-      "reason": "price varies by variant ($21648.97–$24316.17) — our $23348.97 is neither the entry price nor what every buyer sees"
-    },
-    {
-      "title": "Foresight GC3 SportScreen Vanish Retractable Golf Studio…",
-      "url": "https://www.playbetter.com/products/foresight-gc3-gc3s-sportscreen-vanish-retractable-golf-studio-complete-package",
-      "reason": "price varies by variant ($12073.97–$14316.17) — our $13348.97 is neither the entry price nor what every buyer sees"
-    },
-    {
-      "title": "Foresight QuadMAX SportScreen Vanish Retractable Golf…",
-      "url": "https://www.playbetter.com/products/foresight-quadmax-sportscreen-vanish-retractable-golf-studio-complete-package",
-      "reason": "price varies by variant ($25073.97–$27316.17) — our $26348.97 is neither the entry price nor what every buyer sees"
-    },
-    {
-      "title": "Full Swing KIT SportScreen Vanish Retractable Golf Studio…",
-      "url": "https://www.playbetter.com/products/full-swing-kit-sportscreen-vanish-retractable-golf-studio-complete-package",
-      "reason": "price varies by variant ($9648.97–$12316.17) — our $11348.97 is neither the entry price nor what every buyer sees"
-    },
-    {
-      "title": "Garmin Approach R10 SportScreen Vanish Retractable Golf…",
-      "url": "https://www.playbetter.com/products/garmin-approach-r10-sportscreen-vanish-retractable-golf-studio-complete-package",
-      "reason": "price varies by variant ($5184.96–$7852.16) — our $6884.96 is neither the entry price nor what every buyer sees"
-    },
-    {
-      "title": "Garmin Approach R50 SportScreen Vanish Retractable Golf…",
-      "url": "https://www.playbetter.com/products/garmin-approach-r50-sportscreen-vanish-retractable-golf-studio-complete-package",
-      "reason": "price varies by variant ($10074.96–$12317.16) — our $11349.96 is neither the entry price nor what every buyer sees"
-    },
-    {
-      "title": "ProTee VX SportScreen Vanish Retractable Golf Studio…",
-      "url": "https://www.playbetter.com/products/protee-vx-sportscreen-vanish-retractable-golf-studio-complete-package",
-      "reason": "price varies by variant ($11149.97–$13817.17) — our $12849.97 is neither the entry price nor what every buyer sees"
-    },
-    {
-      "title": "SportScreen Vanish Retractable Golf Studio Complete…",
-      "url": "https://www.playbetter.com/products/sportscreen-vanish-retractable-golf-studio-complete-package-home-golf-simulator-studio-with-impact-screen-enclosure-hitting-mat-putting-turf-projector",
-      "reason": "price varies by variant ($4649.97–$7317.17) — our $6349.97 is neither the entry price nor what every buyer sees"
-    },
-    {
-      "title": "Square Golf SportScreen Vanish Retractable Golf Studio…",
-      "url": "https://www.playbetter.com/products/square-golf-sportscreen-vanish-retractable-golf-studio-complete-package",
-      "reason": "price varies by variant ($5449.96–$8117.16) — our $7149.96 is neither the entry price nor what every buyer sees"
-    },
-    {
-      "title": "Swing Caddie SC4 PRO SportScreen Vanish Retractable Golf…",
-      "url": "https://www.playbetter.com/products/swing-caddie-sc4-pro-sportscreen-vanish-retractable-golf-studio-complete-package",
-      "reason": "price varies by variant ($5249.96–$7917.16) — our $6949.96 is neither the entry price nor what every buyer sees"
-    },
-    {
-      "title": "TruGolf LaunchBox SportScreen Vanish Retractable Golf…",
-      "url": "https://www.playbetter.com/products/trugolf-launchbox-sportscreen-vanish-retractable-golf-studio-complete-package",
-      "reason": "price varies by variant ($8073.97–$10816.17) — our $9348.97 is neither the entry price nor what every buyer sees"
-    },
-    {
-      "title": "FlightScope Mevo Gen2 SportScreen Vanish Retractable Golf…",
-      "url": "https://www.playbetter.com/products/flightscope-mevo-gen2-sportscreen-vanish-retractable-golf-studio-complete-package",
-      "reason": "price varies by variant ($5983.97–$8651.17) — our $7683.97 is neither the entry price nor what every buyer sees"
-    },
-    {
-      "title": "Square Golf Omni SportScreen Vanish Retractable Golf…",
-      "url": "https://www.playbetter.com/products/square-golf-omni-sportscreen-vanish-retractable-golf-studio-complete-package",
-      "reason": "price varies by variant ($6249.96–$8917.16) — our $7949.96 is neither the entry price nor what every buyer sees"
-    },
-    {
-      "title": "Bushnell Launch Pro Circle B SportScreen Vanish…",
-      "url": "https://www.playbetter.com/products/bushnell-launch-pro-sportscreen-vanish-retractable-golf-studio-complete-package",
-      "reason": "feed says $7423.97, live page shows $7649.96"
-    },
-    {
-      "title": "Rapsodo Mlm2pro SportScreen Vanish Lite Hybrid",
-      "url": "https://www.playbetter.com/products/rapsodo-mlm2pro-sportscreen-vanish-lite-semi-retractable-golf-studio-complete-package",
-      "reason": "price varies by variant ($5079.96–$6684.66) — our $5717.46 is neither the entry price nor what every buyer sees"
-    },
-    {
-      "title": "Rapsodo Mlm2pro with PlayBetter SimStudio™ BYO Package",
-      "url": "https://www.playbetter.com/products/rapsodo-mlm2pro-playbetter-simstudio-byo-home-golf-studio-package",
-      "reason": "product page unreachable"
-    },
-    {
-      "title": "Rapsodo Mlm2pro with PlayBetter SimStudio™ Complete…",
-      "url": "https://www.playbetter.com/products/rapsodo-mlm2pro-golf-launch-monitor-simulator-studio-package-playbetter-simstudio-with-impact-screen-enclosure-hitting-putting-mats-projector",
-      "reason": "product page unreachable"
-    },
-    {
-      "title": "Rapsodo Mlm2pro with PlayBetter SimStudio™ Essentials…",
-      "url": "https://www.playbetter.com/products/rapsodo-mlm2pro-home-golf-simulator-playbetter-simstudio-essentials-studio-package",
-      "reason": "feed says $3624.99, live page shows $3594.99"
-    },
-    {
-      "title": "Blue Tees Golf Rainmaker SportScreen Vanish Lite Hybrid",
-      "url": "https://www.playbetter.com/products/blue-tees-golf-rainmaker-sportscreen-vanish-lite-semi-retractable-golf-studio-complete-package",
-      "reason": "product page unreachable"
-    },
-    {
-      "title": "Bushnell LPi Circle B SportScreen Vanish Lite Hybrid",
-      "url": "https://www.playbetter.com/products/bushnell-lpi-circle-b-sportscreen-vanish-lite-semi-retractable-golf-studio-complete-package",
-      "reason": "price varies by variant ($6053.97–$8083.67) — our $7116.47 is neither the entry price nor what every buyer sees"
-    },
-    {
-      "title": "FlightScope Mevo Gen2 SportScreen Vanish Lite Hybrid",
-      "url": "https://www.playbetter.com/products/flightscope-mevo-gen2-sportscreen-vanish-lite-semi-retractable-golf-studio-complete-package",
-      "reason": "price varies by variant ($5353.97–$7383.67) — our $6416.47 is neither the entry price nor what every buyer sees"
-    },
-    {
-      "title": "Foresight Falcon SportScreen Vanish Lite Hybrid",
-      "url": "https://www.playbetter.com/products/foresight-falcon-sportscreen-vanish-lite-semi-retractable-golf-studio-complete-package",
-      "reason": "price varies by variant ($21753.97–$24533.67) — our $23566.47 is neither the entry price nor what every buyer sees"
-    },
-    {
-      "title": "Foresight GC3 SportScreen Vanish Lite Hybrid",
-      "url": "https://www.playbetter.com/products/foresight-gc3-gc3s-sportscreen-vanish-lite-semi-retractable-golf-studio-complete-package",
-      "reason": "product page unreachable"
-    },
-    {
-      "title": "Foresight QuadMAX SportScreen Vanish Lite Hybrid",
-      "url": "https://www.playbetter.com/products/foresight-quadmax-sportscreen-vanish-lite-semi-retractable-golf-studio-complete-package",
-      "reason": "product page unreachable"
-    },
-    {
-      "title": "Full Swing KIT SportScreen Vanish Lite Hybrid",
-      "url": "https://www.playbetter.com/products/full-swing-kit-sportscreen-vanish-lite-semi-retractable-golf-studio-complete-package",
-      "reason": "price varies by variant ($9053.97–$11083.67) — our $10116.47 is neither the entry price nor what every buyer sees"
-    },
-    {
-      "title": "Garmin Approach R10 SportScreen Vanish Lite Hybrid",
-      "url": "https://www.playbetter.com/products/garmin-approach-r10-sportscreen-vanish-lite-semi-retractable-golf-studio-complete-package",
-      "reason": "price varies by variant ($4554.96–$6584.66) — our $5617.46 is neither the entry price nor what every buyer sees"
-    },
-    {
-      "title": "Garmin Approach R50 SportScreen Vanish Lite Hybrid",
-      "url": "https://www.playbetter.com/products/garmin-approach-r50-sportscreen-vanish-lite-semi-retractable-golf-studio-complete-package",
-      "reason": "price varies by variant ($9479.96–$11084.66) — our $10117.46 is neither the entry price nor what every buyer sees"
-    },
-    {
-      "title": "ProTee VX SportScreen Vanish Lite Hybrid",
-      "url": "https://www.playbetter.com/products/protee-vx-sportscreen-vanish-lite-semi-retractable-golf-studio-complete-package",
-      "reason": "price varies by variant ($10554.97–$12584.67) — our $11617.47 is neither the entry price nor what every buyer sees"
-    },
-    {
-      "title": "SportScreen Vanish Lite Hybrid",
-      "url": "https://www.playbetter.com/products/sportscreen-vanish-lite-semi-retractable-golf-studio-complete-package",
-      "reason": "price varies by variant ($4054.97–$6084.67) — our $5117.47 is neither the entry price nor what every buyer sees"
-    },
-    {
-      "title": "Square Golf Omni SportScreen Vanish Lite Hybrid",
-      "url": "https://www.playbetter.com/products/square-golf-omni-sportscreen-vanish-lite-semi-retractable-golf-studio-complete-package",
-      "reason": "price varies by variant ($5654.96–$7684.66) — our $6717.46 is neither the entry price nor what every buyer sees"
-    },
-    {
-      "title": "Square Golf SportScreen Vanish Lite Hybrid",
-      "url": "https://www.playbetter.com/products/square-golf-sportscreen-vanish-lite-semi-retractable-golf-studio-complete-package",
-      "reason": "price varies by variant ($4754.96–$6784.66) — our $5817.46 is neither the entry price nor what every buyer sees"
-    },
-    {
-      "title": "Bushnell Launch Pro Circle B SportScreen Vanish Lite…",
-      "url": "https://www.playbetter.com/products/bushnell-launch-pro-circle-b-sportscreen-vanish-lite-semi-retractable-golf-studio-complete-package",
-      "reason": "price varies by variant ($7053.97–$9083.67) — our $8116.47 is neither the entry price nor what every buyer sees"
-    },
-    {
-      "title": "TruGolf LaunchBox SportScreen Vanish Lite Hybrid",
-      "url": "https://www.playbetter.com/products/trugolf-launchbox-sportscreen-vanish-lite-semi-retractable-golf-studio-complete-package",
-      "reason": "price varies by variant ($7478.97–$9583.67) — our $8116.47 is neither the entry price nor what every buyer sees"
-    },
-    {
-      "title": "FlightScope Mevo Gen2 Golf Launch Monitor",
-      "url": "https://www.playbetter.com/products/flightscope-mevo-gen2-golf-launch-monitor",
-      "reason": "price varies by variant ($1299.00–$2309.00) — our $2274.00 is neither the entry price nor what every buyer sees"
-    },
-    {
-      "title": "Garmin Approach R50 Golf Simulator & Launch Monitor…",
-      "url": "https://www.playbetter.com/products/garmin-approach-r50-golf-simulator-launch-monitor-pre-owned",
-      "reason": "feed says $4495.00, live page shows $4399.99"
-    },
-    {
-      "title": "Foresight Falcon with PlayBetter SimStudio™ Complete…",
-      "url": "https://www.playbetter.com/products/foresight-falcon-golf-overhead-launch-monitor-studio-package-playbetter-simstudio™-with-impact-screen-enclosure-side-barriers-hitting-putting-mats-projector",
-      "reason": "product page unreachable"
-    },
-    {
-      "title": "Foresight Falcon with PlayBetter SimStudio™ Essentials…",
-      "url": "https://www.playbetter.com/products/foresight-falcon-home-golf-simulator-playbetter-simstudio-essentials-studio-package",
-      "reason": "product page unreachable"
-    },
-    {
-      "title": "Foresight GC3 with PlayBetter SimStudio™ Essentials…",
-      "url": "https://www.playbetter.com/products/foresight-gc3-with-link-home-golf-simulator-playbetter-simstudio-essentials-studio-package",
-      "reason": "product page unreachable"
-    },
-    {
-      "title": "Foresight GCQuad with PlayBetter SimStudio™ BYO Package",
-      "url": "https://www.playbetter.com/products/foresight-gcquad-playbetter-simstudio-byo-home-golf-studio-package",
-      "reason": "product page unreachable"
-    },
-    {
-      "title": "Foresight QuadMAX with PlayBetter SimStudio™ BYO Package",
-      "url": "https://www.playbetter.com/products/foresight-quadmax-playbetter-simstudio-byo-home-golf-studio-package",
-      "reason": "product page unreachable"
-    },
-    {
-      "title": "Foresight QuadMAX with PlayBetter SimStudio™ Complete…",
-      "url": "https://www.playbetter.com/products/foresight-quadmax-golf-launch-monitor-studio-package-playbetter-simstudio-with-impact-screen-enclosure-side-barriers-hitting-putting-mats-projector",
-      "reason": "product page unreachable"
-    },
-    {
-      "title": "Full Swing KIT with PlayBetter SimStudio™ BYO Package",
-      "url": "https://www.playbetter.com/products/full-swing-kit-playbetter-simstudio-byo-home-golf-studio-package",
-      "reason": "product page unreachable"
-    },
-    {
-      "title": "Puma Slipstream G Spikeless Golf Shoes",
-      "url": "https://www.pumagolf.com/products/slipstream-g-spikeless-golf-shoes",
-      "reason": "product page unreachable"
-    },
-    {
-      "title": "Cobra Darkspeed LS Driver",
-      "url": "https://www.cobragolf.com/products/darkspeed-ls-driver",
-      "reason": "product page unreachable"
-    },
-    {
-      "title": "Cobra Darkspeed X Driver",
-      "url": "https://www.cobragolf.com/products/darkspeed-x-driver",
-      "reason": "product page unreachable"
-    },
-    {
-      "title": "Cobra Darkspeed Hybrid",
-      "url": "https://www.cobragolf.com/products/darkspeed-hybrid",
-      "reason": "product page unreachable"
-    },
-    {
-      "title": "Puma Cloudspun Tech Golf Hoodie",
-      "url": "https://www.pumagolf.com/products/cloudspun-tech-golf-hoodie",
-      "reason": "product page unreachable"
-    },
-    {
-      "title": "Puma Ripguard Golf Vest",
-      "url": "https://www.pumagolf.com/products/ripguard-golf-vest",
-      "reason": "product page unreachable"
-    },
-    {
-      "title": "Puma Women's Kyley Quilted Golf Skirt",
-      "url": "https://www.pumagolf.com/products/womens-quilted-golf-skirt",
-      "reason": "product page unreachable"
-    },
-    {
-      "title": "Puma Countryman Golf Jacket",
-      "url": "https://www.pumagolf.com/products/countryman-golf-jacket",
-      "reason": "feed says $149.99, live page shows $52.99"
-    },
-    {
-      "title": "Cobra DS-ADAPT LS Volition Driver",
-      "url": "https://www.cobragolf.com/products/ds-adapt-ls-volition-driver",
-      "reason": "feed says $399.00, live page shows $16.99"
-    },
-    {
-      "title": "Cobra DS-ADAPT MAX-K Palm Tree Crew Driver",
-      "url": "https://www.cobragolf.com/products/ds-adapt-max-k-ptc-driver",
-      "reason": "feed says $399.00, live page shows $16.99"
-    },
-    {
-      "title": "Cobra DS-ADAPT LS Driver",
-      "url": "https://www.cobragolf.com/products/ds-adapt-ls-driver",
-      "reason": "feed says $349.00, live page shows $299.00"
-    },
-    {
-      "title": "Cobra DS-ADAPT MAX-D Driver",
-      "url": "https://www.cobragolf.com/products/ds-adapt-max-d-driver",
-      "reason": "feed says $349.00, live page shows $299.00"
-    },
-    {
-      "title": "Cobra DS-ADAPT MAX-K Driver",
-      "url": "https://www.cobragolf.com/products/ds-adapt-max-k-driver",
-      "reason": "feed says $349.00, live page shows $299.00"
-    },
-    {
-      "title": "Cobra DS-ADAPT X Driver",
-      "url": "https://www.cobragolf.com/products/ds-adapt-x-driver",
-      "reason": "feed says $349.00, live page shows $299.00"
-    },
-    {
-      "title": "Cobra Women's DS-ADAPT MAX-D Driver",
-      "url": "https://www.cobragolf.com/products/womens-ds-adapt-max-d-driver",
-      "reason": "product page unreachable"
-    },
-    {
-      "title": "Cobra Women's DS-ADAPT MAX-K Driver",
-      "url": "https://www.cobragolf.com/products/womens-ds-adapt-max-k-driver",
-      "reason": "product page unreachable"
-    },
-    {
-      "title": "Puma Phantomcat Nitro™ Sport Golf Shoes",
-      "url": "https://www.pumagolf.com/products/phantomcat-nitro-sport-golf-shoes",
-      "reason": "product page unreachable"
-    },
-    {
-      "title": "Cobra Junior DS-ADAPT MAX-K Driver",
-      "url": "https://www.cobragolf.com/products/junior-ds-adapt-max-k-driver",
-      "reason": "product page unreachable"
-    },
-    {
-      "title": "SkyCaddie LX2 Golf GPS Smartwatch",
-      "url": "https://www.playbetter.com/products/skycaddie-lx2-golf-gps-smartwatch",
-      "reason": "product page unreachable"
-    },
-    {
-      "title": "Rapsodo Mlm2pro Launch Monitor (Pre-Owned)",
-      "url": "https://www.playbetter.com/products/rapsodo-mlm2pro-golf-launch-monitor-simulator-certified-pre-owned",
-      "reason": "product page unreachable"
-    },
-    {
-      "title": "Puma Boy's Monterey Wind Golf Jacket",
-      "url": "https://www.pumagolf.com/products/boys-monterey-wind-golf-jacket",
-      "reason": "product page unreachable"
-    },
-    {
-      "title": "Puma Women's Avant Spikeless Golf Shoes",
-      "url": "https://www.pumagolf.com/products/womens-puma-avant-golf-shoes",
-      "reason": "product page unreachable"
-    },
-    {
-      "title": "FlightScope Face Impact Location Upgrade (Software Only)",
-      "url": "https://www.playbetter.com/products/flightscope-face-impact-location-software-upgrade",
-      "reason": "product page unreachable"
-    },
-    {
-      "title": "Cobra Agera 3D Printed Putter",
-      "url": "https://www.cobragolf.com/products/3dp-agera-putter",
-      "reason": "no price found on live page"
-    },
-    {
-      "title": "Cobra Agera Armlock 3D Printed Putter",
-      "url": "https://www.cobragolf.com/products/3dp-agera-armlock-putter",
-      "reason": "no price found on live page"
-    },
-    {
-      "title": "Cobra Agera Counter Balanced 3D Printed Putter",
-      "url": "https://www.cobragolf.com/products/3dp-agera-counter-balanced-putter",
-      "reason": "product page unreachable"
-    },
-    {
-      "title": "Cobra Grandsport Armlock 3D Printed Putter",
-      "url": "https://www.cobragolf.com/products/3dp-grandsport-armlock-putter",
-      "reason": "product page unreachable"
-    },
-    {
-      "title": "Cobra Supernova 3D Printed Putter",
-      "url": "https://www.cobragolf.com/products/3dp-supernova-putter",
-      "reason": "product page unreachable"
     }
   ]
 }
