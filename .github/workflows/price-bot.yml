@@ -35,7 +35,11 @@ jobs:
         env:
           CJ_PERSONAL_ACCESS_TOKEN: ${{ secrets.CJ_PERSONAL_ACCESS_TOKEN }}
           CJ_COMPANY_ID: ${{ secrets.CJ_COMPANY_ID }}
-        run: node scripts/build-deals-grid.mjs --limit 8
+        # 30, not 8. The board is grouped into five price bands of up to six
+        # cards; at --limit 8 there are not enough verified items to fill the
+        # middle bands, so the nightly run was quietly shrinking a 24-card board
+        # back to 8 and collapsing it to two bands.
+        run: node scripts/build-deals-grid.mjs --limit 30
       - name: Fail if the deals grid has gone stale
         # The rebuild above is continue-on-error so one bad night does not cost
         # us the whole refresh. The danger in that is silence: the job reports
