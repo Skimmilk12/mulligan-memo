@@ -8,3 +8,6 @@ Thumbs.db
 .claude/
 drafts/
 pins/art-raw/
+
+# CJ feed working files (the fetcher cleans these; a crash could leave them)
+data/feeds/.*
