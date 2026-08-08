@@ -13,11 +13,11 @@
   <meta property="og:title" content="Golf Accessories: Grips, Bags, Shoes & Care Guides" />
   <meta property="og:description" content="Honest guides to the gear that touches you every round — grips, gloves, shoes, bags, push carts — plus how to clean and re-grip your own clubs." />
   <meta property="og:url" content="https://mulliganmemo.com/accessories.html" />
-  <meta property="og:image" content="https://mulliganmemo.com/og/hub-accessories.png" />
+  <meta property="og:image" content="https://mulliganmemo.com/og-cover.png" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:image" content="https://mulliganmemo.com/og/hub-accessories.png" />
+  <meta name="twitter:image" content="https://mulliganmemo.com/og-cover.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,900&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400;1,6..72,500&family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet">
@@ -302,13 +302,53 @@
     <p class="hubnav">More categories: <a href="beginners.html">Golf for Beginners</a> &middot; <a href="clubs.html">Golf Clubs</a> &middot; <a href="tech.html">Golf Tech & Gadgets</a> &middot; <a href="golf-balls.html">Golf Balls</a></p>
   </article>
 
+  <!-- ORDERING TRAP, learned the hard way on 2026-08-08.
+       set-chrome.mjs also owns these five pages and installs the canonical
+       footer. Running build-hubs AFTER set-chrome overwrites that footer with
+       this one — which is exactly how all five hubs silently lost the newsletter
+       signup hours after it was rolled out sitewide. Rather than depend on
+       pipeline order, this footer now carries the signup too, so either order
+       leaves the pages correct. If the signup markup changes in set-chrome.mjs,
+       change it here as well. -->
   <footer>
     <div class="fwrap">
       <div class="fmark">Mulligan Memo</div>
+      <div class="foot-sub">
+        <p class="foot-sub-kick">THE DROP &#10038; SUNDAY MORNINGS</p>
+        <p class="foot-sub-p">The week&rsquo;s real price drops on clubs, launch monitors and simulator gear. Biggest saving first.</p>
+        <form class="foot-sub-form js-subscribe" method="post" action="https://buttondown.com/api/emails/embed-subscribe/mulliganmemo" target="nl-sink">
+          <input type="email" name="email" required placeholder="YOUR@EMAIL.COM" aria-label="Email address">
+          <button type="submit">GET THE DROP</button>
+        </form>
+        <p class="foot-sub-msg" aria-live="polite"></p>
+      </div>
       <div class="fdisc">Mulligan Memo is reader-supported. When you buy through links on our site, we may earn an affiliate commission at no extra cost to you. Recommendations reflect our honest opinion and are never paid placements.</div>
       <div class="fdisc"><a href="privacy-policy.html" style="color:inherit;text-decoration:underline;">Privacy Policy &amp; Disclosure</a></div>
       <a class="fback" href="index.html">← Back to Mulligan Memo</a>
     </div>
+    <script>
+      (function () {
+        var forms = document.querySelectorAll('form.js-subscribe');
+        if (!forms.length) return;
+        if (!document.querySelector('iframe[name="nl-sink"]')) {
+          var sink = document.createElement('iframe');
+          sink.name = 'nl-sink'; sink.style.display = 'none';
+          sink.setAttribute('aria-hidden', 'true'); document.body.appendChild(sink);
+        }
+        Array.prototype.forEach.call(forms, function (f) {
+          f.addEventListener('submit', function () {
+            var msg = f.parentNode.querySelector('.foot-sub-msg');
+            setTimeout(function () {
+              if (msg) msg.textContent = 'FILED ✦ CHECK YOUR INBOX TO CONFIRM.';
+              f.reset();
+            }, 300);
+            if (typeof gtag === 'function') {
+              gtag('event', 'newsletter_signup', { placement: 'footer', page_path: location.pathname });
+            }
+          });
+        });
+      })();
+    </script>
   </footer>
 </body>
 </html>
