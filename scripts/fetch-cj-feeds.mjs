@@ -24,7 +24,7 @@
 // Directory listing is disabled (404), so the filename must be built, not found.
 import { readFileSync, writeFileSync, mkdirSync, readdirSync, unlinkSync } from 'node:fs';
 import { join } from 'node:path';
-import { execFileSync } from 'node:child_process';
+import { inflateRawSync } from 'node:zlib';
 
 const ROOT = process.cwd();
 const SECRETS = process.env.MM_CJ_FEED_SECRETS_PATH || 'C:\\Users\\kinsm\\.secrets\\cj-feed.env';
@@ -44,11 +44,19 @@ const SUBSCRIPTIONS = [
   { id: '320167', slug: 'puma-cobra', name: 'Puma_Cobra_Daily_Product_Feed', optional: true },
 ];
 
+/* Environment first, local file second — same order as build-deals-grid.mjs.
+   CI has no .secrets directory, so without the env path this could only ever
+   run on Robert's machine and the nightly snapshot would never accumulate. */
 function creds() {
-  let raw = '';
-  try { raw = readFileSync(SECRETS, 'utf8'); } catch { return null; }
-  const get = k => (new RegExp('^' + k + '=(.*)$', 'm').exec(raw) || [])[1]?.trim() || '';
-  const user = get('CJ_FEED_USER'), pass = get('CJ_FEED_PASS');
+  let user = process.env.CJ_FEED_USER?.trim();
+  let pass = process.env.CJ_FEED_PASS?.trim();
+  if (!user || !pass) {
+    let raw = '';
+    try { raw = readFileSync(SECRETS, 'utf8'); } catch { /* no local secrets file */ }
+    const get = k => (new RegExp('^' + k + '=(.*)$', 'm').exec(raw) || [])[1]?.trim() || '';
+    user ||= get('CJ_FEED_USER');
+    pass ||= get('CJ_FEED_PASS');
+  }
   return user && pass ? { user, pass } : null;
 }
 
@@ -65,14 +73,7 @@ async function fetchSnapshot(sub, day, c) {
   if (!res.ok) throw new Error(`${sub.slug}: HTTP ${res.status}`);
 
   const zip = Buffer.from(await res.arrayBuffer());
-  const tmp = join(OUTDIR, `.${sub.slug}-${day}.zip`);
-  writeFileSync(tmp, zip);
-  // Node has no zip reader in core; PowerShell's Expand-Archive is always here.
-  const dir = join(OUTDIR, `.${sub.slug}-${day}`);
-  execFileSync('powershell', ['-NoProfile', '-Command',
-    `Expand-Archive -LiteralPath '${tmp}' -DestinationPath '${dir}' -Force`], { stdio: 'ignore' });
-  const inner = readdirSync(dir)[0];
-  const text = readFileSync(join(dir, inner), 'utf8');
+  const text = unzipSingle(zip);
 
   const records = parseCsv(text);
   const head = records[0];
@@ -88,9 +89,37 @@ async function fetchSnapshot(sub, day, c) {
     if (p !== null && p >= PRICE_FLOOR) prices[f[iId]] = p;
   }
 
-  execFileSync('powershell', ['-NoProfile', '-Command',
-    `Remove-Item -LiteralPath '${tmp}','${dir}' -Recurse -Force`], { stdio: 'ignore' });
   return { prices, inStock, rows: records.length - 1, bytes: zip.length };
+}
+
+/* Node has no zip reader in core. The first version shelled out to PowerShell's
+   Expand-Archive, which does not exist on the ubuntu runner — so the nightly job
+   would have failed the moment it ran in CI. Read the archive in-process
+   instead: no temp files, no platform branch, nothing to clean up on crash.
+   Sizes come from the central directory rather than the local header, because
+   the local header carries zeroes whenever the streaming-descriptor flag is set. */
+function unzipSingle(buf) {
+  let eocd = -1;
+  for (let i = buf.length - 22; i >= 0 && i > buf.length - 66000; i--) {
+    if (buf.readUInt32LE(i) === 0x06054b50) { eocd = i; break; }
+  }
+  if (eocd < 0) throw new Error('not a zip (no end-of-central-directory record)');
+  const cd = buf.readUInt32LE(eocd + 16);
+  if (buf.readUInt32LE(cd) !== 0x02014b50) throw new Error('bad central directory signature');
+
+  const method = buf.readUInt16LE(cd + 10);
+  const compSize = buf.readUInt32LE(cd + 20);
+  const nameLen = buf.readUInt16LE(cd + 28);
+  const lho = buf.readUInt32LE(cd + 42);
+  const name = buf.toString('utf8', cd + 46, cd + 46 + nameLen);
+
+  if (buf.readUInt32LE(lho) !== 0x04034b50) throw new Error('bad local header signature');
+  const start = lho + 30 + buf.readUInt16LE(lho + 26) + buf.readUInt16LE(lho + 28);
+  const data = buf.subarray(start, start + compSize);
+
+  if (method === 0) return data.toString('utf8');            // stored
+  if (method === 8) return inflateRawSync(data, { maxOutputLength: 512 * 1024 * 1024 }).toString('utf8');
+  throw new Error(`unsupported zip compression method ${method} for ${name}`);
 }
 
 /* RFC4180 over the WHOLE file, not line by line. These feeds quote product

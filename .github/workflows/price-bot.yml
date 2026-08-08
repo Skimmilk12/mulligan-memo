@@ -47,6 +47,18 @@ jobs:
         # middle bands, so the nightly run was quietly shrinking a 24-card board
         # back to 8 and collapsing it to two bands.
         run: node scripts/build-deals-grid.mjs --limit 30
+      - name: Snapshot the CJ product feeds
+        # TGW publishes a price and no compare-at price, so a discount can only
+        # be derived by diffing consecutive days. That needs a snapshot taken
+        # every day without exception — a gap is a day we cannot compute drops
+        # for. Publishes nothing; it only accumulates data/feeds/*.json.
+        # No-ops cleanly when the secrets are absent, so this is safe to have
+        # here before they exist.
+        continue-on-error: true
+        env:
+          CJ_FEED_USER: ${{ secrets.CJ_FEED_USER }}
+          CJ_FEED_PASS: ${{ secrets.CJ_FEED_PASS }}
+        run: node scripts/fetch-cj-feeds.mjs
       - name: Regenerate sitemap.xml
         # /deals and the four department hubs are declared changefreq=daily and
         # are in fact rewritten every night — but the sitemap was only rebuilt
