@@ -304,7 +304,8 @@ async function cj(query, token) {
 function productQuery(company, partnerId, offset, limit) {
   return `{products(companyId:"${company}",partnerIds:["${partnerId}"],offset:${offset},limit:${limit}){
     resultList{ title brand advertiserName price{amount} salePrice{amount}
-    imageLink link linkCode(pid:"${PID}"){clickUrl} ... on Shopping{availability} }}}`;
+    imageLink link linkCode(pid:"${PID}"){clickUrl}
+    ... on Shopping{ availability gtin mpn itemGroupId } }}}`;
 }
 
 async function fetchAdvertiser(adv, company, token) {
@@ -341,6 +342,17 @@ async function fetchAdvertiser(adv, company, token) {
           image: p.imageLink,
           url: p.link,
           track: p.linkCode.clickUrl,
+          /* PRODUCT IDENTITY. Nothing on the board uses these yet — they are
+             captured because the site is moving toward per-PRODUCT pages
+             (price history, ratings) rather than per-offer cards, and that
+             needs a key that survives a URL change and matches the same club
+             across merchants. The API had them all along; we simply never
+             asked. Verified populated: SQAIRZ returns gtin, mpn and
+             itemGroupId on every row. Start the history tonight rather than
+             from whenever the schema is settled. */
+          gtin: p.gtin || null,
+          mpn: p.mpn || null,
+          item_group_id: p.itemGroupId || null,
         });
       }
     }
