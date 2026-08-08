@@ -2137,3 +2137,48 @@ details.toc nav { padding: 4px 22px 20px; }
 .bag-inline-btn { font-family: var(--mono); font-size: 12px; padding: 4px 10px; margin-left: 4px;
   cursor: pointer; background: var(--pine); border: 1px solid var(--pine); border-radius: 2px; color: var(--memo); }
 .bag-inline-btn:hover { background: var(--pine-deep); }
+
+/* --------------------------------------------------------------------------
+   FOOTER SIGNUP
+   The only subscribe form on the site lived on the homepage — 1 page of 91.
+   Every guide, chart and the deals board itself gave a reader no way to hear
+   about the next price drop. This puts one in the footer everywhere.
+   -------------------------------------------------------------------------- */
+.foot-sub {
+  border-top: 1px solid rgba(234, 217, 189, 0.28);
+  border-bottom: 1px solid rgba(234, 217, 189, 0.28);
+  padding: 22px 0; margin: 26px 0 20px;
+}
+.foot-sub-kick {
+  font-family: var(--mono); font-size: 0.72rem; font-weight: 700;
+  letter-spacing: 0.16em; color: var(--brass-light); margin: 0 0 6px;
+}
+.foot-sub-p {
+  font-family: var(--body); font-size: 0.95rem; color: var(--cream-dark);
+  margin: 0 0 14px; max-width: 52ch;
+}
+.foot-sub-form { display: flex; flex-wrap: wrap; gap: 10px; }
+.foot-sub-form input {
+  flex: 1 1 260px; min-width: 0;
+  font-family: var(--mono); font-size: 0.82rem; letter-spacing: 0.04em;
+  padding: 11px 13px; color: var(--ink); background: var(--memo);
+  border: 1.5px solid var(--brass-edge);
+}
+.foot-sub-form button {
+  font-family: var(--mono); font-weight: 700; font-size: 0.78rem;
+  letter-spacing: 0.08em; padding: 11px 20px; cursor: pointer;
+  background: var(--brass); color: var(--cta-ink);
+  border: 1.5px solid var(--brass-edge);
+}
+.foot-sub-form button:hover { background: var(--brass-light); }
+.foot-sub-msg {
+  font-family: var(--mono); font-size: 0.74rem; letter-spacing: 0.06em;
+  color: var(--brass-light); margin: 10px 0 0; min-height: 1em;
+}
+/* On a phone this is the only signup on the page, so give the field and the
+   button a real 44px touch target instead of the 38px the desktop padding
+   produced. */
+@media (max-width: 520px) {
+  .foot-sub-form button { width: 100%; }
+  .foot-sub-form input, .foot-sub-form button { min-height: 44px; }
+}

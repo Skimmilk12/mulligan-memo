@@ -259,11 +259,43 @@ ${hub.related.map(([href, label]) => `      <li><a class="inline" href="${href}"
         </ul>
       </div>
     </div>
+    <div class="foot-sub">
+      <p class="foot-sub-kick">THE DROP &#10038; SUNDAY MORNINGS</p>
+      <p class="foot-sub-p">The week&rsquo;s real price drops on clubs, launch monitors and simulator gear. Biggest saving first.</p>
+      <form class="foot-sub-form js-subscribe" method="post" action="https://buttondown.com/api/emails/embed-subscribe/mulliganmemo" target="nl-sink">
+        <input type="email" name="email" required placeholder="YOUR@EMAIL.COM" aria-label="Email address">
+        <button type="submit">GET THE DROP</button>
+      </form>
+      <p class="foot-sub-msg" aria-live="polite"></p>
+    </div>
     <p class="fdisc">When you buy through links on the Memo we may earn a small commission — it never changes the pick. As an Amazon Associate, we earn from qualifying purchases.</p>
     <div class="mm-foot-bottom">
       <span>© 2026 Mulligan Memo</span>
     </div>
   </div>
+  <script>
+    (function () {
+      var forms = document.querySelectorAll('form.js-subscribe');
+      if (!forms.length) return;
+      if (!document.querySelector('iframe[name="nl-sink"]')) {
+        var sink = document.createElement('iframe');
+        sink.name = 'nl-sink'; sink.style.display = 'none';
+        sink.setAttribute('aria-hidden', 'true'); document.body.appendChild(sink);
+      }
+      Array.prototype.forEach.call(forms, function (f) {
+        f.addEventListener('submit', function () {
+          var msg = f.parentNode.querySelector('.foot-sub-msg');
+          setTimeout(function () {
+            if (msg) msg.textContent = 'FILED ✦ CHECK YOUR INBOX TO CONFIRM.';
+            f.reset();
+          }, 300);
+          if (typeof gtag === 'function') {
+            gtag('event', 'newsletter_signup', { placement: 'footer', page_path: location.pathname });
+          }
+        });
+      });
+    })();
+  <\/script>
 </footer>
 
   <script src="/search.js" defer></script>
@@ -356,6 +388,20 @@ const stamp = `    <p class="dd-stamp">Inventory refreshed <strong>${esc(latest.
 for (const hub of HUBS) {
   const file = path.join(dir, `${hub.slug}.html`);
   if (!fs.existsSync(file)) { fs.writeFileSync(file, shell(hub)); console.log(`created shell: deals/${hub.slug}.html`); }
+  /* The shell is written once and never again, so anything living outside the
+     hub:auto markers froze on the day the file was created. That is how these
+     four pages missed the footer signup: the template had it, the files did
+     not. The footer is machine chrome, not hand-edited copy, so refresh it from
+     the template on every run and the next change reaches them automatically. */
+  {
+    const FOOT_RE = /<footer[^>]*>[\s\S]*?<\/footer>/;   // the tag carries a class
+    const tpl = shell(hub).match(FOOT_RE);
+    const cur = fs.readFileSync(file, 'utf8');
+    if (tpl && FOOT_RE.test(cur)) {
+      const next = cur.replace(FOOT_RE, () => tpl[0]);
+      if (next !== cur) { fs.writeFileSync(file, next, 'utf8'); console.log(`footer refreshed: deals/${hub.slug}.html`); }
+    }
+  }
   const rows = buckets.get(hub.slug).sort((a, b) => b.pct_off - a.pct_off).slice(0, MAX_ROWS);
   let body = rows.length
     ? `${stamp}\n\n    <h2><span class="kick">The Ledger</span>${rows.length} verified deal${rows.length === 1 ? '' : 's'} live</h2>\n    <div class="dd-ledger">\n${rows.map(rowHtml).join('\n')}\n    </div>`
