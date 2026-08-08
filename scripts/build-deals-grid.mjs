@@ -310,18 +310,32 @@ function productQuery(company, partnerId, offset, limit) {
 
 async function fetchAdvertiser(adv, company, token) {
   const byUrl = new Map();
+  const variantsByUrl = new Map();   // every variant seen per page, before the collapse
   for (let offset = 0; offset < 4000; offset += 1000) {
     const data = await cj(productQuery(company, adv.id, offset, 1000), token);
     const list = data.products.resultList;
     for (const p of list) {
       const listPrice = Number(p.price?.amount);
       const sale = Number(p.salePrice?.amount);
+      const title = (p.title || '').trim();
+
+      /* IDENTITY FIRST, COMMERCE SECOND.
+         Every filter below this point is about whether something deserves a
+         card tonight — discounted, in stock, above the headline price, not an
+         accessory. None of that has anything to do with what the product IS.
+         Capturing after them would record "the variants that happened to be on
+         sale", which is not the variant set and would silently misrepresent the
+         model the first time we matched on it. */
+      if (p.link && title) {
+        if (!variantsByUrl.has(p.link)) variantsByUrl.set(p.link, []);
+        variantsByUrl.get(p.link).push(p);
+      }
+
       if (!Number.isFinite(listPrice) || !Number.isFinite(sale)) continue;
       if (sale >= listPrice) continue;                       // not actually discounted
       if (p.availability !== 'in stock') continue;
       if (!p.imageLink || !p.linkCode?.clickUrl) continue;    // no photo or no commission = no card
       if (sale < MIN_HEADLINE_PRICE) continue;
-      const title = (p.title || '').trim();
       if (NOT_A_HEADLINE.some((w) => title.toLowerCase().includes(w))) continue;
 
       /* One card per product page. The feed lists every size and colour as its
@@ -342,17 +356,36 @@ async function fetchAdvertiser(adv, company, token) {
           image: p.imageLink,
           url: p.link,
           track: p.linkCode.clickUrl,
-          /* PRODUCT IDENTITY. Nothing on the board uses these yet — they are
-             captured because the site is moving toward per-PRODUCT pages
-             (price history, ratings) rather than per-offer cards, and that
-             needs a key that survives a URL change and matches the same club
-             across merchants. The API had them all along; we simply never
-             asked. Verified populated: SQAIRZ returns gtin, mpn and
-             itemGroupId on every row. Start the history tonight rather than
-             from whenever the schema is settled. */
-          gtin: p.gtin || null,
-          mpn: p.mpn || null,
+          /* PRODUCT IDENTITY — AT THE RIGHT GRANULARITY.
+             The site is moving toward per-PRODUCT pages (price history,
+             ratings) rather than per-offer cards, which needs a key that
+             survives a URL change and matches the same club across merchants.
+             The CJ API exposes gtin/mpn/itemGroupId on the query we already
+             run; we simply never asked.
+
+             The first version of this stored p.gtin directly and was wrong.
+             byUrl collapses every variant sharing a product page down to the
+             single best discount, so the surviving GTIN describes ONE
+             configuration while the card title describes the model. Measured
+             on live Cobra/Puma data: 61 of 105 discounted in-stock URLs carry
+             multiple variants with different GTINs. "101 EVO Golf Pants" has
+             thirteen on one URL, and we were storing the code for
+             "Deep navy / 33 / 34"; the PUR Tech glove stored "Left cadet /
+             m/l". Binding a model to that would be a false merge, which
+             contaminates deals, price history and ratings at once.
+
+             So identity is captured BEFORE the collapse and kept as the whole
+             variant set. itemGroupId is the advertiser's own model-level
+             grouping and is the only one of the three safe to treat as
+             model-scoped — and only within that advertiser. */
           item_group_id: p.itemGroupId || null,
+          variants: (variantsByUrl.get(p.link) || []).map(v => ({
+            gtin: v.gtin || null,
+            mpn: v.mpn || null,
+            title: v.title,
+            list: Number(v.price?.amount),
+            sale: Number(v.salePrice?.amount),
+          })),
         });
       }
     }
