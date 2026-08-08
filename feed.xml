@@ -6,7 +6,15 @@
     <atom:link href="https://mulliganmemo.com/feed.xml" rel="self" type="application/rss+xml" />
     <description>Honest golf gear reviews and buying guides — clubs, balls, tech, and accessories.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 03 Aug 2026 01:13:07 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 08 Aug 2026 21:35:49 GMT</lastBuildDate>
+    <item>
+      <title>Golf Iron Fitting Chart: What Each Maker Actually Measures</title>
+      <link>https://mulliganmemo.com/posts/golf-iron-fitting-chart.html</link>
+      <guid isPermaLink="true">https://mulliganmemo.com/posts/golf-iron-fitting-chart.html</guid>
+      <category>Golf Clubs</category>
+      <pubDate>Sat, 08 Aug 2026 12:00:00 GMT</pubDate>
+      <description>PING, Wishon, Hireko and Vice publish four different iron fitting charts. Here is what each asks for, what it returns, and the nine degrees of lie angle a height-only chart cannot see.</description>
+    </item>
     <item>
       <title>The Sunday Memo — No. 5 (August 2, 2026)</title>
       <link>https://mulliganmemo.com/memo/2026-08-02.html</link>
@@ -37,7 +45,7 @@
       <guid isPermaLink="true">https://mulliganmemo.com/posts/golf-club-loft-chart.html</guid>
       <category>Golf Clubs</category>
       <pubDate>Sun, 02 Aug 2026 12:00:00 GMT</pubDate>
-      <description>Every current iron loft from Titleist and PING, read from their own spec tables, plus a gap checker that finds the holes between the clubs you actually own.</description>
+      <description>Iron lofts from nine current Titleist and PING sets, read from their own spec tables, plus a gap checker that finds the holes between the clubs you actually own.</description>
     </item>
     <item>
       <title>Golf Glove Size Chart: Four Brands, Four Answers</title>

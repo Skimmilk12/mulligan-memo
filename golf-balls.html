@@ -121,37 +121,10 @@
 </head>
 
 <body>
-  <div class="mm-topbar">
-    <a class="mm-brand" href="/">Mulligan Memo</a>
+  <div class="bar">
+    <a class="home" href="index.html">Mulligan Memo</a>
+    <a class="back" href="index.html">← All dispatches</a>
   </div>
-  <nav class="mm-nav" aria-label="Primary">
-    <input class="mm-nav-toggle" id="mm-nav-toggle" type="checkbox" aria-controls="primary-menu">
-    <div class="mm-mobile-row">
-      <a class="mm-mobile-brand" href="/">Mulligan Memo</a>
-      <label class="mm-menu-label" for="mm-nav-toggle">
-        <span class="sr-only">Toggle primary menu</span>
-        <span class="mm-menu-word" aria-hidden="true"></span>
-      </label>
-    </div>
-    <div class="mm-nav-in" id="primary-menu">
-      <a href="/beginners.html">BEGINNERS</a>
-      <a href="/clubs.html">CLUBS</a>
-      <a href="/tech.html">TECH</a>
-      <a href="/accessories.html">ACCESSORIES</a>
-      <a href="/golf-balls.html" class="active">BALLS</a>
-      <a href="/launch-monitors.html">LAUNCH MONITORS</a>
-      <a href="/deals.html">DEALS</a>
-      <a href="/glossary.html">GLOSSARY</a>
-      <a href="/distance-chart.html">DISTANCES</a>
-      <a href="/my-bag.html">MY BAG</a>
-      <a href="/about.html">ABOUT</a>
-      <form class="mm-search" role="search" onsubmit="return false;">
-        <label for="archive-search"><span aria-hidden="true">⌕</span><span class="sr-only">Search the archive</span></label>
-        <input id="archive-search" type="search" placeholder="SEARCH THE ARCHIVE…" autocomplete="off">
-        <div class="mm-search-results" id="archive-results"></div>
-      </form>
-    </div>
-  </nav>
 
   <article class="wrap">
     <nav class="crumbs" aria-label="Breadcrumb">
@@ -221,96 +194,12 @@
   </article>
 
   <footer>
-  <div class="fwrap">
-    <div class="mm-foot-top">
+    <div class="fwrap">
       <div class="fmark">Mulligan Memo</div>
+      <div class="fdisc">Mulligan Memo is reader-supported. When you buy through links on our site, we may earn an affiliate commission at no extra cost to you. Recommendations reflect our honest opinion and are never paid placements.</div>
+      <div class="fdisc"><a href="privacy-policy.html" style="color:inherit;text-decoration:underline;">Privacy Policy &amp; Disclosure</a></div>
+      <a class="fback" href="index.html">← Back to Mulligan Memo</a>
     </div>
-    <div class="mm-foot-rule"></div>
-    <div class="mm-foot-grid">
-      <div>
-        <h4>Guides</h4>
-        <ul>
-          <li><a href="/beginners.html">Beginners</a></li>
-          <li><a href="/clubs.html">Golf Clubs</a></li>
-          <li><a href="/tech.html">Golf Tech</a></li>
-          <li><a href="/accessories.html">Accessories</a></li>
-          <li><a href="/golf-balls.html">Golf Balls</a></li>
-        </ul>
-      </div>
-      <div>
-        <h4>Reference</h4>
-        <ul>
-          <li><a href="/deals.html">The Deals Desk</a></li>
-          <li><a href="/distance-chart.html">Club Distance Chart</a></li>
-          <li><a href="/glossary.html">Golf Glossary</a></li>
-          <li><a href="/about.html">About</a></li>
-          <li><a href="/privacy-policy.html">Privacy &amp; Disclosure</a></li>
-        </ul>
-      </div>
-      <div>
-        <h4>The Desk</h4>
-        <ul>
-          <li><a href="/author.html#beginners-desk">Beginners &amp; Balls Desk</a></li>
-          <li><a href="/author.html#clubs-desk">Clubs Desk</a></li>
-          <li><a href="/author.html#tech-desk">Tech Desk</a></li>
-          <li><a href="/author.html#practice-desk">Practice Desk</a></li>
-          <li><a href="/author.html#accessories-desk">Accessories Desk</a></li>
-        </ul>
-      </div>
-      <div>
-        <h4>Follow</h4>
-        <ul>
-          <li><a href="/#sunday-memo">The Sunday Memo</a></li>
-          <li><a href="/memo.html">Memo Archive</a></li>
-          <li><a href="/feed.xml">RSS Feed</a></li>
-          <li><a href="https://www.pinterest.com/mulliganmemo/" rel="noopener">Pinterest</a></li>
-          <li><a href="/about.html">About the Memo</a></li>
-        </ul>
-      </div>
-    </div>
-    <div class="foot-sub">
-      <p class="foot-sub-kick">THE DROP &#10038; SUNDAY MORNINGS</p>
-      <p class="foot-sub-p">The week&rsquo;s real price drops on clubs, launch monitors and simulator gear. Biggest saving first.</p>
-      <form class="foot-sub-form js-subscribe" method="post" action="https://buttondown.com/api/emails/embed-subscribe/mulliganmemo" target="nl-sink">
-        <input type="email" name="email" required placeholder="YOUR@EMAIL.COM" aria-label="Email address">
-        <button type="submit">GET THE DROP</button>
-      </form>
-      <p class="foot-sub-msg" aria-live="polite"></p>
-    </div>
-    <p class="fdisc">When you buy through links on the Memo we may earn a small commission — it never changes the pick. As an Amazon Associate, we earn from qualifying purchases.</p>
-    <div class="mm-foot-bottom">
-      <span>© 2026 Mulligan Memo</span>
-    </div>
-  </div>
-  <script>
-    /* One signup lived on the homepage and nowhere else — 1 page out of 91.
-       Every article the SEO work targets, and the deals board itself, had no way
-       to subscribe. Class-based so several forms can coexist on a page. */
-    (function () {
-      var forms = document.querySelectorAll('form.js-subscribe');
-      if (!forms.length) return;
-      if (!document.querySelector('iframe[name="nl-sink"]')) {
-        var sink = document.createElement('iframe');
-        sink.name = 'nl-sink';
-        sink.style.display = 'none';
-        sink.setAttribute('aria-hidden', 'true');
-        document.body.appendChild(sink);
-      }
-      Array.prototype.forEach.call(forms, function (f) {
-        f.addEventListener('submit', function () {
-          var msg = f.parentNode.querySelector('.foot-sub-msg');
-          setTimeout(function () {
-            if (msg) msg.textContent = 'FILED ✦ CHECK YOUR INBOX TO CONFIRM.';
-            f.reset();
-          }, 300);
-          if (typeof gtag === 'function') {
-            gtag('event', 'newsletter_signup', { placement: 'footer', page_path: location.pathname });
-          }
-        });
-      });
-    })();
-  </script>
-</footer>
-  <script src="/search.js" defer></script>
+  </footer>
 </body>
 </html>
