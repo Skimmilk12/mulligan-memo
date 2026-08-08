@@ -22,7 +22,7 @@
       "pct_off": 43,
       "url": "https://www.playbetter.com/products/skytrak-plus-with-playbetter-simstudio-essentials-package-golf-simulator-studio",
       "affiliate": false,
-      "verdict": "A whole bay in one box — SkyTrak+ launch monitor, impact screen, enclosure, hitting mat, projector and a year of Foresight course play — for $2,600 under its usual ask. If you'd rather buy the room than assemble it deal by deal, this is the honest all-in number."
+      "verdict": "A whole bay in one box — SkyTrak+ launch monitor, impact screen, enclosure, hitting mat, projector and a year of Foresight course play — for $2,850 under its usual ask. If you'd rather buy the room than assemble it deal by deal, this is the honest all-in number."
     },
     {
       "title": "SwingBay Simulator Screen & Enclosure",
@@ -55,7 +55,7 @@
       "pct_off": 43,
       "url": "https://shopindoorgolf.com/products/flightscope-mevo-pro-package-face-impact-bundle",
       "affiliate": false,
-      "verdict": "Already own a Mevo+? The Pro Package software unlock — the full 50-plus data parameters plus face impact location — at $650 off is the cheapest we know of to turn it into the tour-data version."
+      "verdict": "Already own a Mevo+? The Pro Package software unlock — the full 50-plus data parameters plus face impact location — at $525 off is the cheapest we know of to turn it into the tour-data version."
     }
   ],
   "_killlist_note": "Rejected deals live in data/deals-killlist.json — the single source of truth enforced by BOTH build-deals.mjs and build-deal-hubs.mjs. Note (Jul 13): the SkyTrak+ Certified Pre-Owned at $1,350 was dropped from the board because the nightly bot no longer confirms it discounted/available — re-verify before restoring."

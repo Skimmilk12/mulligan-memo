@@ -28,16 +28,58 @@ function reconcile(d) {
   if (Math.round(price) !== Math.round(Number(d.price))) {
     console.log(`  price refreshed: $${Math.round(Number(d.price))} -> $${Math.round(price)}  ${String(d.title).slice(0, 48)}`);
   }
-  return { ...d, price, compare_at };
+  /* pct_off IS DERIVED, SO DERIVE IT. Reconciling the prices and then spreading
+     the old object over them kept the stale discount badge, which is how the
+     board came to advertise a Mevo+ Pro package at "43% off" when the refreshed
+     prices made it 35% — overstating the cut by eight points on a live page
+     whose entire promise is verified numbers. Same class of rot as the
+     hand-typed price above, one layer further out. */
+  const pct_off = Math.round(100 * (1 - price / compare_at));
+  return { ...d, price, compare_at, pct_off };
+}
+
+/* THE VERDICTS ARE HAND-WRITTEN AND SOME OF THEM QUOTE NUMBERS.
+   "$2,600 under its usual ask" was true when it was typed and false by the time
+   the retailer moved the price. We cannot rewrite editorial prose from a script
+   without inventing copy, so this fails closed instead: if a figure in the
+   verdict contradicts tonight's prices, the deal is held back and reported,
+   exactly like the grid's variant gate. Fix the sentence or drop the pick —
+   never publish the contradiction. */
+function verdictConflict(d) {
+  const v = String(d.verdict || '');
+  const price = Math.round(d.price), compare = Math.round(d.compare_at);
+  const saving = compare - price;
+  const near = (a, b) => Math.abs(a - b) <= Math.max(2, b * 0.01);
+
+  for (const m of v.matchAll(/\$([\d,]+(?:\.\d\d)?)/g)) {
+    const n = Math.round(Number(m[1].replace(/,/g, '')));
+    if (n <= 100) continue;                       // "$100 a club" style asides
+    if (near(n, price) || near(n, compare) || near(n, saving)) continue;
+    return `verdict cites $${m[1]} — tonight the price is $${price.toLocaleString()}, was $${compare.toLocaleString()}, saving $${saving.toLocaleString()}`;
+  }
+  for (const m of v.matchAll(/(\d{1,2})\s?%/g)) {
+    if (!near(Number(m[1]), d.pct_off)) {
+      return `verdict claims ${m[1]}% — tonight's prices give ${d.pct_off}%`;
+    }
+  }
+  return null;
 }
 const dropped = [];
-cur.deal_of_the_day = (() => {
-  const r = reconcile(cur.deal_of_the_day);
-  if (!r) dropped.push(cur.deal_of_the_day.title);
+const conflicted = [];
+function vet(d) {
+  const r = reconcile(d);
+  if (!r) { dropped.push(d.title); return null; }
+  const why = verdictConflict(r);
+  if (why) { conflicted.push({ title: r.title, why }); return null; }
   return r;
-})();
-cur.deals = cur.deals.map((d) => { const r = reconcile(d); if (!r) dropped.push(d.title); return r; }).filter(Boolean);
+}
+cur.deal_of_the_day = vet(cur.deal_of_the_day);
+cur.deals = cur.deals.map(vet).filter(Boolean);
 if (dropped.length) console.log(`  DROPPED (no longer in feed): ${dropped.join(' | ')}`);
+if (conflicted.length) {
+  console.log(`  HELD BACK (verdict contradicts tonight's prices) — fix the sentence in data/deals-curated.json:`);
+  for (const c of conflicted) console.log(`    ${String(c.title).slice(0, 52)}\n      ${c.why}`);
+}
 if (!cur.deal_of_the_day && cur.deals.length) cur.deal_of_the_day = cur.deals.shift();
 // The stamp is the feed's own check date, never a hand-typed one. checked_label
 // used to be typed into deals-curated.json by hand, so it kept saying July 13
