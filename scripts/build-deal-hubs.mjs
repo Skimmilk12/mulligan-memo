@@ -251,7 +251,7 @@ ${hub.related.map(([href, label]) => `      <li><a class="inline" href="${href}"
       <div>
         <h4>Follow</h4>
         <ul>
-          <li><a href="/#sunday-memo">The Sunday Memo</a></li>
+          <li><a href="/#the-drop">The Drop</a></li>
           <li><a href="/memo.html">Memo Archive</a></li>
           <li><a href="/feed.xml">RSS Feed</a></li>
           <li><a href="https://www.pinterest.com/mulliganmemo/" rel="noopener">Pinterest</a></li>

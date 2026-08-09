@@ -153,6 +153,37 @@
   </script>
 </head>
 <body>
+<div class="mm-topbar">
+    <a class="mm-brand" href="/">Mulligan Memo</a>
+  </div>
+  <nav class="mm-nav" aria-label="Primary">
+    <input class="mm-nav-toggle" id="mm-nav-toggle" type="checkbox" aria-controls="primary-menu">
+    <div class="mm-mobile-row">
+      <a class="mm-mobile-brand" href="/">Mulligan Memo</a>
+      <label class="mm-menu-label" for="mm-nav-toggle">
+        <span class="sr-only">Toggle primary menu</span>
+        <span class="mm-menu-word" aria-hidden="true"></span>
+      </label>
+    </div>
+    <div class="mm-nav-in" id="primary-menu">
+      <a href="/beginners.html">BEGINNERS</a>
+      <a href="/clubs.html" class="active">CLUBS</a>
+      <a href="/tech.html">TECH</a>
+      <a href="/accessories.html">ACCESSORIES</a>
+      <a href="/golf-balls.html">BALLS</a>
+      <a href="/launch-monitors.html">LAUNCH MONITORS</a>
+      <a href="/deals.html">DEALS</a>
+      <a href="/glossary.html">GLOSSARY</a>
+      <a href="/distance-chart.html">DISTANCES</a>
+      <a href="/my-bag.html">MY BAG</a>
+      <a href="/about.html">ABOUT</a>
+      <form class="mm-search" role="search" onsubmit="return false;">
+        <label for="archive-search"><span aria-hidden="true">⌕</span><span class="sr-only">Search the archive</span></label>
+        <input id="archive-search" type="search" placeholder="SEARCH THE ARCHIVE…" autocomplete="off">
+        <div class="mm-search-results" id="archive-results"></div>
+      </form>
+    </div>
+  </nav>
 
 <article class="wrap">
     <nav class="crumbs" aria-label="Breadcrumb"><a href="../index.html">Home</a><span class="sep">›</span><a href="../clubs.html">Golf Clubs</a></nav>
@@ -339,7 +370,7 @@
       <div>
         <h4>Follow</h4>
         <ul>
-          <li><a href="/#sunday-memo">The Sunday Memo</a></li>
+          <li><a href="/#the-drop">The Drop</a></li>
           <li><a href="/memo.html">Memo Archive</a></li>
           <li><a href="/feed.xml">RSS Feed</a></li>
           <li><a href="https://www.pinterest.com/mulliganmemo/" rel="noopener">Pinterest</a></li>
