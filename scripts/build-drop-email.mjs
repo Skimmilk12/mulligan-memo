@@ -80,9 +80,33 @@ const checkedNice = new Date(grid.checked_at).toLocaleDateString('en-US', {
 });
 const stamp = new Date(grid.checked_at).toISOString().slice(0, 10);
 
-/* Subject: the single biggest number, then the count. No "Newsletter #7". */
-const subject = `${money(leadSaving)} off the ${lead.title.replace(/\s*\(.*?\)\s*$/, '')}`
-  + (picks.length > 1 ? `, and ${picks.length - 1} more` : '');
+/* Subject: the single biggest number, then the count. No "Newsletter #7".
+
+   BUDGETED TO 60 CHARACTERS. The first issue went out at 79 and Buttondown
+   warned it would truncate — Gmail desktop shows roughly 70 and mobile far
+   fewer, so "and 5 more" was going to be cut, which is the part that says there
+   is more than one reason to open. The saving and the product name are what
+   earn the open, so they are front-loaded and the product name is trimmed at a
+   word boundary until the whole thing fits. */
+const SUBJECT_MAX = 60;
+function buildSubject() {
+  const tail = picks.length > 1 ? ` — and ${picks.length - 1} more` : '';
+  const head = `${money(leadSaving)} off the `;
+  // Drop parenthetical suffixes and long bundle names before measuring.
+  let name = lead.title.replace(/\s*\(.*?\)\s*$/, '').replace(/\s*[—–-]\s*.*$/, '').trim();
+  const room = SUBJECT_MAX - head.length - tail.length;
+  if (name.length > room) {
+    const words = name.split(/\s+/);
+    name = '';
+    for (const w of words) {
+      if ((name ? name.length + 1 : 0) + w.length > room) break;
+      name = name ? `${name} ${w}` : w;
+    }
+    if (!name) name = words[0].slice(0, Math.max(1, room));   // one very long word
+  }
+  return `${head}${name}${tail}`;
+}
+const subject = buildSubject();
 
 const lines = [];
 lines.push(`# The Drop`);
