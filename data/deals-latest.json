@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-09T10:52:51.231Z",
- "date": "2026-08-09",
+ "generated_at": "2026-08-10T11:21:53.259Z",
+ "date": "2026-08-10",
  "sources": [
   {
    "retailer": "PlayBetter",
@@ -89,17 +89,6 @@
    "pct_off": 52,
    "available": true,
    "url": "https://shopindoorgolf.com/products/flightscope-mevo-plus"
-  },
-  {
-   "retailer": "PlayBetter",
-   "title": "Polar Grit X Rugged Outdoor Watch",
-   "vendor": "Polar",
-   "type": "Outdoor GPS Watch",
-   "price": 229.98,
-   "compare_at": 459.95,
-   "pct_off": 50,
-   "available": true,
-   "url": "https://www.playbetter.com/products/polar-grit-x-rugged-outdoor-watch"
   },
   {
    "retailer": "PlayBetter",
@@ -454,6 +443,17 @@
    "url": "https://www.playbetter.com/products/skytrak-st-max-with-playbetter-simstudio-byo-build-your-own-package"
   },
   {
+   "retailer": "PlayBetter",
+   "title": "Garmin Approach S70 Golf GPS Smartwatch (Certified Pre-Owned)",
+   "vendor": "Garmin",
+   "type": "Golf GPS Watch",
+   "price": 399.99,
+   "compare_at": 649.99,
+   "pct_off": 38,
+   "available": true,
+   "url": "https://www.playbetter.com/products/garmin-approach-s70-golf-gps-smartwatch-certified-pre-owned"
+  },
+  {
    "retailer": "Shop Indoor Golf",
    "title": "TruGolf Launch Box Garage Golf Simulator Package",
    "vendor": "TruGolf",
@@ -650,17 +650,6 @@
    "pct_off": 33,
    "available": true,
    "url": "https://www.playbetter.com/products/rapsodo-mlm2pro-golf-launch-monitor-simulator-certified-pre-owned"
-  },
-  {
-   "retailer": "PlayBetter",
-   "title": "Uneekor EYE XO Golf Launch Monitor & Simulator",
-   "vendor": "Uneekor",
-   "type": "Golf Launch Monitor & Simulator",
-   "price": 6499,
-   "compare_at": 9700,
-   "pct_off": 33,
-   "available": true,
-   "url": "https://www.playbetter.com/products/uneekor-eye-xo-golf-launch-monitor"
   },
   {
    "retailer": "PlayBetter",
@@ -1343,17 +1332,6 @@
    "pct_off": 24,
    "available": true,
    "url": "https://www.playbetter.com/products/uneekor-eye-xr-sportscreen-vanish-lite-semi-retractable-golf-studio-complete-package"
-  },
-  {
-   "retailer": "PlayBetter",
-   "title": "Garmin Approach S70 Golf GPS Smartwatch (Certified Pre-Owned)",
-   "vendor": "Garmin",
-   "type": "Golf GPS Watch",
-   "price": 494.99,
-   "compare_at": 649.99,
-   "pct_off": 24,
-   "available": true,
-   "url": "https://www.playbetter.com/products/garmin-approach-s70-golf-gps-smartwatch-certified-pre-owned"
   },
   {
    "retailer": "PlayBetter",
