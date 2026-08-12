@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-11T11:05:25.058Z",
- "date": "2026-08-11",
+ "generated_at": "2026-08-12T11:10:33.186Z",
+ "date": "2026-08-12",
  "sources": [
   {
    "retailer": "PlayBetter",
@@ -20,7 +20,7 @@
   {
    "retailer": "Top Shelf Golf",
    "status": "ok",
-   "on_sale_items": 19
+   "on_sale_items": 15
   }
  ],
  "candidates": [
@@ -1753,6 +1753,17 @@
   },
   {
    "retailer": "PlayBetter",
+   "title": "Arccos Smart Laser Golf Rangefinder",
+   "vendor": "Arccos Golf",
+   "type": "Golf Rangefinder",
+   "price": 239.99,
+   "compare_at": 299.99,
+   "pct_off": 20,
+   "available": true,
+   "url": "https://www.playbetter.com/products/arccos-smart-laser-golf-rangefinder"
+  },
+  {
+   "retailer": "PlayBetter",
    "title": "Bushnell LPi Circle B with PlayBetter SimStudio™ BYO (Build Your Own) Package – Custom Home Golf Simulator Studio Builder with Impact Screen, Enclosure, Optional Mats, Projector & More",
    "vendor": "Bushnell",
    "type": "Golf Simulator Studio Package",
@@ -3425,28 +3436,6 @@
   },
   {
    "retailer": "Top Shelf Golf",
-   "title": "Uneekor EYE XR All-In-One Golf Simulator",
-   "vendor": "Uneekor",
-   "type": "Golf Simulator Package",
-   "price": 10399,
-   "compare_at": 11899,
-   "pct_off": 13,
-   "available": true,
-   "url": "https://www.topshelfgolf.com/products/uneekor-eye-xr-all-in-one-golf-simulator"
-  },
-  {
-   "retailer": "Top Shelf Golf",
-   "title": "SkyTrak ST MAX All-In-One Golf Simulator",
-   "vendor": "SkyTrak",
-   "type": "Golf Simulator Package",
-   "price": 6899,
-   "compare_at": 7899,
-   "pct_off": 13,
-   "available": true,
-   "url": "https://www.topshelfgolf.com/products/skytrak-st-max-all-in-one-golf-simulator"
-  },
-  {
-   "retailer": "Top Shelf Golf",
    "title": "Full Swing KIT PerfectBay Golf Simulator Package",
    "vendor": "Full Swing",
    "type": "Golf Simulator Package",
@@ -4027,17 +4016,6 @@
    "pct_off": 10,
    "available": true,
    "url": "https://www.topshelfgolf.com/products/uneekor-eye-xr-perfectbay-golf-simulator-package"
-  },
-  {
-   "retailer": "Top Shelf Golf",
-   "title": "Full Swing KIT All-In-One Golf Simulator",
-   "vendor": "Full Swing",
-   "type": "Golf Simulator Package",
-   "price": 8899,
-   "compare_at": 9899,
-   "pct_off": 10,
-   "available": true,
-   "url": "https://www.topshelfgolf.com/products/full-swing-kit-all-in-one-golf-simulator"
   },
   {
    "retailer": "PlayBetter",
@@ -4852,17 +4830,6 @@
    "pct_off": 6,
    "available": true,
    "url": "https://rainorshinegolf.com/products/benq-lh600st-short-throw-projector"
-  },
-  {
-   "retailer": "Top Shelf Golf",
-   "title": "Foresight Sports GC3S All-In-One Golf Simulator",
-   "vendor": "Foresight Sports",
-   "type": "Golf Simulator Package",
-   "price": 8189,
-   "compare_at": 8689,
-   "pct_off": 6,
-   "available": true,
-   "url": "https://www.topshelfgolf.com/products/foresight-sports-gc3s-all-in-one-golf-simulator"
   },
   {
    "retailer": "PlayBetter",
