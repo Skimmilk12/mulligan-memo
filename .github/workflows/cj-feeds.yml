@@ -1,0 +1,64 @@
+name: cj-feeds
+# SEPARATE WORKFLOW BECAUSE SCHEDULES ARE WORKFLOW-LEVEL IN ACTIONS.
+#
+# This lived inside price-bot.yml and never once succeeded. That job fires at
+# 11:10 UTC; CJ does not publish the day's export until roughly 18:00 UTC, so
+# every night it requested a file that did not exist, logged "no file for
+# <date>", and — being continue-on-error — reported success. Four consecutive
+# silent failures.
+#
+# The reason that matters more than a normal bug: CJ retains only the CURRENT
+# day's file. The Aug 8 export was already 404 by Aug 12, so Aug 9, 10 and 11
+# are gone permanently. A missed window is not a retryable failure.
+on:
+  schedule:
+    - cron: '0 21 * * *'   # 21:00 UTC — ~3h after CJ's usual ~18:00 delivery, same UTC day
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Snapshot the CJ product feeds
+        # TGW publishes a price and no compare-at price, so a discount can only
+        # be derived by diffing consecutive days. Publishes nothing to the site;
+        # it only accumulates data/feeds/*.json.
+        env:
+          CJ_FEED_USER: ${{ secrets.CJ_FEED_USER }}
+          CJ_FEED_PASS: ${{ secrets.CJ_FEED_PASS }}
+        run: node scripts/fetch-cj-feeds.mjs
+      - name: Fail if today's snapshot is missing
+        # Deliberately NOT continue-on-error. The previous version swallowed four
+        # straight failures because a skipped day looked exactly like a good run.
+        # A lost day cannot be re-fetched, so this has to be loud.
+        run: |
+          node -e '
+            const fs = require("fs");
+            const day = new Date().toISOString().slice(0, 10);
+            const f = `data/feeds/tgw-${day}.json`;
+            if (!fs.existsSync(f)) {
+              console.error(`No TGW snapshot for ${day}. CJ keeps only the current day, so this day is now unrecoverable. Check the export ran and that the delivery time has not moved.`);
+              process.exit(1);
+            }
+            console.log(`TGW snapshot for ${day}: ${JSON.parse(fs.readFileSync(f, "utf8")).tracked} products tracked`);
+          '
+      - name: Commit the snapshot
+        if: always()
+        run: |
+          git config user.name "mm-price-bot"
+          git config user.email "price-bot@mulliganmemo.com"
+          git add data/feeds/
+          if git diff --cached --quiet; then
+            echo "no new snapshot"
+          else
+            git commit -m "cj-feeds: snapshot $(date -u +%Y-%m-%d)"
+            git pull --rebase --autostash
+            git push
+          fi

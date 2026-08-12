@@ -75,6 +75,13 @@ async function fetchSnapshot(sub, day, c) {
   const zip = Buffer.from(await res.arrayBuffer());
   const text = unzipSingle(zip);
 
+  /* CJ ships a stub zip containing no_updates.txt when a catalogue has not
+     changed since the last export. That is a normal outcome, not a failure —
+     Puma/Cobra returned one the first day it started delivering, and its
+     catalogue has been stale since March. Treat it as "nothing today" so it
+     does not surface as a parse error every night. */
+  if (/^\s*No updated Product Catalogs found/i.test(text)) return { noUpdates: true };
+
   const records = parseCsv(text);
   const head = records[0];
   const iId = head.indexOf('ID'), iPrice = head.indexOf('PRICE'), iAvail = head.indexOf('AVAILABILITY');
@@ -151,7 +158,8 @@ const day = process.argv[2] || new Date().toLocaleDateString('en-CA');
 for (const sub of SUBSCRIPTIONS) {
   try {
     const r = await fetchSnapshot(sub, day, c);
-    if (r.missing) { console.log(`  ${sub.slug}: no file for ${day}${sub.optional ? ' (expected — never delivered)' : ''}`); continue; }
+    if (r.missing) { console.log(`  ${sub.slug}: no file for ${day} — CJ has not delivered it yet today, or it has already rotated away`); continue; }
+    if (r.noUpdates) { console.log(`  ${sub.slug}: CJ reports no catalogue changes for ${day}`); continue; }
     const file = join(OUTDIR, `${sub.slug}-${day}.json`);
     writeFileSync(file, JSON.stringify({ date: day, subscription: sub.id, floor: PRICE_FLOOR, in_stock: r.inStock, tracked: Object.keys(r.prices).length, prices: r.prices }), 'utf8');
     console.log(`  ${sub.slug}: ${r.rows.toLocaleString()} rows, ${r.inStock.toLocaleString()} in stock, ${Object.keys(r.prices).length.toLocaleString()} tracked >= $${PRICE_FLOOR}`);
