@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-08-13T11:11:17.434Z",
- "date": "2026-08-13",
+ "generated_at": "2026-08-14T11:08:03.163Z",
+ "date": "2026-08-14",
  "sources": [
   {
    "retailer": "PlayBetter",
    "status": "ok",
-   "on_sale_items": 250
+   "on_sale_items": 253
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -15,12 +15,12 @@
   {
    "retailer": "Rain or Shine Golf",
    "status": "ok",
-   "on_sale_items": 109
+   "on_sale_items": 111
   },
   {
    "retailer": "Top Shelf Golf",
    "status": "ok",
-   "on_sale_items": 15
+   "on_sale_items": 13
   }
  ],
  "candidates": [
@@ -89,6 +89,17 @@
    "pct_off": 52,
    "available": true,
    "url": "https://shopindoorgolf.com/products/flightscope-mevo-plus"
+  },
+  {
+   "retailer": "PlayBetter",
+   "title": "Polar Grit X Rugged Outdoor Watch",
+   "vendor": "Polar",
+   "type": "Outdoor GPS Watch",
+   "price": 229.98,
+   "compare_at": 459.95,
+   "pct_off": 50,
+   "available": true,
+   "url": "https://www.playbetter.com/products/polar-grit-x-rugged-outdoor-watch"
   },
   {
    "retailer": "PlayBetter",
@@ -1994,6 +2005,28 @@
    "url": "https://rainorshinegolf.com/products/full-swing-kit-launch-monitor"
   },
   {
+   "retailer": "Rain or Shine Golf",
+   "title": "BenQ LK830ST 4K",
+   "vendor": "BenQ",
+   "type": "Golf Simulator Projector",
+   "price": 2499,
+   "compare_at": 3124,
+   "pct_off": 20,
+   "available": true,
+   "url": "https://rainorshinegolf.com/products/benq-lk830st-golf-simulator-projector"
+  },
+  {
+   "retailer": "Rain or Shine Golf",
+   "title": "BenQ LH860ST",
+   "vendor": "BenQ",
+   "type": "Golf Simulator Projector",
+   "price": 2399,
+   "compare_at": 2999,
+   "pct_off": 20,
+   "available": true,
+   "url": "https://rainorshinegolf.com/products/benq-lh860st-golf-simulator-projector"
+  },
+  {
    "retailer": "Top Shelf Golf",
    "title": "Swing Caddie SC200 Plus Golf Launch Monitor",
    "vendor": "Voice Caddie",
@@ -2542,6 +2575,17 @@
    "pct_off": 16,
    "available": true,
    "url": "https://www.playbetter.com/products/bushnell-launch-pro-with-playbetter-simstudio-essentials-package-golf-simulator-studio"
+  },
+  {
+   "retailer": "PlayBetter",
+   "title": "Shot Scope V5 Golf GPS Watch",
+   "vendor": "Shot Scope",
+   "type": "Golf GPS Watch",
+   "price": 209.99,
+   "compare_at": 249.99,
+   "pct_off": 16,
+   "available": true,
+   "url": "https://www.playbetter.com/products/shot-scope-v5-golf-gps-watch"
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -3447,17 +3491,6 @@
   },
   {
    "retailer": "Top Shelf Golf",
-   "title": "Full Swing KIT PerfectBay Golf Simulator Package",
-   "vendor": "Full Swing",
-   "type": "Golf Simulator Package",
-   "price": 6849,
-   "compare_at": 7849,
-   "pct_off": 13,
-   "available": true,
-   "url": "https://www.topshelfgolf.com/products/full-swing-kit-perfectbay-golf-simulator-package"
-  },
-  {
-   "retailer": "Top Shelf Golf",
    "title": "Full Swing KIT Premium Golf Simulator Package",
    "vendor": "Full Swing",
    "type": "Golf Simulator Package",
@@ -4060,17 +4093,6 @@
    "pct_off": 10,
    "available": true,
    "url": "https://rainorshinegolf.com/products/trugolf-apogee-retractable-golf-simulator-package"
-  },
-  {
-   "retailer": "Top Shelf Golf",
-   "title": "Uneekor EYE XR PerfectBay Golf Simulator Package",
-   "vendor": "Uneekor",
-   "type": "Golf Simulator Package",
-   "price": 8849,
-   "compare_at": 9849,
-   "pct_off": 10,
-   "available": true,
-   "url": "https://www.topshelfgolf.com/products/uneekor-eye-xr-perfectbay-golf-simulator-package"
   },
   {
    "retailer": "PlayBetter",
