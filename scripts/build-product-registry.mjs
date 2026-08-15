@@ -53,12 +53,18 @@ function slugify(s) {
 }
 
 /* Display titles already start with the brand for most merchants, so naively
-   prefixing it produced "sqairz-sqairz-freedom-micro". Only prefix when the
-   title does not already lead with the brand. */
+   prefixing it produced "sqairz-sqairz-freedom-micro". The first fix compared
+   against the FULL brand slug and still produced "cobra-golf-cobra-ds-adapt-
+   hybrid", because the brand is "COBRA Golf" while the title leads with plain
+   "Cobra". Compare on the brand's first token instead: if the title already
+   opens with it, the brand is present and no prefix is needed. These become
+   permanent URLs the moment product pages ship, so this has to be right before
+   first publication, not after. */
 function productSlug(brand, title) {
   const t = slugify(title);
   const b = slugify(brand || '');
-  if (!b || t.startsWith(b + '-') || t === b) return t;
+  if (!b || t === b || t.startsWith(b + '-')) return t;
+  if (t.split('-')[0] === b.split('-')[0]) return t;
   return `${b}-${t}`;
 }
 

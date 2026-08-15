@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-08T23:47:41.248Z",
+  "generated_at": "2026-08-15T16:42:25.974Z",
   "products": [
     {
       "product_id": "prd_c8682e21-a1ee-4c80-a16e-7c544c11caf4",
@@ -11,7 +11,7 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-08T23:47:41.248Z",
-      "last_seen": "2026-08-08T23:47:41.248Z",
+      "last_seen": "2026-08-15T16:42:25.974Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
@@ -23,6 +23,11 @@
               "gtin": "810032390853",
               "mpn": "39085",
               "feed_title": "FREEDOM™ Micro Black & Teal / 7.5 - SQAIRZ"
+            },
+            {
+              "gtin": "810032390778",
+              "mpn": "39077",
+              "feed_title": "FREEDOM™ Micro Gray & Blue / 8.5 - SQAIRZ"
             }
           ]
         }
@@ -37,18 +42,23 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-08T23:47:41.248Z",
-      "last_seen": "2026-08-08T23:47:41.248Z",
+      "last_seen": "2026-08-15T16:42:25.974Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
           "item_group_id": "8206716535008",
-          "url": "https://sqairz.com/products/velo?variant=44537242321120",
+          "url": "https://sqairz.com/products/velo?variant=44537242190048",
           "display_title": "Sqairz Velo™",
           "variants": [
             {
               "gtin": "810032398217",
               "mpn": "39821",
               "feed_title": "VELO™ White & Blue / 9 / Standard - SQAIRZ"
+            },
+            {
+              "gtin": "810032397944",
+              "mpn": "39794",
+              "feed_title": "VELO™ White & Black / 8.5 / Standard - SQAIRZ"
             }
           ]
         }
@@ -63,12 +73,12 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-08T23:47:41.248Z",
-      "last_seen": "2026-08-08T23:47:41.248Z",
+      "last_seen": "2026-08-15T16:42:25.974Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
           "item_group_id": "7763613155552",
-          "url": "https://sqairz.com/products/freedom-mesh?variant=44071184466144",
+          "url": "https://sqairz.com/products/freedom-mesh?variant=44071184531680",
           "display_title": "Sqairz Freedom™ Mesh Blackberry",
           "variants": [
             {
@@ -80,6 +90,26 @@
               "gtin": "810032396893",
               "mpn": "39689",
               "feed_title": "FREEDOM™ Mesh Blackberry / 7 - SQAIRZ"
+            },
+            {
+              "gtin": "810032393342",
+              "mpn": "93342",
+              "feed_title": "FREEDOM™ Mesh White / 6.5 - SQAIRZ"
+            },
+            {
+              "gtin": "810032396909",
+              "mpn": "39690",
+              "feed_title": "FREEDOM™ Mesh Blackberry / 7.5 - SQAIRZ"
+            },
+            {
+              "gtin": "810032393366",
+              "mpn": "93366",
+              "feed_title": "FREEDOM™ Mesh White / 7.5 - SQAIRZ"
+            },
+            {
+              "gtin": "810032396916",
+              "mpn": "39691",
+              "feed_title": "FREEDOM™ Mesh Blackberry / 8 - SQAIRZ"
             }
           ]
         }
@@ -94,18 +124,28 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-08T23:47:41.248Z",
-      "last_seen": "2026-08-08T23:47:41.248Z",
+      "last_seen": "2026-08-15T16:42:25.974Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
           "item_group_id": "8206713618656",
-          "url": "https://sqairz.com/products/pro-s2?variant=47306875830496",
+          "url": "https://sqairz.com/products/pro-s2?variant=47306876551392",
           "display_title": "Sqairz ProS2™",
           "variants": [
             {
               "gtin": "810032398828",
               "mpn": "39882",
               "feed_title": "ProS2™ White & Navy / 7 / Standard - SQAIRZ"
+            },
+            {
+              "gtin": "810032398965",
+              "mpn": "39896",
+              "feed_title": "ProS2™ Black & White / 7.5 / Standard - SQAIRZ"
+            },
+            {
+              "gtin": "810032398958",
+              "mpn": "39895",
+              "feed_title": "ProS2™ Black & White / 7 / Standard - SQAIRZ"
             }
           ]
         }
@@ -120,18 +160,28 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-08T23:47:41.248Z",
-      "last_seen": "2026-08-08T23:47:41.248Z",
+      "last_seen": "2026-08-15T16:42:25.974Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
           "item_group_id": "8206704541920",
-          "url": "https://sqairz.com/products/speed-2?variant=47306873864416",
+          "url": "https://sqairz.com/products/speed-2?variant=47306873471200",
           "display_title": "Sqairz Speed2™",
           "variants": [
             {
               "gtin": "810032398040",
               "mpn": "39804",
               "feed_title": "SPEED2™ White & Black / 7 / Standard - SQAIRZ"
+            },
+            {
+              "gtin": "810032397654",
+              "mpn": "39765",
+              "feed_title": "SPEED2™ White & Teal / 7 / Standard - SQAIRZ"
+            },
+            {
+              "gtin": "810032398576",
+              "mpn": "39857",
+              "feed_title": "SPEED2™ Black & Gray / 7.5 / Standard - SQAIRZ"
             }
           ]
         }
@@ -146,18 +196,23 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-08T23:47:41.248Z",
-      "last_seen": "2026-08-08T23:47:41.248Z",
+      "last_seen": "2026-08-15T16:42:25.974Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
           "item_group_id": "7763604832480",
-          "url": "https://sqairz.com/products/speed-mesh?variant=44370434883808",
+          "url": "https://sqairz.com/products/speed-mesh?variant=44370434982112",
           "display_title": "Sqairz Speed™ Mesh",
           "variants": [
             {
               "gtin": "810032397425",
               "mpn": "39742",
               "feed_title": "SPEED™ Mesh Light Gray & Blue / 9 - SQAIRZ"
+            },
+            {
+              "gtin": "810032397456",
+              "mpn": "39745",
+              "feed_title": "SPEED™ Mesh Light Gray & Blue / 10.5 - SQAIRZ"
             }
           ]
         }
@@ -167,12 +222,12 @@
       "product_id": "prd_3a08ec70-5d86-44a9-bd3b-4455b9972d50",
       "canonical_name": "Cobra Darkspeed LS Fairway Wood",
       "brand": "COBRA Golf",
-      "slug": "cobra-golf-cobra-darkspeed-ls-fairway-wood",
+      "slug": "cobra-darkspeed-ls-fairway-wood",
       "slug_aliases": [],
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-08T23:47:41.248Z",
-      "last_seen": "2026-08-08T23:47:41.248Z",
+      "last_seen": "2026-08-15T16:42:25.974Z",
       "bindings": [
         {
           "retailer": "Cobra Golf",
@@ -184,6 +239,11 @@
               "gtin": "887996180523",
               "mpn": "F8201RGX3",
               "feed_title": "DARKSPEED LS Fairway Right / 3 / graphite x-stiff"
+            },
+            {
+              "gtin": "887996180516",
+              "mpn": "F8201RGS3",
+              "feed_title": "DARKSPEED LS Fairway Right / 3 / graphite stiff"
             }
           ]
         }
@@ -193,12 +253,12 @@
       "product_id": "prd_781b8f9a-8dfd-4796-b286-7eb0134a8391",
       "canonical_name": "Cobra DS-ADAPT Hybrid",
       "brand": "COBRA Golf",
-      "slug": "cobra-golf-cobra-ds-adapt-hybrid",
+      "slug": "cobra-ds-adapt-hybrid",
       "slug_aliases": [],
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-08T23:47:41.248Z",
-      "last_seen": "2026-08-08T23:47:41.248Z",
+      "last_seen": "2026-08-15T16:42:25.974Z",
       "bindings": [
         {
           "retailer": "Cobra Golf",
@@ -215,6 +275,21 @@
               "gtin": "887996199822",
               "mpn": "H9401RGR5",
               "feed_title": "DS-ADAPT Hybrid Right / 5 / graphite regular"
+            },
+            {
+              "gtin": "887996199679",
+              "mpn": "H9401LGR3",
+              "feed_title": "DS-ADAPT Hybrid Left / 3 / graphite regular"
+            },
+            {
+              "gtin": "887996199716",
+              "mpn": "H9401RGS2",
+              "feed_title": "DS-ADAPT Hybrid Right / 2 / graphite stiff"
+            },
+            {
+              "gtin": "887996199662",
+              "mpn": "H9401LGS3",
+              "feed_title": "DS-ADAPT Hybrid Left / 3 / graphite stiff"
             }
           ]
         }
@@ -224,7 +299,7 @@
       "product_id": "prd_a7dcee6b-376c-42cc-b726-82cdf8181eca",
       "canonical_name": "Cobra Women's DS-ADAPT Hybrid",
       "brand": "COBRA Golf",
-      "slug": "cobra-golf-cobra-womens-ds-adapt-hybrid",
+      "slug": "cobra-womens-ds-adapt-hybrid",
       "slug_aliases": [],
       "status": "provisional",
       "rating_scope": "product",
@@ -250,7 +325,7 @@
       "product_id": "prd_a68cc7ba-42e9-4478-a763-46b64a9f7b41",
       "canonical_name": "Puma AP Knit Golf 1/4 Zip",
       "brand": "PUMA Golf",
-      "slug": "puma-golf-puma-ap-knit-golf-1-4-zip",
+      "slug": "puma-ap-knit-golf-1-4-zip",
       "slug_aliases": [],
       "status": "provisional",
       "rating_scope": "product",
@@ -276,7 +351,7 @@
       "product_id": "prd_a30b2c7c-a04c-4255-8b88-c89515dbaead",
       "canonical_name": "Cobra Darkspeed MAX Fairway Wood",
       "brand": "COBRA Golf",
-      "slug": "cobra-golf-cobra-darkspeed-max-fairway-wood",
+      "slug": "cobra-darkspeed-max-fairway-wood",
       "slug_aliases": [],
       "status": "provisional",
       "rating_scope": "product",
@@ -307,7 +382,7 @@
       "product_id": "prd_0794c086-254e-4a9c-a8ef-5c44a9c8dbd3",
       "canonical_name": "Cobra Darkspeed X Fairway Wood",
       "brand": "COBRA Golf",
-      "slug": "cobra-golf-cobra-darkspeed-x-fairway-wood",
+      "slug": "cobra-darkspeed-x-fairway-wood",
       "slug_aliases": [],
       "status": "provisional",
       "rating_scope": "product",
@@ -333,7 +408,7 @@
       "product_id": "prd_ad17aa34-d91f-421f-a2f2-9bface410596",
       "canonical_name": "Cobra DS-ADAPT MAX Fairway Wood",
       "brand": "COBRA Golf",
-      "slug": "cobra-golf-cobra-ds-adapt-max-fairway-wood",
+      "slug": "cobra-ds-adapt-max-fairway-wood",
       "slug_aliases": [],
       "status": "provisional",
       "rating_scope": "product",
@@ -359,9 +434,228 @@
           ]
         }
       ]
+    },
+    {
+      "product_id": "prd_a3596dbe-0474-4fd0-a102-6c5135cf16af",
+      "canonical_name": "Sqairz Freedom™ Ultra",
+      "brand": "SQAIRZ",
+      "slug": "sqairz-freedom-ultra",
+      "slug_aliases": [],
+      "status": "provisional",
+      "rating_scope": "product",
+      "first_seen": "2026-08-15T10:40:28.587Z",
+      "last_seen": "2026-08-15T16:42:25.974Z",
+      "bindings": [
+        {
+          "retailer": "SQAIRZ",
+          "item_group_id": "8038823133408",
+          "url": "https://sqairz.com/products/freedom™-ultra?variant=46798532083936",
+          "display_title": "Sqairz Freedom™ Ultra",
+          "variants": [
+            {
+              "gtin": null,
+              "mpn": "39638",
+              "feed_title": "FREEDOM™ Ultra White & Silver / 6.5 - SQAIRZ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "prd_7df5f9a0-b080-4d1d-be4d-19eac238e921",
+      "canonical_name": "Sqairz Patriot Limited Edition",
+      "brand": "SQAIRZ",
+      "slug": "sqairz-patriot-limited-edition",
+      "slug_aliases": [],
+      "status": "provisional",
+      "rating_scope": "product",
+      "first_seen": "2026-08-15T10:40:28.587Z",
+      "last_seen": "2026-08-15T16:42:25.974Z",
+      "bindings": [
+        {
+          "retailer": "SQAIRZ",
+          "item_group_id": "8608562413792",
+          "url": "https://sqairz.com/products/the-patriot-womens-limited-edition?variant=45963716231392",
+          "display_title": "Sqairz Patriot Limited Edition",
+          "variants": [
+            {
+              "gtin": "810032399504",
+              "mpn": "39950",
+              "feed_title": "Patriot Limited Edition White / 7.5 - SQAIRZ"
+            },
+            {
+              "gtin": "810032399559",
+              "mpn": "39955",
+              "feed_title": "Patriot Limited Edition White / 10 - SQAIRZ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "prd_4f7acea4-d804-40c6-a8e9-727e19894181",
+      "canonical_name": "Sqairz Wave Limited Edition",
+      "brand": "SQAIRZ",
+      "slug": "sqairz-wave-limited-edition",
+      "slug_aliases": [],
+      "status": "provisional",
+      "rating_scope": "product",
+      "first_seen": "2026-08-15T10:40:28.587Z",
+      "last_seen": "2026-08-15T16:42:25.974Z",
+      "bindings": [
+        {
+          "retailer": "SQAIRZ",
+          "item_group_id": "8608562217184",
+          "url": "https://sqairz.com/products/the-wave-mens-limited-edition?variant=45963714461920",
+          "display_title": "Sqairz Wave Limited Edition",
+          "variants": [
+            {
+              "gtin": "810032399375",
+              "mpn": "39937",
+              "feed_title": "Wave Limited Edition White / 8.5 - SQAIRZ"
+            },
+            {
+              "gtin": "810032399399",
+              "mpn": "39939",
+              "feed_title": "Wave Limited Edition White / 9.5 - SQAIRZ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "prd_e5a3b937-9e88-48a7-b5d0-eb99172605cf",
+      "canonical_name": "Cobra Darkspeed LS Driver",
+      "brand": "COBRA Golf",
+      "slug": "cobra-darkspeed-ls-driver",
+      "slug_aliases": [],
+      "status": "provisional",
+      "rating_scope": "product",
+      "first_seen": "2026-08-15T10:40:28.587Z",
+      "last_seen": "2026-08-15T16:42:25.974Z",
+      "bindings": [
+        {
+          "retailer": "Cobra Golf",
+          "item_group_id": "8428382650585",
+          "url": "https://www.cobragolf.com/products/darkspeed-ls-driver",
+          "display_title": "Cobra Darkspeed LS Driver",
+          "variants": [
+            {
+              "gtin": "887996177790",
+              "mpn": "D8201LGS105B",
+              "feed_title": "DARKSPEED LS Driver | Left 10.5 / graphite stiff / ust lin-q m40x white 6"
+            },
+            {
+              "gtin": "887996177851",
+              "mpn": "D8201RGS080B",
+              "feed_title": "DARKSPEED LS Driver | Right 8.0 / graphite stiff / ust lin-q m40x white 6"
+            },
+            {
+              "gtin": "887996177813",
+              "mpn": "D8201RGX090B",
+              "feed_title": "DARKSPEED LS Driver | Right 9.0 / graphite x-stiff / ust lin-q m40x white 6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "prd_fd592e56-c18f-4f88-81f5-61edc6506999",
+      "canonical_name": "Cobra Darkspeed X Driver",
+      "brand": "COBRA Golf",
+      "slug": "cobra-darkspeed-x-driver",
+      "slug_aliases": [],
+      "status": "provisional",
+      "rating_scope": "product",
+      "first_seen": "2026-08-15T10:40:28.587Z",
+      "last_seen": "2026-08-15T16:42:25.974Z",
+      "bindings": [
+        {
+          "retailer": "Cobra Golf",
+          "item_group_id": "8428456313049",
+          "url": "https://www.cobragolf.com/products/darkspeed-x-driver",
+          "display_title": "Cobra Darkspeed X Driver",
+          "variants": [
+            {
+              "gtin": "887996178209",
+              "mpn": "D8211RGS105A",
+              "feed_title": "DARKSPEED X Driver | Right 10.5 / graphite stiff / ust lin-q m40x blue 6"
+            },
+            {
+              "gtin": "887996178155",
+              "mpn": "D8211LGS105A",
+              "feed_title": "DARKSPEED X Driver | Left 10.5 / graphite stiff / ust lin-q m40x blue 6"
+            },
+            {
+              "gtin": "887996178179",
+              "mpn": "D8211RGR105A",
+              "feed_title": "DARKSPEED X Driver | Right 10.5 / graphite regular / ust lin-q m40x blue 6"
+            },
+            {
+              "gtin": "887996178308",
+              "mpn": "D8211RGS090B",
+              "feed_title": "DARKSPEED X Driver | Right 9.0 / graphite stiff / ust lin-q m40x white 6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "prd_715ace55-7410-42be-bfed-2785778bd5c6",
+      "canonical_name": "Cobra Women's Darkspeed Hybrid",
+      "brand": "COBRA Golf",
+      "slug": "cobra-womens-darkspeed-hybrid",
+      "slug_aliases": [],
+      "status": "provisional",
+      "rating_scope": "product",
+      "first_seen": "2026-08-15T10:40:28.587Z",
+      "last_seen": "2026-08-15T16:42:25.974Z",
+      "bindings": [
+        {
+          "retailer": "Cobra Golf",
+          "item_group_id": "8428123160793",
+          "url": "https://www.cobragolf.com/products/womens-darkspeed-hybrid",
+          "display_title": "Cobra Women's Darkspeed Hybrid",
+          "variants": [
+            {
+              "gtin": "887996185146",
+              "mpn": "H8221RGL5",
+              "feed_title": "Women's DARKSPEED Hybrid Right / 5 / graphite womens"
+            }
+          ]
+        }
+      ]
     }
   ],
   "quarantine": [
+    {
+      "reason": "no_item_group_id",
+      "retailer": "PlayBetter",
+      "title": "Foresight QuadMAX Launch Monitor (Pre-Owned)",
+      "url": "https://www.playbetter.com/products/foresight-quadmax-golf-launch-monitor-simulator-pre-owned",
+      "note": "source provides no advertiser-scoped product id; needs an approved feed or a manual binding"
+    },
+    {
+      "reason": "no_item_group_id",
+      "retailer": "PlayBetter",
+      "title": "Foresight GCQuad Launch Monitor (Pre-Owned)",
+      "url": "https://www.playbetter.com/products/foresight-gcquad-golf-launch-monitor-simulator-pre-owned",
+      "note": "source provides no advertiser-scoped product id; needs an approved feed or a manual binding"
+    },
+    {
+      "reason": "no_item_group_id",
+      "retailer": "PlayBetter",
+      "title": "Uneekor EYE XR with PlayBetter SimStudio™ BYO Package",
+      "url": "https://www.playbetter.com/products/uneekor-eye-xr-diy-home-golf-simulator-studio-package-with-playbetter-simstudio-customizer",
+      "note": "source provides no advertiser-scoped product id; needs an approved feed or a manual binding"
+    },
+    {
+      "reason": "no_item_group_id",
+      "retailer": "PlayBetter",
+      "title": "Uneekor EYE XR with PlayBetter SimStudio™ Complete Package",
+      "url": "https://www.playbetter.com/products/uneekor-eye-xr-overhead-golf-launch-monitor-simulator-studio-package",
+      "note": "source provides no advertiser-scoped product id; needs an approved feed or a manual binding"
+    },
     {
       "reason": "no_item_group_id",
       "retailer": "PlayBetter",
@@ -374,13 +668,6 @@
       "retailer": "PlayBetter",
       "title": "Uneekor EYE XR SportScreen Vanish Retractable Golf Studio…",
       "url": "https://www.playbetter.com/products/uneekor-eye-xr-sportscreen-vanish-retractable-golf-studio-complete-package",
-      "note": "source provides no advertiser-scoped product id; needs an approved feed or a manual binding"
-    },
-    {
-      "reason": "no_item_group_id",
-      "retailer": "PlayBetter",
-      "title": "Uneekor EYE XO Launch Monitor",
-      "url": "https://www.playbetter.com/products/uneekor-eye-xo-golf-launch-monitor",
       "note": "source provides no advertiser-scoped product id; needs an approved feed or a manual binding"
     },
     {
@@ -444,34 +731,6 @@
       "retailer": "PlayBetter",
       "title": "SkyTrak ST MAX with PlayBetter SimStudio™ Essentials…",
       "url": "https://www.playbetter.com/products/skytrak-st-max-with-playbetter-simstudio-essentials-package",
-      "note": "source provides no advertiser-scoped product id; needs an approved feed or a manual binding"
-    },
-    {
-      "reason": "no_item_group_id",
-      "retailer": "PlayBetter",
-      "title": "Uneekor EYE XO2 with PlayBetter SimStudio™ BYO Package",
-      "url": "https://www.playbetter.com/products/uneekor-eye-xo2-diy-home-golf-simulator-studio-package-with-playbetter-simstudio-customizer",
-      "note": "source provides no advertiser-scoped product id; needs an approved feed or a manual binding"
-    },
-    {
-      "reason": "no_item_group_id",
-      "retailer": "PlayBetter",
-      "title": "Uneekor EYE XO2 with PlayBetter SimStudio™ Complete…",
-      "url": "https://www.playbetter.com/products/uneekor-eye-xo2-front-overhead-golf-launch-monitor-simulator-studio-package",
-      "note": "source provides no advertiser-scoped product id; needs an approved feed or a manual binding"
-    },
-    {
-      "reason": "no_item_group_id",
-      "retailer": "PlayBetter",
-      "title": "Uneekor EYE XO2 with PlayBetter SimStudio™ Essentials…",
-      "url": "https://www.playbetter.com/products/uneekor-eye-xo2-home-golf-simulator-playbetter-simstudio-essentials-studio-package",
-      "note": "source provides no advertiser-scoped product id; needs an approved feed or a manual binding"
-    },
-    {
-      "reason": "no_item_group_id",
-      "retailer": "PlayBetter",
-      "title": "SkyTrak+ Launch Monitor with 1-Year Free Foresight Course…",
-      "url": "https://www.playbetter.com/products/skytrak-plus-golf-launch-monitor-simulator",
       "note": "source provides no advertiser-scoped product id; needs an approved feed or a manual binding"
     }
   ]

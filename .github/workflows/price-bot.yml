@@ -54,6 +54,17 @@ jobs:
       # Worse, CJ keeps only the CURRENT day's file: the Aug 8 export was gone by
       # Aug 12, so Aug 9, 10 and 11 are unrecoverable. Moved to its own job on a
       # later schedule; see cj-feeds below.
+      - name: Refresh the product registry and product pages
+        # Stage 1 of the deals+ratings pivot. The registry mints a stable
+        # product_id per (retailer, item_group_id) — the key ratings will attach
+        # to — and the pages render tonight's verified offer against it. Runs
+        # after the grid rebuild so the offers match what the board shows.
+        # continue-on-error for the same reason as the grid: a CJ outage should
+        # cost us fresh product pages for a day, not the whole refresh.
+        continue-on-error: true
+        run: |
+          node scripts/build-product-registry.mjs
+          node scripts/build-product-pages.mjs
       - name: Regenerate sitemap.xml
         # /deals and the four department hubs are declared changefreq=daily and
         # are in fact rewritten every night — but the sitemap was only rebuilt
@@ -87,7 +98,7 @@ jobs:
           git config user.email "price-bot@mulliganmemo.com"
           # sitemap.xml belongs here or the regen step above silently throws its
           # own output away every night.
-          git add data/ deals/ deals.html launch-monitors.html index.html styles/deals.css sitemap.xml
+          git add data/ deals/ deals.html launch-monitors.html index.html styles/deals.css sitemap.xml products/
           if git diff --cached --quiet; then
             echo "no changes"
           else

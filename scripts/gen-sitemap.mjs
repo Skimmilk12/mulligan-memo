@@ -111,6 +111,14 @@ if (fs.existsSync(path.join(ROOT, 'launch-monitors.html')))
 if (fs.existsSync(path.join(ROOT, 'privacy-policy.html')))
   lines.push(`  <url><loc>${BASE}/privacy-policy.html</loc><lastmod>${lastmod('privacy-policy.html')}</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>`);
 
+// Product catalogue — regenerated nightly with tonight's verified offer, so
+// lastmod is honestly "today" the same way /deals is.
+if (fs.existsSync(path.join(ROOT, 'products'))) {
+  lines.push(`  <url><loc>${BASE}/products/</loc><lastmod>${date}</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>`);
+  for (const f of fs.readdirSync(path.join(ROOT, 'products')).filter(f => f.endsWith('.html') && f !== 'index.html').sort())
+    lines.push(`  <url><loc>${BASE}/products/${f}</loc><lastmod>${date}</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>`);
+}
+
 // Deals Desk + department ledgers (audit P1-1: these were missing entirely)
 if (fs.existsSync(path.join(ROOT, 'deals.html')))
   lines.push(`  <url><loc>${BASE}/deals.html</loc><lastmod>${date}</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>`);
