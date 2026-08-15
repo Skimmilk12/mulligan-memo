@@ -23,6 +23,10 @@ const ROOT = process.cwd();
 const registry = JSON.parse(readFileSync(join(ROOT, 'data', 'products.json'), 'utf8'));
 const grid = JSON.parse(readFileSync(join(ROOT, 'data', 'deals-grid.json'), 'utf8'));
 const OUT = join(ROOT, 'products');
+/* Public keys only — designed to ship in a page. See data/ratings-config.json. */
+const RCFG = existsSync(join(ROOT, 'data', 'ratings-config.json'))
+  ? JSON.parse(readFileSync(join(ROOT, 'data', 'ratings-config.json'), 'utf8'))
+  : null;
 mkdirSync(OUT, { recursive: true });
 
 const esc = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -144,6 +148,9 @@ const FOOTER = `  <footer>
     })();
   </script>
   <script src="/search.js" defer></script>
+  ${RCFG ? `<script>window.MM_RATINGS=${JSON.stringify({ url: RCFG.supabase_url, key: RCFG.supabase_anon_key })};</script>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js" defer></script>
+  <script src="/ratings.js" defer></script>` : ''}
 </body>
 </html>`;
 
@@ -202,7 +209,7 @@ function variantsBlock(p) {
 /* The two score panels, in their honest day-one state. The plan's exact spec:
    citation rows immediately once catalogued; golfer score displays at n=5.
    Neither exists yet, and the page says so plainly rather than faking either. */
-function scoresBlock() {
+function scoresBlock(p) {
   return `
       <section class="pp-scores">
         <h2><span class="kick">The record</span>Scores</h2>
@@ -213,7 +220,10 @@ function scoresBlock() {
           </div>
           <div class="pp-score-panel">
             <h3>Mulligan golfer score</h3>
-            <p class="pp-score-empty">No ratings yet. Ratings open soon: signed-in golfers who have personally used this exact model will be able to rate it here. A score shows once five ratings are in.</p>
+            ${RCFG
+              ? `<div id="mm-rating" data-product-id="${esc(p.product_id)}" data-product-slug="${esc(p.slug)}" data-product-name="${esc(p.canonical_name)}"><p class="pp-score-empty">Loading ratings&hellip;</p></div>
+            <p class="pp-score-fine">Community ratings from signed-in Mulligan Memo users. Product use is self-attested; purchase and ownership are not verified. New ratings are reviewed for up to 24 hours before they count.</p>`
+              : `<p class="pp-score-empty">No ratings yet. Ratings open soon: signed-in golfers who have personally used this exact model will be able to rate it here. A score shows once five ratings are in.</p>`}
           </div>
         </div>
         <p class="pp-score-note">Mulligan Memo has not tested this product and does not publish its own review score.</p>
@@ -239,7 +249,7 @@ function productPage(p) {
     <section class="post-body">
 ${offerBlock(p, offer)}
 ${variantsBlock(p)}
-${scoresBlock()}
+${scoresBlock(p)}
     </section>
   </article>
 ${FOOTER}`;

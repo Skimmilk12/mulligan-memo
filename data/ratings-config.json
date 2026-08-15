@@ -1,0 +1,8 @@
+{
+  "_doc": "PUBLIC keys only. All three are designed to ship in a web page. Secrets (service_role, DB password, Google client secret, Turnstile secret) live in Supabase/Cloudflare/Robert's password manager and never here.",
+  "supabase_url": "https://loyfbmnshdzrlgrvhvvf.supabase.co",
+  "supabase_anon_key": "sb_publishable_LDXO4G2kySGX1aBs1MixMA_xY5_d91T",
+  "google_client_id": "976723208350-r5c28hbaco5di1gq5hpqi2r2v54tf1sl.apps.googleusercontent.com",
+  "turnstile_site_key": "0x4AAAAAAEQ5YmBt3O3zr9N_",
+  "created": "2026-08-15"
+}
