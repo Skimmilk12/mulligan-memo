@@ -148,8 +148,9 @@ const FOOTER = `  <footer>
     })();
   </script>
   <script src="/search.js" defer></script>
-  ${RCFG ? `<script>window.MM_RATINGS=${JSON.stringify({ url: RCFG.supabase_url, key: RCFG.supabase_anon_key })};</script>
+  ${RCFG ? `<script>window.MM_RATINGS=${JSON.stringify({ url: RCFG.supabase_url, key: RCFG.supabase_anon_key, turnstile: RCFG.turnstile_site_key })};</script>
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js" defer></script>
+  <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
   <script src="/ratings.js" defer></script>` : ''}
 </body>
 </html>`;

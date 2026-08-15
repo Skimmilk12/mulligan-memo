@@ -65,6 +65,16 @@ jobs:
         run: |
           node scripts/build-product-registry.mjs
           node scripts/build-product-pages.mjs
+      - name: Mirror the product catalogue into the ratings database
+        # Only immutable identity crosses (product_id, name, slug, status), so
+        # a rating can foreign-key to a real product and the public API cannot
+        # invent one. Needs the service_role key because catalog_products has
+        # RLS on and no write policy — deliberately. The script no-ops cleanly
+        # if the secret is absent, so this is safe to land before it exists.
+        continue-on-error: true
+        env:
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: node scripts/sync-catalog-to-supabase.mjs
       - name: Regenerate sitemap.xml
         # /deals and the four department hubs are declared changefreq=daily and
         # are in fact rewritten every night — but the sitemap was only rebuilt

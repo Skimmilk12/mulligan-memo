@@ -159,12 +159,39 @@
   }
 
   /* -------- auth -------- */
+  /* Supabase Auth has CAPTCHA protection on (Turnstile). Every auth call must
+     carry a fresh token or Supabase rejects it — Cowork flagged this after the
+     first version shipped without it. The token is minted by an invisible
+     Turnstile widget rendered on demand; a human sees at most a brief
+     "verifying" state, a bot gets nothing. */
+  function turnstileToken() {
+    return new Promise(function (resolve, reject) {
+      if (!cfg.turnstile || !window.turnstile) return resolve(null);
+      var host = document.getElementById('mmr-turnstile');
+      if (!host) { host = el('div'); host.id = 'mmr-turnstile'; root.appendChild(host); }
+      try {
+        window.turnstile.render(host, {
+          sitekey: cfg.turnstile,
+          size: 'invisible',
+          callback: function (t) { resolve(t); },
+          'error-callback': function () { reject(new Error('captcha failed')); },
+          'expired-callback': function () { /* a fresh render is made per sign-in */ },
+        });
+      } catch (e) { reject(e); }
+    });
+  }
+
   async function signIn() {
     var c = client(); if (!c) return;
-    await c.auth.signInWithOAuth({
+    var msg = root.querySelector('.mmr-msg') || root.querySelector('.mmr-note');
+    var token = null;
+    try { token = await turnstileToken(); }
+    catch (e) { if (msg) msg.textContent = 'Could not verify you are human. Please reload and try again.'; return; }
+    var r = await c.auth.signInWithOAuth({
       provider: 'google',
-      options: { redirectTo: location.href.split('#')[0] },
+      options: { redirectTo: location.href.split('#')[0], captchaToken: token || undefined },
     });
+    if (r && r.error && msg) msg.textContent = 'Sign-in failed: ' + r.error.message;
   }
   async function signOut() {
     var c = client(); if (!c) return;
