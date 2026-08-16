@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-08-15T18:19:33.750Z",
- "date": "2026-08-15",
+ "generated_at": "2026-08-16T10:40:28.421Z",
+ "date": "2026-08-16",
  "sources": [
   {
    "retailer": "PlayBetter",
    "status": "ok",
-   "on_sale_items": 253
+   "on_sale_items": 261
   },
   {
    "retailer": "Shop Indoor Golf",
    "status": "ok",
-   "on_sale_items": 265
+   "on_sale_items": 266
   },
   {
    "retailer": "Rain or Shine Golf",
@@ -914,17 +914,6 @@
    "pct_off": 30,
    "available": true,
    "url": "https://www.playbetter.com/products/flightscope-mevo-plus-pro-package-upgrade"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
-   "title": "Optoma ZW350ST Golf Simulator Projector",
-   "vendor": "Optoma",
-   "type": "Projector",
-   "price": 909,
-   "compare_at": 1299,
-   "pct_off": 30,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/optoma-zw350st-golf-simulator-projector"
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -1852,17 +1841,6 @@
   },
   {
    "retailer": "Shop Indoor Golf",
-   "title": "Optoma GT2000HDR Short Throw Golf Simulator Projector",
-   "vendor": "Optoma",
-   "type": "Projector",
-   "price": 1199,
-   "compare_at": 1499,
-   "pct_off": 20,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/optoma-gt2000hdr-short-throw-golf-simulator-projector"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
    "title": "Voice Caddie SC200 Plus Golf Launch Monitor",
    "vendor": "Voice Caddie",
    "type": "Launch Monitor",
@@ -2236,6 +2214,39 @@
    "url": "https://www.playbetter.com/products/garmin-approach-r10-golf-launch-monitor-pre-owned"
   },
   {
+   "retailer": "PlayBetter",
+   "title": "Bushnell Phantom 3 Handheld Golf GPS",
+   "vendor": "Bushnell",
+   "type": "Golf GPS Handheld",
+   "price": 139.99,
+   "compare_at": 169.99,
+   "pct_off": 18,
+   "available": true,
+   "url": "https://www.playbetter.com/products/bushnell-phantom-3-handheld-golf-gps"
+  },
+  {
+   "retailer": "PlayBetter",
+   "title": "Bushnell Wingman 2 Golf GPS Speaker",
+   "vendor": "Bushnell",
+   "type": "Golf GPS Speaker",
+   "price": 139.99,
+   "compare_at": 169.99,
+   "pct_off": 18,
+   "available": true,
+   "url": "https://www.playbetter.com/products/bushnell-wingman-2-golf-gps-speaker"
+  },
+  {
+   "retailer": "PlayBetter",
+   "title": "Bushnell Wingman Mini Golf Speaker",
+   "vendor": "Bushnell",
+   "type": "Golf GPS Speaker",
+   "price": 89.99,
+   "compare_at": 109.99,
+   "pct_off": 18,
+   "available": true,
+   "url": "https://www.playbetter.com/products/bushnell-wingman-mini-golf-speaker"
+  },
+  {
    "retailer": "Shop Indoor Golf",
    "title": "Rapsodo MLM2PRO SIG DIY Golf Simulator Studio Package",
    "vendor": "Rapsodo",
@@ -2421,6 +2432,17 @@
    "pct_off": 17,
    "available": true,
    "url": "https://shopindoorgolf.com/products/lg-bu53rg-4k-short-throw-laser-golf-simulator-projector"
+  },
+  {
+   "retailer": "Shop Indoor Golf",
+   "title": "Optoma GT2000HDR Short Throw Golf Simulator Projector",
+   "vendor": "Optoma",
+   "type": "Projector",
+   "price": 999,
+   "compare_at": 1199,
+   "pct_off": 17,
+   "available": true,
+   "url": "https://shopindoorgolf.com/products/optoma-gt2000hdr-short-throw-golf-simulator-projector"
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -3589,6 +3611,17 @@
    "url": "https://www.playbetter.com/products/garmin-approach-r10-golf-simulator-studio-package-playbetter-simstudio-with-impact-screen-enclosure-hitting-putting-mats-projector-1"
   },
   {
+   "retailer": "PlayBetter",
+   "title": "Bushnell Pro X3+ LINK Golf Laser Rangefinder",
+   "vendor": "Bushnell",
+   "type": "Golf Rangefinder",
+   "price": 529.99,
+   "compare_at": 599.99,
+   "pct_off": 12,
+   "available": true,
+   "url": "https://www.playbetter.com/products/bushnell-pro-x3-plus-golf-laser-rangefinder"
+  },
+  {
    "retailer": "Shop Indoor Golf",
    "title": "Uneekor EYE XR SIG DIY Golf Simulator Studio Package",
    "vendor": "Uneekor",
@@ -3917,6 +3950,17 @@
    "pct_off": 10,
    "available": true,
    "url": "https://www.playbetter.com/products/rapsodo-mlm2pro-sportscreen-vanish-lite-semi-retractable-golf-studio-complete-package"
+  },
+  {
+   "retailer": "PlayBetter",
+   "title": "Bushnell Tour Hybrid Laser/GPS Rangefinder",
+   "vendor": "Bushnell",
+   "type": "Golf Rangefinder",
+   "price": 449.99,
+   "compare_at": 499.99,
+   "pct_off": 10,
+   "available": true,
+   "url": "https://www.playbetter.com/products/bushnell-tour-hybrid-laser-gps-rangefinder"
   },
   {
    "retailer": "PlayBetter",
@@ -4393,6 +4437,17 @@
   },
   {
    "retailer": "Shop Indoor Golf",
+   "title": "Optoma GT2400HDR Golf Simulator Projector",
+   "vendor": "Optoma",
+   "type": "Projector",
+   "price": 1199,
+   "compare_at": 1299,
+   "pct_off": 8,
+   "available": true,
+   "url": "https://shopindoorgolf.com/products/optoma-gt2400hdr-golf-simulator-projector"
+  },
+  {
+   "retailer": "Shop Indoor Golf",
    "title": "Garmin Approach R50 SIG DIY Golf Simulator Studio Package",
    "vendor": "Garmin",
    "type": "Golf Simulator",
@@ -4676,6 +4731,17 @@
    "pct_off": 7,
    "available": true,
    "url": "https://shopindoorgolf.com/products/garmin-approach-r50-sig8-golf-simulator-package"
+  },
+  {
+   "retailer": "Shop Indoor Golf",
+   "title": "Optoma ZW350ST Golf Simulator Projector",
+   "vendor": "Optoma",
+   "type": "Projector",
+   "price": 849,
+   "compare_at": 909,
+   "pct_off": 7,
+   "available": true,
+   "url": "https://shopindoorgolf.com/products/optoma-zw350st-golf-simulator-projector"
   },
   {
    "retailer": "Rain or Shine Golf",
