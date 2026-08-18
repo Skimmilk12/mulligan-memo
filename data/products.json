@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-17T10:49:13.708Z",
+  "generated_at": "2026-08-18T10:47:51.949Z",
   "products": [
     {
       "product_id": "prd_c8682e21-a1ee-4c80-a16e-7c544c11caf4",
@@ -11,12 +11,12 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-08T23:47:41.248Z",
-      "last_seen": "2026-08-17T10:49:13.708Z",
+      "last_seen": "2026-08-18T10:47:51.949Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
           "item_group_id": "8102626951392",
-          "url": "https://sqairz.com/products/freedom-micro?variant=46639214133472",
+          "url": "https://sqairz.com/products/freedom-micro?variant=46639214100704",
           "display_title": "Sqairz Freedom™ Micro",
           "variants": [
             {
@@ -28,6 +28,11 @@
               "gtin": "810032390778",
               "mpn": "39077",
               "feed_title": "FREEDOM™ Micro Gray & Blue / 8.5 - SQAIRZ"
+            },
+            {
+              "gtin": "810032390761",
+              "mpn": "39076",
+              "feed_title": "FREEDOM™ Micro Gray & Blue / 8 - SQAIRZ"
             }
           ]
         }
@@ -42,12 +47,12 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-08T23:47:41.248Z",
-      "last_seen": "2026-08-17T10:49:13.708Z",
+      "last_seen": "2026-08-18T10:47:51.949Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
           "item_group_id": "8206716535008",
-          "url": "https://sqairz.com/products/velo?variant=44537241993440",
+          "url": "https://sqairz.com/products/velo?variant=44537242157280",
           "display_title": "Sqairz Velo™",
           "variants": [
             {
@@ -69,6 +74,11 @@
               "gtin": "810032398187",
               "mpn": "39818",
               "feed_title": "VELO™ White & Blue / 7.5 / Standard - SQAIRZ"
+            },
+            {
+              "gtin": "810032398323",
+              "mpn": "39832",
+              "feed_title": "VELO™ Black & White / 8 / Standard - SQAIRZ"
             }
           ]
         }
@@ -83,12 +93,12 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-08T23:47:41.248Z",
-      "last_seen": "2026-08-17T10:49:13.708Z",
+      "last_seen": "2026-08-18T10:47:51.949Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
           "item_group_id": "7763613155552",
-          "url": "https://sqairz.com/products/freedom-mesh?variant=44071184498912",
+          "url": "https://sqairz.com/products/freedom-mesh?variant=44071184433376",
           "display_title": "Sqairz Freedom™ Mesh Blackberry",
           "variants": [
             {
@@ -144,7 +154,7 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-08T23:47:41.248Z",
-      "last_seen": "2026-08-17T10:49:13.708Z",
+      "last_seen": "2026-08-18T10:47:51.949Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
@@ -180,7 +190,7 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-08T23:47:41.248Z",
-      "last_seen": "2026-08-17T10:49:13.708Z",
+      "last_seen": "2026-08-18T10:47:51.949Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
@@ -216,12 +226,12 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-08T23:47:41.248Z",
-      "last_seen": "2026-08-17T10:49:13.708Z",
+      "last_seen": "2026-08-18T10:47:51.949Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
           "item_group_id": "7763604832480",
-          "url": "https://sqairz.com/products/speed-mesh?variant=44370434851040",
+          "url": "https://sqairz.com/products/speed-mesh?variant=44370434752736",
           "display_title": "Sqairz Speed™ Mesh",
           "variants": [
             {
@@ -257,7 +267,7 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-08T23:47:41.248Z",
-      "last_seen": "2026-08-17T10:49:13.708Z",
+      "last_seen": "2026-08-18T10:47:51.949Z",
       "bindings": [
         {
           "retailer": "Cobra Golf",
@@ -274,6 +284,11 @@
               "gtin": "887996180516",
               "mpn": "F8201RGS3",
               "feed_title": "DARKSPEED LS Fairway Right / 3 / graphite stiff"
+            },
+            {
+              "gtin": "887996180530",
+              "mpn": "F8201RGS3P",
+              "feed_title": "DARKSPEED LS Fairway Right / 3pl / graphite stiff"
             }
           ]
         }
@@ -288,7 +303,7 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-08T23:47:41.248Z",
-      "last_seen": "2026-08-17T10:49:13.708Z",
+      "last_seen": "2026-08-18T10:47:51.949Z",
       "bindings": [
         {
           "retailer": "Cobra Golf",
@@ -479,12 +494,12 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-15T10:40:28.587Z",
-      "last_seen": "2026-08-17T10:49:13.708Z",
+      "last_seen": "2026-08-18T10:47:51.949Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
           "item_group_id": "8038823133408",
-          "url": "https://sqairz.com/products/freedom™-ultra?variant=46798532083936",
+          "url": "https://sqairz.com/products/freedom™-ultra?variant=46794973642976",
           "display_title": "Sqairz Freedom™ Ultra",
           "variants": [
             {
@@ -505,7 +520,7 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-15T10:40:28.587Z",
-      "last_seen": "2026-08-17T10:49:13.708Z",
+      "last_seen": "2026-08-18T10:47:51.949Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
@@ -541,7 +556,7 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-15T10:40:28.587Z",
-      "last_seen": "2026-08-17T10:49:13.708Z",
+      "last_seen": "2026-08-18T10:47:51.949Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
@@ -577,7 +592,7 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-15T10:40:28.587Z",
-      "last_seen": "2026-08-17T10:49:13.708Z",
+      "last_seen": "2026-08-18T10:47:51.949Z",
       "bindings": [
         {
           "retailer": "Cobra Golf",
@@ -628,7 +643,7 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-15T10:40:28.587Z",
-      "last_seen": "2026-08-17T10:49:13.708Z",
+      "last_seen": "2026-08-18T10:47:51.949Z",
       "bindings": [
         {
           "retailer": "Cobra Golf",
@@ -680,6 +695,11 @@
               "gtin": "887996178100",
               "mpn": "D8211RGS105E",
               "feed_title": "DARKSPEED X Driver | Right 10.5 / graphite stiff / mca kai'li blue 60"
+            },
+            {
+              "gtin": "887996178124",
+              "mpn": "D8211RGR120E",
+              "feed_title": "DARKSPEED X Driver | Right 12.0 / graphite regular / mca kai'li blue 60"
             }
           ]
         }
@@ -694,7 +714,7 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-15T10:40:28.587Z",
-      "last_seen": "2026-08-17T10:49:13.708Z",
+      "last_seen": "2026-08-18T10:47:51.949Z",
       "bindings": [
         {
           "retailer": "Cobra Golf",
@@ -761,6 +781,48 @@
     {
       "reason": "no_item_group_id",
       "retailer": "PlayBetter",
+      "title": "Foresight Falcon with PlayBetter SimStudio™ BYO Package",
+      "url": "https://www.playbetter.com/products/foresight-falcon-playbetter-simstudio-byo-home-golf-studio-package",
+      "note": "source provides no advertiser-scoped product id; needs an approved feed or a manual binding"
+    },
+    {
+      "reason": "no_item_group_id",
+      "retailer": "PlayBetter",
+      "title": "Foresight Falcon with PlayBetter SimStudio™ Complete…",
+      "url": "https://www.playbetter.com/products/foresight-falcon-golf-overhead-launch-monitor-studio-package-playbetter-simstudio™-with-impact-screen-enclosure-side-barriers-hitting-putting-mats-projector",
+      "note": "source provides no advertiser-scoped product id; needs an approved feed or a manual binding"
+    },
+    {
+      "reason": "no_item_group_id",
+      "retailer": "PlayBetter",
+      "title": "Foresight Falcon with PlayBetter SimStudio™ Essentials…",
+      "url": "https://www.playbetter.com/products/foresight-falcon-home-golf-simulator-playbetter-simstudio-essentials-studio-package",
+      "note": "source provides no advertiser-scoped product id; needs an approved feed or a manual binding"
+    },
+    {
+      "reason": "no_item_group_id",
+      "retailer": "PlayBetter",
+      "title": "Foresight Falcon Golf Overhead Launch Monitor",
+      "url": "https://www.playbetter.com/products/foresight-falcon-golf-overhead-launch-monitor",
+      "note": "source provides no advertiser-scoped product id; needs an approved feed or a manual binding"
+    },
+    {
+      "reason": "no_item_group_id",
+      "retailer": "PlayBetter",
+      "title": "Foresight Falcon SportScreen Vanish Lite Hybrid",
+      "url": "https://www.playbetter.com/products/foresight-falcon-sportscreen-vanish-lite-semi-retractable-golf-studio-complete-package",
+      "note": "source provides no advertiser-scoped product id; needs an approved feed or a manual binding"
+    },
+    {
+      "reason": "no_item_group_id",
+      "retailer": "PlayBetter",
+      "title": "Foresight Falcon SportScreen Vanish Retractable Golf…",
+      "url": "https://www.playbetter.com/products/foresight-falcon-sportscreen-vanish-retractable-golf-studio-complete-package",
+      "note": "source provides no advertiser-scoped product id; needs an approved feed or a manual binding"
+    },
+    {
+      "reason": "no_item_group_id",
+      "retailer": "PlayBetter",
       "title": "Uneekor EYE XR with PlayBetter SimStudio™ BYO Package",
       "url": "https://www.playbetter.com/products/uneekor-eye-xr-diy-home-golf-simulator-studio-package-with-playbetter-simstudio-customizer",
       "note": "source provides no advertiser-scoped product id; needs an approved feed or a manual binding"
@@ -777,20 +839,6 @@
       "retailer": "PlayBetter",
       "title": "Uneekor EYE XR with PlayBetter SimStudio™ Essentials…",
       "url": "https://www.playbetter.com/products/uneekor-eye-xr-home-golf-simulator-playbetter-simstudio-essentials-studio-package",
-      "note": "source provides no advertiser-scoped product id; needs an approved feed or a manual binding"
-    },
-    {
-      "reason": "no_item_group_id",
-      "retailer": "PlayBetter",
-      "title": "Uneekor EYE XR SportScreen Vanish Retractable Golf Studio…",
-      "url": "https://www.playbetter.com/products/uneekor-eye-xr-sportscreen-vanish-retractable-golf-studio-complete-package",
-      "note": "source provides no advertiser-scoped product id; needs an approved feed or a manual binding"
-    },
-    {
-      "reason": "no_item_group_id",
-      "retailer": "PlayBetter",
-      "title": "Uneekor EYE XR SportScreen Vanish Lite Hybrid",
-      "url": "https://www.playbetter.com/products/uneekor-eye-xr-sportscreen-vanish-lite-semi-retractable-golf-studio-complete-package",
       "note": "source provides no advertiser-scoped product id; needs an approved feed or a manual binding"
     },
     {
@@ -819,34 +867,6 @@
       "retailer": "PlayBetter",
       "title": "Uneekor EYE XR Launch Monitor with Swing Optix Cameras",
       "url": "https://www.playbetter.com/products/uneekor-eye-xr-golf-launch-monitor-simulator",
-      "note": "source provides no advertiser-scoped product id; needs an approved feed or a manual binding"
-    },
-    {
-      "reason": "no_item_group_id",
-      "retailer": "PlayBetter",
-      "title": "Foresight GC3 (Pre-Owned) with PlayBetter SimStudio™…",
-      "url": "https://www.playbetter.com/products/foresight-gc3-certified-pre-owned-with-playbetter-simstudio-complete-package",
-      "note": "source provides no advertiser-scoped product id; needs an approved feed or a manual binding"
-    },
-    {
-      "reason": "no_item_group_id",
-      "retailer": "PlayBetter",
-      "title": "SkyTrak ST MAX with PlayBetter SimStudio™ BYO Package",
-      "url": "https://www.playbetter.com/products/skytrak-st-max-with-playbetter-simstudio-byo-build-your-own-package",
-      "note": "source provides no advertiser-scoped product id; needs an approved feed or a manual binding"
-    },
-    {
-      "reason": "no_item_group_id",
-      "retailer": "PlayBetter",
-      "title": "SkyTrak ST MAX with PlayBetter SimStudio™ Complete Package",
-      "url": "https://www.playbetter.com/products/skytrak-st-max-with-playbetter-simstudio-complete-package",
-      "note": "source provides no advertiser-scoped product id; needs an approved feed or a manual binding"
-    },
-    {
-      "reason": "no_item_group_id",
-      "retailer": "PlayBetter",
-      "title": "SkyTrak ST MAX with PlayBetter SimStudio™ Essentials…",
-      "url": "https://www.playbetter.com/products/skytrak-st-max-with-playbetter-simstudio-essentials-package",
       "note": "source provides no advertiser-scoped product id; needs an approved feed or a manual binding"
     }
   ]
