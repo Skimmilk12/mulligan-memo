@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-19T10:47:11.630Z",
+  "generated_at": "2026-08-20T10:48:28.977Z",
   "products": [
     {
       "product_id": "prd_c8682e21-a1ee-4c80-a16e-7c544c11caf4",
@@ -11,7 +11,7 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-08T23:47:41.248Z",
-      "last_seen": "2026-08-19T10:47:11.630Z",
+      "last_seen": "2026-08-20T10:48:28.977Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
@@ -47,12 +47,12 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-08T23:47:41.248Z",
-      "last_seen": "2026-08-19T10:47:11.630Z",
+      "last_seen": "2026-08-20T10:48:28.977Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
           "item_group_id": "8206716535008",
-          "url": "https://sqairz.com/products/velo?variant=44537241927904",
+          "url": "https://sqairz.com/products/velo?variant=44537242157280",
           "display_title": "Sqairz Velo™",
           "variants": [
             {
@@ -93,12 +93,12 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-08T23:47:41.248Z",
-      "last_seen": "2026-08-19T10:47:11.630Z",
+      "last_seen": "2026-08-20T10:48:28.977Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
           "item_group_id": "7763613155552",
-          "url": "https://sqairz.com/products/freedom-mesh?variant=44071184400608",
+          "url": "https://sqairz.com/products/freedom-mesh?variant=44071184498912",
           "display_title": "Sqairz Freedom™ Mesh Blackberry",
           "variants": [
             {
@@ -159,7 +159,7 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-08T23:47:41.248Z",
-      "last_seen": "2026-08-19T10:47:11.630Z",
+      "last_seen": "2026-08-20T10:48:28.977Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
@@ -195,12 +195,12 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-08T23:47:41.248Z",
-      "last_seen": "2026-08-19T10:47:11.630Z",
+      "last_seen": "2026-08-20T10:48:28.977Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
           "item_group_id": "8206704541920",
-          "url": "https://sqairz.com/products/speed-2?variant=47306873012448",
+          "url": "https://sqairz.com/products/speed-2?variant=47306873471200",
           "display_title": "Sqairz Speed2™",
           "variants": [
             {
@@ -231,12 +231,12 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-08T23:47:41.248Z",
-      "last_seen": "2026-08-19T10:47:11.630Z",
+      "last_seen": "2026-08-20T10:48:28.977Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
           "item_group_id": "7763604832480",
-          "url": "https://sqairz.com/products/speed-mesh?variant=44370434752736",
+          "url": "https://sqairz.com/products/speed-mesh?variant=43150732755168",
           "display_title": "Sqairz Speed™ Mesh",
           "variants": [
             {
@@ -258,6 +258,11 @@
               "gtin": "810032397418",
               "mpn": "39741",
               "feed_title": "SPEED™ Mesh Light Gray & Blue / 8.5 - SQAIRZ"
+            },
+            {
+              "gtin": "810032393168",
+              "mpn": "93168",
+              "feed_title": "SPEED™ Mesh White & Navy / 11.5 - SQAIRZ"
             }
           ]
         }
@@ -272,7 +277,7 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-08T23:47:41.248Z",
-      "last_seen": "2026-08-19T10:47:11.630Z",
+      "last_seen": "2026-08-20T10:48:28.977Z",
       "bindings": [
         {
           "retailer": "Cobra Golf",
@@ -318,7 +323,7 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-08T23:47:41.248Z",
-      "last_seen": "2026-08-19T10:47:11.630Z",
+      "last_seen": "2026-08-20T10:48:28.977Z",
       "bindings": [
         {
           "retailer": "Cobra Golf",
@@ -360,6 +365,11 @@
               "gtin": "887996199747",
               "mpn": "H9401RGA3",
               "feed_title": "DS-ADAPT Hybrid Right / 3 / graphite lite"
+            },
+            {
+              "gtin": "887996199723",
+              "mpn": "H9401RGR4",
+              "feed_title": "DS-ADAPT Hybrid Right / 4 / graphite regular"
             }
           ]
         }
@@ -514,12 +524,12 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-15T10:40:28.587Z",
-      "last_seen": "2026-08-19T10:47:11.630Z",
+      "last_seen": "2026-08-20T10:48:28.977Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
           "item_group_id": "8038823133408",
-          "url": "https://sqairz.com/products/freedom™-ultra?variant=46798532083936",
+          "url": "https://sqairz.com/products/freedom™-ultra?variant=46798532116704",
           "display_title": "Sqairz Freedom™ Ultra",
           "variants": [
             {
@@ -540,12 +550,12 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-15T10:40:28.587Z",
-      "last_seen": "2026-08-19T10:47:11.630Z",
+      "last_seen": "2026-08-20T10:48:28.977Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
           "item_group_id": "8608562413792",
-          "url": "https://sqairz.com/products/the-patriot-womens-limited-edition?variant=45963716067552",
+          "url": "https://sqairz.com/products/the-patriot-womens-limited-edition?variant=45963716165856",
           "display_title": "Sqairz Patriot Limited Edition",
           "variants": [
             {
@@ -562,6 +572,11 @@
               "gtin": "810032399498",
               "mpn": "39949",
               "feed_title": "Patriot Limited Edition White / 7 - SQAIRZ"
+            },
+            {
+              "gtin": "810032399535",
+              "mpn": "39953",
+              "feed_title": "Patriot Limited Edition White / 9 - SQAIRZ"
             }
           ]
         }
@@ -576,12 +591,12 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-15T10:40:28.587Z",
-      "last_seen": "2026-08-19T10:47:11.630Z",
+      "last_seen": "2026-08-20T10:48:28.977Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
           "item_group_id": "8608562217184",
-          "url": "https://sqairz.com/products/the-wave-mens-limited-edition?variant=45963714363616",
+          "url": "https://sqairz.com/products/the-wave-mens-limited-edition?variant=45963714461920",
           "display_title": "Sqairz Wave Limited Edition",
           "variants": [
             {
@@ -612,7 +627,7 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-15T10:40:28.587Z",
-      "last_seen": "2026-08-19T10:47:11.630Z",
+      "last_seen": "2026-08-20T10:48:28.977Z",
       "bindings": [
         {
           "retailer": "Cobra Golf",
@@ -663,7 +678,7 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-15T10:40:28.587Z",
-      "last_seen": "2026-08-19T10:47:11.630Z",
+      "last_seen": "2026-08-20T10:48:28.977Z",
       "bindings": [
         {
           "retailer": "Cobra Golf",
@@ -720,6 +735,11 @@
               "gtin": "887996178124",
               "mpn": "D8211RGR120E",
               "feed_title": "DARKSPEED X Driver | Right 12.0 / graphite regular / mca kai'li blue 60"
+            },
+            {
+              "gtin": "887996177950",
+              "mpn": "D8211RGS090D",
+              "feed_title": "DARKSPEED X Driver | Right 9.0 / graphite stiff / project x hzrdus black gen 4 matte finish"
             }
           ]
         }
@@ -734,7 +754,7 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-15T10:40:28.587Z",
-      "last_seen": "2026-08-19T10:47:11.630Z",
+      "last_seen": "2026-08-20T10:48:28.977Z",
       "bindings": [
         {
           "retailer": "Cobra Golf",
