@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-21T10:47:49.631Z",
- "date": "2026-08-21",
+ "generated_at": "2026-08-22T10:41:02.196Z",
+ "date": "2026-08-22",
  "sources": [
   {
    "retailer": "PlayBetter",
@@ -15,7 +15,7 @@
   {
    "retailer": "Rain or Shine Golf",
    "status": "ok",
-   "on_sale_items": 105
+   "on_sale_items": 110
   },
   {
    "retailer": "Top Shelf Golf",
@@ -3568,6 +3568,17 @@
   },
   {
    "retailer": "PlayBetter",
+   "title": "Garmin Edge 1050 Premium GPS Bike Computer",
+   "vendor": "Garmin",
+   "type": "GPS Bike Computer",
+   "price": 599.99,
+   "compare_at": 699.99,
+   "pct_off": 14,
+   "available": true,
+   "url": "https://www.playbetter.com/products/garmin-edge-1050-premium-gps-bike-computer"
+  },
+  {
+   "retailer": "PlayBetter",
    "title": "Rapsodo MLM2PRO Golf Launch Monitor & Simulator",
    "vendor": "Rapsodo",
    "type": "Golf Launch Monitor & Simulator",
@@ -3752,6 +3763,17 @@
    "pct_off": 14,
    "available": true,
    "url": "https://rainorshinegolf.com/products/swing-caddie-sc4-practice-package"
+  },
+  {
+   "retailer": "Rain or Shine Golf",
+   "title": "Foresight GC3",
+   "vendor": "Foresight Sports",
+   "type": "Portable Launch Monitor",
+   "price": 5999,
+   "compare_at": 6999,
+   "pct_off": 14,
+   "available": true,
+   "url": "https://rainorshinegolf.com/products/foresight-sports-gc3-launch-monitor"
   },
   {
    "retailer": "Top Shelf Golf",
@@ -4084,6 +4106,17 @@
    "url": "https://rainorshinegolf.com/products/square-golf-launch-monitor-practice-package"
   },
   {
+   "retailer": "Rain or Shine Golf",
+   "title": "Foresight GC3 Practice Bundle",
+   "vendor": "Foresight Sports",
+   "type": "Golf Simulator Package",
+   "price": 6998,
+   "compare_at": 7998,
+   "pct_off": 13,
+   "available": true,
+   "url": "https://rainorshinegolf.com/products/foresight-sports-gc3-practice-package"
+  },
+  {
    "retailer": "Top Shelf Golf",
    "title": "Foresight Sports GC3S Launch Monitor & Golf Simulator",
    "vendor": "Foresight Sports",
@@ -4291,6 +4324,17 @@
    "pct_off": 12,
    "available": true,
    "url": "https://rainorshinegolf.com/products/uneekor-eye-xr-retractable-golf-simulator"
+  },
+  {
+   "retailer": "Rain or Shine Golf",
+   "title": "Foresight Falcon",
+   "vendor": "Foresight Sports",
+   "type": "Overhead Launch Monitor",
+   "price": 14999,
+   "compare_at": 16999,
+   "pct_off": 12,
+   "available": true,
+   "url": "https://rainorshinegolf.com/products/foresight-sports-falcon-launch-monitor"
   },
   {
    "retailer": "PlayBetter",
@@ -4599,6 +4643,28 @@
    "pct_off": 10,
    "available": true,
    "url": "https://rainorshinegolf.com/products/trugolf-apogee-retractable-golf-simulator-package"
+  },
+  {
+   "retailer": "Rain or Shine Golf",
+   "title": "Foresight GC3 Retractable",
+   "vendor": "Foresight Sports",
+   "type": "Golf Simulator Package",
+   "price": 9499,
+   "compare_at": 10499,
+   "pct_off": 10,
+   "available": true,
+   "url": "https://rainorshinegolf.com/products/foresight-gc3-retractable-golf-simulator-package"
+  },
+  {
+   "retailer": "Rain or Shine Golf",
+   "title": "Foresight GC3 SwingBay",
+   "vendor": "Foresight Sports",
+   "type": "Golf Simulator Package",
+   "price": 9498,
+   "compare_at": 10498,
+   "pct_off": 10,
+   "available": true,
+   "url": "https://rainorshinegolf.com/products/foresight-gc3-swingbay-golf-simulator-package"
   },
   {
    "retailer": "PlayBetter",
