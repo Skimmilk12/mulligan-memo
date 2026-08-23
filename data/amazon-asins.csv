@@ -11,12 +11,12 @@ Cleveland Launcher XL2 golf,B0CP9WFMJW,Cleveland Golf Launcher XL 2 Driver,299.9
 Titleist TruFeel golf,B0FY3QKQ16,Titleist TruFeel Golf Balls,24.97,2026-08-22,current generation; most-reviewed colour variant (276)
 Ping G440 Max golf,,,,2026-08-22,BLANK: term feeds two articles meaning different products (G440 Max DRIVER in driver-vs-3-wood post; G440 Max 5/7-WOOD in fairway-woods post); Amazon results are thin third-party/custom/used listings with no canonical new-condition listing
 Titleist Velocity golf,B0FY3Q4B8W,Titleist Velocity Golf Balls,24.99,2026-08-22,current generation; most-reviewed variant (158)
-TaylorMade Distance  golf,B08QSL9XQW,TaylorMade Golf Distance+ Golf Balls,19.99,2026-08-22,article names TaylorMade Distance+; most-reviewed listing (11K)
+TaylorMade Distance+ golf,B08QSL9XQW,TaylorMade Golf Distance+ Golf Balls,19.99,2026-08-22,article names TaylorMade Distance+; most-reviewed listing (11K)
 Callaway Weather Spann golf,B0BKPCG7G9,Callaway Golf Weather Spann Glove,24.97,2026-08-22,current-generation glove (556 rv); a 2019-model listing has more reviews (773) but is the prior model
 Bushnell iON Elite golf,B0BDMT1X9H,"Bushnell Golf iON Elite GPS Watch - Color Touchscreen, Slope-Adjusted Yardages, 38,000+ Courses, Shot Tracker, USB-C",189.99,2026-08-22,colour variants share 367 reviews; chose first organic
 Ping G440 Hybrid golf,,,,2026-08-22,"BLANK: only loft/flex-specific third-party listings (e.g. '20* 3H Stiff Black Dot'), no prices or reviews shown, no canonical new-condition G440 hybrid listing; article names the model line, not a specific loft"
 Cleveland Huntington Beach SOFT golf,B0CP9T2FKB,Cleveland Golf HB Soft 2 Putter (Model 11),145.39,2026-08-22,chose HB Soft 2 Model 11 mallet (73 rv); fits mallet-vs-blade article; HB SOFT Milled is a separate worklist term
-Bushnell Pro X3  golf,B0CZ7MGYXB,"Bushnell Golf Pro X3+ Link Laser Rangefinder | Wind Speed, Slope & Elements Compensation, 1300-Yard Range, 7X Magnification",529.99,2026-08-22,articles name the Pro X3+ (Plus); 113 rv
+Bushnell Pro X3+ golf,B0CZ7MGYXB,"Bushnell Golf Pro X3+ Link Laser Rangefinder | Wind Speed, Slope & Elements Compensation, 1300-Yard Range, 7X Magnification",529.99,2026-08-22,articles name the Pro X3+ (Plus); 113 rv
 Golf Pride Tour Velvet golf,B0039IIGJ2,Golf Pride Tour Velvet Golf Grip,6.99,2026-08-22,classic single grip; most-reviewed (1.3K)
 Golf Pride MCC Plus4 golf,B00SZFMBNG,"Golf Pride MCC Plus4 Golf Club Grip, Grey",12.99,2026-08-22,grey; most-reviewed (2.2K)
 Lamkin Crossline golf,B01B7MM386,"Lamkin Crossline Golf Club Grip, Standard",17.88,2026-08-22,single standard grip; most-reviewed (85)
@@ -39,3 +39,246 @@ Golf Ball Planet 5A/Mint Recycled Premium Balls golf,B09H3SFHXL,Golf Ball Planet
 Foundgolfballs.com 4A/Near-Mint Value Dozens golf,,,,2026-08-22,BLANK: Foundgolfballs.com brand has no Amazon listings; search returns competitor Golf Ball Planet products only
 Kirkland Signature Performance  V3 golf,B0C54GXFQ8,"Kirkland Signature V3.0#1654518 Performance Plus 3-Piece Urethane Covered Golf Ball (2 Dozen, 24 Balls)",43.99,2026-08-22,Costco ball sold on Amazon via resellers; most-reviewed V3.0 listing (684); sold as 24-ball 2-dozen pack
 Tour Edge Bazooka Complete Set golf,,,,2026-08-22,"BLANK: Bazooka complete sets (370/470) are not sold new on Amazon; searches return only successor TE-400/TE-200 sets, an HL3 set and an old Bazooka putter; wrong-model substitution would be harmful"
+Ping G440 golf,,,,2026-08-22,BLANK skip-rule: Ping clubs not authorised on Amazon
+Cleveland Launcher XL Lite golf,B099FJTFVS,CG LauncherXL LiteDrv12.0 A RH,249.99,2026-08-22,"exact model the article names (Launcher XL Lite senior driver, 12.0 A-flex); cryptic listing title; newer HiBore XL Lite successor also on Amazon (38 rv)"
+TaylorMade Qi Max Lite golf,,,,2026-08-22,"BLANK skip-rule: article names Qi35 Max Lite (current-gen TaylorMade driver), not authorised on Amazon"
+Ping G440 K golf,,,,2026-08-22,BLANK skip-rule: Ping clubs not authorised on Amazon
+TaylorMade Qi4D Max golf,,,,2026-08-22,BLANK skip-rule: current-generation TaylorMade driver; not authorised on Amazon
+Callaway Quantum Max D golf,,,,2026-08-22,BLANK skip-rule: current-generation Callaway driver; not authorised on Amazon
+Cleveland Halo XL golf,B0CP9WFMFC,Cleveland Golf Launcher Halo XL Fairway Wood,143.99,2026-08-22,fairway-woods article; most-reviewed Halo XL fairway (111); card showed 'See options $143.99 (4 used & new offers)'; newer Halo XL Lite exists
+Callaway Paradym Ai Smoke Max golf,B0CJ4C8Z5Y,Callaway Golf Paradym AI Smoke Max Fairway Wood,269.99,2026-08-22,fairway-woods article; most-reviewed standard Max fairway (95); Draw/LH variants excluded
+Callaway Warbird golf,B0DHT6RVPZ,Callaway Golf Warbird Golf Balls,21.97,2026-08-22,current 2025-stock listing (1.3K rv); older listing pool has 4.6K
+Bridgestone e12 Contact golf,B08VSB9SXM,Bridgestone Golf e12 Contact,29.97,2026-08-22,most-reviewed e12 Contact listing (6.7K)
+Wilson Duo Soft+ golf,B0DQ9SKHJY,WILSON 2025 Duo Soft Golf Balls - 12 Balls,24.99,2026-08-22,same product as batch-1 term 'Wilson Duo Soft golf' (rank 26)
+TaylorMade Soft Response golf,B09MDHMJ4W,TaylorMade Soft Response,,2026-08-22,exact model (634 rv); card shows 'See options' with no direct price; model superseded by SpeedSoft but still the article's pick
+Bridgestone e6 golf,B0DVTF4LD4,Bridgestone e6 Golf Balls,23.97,2026-08-22,current 2025-stock listing (735 rv); prior listing has 1.5K
+Srixon Q-Star Tour golf,B0GP65HH3Z,Srixon Q-Star Tour 6 Golf Balls,39.99,2026-08-22,current generation (Tour 6; 96 rv); prior-gen yellow listing has 293
+Kirkland Signature Performance+ golf,B0C54GXFQ8,"Kirkland Signature V3.0#1654518 Performance Plus 3-Piece Urethane Covered Golf Ball (2 Dozen, 24 Balls)",43.99,2026-08-22,same product as batch-1 term 'Kirkland Signature Performance V3' (rank 39); Costco ball via resellers
+TaylorMade Noodle Long & Soft golf,B09F5N3PV2,"TaylorMade Noodle Long & Soft Golf Balls, Ultra-Soft 34 Compression Core",27.97,2026-08-22,exact model; most-reviewed (2.7K)
+Ping ChipR golf,,,,2026-08-22,BLANK skip-rule: Ping clubs not authorised on Amazon
+Cleveland Smart Sole Full-Face Type C golf,B0CKX6JFY1,Cleveland Golf Smart Sole Full-FACE Type-C KBS Hi-Rev MAX105 Steel Shaft Men's Right-Handed Wedge,252.27,2026-08-22,only listing explicitly Type-C (8 rv); third-party price elevated; the 94-rv 'Smart Sole Full-Face Wedge' family does not label which variant is Type C
+Odyssey X-Act Chipper golf,B0F68W5D5V,Odyssey Golf Chipper (Putter/Wedge),199.99,2026-08-22,Odyssey's chipper is the X-Act; most-reviewed listing (439)
+Orlimar Escape Chipper golf,B0794JNG84,"Orlimar Escape Mid-Mallet Chipper Golf Club, Right Hand for Men and Women",59.95,2026-08-22,most-reviewed Escape chipper listing (333); Mallet colour-family (269) also exists
+GoSports Chipster golf,B07FCNK2K8,GoSports Chipster Pop-Up Golf Chipping Practice Net - Training Aid for Precision and Distance,29.99,2026-08-22,most-reviewed Chipster size variant (3.1K)
+Rukket Pop-Up Skee Golf Chipping Target golf,,,,2026-08-22,BLANK: no Rukket 'Skee' chipping product on Amazon (two searches); only Rukket Tri-Turf hitting mats appear; product likely sold via rukket.com only
+Callaway Chip-Shot Chipping Net golf,B0047I2EQO,"Callaway Chip-Shot Golf Chipping Net,",49.99,2026-08-22,exact product; 1.9K reviews
+SKLZ Quickster Chipping Net golf,B00J7GR420,"SKLZ Quickster Chipping Golf Net, Black",39.99,2026-08-22,exact product (192 rv); net-only listing not the ball bundle
+FootJoy RainGrip golf,B075X1PYVF,FootJoy Golf RainGrip Gloves (1 Pair),31.95,2026-08-22,most-reviewed RainGrip listing (6.5K)
+FootJoy StaSof TropiCool golf,B07W5B623F,FootJoy Men's Tropicool Gloves,19.00,2026-08-22,article treats TropiCool as the StaSof-family sweat glove; Amazon sells it as 'Tropicool' (728 rv); plain StaSof leather glove is a different product
+MacWet Aquatec golf,B00G49KLKU,Macwet Men's & Women's 1 Pair Short Mesh Sports Gloves 8.5 Black,59.70,2026-08-22,only MacWet pair listing on Amazon (7 rv); title says 'Short Mesh' and does not name Aquatec vs Micromesh fabric; article treats them as one family
+Garmin Approach S12 golf,B08X1L2CDK,"Garmin Approach S12, Easy-to-Use GPS Golf Watch, 42k+ Preloaded Courses, Black, 010-02472-00",174.79,2026-08-22,new-condition listing (3.1K rv); Renewed listings excluded
+TecTecTec ULT-G golf,B07NRYCRL3,"TecTecTec ULT-G Golf GPS Watch - Simple & Easy Distance Watch, No App Required on Course",109.99,2026-08-22,most-reviewed ULT-G watch listing (5.5K)
+Garmin Approach S10 golf,,,,2026-08-22,BLANK: S10 is discontinued; no new-condition S10 listing surfaces (only S12/S44 and Renewed units); wrong-model substitution not allowed
+Callaway Elyte Hybrid golf,B0DHWJ2H1J,"Callaway Golf Elyte Hybrid (Right,Vanquish 50g,Light,4 Hybrid)",175.99,2026-08-22,standard Elyte Hybrid; most-reviewed config (14 rv); X variant is separate
+Cleveland Halo XL Hybrid golf,B0CP9X1FKW,Cleveland Golf Launcher Halo XL Hybrid,199.99,2026-08-22,most-reviewed variant (33)
+Wilson Dynapower Hybrid golf,B0BT23CLZM,Wilson Dynapower Men's Hybrid Golf Clubs - 3/4/5/6,169.99,2026-08-22,
+Titleist GT1 Hybrid golf,,,,2026-08-22,BLANK skip-rule: Titleist clubs not authorised on Amazon
+Cleveland Launcher XL Halo golf,B099FW5R46,Cleveland Golf Launcher XL Halo Iron Set,699.99,2026-08-22,seniors-irons article names the Launcher XL Halo irons; iron-set listing (217 rv)
+Ping G440 irons golf,,,,2026-08-22,BLANK skip-rule: Ping clubs not authorised on Amazon
+Voice Caddie golf,,,,2026-08-22,BLANK: article names two distinct Voice Caddie products (SC200 Plus and Swing Caddie SC300i); generic term cannot pin one; SC4 PRO is a separate worklist term
+Rapsodo MLM2PRO golf,B0BTPZMCSF,Rapsodo MLM2Pro Mobile Launch Monitor Golf Simulator | 3 Chrome Tour Balls | Swing Trainer & Shot Tracker,599.99,2026-08-22,exact product (699 rv)
+Swing Caddie SC4 PRO golf,B0H9CBN68F,Voice Caddie SC4 PRO Golf GPS Launch Monitor and Driving Range Simulator - 8 Data Parameters,599.99,2026-08-22,new-release listing; no reviews yet; first organic of three identical
+CaddyTek CaddyLite EZ V8 golf,,,,2026-08-22,"BLANK: no 'CaddyLite EZ V8' listing on Amazon; CaddyLite line there is 11.5 V3 / 15.3 V2 / ONE-Swivel V8, and the EZ-Fold V8 is the separate Costco model (rank 81); picking any would be a guess"
+CaddyTek EZ-Fold 3-Wheel golf,B07DSXGLN5,CaddytekCaddyTek EZ-fold 3 Wheel Golf Push Cart Version 8,208.95,2026-08-22,the 'Costco CaddyTek' per article; 4.2K reviews
+CaddyTek CaddyCruiser ONE V8 golf,B07DT1QBC1,CaddyTek 4 Wheel Golf Push Cart - Caddycruiser One Version 8 1-Click Folding Trolley,169.23,2026-08-22,exact model (3.1K reviews)
+KVV 3-Wheel Foldable Push Cart golf,B08FQYHX2Q,KVV 3 Wheel Foldable/Collapsible Golf Push Cart Ultra Lightweight Smallest Folding Size,152.99,2026-08-22,most-reviewed KVV 3-wheel (1.5K)
+Wilson Harmonized M-series Mallet golf,,,,2026-08-22,"BLANK / UNSURE: article names the Harmonized M-series mallet, but Amazon no longer lists M-series new - Wilson's current equivalent is the Harmonized X5 mallet (B0F492FMWY, 84 rv); substituting the successor would be a model swap, flagging for human confirmation"
+Nikon Coolshot Pro III Stabilized golf,B0DVD5M9LY,NIKON COOLSHOT PROIII STABILIZED Golf Laser Rangefinder,426.23,2026-08-22,bare unit over bundles
+Nikon Coolshot Pro II Stabilized golf,B091VQS214,Nikon COOLSHOT PROII STABILIZED Golf Rangefinder,296.95,2026-08-22,bare unit (346 rv)
+Vortex Anarch golf,B0CWN47RX6,Vortex Anarch Image Stabilized Golf Laser Rangefinder,,2026-08-22,article names plain Anarch not Anarch+; price shown as See options
+Leupold GX-6c golf,,,,2026-08-22,no GX-6c listing on Amazon (only GX-5C and hunting RX units) - appears discontinued/not sold new
+Garmin Approach Z82 golf,,,,2026-08-22,no bare new Z82 listing - only Renewed (B0B6M52VGH) and $609.99 bundles; blank per new-condition/main-product rules
+GoGoGo Sport VPro GS03 golf,B07PV6NJFH,"Gogogo Sport Vpro GS03 Laser Golf/Hunting Rangefinder, 1000/1200 Yards",66.49,2026-08-22,most-reviewed GS03 (5K vs 872)
+GoGoGo Sport VPro GS24 golf,B09KR87MQT,"Gogogo Sport Vpro GS24 Golf & Hunting Laser Rangefinder, 1200 Yards",79.98,2026-08-22,9.1K rv
+REVASRI Golf Rangefinder golf,B09GLP62SS,"REVASRI Range Finder for Golf, Slope, Pin Lock Vibration 1000Y",37.49,2026-08-22,4.8K rv
+PEAKPULSE Golf Rangefinder 650 golf,B07BTBLHM4,Golf Range Finder 650 Yards RangeFinder Golfing High Clarity Display 6X Magnification (PEAKPULSE),42.63,2026-08-22,PEAKPULSE store confirmed on product page; 2.1K rv
+GoGoGo Sport ZeroIn golf,,,,2026-08-22,no Amazon listing titled ZeroIn - closest is Gogogo Vpro Magnetic 2500yd (B0CSY8CKPJ) whose title never says ZeroIn; blank per never-guess
+Garmin Approach S70 golf,B0CBW67NLW,Garmin Approach S70 Golf Smartwatch Full-Color CourseView Maps AMOLED,654.99,2026-08-22,bare unit over bundles (82 rv)
+New Balance 997 SL golf,B0CK3MFZ36,New Balance Men's 997 Spikeless Golf Shoe,109.95,2026-08-22,SL = spikeless model (238 rv)
+ECCO Biom C5 golf,B0FCLGV7LW,ECCO Mens Biom C5 Boa Gore-tex Waterproof,270.00,2026-08-22,article says Biom C5 generically; Boa variant most-reviewed (32 vs 18 Lace)
+Alignment sticks golf,B09YYX7C6R,"SuperStroke Golf Alignment Sticks 45"" Fiberglass Rods",29.99,2026-08-22,article blesses generic/any brand; most-reviewed fiberglass sticks in results (843 rv)
+Orange Whip golf,B07HXTFD8D,Orange Whip Golf Swing Trainer Aid Patented & Made in USA,119.99,2026-08-22,original full-size trainer (2.6K rv)
+Lag Shot golf,B096XZCP7D,Lag Shot 7 Iron Golf Swing Trainer for Men,119.00,2026-08-22,standard 7-iron model new (90 rv); skipped Pre-Owned listing
+golf impact spray,B0FWSFCXWY,Dr. Swing Golf Impact Spray 2 Pack,29.99,2026-08-22,article blesses generic (even foot-powder spray); only true golf impact spray in results (30 rv)
+Cleveland CBX Full-Face golf,B0BS5DBJ85,Cleveland Golf CBX Full Face 2 Wedge,159.99,2026-08-22,article says Full-Face (Full-Face 2) - Full Face 2 confirmed (86 rv)
+Kirkland Signature 3-Piece Wedge Set golf,,,,2026-08-22,blanked: marketplace reseller ~$288 vs the $160 Costco price the article is about
+Lazrus Premium Forged Wedge golf,B07NKDGVR6,LAZRUS Premium Forged Golf Wedge Set for Men Or Individual,59.99,2026-08-22,39 rv
+Cleveland Halo XL Full-Face Irons golf,B0CP9V942J,Cleveland Golf Halo XL Full-Face Iron Set,849.99,2026-08-22,exact iron-set listing (27 rv)
+TaylorMade Qi HL golf,B0CP9WZWQ6,TaylorMade Golf Qi HL Iron Set,899.99,2026-08-22,exact prior-gen model the article names (not current Qi Max HL); 6 rv
+Callaway Elyte X Irons golf,,,,2026-08-22,BLANK skip-rule: current-generation Callaway irons; not authorised on Amazon (only thin config listings)
+Ping G440 Irons golf,,,,2026-08-22,BLANK skip-rule: Ping clubs not authorised on Amazon
+Callaway Strata Plus Complete Set golf,B07H29ZCM5,"Callaway Golf Men's Strata Plus Complete 14 Piece Package Set, Left Hand",599.99,2026-08-22,LH mens 14-pc Strata Plus variant (article is left-handed sets guide)
+SuperStroke Zenergy Fatso 5.0 Putter Grip golf,,,,2026-08-22,"BLANK / UNSURE: Amazon's Zenergy family has no listing titled Fatso 5.0 - closest is Zenergy Tour 5.0 no-taper (B0BXQ59ZMC, 2.1K rv, $34.99), a same-size but differently-named grip; flagging rather than swap models"
+Odyssey Jailbird Cruiser golf,B0DQZY14QF,Odyssey AI-ONE Cruiser Jailbird VERSA90 Putter 38 Inch Steel Men's,360.31,2026-08-22,matches article's Ai-ONE Cruiser Jailbird 38in build (5 rv; import-style listing)
+L.A.B. Golf Mezz.1 Max golf,,,,2026-08-22,L.A.B. putters not sold on Amazon - only third-party headcovers; LAB sells direct
+Odyssey Ai-ONE Square 2 Square Jailbird Broomstick golf,B0DK2BJQKW,Odyssey Square to Square Jailbird Broomstick Putter 48in (SQR to SQR JLBD BRMSTK),329.95,2026-08-22,dp title confirms JLBD BRMSTK 48; only 1 rv
+PrimePutt Indoor Putting Mat golf,,,,2026-08-22,PrimePutt not sold on Amazon (direct-to-consumer only); no listing found
+Wellputt Putting Mat golf,B0789WHP89,WELLPUTT - Golf Putting Training Mat - Classic Green 10ft,149.00,2026-08-22,article names the 10/13ft Classic line; 10ft most-reviewed Classic (415 rv)
+Perfect Practice Putting Mat golf,B07YQ7935B,Perfect Practice Putting Mat & Golf Chipping Net,129.99,2026-08-22,1.7K rv
+SKLZ Accelerator Pro golf,B013BYCKDQ,SKLZ Putting Green (Accelerator Pro - ball return + 3/5/7ft alignment guides),43.58,2026-08-22,listing retitled to SKLZ Putting Green but spec/brand match Accelerator Pro (6.8K rv); explicit-name option is a 1-rv mirror bundle
+TaylorMade P790 golf,,,,2026-08-22,blanked: new 2025 set on a used-irons article
+Callaway Apex golf,,,,2026-08-22,blanked: new Ai200 set on a used-irons article
+Mizuno JPX golf,,,,2026-08-22,BLANK skip-rule: Mizuno irons not authorised on Amazon (article names JPX Hot Metal line)
+Ping G425 golf,,,,2026-08-22,skip-rule: Ping clubs not authorised on Amazon
+Callaway Women's Strata Complete Set golf,B07H2CXV1Y,Callaway Golf Strata Complete Golf Set (Women's Right Hand 11-Piece),454.99,2026-08-22,women's variant of the Strata family listing (1.6K rv)
+Wilson Profile SGI Women's Complete Set golf,B07HMYSS9C,Wilson Women's Profile SGI Complete Golf Package Set,449.99,2026-08-22,most-reviewed variant (665 rv)
+Cleveland Bloom Ladies Package Set golf,B0BS577JTP,Cleveland Golf Women's Bloom Complete Golf Club Package Set,799.99,2026-08-22,27 rv
+FootJoy WeatherSof golf,B0CCK9CRGX,FootJoy Men's WeatherSof 2-Pack Golf Glove,22.97,2026-08-22,most-reviewed listing (5K rv 2-pack)
+FootJoy StaSof golf,B0B9Q331TF,FootJoy Men's StaSof Golf Glove,29.00,2026-08-22,889 rv
+Titleist Players Glove golf,B07WK3SHR7,Titleist Players Men's Regular Left,30.95,2026-08-22,most-reviewed (1.6K rv); gloves are authorised unlike Titleist clubs
+Callaway Strata Plus 14-Piece Complete Set golf,B07H2B8ZDK,Callaway Strata Plus 14-Piece Complete Set (Men's Right Hand),574.44,2026-08-22,mens RH 14-pc variant (1.2K rv)
+Callaway Strata 12-Piece Complete Set golf,B07H2HQJR5,Callaway Strata 12-Piece Complete Set (Men's Right Hand),481.20,2026-08-22,mens RH 12-pc variant (5.4K rv)
+Callaway Strata Ultimate 16-Piece Complete Set golf,B07H2CKPJV,Callaway Strata Ultimate 16-Piece Complete Set (Men's Right Hand),629.99,2026-08-22,mens RH 16-pc variant
+Callaway Strata Women's Complete Set golf,B07H2CXV1Y,Callaway Golf Strata Complete Golf Set (Women's Right Hand 11-Piece),454.99,2026-08-22,womens variant; same ASIN as rank 122 (1.6K rv)
+Cleveland Launcher XL2 Draw golf,B0CP9VMBCV,Cleveland Golf Launcher XL 2 Driver - 10.5 Degrees (Draw),299.99,2026-08-22,Draw variant of the XL 2 driver family (105 rv family)
+Wilson Launch Pad 2 golf,B09X8L56KF,Wilson Staff Launch Pad 2 Driver - Graphite,279.21,2026-08-22,dp title confirms Launch Pad 2 driver (73 rv)
+Wilson D9 golf,B08SMT9D5J,WILSON D9 Men's Golf Driver - 9/10.5/13,486.98,2026-08-22,47 rv; marketplace price above original MSRP
+Mizuno ST-Max 230 golf,,,,2026-08-22,no ST-Max 230 driver listing on Amazon - only ST-X 230 driver and ST-MAX 230 hybrid surfaced
+Stix golf club set,B0D1BCKZTS,"Stix Golf Club Set for Men & Women - 9 Piece, Graphite Shafts",599.00,2026-08-22,most-reviewed Stix set (48 rv)
+Rapsodo MLM2PRO golf launch monitor,B0BTPZMCSF,Rapsodo MLM2Pro Mobile Launch Monitor Golf Simulator,599.99,2026-08-22,699 rv; same ASIN as batch-2 usage
+Swing Caddie SC4 Pro golf,B0H9CBN68F,Voice Caddie SC4 PRO Golf GPS Launch Monitor and Driving Range Simulator,599.99,2026-08-22,same ASIN chosen in batch 2 for SC4 Pro
+PRGR portable launch monitor HS-130A,B097DWG9MN,PRGR HS 130-A Portable Golf Launch Monitor,199.99,2026-08-22,1.7K rv
+Kirkland Signature golf,B0C54GXFQ8,Kirkland Signature V3.0 Performance Plus 3-Piece Urethane Golf Ball (2 Dozen),43.99,2026-08-22,current V3.0 over older listing (2.8K rv B08LK957HK is prior version); consistent with batches 1-2
+Winn Dri-Tac Oversize golf,B006GFE4NM,Winn Dri-Tac Oversize Golf Grip,13.99,2026-08-22,1.1K rv
+Lamkin Sonar+ golf,B0BX5KHRXD,Lamkin Sonar + Grips,19.50,2026-08-22,most-reviewed Sonar+ single grip (30 rv)
+SuperStroke S-Tech golf,B01C7FQCKC,"SuperStroke S-Tech Rubber Golf Club Grip, Blue/Yellow (Standard)",8.08,2026-08-22,rubber S-Tech most-reviewed (211 rv) over Cord version
+Precision Pro NX10 Slope golf,B0BJNVPVLK,"Precision Pro NX10 Slope Golf Rangefinder, 20+ Interchangeable Looks",249.99,2026-08-22,68 rv
+Shot Scope Pro L2 golf,B0BZLFMSD6,Shot Scope PRO L2 Rangefinder,129.99,2026-08-22,193 rv
+FlightScope Mevo+ golf,,,,2026-08-22,"BLANK / UNSURE: article names the Mevo+ (worklist term lost the +); Mevo+ no longer listed new - successor is Mevo Gen2 (B0FK8M3VLB, $1,299, 30 rv); flagging rather than swap models"
+SkyTrak+ golf,B0C7HGQLF7,SkyTrak+ Launch Monitor & Golf Simulator (Previous Generation),1195.00,2026-08-22,article names SkyTrak+ (worklist term lost the +); exact model still sold new (102 rv)
+Bushnell Launch Pro golf,B0CL2LM6Z2,Bushnell Golf Launch Pro Ball Data Launch Monitor,1999.99,2026-08-22,base Launch Pro (11 rv); Circle B editions are the 2026 refresh
+True Temper Dynamic Gold golf,B0C6FSZNY4,TRUE TEMPER Dynamic Gold 105 S300 Stiff Flex Iron Shafts - .355 Taper Tip,36.90,2026-08-22,article names DG generically; most-reviewed listing (63 rv)
+KBS Tour golf,B075MSZPRG,KBS Tour Iron Shafts - Stiff Flex - .355 Taper Tip (4I),49.72,2026-08-22,most-reviewed single-shaft listing (9 rv)
+Nippon N.S. Pro 850GH golf,B00OREIBTC,"Japan Shaft N.S.PRO 850GH for Irons, #8 Flex S",50.73,2026-08-22,exact 850GH (not neo); JP-import listing with no reviews
+UST Mamiya Recoil golf,B07R6PWCVM,UST Mamiya New Recoil 460 ESX Iron Shaft Set .370 tip,95.99,2026-08-22,most-reviewed Recoil listing (26 rv)
+Bushnell Phantom 3 Slope golf,B0D861LCTS,"Bushnell Golf Phantom 3 Slope GPS, Red/Blue Handheld",139.98,2026-08-22,636 rv
+Garmin Approach G12 golf,B08X1M9CT8,"Garmin Approach G12, Clip-on Golf GPS Rangefinder, 42k+ Preloaded Courses",134.99,2026-08-22,846 rv; skipped Renewed listing
+Garmin Approach G20 Solar golf,B0DRZ2C4PM,"Garmin Approach G20 Solar, GPS Golf Handheld",299.99,2026-08-22,bare unit over bundles (21 rv)
+Shot Scope H50 golf,B0GP7R7QR9,Shot Scope H50 GPS Handheld,169.99,2026-08-22,bare unit over PlayBetter bundle (6 rv)
+Frogger BrushPro Golf Club Cleaner golf,B08LP3MY54,Frogger BrushPro Golf Club Cleaner with Ergonomic Grip and 2.5 ft. Retractable Cord,24.99,2026-08-22,3.5K rv
+GrooveIt Brush golf,B09W86KL4J,Grooveit The Wet Club Scrub Golf Water Brush,24.95,2026-08-22,original wet-scrub brush (2.1K rv)
+Microfiber Waffle-Weave Golf Towel golf,B09B5CTHGB,"Microfiber Golf Towel (16 X 16) with Carabiner Clip, Waffle Pattern",9.99,2026-08-22,generic category - most-reviewed (4K rv)
+ToVii Golf Towel and Brush Kit golf,B08LPXZD2B,Golf Towel Microfiber Waffle Pattern with Brush Tool Kit and Groove Cleaner (ToVii),14.99,2026-08-22,3.6K rv
+Sun Mountain C-130 Cart Bag golf,B0FR2D4KSC,"Sun Mountain Men's C130 Cart Golf Bag, 2026 Model",325.00,2026-08-22,current 2026 model over 2025 (538 rv prior-year listing)
+Ping Hoofer 14 Stand Bag golf,,,,2026-08-22,no Hoofer 14 listing - only a 0-review marketplace 'Ping Lite Hoofer 2026' at markup (B0CDBPP256); Ping bags effectively not sold new on Amazon
+Sun Mountain 2.5+ Stand Bag golf,B0CFBWR26D,Sun Mountain 2024 2.5+ Golf Stand Bag,249.99,2026-08-22,article names the 2.5+ (worklist term lost the +); exact model (47 rv)
+Sunday Golf El Camino Stand Bag golf,B0B23C2DZQ,Sunday Golf El Camino Bag - Lightweight Golf Stand Bag,199.00,2026-08-22,155 rv
+TaylorMade Qi35 Max Hybrid golf,,,,2026-08-22,skip-rule: current-year TaylorMade club (Qi35) not authorised on Amazon
+Callaway Quantum Max OS Hybrid golf,,,,2026-08-22,skip-rule: current-year Callaway club (Quantum) not authorised on Amazon
+U.S. Kids Golf Ultralight Complete Sets golf,,,,2026-08-22,U.S. Kids Golf Ultralight sets not sold on Amazon (dealer-network brand); no listing found
+Callaway XJ Junior Sets golf,B0FH5WDWX7,Callaway Golf XJ Junior Golf Set 26,329.99,2026-08-22,current XJ junior set family (4 rv)
+Scotty Cameron Special Select golf,,,,2026-08-22,skip-rule: Scotty Cameron not authorised on Amazon
+Cleveland HB SOFT Milled golf,B0BJ161GG6,"Cleveland Golf HB Soft Milled Putter, 34"", Model 1, Plumber's Neck",189.16,2026-08-22,dp title confirms HB Soft Milled (38 rv)
+Odyssey Ai-ONE golf,B0CJ419BYK,Callaway Golf AI-One Putter,219.95,2026-08-22,most-reviewed Ai-ONE family listing (125 rv)
+Wilson Infinite golf,B0CPTCC3CC,Wilson 2024 Infinite Men's Buckingham Golf Putters,139.99,2026-08-22,most-reviewed Infinite model (Buckingham 78 rv)
+TaylorMade Spider Tour golf,B0CH1P8QKF,TaylorMade Golf Spider Tour Putter #3,349.99,2026-08-22,dp title confirms Spider Tour (28 rv)
+Odyssey Ai-ONE family golf,B0CJ419BYK,Callaway Golf AI-One Putter,219.95,2026-08-22,same family listing as rank 171
+Ping Tyne golf,,,,2026-08-22,skip-rule: Ping clubs not authorised on Amazon
+Clicgear Rovic RV1S 2.0 golf,,,,2026-08-22,no RV1S listing on Amazon - only the RV1D disc-golf cart and Clicgear models; RV1S appears not sold there
+Bag Boy Nitron golf,B0FM2W8M21,Bag Boy Nitron Golf Push Cart,319.95,2026-08-22,129 rv
+Bag Boy Tri-Swivel II golf,,,,2026-08-22,no Tri-Swivel II listing on Amazon - appears discontinued (Nitron Swivel is Bag Boy's current swivel cart)
+Sun Mountain Pathfinder PX4 golf,B09BVZHMNT,Sun Mountain Pathfinder Px4 Golf Push Cart,279.00,2026-08-22,35 rv
+Fujikura Air Speeder golf,,,,2026-08-22,"only 0-review 3P custom builds (shaft pre-tipped for specific heads, $225) - no plain Air Speeder shaft listing"
+UST Mamiya Helium Nanocore golf,B0FDHTKRLR,UST Mamiya NanoCore Helium Driver/Fairway Shafts (Choose Flex and Adaptors),69.99,2026-08-22,3 rv
+Mitsubishi Chemical Vanquish golf,B0GVPW5QK7,Vanquish Blue Stock Driver/Wood Shaft (Choose Flex and Compatible Adaptors),89.99,2026-08-22,Mitsubishi Vanquish Blue stock shaft (2 rv)
+Fujikura Ventus golf,B0CRJSQRLC,Fujikura Ventus Black Driver Shaft (Choose Flex and Compatible Adaptors),119.95,2026-08-22,generic Ventus family term - most-reviewed (35 rv)
+Bridgestone e6 Soft golf,B0DVTF4LD4,Bridgestone e6 Golf Balls,23.97,2026-08-22,e6 Soft was folded into the current e6 line; same ASIN used in batch 2 (735 rv)
+adidas Tour360 golf,B0C66WX7MR,adidas Men's Tour360 24 Golf Shoes,169.97,2026-08-22,spiked flagship the article cites (804 rv)
+FootJoy Tour Alpha golf,B0CF65RTZW,FootJoy Men's Tour Alpha Previous Season Style Golf Shoe,129.95,2026-08-22,814 rv
+Payntr All Day SC golf,,,,2026-08-22,no Payntr listings on Amazon (search returns SQAIRZ etc); Payntr sells via own site/retailers
+PING Hoofer golf,,,,2026-08-22,"same finding as rank 162 - no proper Hoofer listing, only marked-up 3P Lite Hoofer with 0 reviews"
+Sun Mountain C-130 golf,B0FR2D4KSC,"Sun Mountain Men's C130 Cart Golf Bag, 2026 Model",325.00,2026-08-22,same product as rank 161
+Callaway ORG 14 golf,B0D9R3B5HT,Callaway Golf ORG 14 Cart Bag,269.99,2026-08-22,895 rv
+Vessel Player V golf,,,,2026-08-22,no Vessel listings on Amazon - Vessel sells direct-to-consumer only
+PRGR HS-130A launch monitor,B097DWG9MN,PRGR HS 130-A Portable Golf Launch Monitor,199.99,2026-08-22,same product as rank 139
+Ping G440 MAX golf,,,,2026-08-22,skip-rule: Ping clubs not authorised on Amazon
+Ping G440 MAX HL golf,,,,2026-08-22,skip-rule: Ping clubs not authorised on Amazon
+Ping G430 Max 10K Driver golf,,,,2026-08-22,skip-rule: Ping clubs not authorised on Amazon
+Callaway Elyte Driver Family golf,,,,2026-08-22,skip-rule: current-year Callaway driver (Elyte) not authorised on Amazon
+TaylorMade Qi35 Driver Family golf,,,,2026-08-22,skip-rule: current-year TaylorMade driver (Qi35) not authorised on Amazon
+Winn Dri-Tac Wrap golf,B00P019NJ8,Winn DRI-TAC WRAP Standard Golf Grip,11.89,2026-08-22,single grip (121 rv); 9-pc bundle B07JXCFVTN has 798 rv if bundle preferred
+Golf Pride CP2 Pro golf,B00HSRVAIO,Golf Pride CP2 Pro Golf Club Grip,10.99,2026-08-22,1.6K rv
+Tour Edge Hot Launch Wedge golf,B07Q614SMR,2024 Tour Edge Hot Launch E524 Wedge,54.99,2026-08-22,current single Hot Launch wedge (4 rv); Vibrcor 3-pack B07Q4WMS4B has 80 rv if a set is preferred
+gap wedge,B0DX2KX8BF,Wilson Harmonized Unisex Golf Wedge,58.22,2026-08-22,generic category term - most-reviewed true gap-wedge listing in results (264 rv)
+Titleist GT1 golf,,,,2026-08-22,skip-rule: Titleist clubs not authorised on Amazon
+Ping G430 Max 10K golf,,,,2026-08-22,skip-rule: Ping clubs not authorised on Amazon
+TaylorMade Qi35 Max Fairway Wood golf,,,,2026-08-22,skip-rule: current-year TaylorMade club (Qi35) not authorised on Amazon
+"Any prior-generation 7-wood, bought used golf",,,,2026-08-22,generic used-club recommendation - no single new product to link
+Maxfli Noodle golf,B09F5N3PV2,"TaylorMade Noodle Long & Soft Golf Balls, Ultra-Soft 34 Compression",27.97,2026-08-22,Noodle is sold under TaylorMade branding; same ASIN as batch 2 (2.7K rv)
+Pinnacle Rush golf,,,,2026-08-22,"Pinnacle Rush discontinued - only used/recycled listings; current equivalent is Pinnacle Distance 15-ball (B0DZ33HKN7, 95 rv)"
+Titleist Pro V1x Left Dash golf,B0FY3RB6XD,Titleist Pro V1x Left Dash Golf Balls,57.99,2026-08-22,82 rv (balls are authorised unlike Titleist clubs)
+Wilson Harmonized Chipper golf,B0FC5VW4NC,Wilson Harmonized Chippers,109.99,2026-08-22,most-reviewed listing (32 rv)
+Intech EZ Roll Chipper golf,B0DH6Q5PZ9,"Intech EZ Roll Golf Chipper Club, Men & Women, Right/Left Handed",31.53,2026-08-22,3K rv
+Champkey Double-Sided Golf Chipping Net golf,B0BXW52JM2,CHAMPKEY Double-Sided Golf Chipping Net with Mat and 12 Foam Balls,44.99,2026-08-22,208 rv
+Spornia Auto Return XL Golf Chipping Net golf,B0D4SB7BBY,"Spornia XL Golf Chipping Net with Auto Ball Return, Attachable Targets",69.99,2026-08-22,exact model; listing shows no review count
+Srixon All Weather golf,B096N8DVRZ,Srixon All Weather Men's Golf Glove,10.99,2026-08-22,172 rv
+Bionic StableGrip 2.0 golf,B09VQ3V3Q4,Bionic Men's StableGrip 2.0 Golf Glove Premium Cabretta Leather,29.99,2026-08-22,584 rv
+Shot Scope X5 golf,,,,2026-08-22,"no X5 listing - Shot Scope's current watch on Amazon is the V5 (B0CYT7RJ54, 132 rv); X5 appears discontinued"
+Srixon ZXi Hybrid golf,B0DSMJZ5ZK,2025 Srixon ZXi Hybrid,229.99,2026-08-22,6 rv
+Srixon ZXiR golf,B0GF42CJ61,Srixon ZXiR Men's Iron Set,929.95,2026-08-22,2 rv
+TaylorMade Qi HL combo golf,,,,2026-08-22,no Qi HL combo-set listing (only iron sets - Qi HL full set resolved at rank 106); combo variant not on Amazon
+Rapsodo Mobile Launch Monitor golf,B07T91KFMP,Rapsodo Mobile Launch Monitor Golf Simulator (MLM iPhone & iPad Only),199.98,2026-08-22,original MLM (3.1K rv)
+Shot Scope LM1 golf,B0GP22ZYY5,Shot Scope LM1 Portable Mini Launch Monitor,199.99,2026-08-22,bare unit over bundle (30 rv)
+Bag Boy Express DLX Pro golf,,,,2026-08-22,no Express DLX Pro listing on Amazon - appears discontinued (Bag Boy now sells Nitron/Quad Pro)
+Rovic RV3F golf,,,,2026-08-22,no RV3F listing on Amazon - only RV1D disc-golf cart and Clicgear models
+Tour Edge HP Series Putter golf,B01K9MPV66,Tour Edge Golf HP Series Black Nickel 02 Mallet Putter,69.99,2026-08-22,most-reviewed HP Series model (72 rv)
+A lightly-used Ping Anser-style or Scotty Cameron Newport blade golf,,,,2026-08-22,skip-rule: Ping/Scotty Cameron not authorised on Amazon; also a used-club recommendation
+REDTIGER Golf Rangefinder with Slope Switch golf,B0BVFP6KXC,"REDTIGER Golf Rangefinder with Slope On/Off, 7X Magnification 1200 Yards",93.48,2026-08-22,5.7K rv
+Mileseey PF210 golf,,,,2026-08-22,no PF210 listing - Mileseey's current Amazon range is the GeneSonic line; PF210 appears delisted
+Bushnell Tour Hybrid golf,B0DWNKD682,"Bushnell Golf Tour Hybrid Laser Rangefinder, GPS, Slope Compensation",449.99,2026-08-22,bare unit over bundles (57 rv)
+Garmin Approach Z30 golf,B0D79MK21G,"Garmin Approach Z30 Golf Laser Range Finder, OLED Display",494.59,2026-08-22,89 rv (seen in rank 89 search)
+adidas S2G SL golf,B0D655JSCV,adidas Men's S2G '24 Spikeless Textile Golf Shoes,72.99,2026-08-22,SL = spikeless; most-reviewed (2.5K rv)
+PuttOUT Mirror & Adjustable Gate golf,B0F4KM47Q4,PuttOUT Magnetic Putting Mirror with Adjustable Gate,69.99,2026-08-22,exact match (137 rv)
+HackMotion wrist sensor golf,,,,2026-08-22,HackMotion sensor not sold on Amazon (only a $5 HackMotion clip accessory); DTC product
+SKLZ Smash Bag golf impact bag,B0013E2ARI,SKLZ Smash Bag Golf Swing Trainer,39.99,2026-08-22,1.9K rv
+SKLZ Golf Grip Trainer,B015N2NX3A,"SKLZ Golf Grip Trainer, Club Attachment for Correct Hand Positioning",17.99,2026-08-22,9.4K rv
+Tour Edge Hot Launch Max Irons golf,B0GR1BS1CF,Tour Edge Hot Launch Max Iron Set 4-PW (Steel KBS Max MT 85 Stiff) 2026,599.95,2026-08-22,new 2026 line; no reviews yet on any variant
+Used Ping G425 Irons golf,,,,2026-08-22,skip-rule: Ping clubs not authorised on Amazon; also used
+Wilson Women's Complete Set golf,B0DVMFW34R,Wilson Profile 11 Piece Womens Left Hand Complete Golf Set with Cart Bag,599.99,2026-08-22,LH womens variant (article is the left-handed sets guide; 9 rv)
+Ping golf clubs,,,,2026-08-22,skip-rule: Ping clubs not authorised on Amazon
+L.A.B. Golf Mezz.1 Max Broomstick golf,,,,2026-08-22,L.A.B. putters not sold on Amazon (DTC only) - consistent with rank 112
+Odyssey 2-Ball Ten Arm Lock golf,,,,2026-08-22,no 2-Ball Ten Arm Lock listing (only standard 2022 Ten putter with 1 rv); arm-lock build not on Amazon
+PuttOUT Premium Pressure Putt Trainer golf,B08VWH6Y58,PuttOUT Premium Pressure Putt Trainer,29.99,2026-08-22,1.4K rv
+Big Moss Competitor golf,B0091HZCBA,Big Moss Golf Competitor Pro V2 3x12 Practice Putting Chipping Green,289.95,2026-08-22,7 rv
+TaylorMade SIM2 Max irons golf,,TaylorMade Men SIM2 Max Golf Clubs (Iron Set),649.99,2026-08-22,BLANKED by Claude: new prior-gen set on a used-irons article (was B08QSLJNGY)
+Wilson Dynapwr golf,B0BT28XMNL,Wilson Dynapower Men's Golf Irons,799.98,2026-08-22,2023 Dynapower irons the used-irons article names (21 rv); newer DYNAPWR Max also listed
+TaylorMade Kalea Women's Set golf,B0D9KM4KKZ,TaylorMade Golf Kalea Gold Womens Complete Set,1829.95,2026-08-22,26 rv
+Wilson Aurora Ladies Package Set golf,,,,2026-08-22,"blanked: only listing is a 1-review 3P offer at $1,399.99 vs the ~$400 retail the article cites (same reasoning as Kirkland wedge ruling)"
+MG Golf DynaGrip Elite golf,B01MRFZ33A,MG Golf DynaGrip Elite Men's All-Cabretta Leather Golf Glove - Regular Sizes,12.52,2026-08-22,767 rv; cadet-size listing B01N0961QH (345 rv) also exists per article context
+Bionic StableGrip with Natural Fit golf,B00O5NEJAU,Bionic Men's StableGrip 1.0 Golf Glove (Natural Fit),25.82,2026-08-22,the original StableGrip w/ Natural Fit tech (5K rv)
+An Entry-Level Mallet Putter golf,B002ZRPRS6,Orlimar Tangent T1 Mallet Golf Putter with Alignment and Headcover,49.95,2026-08-22,generic category term - most-reviewed budget mallet (1.6K rv)
+Top Flite XL Complete Set golf,,,,2026-08-22,Top Flite is a Dick's Sporting Goods exclusive brand - not sold on Amazon
+Mizuno ST-X 230 golf,B0C5F62ZG1,Mizuno ST-X 230 Driver,500.00,2026-08-22,6 rv (Mizuno driver - not covered by the Mizuno-irons skip rule)
+Tour Edge Bazooka 470 Complete Set golf,,,,2026-08-22,no Bazooka 470 listing on Amazon - Tour Edge sets there are TE-400/HL3; Bazooka 470 appears retail-channel only
+used golf clubs,,,,2026-08-22,generic used-club recommendation - no single new product to link
+Shot Scope LM1 launch monitor,B0GP22ZYY5,Shot Scope LM1 Portable Mini Launch Monitor,199.99,2026-08-22,same product as rank 220
+SuperStroke golf,B0BXQ1YVMM,SuperStroke Zenergy Tour Golf Putter Grip,34.99,2026-08-22,article blesses SuperStroke putter grips generally (names Traxion/Cross Comfort - prior lines); current Zenergy Tour most-reviewed (2.1K rv)
+Gogogo Sport Vpro golf,B09KR87MQT,"Gogogo Sport Vpro GS24 Golf & Hunting Laser Rangefinder, 1200 Yards",79.98,2026-08-22,generic brand term - most-reviewed Vpro rangefinder (9.1K rv); same ASIN as rank 91
+Mitsubishi MMT golf,B08BYZRZGY,Mitsubishi MMT Iron Shaft (Choose Weight and Flex),75.00,2026-08-22,most-reviewed (12 rv)
+KBS PGI golf,B09L2JDVXH,KBS PGI Players Graphite Iron 90 Stiff+ Flex Golf Shaft,83.94,2026-08-22,2 rv (only reviewed PGI listing)
+Fujikura Axiom golf,B0G3Z1HSP8,Fujikura Axiom 105 Stiff Graphite Iron Shaft .370 Parallel,115.00,2026-08-22,only reviewed Axiom listing (2 rv)
+TaylorMade Spider golf,B0CS4CMKDN,TaylorMade Golf Spider #3 Putter,249.99,2026-08-22,generic Spider family term - most-reviewed Spider listing (151 rv)
+Caddy Splash Golf Club Care Kit golf,B08X272XWT,"Caddy Splash Golf Club Groove Brush Cleaner with Water, Retractable Clip",14.99,2026-08-22,most-reviewed Caddy Splash product (3.3K rv)
+WD-40 golf,B01LZ1WS99,"WD-40 Multi-Use Product, Smart Straw, 14.4 OZ 2-Pack",21.56,2026-08-22,most-reviewed multi-use WD-40 (11.6K rv)
+Frogger Golf Latch-It Towel & Gear System golf,B01N4BMKM8,Frogger Golf Microfiber Waffle TRAX Towel with Bag Latch-It,24.99,2026-08-22,towel + Latch-It system (494 rv)
+TaylorMade Performance Valuables Pouch golf,B0FZFDGGH5,TaylorMade Golf 2026 Players Valuables Pouch,24.95,2026-08-22,current TM valuables pouch (23 rv); exact 'Performance' name superseded by Players
+Wedge Guys Deluxe Golf Grip Kit golf,B079YGQ1XD,Wedge Guys Golf Grip Kits for Regripping Golf Clubs - Professional Quality,13.99,2026-08-22,most-reviewed Wedge Guys kit (2.4K rv)
+Bench vise with rubber shaft clamp golf,B00SA5JBZW,Rubber Vise Clamp & Kit with Retractable Hook Blade for Regripping Golf Clubs,5.99,2026-08-22,generic hardware term - most-reviewed rubber shaft vise clamp (2.3K rv)
+Wilson Dynapwr Hybrid golf,B0DSGH95ZS,Wilson DYNAPWR Men's Hybrid Golf Clubs,199.99,2026-08-22,5 rv
+Ping Prodi G Junior Clubs golf,,,,2026-08-22,skip-rule: Ping clubs not authorised on Amazon
+Kirkland Signature KS1 golf,,,,2026-08-22,KS1 putter not sold new on Amazon (Costco exclusive); search returns other brands only
+LAB Golf MEZZ.1 golf,,,,2026-08-22,L.A.B. putters not sold on Amazon (DTC only) - consistent with rank 112
+Scotty Cameron Newport 2 golf,,,,2026-08-22,skip-rule: Scotty Cameron not authorised on Amazon
+CaddyTek Explorer V8 golf,B07DT88WCB,"CaddyTek Superlite 4 Wheel Golf Push Cart, Explorer Version 8",127.60,2026-08-22,3.4K rv
+Clicgear Model 4 & Model 8+ golf,B07R92RK9W,"Clicgear Model 8.0+ Golf Push Cart, 4-Wheel Foldable",345.22,2026-08-22,term names two models; Model 8.0+ listed (127 rv) while Model 4 is superseded by Model 4.5 on Amazon
+Titleist TSR1 Driver golf,,,,2026-08-22,skip-rule: Titleist clubs not authorised on Amazon
+Callaway Paradym golf,B0BLTB27BR,Callaway Golf 2023 Paradym Driver,339.99,2026-08-22,exact 2023 Paradym the article names (69 rv); prior-gen so not skip-rule
+Titleist AVX golf,B0FY3Q2DLN,Titleist AVX Golf Balls,44.99,2026-08-22,78 rv
+Callaway Chrome Soft golf,B0FX34LJT4,Callaway Golf Chrome Soft 2026 Golf Balls,57.99,2026-08-22,current 2026 version over prior (192 rv; prior 987 rv)
+adidas Adizero ZG golf,B0D65PXRQF,adidas Men's Adizero Zg Spikeless Golf Shoes,79.99,2026-08-22,205 rv
+Callaway Fairway 14 golf,B0CJ5XX57R,Callaway Golf Fairway 14 Stand Bag,249.99,2026-08-22,293 rv
+Sunday Golf Ryder,B0FS7LCKGK,"Sunday Golf Ryder Stand Bag, Lightweight 4.9 lb, 14-Club",259.99,2026-08-22,7 rv
+TaylorMade Qi35 Max golf,,,,2026-08-22,skip-rule: current-year TaylorMade driver (Qi35) not authorised on Amazon
+Titleist Vokey SM10 Wedges golf,,,,2026-08-22,skip-rule: Titleist Vokey not authorised on Amazon
+TaylorMade P790 Irons golf,,,,2026-08-22,blanked per P790 ruling: current 2025 TaylorMade irons - new set not appropriate to link
+Iomic Sticky 3.5 golf,B0BVRV7RCZ,"Iomic Sticky 3.5 Golf Grip, Black/Red Cap",17.59,2026-08-22,exact model; listing shows no review count
