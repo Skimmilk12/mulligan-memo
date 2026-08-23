@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-08-22T10:41:02.196Z",
- "date": "2026-08-22",
+ "generated_at": "2026-08-23T10:41:03.838Z",
+ "date": "2026-08-23",
  "sources": [
   {
    "retailer": "PlayBetter",
    "status": "ok",
-   "on_sale_items": 251
+   "on_sale_items": 252
   },
   {
    "retailer": "Shop Indoor Golf",
    "status": "ok",
-   "on_sale_items": 306
+   "on_sale_items": 305
   },
   {
    "retailer": "Rain or Shine Golf",
@@ -694,6 +694,17 @@
    "pct_off": 33,
    "available": true,
    "url": "https://www.playbetter.com/products/uneekor-eye-mini-launch-monitor"
+  },
+  {
+   "retailer": "PlayBetter",
+   "title": "Garmin Alpha 200 & 200i / TT 25 / T 20 Bundle Dog GPS Tracking System",
+   "vendor": "Garmin",
+   "type": "GPS Dog Tracking System",
+   "price": 499.99,
+   "compare_at": 749.99,
+   "pct_off": 33,
+   "available": true,
+   "url": "https://www.playbetter.com/products/garmin-alpha-200-200i-handheld-gps-dog-tracker"
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -3048,17 +3059,6 @@
    "pct_off": 15,
    "available": true,
    "url": "https://shopindoorgolf.com/products/sigpro-premier-impact-screen"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
-   "title": "G-TRAK Retractable Screen",
-   "vendor": "G-TRAK",
-   "type": "Golf Simulator Enclosure",
-   "price": 1699.99,
-   "compare_at": 1999.99,
-   "pct_off": 15,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/g-trak-retractable-screen"
   },
   {
    "retailer": "Shop Indoor Golf",
