@@ -58,7 +58,7 @@ for (const rel of files) {
   const fp = join(ROOT, rel);
   const before = readFileSync(fp, 'utf8');
   const after = before.replace(/https:\/\/www\.amazon\.com\/s\?k=([^&"]+)(&[^"]*)?/g, (m, k) => {
-    const term = decodeURIComponent(k).replace(/\+/g, ' ').trim();
+    const term = decodeURIComponent(k).trim();   // spaces are %20 in these URLs; a literal + is part of the name (Mevo+, SkyTrak+)
     const asin = map.get(term.toLowerCase());
     if (!asin) { left++; unresolved.set(term, (unresolved.get(term) || 0) + 1); return m; }
     rewritten++;
