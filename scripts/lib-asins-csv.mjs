@@ -34,7 +34,7 @@ export function readAsins(path) {
     const o = {};
     for (const c of COLS) o[c] = idx[c] >= 0 ? (r[idx[c]] || '').trim() : '';
     // Overflow: an unquoted comma in note splits it across extra columns. Fold back.
-    if (r.length > head.length) o.note = [o.note, ...r.slice(head.length)].filter(Boolean).join(', ').trim();
+    if (r.length > head.length) o.note = [o.note, ...r.slice(head.length)].filter(Boolean).join(',').trim();
     return o;
   });
 }
