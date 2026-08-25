@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-24T10:54:34.490Z",
+  "checked_at": "2026-08-25T10:50:38.412Z",
   "items": [
     {
       "title": "Foresight QuadMAX Launch Monitor (Pre-Owned)",
@@ -84,7 +84,7 @@
       "track": "https://www.playbetter.com/products/skytrak-playbetter-simstudio-byo-home-golf-studio-package?ghref=2301%3A1337756",
       "dropped_from": null,
       "from": true,
-      "spread_high": 2445,
+      "spread_high": 2344.99,
       "image_source": "product page",
       "pct": 66,
       "verified": true
@@ -102,7 +102,7 @@
       "track": "https://www.playbetter.com/products/skytrak-plus-golf-simulator-studio-package-playbetter-simstudio-with-impact-screen-enclosure-hitting-putting-mats-projector?ghref=2301%3A1337756",
       "dropped_from": null,
       "from": true,
-      "spread_high": 4470,
+      "spread_high": 4369.99,
       "image_source": "product page",
       "pct": 56,
       "verified": true
@@ -120,7 +120,7 @@
       "track": "https://www.playbetter.com/products/skytrak-plus-with-playbetter-simstudio-essentials-package-golf-simulator-studio?ghref=2301%3A1337756",
       "dropped_from": null,
       "from": true,
-      "spread_high": 3470,
+      "spread_high": 3369.99,
       "image_source": "product page",
       "pct": 61,
       "verified": true
@@ -263,21 +263,21 @@
     },
     {
       "title": "Sqairz Freedom™ Micro",
-      "feed_title": "FREEDOM™ Micro Gray & Blue / 8 - SQAIRZ",
+      "feed_title": "FREEDOM™ Micro White & Gray / 8 - SQAIRZ",
       "brand": "SQAIRZ",
       "retailer": "SQAIRZ",
       "rate": 5,
       "list": 199,
       "sale": 79,
-      "image": "https://cdn.shopify.com/s/files/1/0634/3458/8384/files/women_s_freedom_micro_gray_callout_1x1_01_f5a42a8a-576c-4063-938f-64da0f8da4c9.jpg?v=1775163822",
-      "url": "https://sqairz.com/products/freedom-micro?variant=46639214100704",
-      "track": "https://www.dpbolvw.net/click-101818675-15766439?url=https%3A%2F%2Fsqairz.com%2Fproducts%2Ffreedom-micro%3Fvariant%3D46639214100704&cjsku=46639214100704",
-      "item_group_id": "8102626951392",
+      "image": "https://cdn.shopify.com/s/files/1/0634/3458/8384/files/women_s_freedom_micro_gray_callout_1x1_01.jpg?v=1775164740",
+      "url": "https://sqairz.com/products/freedom-micro-1?variant=47393491615968",
+      "track": "https://www.tkqlhce.com/click-101818675-15766439?url=https%3A%2F%2Fsqairz.com%2Fproducts%2Ffreedom-micro-1%3Fvariant%3D47393491615968&cjsku=47393491615968",
+      "item_group_id": "8803005432032",
       "variants": [
         {
-          "gtin": "810032390761",
-          "mpn": "39076",
-          "title": "FREEDOM™ Micro Gray & Blue / 8 - SQAIRZ",
+          "gtin": "810032396718",
+          "mpn": "39671",
+          "title": "FREEDOM™ Micro White & Gray / 8 - SQAIRZ",
           "list": 199,
           "sale": 79
         }
@@ -295,7 +295,7 @@
       "sale": 79,
       "image": "https://cdn.shopify.com/s/files/1/0634/3458/8384/files/women_s_freedom_ultra_silver_callout_1x1_01.jpg?v=1736283713",
       "url": "https://sqairz.com/products/freedom™-ultra?variant=46798532116704",
-      "track": "https://www.jdoqocy.com/click-101818675-15766439?url=https%3A%2F%2Fsqairz.com%2Fproducts%2Ffreedom%E2%84%A2-ultra%3Fvariant%3D46798532116704&cjsku=46798532116704",
+      "track": "https://www.anrdoezrs.net/click-101818675-15766439?url=https%3A%2F%2Fsqairz.com%2Fproducts%2Ffreedom%E2%84%A2-ultra%3Fvariant%3D46798532116704&cjsku=46798532116704",
       "item_group_id": "8038823133408",
       "variants": [
         {
@@ -313,21 +313,21 @@
     },
     {
       "title": "Sqairz Velo™",
-      "feed_title": "VELO™ White & Blue / 7.5 / Standard - SQAIRZ",
+      "feed_title": "VELO™ White & Black / 8.5 / Standard - SQAIRZ",
       "brand": "SQAIRZ",
       "retailer": "SQAIRZ",
       "rate": 5,
       "list": 219,
       "sale": 89,
-      "image": "https://cdn.shopify.com/s/files/1/0634/3458/8384/files/velo_blue_product_callout_1x1_01.jpg?v=1744641403",
-      "url": "https://sqairz.com/products/velo?variant=44537241993440",
-      "track": "https://www.jdoqocy.com/click-101818675-15766439?url=https%3A%2F%2Fsqairz.com%2Fproducts%2Fvelo%3Fvariant%3D44537241993440&cjsku=44537241993440",
+      "image": "https://cdn.shopify.com/s/files/1/0634/3458/8384/files/velo_white_product_callout_1x1_02-1_80c84fb1-c861-4faa-837b-7731e9dcf15d.jpg?v=1736283687",
+      "url": "https://sqairz.com/products/velo?variant=44537242190048",
+      "track": "https://www.jdoqocy.com/click-101818675-15766439?url=https%3A%2F%2Fsqairz.com%2Fproducts%2Fvelo%3Fvariant%3D44537242190048&cjsku=44537242190048",
       "item_group_id": "8206716535008",
       "variants": [
         {
-          "gtin": "810032398187",
-          "mpn": "39818",
-          "title": "VELO™ White & Blue / 7.5 / Standard - SQAIRZ",
+          "gtin": "810032397944",
+          "mpn": "39794",
+          "title": "VELO™ White & Black / 8.5 / Standard - SQAIRZ",
           "list": 219,
           "sale": 89
         }
@@ -337,21 +337,21 @@
     },
     {
       "title": "Sqairz Freedom™ Mesh",
-      "feed_title": "FREEDOM™ Mesh White / 7.5 - SQAIRZ",
+      "feed_title": "FREEDOM™ Mesh White / 6 - SQAIRZ",
       "brand": "SQAIRZ",
       "retailer": "SQAIRZ",
       "rate": 5,
       "list": 179,
       "sale": 79,
       "image": "https://cdn.shopify.com/s/files/1/0634/3458/8384/files/women_s_freedom_mesh_gray_callout_1x1_01.jpg?v=1736283720",
-      "url": "https://sqairz.com/products/freedom-mesh?variant=43150760509664",
-      "track": "https://www.jdoqocy.com/click-101818675-15766439?url=https%3A%2F%2Fsqairz.com%2Fproducts%2Ffreedom-mesh%3Fvariant%3D43150760509664&cjsku=43150760509664",
+      "url": "https://sqairz.com/products/freedom-mesh?variant=43150779547872",
+      "track": "https://www.anrdoezrs.net/click-101818675-15766439?url=https%3A%2F%2Fsqairz.com%2Fproducts%2Ffreedom-mesh%3Fvariant%3D43150779547872&cjsku=43150779547872",
       "item_group_id": "7763613155552",
       "variants": [
         {
-          "gtin": "810032393366",
-          "mpn": "93366",
-          "title": "FREEDOM™ Mesh White / 7.5 - SQAIRZ",
+          "gtin": "810032393335",
+          "mpn": "93335",
+          "title": "FREEDOM™ Mesh White / 6 - SQAIRZ",
           "list": 179,
           "sale": 79
         }
@@ -361,21 +361,21 @@
     },
     {
       "title": "Sqairz Freedom™ Mesh Blackberry",
-      "feed_title": "FREEDOM™ Mesh Blackberry / 7.5 - SQAIRZ",
+      "feed_title": "FREEDOM™ Mesh Blackberry / 8 - SQAIRZ",
       "brand": "SQAIRZ",
       "retailer": "SQAIRZ",
       "rate": 5,
       "list": 179,
       "sale": 79,
       "image": "https://cdn.shopify.com/s/files/1/0634/3458/8384/files/women_s_freedom_mesh_blackberry_callout_1x1_01.jpg?v=1736283719",
-      "url": "https://sqairz.com/products/freedom-mesh?variant=44071184498912",
-      "track": "https://www.kqzyfj.com/click-101818675-15766439?url=https%3A%2F%2Fsqairz.com%2Fproducts%2Ffreedom-mesh%3Fvariant%3D44071184498912&cjsku=44071184498912",
+      "url": "https://sqairz.com/products/freedom-mesh?variant=44071184531680",
+      "track": "https://www.tkqlhce.com/click-101818675-15766439?url=https%3A%2F%2Fsqairz.com%2Fproducts%2Ffreedom-mesh%3Fvariant%3D44071184531680&cjsku=44071184531680",
       "item_group_id": "7763613155552",
       "variants": [
         {
-          "gtin": "810032396909",
-          "mpn": "39690",
-          "title": "FREEDOM™ Mesh Blackberry / 7.5 - SQAIRZ",
+          "gtin": "810032396916",
+          "mpn": "39691",
+          "title": "FREEDOM™ Mesh Blackberry / 8 - SQAIRZ",
           "list": 179,
           "sale": 79
         }
@@ -385,21 +385,21 @@
     },
     {
       "title": "Sqairz ProS2™",
-      "feed_title": "ProS2™ Gray / 8.5 / Standard - SQAIRZ",
+      "feed_title": "ProS2™ White & Black / 7.5 / Standard - SQAIRZ",
       "brand": "SQAIRZ",
       "retailer": "SQAIRZ",
       "rate": 5,
       "list": 199,
       "sale": 89,
-      "image": "https://cdn.shopify.com/s/files/1/0634/3458/8384/files/9_6a548855-98e1-4f2f-aba8-f7976d98e4f5.png?v=1745944007",
-      "url": "https://sqairz.com/products/pro-s2?variant=47306877075680",
-      "track": "https://www.dpbolvw.net/click-101818675-15766439?url=https%3A%2F%2Fsqairz.com%2Fproducts%2Fpro-s2%3Fvariant%3D47306877075680&cjsku=47306877075680",
+      "image": "https://cdn.shopify.com/s/files/1/0634/3458/8384/files/10_9e68ab78-408a-4d3a-84ca-4c17d6a8974e.png?v=1745944007",
+      "url": "https://sqairz.com/products/pro-s2?variant=47306877436128",
+      "track": "https://www.anrdoezrs.net/click-101818675-15766439?url=https%3A%2F%2Fsqairz.com%2Fproducts%2Fpro-s2%3Fvariant%3D47306877436128&cjsku=47306877436128",
       "item_group_id": "8206713618656",
       "variants": [
         {
-          "gtin": "810032399115",
-          "mpn": "39911",
-          "title": "ProS2™ Gray / 8.5 / Standard - SQAIRZ",
+          "gtin": "810032398705",
+          "mpn": "39870",
+          "title": "ProS2™ White & Black / 7.5 / Standard - SQAIRZ",
           "list": 199,
           "sale": 89
         }
@@ -409,21 +409,21 @@
     },
     {
       "title": "Sqairz Patriot Limited Edition",
-      "feed_title": "Patriot Limited Edition White / 11 - SQAIRZ",
+      "feed_title": "Patriot Limited Edition White / 7.5 - SQAIRZ",
       "brand": "SQAIRZ",
       "retailer": "SQAIRZ",
       "rate": 5,
       "list": 219,
       "sale": 99,
       "image": "https://cdn.shopify.com/s/files/1/0634/3458/8384/files/usa_women_s_patriot_callout_1x1_01_fc984275-db93-4d3d-b50e-0b39cc4a27e2.jpg?v=1736283648",
-      "url": "https://sqairz.com/products/the-patriot-womens-limited-edition?variant=45963716264160",
-      "track": "https://www.jdoqocy.com/click-101818675-15766439?url=https%3A%2F%2Fsqairz.com%2Fproducts%2Fthe-patriot-womens-limited-edition%3Fvariant%3D45963716264160&cjsku=45963716264160",
+      "url": "https://sqairz.com/products/the-patriot-womens-limited-edition?variant=45963716067552",
+      "track": "https://www.tkqlhce.com/click-101818675-15766439?url=https%3A%2F%2Fsqairz.com%2Fproducts%2Fthe-patriot-womens-limited-edition%3Fvariant%3D45963716067552&cjsku=45963716067552",
       "item_group_id": "8608562413792",
       "variants": [
         {
-          "gtin": "810032399566",
-          "mpn": "39956",
-          "title": "Patriot Limited Edition White / 11 - SQAIRZ",
+          "gtin": "810032399504",
+          "mpn": "39950",
+          "title": "Patriot Limited Edition White / 7.5 - SQAIRZ",
           "list": 219,
           "sale": 99
         }
@@ -433,21 +433,21 @@
     },
     {
       "title": "Sqairz Speed2™",
-      "feed_title": "SPEED2™ Black & Gray / 7.5 / Standard - SQAIRZ",
+      "feed_title": "SPEED2™ White & Navy / 7 / Standard - SQAIRZ",
       "brand": "SQAIRZ",
       "retailer": "SQAIRZ",
       "rate": 5,
       "list": 189,
       "sale": 89,
-      "image": "https://cdn.shopify.com/s/files/1/0634/3458/8384/files/speed2_black_product_callout_1x1_01_f7d6e7b8-8396-4aee-b5cd-b8bf977f907b.jpg?v=1745943961",
-      "url": "https://sqairz.com/products/speed-2?variant=47306873471200",
-      "track": "https://www.kqzyfj.com/click-101818675-15766439?url=https%3A%2F%2Fsqairz.com%2Fproducts%2Fspeed-2%3Fvariant%3D47306873471200&cjsku=47306873471200",
+      "image": "https://cdn.shopify.com/s/files/1/0634/3458/8384/files/speed2_navy_product_callout_1x1_01_84893170-9932-41c3-acb0-9f27d95981a2.jpg?v=1775163708",
+      "url": "https://sqairz.com/products/speed-2?variant=47306872291552",
+      "track": "https://www.dpbolvw.net/click-101818675-15766439?url=https%3A%2F%2Fsqairz.com%2Fproducts%2Fspeed-2%3Fvariant%3D47306872291552&cjsku=47306872291552",
       "item_group_id": "8206704541920",
       "variants": [
         {
-          "gtin": "810032398576",
-          "mpn": "39857",
-          "title": "SPEED2™ Black & Gray / 7.5 / Standard - SQAIRZ",
+          "gtin": "810032397784",
+          "mpn": "39778",
+          "title": "SPEED2™ White & Navy / 7 / Standard - SQAIRZ",
           "list": 189,
           "sale": 89
         }
@@ -457,21 +457,21 @@
     },
     {
       "title": "Sqairz Wave Limited Edition",
-      "feed_title": "Wave Limited Edition White / 9.5 - SQAIRZ",
+      "feed_title": "Wave Limited Edition White / 8 - SQAIRZ",
       "brand": "SQAIRZ",
       "retailer": "SQAIRZ",
       "rate": 5,
       "list": 229,
       "sale": 109,
       "image": "https://cdn.shopify.com/s/files/1/0634/3458/8384/files/usa_men_s_wave_callout_1x1_01_f0c266d1-0519-4ef5-b247-9878206cda5b.jpg?v=1736283650",
-      "url": "https://sqairz.com/products/the-wave-mens-limited-edition?variant=45963714461920",
-      "track": "https://www.anrdoezrs.net/click-101818675-15766439?url=https%3A%2F%2Fsqairz.com%2Fproducts%2Fthe-wave-mens-limited-edition%3Fvariant%3D45963714461920&cjsku=45963714461920",
+      "url": "https://sqairz.com/products/the-wave-mens-limited-edition?variant=45963714363616",
+      "track": "https://www.jdoqocy.com/click-101818675-15766439?url=https%3A%2F%2Fsqairz.com%2Fproducts%2Fthe-wave-mens-limited-edition%3Fvariant%3D45963714363616&cjsku=45963714363616",
       "item_group_id": "8608562217184",
       "variants": [
         {
-          "gtin": "810032399399",
-          "mpn": "39939",
-          "title": "Wave Limited Edition White / 9.5 - SQAIRZ",
+          "gtin": "810032399368",
+          "mpn": "39936",
+          "title": "Wave Limited Edition White / 8 - SQAIRZ",
           "list": 229,
           "sale": 109
         }
@@ -492,28 +492,28 @@
       "track": "https://www.playbetter.com/products/skytrak-plus-golf-launch-monitor-simulator?ghref=2301%3A1337756",
       "dropped_from": null,
       "from": true,
-      "spread_high": 1769,
+      "spread_high": 1668.99,
       "image_source": "product page",
       "pct": 52,
       "verified": true
     },
     {
       "title": "Sqairz Speed™ Mesh",
-      "feed_title": "SPEED™ Mesh Light Gray & Blue / 9 - SQAIRZ",
+      "feed_title": "SPEED™ Mesh White & Navy / 11.5 - SQAIRZ",
       "brand": "SQAIRZ",
       "retailer": "SQAIRZ",
       "rate": 5,
       "list": 179,
       "sale": 89,
-      "image": "https://cdn.shopify.com/s/files/1/0634/3458/8384/files/men_s_speed_mesh_gray_callout_1x1_01_7befaa9d-6877-4955-99d9-f57691667a8a.jpg?v=1736283724",
-      "url": "https://sqairz.com/products/speed-mesh?variant=44370434883808",
-      "track": "https://www.dpbolvw.net/click-101818675-15766439?url=https%3A%2F%2Fsqairz.com%2Fproducts%2Fspeed-mesh%3Fvariant%3D44370434883808&cjsku=44370434883808",
+      "image": "https://cdn.shopify.com/s/files/1/0634/3458/8384/files/men_s_speed_mesh_navy_callout_1x1_01_835c8b0d-a7cf-4902-920f-5fde08a62342.jpg?v=1736283723",
+      "url": "https://sqairz.com/products/speed-mesh?variant=43150732755168",
+      "track": "https://www.dpbolvw.net/click-101818675-15766439?url=https%3A%2F%2Fsqairz.com%2Fproducts%2Fspeed-mesh%3Fvariant%3D43150732755168&cjsku=43150732755168",
       "item_group_id": "7763604832480",
       "variants": [
         {
-          "gtin": "810032397425",
-          "mpn": "39742",
-          "title": "SPEED™ Mesh Light Gray & Blue / 9 - SQAIRZ",
+          "gtin": "810032393168",
+          "mpn": "93168",
+          "title": "SPEED™ Mesh White & Navy / 11.5 - SQAIRZ",
           "list": 179,
           "sale": 89
         }
@@ -522,8 +522,24 @@
       "verified": true
     },
     {
+      "title": "SkyTrak ST MAX Launch Monitor (Pre-Owned)",
+      "feed_title": "SkyTrak ST MAX Golf Launch Monitor and Simulator (Certified Pre-Owned)",
+      "brand": "SkyTrak",
+      "retailer": "PlayBetter",
+      "rate": 5,
+      "list": 2995,
+      "sale": 1595,
+      "image": "https://www.playbetter.com/cdn/shop/files/skytrak-st-max-launch-monitor-4_1200x1200.jpg?v=1783086511",
+      "url": "https://www.playbetter.com/products/skytrak-st-max-certified-refurbished",
+      "track": "https://www.playbetter.com/products/skytrak-st-max-certified-refurbished?ghref=2301%3A1337756",
+      "dropped_from": null,
+      "image_source": "product page",
+      "pct": 47,
+      "verified": true
+    },
+    {
       "title": "Cobra Darkspeed LS Driver",
-      "feed_title": "DARKSPEED LS Driver | Right 9.0 / graphite x-stiff / ust lin-q m40x white 6",
+      "feed_title": "DARKSPEED LS Driver | Right 8.0 / graphite stiff / ust lin-q m40x white 6",
       "brand": "COBRA Golf",
       "retailer": "Cobra Golf",
       "rate": 4,
@@ -531,13 +547,34 @@
       "sale": 299,
       "image": "https://www.cobragolf.com/cdn/shop/files/d8201_hero_faaee6e8-1d6e-4c73-a7ec-836b83286cca.jpg?v=1761737817",
       "url": "https://www.cobragolf.com/products/darkspeed-ls-driver",
-      "track": "https://www.jdoqocy.com/click-101818675-15600715?url=https%3A%2F%2Fwww.cobragolf.com%2Fproducts%2Fdarkspeed-ls-driver&cjsku=44372097695961",
+      "track": "https://www.dpbolvw.net/click-101818675-15600715?url=https%3A%2F%2Fwww.cobragolf.com%2Fproducts%2Fdarkspeed-ls-driver&cjsku=44372097007833",
       "item_group_id": "8428382650585",
       "variants": [
         {
-          "gtin": "887996177813",
-          "mpn": "D8201RGX090B",
-          "title": "DARKSPEED LS Driver | Right 9.0 / graphite x-stiff / ust lin-q m40x white 6",
+          "gtin": "887996177752",
+          "mpn": "D8201RGS105A",
+          "title": "DARKSPEED LS Driver | Right 10.5 / graphite stiff / ust lin-q m40x blue 6",
+          "list": 549,
+          "sale": 299
+        },
+        {
+          "gtin": "887996177752",
+          "mpn": "D8201RGS105A",
+          "title": "DARKSPEED LS Driver | Right 10.5 / graphite stiff / ust lin-q m40x blue 6",
+          "list": 549,
+          "sale": 299
+        },
+        {
+          "gtin": "887996177783",
+          "mpn": "D8201LGX090B",
+          "title": "DARKSPEED LS Driver | Left 9.0 / graphite x-stiff / ust lin-q m40x white 6",
+          "list": 549,
+          "sale": 299
+        },
+        {
+          "gtin": "887996177851",
+          "mpn": "D8201RGS080B",
+          "title": "DARKSPEED LS Driver | Right 8.0 / graphite stiff / ust lin-q m40x white 6",
           "list": 549,
           "sale": 299
         }
@@ -548,7 +585,7 @@
     },
     {
       "title": "Cobra Darkspeed X Driver",
-      "feed_title": "DARKSPEED X Driver | Right 10.5 / graphite stiff / mca kai'li blue 60",
+      "feed_title": "DARKSPEED X Driver | Right 9.0 / graphite stiff / ust lin-q m40x white 6",
       "brand": "COBRA Golf",
       "retailer": "Cobra Golf",
       "rate": 4,
@@ -556,20 +593,13 @@
       "sale": 299,
       "image": "https://www.cobragolf.com/cdn/shop/files/d8211_hero.jpg?v=1760626602",
       "url": "https://www.cobragolf.com/products/darkspeed-x-driver",
-      "track": "https://www.jdoqocy.com/click-101818675-15600715?url=https%3A%2F%2Fwww.cobragolf.com%2Fproducts%2Fdarkspeed-x-driver&cjsku=44372247183577",
+      "track": "https://www.jdoqocy.com/click-101818675-15600715?url=https%3A%2F%2Fwww.cobragolf.com%2Fproducts%2Fdarkspeed-x-driver&cjsku=44372246429913",
       "item_group_id": "8428456313049",
       "variants": [
         {
-          "gtin": "887996178155",
-          "mpn": "D8211LGS105A",
-          "title": "DARKSPEED X Driver | Left 10.5 / graphite stiff / ust lin-q m40x blue 6",
-          "list": 549,
-          "sale": 299
-        },
-        {
-          "gtin": "887996178100",
-          "mpn": "D8211RGS105E",
-          "title": "DARKSPEED X Driver | Right 10.5 / graphite stiff / mca kai'li blue 60",
+          "gtin": "887996178308",
+          "mpn": "D8211RGS090B",
+          "title": "DARKSPEED X Driver | Right 9.0 / graphite stiff / ust lin-q m40x white 6",
           "list": 549,
           "sale": 299
         }
@@ -591,25 +621,9 @@
       "track": "https://www.playbetter.com/products/skytrak-golf-launch-monitor-with-the-net-return-pro-series-v2-golf-simulator-package-old?ghref=2301%3A1337756",
       "dropped_from": null,
       "from": true,
-      "spread_high": 3191.99,
+      "spread_high": 3441.99,
       "image_source": "product page",
       "pct": 45,
-      "verified": true
-    },
-    {
-      "title": "FlightScope Pro Package and Face Impact Location",
-      "feed_title": "FlightScope Pro Package and Face Impact Location",
-      "brand": "FlightScope",
-      "retailer": "PlayBetter",
-      "rate": 5,
-      "list": 1499,
-      "sale": 850,
-      "image": "https://www.playbetter.com/cdn/shop/files/flightscope-pro-package-face-impact-location-7_1200x1200.jpg?v=1762532413",
-      "url": "https://www.playbetter.com/products/flightscope-pro-package-and-face-impact-location",
-      "track": "https://www.playbetter.com/products/flightscope-pro-package-and-face-impact-location?ghref=2301%3A1337756",
-      "dropped_from": 975,
-      "image_source": "product page",
-      "pct": 43,
       "verified": true
     }
   ],
@@ -925,11 +939,6 @@
       "pct": 3
     },
     {
-      "title": "Rapsodo Mlm2pro with PlayBetter SimStudio™ BYO Package",
-      "url": "https://www.playbetter.com/products/rapsodo-mlm2pro-playbetter-simstudio-byo-home-golf-studio-package",
-      "pct": 17
-    },
-    {
       "title": "Rapsodo Mlm2pro with PlayBetter SimStudio™ Complete…",
       "url": "https://www.playbetter.com/products/rapsodo-mlm2pro-golf-launch-monitor-simulator-studio-package-playbetter-simstudio-with-impact-screen-enclosure-hitting-putting-mats-projector",
       "pct": 13
@@ -940,29 +949,9 @@
       "pct": 15
     },
     {
-      "title": "Garmin Approach R50 Golf Simulator & Launch Monitor…",
-      "url": "https://www.playbetter.com/products/garmin-approach-r50-golf-simulator-launch-monitor-pre-owned",
-      "pct": 12
-    },
-    {
-      "title": "Garmin Approach R10 with PlayBetter SimStudio™ BYO Package",
-      "url": "https://www.playbetter.com/products/garmin-approach-r10-playbetter-simstudio-byo-home-golf-studio-package",
-      "pct": 15
-    },
-    {
       "title": "Garmin Approach R10 with PlayBetter SimStudio™ Complete…",
       "url": "https://www.playbetter.com/products/garmin-approach-r10-golf-simulator-studio-package-playbetter-simstudio-with-impact-screen-enclosure-hitting-putting-mats-projector-1",
       "pct": 12
-    },
-    {
-      "title": "Garmin Approach R10 with PlayBetter SimStudio™ Essentials…",
-      "url": "https://www.playbetter.com/products/garmin-approach-r10-with-playbetter-simstudio-essentials-package-golf-simulator-studio",
-      "pct": 13
-    },
-    {
-      "title": "Blue Tees Golf Rainmaker with PlayBetter SimStudio™ BYO…",
-      "url": "https://www.playbetter.com/products/blue-tees-golf-rainmaker-with-playbetter-simstudio-byo-build-your-own-package",
-      "pct": 14
     },
     {
       "title": "Blue Tees Golf Rainmaker with PlayBetter SimStudio™…",
@@ -973,16 +962,6 @@
       "title": "Bushnell Launch Pro Circle B Launch Monitor",
       "url": "https://www.playbetter.com/products/bushnell-launch-pro-launch-monitor",
       "pct": 14
-    },
-    {
-      "title": "Foresight QuadMAX with PlayBetter SimStudio™ BYO Package",
-      "url": "https://www.playbetter.com/products/foresight-quadmax-playbetter-simstudio-byo-home-golf-studio-package",
-      "pct": 2
-    },
-    {
-      "title": "Foresight QuadMAX with PlayBetter SimStudio™ Complete…",
-      "url": "https://www.playbetter.com/products/foresight-quadmax-golf-launch-monitor-studio-package-playbetter-simstudio-with-impact-screen-enclosure-side-barriers-hitting-putting-mats-projector",
-      "pct": 2
     },
     {
       "title": "Foresight QuadMAX with PlayBetter SimStudio™ Essentials…",
@@ -1005,21 +984,6 @@
       "pct": 6
     },
     {
-      "title": "Garmin Approach R50 (Pre-Owned) with PlayBetter…",
-      "url": "https://www.playbetter.com/products/garmin-approach-r50-certified-refurbished-playbetter-simstudio-complete-package",
-      "pct": 6
-    },
-    {
-      "title": "Garmin Approach R50 with PlayBetter SimStudio™ BYO Package",
-      "url": "https://www.playbetter.com/products/garmin-approach-r50-playbetter-simstudio-byo-home-golf-studio-package",
-      "pct": 6
-    },
-    {
-      "title": "Garmin Approach R50 with PlayBetter SimStudio™ Complete…",
-      "url": "https://www.playbetter.com/products/garmin-approach-r50-home-golf-simulator-studio-package",
-      "pct": 6
-    },
-    {
       "title": "Garmin Approach R50 with PlayBetter SimStudio™ Essentials…",
       "url": "https://www.playbetter.com/products/garmin-approach-r50-home-golf-simulator-essentials-studio-package",
       "pct": 6
@@ -1030,29 +994,29 @@
       "pct": 17
     },
     {
-      "title": "PlayBetter SimStudio™ Complete by Golfbusters",
-      "url": "https://www.playbetter.com/products/playbetter-simstudio-by-golfbusters",
-      "pct": 13
-    },
-    {
-      "title": "PlayBetter SimStudio™ Complete by Golficity",
-      "url": "https://www.playbetter.com/products/playbetter-simstudio-by-golficity",
-      "pct": 13
-    },
-    {
       "title": "PlayBetter SimStudio™ Complete by Lets Play Thru",
       "url": "https://www.playbetter.com/products/playbetter-simstudio-by-lets-play-thru",
       "pct": 13
     },
     {
-      "title": "PlayBetter SimStudio™ Complete Home Golf Simulator Package",
-      "url": "https://www.playbetter.com/products/playbetter-simstudio-home-golf-simulator-package",
-      "pct": 13
+      "title": "ProTee VX with PlayBetter SimStudio Byo™ Package",
+      "url": "https://www.playbetter.com/products/protee-vx-with-playbetter-simstudio-byo-build-your-own-package",
+      "pct": 5
     },
     {
-      "title": "PlayBetter SimStudio™ Essentials Studio Package",
-      "url": "https://www.playbetter.com/products/playbetter-simstudio-essentials-golf-simulator-studio-package",
-      "pct": 14
+      "title": "ProTee VX with PlayBetter SimStudio™ Complete Package",
+      "url": "https://www.playbetter.com/products/protee-vx-pro-with-playbetter-simstudio-complete-package",
+      "pct": 5
+    },
+    {
+      "title": "Square Golf Omni with PlayBetter SimStudio™ Complete…",
+      "url": "https://www.playbetter.com/products/square-golf-omni-with-playbetter-simstudio-complete-package",
+      "pct": 9
+    },
+    {
+      "title": "Square Golf Omni with PlayBetter SimStudio™ Essentials…",
+      "url": "https://www.playbetter.com/products/square-golf-omni-with-playbetter-simstudio-essentials-package",
+      "pct": 10
     },
     {
       "title": "Cobra Women's Darkspeed Hybrid",
@@ -1075,13 +1039,48 @@
       "pct": 40
     },
     {
-      "title": "FlightScope Pro Package Upgrade (Software Only)",
-      "url": "https://www.playbetter.com/products/flightscope-mevo-plus-pro-package-upgrade",
+      "title": "Puma Cloudspun Tech Golf Hoodie",
+      "url": "https://www.pumagolf.com/products/cloudspun-tech-golf-hoodie",
       "pct": 40
     },
     {
-      "title": "FlightScope Face Impact Location Upgrade (Software Only)",
-      "url": "https://www.playbetter.com/products/flightscope-face-impact-location-software-upgrade",
+      "title": "Puma Ripguard Golf Vest",
+      "url": "https://www.pumagolf.com/products/ripguard-golf-vest",
+      "pct": 40
+    },
+    {
+      "title": "Puma AP Knit Golf 1/4 Zip",
+      "url": "https://www.pumagolf.com/products/puma-x-ap-knit-golf-quarter-zip",
+      "pct": 40
+    },
+    {
+      "title": "Cobra Darkspeed MAX Fairway Wood",
+      "url": "https://www.cobragolf.com/products/darkspeed-max-fairway",
+      "pct": 40
+    },
+    {
+      "title": "Cobra Darkspeed X Fairway Wood",
+      "url": "https://www.cobragolf.com/products/darkspeed-x-fairway",
+      "pct": 40
+    },
+    {
+      "title": "Cobra DS-ADAPT MAX Fairway Wood",
+      "url": "https://www.cobragolf.com/products/ds-adapt-max-fairway",
+      "pct": 40
+    },
+    {
+      "title": "Cobra DS-ADAPT X Fairway Wood",
+      "url": "https://www.cobragolf.com/products/ds-adapt-x-fairway",
+      "pct": 40
+    },
+    {
+      "title": "Cobra Women's Darkspeed MAX Fairway Wood",
+      "url": "https://www.cobragolf.com/products/womens-darkspeed-max-fairway",
+      "pct": 40
+    },
+    {
+      "title": "Cobra Women's DS-ADAPT MAX Fairway Wood",
+      "url": "https://www.cobragolf.com/products/womens-ds-adapt-max-fairway",
       "pct": 40
     }
   ],
@@ -1109,36 +1108,86 @@
     {
       "title": "FlightScope Mevo Gen2 Golf Launch Monitor",
       "url": "https://www.playbetter.com/products/flightscope-mevo-gen2-golf-launch-monitor",
-      "reason": "price varies by variant ($1299.00–$2184.00) — our $2149.00 is neither the entry price nor what every buyer sees"
-    },
-    {
-      "title": "ProTee VX with PlayBetter SimStudio Byo™ Package",
-      "url": "https://www.playbetter.com/products/protee-vx-with-playbetter-simstudio-byo-build-your-own-package",
       "reason": "product page unreachable"
     },
     {
-      "title": "ProTee VX with PlayBetter SimStudio™ Complete Package",
-      "url": "https://www.playbetter.com/products/protee-vx-pro-with-playbetter-simstudio-complete-package",
+      "title": "FlightScope Pro Package and Face Impact Location",
+      "url": "https://www.playbetter.com/products/flightscope-pro-package-and-face-impact-location",
+      "reason": "product page unreachable"
+    },
+    {
+      "title": "Rapsodo Mlm2pro with PlayBetter SimStudio™ BYO Package",
+      "url": "https://www.playbetter.com/products/rapsodo-mlm2pro-playbetter-simstudio-byo-home-golf-studio-package",
+      "reason": "product page unreachable"
+    },
+    {
+      "title": "Garmin Approach R50 Golf Simulator & Launch Monitor…",
+      "url": "https://www.playbetter.com/products/garmin-approach-r50-golf-simulator-launch-monitor-pre-owned",
+      "reason": "product page unreachable"
+    },
+    {
+      "title": "Garmin Approach R10 with PlayBetter SimStudio™ BYO Package",
+      "url": "https://www.playbetter.com/products/garmin-approach-r10-playbetter-simstudio-byo-home-golf-studio-package",
+      "reason": "product page unreachable"
+    },
+    {
+      "title": "Garmin Approach R10 with PlayBetter SimStudio™ Essentials…",
+      "url": "https://www.playbetter.com/products/garmin-approach-r10-with-playbetter-simstudio-essentials-package-golf-simulator-studio",
+      "reason": "product page unreachable"
+    },
+    {
+      "title": "Blue Tees Golf Rainmaker with PlayBetter SimStudio™ BYO…",
+      "url": "https://www.playbetter.com/products/blue-tees-golf-rainmaker-with-playbetter-simstudio-byo-build-your-own-package",
+      "reason": "product page unreachable"
+    },
+    {
+      "title": "Foresight QuadMAX with PlayBetter SimStudio™ BYO Package",
+      "url": "https://www.playbetter.com/products/foresight-quadmax-playbetter-simstudio-byo-home-golf-studio-package",
+      "reason": "product page unreachable"
+    },
+    {
+      "title": "Foresight QuadMAX with PlayBetter SimStudio™ Complete…",
+      "url": "https://www.playbetter.com/products/foresight-quadmax-golf-launch-monitor-studio-package-playbetter-simstudio-with-impact-screen-enclosure-side-barriers-hitting-putting-mats-projector",
+      "reason": "product page unreachable"
+    },
+    {
+      "title": "Garmin Approach R50 (Pre-Owned) with PlayBetter…",
+      "url": "https://www.playbetter.com/products/garmin-approach-r50-certified-refurbished-playbetter-simstudio-complete-package",
+      "reason": "product page unreachable"
+    },
+    {
+      "title": "Garmin Approach R50 with PlayBetter SimStudio™ BYO Package",
+      "url": "https://www.playbetter.com/products/garmin-approach-r50-playbetter-simstudio-byo-home-golf-studio-package",
+      "reason": "product page unreachable"
+    },
+    {
+      "title": "Garmin Approach R50 with PlayBetter SimStudio™ Complete…",
+      "url": "https://www.playbetter.com/products/garmin-approach-r50-home-golf-simulator-studio-package",
+      "reason": "product page unreachable"
+    },
+    {
+      "title": "PlayBetter SimStudio™ Complete by Golfbusters",
+      "url": "https://www.playbetter.com/products/playbetter-simstudio-by-golfbusters",
+      "reason": "product page unreachable"
+    },
+    {
+      "title": "PlayBetter SimStudio™ Complete by Golficity",
+      "url": "https://www.playbetter.com/products/playbetter-simstudio-by-golficity",
+      "reason": "product page unreachable"
+    },
+    {
+      "title": "PlayBetter SimStudio™ Complete Home Golf Simulator Package",
+      "url": "https://www.playbetter.com/products/playbetter-simstudio-home-golf-simulator-package",
+      "reason": "product page unreachable"
+    },
+    {
+      "title": "PlayBetter SimStudio™ Essentials Studio Package",
+      "url": "https://www.playbetter.com/products/playbetter-simstudio-essentials-golf-simulator-studio-package",
       "reason": "product page unreachable"
     },
     {
       "title": "ProTee VX with PlayBetter SimStudio™ Essentials Package",
       "url": "https://www.playbetter.com/products/protee-vx-with-playbetter-simstudio-essentials-package",
-      "reason": "product page unreachable"
-    },
-    {
-      "title": "Square Golf Omni with PlayBetter SimStudio™ Complete…",
-      "url": "https://www.playbetter.com/products/square-golf-omni-with-playbetter-simstudio-complete-package",
-      "reason": "product page unreachable"
-    },
-    {
-      "title": "Square Golf Omni with PlayBetter SimStudio™ Essentials…",
-      "url": "https://www.playbetter.com/products/square-golf-omni-with-playbetter-simstudio-essentials-package",
-      "reason": "product page unreachable"
-    },
-    {
-      "title": "Square Golf with PlayBetter SimStudio™ BYO Package",
-      "url": "https://www.playbetter.com/products/square-golf-playbetter-simstudio-byo-home-golf-studio-package",
       "reason": "product page unreachable"
     },
     {
@@ -1150,6 +1199,26 @@
       "title": "Cobra Darkspeed Hybrid",
       "url": "https://www.cobragolf.com/products/darkspeed-hybrid",
       "reason": "feed says $159.00, live page shows $22.99"
+    },
+    {
+      "title": "FlightScope Pro Package Upgrade (Software Only)",
+      "url": "https://www.playbetter.com/products/flightscope-mevo-plus-pro-package-upgrade",
+      "reason": "product page unreachable"
+    },
+    {
+      "title": "FlightScope Face Impact Location Upgrade (Software Only)",
+      "url": "https://www.playbetter.com/products/flightscope-face-impact-location-software-upgrade",
+      "reason": "product page unreachable"
+    },
+    {
+      "title": "Puma Women's Kyley Quilted Golf Skirt",
+      "url": "https://www.pumagolf.com/products/womens-quilted-golf-skirt",
+      "reason": "feed says $68.99, live page shows $60.00"
+    },
+    {
+      "title": "Puma Countryman Golf Jacket",
+      "url": "https://www.pumagolf.com/products/countryman-golf-jacket",
+      "reason": "feed says $149.99, live page shows $55.00"
     }
   ]
 }

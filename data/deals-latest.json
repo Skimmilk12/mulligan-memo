@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-08-24T10:53:52.152Z",
- "date": "2026-08-24",
+ "generated_at": "2026-08-25T10:49:54.981Z",
+ "date": "2026-08-25",
  "sources": [
   {
    "retailer": "PlayBetter",
    "status": "ok",
-   "on_sale_items": 249
+   "on_sale_items": 248
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -15,7 +15,7 @@
   {
    "retailer": "Rain or Shine Golf",
    "status": "ok",
-   "on_sale_items": 110
+   "on_sale_items": 109
   },
   {
    "retailer": "Top Shelf Golf",
@@ -289,6 +289,17 @@
    "url": "https://www.playbetter.com/products/playmakar-sport-usb-adapter"
   },
   {
+   "retailer": "PlayBetter",
+   "title": "SkyTrak ST MAX Golf Launch Monitor and Simulator (Certified Pre-Owned)",
+   "vendor": "SkyTrak",
+   "type": "Golf Launch Monitor & Simulator",
+   "price": 1595,
+   "compare_at": 2995,
+   "pct_off": 47,
+   "available": true,
+   "url": "https://www.playbetter.com/products/skytrak-st-max-certified-refurbished"
+  },
+  {
    "retailer": "Shop Indoor Golf",
    "title": "94\" x 94\" Premium Screen (Clearance)",
    "vendor": "Shop Indoor Golf",
@@ -485,17 +496,6 @@
    "pct_off": 38,
    "available": true,
    "url": "https://www.playbetter.com/products/skytrak-st-max-with-playbetter-simstudio-byo-build-your-own-package"
-  },
-  {
-   "retailer": "PlayBetter",
-   "title": "Garmin Approach S70 Golf GPS Smartwatch (Certified Pre-Owned)",
-   "vendor": "Garmin",
-   "type": "Golf GPS Watch",
-   "price": 399.99,
-   "compare_at": 649.99,
-   "pct_off": 38,
-   "available": true,
-   "url": "https://www.playbetter.com/products/garmin-approach-s70-golf-gps-smartwatch-certified-pre-owned"
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -894,17 +894,6 @@
    "url": "https://rainorshinegolf.com/products/uneekor-eye-mini-practice-golf-simulator-package"
   },
   {
-   "retailer": "PlayBetter",
-   "title": "SkyTrak Essential Membership",
-   "vendor": "SkyTrak",
-   "type": "Golf Launch Monitor Software",
-   "price": 90,
-   "compare_at": 129.99,
-   "pct_off": 31,
-   "available": true,
-   "url": "https://www.playbetter.com/products/skytrak-essential-membership"
-  },
-  {
    "retailer": "Shop Indoor Golf",
    "title": "SkyTrak ST MAX SIG DIY Golf Simulator Studio Package",
    "vendor": "SkyTrak",
@@ -1291,28 +1280,6 @@
   },
   {
    "retailer": "PlayBetter",
-   "title": "SkyTrak Elite Membership",
-   "vendor": "SkyTrak",
-   "type": "Golf Launch Monitor Software",
-   "price": 450,
-   "compare_at": 599.99,
-   "pct_off": 25,
-   "available": true,
-   "url": "https://www.playbetter.com/products/skytrak-elite-membership"
-  },
-  {
-   "retailer": "PlayBetter",
-   "title": "SkyTrak Core (FS) Membership - Course Play Foresight",
-   "vendor": "SkyTrak",
-   "type": "Golf Launch Monitor Software",
-   "price": 225,
-   "compare_at": 299.99,
-   "pct_off": 25,
-   "available": true,
-   "url": "https://www.playbetter.com/products/skytrak-core-fs-membership"
-  },
-  {
-   "retailer": "PlayBetter",
    "title": "Uneekor EYE MINI with PlayBetter SimStudio™ ESSENTIALS Package | Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, & Projector",
    "vendor": "Uneekor",
    "type": "Golf Simulator Studio Package",
@@ -1354,6 +1321,17 @@
    "pct_off": 24,
    "available": true,
    "url": "https://www.playbetter.com/products/foresight-gc3-certified-pre-owned-with-playbetter-simstudio-complete-package"
+  },
+  {
+   "retailer": "PlayBetter",
+   "title": "Garmin Approach S70 Golf GPS Smartwatch (Certified Pre-Owned)",
+   "vendor": "Garmin",
+   "type": "Golf GPS Watch",
+   "price": 494.99,
+   "compare_at": 649.99,
+   "pct_off": 24,
+   "available": true,
+   "url": "https://www.playbetter.com/products/garmin-approach-s70-golf-gps-smartwatch-certified-pre-owned"
   },
   {
    "retailer": "PlayBetter",
@@ -1401,14 +1379,14 @@
   },
   {
    "retailer": "PlayBetter",
-   "title": "SkyTrak Core (TM) Membership - Course Play Trackman",
+   "title": "SkyTrak Essential Membership",
    "vendor": "SkyTrak",
    "type": "Golf Launch Monitor Software",
-   "price": 270,
-   "compare_at": 349.99,
+   "price": 99.99,
+   "compare_at": 129.99,
    "pct_off": 23,
    "available": true,
-   "url": "https://www.playbetter.com/products/skytrak-core-tm-membership"
+   "url": "https://www.playbetter.com/products/skytrak-essential-membership"
   },
   {
    "retailer": "PlayBetter",
@@ -1431,6 +1409,17 @@
    "pct_off": 23,
    "available": true,
    "url": "https://www.playbetter.com/products/skytrak-portable-hitting-net-golf-studio-package"
+  },
+  {
+   "retailer": "PlayBetter",
+   "title": "Garmin fenix 8 Multisport GPS Smartwatch",
+   "vendor": "Garmin",
+   "type": "Multisport GPS Watch",
+   "price": 849.99,
+   "compare_at": 1099.99,
+   "pct_off": 23,
+   "available": true,
+   "url": "https://www.playbetter.com/products/garmin-fenix-8"
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -1819,6 +1808,17 @@
   },
   {
    "retailer": "PlayBetter",
+   "title": "Arccos Air Game Tracker",
+   "vendor": "Arccos Golf",
+   "type": "Golf Game Tracker",
+   "price": 279.99,
+   "compare_at": 349.99,
+   "pct_off": 20,
+   "available": true,
+   "url": "https://www.playbetter.com/products/arccos-air"
+  },
+  {
+   "retailer": "PlayBetter",
    "title": "FlightScope Mevo Gen2 with PlayBetter SimStudio™ BYO (Build Your Own) Package – Custom Home Golf Simulator Studio Builder with Impact Screen, Enclosure, Optional Mats, Projector & More",
    "vendor": "FlightScope",
    "type": "Golf Simulator Studio Package",
@@ -2069,17 +2069,6 @@
    "pct_off": 20,
    "available": true,
    "url": "https://rainorshinegolf.com/products/rapsodo-mobile-launch-monitor-mlm"
-  },
-  {
-   "retailer": "Rain or Shine Golf",
-   "title": "Full Swing KIT",
-   "vendor": "Full Swing",
-   "type": "Portable Launch Monitor",
-   "price": 3999,
-   "compare_at": 4999,
-   "pct_off": 20,
-   "available": true,
-   "url": "https://rainorshinegolf.com/products/full-swing-kit-launch-monitor"
   },
   {
    "retailer": "Rain or Shine Golf",
@@ -3241,8 +3230,8 @@
    "title": "Golf Simulator Impact Screen - SIGPRO™ Premium",
    "vendor": "Shop Indoor Golf",
    "type": "Golf Simulator Screen",
-   "price": 467.49,
-   "compare_at": 549.99,
+   "price": 356.99,
+   "compare_at": 419.99,
    "pct_off": 15,
    "available": true,
    "url": "https://shopindoorgolf.com/products/golf-simulator-screen-premium"
@@ -3917,17 +3906,6 @@
    "pct_off": 13,
    "available": true,
    "url": "https://www.playbetter.com/products/skycaddie-pro-5x-handheld-golf-gps"
-  },
-  {
-   "retailer": "PlayBetter",
-   "title": "Garmin Xero A1 / A1i Bow Sight Rangefinder",
-   "vendor": "Garmin",
-   "type": "Hunting & Archery Scope",
-   "price": 699.99,
-   "compare_at": 799.99,
-   "pct_off": 13,
-   "available": true,
-   "url": "https://www.playbetter.com/products/garmin-xero-a1-bow-sight-rangefinder"
   },
   {
    "retailer": "Shop Indoor Golf",

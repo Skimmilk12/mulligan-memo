@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-24T10:54:34.490Z",
+  "generated_at": "2026-08-25T10:50:38.412Z",
   "products": [
     {
       "product_id": "prd_c8682e21-a1ee-4c80-a16e-7c544c11caf4",
@@ -52,12 +52,12 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-08T23:47:41.248Z",
-      "last_seen": "2026-08-24T10:54:34.490Z",
+      "last_seen": "2026-08-25T10:50:38.412Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
           "item_group_id": "8206716535008",
-          "url": "https://sqairz.com/products/velo?variant=44537241993440",
+          "url": "https://sqairz.com/products/velo?variant=44537242190048",
           "display_title": "Sqairz Velo™",
           "variants": [
             {
@@ -103,12 +103,12 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-08T23:47:41.248Z",
-      "last_seen": "2026-08-24T10:54:34.490Z",
+      "last_seen": "2026-08-25T10:50:38.412Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
           "item_group_id": "7763613155552",
-          "url": "https://sqairz.com/products/freedom-mesh?variant=44071184498912",
+          "url": "https://sqairz.com/products/freedom-mesh?variant=44071184531680",
           "display_title": "Sqairz Freedom™ Mesh Blackberry",
           "variants": [
             {
@@ -174,12 +174,12 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-08T23:47:41.248Z",
-      "last_seen": "2026-08-24T10:54:34.490Z",
+      "last_seen": "2026-08-25T10:50:38.412Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
           "item_group_id": "8206713618656",
-          "url": "https://sqairz.com/products/pro-s2?variant=47306877075680",
+          "url": "https://sqairz.com/products/pro-s2?variant=47306877436128",
           "display_title": "Sqairz ProS2™",
           "variants": [
             {
@@ -206,6 +206,11 @@
               "gtin": "810032398835",
               "mpn": "39883",
               "feed_title": "ProS2™ White & Navy / 7.5 / Standard - SQAIRZ"
+            },
+            {
+              "gtin": "810032398705",
+              "mpn": "39870",
+              "feed_title": "ProS2™ White & Black / 7.5 / Standard - SQAIRZ"
             }
           ]
         }
@@ -220,12 +225,12 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-08T23:47:41.248Z",
-      "last_seen": "2026-08-24T10:54:34.490Z",
+      "last_seen": "2026-08-25T10:50:38.412Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
           "item_group_id": "8206704541920",
-          "url": "https://sqairz.com/products/speed-2?variant=47306873471200",
+          "url": "https://sqairz.com/products/speed-2?variant=47306872291552",
           "display_title": "Sqairz Speed2™",
           "variants": [
             {
@@ -252,6 +257,11 @@
               "gtin": "810032398439",
               "mpn": "39843",
               "feed_title": "SPEED2™ Gray & Blue / 7 / Standard - SQAIRZ"
+            },
+            {
+              "gtin": "810032397784",
+              "mpn": "39778",
+              "feed_title": "SPEED2™ White & Navy / 7 / Standard - SQAIRZ"
             }
           ]
         }
@@ -266,12 +276,12 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-08T23:47:41.248Z",
-      "last_seen": "2026-08-24T10:54:34.490Z",
+      "last_seen": "2026-08-25T10:50:38.412Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
           "item_group_id": "7763604832480",
-          "url": "https://sqairz.com/products/speed-mesh?variant=44370434883808",
+          "url": "https://sqairz.com/products/speed-mesh?variant=43150732755168",
           "display_title": "Sqairz Speed™ Mesh",
           "variants": [
             {
@@ -559,7 +569,7 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-15T10:40:28.587Z",
-      "last_seen": "2026-08-24T10:54:34.490Z",
+      "last_seen": "2026-08-25T10:50:38.412Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
@@ -585,12 +595,12 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-15T10:40:28.587Z",
-      "last_seen": "2026-08-24T10:54:34.490Z",
+      "last_seen": "2026-08-25T10:50:38.412Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
           "item_group_id": "8608562413792",
-          "url": "https://sqairz.com/products/the-patriot-womens-limited-edition?variant=45963716264160",
+          "url": "https://sqairz.com/products/the-patriot-womens-limited-edition?variant=45963716067552",
           "display_title": "Sqairz Patriot Limited Edition",
           "variants": [
             {
@@ -631,12 +641,12 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-15T10:40:28.587Z",
-      "last_seen": "2026-08-24T10:54:34.490Z",
+      "last_seen": "2026-08-25T10:50:38.412Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
           "item_group_id": "8608562217184",
-          "url": "https://sqairz.com/products/the-wave-mens-limited-edition?variant=45963714461920",
+          "url": "https://sqairz.com/products/the-wave-mens-limited-edition?variant=45963714363616",
           "display_title": "Sqairz Wave Limited Edition",
           "variants": [
             {
@@ -672,7 +682,7 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-15T10:40:28.587Z",
-      "last_seen": "2026-08-24T10:54:34.490Z",
+      "last_seen": "2026-08-25T10:50:38.412Z",
       "bindings": [
         {
           "retailer": "Cobra Golf",
@@ -738,7 +748,7 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-15T10:40:28.587Z",
-      "last_seen": "2026-08-24T10:54:34.490Z",
+      "last_seen": "2026-08-25T10:50:38.412Z",
       "bindings": [
         {
           "retailer": "Cobra Golf",
@@ -850,18 +860,23 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-16T10:41:14.060Z",
-      "last_seen": "2026-08-16T10:41:14.060Z",
+      "last_seen": "2026-08-25T10:50:38.412Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
           "item_group_id": "8803005432032",
-          "url": "https://sqairz.com/products/freedom-micro-1?variant=46883955409120",
+          "url": "https://sqairz.com/products/freedom-micro-1?variant=47393491615968",
           "display_title": "Sqairz Freedom™ Micro",
           "variants": [
             {
               "gtin": "810032396497",
               "mpn": "39649",
               "feed_title": "FREEDOM™ Micro White & Light Blue / 7 - SQAIRZ"
+            },
+            {
+              "gtin": "810032396718",
+              "mpn": "39671",
+              "feed_title": "FREEDOM™ Micro White & Gray / 8 - SQAIRZ"
             }
           ]
         }
@@ -984,15 +999,15 @@
     {
       "reason": "no_item_group_id",
       "retailer": "PlayBetter",
-      "title": "PlayBetter SkyTrak+ Golf Launch Monitor Home Net Studio…",
-      "url": "https://www.playbetter.com/products/skytrak-golf-launch-monitor-with-the-net-return-pro-series-v2-golf-simulator-package-old",
+      "title": "SkyTrak ST MAX Launch Monitor (Pre-Owned)",
+      "url": "https://www.playbetter.com/products/skytrak-st-max-certified-refurbished",
       "note": "source provides no advertiser-scoped product id; needs an approved feed or a manual binding"
     },
     {
       "reason": "no_item_group_id",
       "retailer": "PlayBetter",
-      "title": "FlightScope Pro Package and Face Impact Location",
-      "url": "https://www.playbetter.com/products/flightscope-pro-package-and-face-impact-location",
+      "title": "PlayBetter SkyTrak+ Golf Launch Monitor Home Net Studio…",
+      "url": "https://www.playbetter.com/products/skytrak-golf-launch-monitor-with-the-net-return-pro-series-v2-golf-simulator-package-old",
       "note": "source provides no advertiser-scoped product id; needs an approved feed or a manual binding"
     }
   ]
