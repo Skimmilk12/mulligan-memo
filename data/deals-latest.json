@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-26T10:51:43.095Z",
- "date": "2026-08-26",
+ "generated_at": "2026-08-27T20:30:48.634Z",
+ "date": "2026-08-27",
  "sources": [
   {
    "retailer": "PlayBetter",
@@ -15,7 +15,7 @@
   {
    "retailer": "Rain or Shine Golf",
    "status": "ok",
-   "on_sale_items": 109
+   "on_sale_items": 108
   },
   {
    "retailer": "Top Shelf Golf",
@@ -155,6 +155,17 @@
    "pct_off": 52,
    "available": true,
    "url": "https://shopindoorgolf.com/products/flightscope-mevo-plus"
+  },
+  {
+   "retailer": "PlayBetter",
+   "title": "Polar Grit X Rugged Outdoor Watch",
+   "vendor": "Polar",
+   "type": "Outdoor GPS Watch",
+   "price": 229.98,
+   "compare_at": 459.95,
+   "pct_off": 50,
+   "available": true,
+   "url": "https://www.playbetter.com/products/polar-grit-x-rugged-outdoor-watch"
   },
   {
    "retailer": "PlayBetter",
@@ -411,6 +422,28 @@
   },
   {
    "retailer": "Shop Indoor Golf",
+   "title": "SkyTrak ST MAX Launch Monitor",
+   "vendor": "SkyTrak",
+   "type": "Launch Monitor",
+   "price": 1695,
+   "compare_at": 2995,
+   "pct_off": 43,
+   "available": true,
+   "url": "https://shopindoorgolf.com/products/skytrak-stmax-launch-monitor"
+  },
+  {
+   "retailer": "Shop Indoor Golf",
+   "title": "FlightScope MEVO+ Pro Package & Face Impact Bundle",
+   "vendor": "Flightscope",
+   "type": "Golf Simulation Software",
+   "price": 850,
+   "compare_at": 1500,
+   "pct_off": 43,
+   "available": true,
+   "url": "https://shopindoorgolf.com/products/flightscope-mevo-pro-package-face-impact-bundle"
+  },
+  {
+   "retailer": "Shop Indoor Golf",
    "title": "Golfin IDRA II SIG12 Golf Simulator Package",
    "vendor": "Golfin",
    "type": "Golf Simulator",
@@ -507,6 +540,28 @@
    "pct_off": 40,
    "available": true,
    "url": "https://www.playbetter.com/products/flightscope-mevo-plus-pro-package-upgrade"
+  },
+  {
+   "retailer": "Shop Indoor Golf",
+   "title": "Face Impact Location for MEVO+ Pro Package",
+   "vendor": "Flightscope",
+   "type": "Golf Simulation Software",
+   "price": 299,
+   "compare_at": 499,
+   "pct_off": 40,
+   "available": true,
+   "url": "https://shopindoorgolf.com/products/face-impact-location-for-mevo-pro-package"
+  },
+  {
+   "retailer": "Shop Indoor Golf",
+   "title": "FlightScope MEVO+ Pro Package",
+   "vendor": "Flightscope",
+   "type": "Golf Simulation Software",
+   "price": 599,
+   "compare_at": 1000,
+   "pct_off": 40,
+   "available": true,
+   "url": "https://shopindoorgolf.com/products/flightscope-mevo-pro-package"
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -619,17 +674,6 @@
    "url": "https://www.playbetter.com/products/skytrak-st-max-golf-launch-monitor-with-the-net-return-premium-hitting-net-package"
   },
   {
-   "retailer": "Shop Indoor Golf",
-   "title": "FlightScope MEVO+ Pro Package & Face Impact Bundle",
-   "vendor": "Flightscope",
-   "type": "Golf Simulation Software",
-   "price": 975,
-   "compare_at": 1500,
-   "pct_off": 35,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/flightscope-mevo-pro-package-face-impact-bundle"
-  },
-  {
    "retailer": "Rain or Shine Golf",
    "title": "SkyTrak ST Max SwingBay",
    "vendor": "SkyTrak",
@@ -708,6 +752,17 @@
   },
   {
    "retailer": "PlayBetter",
+   "title": "Rapsodo MLM2PRO Golf Launch Monitor & Simulator (Certified Pre-Owned)",
+   "vendor": "Rapsodo",
+   "type": "Golf Launch Monitor & Simulator",
+   "price": 399.99,
+   "compare_at": 599.99,
+   "pct_off": 33,
+   "available": true,
+   "url": "https://www.playbetter.com/products/rapsodo-mlm2pro-golf-launch-monitor-simulator-certified-pre-owned"
+  },
+  {
+   "retailer": "PlayBetter",
    "title": "Uneekor EYE XO Golf Launch Monitor & Simulator",
    "vendor": "Uneekor",
    "type": "Golf Launch Monitor & Simulator",
@@ -738,17 +793,6 @@
    "pct_off": 33,
    "available": true,
    "url": "https://www.playbetter.com/products/garmin-alpha-200-200i-handheld-gps-dog-tracker"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
-   "title": "SkyTrak ST MAX Launch Monitor",
-   "vendor": "SkyTrak",
-   "type": "Launch Monitor",
-   "price": 1995,
-   "compare_at": 2995,
-   "pct_off": 33,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/skytrak-stmax-launch-monitor"
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -804,17 +848,6 @@
    "pct_off": 33,
    "available": true,
    "url": "https://shopindoorgolf.com/products/3bays-zone-golf-swing-analyzer"
-  },
-  {
-   "retailer": "Rain or Shine Golf",
-   "title": "Full Swing KIT SwingBay",
-   "vendor": "Full Swing",
-   "type": "Golf Simulator Package",
-   "price": 7498,
-   "compare_at": 11126,
-   "pct_off": 33,
-   "available": true,
-   "url": "https://rainorshinegolf.com/products/full-swing-kit-swingbay-golf-simulator-package"
   },
   {
    "retailer": "Rain or Shine Golf",
@@ -917,28 +950,6 @@
   },
   {
    "retailer": "Shop Indoor Golf",
-   "title": "Face Impact Location for MEVO+ Pro Package",
-   "vendor": "Flightscope",
-   "type": "Golf Simulation Software",
-   "price": 349,
-   "compare_at": 499,
-   "pct_off": 30,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/face-impact-location-for-mevo-pro-package"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
-   "title": "FlightScope MEVO+ Pro Package",
-   "vendor": "Flightscope",
-   "type": "Golf Simulation Software",
-   "price": 699,
-   "compare_at": 1000,
-   "pct_off": 30,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/flightscope-mevo-pro-package"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
    "title": "Panasonic PT-VZ580U Golf Simulator Projector",
    "vendor": "Panasonic",
    "type": "Projector",
@@ -1024,17 +1035,6 @@
    "pct_off": 29,
    "available": true,
    "url": "https://shopindoorgolf.com/products/flightscope-golf-net-practice-bundle"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
-   "title": "Foresight Sports GC3 Launch Monitor",
-   "vendor": "Foresight Sports",
-   "type": "Launch Monitor",
-   "price": 4999,
-   "compare_at": 6999,
-   "pct_off": 29,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/foresight-sports-gc3-launch-monitor"
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -1191,17 +1191,6 @@
    "url": "https://shopindoorgolf.com/products/uneekor-eye-mini-lite-launch-monitor"
   },
   {
-   "retailer": "Shop Indoor Golf",
-   "title": "Foresight Sports GC3 Golf Net Practice Bundle",
-   "vendor": "Foresight Sports",
-   "type": "Golf Simulator",
-   "price": 5399.99,
-   "compare_at": 7399.99,
-   "pct_off": 27,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/foresight-sports-gc3-golf-practice-net-bundle"
-  },
-  {
    "retailer": "Rain or Shine Golf",
    "title": "Uneekor EYE MINI Lite Practice Bundle",
    "vendor": "Uneekor",
@@ -1345,17 +1334,6 @@
    "url": "https://www.playbetter.com/products/uneekor-eye-mini-golf-launch-monitor-simulator-studio-package"
   },
   {
-   "retailer": "Shop Indoor Golf",
-   "title": "Foresight Sports GC3 SIG DIY Golf Simulator Studio Package",
-   "vendor": "Foresight Sports",
-   "type": "Golf Simulator",
-   "price": 6298.99,
-   "compare_at": 8298.99,
-   "pct_off": 24,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/foresight-sports-gc3-gc3s-sig-diy-golf-simulator-studio-package"
-  },
-  {
    "retailer": "Rain or Shine Golf",
    "title": "Bushnell LPi SwingBay",
    "vendor": "Bushnell Golf",
@@ -1365,6 +1343,17 @@
    "pct_off": 24,
    "available": true,
    "url": "https://rainorshinegolf.com/products/bushnell-lpi-swingbay-package"
+  },
+  {
+   "retailer": "Rain or Shine Golf",
+   "title": "Full Swing KIT SwingBay",
+   "vendor": "Full Swing",
+   "type": "Golf Simulator Package",
+   "price": 8498,
+   "compare_at": 11126,
+   "pct_off": 24,
+   "available": true,
+   "url": "https://rainorshinegolf.com/products/full-swing-kit-swingbay-golf-simulator-package"
   },
   {
    "retailer": "PlayBetter",
@@ -1752,17 +1741,6 @@
    "url": "https://shopindoorgolf.com/products/swing-caddie-sc4-launch-monitor"
   },
   {
-   "retailer": "Shop Indoor Golf",
-   "title": "Foresight Falcon Launch Monitor",
-   "vendor": "Foresight Sports",
-   "type": "Launch Monitor",
-   "price": 13499.99,
-   "compare_at": 16999.99,
-   "pct_off": 21,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/foresight-falcon"
-  },
-  {
    "retailer": "Rain or Shine Golf",
    "title": "Uneekor EYE XR SwingBay",
    "vendor": "Uneekor",
@@ -1915,39 +1893,6 @@
    "pct_off": 20,
    "available": true,
    "url": "https://shopindoorgolf.com/products/uneekor-eye-mini-garage-golf-simulator-package"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
-   "title": "Foresight Sports GC3 SIG8 Golf Simulator Package",
-   "vendor": "Foresight Sports",
-   "type": "Golf Simulator",
-   "price": 7899.99,
-   "compare_at": 9899.99,
-   "pct_off": 20,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/foresight-sports-gc3-sig8-golf-simulator-package"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
-   "title": "Foresight Sports GC3 SIG12 Golf Simulator Package",
-   "vendor": "Foresight Sports",
-   "type": "Golf Simulator",
-   "price": 8199.99,
-   "compare_at": 10199.99,
-   "pct_off": 20,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/foresight-sports-gc3-sig12-golf-simulator-package"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
-   "title": "Foresight Sports GC3 SIG10 Golf Simulator Package",
-   "vendor": "Foresight Sports",
-   "type": "Golf Simulator",
-   "price": 8099.99,
-   "compare_at": 10099.99,
-   "pct_off": 20,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/foresight-sports-gc3-sig10-golf-simulator-package"
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -2179,61 +2124,6 @@
    "pct_off": 19,
    "available": true,
    "url": "https://www.playbetter.com/products/uneekor-eye-mini-lite-golf-launch-monitor-simulator-studio-package"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
-   "title": "Foresight Falcon SIG DIY Golf Simulator Studio Package",
-   "vendor": "Foresight Sports",
-   "type": "Golf Simulator",
-   "price": 14798.99,
-   "compare_at": 18298.99,
-   "pct_off": 19,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/foresight-falcon-sig-diy-golf-simulator-studio-package"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
-   "title": "Foresight Sports GC3 Garage Golf Simulator Package",
-   "vendor": "Foresight Sports",
-   "type": "Golf Simulator",
-   "price": 8466.98,
-   "compare_at": 10466.98,
-   "pct_off": 19,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/foresight-sports-gc3-garage-golf-simulator-package"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
-   "title": "Foresight Falcon SIG8 Golf Simulator Package",
-   "vendor": "Foresight Sports",
-   "type": "Golf Simulator",
-   "price": 14499.99,
-   "compare_at": 17999.99,
-   "pct_off": 19,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/foresight-falcon-sig8-golf-simulator-package"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
-   "title": "Foresight Falcon SIG12 Golf Simulator Package",
-   "vendor": "Foresight Sports",
-   "type": "Golf Simulator",
-   "price": 14999.99,
-   "compare_at": 18499.99,
-   "pct_off": 19,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/foresight-falcon-sig12-golf-simulator-package"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
-   "title": "Foresight Falcon SIG10 Golf Simulator Package",
-   "vendor": "Foresight Sports",
-   "type": "Golf Simulator",
-   "price": 14699.99,
-   "compare_at": 18199.99,
-   "pct_off": 19,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/foresight-falcon-sig10-golf-simulator-package"
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -2575,17 +2465,6 @@
    "pct_off": 17,
    "available": true,
    "url": "https://shopindoorgolf.com/products/eiki-ek-308u-3lcd-golf-simulator-projector"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
-   "title": "Foresight Falcon Commercial Golf Simulator Package",
-   "vendor": "Foresight Sports",
-   "type": "Golf Simulator",
-   "price": 16799.99,
-   "compare_at": 20299.99,
-   "pct_off": 17,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/foresight-falcon-commercial-golf-simulator-package"
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -3656,6 +3535,17 @@
   },
   {
    "retailer": "Shop Indoor Golf",
+   "title": "Foresight Sports GC3 Golf Net Practice Bundle",
+   "vendor": "Foresight Sports",
+   "type": "Golf Simulator",
+   "price": 6399.99,
+   "compare_at": 7399.99,
+   "pct_off": 14,
+   "available": true,
+   "url": "https://shopindoorgolf.com/products/foresight-sports-gc3-golf-practice-net-bundle"
+  },
+  {
+   "retailer": "Shop Indoor Golf",
    "title": "Bushnell Launch Pro Golf Launch Monitor",
    "vendor": "Bushnell Golf",
    "type": "Launch Monitor",
@@ -3675,6 +3565,17 @@
    "pct_off": 14,
    "available": true,
    "url": "https://shopindoorgolf.com/products/sl2-active-hybrid-gps-laser-rangefinder"
+  },
+  {
+   "retailer": "Shop Indoor Golf",
+   "title": "Foresight Sports GC3 Launch Monitor",
+   "vendor": "Foresight Sports",
+   "type": "Launch Monitor",
+   "price": 5999,
+   "compare_at": 6999,
+   "pct_off": 14,
+   "available": true,
+   "url": "https://shopindoorgolf.com/products/foresight-sports-gc3-launch-monitor"
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -3730,17 +3631,6 @@
    "pct_off": 14,
    "available": true,
    "url": "https://rainorshinegolf.com/products/bushnell-launch-pro-swingbay-package"
-  },
-  {
-   "retailer": "Rain or Shine Golf",
-   "title": "Full Swing KIT Retractable",
-   "vendor": "Full Swing",
-   "type": "Golf Simulator Package",
-   "price": 7499,
-   "compare_at": 8755,
-   "pct_off": 14,
-   "available": true,
-   "url": "https://rainorshinegolf.com/products/full-swing-kit-retractable-golf-simulator-package"
   },
   {
    "retailer": "Rain or Shine Golf",
@@ -4228,6 +4118,17 @@
   },
   {
    "retailer": "Shop Indoor Golf",
+   "title": "Foresight Sports GC3 SIG DIY Golf Simulator Studio Package",
+   "vendor": "Foresight Sports",
+   "type": "Golf Simulator",
+   "price": 7298.99,
+   "compare_at": 8298.99,
+   "pct_off": 12,
+   "available": true,
+   "url": "https://shopindoorgolf.com/products/foresight-sports-gc3-gc3s-sig-diy-golf-simulator-studio-package"
+  },
+  {
+   "retailer": "Shop Indoor Golf",
    "title": "Uneekor EYE XR SIG DIY Golf Simulator Studio Package",
    "vendor": "Uneekor",
    "type": "Golf Simulator",
@@ -4258,6 +4159,17 @@
    "pct_off": 12,
    "available": true,
    "url": "https://shopindoorgolf.com/products/foresight-sports-quadmax-launch-monitor"
+  },
+  {
+   "retailer": "Shop Indoor Golf",
+   "title": "Foresight Falcon Launch Monitor",
+   "vendor": "Foresight Sports",
+   "type": "Launch Monitor",
+   "price": 14999.99,
+   "compare_at": 16999.99,
+   "pct_off": 12,
+   "available": true,
+   "url": "https://shopindoorgolf.com/products/foresight-falcon"
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -4371,6 +4283,17 @@
   },
   {
    "retailer": "Shop Indoor Golf",
+   "title": "Foresight Falcon SIG DIY Golf Simulator Studio Package",
+   "vendor": "Foresight Sports",
+   "type": "Golf Simulator",
+   "price": 16298.99,
+   "compare_at": 18298.99,
+   "pct_off": 11,
+   "available": true,
+   "url": "https://shopindoorgolf.com/products/foresight-falcon-sig-diy-golf-simulator-studio-package"
+  },
+  {
+   "retailer": "Shop Indoor Golf",
    "title": "Uneekor EYE XR SIG8 Golf Simulator Package",
    "vendor": "Uneekor",
    "type": "Golf Simulator",
@@ -4412,6 +4335,39 @@
    "pct_off": 11,
    "available": true,
    "url": "https://shopindoorgolf.com/products/square-golf-indoor-launch-monitor-net-practice-bundle"
+  },
+  {
+   "retailer": "Shop Indoor Golf",
+   "title": "Foresight Falcon SIG8 Golf Simulator Package",
+   "vendor": "Foresight Sports",
+   "type": "Golf Simulator",
+   "price": 15999.99,
+   "compare_at": 17999.99,
+   "pct_off": 11,
+   "available": true,
+   "url": "https://shopindoorgolf.com/products/foresight-falcon-sig8-golf-simulator-package"
+  },
+  {
+   "retailer": "Shop Indoor Golf",
+   "title": "Foresight Falcon SIG12 Golf Simulator Package",
+   "vendor": "Foresight Sports",
+   "type": "Golf Simulator",
+   "price": 16499.99,
+   "compare_at": 18499.99,
+   "pct_off": 11,
+   "available": true,
+   "url": "https://shopindoorgolf.com/products/foresight-falcon-sig12-golf-simulator-package"
+  },
+  {
+   "retailer": "Shop Indoor Golf",
+   "title": "Foresight Falcon SIG10 Golf Simulator Package",
+   "vendor": "Foresight Sports",
+   "type": "Golf Simulator",
+   "price": 16199.99,
+   "compare_at": 18199.99,
+   "pct_off": 11,
+   "available": true,
+   "url": "https://shopindoorgolf.com/products/foresight-falcon-sig10-golf-simulator-package"
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -4544,6 +4500,61 @@
    "pct_off": 10,
    "available": true,
    "url": "https://www.playbetter.com/products/flightscope-x3c-golf-launch-monitor-simulator"
+  },
+  {
+   "retailer": "Shop Indoor Golf",
+   "title": "Foresight Falcon Commercial Golf Simulator Package",
+   "vendor": "Foresight Sports",
+   "type": "Golf Simulator",
+   "price": 18299.99,
+   "compare_at": 20299.99,
+   "pct_off": 10,
+   "available": true,
+   "url": "https://shopindoorgolf.com/products/foresight-falcon-commercial-golf-simulator-package"
+  },
+  {
+   "retailer": "Shop Indoor Golf",
+   "title": "Foresight Sports GC3 Garage Golf Simulator Package",
+   "vendor": "Foresight Sports",
+   "type": "Golf Simulator",
+   "price": 9466.98,
+   "compare_at": 10466.98,
+   "pct_off": 10,
+   "available": true,
+   "url": "https://shopindoorgolf.com/products/foresight-sports-gc3-garage-golf-simulator-package"
+  },
+  {
+   "retailer": "Shop Indoor Golf",
+   "title": "Foresight Sports GC3 SIG8 Golf Simulator Package",
+   "vendor": "Foresight Sports",
+   "type": "Golf Simulator",
+   "price": 8899.99,
+   "compare_at": 9899.99,
+   "pct_off": 10,
+   "available": true,
+   "url": "https://shopindoorgolf.com/products/foresight-sports-gc3-sig8-golf-simulator-package"
+  },
+  {
+   "retailer": "Shop Indoor Golf",
+   "title": "Foresight Sports GC3 SIG12 Golf Simulator Package",
+   "vendor": "Foresight Sports",
+   "type": "Golf Simulator",
+   "price": 9199.99,
+   "compare_at": 10199.99,
+   "pct_off": 10,
+   "available": true,
+   "url": "https://shopindoorgolf.com/products/foresight-sports-gc3-sig12-golf-simulator-package"
+  },
+  {
+   "retailer": "Shop Indoor Golf",
+   "title": "Foresight Sports GC3 SIG10 Golf Simulator Package",
+   "vendor": "Foresight Sports",
+   "type": "Golf Simulator",
+   "price": 9099.99,
+   "compare_at": 10099.99,
+   "pct_off": 10,
+   "available": true,
+   "url": "https://shopindoorgolf.com/products/foresight-sports-gc3-sig10-golf-simulator-package"
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -5558,17 +5569,6 @@
    "url": "https://rainorshinegolf.com/products/benq-ah500st-golf-simulator-projector"
   },
   {
-   "retailer": "Rain or Shine Golf",
-   "title": "Full Swing KIT Practice Bundle",
-   "vendor": "Full Swing",
-   "type": "Golf Simulator Package",
-   "price": 4998,
-   "compare_at": 5248,
-   "pct_off": 5,
-   "available": true,
-   "url": "https://rainorshinegolf.com/products/full-swing-kit-practice-package"
-  },
-  {
    "retailer": "Top Shelf Golf",
    "title": "Alphard Cybercart Remote Electric Golf Caddy",
    "vendor": "Alphard Golf",
@@ -5820,6 +5820,17 @@
    "pct_off": 3,
    "available": true,
    "url": "https://rainorshinegolf.com/products/garmin-approach-r50-practice-package"
+  },
+  {
+   "retailer": "Rain or Shine Golf",
+   "title": "Full Swing KIT Retractable",
+   "vendor": "Full Swing",
+   "type": "Golf Simulator Package",
+   "price": 8499,
+   "compare_at": 8755,
+   "pct_off": 3,
+   "available": true,
+   "url": "https://rainorshinegolf.com/products/full-swing-kit-retractable-golf-simulator-package"
   },
   {
    "retailer": "Rain or Shine Golf",
