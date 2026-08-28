@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-27T20:30:48.634Z",
- "date": "2026-08-27",
+ "generated_at": "2026-08-28T21:11:19.676Z",
+ "date": "2026-08-28",
  "sources": [
   {
    "retailer": "PlayBetter",
@@ -15,7 +15,7 @@
   {
    "retailer": "Rain or Shine Golf",
    "status": "ok",
-   "on_sale_items": 108
+   "on_sale_items": 109
   },
   {
    "retailer": "Top Shelf Golf",
@@ -290,17 +290,6 @@
   },
   {
    "retailer": "PlayBetter",
-   "title": "SkyTrak ST MAX with PlayBetter SimStudio™ BYO (Build Your Own) Package – Custom Home Golf Simulator Studio Builder with Impact Screen, Enclosure, Optional Mats, Projector & More",
-   "vendor": "SkyTrak",
-   "type": "Golf Simulator Studio Package",
-   "price": 3395,
-   "compare_at": 6495,
-   "pct_off": 48,
-   "available": true,
-   "url": "https://www.playbetter.com/products/skytrak-st-max-with-playbetter-simstudio-byo-build-your-own-package"
-  },
-  {
-   "retailer": "PlayBetter",
    "title": "PlayMakar SPORT USB & Adapter",
    "vendor": "PlayMakar",
    "type": "Recovery Accessories",
@@ -355,17 +344,6 @@
    "url": "https://shopindoorgolf.com/products/119-1-4-x-90-1-2-premium-screen-clearance"
   },
   {
-   "retailer": "PlayBetter",
-   "title": "SkyTrak ST MAX with PlayBetter SimStudio™ ESSENTIALS Package | Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Projector & Protective Case",
-   "vendor": "SkyTrak",
-   "type": "Golf Simulator Studio Package",
-   "price": 3895,
-   "compare_at": 6995,
-   "pct_off": 44,
-   "available": true,
-   "url": "https://www.playbetter.com/products/skytrak-st-max-with-playbetter-simstudio-essentials-package"
-  },
-  {
    "retailer": "Rain or Shine Golf",
    "title": "Panasonic PT-VMZ72U7 7300-Lumen WUXGA Standard-Throw",
    "vendor": "Panasonic",
@@ -397,6 +375,17 @@
    "pct_off": 43,
    "available": true,
    "url": "https://www.playbetter.com/products/flightscope-pro-package-and-face-impact-location"
+  },
+  {
+   "retailer": "PlayBetter",
+   "title": "SkyTrak ST MAX with PlayBetter SimStudio™ BYO (Build Your Own) Package – Custom Home Golf Simulator Studio Builder with Impact Screen, Enclosure, Optional Mats, Projector & More",
+   "vendor": "SkyTrak",
+   "type": "Golf Simulator Studio Package",
+   "price": 3695,
+   "compare_at": 6495,
+   "pct_off": 43,
+   "available": true,
+   "url": "https://www.playbetter.com/products/skytrak-st-max-with-playbetter-simstudio-byo-build-your-own-package"
   },
   {
    "retailer": "PlayBetter",
@@ -466,6 +455,17 @@
   },
   {
    "retailer": "Rain or Shine Golf",
+   "title": "SkyTrak ST Max",
+   "vendor": "SkyTrak",
+   "type": "Portable Launch Monitor",
+   "price": 1695,
+   "compare_at": 2995,
+   "pct_off": 43,
+   "available": true,
+   "url": "https://rainorshinegolf.com/products/skytrak-stmax-golf-launch-monitor"
+  },
+  {
+   "retailer": "Rain or Shine Golf",
    "title": "Panasonic PT-VMZ6STU7 6200-Lumen WUXGA Short-Throw",
    "vendor": "Panasonic",
    "type": "Golf Simulator Projector",
@@ -499,17 +499,6 @@
   },
   {
    "retailer": "PlayBetter",
-   "title": "SkyTrak ST MAX with PlayBetter SimStudio™ COMPLETE Package | Golf Simulator Studio with Impact Screen, Enclosure, Side Barriers, Hitting/Putting Mats, Projector & Protective Case",
-   "vendor": "SkyTrak",
-   "type": "Golf Simulator Studio Package",
-   "price": 4395,
-   "compare_at": 7495,
-   "pct_off": 41,
-   "available": true,
-   "url": "https://www.playbetter.com/products/skytrak-st-max-with-playbetter-simstudio-complete-package"
-  },
-  {
-   "retailer": "PlayBetter",
    "title": "Bushnell LPi Circle B Personal Launch Monitor & Simulator",
    "vendor": "Bushnell",
    "type": "Golf Launch Monitor & Simulator",
@@ -518,6 +507,17 @@
    "pct_off": 41,
    "available": true,
    "url": "https://www.playbetter.com/products/bushnell-lpi-personal-launch-monitor-simulator"
+  },
+  {
+   "retailer": "PlayBetter",
+   "title": "SkyTrak ST MAX with PlayBetter SimStudio™ ESSENTIALS Package | Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Projector & Protective Case",
+   "vendor": "SkyTrak",
+   "type": "Golf Simulator Studio Package",
+   "price": 4195,
+   "compare_at": 6995,
+   "pct_off": 40,
+   "available": true,
+   "url": "https://www.playbetter.com/products/skytrak-st-max-with-playbetter-simstudio-essentials-package"
   },
   {
    "retailer": "PlayBetter",
@@ -584,6 +584,28 @@
    "pct_off": 39,
    "available": true,
    "url": "https://shopindoorgolf.com/products/trackman-io-commercial-package"
+  },
+  {
+   "retailer": "Rain or Shine Golf",
+   "title": "SkyTrak ST Max SwingBay",
+   "vendor": "SkyTrak",
+   "type": "Golf Simulator Package",
+   "price": 5349,
+   "compare_at": 8676,
+   "pct_off": 38,
+   "available": true,
+   "url": "https://rainorshinegolf.com/products/skytrak-st-max-swingbay-golf-simulator-package"
+  },
+  {
+   "retailer": "PlayBetter",
+   "title": "SkyTrak ST MAX with PlayBetter SimStudio™ COMPLETE Package | Golf Simulator Studio with Impact Screen, Enclosure, Side Barriers, Hitting/Putting Mats, Projector & Protective Case",
+   "vendor": "SkyTrak",
+   "type": "Golf Simulator Studio Package",
+   "price": 4695,
+   "compare_at": 7495,
+   "pct_off": 37,
+   "available": true,
+   "url": "https://www.playbetter.com/products/skytrak-st-max-with-playbetter-simstudio-complete-package"
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -675,17 +697,6 @@
   },
   {
    "retailer": "Rain or Shine Golf",
-   "title": "SkyTrak ST Max SwingBay",
-   "vendor": "SkyTrak",
-   "type": "Golf Simulator Package",
-   "price": 5649,
-   "compare_at": 8676,
-   "pct_off": 35,
-   "available": true,
-   "url": "https://rainorshinegolf.com/products/skytrak-st-max-swingbay-golf-simulator-package"
-  },
-  {
-   "retailer": "Rain or Shine Golf",
    "title": "FlightScope Mevo Gen2 SwingBay",
    "vendor": "FlightScope",
    "type": "Golf Simulator Package",
@@ -694,17 +705,6 @@
    "pct_off": 35,
    "available": true,
    "url": "https://rainorshinegolf.com/products/flightscope-mevo-2-swingbay-golf-simulator-package"
-  },
-  {
-   "retailer": "Rain or Shine Golf",
-   "title": "SkyTrak ST Max",
-   "vendor": "SkyTrak",
-   "type": "Portable Launch Monitor",
-   "price": 2174.99,
-   "compare_at": 3344.99,
-   "pct_off": 35,
-   "available": true,
-   "url": "https://rainorshinegolf.com/products/skytrak-stmax-golf-launch-monitor"
   },
   {
    "retailer": "Rain or Shine Golf",
@@ -851,6 +851,17 @@
   },
   {
    "retailer": "Rain or Shine Golf",
+   "title": "SkyTrak ST Max Practice Bundle",
+   "vendor": "SkyTrak",
+   "type": "Golf Simulator Package",
+   "price": 2849,
+   "compare_at": 4270,
+   "pct_off": 33,
+   "available": true,
+   "url": "https://rainorshinegolf.com/products/skytrak-max-practice-package"
+  },
+  {
+   "retailer": "Rain or Shine Golf",
    "title": "Outdoor Golf Simulator Practice Bundle",
    "vendor": "Rain or Shine Golf",
    "type": "Practice Bundle",
@@ -892,6 +903,17 @@
    "pct_off": 33,
    "available": true,
    "url": "https://rainorshinegolf.com/products/uneekor-eye-mini-launch-monitor"
+  },
+  {
+   "retailer": "Rain or Shine Golf",
+   "title": "SimSquad Design Service",
+   "vendor": "Rain or Shine Golf",
+   "type": "Design Service",
+   "price": 499,
+   "compare_at": 749,
+   "pct_off": 33,
+   "available": true,
+   "url": "https://rainorshinegolf.com/products/golf-simulator-design-plans"
   },
   {
    "retailer": "Top Shelf Golf",
@@ -1233,17 +1255,6 @@
    "pct_off": 26,
    "available": true,
    "url": "https://www.playbetter.com/products/blue-tees-golf-series-3-max-golf-gps-rangefinder"
-  },
-  {
-   "retailer": "Rain or Shine Golf",
-   "title": "SkyTrak ST Max Practice Bundle",
-   "vendor": "SkyTrak",
-   "type": "Golf Simulator Package",
-   "price": 3149,
-   "compare_at": 4270,
-   "pct_off": 26,
-   "available": true,
-   "url": "https://rainorshinegolf.com/products/skytrak-max-practice-package"
   },
   {
    "retailer": "PlayBetter",
@@ -1761,6 +1772,17 @@
    "pct_off": 21,
    "available": true,
    "url": "https://rainorshinegolf.com/products/flightscope-x3c-swingbay-golf-simulator-package"
+  },
+  {
+   "retailer": "Rain or Shine Golf",
+   "title": "SkyTrak ST Max Retractable",
+   "vendor": "SkyTrak",
+   "type": "Golf Simulator Package",
+   "price": 5350,
+   "compare_at": 6750,
+   "pct_off": 21,
+   "available": true,
+   "url": "https://rainorshinegolf.com/products/skytrak-st-max-retractable-golf-simulator-package"
   },
   {
    "retailer": "Rain or Shine Golf",
@@ -2773,17 +2795,6 @@
    "pct_off": 16,
    "available": true,
    "url": "https://rainorshinegolf.com/products/benq-lk936st-4k-projector"
-  },
-  {
-   "retailer": "Rain or Shine Golf",
-   "title": "SkyTrak ST Max Retractable",
-   "vendor": "SkyTrak",
-   "type": "Golf Simulator Package",
-   "price": 5650,
-   "compare_at": 6750,
-   "pct_off": 16,
-   "available": true,
-   "url": "https://rainorshinegolf.com/products/skytrak-st-max-retractable-golf-simulator-package"
   },
   {
    "retailer": "Top Shelf Golf",
