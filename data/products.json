@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-29T15:05:49.413Z",
+  "generated_at": "2026-08-30T14:53:03.487Z",
   "products": [
     {
       "product_id": "prd_c8682e21-a1ee-4c80-a16e-7c544c11caf4",
@@ -11,12 +11,12 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-08T23:47:41.248Z",
-      "last_seen": "2026-08-29T15:05:49.413Z",
+      "last_seen": "2026-08-30T14:53:03.487Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
           "item_group_id": "8102626951392",
-          "url": "https://sqairz.com/products/freedom-micro?variant=46639214067936",
+          "url": "https://sqairz.com/products/freedom-micro?variant=46639214264544",
           "display_title": "Sqairz Freedom™ Micro",
           "variants": [
             {
@@ -57,12 +57,12 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-08T23:47:41.248Z",
-      "last_seen": "2026-08-29T15:05:49.413Z",
+      "last_seen": "2026-08-30T14:53:03.487Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
           "item_group_id": "8206716535008",
-          "url": "https://sqairz.com/products/velo?variant=44537241960672",
+          "url": "https://sqairz.com/products/velo?variant=44537242058976",
           "display_title": "Sqairz Velo™",
           "variants": [
             {
@@ -118,7 +118,7 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-08T23:47:41.248Z",
-      "last_seen": "2026-08-29T15:05:49.413Z",
+      "last_seen": "2026-08-30T14:53:03.487Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
@@ -189,12 +189,12 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-08T23:47:41.248Z",
-      "last_seen": "2026-08-29T15:05:49.413Z",
+      "last_seen": "2026-08-30T14:53:03.487Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
           "item_group_id": "8206713618656",
-          "url": "https://sqairz.com/products/pro-s2?variant=47306876616928",
+          "url": "https://sqairz.com/products/pro-s2?variant=47306877403360",
           "display_title": "Sqairz ProS2™",
           "variants": [
             {
@@ -250,12 +250,12 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-08T23:47:41.248Z",
-      "last_seen": "2026-08-29T15:05:49.413Z",
+      "last_seen": "2026-08-30T14:53:03.487Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
           "item_group_id": "8206704541920",
-          "url": "https://sqairz.com/products/speed-2?variant=47306873045216",
+          "url": "https://sqairz.com/products/speed-2?variant=47306872291552",
           "display_title": "Sqairz Speed2™",
           "variants": [
             {
@@ -311,12 +311,12 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-08T23:47:41.248Z",
-      "last_seen": "2026-08-29T15:05:49.413Z",
+      "last_seen": "2026-08-30T14:53:03.487Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
           "item_group_id": "7763604832480",
-          "url": "https://sqairz.com/products/speed-mesh?variant=44370434883808",
+          "url": "https://sqairz.com/products/speed-mesh?variant=44370435113184",
           "display_title": "Sqairz Speed™ Mesh",
           "variants": [
             {
@@ -348,6 +348,11 @@
               "gtin": "810032397470",
               "mpn": "39747",
               "feed_title": "SPEED™ Mesh Light Gray & Blue / 11.5 - SQAIRZ"
+            },
+            {
+              "gtin": "810032397494",
+              "mpn": "39749",
+              "feed_title": "SPEED™ Mesh Light Gray & Blue / 13 - SQAIRZ"
             }
           ]
         }
@@ -609,12 +614,12 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-15T10:40:28.587Z",
-      "last_seen": "2026-08-29T15:05:49.413Z",
+      "last_seen": "2026-08-30T14:53:03.487Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
           "item_group_id": "8038823133408",
-          "url": "https://sqairz.com/products/freedom™-ultra?variant=46794973642976",
+          "url": "https://sqairz.com/products/freedom™-ultra?variant=46798532116704",
           "display_title": "Sqairz Freedom™ Ultra",
           "variants": [
             {
@@ -635,12 +640,12 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-15T10:40:28.587Z",
-      "last_seen": "2026-08-29T15:05:49.413Z",
+      "last_seen": "2026-08-30T14:53:03.487Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
           "item_group_id": "8608562413792",
-          "url": "https://sqairz.com/products/the-patriot-womens-limited-edition?variant=45963716165856",
+          "url": "https://sqairz.com/products/the-patriot-womens-limited-edition?variant=45963716067552",
           "display_title": "Sqairz Patriot Limited Edition",
           "variants": [
             {
@@ -681,12 +686,12 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-15T10:40:28.587Z",
-      "last_seen": "2026-08-29T15:05:49.413Z",
+      "last_seen": "2026-08-30T14:53:03.487Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
           "item_group_id": "8608562217184",
-          "url": "https://sqairz.com/products/the-wave-mens-limited-edition?variant=45963714429152",
+          "url": "https://sqairz.com/products/the-wave-mens-limited-edition?variant=45963714330848",
           "display_title": "Sqairz Wave Limited Edition",
           "variants": [
             {
@@ -732,7 +737,7 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-15T10:40:28.587Z",
-      "last_seen": "2026-08-29T15:05:49.413Z",
+      "last_seen": "2026-08-30T14:53:03.487Z",
       "bindings": [
         {
           "retailer": "Cobra Golf",
@@ -813,7 +818,7 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-15T10:40:28.587Z",
-      "last_seen": "2026-08-29T15:05:49.413Z",
+      "last_seen": "2026-08-30T14:53:03.487Z",
       "bindings": [
         {
           "retailer": "Cobra Golf",
@@ -900,6 +905,11 @@
               "gtin": "887996178117",
               "mpn": "D8211RGR105E",
               "feed_title": "DARKSPEED X Driver | Right 10.5 / graphite regular / mca kai'li blue 60"
+            },
+            {
+              "gtin": "887996178063",
+              "mpn": "D8211RGA120F",
+              "feed_title": "DARKSPEED X Driver | Right 12.0 / graphite lite / project x hzrdus red cb 50"
             }
           ]
         }
