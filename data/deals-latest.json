@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-30T14:52:17.944Z",
- "date": "2026-08-30",
+ "generated_at": "2026-08-31T17:37:40.732Z",
+ "date": "2026-08-31",
  "sources": [
   {
    "retailer": "PlayBetter",
@@ -20,7 +20,7 @@
   {
    "retailer": "Top Shelf Golf",
    "status": "ok",
-   "on_sale_items": 13
+   "on_sale_items": 12
   }
  ],
  "candidates": [
@@ -155,6 +155,17 @@
    "pct_off": 52,
    "available": true,
    "url": "https://shopindoorgolf.com/products/flightscope-mevo-plus"
+  },
+  {
+   "retailer": "PlayBetter",
+   "title": "Polar Grit X Rugged Outdoor Watch",
+   "vendor": "Polar",
+   "type": "Outdoor GPS Watch",
+   "price": 229.98,
+   "compare_at": 459.95,
+   "pct_off": 50,
+   "available": true,
+   "url": "https://www.playbetter.com/products/polar-grit-x-rugged-outdoor-watch"
   },
   {
    "retailer": "PlayBetter",
@@ -463,6 +474,17 @@
    "pct_off": 43,
    "available": true,
    "url": "https://rainorshinegolf.com/products/pansonic-pt-vmz6st-8000-lumen-wuxga-short-throw-golf-simulator-projector"
+  },
+  {
+   "retailer": "Top Shelf Golf",
+   "title": "SkyTrak ST MAX Launch Monitor and Golf Simulator",
+   "vendor": "SkyTrak",
+   "type": "Golf Launch Monitor",
+   "price": 1695,
+   "compare_at": 2995,
+   "pct_off": 43,
+   "available": true,
+   "url": "https://www.topshelfgolf.com/products/skytrak-st-max-launch-monitor-and-golf-simulator"
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -903,17 +925,6 @@
    "pct_off": 33,
    "available": true,
    "url": "https://rainorshinegolf.com/products/golf-simulator-design-plans"
-  },
-  {
-   "retailer": "Top Shelf Golf",
-   "title": "SkyTrak ST MAX Launch Monitor and Golf Simulator",
-   "vendor": "SkyTrak",
-   "type": "Golf Launch Monitor",
-   "price": 1995,
-   "compare_at": 2995,
-   "pct_off": 33,
-   "available": true,
-   "url": "https://www.topshelfgolf.com/products/skytrak-st-max-launch-monitor-and-golf-simulator"
   },
   {
    "retailer": "PlayBetter",
@@ -3601,6 +3612,17 @@
   },
   {
    "retailer": "PlayBetter",
+   "title": "Garmin Venu X1 Premium GPS Smartwatch",
+   "vendor": "Garmin",
+   "type": "Fitness GPS Watch",
+   "price": 599.99,
+   "compare_at": 699.99,
+   "pct_off": 14,
+   "available": true,
+   "url": "https://www.playbetter.com/products/garmin-venu-x1-premium-gps-smartwatch"
+  },
+  {
+   "retailer": "PlayBetter",
    "title": "Foresight GC3 with LINK Golf Launch Monitor & Simulator",
    "vendor": "Foresight Sports",
    "type": "Golf Launch Monitor & Simulator",
@@ -4093,17 +4115,6 @@
    "pct_off": 13,
    "available": true,
    "url": "https://rainorshinegolf.com/products/foresight-sports-gc3-practice-package"
-  },
-  {
-   "retailer": "Top Shelf Golf",
-   "title": "Foresight Sports GC3S Launch Monitor & Golf Simulator",
-   "vendor": "Foresight Sports",
-   "type": "Golf Launch Monitor",
-   "price": 3299,
-   "compare_at": 3799,
-   "pct_off": 13,
-   "available": true,
-   "url": "https://www.topshelfgolf.com/products/foresight-sports-gc3s-launch-monitor-and-golf-simulator"
   },
   {
    "retailer": "Top Shelf Golf",
