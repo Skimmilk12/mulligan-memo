@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-01T14:54:54.306Z",
+  "generated_at": "2026-09-02T14:31:11.554Z",
   "products": [
     {
       "product_id": "prd_c8682e21-a1ee-4c80-a16e-7c544c11caf4",
@@ -11,7 +11,7 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-08T23:47:41.248Z",
-      "last_seen": "2026-09-01T14:54:54.306Z",
+      "last_seen": "2026-09-02T14:31:11.554Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
@@ -57,7 +57,7 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-08T23:47:41.248Z",
-      "last_seen": "2026-09-01T14:54:54.306Z",
+      "last_seen": "2026-09-02T14:31:11.554Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
@@ -118,7 +118,7 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-08T23:47:41.248Z",
-      "last_seen": "2026-09-01T14:54:54.306Z",
+      "last_seen": "2026-09-02T14:31:11.554Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
@@ -189,12 +189,12 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-08T23:47:41.248Z",
-      "last_seen": "2026-09-01T14:54:54.306Z",
+      "last_seen": "2026-09-02T14:31:11.554Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
           "item_group_id": "8206713618656",
-          "url": "https://sqairz.com/products/pro-s2?variant=47306876616928",
+          "url": "https://sqairz.com/products/pro-s2?variant=47306876977376",
           "display_title": "Sqairz ProS2™",
           "variants": [
             {
@@ -236,6 +236,11 @@
               "gtin": "810032398972",
               "mpn": "39897",
               "feed_title": "ProS2™ Black & White / 8 / Standard - SQAIRZ"
+            },
+            {
+              "gtin": "810032399085",
+              "mpn": "39908",
+              "feed_title": "ProS2™ Gray / 7 / Standard - SQAIRZ"
             }
           ]
         }
@@ -250,12 +255,12 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-08T23:47:41.248Z",
-      "last_seen": "2026-09-01T14:54:54.306Z",
+      "last_seen": "2026-09-02T14:31:11.554Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
           "item_group_id": "8206704541920",
-          "url": "https://sqairz.com/products/speed-2?variant=47306872291552",
+          "url": "https://sqairz.com/products/speed-2?variant=47306873897184",
           "display_title": "Sqairz Speed2™",
           "variants": [
             {
@@ -311,7 +316,7 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-08T23:47:41.248Z",
-      "last_seen": "2026-09-01T14:54:54.306Z",
+      "last_seen": "2026-09-02T14:31:11.554Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
@@ -614,7 +619,7 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-15T10:40:28.587Z",
-      "last_seen": "2026-09-01T14:54:54.306Z",
+      "last_seen": "2026-09-02T14:31:11.554Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
@@ -640,12 +645,12 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-15T10:40:28.587Z",
-      "last_seen": "2026-09-01T14:54:54.306Z",
+      "last_seen": "2026-09-02T14:31:11.554Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
           "item_group_id": "8608562413792",
-          "url": "https://sqairz.com/products/the-patriot-womens-limited-edition?variant=45963716165856",
+          "url": "https://sqairz.com/products/the-patriot-womens-limited-edition?variant=45963716133088",
           "display_title": "Sqairz Patriot Limited Edition",
           "variants": [
             {
@@ -672,6 +677,11 @@
               "gtin": "810032399566",
               "mpn": "39956",
               "feed_title": "Patriot Limited Edition White / 11 - SQAIRZ"
+            },
+            {
+              "gtin": "810032399528",
+              "mpn": "39952",
+              "feed_title": "Patriot Limited Edition White / 8.5 - SQAIRZ"
             }
           ]
         }
@@ -686,12 +696,12 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-15T10:40:28.587Z",
-      "last_seen": "2026-09-01T14:54:54.306Z",
+      "last_seen": "2026-09-02T14:31:11.554Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
           "item_group_id": "8608562217184",
-          "url": "https://sqairz.com/products/the-wave-mens-limited-edition?variant=45963714461920",
+          "url": "https://sqairz.com/products/the-wave-mens-limited-edition?variant=45963714625760",
           "display_title": "Sqairz Wave Limited Edition",
           "variants": [
             {
@@ -737,7 +747,7 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-15T10:40:28.587Z",
-      "last_seen": "2026-09-01T14:54:54.306Z",
+      "last_seen": "2026-09-02T14:31:11.554Z",
       "bindings": [
         {
           "retailer": "Cobra Golf",
@@ -1099,15 +1109,22 @@
     {
       "reason": "no_item_group_id",
       "retailer": "PlayBetter",
-      "title": "SkyTrak ST MAX Launch Monitor (Pre-Owned)",
-      "url": "https://www.playbetter.com/products/skytrak-st-max-certified-refurbished",
+      "title": "SkyTrak+ Launch Monitor with 1-Year Free Foresight Course…",
+      "url": "https://www.playbetter.com/products/skytrak-plus-golf-launch-monitor-simulator",
       "note": "source provides no advertiser-scoped product id; needs an approved feed or a manual binding"
     },
     {
       "reason": "no_item_group_id",
       "retailer": "PlayBetter",
-      "title": "PlayBetter SkyTrak+ Golf Launch Monitor Home Net Studio…",
-      "url": "https://www.playbetter.com/products/skytrak-golf-launch-monitor-with-the-net-return-pro-series-v2-golf-simulator-package-old",
+      "title": "Blue Tees Golf Playmaker+ GPS Golf Watch",
+      "url": "https://www.playbetter.com/products/blue-tees-golf-playmaker-gps-golf-watch",
+      "note": "source provides no advertiser-scoped product id; needs an approved feed or a manual binding"
+    },
+    {
+      "reason": "no_item_group_id",
+      "retailer": "PlayBetter",
+      "title": "SkyTrak ST MAX Launch Monitor (Pre-Owned)",
+      "url": "https://www.playbetter.com/products/skytrak-st-max-certified-refurbished",
       "note": "source provides no advertiser-scoped product id; needs an approved feed or a manual binding"
     }
   ]

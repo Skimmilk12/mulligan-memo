@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-01T14:54:07.075Z",
- "date": "2026-09-01",
+ "generated_at": "2026-09-02T14:30:04.655Z",
+ "date": "2026-09-02",
  "sources": [
   {
    "retailer": "PlayBetter",
    "status": "ok",
-   "on_sale_items": 258
+   "on_sale_items": 261
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -15,7 +15,7 @@
   {
    "retailer": "Rain or Shine Golf",
    "status": "ok",
-   "on_sale_items": 109
+   "on_sale_items": 104
   },
   {
    "retailer": "Top Shelf Golf",
@@ -166,17 +166,6 @@
    "pct_off": 50,
    "available": true,
    "url": "https://www.playbetter.com/products/blue-tees-golf-playmaker-gps-golf-watch"
-  },
-  {
-   "retailer": "PlayBetter",
-   "title": "Polar Grit X Rugged Outdoor Watch",
-   "vendor": "Polar",
-   "type": "Outdoor GPS Watch",
-   "price": 229.98,
-   "compare_at": 459.95,
-   "pct_off": 50,
-   "available": true,
-   "url": "https://www.playbetter.com/products/polar-grit-x-rugged-outdoor-watch"
   },
   {
    "retailer": "PlayBetter",
@@ -762,17 +751,6 @@
    "url": "https://rainorshinegolf.com/products/skytrak-plus-protective-case"
   },
   {
-   "retailer": "Rain or Shine Golf",
-   "title": "Optoma UHZ35ST 4K Short Throw Projector",
-   "vendor": "Optoma",
-   "type": "Golf Simulator Projector",
-   "price": 1449,
-   "compare_at": 2199,
-   "pct_off": 34,
-   "available": true,
-   "url": "https://rainorshinegolf.com/products/optoma-uhz35st-4k-short-throw-projector"
-  },
-  {
    "retailer": "PlayBetter",
    "title": "Rapsodo MLM2PRO Golf Launch Monitor & Simulator (Certified Pre-Owned)",
    "vendor": "Rapsodo",
@@ -804,6 +782,17 @@
    "pct_off": 33,
    "available": true,
    "url": "https://www.playbetter.com/products/uneekor-eye-mini-launch-monitor"
+  },
+  {
+   "retailer": "PlayBetter",
+   "title": "SkyCaddie LX2 Golf GPS Smartwatch",
+   "vendor": "SkyCaddie",
+   "type": "Golf GPS Watch",
+   "price": 99.95,
+   "compare_at": 149.95,
+   "pct_off": 33,
+   "available": true,
+   "url": "https://www.playbetter.com/products/skycaddie-lx2-golf-gps-smartwatch"
   },
   {
    "retailer": "PlayBetter",
@@ -1565,17 +1554,6 @@
    "url": "https://www.playbetter.com/products/skytrak-portable-hitting-net-golf-studio-package"
   },
   {
-   "retailer": "PlayBetter",
-   "title": "Garmin fenix 8 Multisport GPS Smartwatch",
-   "vendor": "Garmin",
-   "type": "Multisport GPS Watch",
-   "price": 849.99,
-   "compare_at": 1099.99,
-   "pct_off": 23,
-   "available": true,
-   "url": "https://www.playbetter.com/products/garmin-fenix-8"
-  },
-  {
    "retailer": "Shop Indoor Golf",
    "title": "108\" x 156\" Premium Screen (Clearance)",
    "vendor": "Shop Indoor Golf",
@@ -2259,6 +2237,17 @@
   },
   {
    "retailer": "Shop Indoor Golf",
+   "title": "Foresight Sports QuadMAX Launch Monitor",
+   "vendor": "Foresight Sports",
+   "type": "Launch Monitor",
+   "price": 15999,
+   "compare_at": 19999,
+   "pct_off": 20,
+   "available": true,
+   "url": "https://shopindoorgolf.com/products/foresight-sports-quadmax-launch-monitor"
+  },
+  {
+   "retailer": "Shop Indoor Golf",
    "title": "Optoma GT2000HDR Short Throw Golf Simulator Projector",
    "vendor": "Optoma",
    "type": "Projector",
@@ -2410,6 +2399,17 @@
    "pct_off": 20,
    "available": true,
    "url": "https://rainorshinegolf.com/products/benq-lh860st-golf-simulator-projector"
+  },
+  {
+   "retailer": "Rain or Shine Golf",
+   "title": "Foresight QuadMAX",
+   "vendor": "Foresight Sports",
+   "type": "Portable Launch Monitor",
+   "price": 15999,
+   "compare_at": 19999,
+   "pct_off": 20,
+   "available": true,
+   "url": "https://rainorshinegolf.com/products/foresight-sports-quadmax-launch-monitor"
   },
   {
    "retailer": "Top Shelf Golf",
@@ -3015,17 +3015,6 @@
    "pct_off": 17,
    "available": true,
    "url": "https://rainorshinegolf.com/products/garmin-r10-golf-launch-monitor"
-  },
-  {
-   "retailer": "Rain or Shine Golf",
-   "title": "Optoma GT2000HDR Short Throw HD Laser",
-   "vendor": "Optoma",
-   "type": "Golf Simulator Projector",
-   "price": 999,
-   "compare_at": 1199,
-   "pct_off": 17,
-   "available": true,
-   "url": "https://rainorshinegolf.com/products/optoma-gt2000hdr-short-throw-hd-laser-projector"
   },
   {
    "retailer": "Rain or Shine Golf",
@@ -3688,28 +3677,6 @@
    "url": "https://rainorshinegolf.com/products/flightscope-x3c-launch-monitor"
   },
   {
-   "retailer": "Rain or Shine Golf",
-   "title": "Optoma 4K400STx 4K Short Throw",
-   "vendor": "Optoma",
-   "type": "Golf Simulator Projector",
-   "price": 1949,
-   "compare_at": 2289,
-   "pct_off": 15,
-   "available": true,
-   "url": "https://rainorshinegolf.com/products/optoma-4k400stx-4k-short-throw-projector"
-  },
-  {
-   "retailer": "Rain or Shine Golf",
-   "title": "Optoma ZK608TST 4K UHD Projector",
-   "vendor": "Optoma",
-   "type": "Golf Simulator Projector",
-   "price": 5829,
-   "compare_at": 6859,
-   "pct_off": 15,
-   "available": true,
-   "url": "https://rainorshinegolf.com/products/optoma-zk608tst-4k-uhd-projector"
-  },
-  {
    "retailer": "PlayBetter",
    "title": "Square Golf Omni with PlayBetter SimStudio™ COMPLETE Package | Golf Simulator Studio with Impact Screen, Enclosure, Side Barriers, Hitting/Putting Mats & Projector",
    "vendor": "Square Golf",
@@ -3796,17 +3763,6 @@
    "pct_off": 14,
    "available": true,
    "url": "https://www.playbetter.com/products/coros-pace-pro-gps-sport-watch"
-  },
-  {
-   "retailer": "PlayBetter",
-   "title": "Garmin Edge 1050 Premium GPS Bike Computer",
-   "vendor": "Garmin",
-   "type": "GPS Bike Computer",
-   "price": 599.99,
-   "compare_at": 699.99,
-   "pct_off": 14,
-   "available": true,
-   "url": "https://www.playbetter.com/products/garmin-edge-1050-premium-gps-bike-computer"
   },
   {
    "retailer": "PlayBetter",
@@ -4327,6 +4283,17 @@
   },
   {
    "retailer": "PlayBetter",
+   "title": "Foresight Falcon Golf Overhead Launch Monitor",
+   "vendor": "Foresight Sports",
+   "type": "Golf Launch Monitor & Simulator",
+   "price": 14999,
+   "compare_at": 16999,
+   "pct_off": 12,
+   "available": true,
+   "url": "https://www.playbetter.com/products/foresight-falcon-golf-overhead-launch-monitor"
+  },
+  {
+   "retailer": "PlayBetter",
    "title": "Bushnell Pro X3+ LINK Golf Laser Rangefinder",
    "vendor": "Bushnell",
    "type": "Golf Rangefinder",
@@ -4368,17 +4335,6 @@
    "pct_off": 12,
    "available": true,
    "url": "https://shopindoorgolf.com/products/swing-caddie-sc300i-golf-net-practice-bundle"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
-   "title": "Foresight Sports QuadMAX Launch Monitor",
-   "vendor": "Foresight Sports",
-   "type": "Launch Monitor",
-   "price": 19999,
-   "compare_at": 22699,
-   "pct_off": 12,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/foresight-sports-quadmax-launch-monitor"
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -4954,6 +4910,28 @@
   },
   {
    "retailer": "PlayBetter",
+   "title": "Foresight Falcon with PlayBetter SimStudio™ OVERHEAD Premium Home Golf Studio Package with Carl's Place Curved Enclosure",
+   "vendor": "Foresight Sports",
+   "type": "Golf Simulator Studio Package",
+   "price": 20872.95,
+   "compare_at": 22872.95,
+   "pct_off": 9,
+   "available": true,
+   "url": "https://www.playbetter.com/products/foresight-falcon-overhead-launch-monitor-with-carls-place-curved-enclosure-home-golf-studio-package"
+  },
+  {
+   "retailer": "PlayBetter",
+   "title": "Foresight Falcon with PlayBetter SimStudio™ OVERHEAD Premium Home Golf Studio Package with Carl's Place Pro Enclosure",
+   "vendor": "Foresight Sports",
+   "type": "Golf Simulator Studio Package",
+   "price": 19090.95,
+   "compare_at": 21090.95,
+   "pct_off": 9,
+   "available": true,
+   "url": "https://www.playbetter.com/products/foresight-falcon-playbetter-simstudio-overhead-golf-simulator-studio-carls-place-pro"
+  },
+  {
+   "retailer": "PlayBetter",
    "title": "Garmin Approach R50 with PlayBetter SimStudio™ COMPLETE Package | Golf Simulator Studio with Impact Screen, Enclosure, Side Barriers, Hitting/Putting Mats, Projector & Wireless HDMI Transmitter",
    "vendor": "Garmin",
    "type": "Golf Simulator Studio Package",
@@ -5316,17 +5294,6 @@
    "url": "https://rainorshinegolf.com/products/benq-tk710sti"
   },
   {
-   "retailer": "Rain or Shine Golf",
-   "title": "Optoma GT2400HDR Laser Short Throw Projector",
-   "vendor": "Optoma",
-   "type": "Golf Simulator Projector",
-   "price": 1199,
-   "compare_at": 1299,
-   "pct_off": 8,
-   "available": true,
-   "url": "https://rainorshinegolf.com/products/optoma-gt2400hdr-laser-short-throw-projector"
-  },
-  {
    "retailer": "PlayBetter",
    "title": "TruGolf APOGEE with PlayBetter SimStudio™ OVERHEAD Premium Home Golf Studio Package with Carl's Place Curved Enclosure",
    "vendor": "TruGolf",
@@ -5369,17 +5336,6 @@
    "pct_off": 7,
    "available": true,
    "url": "https://shopindoorgolf.com/products/garmin-approach-r50-sig8-golf-simulator-package"
-  },
-  {
-   "retailer": "Rain or Shine Golf",
-   "title": "Optoma ZW350ST Short Throw Laser",
-   "vendor": "Optoma",
-   "type": "Golf Simulator Projector",
-   "price": 849,
-   "compare_at": 909,
-   "pct_off": 7,
-   "available": true,
-   "url": "https://rainorshinegolf.com/products/optoma-zw350st-short-throw-laser-projector"
   },
   {
    "retailer": "Rain or Shine Golf",
