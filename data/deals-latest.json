@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-09-02T14:30:04.655Z",
- "date": "2026-09-02",
+ "generated_at": "2026-09-03T14:35:08.242Z",
+ "date": "2026-09-03",
  "sources": [
   {
    "retailer": "PlayBetter",
@@ -10,7 +10,7 @@
   {
    "retailer": "Shop Indoor Golf",
    "status": "ok",
-   "on_sale_items": 304
+   "on_sale_items": 280
   },
   {
    "retailer": "Rain or Shine Golf",
@@ -69,28 +69,6 @@
    "url": "https://shopindoorgolf.com/products/sigpro-commercial-enclosure-2-pipe-frame-kit"
   },
   {
-   "retailer": "PlayBetter",
-   "title": "SkyTrak+ with PlayBetter SimStudio™ BYO (Build Your Own) Package – Custom Home Golf Simulator Studio Builder with Impact Screen, Enclosure, Optional Mats, Projector & 1-Year FREE Foresight Course Play",
-   "vendor": "SkyTrak",
-   "type": "Golf Simulator Studio Package",
-   "price": 1995,
-   "compare_at": 5845,
-   "pct_off": 66,
-   "available": true,
-   "url": "https://www.playbetter.com/products/skytrak-playbetter-simstudio-byo-home-golf-studio-package"
-  },
-  {
-   "retailer": "PlayBetter",
-   "title": "SkyTrak+ with PlayBetter SimStudio™ ESSENTIALS Package | Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Projector, Protective Case & 1-Year FREE Foresight Course Play",
-   "vendor": "SkyTrak",
-   "type": "Golf Simulator Studio Package",
-   "price": 2495,
-   "compare_at": 6345,
-   "pct_off": 61,
-   "available": true,
-   "url": "https://www.playbetter.com/products/skytrak-plus-with-playbetter-simstudio-essentials-package-golf-simulator-studio"
-  },
-  {
    "retailer": "Shop Indoor Golf",
    "title": "E6 Connect Home Software",
    "vendor": "E6",
@@ -100,6 +78,17 @@
    "pct_off": 60,
    "available": true,
    "url": "https://shopindoorgolf.com/products/e6-connect-home"
+  },
+  {
+   "retailer": "PlayBetter",
+   "title": "SkyTrak+ with PlayBetter SimStudio™ BYO (Build Your Own) Package – Custom Home Golf Simulator Studio Builder with Impact Screen, Enclosure, Optional Mats, Projector & 1-Year FREE Foresight Course Play",
+   "vendor": "SkyTrak",
+   "type": "Golf Simulator Studio Package",
+   "price": 2495,
+   "compare_at": 5845,
+   "pct_off": 57,
+   "available": true,
+   "url": "https://www.playbetter.com/products/skytrak-playbetter-simstudio-byo-home-golf-studio-package"
   },
   {
    "retailer": "PlayBetter",
@@ -133,6 +122,17 @@
    "pct_off": 56,
    "available": true,
    "url": "https://www.playbetter.com/products/playbetter-garage-simstudio-golficity-home-golf-simulator-package"
+  },
+  {
+   "retailer": "PlayBetter",
+   "title": "SkyTrak+ with PlayBetter SimStudio™ ESSENTIALS Package | Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Projector, Protective Case & 1-Year FREE Foresight Course Play",
+   "vendor": "SkyTrak",
+   "type": "Golf Simulator Studio Package",
+   "price": 2995,
+   "compare_at": 6345,
+   "pct_off": 53,
+   "available": true,
+   "url": "https://www.playbetter.com/products/skytrak-plus-with-playbetter-simstudio-essentials-package-golf-simulator-studio"
   },
   {
    "retailer": "PlayBetter",
@@ -245,39 +245,6 @@
    "url": "https://rainorshinegolf.com/products/panasonic-pt-vmz62u7-6500-lumen-wuxga-standard-throw-golf-simulator-projector"
   },
   {
-   "retailer": "Shop Indoor Golf",
-   "title": "84\" x 84\" Premium Screen (Clearance)",
-   "vendor": "Shop Indoor Golf",
-   "type": "Golf Simulator Screen",
-   "price": 233.99,
-   "compare_at": 459.99,
-   "pct_off": 49,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/84-x-84-premium-screen-clearance"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
-   "title": "91\" x 20\" Premium Screen (Clearance)",
-   "vendor": "Shop Indoor Golf",
-   "type": "Golf Simulator Screen",
-   "price": 233.99,
-   "compare_at": 459.99,
-   "pct_off": 49,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/91-x-20-premium-screen-clearance"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
-   "title": "91\" x 91\" Premium Screen (Clearance)",
-   "vendor": "Shop Indoor Golf",
-   "type": "Golf Simulator Screen",
-   "price": 233.99,
-   "compare_at": 459.99,
-   "pct_off": 49,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/91-x-91-premium-screen-clearance-copy-copy"
-  },
-  {
    "retailer": "Rain or Shine Golf",
    "title": "Panasonic PT-VMZ82U7 8000-Lumen WUXGA Standard-Throw",
    "vendor": "Panasonic",
@@ -311,17 +278,6 @@
    "url": "https://www.playbetter.com/products/skytrak-st-max-certified-refurbished"
   },
   {
-   "retailer": "Shop Indoor Golf",
-   "title": "94\" x 94\" Premium Screen (Clearance)",
-   "vendor": "Shop Indoor Golf",
-   "type": "Golf Simulator Screen",
-   "price": 242.99,
-   "compare_at": 459.99,
-   "pct_off": 47,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/94-x-94-premium-screen-clearance-copy"
-  },
-  {
    "retailer": "PlayBetter",
    "title": "SkyTrak+ Golf Launch Monitor Home Net Studio with The Net Return Premium Hitting Net Package & 1-Year FREE Foresight Course Play",
    "vendor": "PlayBetter",
@@ -331,17 +287,6 @@
    "pct_off": 45,
    "available": true,
    "url": "https://www.playbetter.com/products/skytrak-golf-launch-monitor-with-the-net-return-pro-series-v2-golf-simulator-package-old"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
-   "title": "119 1/4\" x 90 1/2\" Premium Screen (Clearance)",
-   "vendor": "Shop Indoor Golf",
-   "type": "Golf Simulator Screen",
-   "price": 250.99,
-   "compare_at": 459.99,
-   "pct_off": 45,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/119-1-4-x-90-1-2-premium-screen-clearance"
   },
   {
    "retailer": "Rain or Shine Golf",
@@ -576,17 +521,6 @@
   },
   {
    "retailer": "Shop Indoor Golf",
-   "title": "114\" x 114\" Premium Screen (Clearance)",
-   "vendor": "Shop Indoor Golf",
-   "type": "Golf Simulator Screen",
-   "price": 278.99,
-   "compare_at": 459.99,
-   "pct_off": 39,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/114-x-114-premium-screen-clearance-1"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
    "title": "Trackman iO Commercial Golf Simulator Package",
    "vendor": "Trackman",
    "type": "Golf Simulator",
@@ -650,39 +584,6 @@
    "pct_off": 37,
    "available": true,
    "url": "https://rainorshinegolf.com/products/panasonic-pt-vmz7stu7-7000-lumen-wuxga-short-throw-golf-simulator-projector"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
-   "title": "120\" x 120\" Premium Screen (Clearance)",
-   "vendor": "Shop Indoor Golf",
-   "type": "Golf Simulator Screen",
-   "price": 293.99,
-   "compare_at": 459.99,
-   "pct_off": 36,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/120-x-120-premium-screen-clearance-2"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
-   "title": "119\" x 119 1/2\" Premium Screen (Clearance)",
-   "vendor": "Shop Indoor Golf",
-   "type": "Golf Simulator Screen",
-   "price": 293.99,
-   "compare_at": 459.99,
-   "pct_off": 36,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/119-x-119-1-2-premium-screen-clearance"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
-   "title": "210\" x 120\" Premium Screen (Clearance)",
-   "vendor": "Shop Indoor Golf",
-   "type": "Golf Simulator Screen",
-   "price": 293.99,
-   "compare_at": 459.99,
-   "pct_off": 36,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/210-x-120-premium-screen-clearance-copy-copy"
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -782,17 +683,6 @@
    "pct_off": 33,
    "available": true,
    "url": "https://www.playbetter.com/products/uneekor-eye-mini-launch-monitor"
-  },
-  {
-   "retailer": "PlayBetter",
-   "title": "SkyCaddie LX2 Golf GPS Smartwatch",
-   "vendor": "SkyCaddie",
-   "type": "Golf GPS Watch",
-   "price": 99.95,
-   "compare_at": 149.95,
-   "pct_off": 33,
-   "available": true,
-   "url": "https://www.playbetter.com/products/skycaddie-lx2-golf-gps-smartwatch"
   },
   {
    "retailer": "PlayBetter",
@@ -1101,28 +991,6 @@
    "pct_off": 29,
    "available": true,
    "url": "https://www.playbetter.com/products/uneekor-eye-mini-golf-launch-monitor-simulator-home-net-studio"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
-   "title": "90 1/2\" x 145 1/4\" Premium Screen (Clearance)",
-   "vendor": "Shop Indoor Golf",
-   "type": "Golf Simulator Screen",
-   "price": 325.99,
-   "compare_at": 459.99,
-   "pct_off": 29,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/90-1-2-x-145-1-4-premium-screen-clearance-copy"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
-   "title": "91\" x 144\" Premium Screen (Clearance)",
-   "vendor": "Shop Indoor Golf",
-   "type": "Golf Simulator Screen",
-   "price": 325.99,
-   "compare_at": 459.99,
-   "pct_off": 29,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/91-x-144-premium-screen-clearance-copy"
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -1552,39 +1420,6 @@
    "pct_off": 23,
    "available": true,
    "url": "https://www.playbetter.com/products/skytrak-portable-hitting-net-golf-studio-package"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
-   "title": "108\" x 156\" Premium Screen (Clearance)",
-   "vendor": "Shop Indoor Golf",
-   "type": "Golf Simulator Screen",
-   "price": 352.99,
-   "compare_at": 459.99,
-   "pct_off": 23,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/108-x-156-premium-screen-clearance"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
-   "title": "113 1/2\" x 149 1/4\" Premium Screen (Clearance)",
-   "vendor": "Shop Indoor Golf",
-   "type": "Golf Simulator Screen",
-   "price": 352.99,
-   "compare_at": 459.99,
-   "pct_off": 23,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/113-1-2-x-119-1-4-premium-screen-clearance"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
-   "title": "114\" x 150\" Premium Screen (Clearance)",
-   "vendor": "Shop Indoor Golf",
-   "type": "Golf Simulator Screen",
-   "price": 352.99,
-   "compare_at": 459.99,
-   "pct_off": 23,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/114-x-150-premium-screen-clearance-1"
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -2201,17 +2036,6 @@
    "pct_off": 20,
    "available": true,
    "url": "https://www.playbetter.com/products/skycaddie-lx5-golf-gps-smartwatch"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
-   "title": "119 1/4\" x 158\" Premium Screen (Clearance)",
-   "vendor": "Shop Indoor Golf",
-   "type": "Golf Simulator Screen",
-   "price": 365.99,
-   "compare_at": 459.99,
-   "pct_off": 20,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/119-1-4-x-158-premium-screen-clearance"
   },
   {
    "retailer": "Shop Indoor Golf",
