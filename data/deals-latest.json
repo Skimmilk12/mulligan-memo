@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-03T14:35:08.242Z",
- "date": "2026-09-03",
+ "generated_at": "2026-09-04T14:22:25.903Z",
+ "date": "2026-09-04",
  "sources": [
   {
    "retailer": "PlayBetter",
    "status": "ok",
-   "on_sale_items": 261
+   "on_sale_items": 260
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -520,6 +520,17 @@
    "url": "https://shopindoorgolf.com/products/flightscope-mevo-pro-package"
   },
   {
+   "retailer": "PlayBetter",
+   "title": "SkyTrak ST MAX Golf Launch Monitor Home Net Studio with The Net Return Premium Hitting Net Package",
+   "vendor": "PlayBetter",
+   "type": "Golf Simulator Net Package",
+   "price": 2390,
+   "compare_at": 3940,
+   "pct_off": 39,
+   "available": true,
+   "url": "https://www.playbetter.com/products/skytrak-st-max-golf-launch-monitor-with-the-net-return-premium-hitting-net-package"
+  },
+  {
    "retailer": "Shop Indoor Golf",
    "title": "Trackman iO Commercial Golf Simulator Package",
    "vendor": "Trackman",
@@ -595,17 +606,6 @@
    "pct_off": 36,
    "available": true,
    "url": "https://shopindoorgolf.com/products/skytrak-max-net-practice-bundle"
-  },
-  {
-   "retailer": "PlayBetter",
-   "title": "SkyTrak ST MAX Golf Launch Monitor Home Net Studio with The Net Return Premium Hitting Net Package",
-   "vendor": "PlayBetter",
-   "type": "Golf Simulator Net Package",
-   "price": 2390,
-   "compare_at": 3690,
-   "pct_off": 35,
-   "available": true,
-   "url": "https://www.playbetter.com/products/skytrak-st-max-golf-launch-monitor-with-the-net-return-premium-hitting-net-package"
   },
   {
    "retailer": "Rain or Shine Golf",
@@ -1280,17 +1280,6 @@
   },
   {
    "retailer": "PlayBetter",
-   "title": "Foresight GC3 (Certified Pre-Owned) with PlayBetter SimStudio™ COMPLETE Package with PlayBetter SimStudio™ COMPLETE Package | Golf Simulator Studio with Impact Screen, Enclosure, Side Barriers, Hitting/Putting Mats, Projector & Protective Case",
-   "vendor": "Foresight Sports",
-   "type": "Golf Simulator Studio Package",
-   "price": 8494.99,
-   "compare_at": 11124,
-   "pct_off": 24,
-   "available": true,
-   "url": "https://www.playbetter.com/products/foresight-gc3-certified-pre-owned-with-playbetter-simstudio-complete-package"
-  },
-  {
-   "retailer": "PlayBetter",
    "title": "Garmin Approach R10 with PlayBetter SimStudio™ BYO (Build Your Own) Package – Custom Home Golf Simulator Studio Builder with Impact Screen, Enclosure, Optional Mats, Projector & More",
    "vendor": "Garmin",
    "type": "Golf Simulator Studio Package",
@@ -1343,17 +1332,6 @@
    "pct_off": 23,
    "available": true,
    "url": "https://www.playbetter.com/products/skytrak-sportscreen-vanish-lite-semi-retractable-golf-studio-complete-package"
-  },
-  {
-   "retailer": "PlayBetter",
-   "title": "SkyTrak Essential Membership",
-   "vendor": "SkyTrak",
-   "type": "Golf Launch Monitor Software",
-   "price": 99.99,
-   "compare_at": 129.99,
-   "pct_off": 23,
-   "available": true,
-   "url": "https://www.playbetter.com/products/skytrak-essential-membership"
   },
   {
    "retailer": "PlayBetter",
@@ -1742,6 +1720,17 @@
   },
   {
    "retailer": "PlayBetter",
+   "title": "SkyTrak ST MAX SportScreen Vanish LITE Hybrid-Retractable Golf Studio Complete Package | Home Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Putting Turf & Projector",
+   "vendor": "SportScreen",
+   "type": "Retractable Golf Simulator Studio Package",
+   "price": 6094.97,
+   "compare_at": 7743.97,
+   "pct_off": 21,
+   "available": true,
+   "url": "https://www.playbetter.com/products/skytrak-st-max-sportscreen-vanish-lite-semi-retractable-golf-studio-complete-package"
+  },
+  {
+   "retailer": "PlayBetter",
    "title": "Foresight QuadMAX with PlayBetter SimStudio™ BYO (Build Your Own) Package – Custom Home Golf Simulator Studio Builder with Impact Screen, Enclosure, Optional Mats, Projector & More",
    "vendor": "Foresight Sports",
    "type": "Golf Simulator Studio Package",
@@ -1915,6 +1904,17 @@
    "pct_off": 20,
    "available": true,
    "url": "https://www.playbetter.com/products/foresight-quadmax-golf-launch-monitor-studio-package-playbetter-simstudio-with-impact-screen-enclosure-side-barriers-hitting-putting-mats-projector"
+  },
+  {
+   "retailer": "PlayBetter",
+   "title": "SkyTrak ST MAX SportScreen Vanish Retractable Golf Studio Complete Package | Home Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Putting Turf & Projector",
+   "vendor": "SportScreen",
+   "type": "Retractable Golf Simulator Studio Package",
+   "price": 6794.97,
+   "compare_at": 8443.97,
+   "pct_off": 20,
+   "available": true,
+   "url": "https://www.playbetter.com/products/skytrak-st-max-sportscreen-vanish-retractable-golf-studio-complete-package"
   },
   {
    "retailer": "PlayBetter",
@@ -2270,17 +2270,6 @@
   },
   {
    "retailer": "PlayBetter",
-   "title": "SkyTrak ST MAX SportScreen Vanish LITE Hybrid-Retractable Golf Studio Complete Package | Home Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Putting Turf & Projector",
-   "vendor": "SportScreen",
-   "type": "Retractable Golf Simulator Studio Package",
-   "price": 6094.97,
-   "compare_at": 7493.97,
-   "pct_off": 19,
-   "available": true,
-   "url": "https://www.playbetter.com/products/skytrak-st-max-sportscreen-vanish-lite-semi-retractable-golf-studio-complete-package"
-  },
-  {
-   "retailer": "PlayBetter",
    "title": "Bushnell Launch Pro Circle B with PlayBetter SimStudio™ COMPLETE Package | Golf Simulator Studio with Impact Screen, Enclosure, Side Barriers, Hitting/Putting Mats, Projector & Protective Case",
    "vendor": "Bushnell",
    "type": "Golf Simulator Studio Package",
@@ -2600,17 +2589,6 @@
   },
   {
    "retailer": "PlayBetter",
-   "title": "Blue Tees Captain Pro Golf Rangefinder",
-   "vendor": "Blue Tees Golf",
-   "type": "Golf Rangefinder",
-   "price": 249,
-   "compare_at": 299,
-   "pct_off": 17,
-   "available": true,
-   "url": "https://www.playbetter.com/products/blue-tees-captain-pro-golf-rangefinder"
-  },
-  {
-   "retailer": "PlayBetter",
    "title": "Blue Tees Golf Rainmaker Portable Golf Launch Monitor & Simulator",
    "vendor": "Blue Tees Golf",
    "type": "Golf Launch Monitor & Simulator",
@@ -2619,17 +2597,6 @@
    "pct_off": 17,
    "available": true,
    "url": "https://www.playbetter.com/products/blue-tees-golf-rainmaker-golf-launch-monitor"
-  },
-  {
-   "retailer": "PlayBetter",
-   "title": "SkyTrak ST MAX SportScreen Vanish Retractable Golf Studio Complete Package | Home Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Putting Turf & Projector",
-   "vendor": "SportScreen",
-   "type": "Retractable Golf Simulator Studio Package",
-   "price": 6794.97,
-   "compare_at": 8193.97,
-   "pct_off": 17,
-   "available": true,
-   "url": "https://www.playbetter.com/products/skytrak-st-max-sportscreen-vanish-retractable-golf-studio-complete-package"
   },
   {
    "retailer": "PlayBetter",
@@ -4415,6 +4382,28 @@
   },
   {
    "retailer": "PlayBetter",
+   "title": "Garmin Approach R50 (Certified Pre-Owned) with PlayBetter SimStudio™ COMPLETE Package | Golf Simulator Studio with Impact Screen, Enclosure, Side Barriers, Hitting/Putting Mats, Projector & Wireless HDMI Transmitter",
+   "vendor": "Garmin",
+   "type": "Golf Simulator Studio Package",
+   "price": 7594.99,
+   "compare_at": 8394.99,
+   "pct_off": 10,
+   "available": true,
+   "url": "https://www.playbetter.com/products/garmin-approach-r50-certified-refurbished-playbetter-simstudio-complete-package"
+  },
+  {
+   "retailer": "PlayBetter",
+   "title": "Foresight GC3 (Certified Pre-Owned) with PlayBetter SimStudio™ COMPLETE Package with PlayBetter SimStudio™ COMPLETE Package | Golf Simulator Studio with Impact Screen, Enclosure, Side Barriers, Hitting/Putting Mats, Projector & Protective Case",
+   "vendor": "Foresight Sports",
+   "type": "Golf Simulator Studio Package",
+   "price": 8194,
+   "compare_at": 9124,
+   "pct_off": 10,
+   "available": true,
+   "url": "https://www.playbetter.com/products/foresight-gc3-certified-pre-owned-with-playbetter-simstudio-complete-package"
+  },
+  {
+   "retailer": "PlayBetter",
    "title": "Uneekor EYE XO2 SportScreen Vanish LITE Hybrid-Retractable Golf Studio Complete Package | Home Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Putting Turf & Projector",
    "vendor": "SportScreen",
    "type": "Retractable Golf Simulator Studio Package",
@@ -5182,17 +5171,6 @@
    "pct_off": 7,
    "available": true,
    "url": "https://rainorshinegolf.com/products/square-golf-launch-monitor-retractable-package"
-  },
-  {
-   "retailer": "PlayBetter",
-   "title": "Garmin Approach R50 (Certified Pre-Owned) with PlayBetter SimStudio™ COMPLETE Package | Golf Simulator Studio with Impact Screen, Enclosure, Side Barriers, Hitting/Putting Mats, Projector & Wireless HDMI Transmitter",
-   "vendor": "Garmin",
-   "type": "Golf Simulator Studio Package",
-   "price": 7894.99,
-   "compare_at": 8394.99,
-   "pct_off": 6,
-   "available": true,
-   "url": "https://www.playbetter.com/products/garmin-approach-r50-certified-refurbished-playbetter-simstudio-complete-package"
   },
   {
    "retailer": "PlayBetter",
