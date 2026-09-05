@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-09-04T14:22:25.903Z",
- "date": "2026-09-04",
+ "generated_at": "2026-09-05T13:27:25.332Z",
+ "date": "2026-09-05",
  "sources": [
   {
    "retailer": "PlayBetter",
    "status": "ok",
-   "on_sale_items": 260
+   "on_sale_items": 263
   },
   {
    "retailer": "Shop Indoor Golf",
    "status": "ok",
-   "on_sale_items": 280
+   "on_sale_items": 279
   },
   {
    "retailer": "Rain or Shine Golf",
@@ -20,7 +20,7 @@
   {
    "retailer": "Top Shelf Golf",
    "status": "ok",
-   "on_sale_items": 12
+   "on_sale_items": 13
   }
  ],
  "candidates": [
@@ -166,6 +166,17 @@
    "pct_off": 50,
    "available": true,
    "url": "https://www.playbetter.com/products/blue-tees-golf-playmaker-gps-golf-watch"
+  },
+  {
+   "retailer": "PlayBetter",
+   "title": "Polar Grit X Rugged Outdoor Watch",
+   "vendor": "Polar",
+   "type": "Outdoor GPS Watch",
+   "price": 229.98,
+   "compare_at": 459.95,
+   "pct_off": 50,
+   "available": true,
+   "url": "https://www.playbetter.com/products/polar-grit-x-rugged-outdoor-watch"
   },
   {
    "retailer": "PlayBetter",
@@ -411,6 +422,17 @@
   },
   {
    "retailer": "Rain or Shine Golf",
+   "title": "FlightScope Software Add-On",
+   "vendor": "FlightScope",
+   "type": "Golf Simulator Software",
+   "price": 850,
+   "compare_at": 1499,
+   "pct_off": 43,
+   "available": true,
+   "url": "https://rainorshinegolf.com/products/mevo-golf-simulation-software-add-on"
+  },
+  {
+   "retailer": "Rain or Shine Golf",
    "title": "Panasonic PT-VMZ6STU7 6200-Lumen WUXGA Short-Throw",
    "vendor": "Panasonic",
    "type": "Golf Simulator Projector",
@@ -620,17 +642,6 @@
   },
   {
    "retailer": "Rain or Shine Golf",
-   "title": "FlightScope Software Add-On",
-   "vendor": "FlightScope",
-   "type": "Golf Simulator Software",
-   "price": 975,
-   "compare_at": 1499,
-   "pct_off": 35,
-   "available": true,
-   "url": "https://rainorshinegolf.com/products/mevo-golf-simulation-software-add-on"
-  },
-  {
-   "retailer": "Rain or Shine Golf",
    "title": "Uneekor EYE MINI Lite SwingBay",
    "vendor": "Uneekor",
    "type": "Golf Simulator Package",
@@ -738,17 +749,6 @@
    "pct_off": 33,
    "available": true,
    "url": "https://shopindoorgolf.com/products/rapsodo-mobile-launch-monitor-mlm"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
-   "title": "3Bays Zone Golf Swing Analyzer",
-   "vendor": "3Bays GSA",
-   "type": "Accessory",
-   "price": 199,
-   "compare_at": 299,
-   "pct_off": 33,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/3bays-zone-golf-swing-analyzer"
   },
   {
    "retailer": "Rain or Shine Golf",
@@ -1203,6 +1203,17 @@
   },
   {
    "retailer": "PlayBetter",
+   "title": "Nikon COOLSHOT 20 GIII / COOLSHOT 20i GIII Golf Laser Rangefinder",
+   "vendor": "Nikon",
+   "type": "Golf Rangefinder",
+   "price": 149.95,
+   "compare_at": 199.95,
+   "pct_off": 25,
+   "available": true,
+   "url": "https://www.playbetter.com/products/nikon-coolshot-20-giii-coolshot-20i-giii-golf-laser-rangefinder"
+  },
+  {
+   "retailer": "PlayBetter",
    "title": "Blue Tees Golf Rainmaker with PlayBetter SimStudio™ BYO (Build Your Own) Package – Custom Home Golf Simulator Studio Builder with Impact Screen, Enclosure, Optional Mats, Projector & More",
    "vendor": "Blue Tees Golf",
    "type": "Golf Simulator Studio Package",
@@ -1255,6 +1266,17 @@
    "pct_off": 25,
    "available": true,
    "url": "https://www.playbetter.com/products/uneekor-eye-mini-lite-home-golf-simulator-playbetter-simstudio-essentials-studio-package"
+  },
+  {
+   "retailer": "PlayBetter",
+   "title": "Nikon COOLSHOT PROIII STABILIZED Golf Laser Rangefinder",
+   "vendor": "Nikon",
+   "type": "Golf Rangefinder",
+   "price": 399.95,
+   "compare_at": 529.95,
+   "pct_off": 25,
+   "available": true,
+   "url": "https://www.playbetter.com/products/nikon-coolshot-proiii-stabilized-golf-laser-rangefinder"
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -1321,6 +1343,17 @@
    "pct_off": 24,
    "available": true,
    "url": "https://rainorshinegolf.com/products/full-swing-kit-swingbay-golf-simulator-package"
+  },
+  {
+   "retailer": "Top Shelf Golf",
+   "title": "NAVEE Birdie 3 Remote / 3X Follow Golf Caddy",
+   "vendor": "NAVEE",
+   "type": "Electric Golf Caddy",
+   "price": 1298.99,
+   "compare_at": 1699.99,
+   "pct_off": 24,
+   "available": true,
+   "url": "https://www.topshelfgolf.com/products/navee-birdie-3-3x-follow-remote-electric-lithium-golf-caddy"
   },
   {
    "retailer": "PlayBetter",
@@ -1863,6 +1896,17 @@
   },
   {
    "retailer": "PlayBetter",
+   "title": "Arccos Smart Laser Golf Rangefinder",
+   "vendor": "Arccos Golf",
+   "type": "Golf Rangefinder",
+   "price": 239.99,
+   "compare_at": 299.99,
+   "pct_off": 20,
+   "available": true,
+   "url": "https://www.playbetter.com/products/arccos-smart-laser-golf-rangefinder"
+  },
+  {
+   "retailer": "PlayBetter",
    "title": "Blue Tees Golf Rainmaker with PlayBetter SimStudio™ COMPLETE Package | Golf Simulator Studio with Impact Screen, Enclosure, Side Barriers, Hitting/Putting Mats & Projector",
    "vendor": "Blue Tees Golf",
    "type": "Golf Simulator Studio Package",
@@ -2025,17 +2069,6 @@
    "pct_off": 20,
    "available": true,
    "url": "https://www.playbetter.com/products/foresight-quadmax-golf-launch-monitor-simulator"
-  },
-  {
-   "retailer": "PlayBetter",
-   "title": "SkyCaddie LX5 / LX5C Golf GPS Smartwatch",
-   "vendor": "SkyCaddie",
-   "type": "Golf GPS Watch",
-   "price": 199.95,
-   "compare_at": 249.95,
-   "pct_off": 20,
-   "available": true,
-   "url": "https://www.playbetter.com/products/skycaddie-lx5-golf-gps-smartwatch"
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -2633,6 +2666,17 @@
   },
   {
    "retailer": "PlayBetter",
+   "title": "Nikon COOLSHOT 50i GII Golf Laser Rangefinder",
+   "vendor": "Nikon",
+   "type": "Golf Rangefinder",
+   "price": 249.95,
+   "compare_at": 299.95,
+   "pct_off": 17,
+   "available": true,
+   "url": "https://www.playbetter.com/products/nikon-coolshot-50i-gii-golf-laser-rangefinder"
+  },
+  {
+   "retailer": "PlayBetter",
    "title": "Square Golf with PlayBetter SimStudio™ COMPLETE Package | Golf Simulator Studio with Impact Screen, Enclosure, Side Barriers, Hitting/Putting Mats, & Projector",
    "vendor": "Square Golf",
    "type": "Golf Simulator Studio Package",
@@ -2883,17 +2927,6 @@
    "pct_off": 16,
    "available": true,
    "url": "https://www.playbetter.com/products/uneekor-eye-mini-sportscreen-vanish-retractable-golf-studio-complete-package"
-  },
-  {
-   "retailer": "PlayBetter",
-   "title": "Shot Scope V5 Golf GPS Watch",
-   "vendor": "Shot Scope",
-   "type": "Golf GPS Watch",
-   "price": 209.99,
-   "compare_at": 249.99,
-   "pct_off": 16,
-   "available": true,
-   "url": "https://www.playbetter.com/products/shot-scope-v5-golf-gps-watch"
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -5358,17 +5391,6 @@
    "pct_off": 5,
    "available": true,
    "url": "https://www.playbetter.com/products/full-swing-kit-golf-launch-monitor-simulator-open-box"
-  },
-  {
-   "retailer": "PlayBetter",
-   "title": "Foresight QuadMAX Golf Launch Monitor & Simulator (Open Box)",
-   "vendor": "Foresight Sports",
-   "type": "Golf Launch Monitor & Simulator",
-   "price": 21374,
-   "compare_at": 22499,
-   "pct_off": 5,
-   "available": true,
-   "url": "https://www.playbetter.com/products/foresight-quadmax-golf-launch-monitor-simulator-open-box"
   },
   {
    "retailer": "PlayBetter",

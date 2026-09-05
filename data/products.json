@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-04T14:23:13.693Z",
+  "generated_at": "2026-09-05T13:28:25.756Z",
   "products": [
     {
       "product_id": "prd_c8682e21-a1ee-4c80-a16e-7c544c11caf4",
@@ -11,12 +11,12 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-08T23:47:41.248Z",
-      "last_seen": "2026-09-04T14:23:13.693Z",
+      "last_seen": "2026-09-05T13:28:25.756Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
           "item_group_id": "8102626951392",
-          "url": "https://sqairz.com/products/freedom-micro?variant=46639213969632",
+          "url": "https://sqairz.com/products/freedom-micro?variant=46639214067936",
           "display_title": "Sqairz Freedom™ Micro",
           "variants": [
             {
@@ -62,12 +62,12 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-08T23:47:41.248Z",
-      "last_seen": "2026-09-04T14:23:13.693Z",
+      "last_seen": "2026-09-05T13:28:25.756Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
           "item_group_id": "8206716535008",
-          "url": "https://sqairz.com/products/velo?variant=44537242157280",
+          "url": "https://sqairz.com/products/velo?variant=44537241960672",
           "display_title": "Sqairz Velo™",
           "variants": [
             {
@@ -123,7 +123,7 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-08T23:47:41.248Z",
-      "last_seen": "2026-09-04T14:23:13.693Z",
+      "last_seen": "2026-09-05T13:28:25.756Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
@@ -194,7 +194,7 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-08T23:47:41.248Z",
-      "last_seen": "2026-09-04T14:23:13.693Z",
+      "last_seen": "2026-09-05T13:28:25.756Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
@@ -260,12 +260,12 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-08T23:47:41.248Z",
-      "last_seen": "2026-09-04T14:23:13.693Z",
+      "last_seen": "2026-09-05T13:28:25.756Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
           "item_group_id": "8206704541920",
-          "url": "https://sqairz.com/products/speed-2?variant=47306874290400",
+          "url": "https://sqairz.com/products/speed-2?variant=47306872291552",
           "display_title": "Sqairz Speed2™",
           "variants": [
             {
@@ -321,12 +321,12 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-08T23:47:41.248Z",
-      "last_seen": "2026-09-04T14:23:13.693Z",
+      "last_seen": "2026-09-05T13:28:25.756Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
           "item_group_id": "7763604832480",
-          "url": "https://sqairz.com/products/speed-mesh?variant=44370434883808",
+          "url": "https://sqairz.com/products/speed-mesh?variant=43150732624096",
           "display_title": "Sqairz Speed™ Mesh",
           "variants": [
             {
@@ -368,6 +368,11 @@
               "gtin": "810032393083",
               "mpn": "93083",
               "feed_title": "SPEED™ Mesh White & Navy / 7.5 - SQAIRZ"
+            },
+            {
+              "gtin": "810032393120",
+              "mpn": "93120",
+              "feed_title": "SPEED™ Mesh White & Navy / 9.5 - SQAIRZ"
             }
           ]
         }
@@ -629,12 +634,12 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-15T10:40:28.587Z",
-      "last_seen": "2026-09-04T14:23:13.693Z",
+      "last_seen": "2026-09-05T13:28:25.756Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
           "item_group_id": "8038823133408",
-          "url": "https://sqairz.com/products/freedom™-ultra?variant=46798532083936",
+          "url": "https://sqairz.com/products/freedom™-ultra?variant=46798532116704",
           "display_title": "Sqairz Freedom™ Ultra",
           "variants": [
             {
@@ -655,12 +660,12 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-15T10:40:28.587Z",
-      "last_seen": "2026-09-04T14:23:13.693Z",
+      "last_seen": "2026-09-05T13:28:25.756Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
           "item_group_id": "8608562413792",
-          "url": "https://sqairz.com/products/the-patriot-womens-limited-edition?variant=45963716133088",
+          "url": "https://sqairz.com/products/the-patriot-womens-limited-edition?variant=45963716067552",
           "display_title": "Sqairz Patriot Limited Edition",
           "variants": [
             {
@@ -706,12 +711,12 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-15T10:40:28.587Z",
-      "last_seen": "2026-09-04T14:23:13.693Z",
+      "last_seen": "2026-09-05T13:28:25.756Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
           "item_group_id": "8608562217184",
-          "url": "https://sqairz.com/products/the-wave-mens-limited-edition?variant=45963714396384",
+          "url": "https://sqairz.com/products/the-wave-mens-limited-edition?variant=45963714330848",
           "display_title": "Sqairz Wave Limited Edition",
           "variants": [
             {
@@ -1128,6 +1133,13 @@
       "retailer": "PlayBetter",
       "title": "SkyTrak+ Launch Monitor with 1-Year Free Foresight Course…",
       "url": "https://www.playbetter.com/products/skytrak-plus-golf-launch-monitor-simulator",
+      "note": "source provides no advertiser-scoped product id; needs an approved feed or a manual binding"
+    },
+    {
+      "reason": "no_item_group_id",
+      "retailer": "PlayBetter",
+      "title": "Blue Tees Golf Playmaker+ GPS Golf Watch",
+      "url": "https://www.playbetter.com/products/blue-tees-golf-playmaker-gps-golf-watch",
       "note": "source provides no advertiser-scoped product id; needs an approved feed or a manual binding"
     },
     {
