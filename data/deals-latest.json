@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-09-05T13:27:25.332Z",
- "date": "2026-09-05",
+ "generated_at": "2026-09-06T13:40:47.811Z",
+ "date": "2026-09-06",
  "sources": [
   {
    "retailer": "PlayBetter",
@@ -166,17 +166,6 @@
    "pct_off": 50,
    "available": true,
    "url": "https://www.playbetter.com/products/blue-tees-golf-playmaker-gps-golf-watch"
-  },
-  {
-   "retailer": "PlayBetter",
-   "title": "Polar Grit X Rugged Outdoor Watch",
-   "vendor": "Polar",
-   "type": "Outdoor GPS Watch",
-   "price": 229.98,
-   "compare_at": 459.95,
-   "pct_off": 50,
-   "available": true,
-   "url": "https://www.playbetter.com/products/polar-grit-x-rugged-outdoor-watch"
   },
   {
    "retailer": "PlayBetter",
@@ -1433,6 +1422,17 @@
    "url": "https://www.playbetter.com/products/skytrak-portable-hitting-net-golf-studio-package"
   },
   {
+   "retailer": "PlayBetter",
+   "title": "Garmin fenix 8 Multisport GPS Smartwatch",
+   "vendor": "Garmin",
+   "type": "Multisport GPS Watch",
+   "price": 849.99,
+   "compare_at": 1099.99,
+   "pct_off": 23,
+   "available": true,
+   "url": "https://www.playbetter.com/products/garmin-fenix-8"
+  },
+  {
    "retailer": "Shop Indoor Golf",
    "title": "SkyTrak ST MAX Garage Golf Simulator Package",
    "vendor": "SkyTrak",
@@ -2344,17 +2344,6 @@
    "pct_off": 19,
    "available": true,
    "url": "https://www.playbetter.com/products/uneekor-eye-xr-overhead-launch-monitor-with-carls-place-curved-enclosure-home-golf-studio-package"
-  },
-  {
-   "retailer": "PlayBetter",
-   "title": "Garmin tactix 8 Series Tactical GPS Smartwatch",
-   "vendor": "Garmin",
-   "type": "Multisport GPS Watch",
-   "price": 1049.99,
-   "compare_at": 1299.99,
-   "pct_off": 19,
-   "available": true,
-   "url": "https://www.playbetter.com/products/garmin-tactix-8"
   },
   {
    "retailer": "Shop Indoor Golf",

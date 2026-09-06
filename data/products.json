@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-05T13:28:25.756Z",
+  "generated_at": "2026-09-06T13:41:35.892Z",
   "products": [
     {
       "product_id": "prd_c8682e21-a1ee-4c80-a16e-7c544c11caf4",
@@ -11,7 +11,7 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-08T23:47:41.248Z",
-      "last_seen": "2026-09-05T13:28:25.756Z",
+      "last_seen": "2026-09-06T13:41:35.892Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
@@ -62,7 +62,7 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-08T23:47:41.248Z",
-      "last_seen": "2026-09-05T13:28:25.756Z",
+      "last_seen": "2026-09-06T13:41:35.892Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
@@ -123,7 +123,7 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-08T23:47:41.248Z",
-      "last_seen": "2026-09-05T13:28:25.756Z",
+      "last_seen": "2026-09-06T13:41:35.892Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
@@ -194,12 +194,12 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-08T23:47:41.248Z",
-      "last_seen": "2026-09-05T13:28:25.756Z",
+      "last_seen": "2026-09-06T13:41:35.892Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
           "item_group_id": "8206713618656",
-          "url": "https://sqairz.com/products/pro-s2?variant=47306875830496",
+          "url": "https://sqairz.com/products/pro-s2?variant=47306877075680",
           "display_title": "Sqairz ProS2™",
           "variants": [
             {
@@ -260,7 +260,7 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-08T23:47:41.248Z",
-      "last_seen": "2026-09-05T13:28:25.756Z",
+      "last_seen": "2026-09-06T13:41:35.892Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
@@ -321,12 +321,12 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-08T23:47:41.248Z",
-      "last_seen": "2026-09-05T13:28:25.756Z",
+      "last_seen": "2026-09-06T13:41:35.892Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
           "item_group_id": "7763604832480",
-          "url": "https://sqairz.com/products/speed-mesh?variant=43150732624096",
+          "url": "https://sqairz.com/products/speed-mesh?variant=43150732493024",
           "display_title": "Sqairz Speed™ Mesh",
           "variants": [
             {
@@ -634,12 +634,12 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-15T10:40:28.587Z",
-      "last_seen": "2026-09-05T13:28:25.756Z",
+      "last_seen": "2026-09-06T13:41:35.892Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
           "item_group_id": "8038823133408",
-          "url": "https://sqairz.com/products/freedom™-ultra?variant=46798532116704",
+          "url": "https://sqairz.com/products/freedom™-ultra?variant=46794973642976",
           "display_title": "Sqairz Freedom™ Ultra",
           "variants": [
             {
@@ -660,7 +660,7 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-15T10:40:28.587Z",
-      "last_seen": "2026-09-05T13:28:25.756Z",
+      "last_seen": "2026-09-06T13:41:35.892Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
@@ -711,12 +711,12 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-15T10:40:28.587Z",
-      "last_seen": "2026-09-05T13:28:25.756Z",
+      "last_seen": "2026-09-06T13:41:35.892Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
           "item_group_id": "8608562217184",
-          "url": "https://sqairz.com/products/the-wave-mens-limited-edition?variant=45963714330848",
+          "url": "https://sqairz.com/products/the-wave-mens-limited-edition?variant=45963714396384",
           "display_title": "Sqairz Wave Limited Edition",
           "variants": [
             {
@@ -762,7 +762,7 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-15T10:40:28.587Z",
-      "last_seen": "2026-09-04T14:23:13.693Z",
+      "last_seen": "2026-09-06T13:41:35.892Z",
       "bindings": [
         {
           "retailer": "Cobra Golf",
@@ -1133,13 +1133,6 @@
       "retailer": "PlayBetter",
       "title": "SkyTrak+ Launch Monitor with 1-Year Free Foresight Course…",
       "url": "https://www.playbetter.com/products/skytrak-plus-golf-launch-monitor-simulator",
-      "note": "source provides no advertiser-scoped product id; needs an approved feed or a manual binding"
-    },
-    {
-      "reason": "no_item_group_id",
-      "retailer": "PlayBetter",
-      "title": "Blue Tees Golf Playmaker+ GPS Golf Watch",
-      "url": "https://www.playbetter.com/products/blue-tees-golf-playmaker-gps-golf-watch",
       "note": "source provides no advertiser-scoped product id; needs an approved feed or a manual binding"
     },
     {
