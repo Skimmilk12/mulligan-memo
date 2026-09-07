@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-06T13:40:47.811Z",
- "date": "2026-09-06",
+ "generated_at": "2026-09-07T15:51:44.540Z",
+ "date": "2026-09-07",
  "sources": [
   {
    "retailer": "PlayBetter",
    "status": "ok",
-   "on_sale_items": 263
+   "on_sale_items": 260
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -3524,17 +3524,6 @@
   },
   {
    "retailer": "PlayBetter",
-   "title": "SkyCaddie PRO 4X Handheld Golf GPS",
-   "vendor": "SkyCaddie",
-   "type": "Golf GPS Handheld",
-   "price": 299.95,
-   "compare_at": 349.95,
-   "pct_off": 14,
-   "available": true,
-   "url": "https://www.playbetter.com/products/skycaddie-pro-4x-model-handheld-golf-gps"
-  },
-  {
-   "retailer": "PlayBetter",
    "title": "Garmin Venu X1 Premium GPS Smartwatch",
    "vendor": "Garmin",
    "type": "Fitness GPS Watch",
@@ -3851,17 +3840,6 @@
    "pct_off": 13,
    "available": true,
    "url": "https://www.playbetter.com/products/foresight-falcon-golf-overhead-launch-monitor-studio-package-playbetter-simstudio™-with-impact-screen-enclosure-side-barriers-hitting-putting-mats-projector"
-  },
-  {
-   "retailer": "PlayBetter",
-   "title": "SkyCaddie PRO 5X Handheld Golf GPS",
-   "vendor": "SkyCaddie",
-   "type": "Golf GPS Handheld",
-   "price": 349.95,
-   "compare_at": 399.95,
-   "pct_off": 13,
-   "available": true,
-   "url": "https://www.playbetter.com/products/skycaddie-pro-5x-handheld-golf-gps"
   },
   {
    "retailer": "Shop Indoor Golf",
