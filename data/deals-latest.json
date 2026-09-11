@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-09-10T14:26:54.134Z",
- "date": "2026-09-10",
+ "generated_at": "2026-09-11T14:26:27.240Z",
+ "date": "2026-09-11",
  "sources": [
   {
    "retailer": "PlayBetter",
@@ -1400,17 +1400,6 @@
    "url": "https://www.playbetter.com/products/skytrak-portable-hitting-net-golf-studio-package"
   },
   {
-   "retailer": "PlayBetter",
-   "title": "Garmin fenix 8 Multisport GPS Smartwatch",
-   "vendor": "Garmin",
-   "type": "Multisport GPS Watch",
-   "price": 849.99,
-   "compare_at": 1099.99,
-   "pct_off": 23,
-   "available": true,
-   "url": "https://www.playbetter.com/products/garmin-fenix-8"
-  },
-  {
    "retailer": "Shop Indoor Golf",
    "title": "SkyTrak ST MAX Garage Golf Simulator Package",
    "vendor": "SkyTrak",
@@ -1970,6 +1959,17 @@
    "pct_off": 20,
    "available": true,
    "url": "https://www.playbetter.com/products/rapsodo-mlm2pro-golf-launch-monitor-simulator-studio-package-playbetter-simstudio-with-impact-screen-enclosure-hitting-putting-mats-projector"
+  },
+  {
+   "retailer": "PlayBetter",
+   "title": "Garmin Xero C1 Pro Chronograph",
+   "vendor": "Garmin",
+   "type": "Hunting & Archery Scope",
+   "price": 399.99,
+   "compare_at": 499.99,
+   "pct_off": 20,
+   "available": true,
+   "url": "https://www.playbetter.com/products/garmin-xero-c1-pro-chronograph"
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -3656,7 +3656,7 @@
   },
   {
    "retailer": "Shop Indoor Golf",
-   "title": "Big Moss Country Club 612 V2 Putting Green & Chipping Mat",
+   "title": "Big Moss Country Club 612 Putting Green & Chipping Mat",
    "vendor": "Big Moss",
    "type": "Putting Green",
    "price": 519,
@@ -3887,7 +3887,7 @@
   },
   {
    "retailer": "Shop Indoor Golf",
-   "title": "Big Moss The General V2 Putting Green & Chipping Mat",
+   "title": "Big Moss The General Putting Green & Chipping Mat",
    "vendor": "Big Moss",
    "type": "Putting Green",
    "price": 509,
@@ -3898,7 +3898,7 @@
   },
   {
    "retailer": "Shop Indoor Golf",
-   "title": "Big Moss The Admiral V2 Putting Green & Chipping Mat",
+   "title": "Big Moss The Admiral Putting Green & Chipping Mat",
    "vendor": "Big Moss",
    "type": "Putting Green",
    "price": 619,
@@ -4074,7 +4074,7 @@
   },
   {
    "retailer": "Shop Indoor Golf",
-   "title": "Big Moss Country Club 610 V2 Putting Green & Chipping Mat",
+   "title": "Big Moss Country Club 610 Putting Green & Chipping Mat",
    "vendor": "Big Moss",
    "type": "Putting Green",
    "price": 489,
@@ -4283,7 +4283,7 @@
   },
   {
    "retailer": "Shop Indoor Golf",
-   "title": "Big Moss The Natural V2 Putting Green & Chipping Mat",
+   "title": "Big Moss The Natural Putting Green & Chipping Mat",
    "vendor": "Big Moss",
    "type": "Putting Green",
    "price": 519,
@@ -4503,7 +4503,7 @@
   },
   {
    "retailer": "Shop Indoor Golf",
-   "title": "Big Moss Super G V2 Putting Green & Chipping Mat",
+   "title": "Big Moss Super G Putting Green & Chipping Mat",
    "vendor": "Big Moss",
    "type": "Putting Green",
    "price": 719,

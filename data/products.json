@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-10T14:27:47.268Z",
+  "generated_at": "2026-09-11T14:27:44.201Z",
   "products": [
     {
       "product_id": "prd_c8682e21-a1ee-4c80-a16e-7c544c11caf4",
@@ -11,12 +11,12 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-08T23:47:41.248Z",
-      "last_seen": "2026-09-08T14:33:42.432Z",
+      "last_seen": "2026-09-11T14:27:44.201Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
           "item_group_id": "8102626951392",
-          "url": "https://sqairz.com/products/freedom-micro?variant=46639214133472",
+          "url": "https://sqairz.com/products/freedom-micro?variant=46639213740256",
           "display_title": "Sqairz Freedom™ Micro",
           "variants": [
             {
@@ -67,7 +67,7 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-08T23:47:41.248Z",
-      "last_seen": "2026-09-10T14:27:47.268Z",
+      "last_seen": "2026-09-11T14:27:44.201Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
@@ -128,12 +128,12 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-08T23:47:41.248Z",
-      "last_seen": "2026-09-10T14:27:47.268Z",
+      "last_seen": "2026-09-11T14:27:44.201Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
           "item_group_id": "7763613155552",
-          "url": "https://sqairz.com/products/freedom-mesh?variant=44071184498912",
+          "url": "https://sqairz.com/products/freedom-mesh?variant=44071184433376",
           "display_title": "Sqairz Freedom™ Mesh Blackberry",
           "variants": [
             {
@@ -199,7 +199,7 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-08T23:47:41.248Z",
-      "last_seen": "2026-09-10T14:27:47.268Z",
+      "last_seen": "2026-09-11T14:27:44.201Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
@@ -265,7 +265,7 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-08T23:47:41.248Z",
-      "last_seen": "2026-09-10T14:27:47.268Z",
+      "last_seen": "2026-09-11T14:27:44.201Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
@@ -336,7 +336,7 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-08T23:47:41.248Z",
-      "last_seen": "2026-09-10T14:27:47.268Z",
+      "last_seen": "2026-09-11T14:27:44.201Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
@@ -649,12 +649,12 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-15T10:40:28.587Z",
-      "last_seen": "2026-09-10T14:27:47.268Z",
+      "last_seen": "2026-09-11T14:27:44.201Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
           "item_group_id": "8038823133408",
-          "url": "https://sqairz.com/products/freedom™-ultra?variant=46798532083936",
+          "url": "https://sqairz.com/products/freedom™-ultra?variant=46794973642976",
           "display_title": "Sqairz Freedom™ Ultra",
           "variants": [
             {
@@ -675,12 +675,12 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-15T10:40:28.587Z",
-      "last_seen": "2026-09-10T14:27:47.268Z",
+      "last_seen": "2026-09-11T14:27:44.201Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
           "item_group_id": "8608562413792",
-          "url": "https://sqairz.com/products/the-patriot-womens-limited-edition?variant=45963716100320",
+          "url": "https://sqairz.com/products/the-patriot-womens-limited-edition?variant=45963716198624",
           "display_title": "Sqairz Patriot Limited Edition",
           "variants": [
             {
@@ -717,6 +717,11 @@
               "gtin": "810032399511",
               "mpn": "39951",
               "feed_title": "Patriot Limited Edition White / 8 - SQAIRZ"
+            },
+            {
+              "gtin": "810032399542",
+              "mpn": "39954",
+              "feed_title": "Patriot Limited Edition White / 9.5 - SQAIRZ"
             }
           ]
         }
@@ -731,12 +736,12 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-15T10:40:28.587Z",
-      "last_seen": "2026-09-10T14:27:47.268Z",
+      "last_seen": "2026-09-11T14:27:44.201Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
           "item_group_id": "8608562217184",
-          "url": "https://sqairz.com/products/the-wave-mens-limited-edition?variant=45963714396384",
+          "url": "https://sqairz.com/products/the-wave-mens-limited-edition?variant=45963714461920",
           "display_title": "Sqairz Wave Limited Edition",
           "variants": [
             {
@@ -782,7 +787,7 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-15T10:40:28.587Z",
-      "last_seen": "2026-09-10T14:27:47.268Z",
+      "last_seen": "2026-09-11T14:27:44.201Z",
       "bindings": [
         {
           "retailer": "Cobra Golf",
@@ -873,7 +878,7 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-15T10:40:28.587Z",
-      "last_seen": "2026-09-10T14:27:47.268Z",
+      "last_seen": "2026-09-11T14:27:44.201Z",
       "bindings": [
         {
           "retailer": "Cobra Golf",
@@ -1161,8 +1166,8 @@
     {
       "reason": "no_item_group_id",
       "retailer": "PlayBetter",
-      "title": "Blue Tees Golf Playmaker+ GPS Golf Watch",
-      "url": "https://www.playbetter.com/products/blue-tees-golf-playmaker-gps-golf-watch",
+      "title": "PlayBetter SkyTrak+ Golf Launch Monitor Home Net Studio…",
+      "url": "https://www.playbetter.com/products/skytrak-golf-launch-monitor-with-the-net-return-pro-series-v2-golf-simulator-package-old",
       "note": "source provides no advertiser-scoped product id; needs an approved feed or a manual binding"
     }
   ]
