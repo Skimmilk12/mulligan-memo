@@ -34,20 +34,34 @@ jobs:
           CJ_FEED_USER: ${{ secrets.CJ_FEED_USER }}
           CJ_FEED_PASS: ${{ secrets.CJ_FEED_PASS }}
         run: node scripts/fetch-cj-feeds.mjs
-      - name: Fail if today's snapshot is missing
-        # Deliberately NOT continue-on-error. The previous version swallowed four
-        # straight failures because a skipped day looked exactly like a good run.
-        # A lost day cannot be re-fetched, so this has to be loud.
+      - name: Fail if the TGW snapshots have gone quiet for two weeks
+        # CJ only writes an export file when the advertiser's catalog CHANGED.
+        # Cowork checked the portal on 2026-09-11: subscription 320166 was
+        # healthy, but TGW's own catalog at CJ had not been updated since
+        # 13 Aug, so CJ exported "0 Records" on 31 Aug and nothing since. The
+        # previous check failed on any missing day and so emailed a false alarm
+        # 27 nights running. A missing day is normal; a fortnight of silence is
+        # worth one look, so this nags ONCE A WEEK (Mondays) after 14 quiet days.
+        # Before touching code: CJ portal -> Product Feeds -> View Status ->
+        # "Last Updated" for the advertiser. If that date is old, the fix is a
+        # message to TGW's affiliate manager, not a script.
         run: |
           node -e '
             const fs = require("fs");
             const day = new Date().toISOString().slice(0, 10);
-            const f = `data/feeds/tgw-${day}.json`;
-            if (!fs.existsSync(f)) {
-              console.error(`No TGW snapshot for ${day}. CJ keeps only the current day, so this day is now unrecoverable. Check the export ran and that the delivery time has not moved.`);
+            const today = `data/feeds/tgw-${day}.json`;
+            if (fs.existsSync(today)) {
+              console.log(`TGW snapshot for ${day}: ${JSON.parse(fs.readFileSync(today, "utf8")).tracked} products tracked`);
+              process.exit(0);
+            }
+            const days = fs.readdirSync("data/feeds").filter(f => /^tgw-\d{4}-\d{2}-\d{2}\.json$/.test(f)).map(f => f.slice(4, 14)).sort();
+            const newest = days[days.length - 1];
+            const quiet = newest ? Math.floor((Date.parse(day) - Date.parse(newest)) / 86400000) : 999;
+            console.log(`No TGW file for ${day}; newest snapshot is ${newest || "none"} (${quiet} days ago). CJ only delivers when TGW changes its catalog.`);
+            if (quiet >= 14 && new Date().getUTCDay() === 1) {
+              console.error(`TGW has delivered nothing for ${quiet} days. Check CJ -> Product Feeds -> View Status "Last Updated" for TGW; if it is old, message TGW affiliate support (see drafts/NEXT-SESSION.md).`);
               process.exit(1);
             }
-            console.log(`TGW snapshot for ${day}: ${JSON.parse(fs.readFileSync(f, "utf8")).tracked} products tracked`);
           '
       - name: Commit the snapshot
         if: always()
