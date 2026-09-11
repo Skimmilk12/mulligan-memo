@@ -54,6 +54,20 @@ if (existsSync(priceFile)) {
   else console.log(`amazon-prices.json is ${ageH.toFixed(1)}h old — ignored (limit ${PRICE_MAX_AGE_H}h)`);
 }
 
+// Tonight's verified deals grid. A `grid_url` item renders the retailer's
+// tracked link and the sale/list price the price bot verified on the product
+// page tonight — and only if the grid itself was rebuilt within 36h. If the
+// item has dropped off the grid (sale ended, verification failed) it is
+// rendered WITHOUT a price and with the plain product URL, never a stale one.
+let grid = null;
+const gridFile = join(ROOT, 'data', 'deals-grid.json');
+if (existsSync(gridFile)) {
+  const g = JSON.parse(readFileSync(gridFile, 'utf8'));
+  const ageH = (Date.now() - new Date(g.checked_at).getTime()) / 36e5;
+  if (Number.isFinite(ageH) && ageH >= 0 && ageH <= PRICE_MAX_AGE_H) { grid = new Map((g.items || []).filter((i) => i.verified).map((i) => [i.url, i])); grid.checkedLabel = new Date(g.checked_at).toLocaleDateString('en-US', { month: 'short', day: 'numeric' }); }
+  else console.log(`deals-grid.json is ${ageH.toFixed(1)}h old — grid prices ignored`);
+}
+
 const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 const money = (n) => '$' + Number(n).toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
 
@@ -63,6 +77,12 @@ function renderItem(it, page) {
     if (!known.has(it.asin)) throw new Error(`${page}: ASIN ${it.asin} (${it.label}) is not a resolved ASIN in data/amazon-asins.csv`);
     href = `https://www.amazon.com/dp/${it.asin}?tag=${TAG}`;
     merchant = 'Amazon';
+  } else if (it.grid_url) {
+    if (!/^https:\/\//.test(it.grid_url)) throw new Error(`${page}: grid_url must be absolute https (${it.label})`);
+    const hit = grid && grid.get(it.grid_url);
+    href = hit ? hit.track : it.grid_url;
+    merchant = it.merchant || (hit ? hit.retailer : 'the retailer');
+    if (hit && Number.isFinite(hit.sale)) it._grid = hit;
   } else if (it.href) {
     if (!/^https:\/\//.test(it.href)) throw new Error(`${page}: href must be absolute https (${it.label})`);
     href = it.href;
@@ -77,6 +97,11 @@ function renderItem(it, page) {
     const p = prices[it.asin];
     const was = Number.isFinite(p.list) && p.list > p.price ? ` <s>${money(p.list)}</s>` : '';
     price = `<span class="price">${money(p.price)}${was}</span>`;
+  } else if (it._grid) {
+    const g = it._grid;
+    const was = Number.isFinite(g.list) && g.list > g.sale ? ` <s>${money(g.list)}</s>` : '';
+    price = `<span class="price">${money(g.sale)}${was}</span> <span class="note" style="display:inline">checked ${esc(grid.checkedLabel)}</span>`;
+    delete it._grid;
   }
 
   return `        <li>
@@ -110,9 +135,13 @@ function placeCard(html, card, page) {
   }
   const tldr = html.indexOf('<div class="tldr">');
   if (tldr < 0) throw new Error(`${page}: no .tldr to anchor the card under`);
-  const byline = html.indexOf('<div class="byline">', tldr);
-  if (byline < 0 || byline - tldr > 6000) throw new Error(`${page}: no .byline within reach of .tldr`);
-  return html.slice(0, byline) + card + '\n    ' + html.slice(byline);
+  // Anchor: the byline on the article template, or the post-body section on
+  // the reference-chart template (which has no byline). Whichever comes first.
+  const anchors = ['<div class="byline">', '<section class="post-body">']
+    .map((a) => html.indexOf(a, tldr)).filter((i) => i > 0 && i - tldr < 6000);
+  if (!anchors.length) throw new Error(`${page}: no .byline or .post-body within reach of .tldr`);
+  const at = Math.min(...anchors);
+  return html.slice(0, at) + card + '\n    ' + html.slice(at);
 }
 
 // 1. Cards.
