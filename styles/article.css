@@ -2182,3 +2182,37 @@ details.toc nav { padding: 4px 22px 20px; }
   .foot-sub-form button { width: 100%; }
   .foot-sub-form input, .foot-sub-form button { min-height: 44px; }
 }
+
+/* ---- "Where to buy" card under the short answer (scripts/build-inline-modules.mjs) ---- */
+.buy {
+  border: 2px solid var(--ink);
+  background: var(--card);
+  padding: 18px 20px 14px;
+  margin: 0 0 22px;
+  scroll-margin-top: 70px;
+}
+.tldr + .buy { margin-top: -8px; }
+.buy + .byline { margin: 0 0 10px; }
+.buy .h {
+  font-family: var(--mono);
+  font-size: 12.5px;
+  font-weight: 700;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: var(--flag);
+  margin-bottom: 10px;
+}
+.buy .lead { font-size: 16px; line-height: 1.55; margin: 0 0 14px; max-width: none; }
+.buy ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 14px; }
+.buy li { margin: 0; padding: 0; display: grid; gap: 6px; }
+.buy li + li { border-top: 1px dashed rgba(27,42,32,0.35); padding-top: 14px; }
+.buy .cta { display: block; text-align: center; width: 100%; box-sizing: border-box; padding: 12px 10px; font-size: 12.5px; letter-spacing: 0.06em; line-height: 1.35; }
+.buy .for { font-size: 16px; line-height: 1.5; margin: 4px 0 0; max-width: none; }
+.buy .note { font-family: var(--mono); font-size: 12px; letter-spacing: 0.04em; line-height: 1.5; color: var(--pine); margin: 0; }
+.buy .price { font-family: var(--display); font-weight: 700; white-space: nowrap; }
+.buy .price s { font-weight: 400; color: var(--pine); margin-left: 6px; }
+@media (min-width: 700px) {
+  .buy li { grid-template-columns: minmax(230px, 38%) 1fr; column-gap: 18px; align-items: start; }
+  .buy li .cta { grid-row: 1 / span 2; }
+  .buy .for { margin: 0; }
+}

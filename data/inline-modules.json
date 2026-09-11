@@ -1,0 +1,160 @@
+{
+  "_doc": "Per-page 'where to buy' cards rendered by scripts/build-inline-modules.mjs directly under each article's short answer. An item with an `asin` must be a resolved ASIN in data/amazon-asins.csv (the exact-product list Cowork verified) or the build refuses. An item with `href` is a merchant deep link already vetted on that page. No prices are rendered unless data/amazon-prices.json holds a price for that ASIN checked within the last 36 hours — never a remembered one.",
+  "tag": "mulliganmemo-20",
+  "pages": {
+    "posts/callaway-strata-vs-wilson-beginner-set.html": {
+      "heading": "Where to buy the pick",
+      "items": [
+        {
+          "asin": "B07HN3T2PB",
+          "label": "Wilson Profile SGI Complete Set",
+          "for": "Two wedges in the box, and it comes in standard, tall and senior lengths.",
+          "note": "Men's listing. The women's set is below."
+        },
+        {
+          "asin": "B07HMYSS9C",
+          "label": "Wilson Profile SGI Women's Complete Set",
+          "for": "Petite, standard and tall lengths with lighter shafts. Nothing in the Strata range fits this way.",
+          "note": "Check stand vs cart bag on the listing."
+        },
+        {
+          "asin": "B07H2HQJR5",
+          "label": "Callaway Strata 12-Piece",
+          "for": "The cheapest way into the recognisable brand. No sand wedge in this version.",
+          "note": "Men's right-hand 12-piece listing."
+        },
+        {
+          "asin": "B07H2B8ZDK",
+          "label": "Callaway Strata 14-Piece",
+          "for": "The Strata most people should buy: adds the sand wedge and a graphite 3-wood.",
+          "note": "Men's right-hand 14-piece listing."
+        }
+      ]
+    },
+    "posts/golf-grips-for-arthritic-hands.html": {
+      "heading": "Where to buy the pick",
+      "items": [
+        {
+          "asin": "B006GFE4NM",
+          "label": "Winn Dri-Tac Oversize",
+          "for": "Start here: soft, tacky and oversize, so you can hold the club with the least squeezing.",
+          "note": "Sold as a single grip. A full set is 13."
+        },
+        {
+          "asin": "B01LXYQOAA",
+          "label": "JumboMax",
+          "for": "The step up to a true jumbo if your arthritis is severe or your grip strength has dropped.",
+          "note": "Sold singly. The listing carries several sizes; the article's tape build-up test tells you which."
+        }
+      ]
+    },
+    "posts/winn-dri-tac-vs-golf-pride-cp2-wrap.html": {
+      "heading": "Where to buy the pick",
+      "items": [
+        {
+          "asin": "B00FEID2OE",
+          "label": "Winn Dri-Tac",
+          "for": "Maximum cushion, sore joints, wet weather, or going oversize without adding swing weight.",
+          "note": "Sold as a single grip. A full set is 13."
+        },
+        {
+          "asin": "B00HSRVBOM",
+          "label": "Golf Pride CP2 Wrap",
+          "for": "Longevity and a slightly firmer, more connected feel. Commonly lasts a full season.",
+          "note": "Sold as a single grip. A full set is 13."
+        }
+      ]
+    },
+    "posts/best-left-handed-golf-club-sets.html": {
+      "heading": "Where to buy the picks",
+      "lead": "These two listings are the left-handed versions. The Wilson men's set and the Cobra also come left-handed, but their left-hand stock comes and goes, so the shortlist below links the listings and you confirm the hand there before you pay.",
+      "items": [
+        {
+          "asin": "B07H29ZCM5",
+          "label": "Callaway Strata Plus 14-Piece, Left Hand",
+          "for": "The trusted default, with a sand wedge in the box.",
+          "note": "This listing is the left-hand men's 14-piece."
+        },
+        {
+          "asin": "B0DVMFW34R",
+          "label": "Wilson Profile Women's Complete Set, Left Hand",
+          "for": "The women's set that actually ships left-handed.",
+          "note": "11-piece with a cart bag."
+        }
+      ]
+    },
+    "posts/best-golf-irons-for-seniors.html": {
+      "heading": "Where to buy the picks",
+      "lead": "Two of the picks are sold on Amazon. The XXIO 14 and Ping G440 go through fitters and brand dealers, so they are not linked here. Whichever you choose, get fit for shaft weight and flex first.",
+      "items": [
+        {
+          "asin": "B099FW5R46",
+          "label": "Cleveland Launcher XL Halo",
+          "for": "Best value of the picks: maximum forgiveness and easy launch at the lowest price.",
+          "note": "Check the shaft on the listing; you want the lightweight graphite option."
+        },
+        {
+          "asin": "B0GF42CJ61",
+          "label": "Srixon ZXiR / ZXiR HL",
+          "for": "Forgiveness with premium feel. The HL version adds height and carry for slower swings.",
+          "note": "Confirm HL vs standard on the listing."
+        }
+      ]
+    },
+    "posts/best-golf-shoes-for-wide-feet.html": {
+      "heading": "Where to buy the picks",
+      "lead": "Buy your true length in a wider width, not a longer shoe. Sizing differs by brand, so use a seller with easy returns.",
+      "items": [
+        {
+          "href": "https://www.tkqlhce.com/click-101818675-12482874?sid=widefeet-buybox&url=https%3A%2F%2Fwww.tgw.com%2Ffootjoy-mens-pro-sl-golf-shoes",
+          "merchant": "TGW",
+          "label": "FootJoy Pro/SL",
+          "for": "Best overall: a proven spikeless shoe you can order in an exact width up to extra wide.",
+          "note": "Pick the width on TGW's size menu."
+        },
+        {
+          "asin": "B0CK3MFZ36",
+          "label": "New Balance 997 SL",
+          "for": "Best value with named wide and extra-wide options (2E and 4E).",
+          "note": "Confirm the width code on the listing before you order."
+        },
+        {
+          "asin": "B0FCLGV7LW",
+          "label": "ECCO Biom C5",
+          "for": "Premium all-weather comfort on a naturally roomy last.",
+          "note": "Standard width only; it fits wide because of the shape."
+        },
+        {
+          "asin": "B0D655JSCV",
+          "label": "adidas S2G SL",
+          "for": "A roomier-than-usual standard fit for moderately wide feet.",
+          "note": "No width sizes; if you need a true wide, take the FootJoy or New Balance."
+        }
+      ]
+    },
+    "posts/kirkland-ks1-putter-vs-scotty-cameron.html": {
+      "heading": "Where to buy",
+      "lead": "The Kirkland KS1 is sold only through Costco, in the warehouse and on costco.com, and it sells out. There is no steady listing to link. If you cannot catch one, these are the picks that are actually in stock.",
+      "items": [
+        {
+          "asin": "B0BJ161GG6",
+          "label": "Cleveland HB SOFT Milled",
+          "for": "Best budget milled-feel pick, easy to find in stock, in blade or mallet.",
+          "note": "Choose the head shape on the listing."
+        },
+        {
+          "asin": "B0CJ419BYK",
+          "label": "Odyssey Ai-ONE",
+          "for": "Forgiveness, easy alignment and a soft insert from the biggest putter brand.",
+          "note": "Double Wide is the mallet version."
+        },
+        {
+          "asin": "B0CPTCC3CC",
+          "label": "Wilson Infinite",
+          "for": "Best budget mallet: forgiving and stable without premium pricing.",
+          "note": "Buckingham and Windy City are the two head shapes."
+        }
+      ]
+    }
+  }
+}

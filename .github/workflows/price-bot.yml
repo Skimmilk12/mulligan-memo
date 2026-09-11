@@ -65,6 +65,13 @@ jobs:
         run: |
           node scripts/build-product-registry.mjs
           node scripts/build-product-pages.mjs
+      - name: Refresh the "where to buy" cards under the short answers
+        # data/inline-modules.json -> a card under each best-read article's
+        # verdict, marker-bounded. Fail-closed: an ASIN outside the verified
+        # list, or a price older than 36h, stops the run rather than shipping a
+        # guess. NOT continue-on-error on purpose: a broken manifest should be
+        # loud, and the price commit below runs regardless (if: always()).
+        run: node scripts/build-inline-modules.mjs
       - name: Mirror the product catalogue into the ratings database
         # Only immutable identity crosses (product_id, name, slug, status), so
         # a rating can foreign-key to a real product and the public API cannot
@@ -108,7 +115,7 @@ jobs:
           git config user.email "price-bot@mulliganmemo.com"
           # sitemap.xml belongs here or the regen step above silently throws its
           # own output away every night.
-          git add data/ deals/ deals.html launch-monitors.html index.html styles/deals.css sitemap.xml products/
+          git add data/ deals/ deals.html launch-monitors.html index.html styles/deals.css sitemap.xml products/ posts/
           if git diff --cached --quiet; then
             echo "no changes"
           else
