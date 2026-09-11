@@ -355,6 +355,990 @@
           "note": "Two 45-inch fibreglass rods. Any pair will do; these are the ones that fit a bag."
         }
       ]
+    },
+    "posts/56-vs-60-degree-wedge-setup.html": {
+      "heading": "Where to buy the picks",
+      "seeded_from": "glance",
+      "items": [
+        {
+          "asin": "B0CP6KR7QL",
+          "label": "Cleveland CBX (CBX ZipCore / CBX 4 ZipCore)",
+          "for": "Best Overall (Upgrade One Wedge)."
+        },
+        {
+          "asin": "B0DX2KX8BF",
+          "label": "Wilson Harmonized Wedge",
+          "for": "Best Value."
+        },
+        {
+          "asin": "B0CP6KP8B5",
+          "label": "Cleveland Smart Sole (Smart Sole 4 / Full-Face)",
+          "for": "Most Forgiving Around the Green."
+        },
+        {
+          "asin": "B0C5BD5GJN",
+          "label": "Callaway CB Wedge (Mack Daddy CB lineage)",
+          "for": "Best Cavity-Back Alternative."
+        }
+      ]
+    },
+    "posts/are-refurbished-golf-balls-worth-it.html": {
+      "heading": "Where to buy the picks",
+      "seeded_from": "glance",
+      "items": [
+        {
+          "asin": "B0CXCP2TQV",
+          "label": "LostGolfBalls.com Mint (5A) Recycled Titleist Pro V1",
+          "for": "Best Overall."
+        },
+        {
+          "asin": "B09H3SFHXL",
+          "label": "Golf Ball Planet 5A/Mint Recycled Premium Balls",
+          "for": "Best Grading Transparency."
+        },
+        {
+          "asin": "B0C54GXFQ8",
+          "label": "Kirkland Signature Performance+ V3 (Costco)",
+          "for": "Best New-Ball Alternative."
+        }
+      ]
+    },
+    "posts/best-beginner-golf-set-under-500.html": {
+      "heading": "Where to buy the picks",
+      "seeded_from": "glance",
+      "items": [
+        {
+          "asin": "B07H2HQJR5",
+          "label": "Callaway Strata Complete Set",
+          "for": "Best Overall / Most Trusted."
+        },
+        {
+          "asin": "B0DC8D83JH",
+          "label": "Cobra Fly XL / Fly XL Speed Complete Set",
+          "for": "Best Overall Bag (Spend a Little More)."
+        },
+        {
+          "asin": "B07HN3T2PB",
+          "label": "Wilson Profile SGI Complete Set",
+          "for": "For Fit & Sizing."
+        }
+      ]
+    },
+    "posts/best-fairway-woods-for-high-handicappers.html": {
+      "heading": "Where to buy the pick",
+      "seeded_from": "glance",
+      "items": [
+        {
+          "asin": "B0CP9WFMFC",
+          "label": "Cleveland Halo XL (Lite / draw option)",
+          "for": "Easiest to Launch / Best for Slow Swings & Slicers."
+        },
+        {
+          "asin": "B0CJ4C8Z5Y",
+          "label": "Callaway Paradym Ai Smoke Max (often discounted)",
+          "for": "Best Value Among Recent Premium Releases."
+        }
+      ]
+    },
+    "posts/best-golf-balls-for-beginners.html": {
+      "heading": "Where to buy the picks",
+      "seeded_from": "glance",
+      "items": [
+        {
+          "asin": "B0DHT5XZR1",
+          "label": "Callaway Supersoft",
+          "for": "Best Overall."
+        },
+        {
+          "asin": "B0DSJN58C2",
+          "label": "Srixon Soft Feel",
+          "for": "Best Value, Major Brand."
+        },
+        {
+          "asin": "B0FY3QKQ16",
+          "label": "Titleist TruFeel",
+          "for": "Best Premium-Brand Entry."
+        },
+        {
+          "asin": "B0DQ9SKHJY",
+          "label": "Wilson Duo Soft",
+          "for": "Softest Feel."
+        }
+      ]
+    },
+    "posts/best-golf-balls-for-distance.html": {
+      "heading": "Where to buy the picks",
+      "seeded_from": "glance",
+      "items": [
+        {
+          "asin": "B0FY3Q4B8W",
+          "label": "Titleist Velocity",
+          "for": "Best Overall Distance Ball."
+        },
+        {
+          "asin": "B0DHT6RVPZ",
+          "label": "Callaway Warbird",
+          "for": "Best Value."
+        },
+        {
+          "asin": "B08QSL9XQW",
+          "label": "TaylorMade Distance+",
+          "for": "Best Cheap 2-Piece."
+        },
+        {
+          "asin": "B08VSB9SXM",
+          "label": "Bridgestone e12 Contact / e12 Speed",
+          "for": "Best Distance Ball With Feel."
+        }
+      ]
+    },
+    "posts/best-golf-balls-for-slow-swing-speeds.html": {
+      "heading": "Where to buy the picks",
+      "seeded_from": "glance",
+      "items": [
+        {
+          "asin": "B0DHT5XZR1",
+          "label": "Callaway Supersoft",
+          "for": "Best Overall."
+        },
+        {
+          "asin": "B0DQ9SKHJY",
+          "label": "Wilson Duo Soft+",
+          "for": "Lowest Compression."
+        },
+        {
+          "asin": "B0DSJN58C2",
+          "label": "Srixon Soft Feel",
+          "for": "Best Balanced Value."
+        },
+        {
+          "asin": "B09MDHMJ4W",
+          "label": "TaylorMade Soft Response",
+          "for": "For Moderate Swings."
+        }
+      ]
+    },
+    "posts/best-golf-balls-under-25-dollars.html": {
+      "heading": "Where to buy the picks",
+      "seeded_from": "glance",
+      "items": [
+        {
+          "asin": "B0C54GXFQ8",
+          "label": "Kirkland Signature Performance+ (Costco)",
+          "for": "Best Overall Value / Only Cheap Urethane."
+        },
+        {
+          "asin": "B0DHT5XZR1",
+          "label": "Callaway Supersoft",
+          "for": "Best Soft Feel for Slow Swing Speeds."
+        },
+        {
+          "asin": "B0DSJN58C2",
+          "label": "Srixon Soft Feel",
+          "for": "Best Feel-Plus-Distance Balance."
+        },
+        {
+          "asin": "B09F5N3PV2",
+          "label": "TaylorMade Noodle Long & Soft",
+          "for": "Best Rock-Bottom Price."
+        }
+      ]
+    },
+    "posts/best-golf-chippers-for-high-handicappers.html": {
+      "heading": "Where to buy the picks",
+      "seeded_from": "glance",
+      "items": [
+        {
+          "asin": "B0CKX6JFY1",
+          "label": "Cleveland Smart Sole Full-Face Type C",
+          "for": "Most Versatile (Wedge-Chipper Hybrid)."
+        },
+        {
+          "asin": "B0F68W5D5V",
+          "label": "Odyssey X-Act Chipper",
+          "for": "Best Putter Feel."
+        },
+        {
+          "asin": "B0794JNG84",
+          "label": "Orlimar Escape Chipper",
+          "for": "Best Value / Anti-Shank."
+        }
+      ]
+    },
+    "posts/best-golf-chipping-nets.html": {
+      "heading": "Where to buy the picks",
+      "seeded_from": "glance",
+      "items": [
+        {
+          "asin": "B07FCNK2K8",
+          "label": "GoSports Chipster",
+          "for": "Best Overall."
+        },
+        {
+          "asin": "B0047I2EQO",
+          "label": "Callaway Chip-Shot Chipping Net",
+          "for": "Big-Brand Staple."
+        },
+        {
+          "asin": "B00J7GR420",
+          "label": "SKLZ Quickster Chipping Net",
+          "for": "Most Stable."
+        }
+      ]
+    },
+    "posts/best-golf-glove-for-sweaty-hands.html": {
+      "heading": "Where to buy the picks",
+      "seeded_from": "glance",
+      "items": [
+        {
+          "asin": "B075X1PYVF",
+          "label": "FootJoy RainGrip",
+          "for": "Best Overall."
+        },
+        {
+          "asin": "B07W5B623F",
+          "label": "FootJoy StaSof TropiCool",
+          "for": "For Hot Weather."
+        },
+        {
+          "asin": "B0BKPCG7G9",
+          "label": "Callaway Weather Spann",
+          "for": "Best Value Workhorse."
+        },
+        {
+          "asin": "B00G49KLKU",
+          "label": "MacWet Aquatec (Micromesh)",
+          "for": "Best All-Conditions."
+        }
+      ]
+    },
+    "posts/best-golf-gps-watch-under-200.html": {
+      "heading": "Where to buy the picks",
+      "seeded_from": "glance",
+      "items": [
+        {
+          "asin": "B08X1L2CDK",
+          "label": "Garmin Approach S12",
+          "for": "Best Overall / Simplest."
+        },
+        {
+          "asin": "B0BDMT1X9H",
+          "label": "Bushnell iON Elite",
+          "for": "For Features."
+        },
+        {
+          "asin": "B07NRYCRL3",
+          "label": "TecTecTec ULT-G",
+          "for": "Best Value / Lowest Price."
+        }
+      ]
+    },
+    "posts/best-golf-hybrids-for-high-handicappers.html": {
+      "heading": "Where to buy the picks",
+      "seeded_from": "glance",
+      "items": [
+        {
+          "asin": "B0DHWJ2H1J",
+          "label": "Callaway Elyte Hybrid",
+          "for": "For Easy Launch / Height."
+        },
+        {
+          "asin": "B0CP9X1FKW",
+          "label": "Cleveland Halo XL Hybrid",
+          "for": "Most Forgiving Budget Option."
+        },
+        {
+          "asin": "B0BT23CLZM",
+          "label": "Wilson Dynapower Hybrid",
+          "for": "Best Value."
+        }
+      ]
+    },
+    "posts/best-golf-push-carts-under-200.html": {
+      "heading": "Where to buy the picks",
+      "seeded_from": "glance",
+      "items": [
+        {
+          "asin": "B07DSXGLN5",
+          "label": "CaddyTek EZ-Fold 3-Wheel (the Costco CaddyTek)",
+          "for": "Cheapest With a Real Track Record."
+        },
+        {
+          "asin": "B07DT1QBC1",
+          "label": "CaddyTek CaddyCruiser ONE V8",
+          "for": "Best 4-Wheel."
+        },
+        {
+          "asin": "B08FQYHX2Q",
+          "label": "KVV 3-Wheel Foldable Push Cart",
+          "for": "Lightest / Flattest Fold."
+        }
+      ]
+    },
+    "posts/best-golf-putters-under-100.html": {
+      "heading": "Where to buy the pick",
+      "seeded_from": "glance",
+      "items": [
+        {
+          "asin": "B0CP9T2FKB",
+          "label": "Cleveland Huntington Beach SOFT (original / used HB Soft 2)",
+          "for": "Best Blade for Feel (used/older model)."
+        },
+        {
+          "asin": "B0CPTBQKDB",
+          "label": "Wilson Staff Infinite (Buckingham / Bean)",
+          "for": "Best Tested Roll (clearance/used)."
+        }
+      ]
+    },
+    "posts/best-golf-rangefinder-for-shaky-hands.html": {
+      "heading": "Where to buy the picks",
+      "seeded_from": "glance",
+      "items": [
+        {
+          "asin": "B0DVD5M9LY",
+          "label": "Nikon Coolshot Pro III Stabilized",
+          "for": "Best Overall."
+        },
+        {
+          "asin": "B091VQS214",
+          "label": "Nikon Coolshot Pro II Stabilized",
+          "for": "Best Value (Stabilized)."
+        },
+        {
+          "asin": "B0CWN47RX6",
+          "label": "Vortex Anarch",
+          "for": "Best Warranty."
+        }
+      ]
+    },
+    "posts/best-golf-rangefinder-under-100.html": {
+      "heading": "Where to buy the picks",
+      "seeded_from": "glance",
+      "items": [
+        {
+          "asin": "B07PV6NJFH",
+          "label": "GoGoGo Sport VPro GS03",
+          "for": "Best Overall & Best Slope Under $100."
+        },
+        {
+          "asin": "B09KR87MQT",
+          "label": "GoGoGo Sport VPro GS24",
+          "for": "For Replaceable (AAA) Batteries."
+        },
+        {
+          "asin": "B09GLP62SS",
+          "label": "REVASRI Golf Rangefinder (Slope + External Switch)",
+          "for": "Best Value Slope With Tournament-Legal Switch."
+        }
+      ]
+    },
+    "posts/best-golf-rangefinder-vs-gps.html": {
+      "heading": "Where to buy the picks",
+      "seeded_from": "glance",
+      "items": [
+        {
+          "asin": "B0CZ7MGYXB",
+          "label": "Bushnell Pro X3+",
+          "for": "Best Premium Laser."
+        },
+        {
+          "asin": "B0CBW67NLW",
+          "label": "Garmin Approach S70",
+          "for": "Best Premium GPS Watch."
+        },
+        {
+          "asin": "B0BDMT1X9H",
+          "label": "Bushnell iON Elite",
+          "for": "Best Value GPS Watch."
+        }
+      ]
+    },
+    "posts/best-golf-training-aids.html": {
+      "heading": "Where to buy the picks",
+      "seeded_from": "glance",
+      "items": [
+        {
+          "asin": "B09YYX7C6R",
+          "label": "Alignment sticks (Tour Sticks / Tour Aim or generic fiberglass)",
+          "for": "Alignment — Best Value in Golf."
+        },
+        {
+          "asin": "B07HXTFD8D",
+          "label": "Orange Whip (or the lower-cost SKLZ Gold Flex)",
+          "for": "Tempo — Best for Rhythm."
+        },
+        {
+          "asin": "B096XZCP7D",
+          "label": "Lag Shot (7-iron or driver)",
+          "for": "Tempo / Plane — Hit Real Shots."
+        },
+        {
+          "asin": "B0FWSFCXWY",
+          "label": "Impact / strike spray (dedicated golf spray, foot/odor spray, or dry shampoo)",
+          "for": "Impact — Most Honest Feedback."
+        }
+      ]
+    },
+    "posts/best-golf-wedges-under-100.html": {
+      "heading": "Where to buy the picks",
+      "seeded_from": "glance",
+      "items": [
+        {
+          "asin": "B0CP6KR7QL",
+          "label": "Cleveland CBX (CBX Zipcore / CBX line)",
+          "for": "Best Overall Value."
+        },
+        {
+          "asin": "B0BS5DBJ85",
+          "label": "Cleveland CBX Full-Face (Full-Face 2)",
+          "for": "For High Handicappers."
+        },
+        {
+          "asin": "B07NKDGVR6",
+          "label": "Lazrus Premium Forged Wedge (and 3-wedge set)",
+          "for": "Best Direct-to-Consumer Set."
+        }
+      ]
+    },
+    "posts/best-irons-for-beginners.html": {
+      "heading": "Where to buy the pick",
+      "seeded_from": "glance",
+      "items": [
+        {
+          "asin": "B0CP9V942J",
+          "label": "Cleveland Halo XL Full-Face Irons",
+          "for": "Best Overall for True Beginners."
+        },
+        {
+          "asin": "B0CP9WZWQ6",
+          "label": "TaylorMade Qi HL / Qi Max HL Irons",
+          "for": "Best Premium SGI."
+        }
+      ]
+    },
+    "posts/best-putters-for-the-yips.html": {
+      "heading": "Where to buy the pick",
+      "seeded_from": "glance",
+      "items": [
+        {
+          "asin": "B0DQZY14QF",
+          "label": "Odyssey Jailbird Cruiser (Ai-ONE / Square 2 Square Cruiser builds)",
+          "for": "Best Overall."
+        },
+        {
+          "asin": "B0DK2BJQKW",
+          "label": "Odyssey Ai-ONE Square 2 Square Jailbird Broomstick",
+          "for": "Best Broomstick Value."
+        }
+      ]
+    },
+    "posts/best-putting-mat-for-home.html": {
+      "heading": "Where to buy the picks",
+      "seeded_from": "glance",
+      "items": [
+        {
+          "asin": "B0789WHP89",
+          "label": "Wellputt Putting Mat (10 ft, 13 ft & longer)",
+          "for": "Best Training System — All-Rounder."
+        },
+        {
+          "asin": "B07YQ7935B",
+          "label": "Perfect Practice Putting Mat",
+          "for": "Best with Ball Return + Alignment."
+        },
+        {
+          "asin": "B013BYCKDQ",
+          "label": "SKLZ Accelerator Pro",
+          "for": "Best Budget Mat."
+        }
+      ]
+    },
+    "posts/best-womens-complete-golf-set.html": {
+      "heading": "Where to buy the picks",
+      "seeded_from": "glance",
+      "items": [
+        {
+          "asin": "B07H2CXV1Y",
+          "label": "Callaway Women's Strata Complete Set",
+          "for": "Best Overall Value / Best for Most Beginners."
+        },
+        {
+          "asin": "B0DC8D83JH",
+          "label": "Cobra Fly XL / Fly XL Speed Women's Complete Set",
+          "for": "For Forgiveness."
+        },
+        {
+          "asin": "B07HMYSS9C",
+          "label": "Wilson Profile SGI Women's Complete Set",
+          "for": "Best Budget / Best for Length Options."
+        },
+        {
+          "asin": "B0BS577JTP",
+          "label": "Cleveland Bloom Ladies Package Set",
+          "for": "Best Modern Beginner Package."
+        }
+      ]
+    },
+    "posts/cadet-vs-regular-golf-gloves.html": {
+      "heading": "Where to buy the picks",
+      "seeded_from": "glance",
+      "items": [
+        {
+          "asin": "B0CCK9CRGX",
+          "label": "FootJoy WeatherSof (Cadet sizes)",
+          "for": "Best Value / Easiest Cadet to Find."
+        },
+        {
+          "asin": "B0B9Q331TF",
+          "label": "FootJoy StaSof (Cadet sizes)",
+          "for": "Premium Tour Leather."
+        },
+        {
+          "asin": "B07WK3SHR7",
+          "label": "Titleist Players Glove (Cadet sizes)",
+          "for": "Premium Thin-Leather Feel."
+        },
+        {
+          "asin": "B0BKPCG7G9",
+          "label": "Callaway Weather Spann (Cadet sizes)",
+          "for": "Budget All-Weather Synthetic."
+        }
+      ]
+    },
+    "posts/callaway-strata-complete-set-review.html": {
+      "heading": "Where to buy the picks",
+      "seeded_from": "glance",
+      "items": [
+        {
+          "asin": "B07H2B8ZDK",
+          "label": "Callaway Strata Plus 14-Piece Complete Set",
+          "for": "Best Overall — Recommended Default."
+        },
+        {
+          "asin": "B07H2HQJR5",
+          "label": "Callaway Strata 12-Piece Complete Set",
+          "for": "Best Value / Lowest Entry Price."
+        },
+        {
+          "asin": "B07H2CKPJV",
+          "label": "Callaway Strata Ultimate 16-Piece Complete Set",
+          "for": "Most Clubs Out of the Box."
+        },
+        {
+          "asin": "B07H2CXV1Y",
+          "label": "Callaway Strata Women's Complete Set (11 / 14 / 16-Piece)",
+          "for": "For Women Beginners."
+        }
+      ]
+    },
+    "posts/cleveland-launcher-xl2-driver-review.html": {
+      "heading": "Where to buy the picks",
+      "seeded_from": "glance",
+      "items": [
+        {
+          "asin": "B0CP9VMBCV",
+          "label": "Cleveland Launcher XL2 Draw",
+          "for": "Best Overall for Slicers."
+        },
+        {
+          "asin": "B0CP9WFMJW",
+          "label": "Cleveland Launcher XL2 (standard)",
+          "for": "For Max Forgiveness (Mild Fade)."
+        },
+        {
+          "asin": "B09X8L56KF",
+          "label": "Wilson Launch Pad 2",
+          "for": "Strongest Dedicated Slice Fix."
+        },
+        {
+          "asin": "B08SMT9D5J",
+          "label": "Wilson D9",
+          "for": "Best True-Budget High-Launch Option."
+        }
+      ]
+    },
+    "posts/complete-golf-set-vs-buying-clubs-individually.html": {
+      "heading": "Where to buy the picks",
+      "seeded_from": "glance",
+      "items": [
+        {
+          "asin": "B07H2HQJR5",
+          "label": "Callaway Strata Complete Set",
+          "for": "Best Overall — Complete Set."
+        },
+        {
+          "asin": "B07HN3T2PB",
+          "label": "Wilson Profile SGI Complete Set",
+          "for": "For Fit — Women / Seniors / Custom Sizing."
+        },
+        {
+          "asin": "B0DC8D83JH",
+          "label": "Cobra Fly XL Complete Set",
+          "for": "For the Long Game — Extra Hybrids."
+        },
+        {
+          "asin": "B0D1BCKZTS",
+          "label": "Stix Golf (Play / Perform series)",
+          "for": "Best Modern Value — Direct-to-Consumer."
+        }
+      ]
+    },
+    "posts/driver-vs-3-wood-off-the-tee-high-handicapper.html": {
+      "heading": "Where to buy the pick",
+      "seeded_from": "glance",
+      "items": [
+        {
+          "asin": "B0DHWG48TN",
+          "label": "Callaway Elyte / Elyte Max",
+          "for": "Best to Grow Into."
+        },
+        {
+          "asin": "B0CP9WFMJW",
+          "label": "Cleveland Launcher XL2 (and Launcher HB family)",
+          "for": "Best Budget Slice-Fighter."
+        }
+      ]
+    },
+    "posts/golf-ball-buyers-guide.html": {
+      "heading": "Where to buy the picks",
+      "seeded_from": "glance",
+      "items": [
+        {
+          "asin": "B0DPN7QZ9R",
+          "label": "Titleist Pro V1",
+          "for": "Best Overall."
+        },
+        {
+          "asin": "B0C54GXFQ8",
+          "label": "Kirkland Signature",
+          "for": "Best Value Tour Ball."
+        },
+        {
+          "asin": "B08QSL9XQW",
+          "label": "TaylorMade Distance+",
+          "for": "For Maximum Distance."
+        },
+        {
+          "asin": "B0DSJN58C2",
+          "label": "Srixon Soft Feel",
+          "for": "For Slow Swing Speeds."
+        }
+      ]
+    },
+    "posts/golf-grip-size-chart.html": {
+      "heading": "Where to buy the picks",
+      "seeded_from": "glance",
+      "items": [
+        {
+          "asin": "B0039IIGJ2",
+          "label": "Golf Pride Tour Velvet (incl. Tour Velvet 360)",
+          "for": "Best Overall Baseline."
+        },
+        {
+          "asin": "B00SZFMBNG",
+          "label": "Golf Pride MCC Plus4",
+          "for": "Best Between Sizes."
+        },
+        {
+          "asin": "B01B7MM386",
+          "label": "Lamkin Crossline (and Crossline Cord)",
+          "for": "For Traction."
+        },
+        {
+          "asin": "B00FEID2OE",
+          "label": "Winn Dri-Tac",
+          "for": "For Comfort."
+        }
+      ]
+    },
+    "posts/golf-rangefinder-slope-vs-non-slope.html": {
+      "heading": "Where to buy the picks",
+      "seeded_from": "glance",
+      "items": [
+        {
+          "asin": "B0C4TNKZFG",
+          "label": "Bushnell Tour V6 Shift",
+          "for": "Best Overall (Toggle Slope, Mid-Price)."
+        },
+        {
+          "asin": "B0CZ7MGYXB",
+          "label": "Bushnell Pro X3+",
+          "for": "Premium / Flagship (Locking Slope Switch)."
+        },
+        {
+          "asin": "B0BJNVPVLK",
+          "label": "Precision Pro NX10 Slope",
+          "for": "Best Value With Toggle Slope."
+        },
+        {
+          "asin": "B0BZLFMSD6",
+          "label": "Shot Scope Pro L2",
+          "for": "Affordable Slope-Compensation Pick."
+        }
+      ]
+    },
+    "posts/graphite-vs-steel-shafts-for-irons.html": {
+      "heading": "Where to buy the picks",
+      "seeded_from": "glance",
+      "items": [
+        {
+          "asin": "B0C6FSZNY4",
+          "label": "True Temper Dynamic Gold (steel)",
+          "for": "Benchmark Tour Steel."
+        },
+        {
+          "asin": "B075MSZPRG",
+          "label": "KBS Tour (steel)",
+          "for": "Mid-Launch Steel Alternative."
+        },
+        {
+          "asin": "B00OREIBTC",
+          "label": "Nippon N.S. Pro 850GH / 850 Neo (lightweight steel)",
+          "for": "Lightweight Steel Bridge."
+        },
+        {
+          "asin": "B07R6PWCVM",
+          "label": "UST Mamiya Recoil (graphite)",
+          "for": "Popular All-Around Graphite."
+        }
+      ]
+    },
+    "posts/handheld-golf-gps-vs-phone-app.html": {
+      "heading": "Where to buy the picks",
+      "seeded_from": "glance",
+      "items": [
+        {
+          "asin": "B0D861LCTS",
+          "label": "Bushnell Phantom 3 Slope",
+          "for": "Best Overall Handheld."
+        },
+        {
+          "asin": "B08X1M9CT8",
+          "label": "Garmin Approach G12",
+          "for": "For Minimalists."
+        },
+        {
+          "asin": "B0DRZ2C4PM",
+          "label": "Garmin Approach G20 Solar",
+          "for": "Best Battery Life, Period."
+        },
+        {
+          "asin": "B0GP7R7QR9",
+          "label": "Shot Scope H50",
+          "for": "Best Big-Screen Value."
+        }
+      ]
+    },
+    "posts/how-many-clubs-does-a-beginner-need.html": {
+      "heading": "Where to buy the picks",
+      "seeded_from": "glance",
+      "items": [
+        {
+          "asin": "B07H2HQJR5",
+          "label": "Callaway Strata Complete Set (12-Piece)",
+          "for": "Best Overall — Complete Set."
+        },
+        {
+          "asin": "B07HN3T2PB",
+          "label": "Wilson Profile SGI Complete Set",
+          "for": "Best Value — Maximum Forgiveness."
+        },
+        {
+          "asin": "B0CP6KR7QL",
+          "label": "Cleveland CBX (Cavity-Back Wedge)",
+          "for": "Best First Wedge to Add."
+        }
+      ]
+    },
+    "posts/how-to-clean-golf-clubs.html": {
+      "heading": "Where to buy the picks",
+      "seeded_from": "glance",
+      "items": [
+        {
+          "asin": "B08LP3MY54",
+          "label": "Frogger BrushPro Golf Club Cleaner",
+          "for": "Best Overall Brush."
+        },
+        {
+          "asin": "B09W86KL4J",
+          "label": "GrooveIt Brush (\"The Wet Club Scrub\")",
+          "for": "For Wet Conditions."
+        },
+        {
+          "asin": "B09B5CTHGB",
+          "label": "Microfiber Waffle-Weave Golf Towel",
+          "for": "Most Essential Item."
+        },
+        {
+          "asin": "B08LPXZD2B",
+          "label": "ToVii Golf Towel and Brush Kit",
+          "for": "Best Budget Kit."
+        }
+      ]
+    },
+    "posts/how-to-organize-golf-bag.html": {
+      "heading": "Where to buy the picks",
+      "seeded_from": "glance",
+      "items": [
+        {
+          "asin": "B0FR2D4KSC",
+          "label": "Sun Mountain C-130 Cart Bag",
+          "for": "Best Cart Bag."
+        },
+        {
+          "asin": "B0CFBWR26D",
+          "label": "Sun Mountain 2.5+ Stand Bag",
+          "for": "Best Ultralight for Walkers."
+        },
+        {
+          "asin": "B0B23C2DZQ",
+          "label": "Sunday Golf El Camino Stand Bag",
+          "for": "Best Minimalist Bag."
+        }
+      ]
+    },
+    "posts/how-to-regrip-golf-clubs-at-home.html": {
+      "heading": "Where to buy the picks",
+      "seeded_from": "glance",
+      "items": [
+        {
+          "asin": "B0039IIGJ2",
+          "label": "Golf Pride Tour Velvet (and Tour Velvet 360)",
+          "for": "Best Grip for First-Timers."
+        },
+        {
+          "asin": "B00SZFMBNG",
+          "label": "Golf Pride MCC Plus4",
+          "for": "Best Premium Hybrid."
+        },
+        {
+          "asin": "B01B7MM386",
+          "label": "Lamkin Crossline",
+          "for": "Best Value Grip."
+        },
+        {
+          "asin": "B00FEID2OE",
+          "label": "Winn Dri-Tac",
+          "for": "Best Soft/Tacky Grip."
+        }
+      ]
+    },
+    "posts/mallet-vs-blade-putter.html": {
+      "heading": "Where to buy the picks",
+      "seeded_from": "glance",
+      "items": [
+        {
+          "asin": "B0CH1P8QKF",
+          "label": "TaylorMade Spider Tour",
+          "for": "Best High-Forgiveness Mallet for a Straight Stroke."
+        },
+        {
+          "asin": "B0CJ419BYK",
+          "label": "Odyssey Ai-ONE family (blade, mid-mallet, full mallet)",
+          "for": "Best One-Line-Fits-Both / Soft Insert Feel."
+        },
+        {
+          "asin": "B0CP9T2FKB",
+          "label": "Cleveland Huntington Beach SOFT (milled face)",
+          "for": "Best Traditional Blade for Feel & Arc Strokes."
+        }
+      ]
+    },
+    "posts/push-cart-3-wheel-vs-4-wheel.html": {
+      "heading": "Where to buy the pick",
+      "seeded_from": "glance",
+      "items": [
+        {
+          "asin": "B0FM2W8M21",
+          "label": "Bag Boy Nitron",
+          "for": "Easiest to Use (Best Auto-Open 3-Wheel)."
+        },
+        {
+          "asin": "B09BVZHMNT",
+          "label": "Sun Mountain Pathfinder PX4",
+          "for": "Best 4-Wheel for Stability."
+        }
+      ]
+    },
+    "posts/senior-flex-vs-regular-flex-shaft.html": {
+      "heading": "Where to buy the picks",
+      "seeded_from": "glance",
+      "items": [
+        {
+          "asin": "B0FDHTKRLR",
+          "label": "UST Mamiya Helium Nanocore (Senior/A)",
+          "for": "For Maximum Launch (A Flex)."
+        },
+        {
+          "asin": "B0GVPW5QK7",
+          "label": "Mitsubishi Chemical Vanquish / C6 Red (R2 / A)",
+          "for": "For Feel + Slice Help."
+        },
+        {
+          "asin": "B0CRJSQRLC",
+          "label": "Fujikura Ventus (R2 / lighter weights)",
+          "for": "For the Overlap Zone."
+        }
+      ]
+    },
+    "posts/soft-vs-distance-golf-balls.html": {
+      "heading": "Where to buy the picks",
+      "seeded_from": "glance",
+      "items": [
+        {
+          "asin": "B0DHT5XZR1",
+          "label": "Callaway Supersoft",
+          "for": "Softest Feel / Value Soft Ball."
+        },
+        {
+          "asin": "B0FY3QKQ16",
+          "label": "Titleist TruFeel",
+          "for": "Value Soft Ball (Alternative)."
+        },
+        {
+          "asin": "B0DVTF4LD4",
+          "label": "Bridgestone e6 Soft",
+          "for": "Soft + Straight Value Ball."
+        },
+        {
+          "asin": "B0FY3Q4B8W",
+          "label": "Titleist Velocity",
+          "for": "Distance Ball (The Counterpoint)."
+        }
+      ]
+    },
+    "posts/spikeless-vs-spiked-golf-shoes.html": {
+      "heading": "Where to buy the pick",
+      "seeded_from": "glance",
+      "items": [
+        {
+          "asin": "B0C66WX7MR",
+          "label": "adidas Tour360",
+          "for": "Best Spiked Overall."
+        },
+        {
+          "asin": "B0CF65RTZW",
+          "label": "FootJoy Tour Alpha / HyperFlex",
+          "for": "Best Spiked for Stability & Weather."
+        }
+      ]
+    },
+    "posts/stand-bag-vs-cart-bag.html": {
+      "heading": "Where to buy the pick",
+      "seeded_from": "glance",
+      "items": [
+        {
+          "asin": "B0FR2D4KSC",
+          "label": "Sun Mountain C-130 (C-Series)",
+          "for": "Best Cart Bag Overall."
+        },
+        {
+          "asin": "B0D9R3B5HT",
+          "label": "Callaway ORG 14",
+          "for": "Best Cart Bag for Organization."
+        }
+      ]
     }
   }
 }
