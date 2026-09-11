@@ -6,7 +6,7 @@
     <atom:link href="https://mulliganmemo.com/feed.xml" rel="self" type="application/rss+xml" />
     <description>Honest golf gear reviews and buying guides — clubs, balls, tech, and accessories.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 11 Sep 2026 21:11:25 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 11 Sep 2026 21:23:01 GMT</lastBuildDate>
     <item>
       <title>Golf Ball Position Chart: Where Each Club Goes, and Why the Teachers Disagree</title>
       <link>https://mulliganmemo.com/posts/golf-ball-position-chart.html</link>
@@ -24,12 +24,20 @@
       <description>Ball speed is club speed times smash factor. The chart, TrackMan&apos;s real amateur rows by handicap, and why the tour and age figures you see online do not match.</description>
     </item>
     <item>
+      <title>Golf Grip Weight Chart: What Each Maker Publishes, and What a Regrip Does to Swing Weight</title>
+      <link>https://mulliganmemo.com/posts/golf-grip-weight-chart.html</link>
+      <guid isPermaLink="true">https://mulliganmemo.com/posts/golf-grip-weight-chart.html</guid>
+      <category>Golf Accessories</category>
+      <pubDate>Fri, 11 Sep 2026 12:00:00 GMT</pubDate>
+      <description>A standard grip is 22 g at Winn&apos;s lightest and 51.5 g at Golf Pride. Every published weight in one chart, plus a calculator for what your regrip does to swing weight under the two rules the makers use.</description>
+    </item>
+    <item>
       <title>Golf Shoe Size Chart: What Each Maker Publishes, and How to Switch Brands</title>
       <link>https://mulliganmemo.com/posts/golf-shoe-size-chart.html</link>
       <guid isPermaLink="true">https://mulliganmemo.com/posts/golf-shoe-size-chart.html</guid>
       <category>Golf Accessories</category>
       <pubDate>Fri, 11 Sep 2026 12:00:00 GMT</pubDate>
-      <description>A 28 cm foot is a US 10 at FootJoy and New Balance, an 11 at adidas and G/FORE, and a 44 at ECCO. Every maker&apos;s own chart side by side, plus the only published brand-switch rule.</description>
+      <description>A 28 cm foot is a US 10 at FootJoy, New Balance and SQAIRZ, an 11 at adidas, and an EU 44 at ECCO. Five makers&apos; own charts side by side, plus SQAIRZ&apos;s published brand-switch rule.</description>
     </item>
     <item>
       <title>Golf Tee Height Chart: Tee Length, Playing Height, and What the Makers Publish</title>
@@ -37,7 +45,7 @@
       <guid isPermaLink="true">https://mulliganmemo.com/posts/golf-tee-height-chart.html</guid>
       <category>Golf Accessories</category>
       <pubDate>Fri, 11 Sep 2026 12:00:00 GMT</pubDate>
-      <description>Tee makers sell length. You play height. Only two of them publish the difference. The chart of every published tee size, the half-the-ball rule, and the two robot tests that disagree on the best height.</description>
+      <description>Tee makers sell length. You play height. Only one publishes the difference. Every published tee size in one chart, the half-the-ball rule with the arithmetic behind it, and what the two published tests actually found.</description>
     </item>
     <item>
       <title>Golf Iron Fitting Chart: What Each Maker Actually Measures</title>

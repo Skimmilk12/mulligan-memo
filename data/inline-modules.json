@@ -1339,6 +1339,29 @@
           "for": "Best Cart Bag for Organization."
         }
       ]
+    },
+    "posts/golf-grip-weight-chart.html": {
+      "heading": "The grips in the chart",
+      "items": [
+        {
+          "asin": "B00FEID2OE",
+          "label": "Winn Dri-Tac, standard",
+          "for": "48 g by Winn's spec. The light, soft option that most regrips end up comparing against.",
+          "note": "Sold as a single grip. A full set is 13."
+        },
+        {
+          "asin": "B00HSRVBOM",
+          "label": "Golf Pride CP2 Wrap, standard",
+          "for": "51.5 g by Golf Pride's table. Three and a half grams heavier than the Dri-Tac, under one swing weight point.",
+          "note": "Sold as a single grip."
+        },
+        {
+          "asin": "B006GFE4NM",
+          "label": "Winn Dri-Tac Oversize",
+          "for": "50 g. The oversize that costs you two grams, not thirty.",
+          "note": "Sold as a single grip."
+        }
+      ]
     }
   }
 }
