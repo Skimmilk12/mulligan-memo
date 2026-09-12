@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-09-11T14:26:27.240Z",
- "date": "2026-09-11",
+ "generated_at": "2026-09-12T13:36:54.668Z",
+ "date": "2026-09-12",
  "sources": [
   {
    "retailer": "PlayBetter",
@@ -2457,6 +2457,17 @@
   },
   {
    "retailer": "PlayBetter",
+   "title": "Blue Tees Captain Pro Golf Rangefinder",
+   "vendor": "Blue Tees Golf",
+   "type": "Golf Rangefinder",
+   "price": 249,
+   "compare_at": 299,
+   "pct_off": 17,
+   "available": true,
+   "url": "https://www.playbetter.com/products/blue-tees-captain-pro-golf-rangefinder"
+  },
+  {
+   "retailer": "PlayBetter",
    "title": "Blue Tees Golf Rainmaker Portable Golf Launch Monitor & Simulator",
    "vendor": "Blue Tees Golf",
    "type": "Golf Launch Monitor & Simulator",
@@ -2776,10 +2787,10 @@
   },
   {
    "retailer": "Shop Indoor Golf",
-   "title": "Big Moss TW Series 15 V2 Putting Green & Chipping Mat",
+   "title": "Big Moss TW Series 15 Putting Green & Chipping Mat",
    "vendor": "Big Moss",
    "type": "Putting Green",
-   "price": 259,
+   "price": 258,
    "compare_at": 308,
    "pct_off": 16,
    "available": true,
@@ -3183,7 +3194,7 @@
   },
   {
    "retailer": "Shop Indoor Golf",
-   "title": "Big Moss Competitor V2 Putting Green & Chipping Mat",
+   "title": "Big Moss Competitor Putting Green & Chipping Mat",
    "vendor": "Big Moss",
    "type": "Putting Green",
    "price": 199,
@@ -3216,7 +3227,7 @@
   },
   {
    "retailer": "Shop Indoor Golf",
-   "title": "Big Moss TW Series 12 V2 Putting Green & Chipping Mat",
+   "title": "Big Moss TW Series 12 Putting Green & Chipping Mat",
    "vendor": "Big Moss",
    "type": "Putting Green",
    "price": 219,
