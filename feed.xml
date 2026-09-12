@@ -6,7 +6,7 @@
     <atom:link href="https://mulliganmemo.com/feed.xml" rel="self" type="application/rss+xml" />
     <description>Honest golf gear reviews and buying guides — clubs, balls, tech, and accessories.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 11 Sep 2026 21:23:01 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 12 Sep 2026 01:36:51 GMT</lastBuildDate>
     <item>
       <title>Golf Ball Position Chart: Where Each Club Goes, and Why the Teachers Disagree</title>
       <link>https://mulliganmemo.com/posts/golf-ball-position-chart.html</link>
@@ -46,6 +46,14 @@
       <category>Golf Accessories</category>
       <pubDate>Fri, 11 Sep 2026 12:00:00 GMT</pubDate>
       <description>Tee makers sell length. You play height. Only one publishes the difference. Every published tee size in one chart, the half-the-ball rule with the arithmetic behind it, and what the two published tests actually found.</description>
+    </item>
+    <item>
+      <title>Srixon Soft Feel vs Callaway Supersoft: What the Makers Publish, and What the Robot Found</title>
+      <link>https://mulliganmemo.com/posts/srixon-soft-feel-vs-callaway-supersoft.html</link>
+      <guid isPermaLink="true">https://mulliganmemo.com/posts/srixon-soft-feel-vs-callaway-supersoft.html</guid>
+      <category>Golf Balls</category>
+      <pubDate>Fri, 11 Sep 2026 12:00:00 GMT</pubDate>
+      <description>Srixon prints a compression number, Callaway does not, and the gauges say 41 to 47 for the Supersoft. Both balls, spec by spec, with the maker claims set against MyGolfSpy&apos;s robot tests.</description>
     </item>
     <item>
       <title>Golf Iron Fitting Chart: What Each Maker Actually Measures</title>

@@ -1377,6 +1377,23 @@
           "for": "Same length in plastic, for people who break wooden ones."
         }
       ]
+    },
+    "posts/srixon-soft-feel-vs-callaway-supersoft.html": {
+      "heading": "The two balls",
+      "items": [
+        {
+          "asin": "B0DSJN58C2",
+          "label": "Srixon Soft Feel 14",
+          "for": "The one with a published number: 58 compression, on the sheet and on the listing.",
+          "note": "Also sold as Lady (56) and in Brite colours."
+        },
+        {
+          "asin": "B0DHT5XZR1",
+          "label": "Callaway Supersoft 2025",
+          "for": "The softer ball by every gauge, and the longer one at slow driver speeds in the 2025 robot test.",
+          "note": "Callaway publishes no compression figure."
+        }
+      ]
     }
   }
 }
