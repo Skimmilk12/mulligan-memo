@@ -1362,6 +1362,21 @@
           "note": "Sold as a single grip."
         }
       ]
+    },
+    "posts/golf-tee-height-chart.html": {
+      "heading": "The tees in the chart",
+      "items": [
+        {
+          "asin": "B0055NRJLA",
+          "label": "Pride PTS wood tees, 3 1/4 inch, 135 count",
+          "for": "The maker that puts 460cc drivers on the 3 1/4. The colour band marks the depth."
+        },
+        {
+          "asin": "B003UI6R4W",
+          "label": "Pride PTS plastic tees, 3 1/4 inch, 30 count",
+          "for": "Same length in plastic, for people who break wooden ones."
+        }
+      ]
     }
   }
 }
