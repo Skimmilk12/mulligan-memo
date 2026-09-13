@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-12T13:37:47.525Z",
+  "generated_at": "2026-09-13T14:24:26.001Z",
   "products": [
     {
       "product_id": "prd_c8682e21-a1ee-4c80-a16e-7c544c11caf4",
@@ -67,7 +67,7 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-08T23:47:41.248Z",
-      "last_seen": "2026-09-12T13:37:47.525Z",
+      "last_seen": "2026-09-13T14:24:26.001Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
@@ -128,12 +128,12 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-08T23:47:41.248Z",
-      "last_seen": "2026-09-12T13:37:47.525Z",
+      "last_seen": "2026-09-13T14:24:26.001Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
           "item_group_id": "7763613155552",
-          "url": "https://sqairz.com/products/freedom-mesh?variant=44071184466144",
+          "url": "https://sqairz.com/products/freedom-mesh?variant=44071184531680",
           "display_title": "Sqairz Freedom™ Mesh Blackberry",
           "variants": [
             {
@@ -199,7 +199,7 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-08T23:47:41.248Z",
-      "last_seen": "2026-09-12T13:37:47.525Z",
+      "last_seen": "2026-09-13T14:24:26.001Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
@@ -265,7 +265,7 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-08T23:47:41.248Z",
-      "last_seen": "2026-09-12T13:37:47.525Z",
+      "last_seen": "2026-09-13T14:24:26.001Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
@@ -336,12 +336,12 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-08T23:47:41.248Z",
-      "last_seen": "2026-09-12T13:37:47.525Z",
+      "last_seen": "2026-09-13T14:24:26.001Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
           "item_group_id": "7763604832480",
-          "url": "https://sqairz.com/products/speed-mesh?variant=43150732591328",
+          "url": "https://sqairz.com/products/speed-mesh?variant=44370434883808",
           "display_title": "Sqairz Speed™ Mesh",
           "variants": [
             {
@@ -654,12 +654,12 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-15T10:40:28.587Z",
-      "last_seen": "2026-09-12T13:37:47.525Z",
+      "last_seen": "2026-09-13T14:24:26.001Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
           "item_group_id": "8038823133408",
-          "url": "https://sqairz.com/products/freedom™-ultra?variant=46794973642976",
+          "url": "https://sqairz.com/products/freedom™-ultra?variant=46798532083936",
           "display_title": "Sqairz Freedom™ Ultra",
           "variants": [
             {
@@ -680,7 +680,7 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-15T10:40:28.587Z",
-      "last_seen": "2026-09-12T13:37:47.525Z",
+      "last_seen": "2026-09-13T14:24:26.001Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
@@ -741,12 +741,12 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-15T10:40:28.587Z",
-      "last_seen": "2026-09-12T13:37:47.525Z",
+      "last_seen": "2026-09-13T14:24:26.001Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
           "item_group_id": "8608562217184",
-          "url": "https://sqairz.com/products/the-wave-mens-limited-edition?variant=45963714461920",
+          "url": "https://sqairz.com/products/the-wave-mens-limited-edition?variant=45963714429152",
           "display_title": "Sqairz Wave Limited Edition",
           "variants": [
             {
@@ -792,7 +792,7 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-15T10:40:28.587Z",
-      "last_seen": "2026-09-12T13:37:47.525Z",
+      "last_seen": "2026-09-13T14:24:26.001Z",
       "bindings": [
         {
           "retailer": "Cobra Golf",
@@ -883,7 +883,7 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-15T10:40:28.587Z",
-      "last_seen": "2026-09-12T13:37:47.525Z",
+      "last_seen": "2026-09-13T14:24:26.001Z",
       "bindings": [
         {
           "retailer": "Cobra Golf",
@@ -1020,12 +1020,12 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-16T10:41:14.060Z",
-      "last_seen": "2026-09-10T14:27:47.268Z",
+      "last_seen": "2026-09-13T14:24:26.001Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
           "item_group_id": "8803005432032",
-          "url": "https://sqairz.com/products/freedom-micro-1?variant=46883955015904",
+          "url": "https://sqairz.com/products/freedom-micro-1?variant=46883955441888",
           "display_title": "Sqairz Freedom™ Micro",
           "variants": [
             {
@@ -1042,6 +1042,11 @@
               "gtin": "810032396572",
               "mpn": "39657",
               "feed_title": "FREEDOM™ Micro White & Navy / 6 - SQAIRZ"
+            },
+            {
+              "gtin": "810032396503",
+              "mpn": "39650",
+              "feed_title": "FREEDOM™ Micro White & Light Blue / 7.5 - SQAIRZ"
             }
           ]
         }

@@ -1,21 +1,21 @@
 {
- "generated_at": "2026-09-12T13:36:54.668Z",
- "date": "2026-09-12",
+ "generated_at": "2026-09-13T14:23:39.792Z",
+ "date": "2026-09-13",
  "sources": [
   {
    "retailer": "PlayBetter",
    "status": "ok",
-   "on_sale_items": 247
+   "on_sale_items": 263
   },
   {
    "retailer": "Shop Indoor Golf",
    "status": "ok",
-   "on_sale_items": 266
+   "on_sale_items": 269
   },
   {
    "retailer": "Rain or Shine Golf",
    "status": "ok",
-   "on_sale_items": 98
+   "on_sale_items": 99
   },
   {
    "retailer": "Top Shelf Golf",
@@ -177,17 +177,6 @@
    "pct_off": 50,
    "available": true,
    "url": "https://www.playbetter.com/products/blue-tees-golf-playmaker-gps-golf-watch"
-  },
-  {
-   "retailer": "PlayBetter",
-   "title": "Polar Grit X Rugged Outdoor Watch",
-   "vendor": "Polar",
-   "type": "Outdoor GPS Watch",
-   "price": 229.98,
-   "compare_at": 459.95,
-   "pct_off": 50,
-   "available": true,
-   "url": "https://www.playbetter.com/products/polar-grit-x-rugged-outdoor-watch"
   },
   {
    "retailer": "PlayBetter",
@@ -1170,6 +1159,17 @@
   },
   {
    "retailer": "PlayBetter",
+   "title": "Garmin Edge MTB Advanced GPS Mountain Bike Computer",
+   "vendor": "Garmin",
+   "type": "GPS Bike Computer",
+   "price": 299.99,
+   "compare_at": 399.99,
+   "pct_off": 25,
+   "available": true,
+   "url": "https://www.playbetter.com/products/garmin-edge-mtb-mountain-bike-computer"
+  },
+  {
+   "retailer": "PlayBetter",
    "title": "Foresight QuadMAX Golf Launch Monitor & Simulator (Certified Pre-Owned)",
    "vendor": "Foresight Sports",
    "type": "Golf Launch Monitor & Simulator",
@@ -1302,6 +1302,17 @@
   },
   {
    "retailer": "Rain or Shine Golf",
+   "title": "Garmin Approach R50 SwingBay",
+   "vendor": "Garmin",
+   "type": "Golf Simulator Package",
+   "price": 7998.99,
+   "compare_at": 10525,
+   "pct_off": 24,
+   "available": true,
+   "url": "https://rainorshinegolf.com/products/garmin-approach-r50-swingbay-golf-simulator-package"
+  },
+  {
+   "retailer": "Rain or Shine Golf",
    "title": "Bushnell LPi SwingBay",
    "vendor": "Bushnell Golf",
    "type": "Golf Simulator Package",
@@ -1376,6 +1387,17 @@
    "pct_off": 23,
    "available": true,
    "url": "https://www.playbetter.com/products/playbetter-simstudio-essentials-golf-simulator-studio-package"
+  },
+  {
+   "retailer": "PlayBetter",
+   "title": "Garmin vivoactive 6 Fitness GPS Smartwatch",
+   "vendor": "Garmin",
+   "type": "Fitness GPS Watch",
+   "price": 229.99,
+   "compare_at": 299.99,
+   "pct_off": 23,
+   "available": true,
+   "url": "https://www.playbetter.com/products/garmin-vivoactive-6-fitness-gps-smartwatch"
   },
   {
    "retailer": "PlayBetter",
@@ -1972,6 +1994,17 @@
    "url": "https://www.playbetter.com/products/garmin-xero-c1-pro-chronograph"
   },
   {
+   "retailer": "PlayBetter",
+   "title": "Garmin Lily 2 Fitness Smartwatch for Women",
+   "vendor": "Garmin",
+   "type": "Fitness Bands & Trackers",
+   "price": 199.99,
+   "compare_at": 249.99,
+   "pct_off": 20,
+   "available": true,
+   "url": "https://www.playbetter.com/products/garmin-lily-2-fitness-smartwatch-for-women"
+  },
+  {
    "retailer": "Shop Indoor Golf",
    "title": "Uneekor EYE Mini LITE SIG DIY Golf Simulator Studio Package",
    "vendor": "Uneekor",
@@ -2259,17 +2292,6 @@
   },
   {
    "retailer": "Rain or Shine Golf",
-   "title": "Garmin Approach R50 SwingBay",
-   "vendor": "Garmin",
-   "type": "Golf Simulator Package",
-   "price": 8498.99,
-   "compare_at": 10525,
-   "pct_off": 19,
-   "available": true,
-   "url": "https://rainorshinegolf.com/products/garmin-approach-r50-swingbay-golf-simulator-package"
-  },
-  {
-   "retailer": "Rain or Shine Golf",
    "title": "Square Golf SwingBay",
    "vendor": "Square Golf",
    "type": "Golf Simulator Package",
@@ -2479,6 +2501,17 @@
   },
   {
    "retailer": "PlayBetter",
+   "title": "Garmin Bounce 2 Kids GPS Smartwatch",
+   "vendor": "Garmin",
+   "type": "Fitness GPS Watch",
+   "price": 249.99,
+   "compare_at": 299.99,
+   "pct_off": 17,
+   "available": true,
+   "url": "https://www.playbetter.com/products/garmin-bounce-2-kids-gps-smartwatch"
+  },
+  {
+   "retailer": "PlayBetter",
    "title": "Swing Caddie SC4 PRO with PlayBetter SimStudio™ COMPLETE Package | Golf Simulator Studio with Impact Screen, Enclosure, Side Barriers, Hitting/Putting Mats, & Projector",
    "vendor": "Voice Caddie",
    "type": "Golf Simulator Studio Package",
@@ -2501,6 +2534,17 @@
   },
   {
    "retailer": "PlayBetter",
+   "title": "Garmin Approach S44 Golf GPS Watch",
+   "vendor": "Garmin",
+   "type": "Golf GPS Watch",
+   "price": 249.99,
+   "compare_at": 299.99,
+   "pct_off": 17,
+   "available": true,
+   "url": "https://www.playbetter.com/products/garmin-approach-s44-golf-gps-watch"
+  },
+  {
+   "retailer": "PlayBetter",
    "title": "Square Golf with PlayBetter SimStudio™ COMPLETE Package | Golf Simulator Studio with Impact Screen, Enclosure, Side Barriers, Hitting/Putting Mats, & Projector",
    "vendor": "Square Golf",
    "type": "Golf Simulator Studio Package",
@@ -2509,6 +2553,17 @@
    "pct_off": 17,
    "available": true,
    "url": "https://www.playbetter.com/products/square-golf-simulator-launch-monitor-home-studio-package"
+  },
+  {
+   "retailer": "PlayBetter",
+   "title": "Garmin Lily 2 Active Women's Fitness Smartwatch",
+   "vendor": "Garmin",
+   "type": "Fitness Bands & Trackers",
+   "price": 249.99,
+   "compare_at": 299.99,
+   "pct_off": 17,
+   "available": true,
+   "url": "https://www.playbetter.com/products/garmin-lily-2-active-womens-fitness-smartwatch"
   },
   {
    "retailer": "PlayBetter",
@@ -2721,6 +2776,17 @@
   },
   {
    "retailer": "PlayBetter",
+   "title": "Garmin Approach R50 with PlayBetter SimStudio™ BYO (Build Your Own) Package – Custom Home Golf Simulator Studio Builder with Impact Screen, Enclosure, Optional Mats, Projector & More",
+   "vendor": "Garmin",
+   "type": "Golf Simulator Studio Package",
+   "price": 6694.99,
+   "compare_at": 7994.99,
+   "pct_off": 16,
+   "available": true,
+   "url": "https://www.playbetter.com/products/garmin-approach-r50-playbetter-simstudio-byo-home-golf-studio-package"
+  },
+  {
+   "retailer": "PlayBetter",
    "title": "Uneekor EYE MINI SportScreen Vanish Retractable Golf Studio Complete Package | Home Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Putting Turf & Projector",
    "vendor": "SportScreen",
    "type": "Retractable Golf Simulator Studio Package",
@@ -2729,6 +2795,17 @@
    "pct_off": 16,
    "available": true,
    "url": "https://www.playbetter.com/products/uneekor-eye-mini-sportscreen-vanish-retractable-golf-studio-complete-package"
+  },
+  {
+   "retailer": "Shop Indoor Golf",
+   "title": "Garmin Approach R50 SIG DIY Golf Simulator Studio Package",
+   "vendor": "Garmin",
+   "type": "Golf Simulator",
+   "price": 5299.99,
+   "compare_at": 6299.99,
+   "pct_off": 16,
+   "available": true,
+   "url": "https://shopindoorgolf.com/products/garmin-approach-r50-sig-diy-golf-simulator-studio-package"
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -2842,6 +2919,17 @@
   },
   {
    "retailer": "PlayBetter",
+   "title": "Garmin Approach R50 with PlayBetter SimStudio™ ESSENTIALS Package | Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat & Projector",
+   "vendor": "Garmin",
+   "type": "Golf Simulator Studio Package",
+   "price": 7194.99,
+   "compare_at": 8494.99,
+   "pct_off": 15,
+   "available": true,
+   "url": "https://www.playbetter.com/products/garmin-approach-r50-home-golf-simulator-essentials-studio-package"
+  },
+  {
+   "retailer": "PlayBetter",
    "title": "Uneekor EYE XO2 with PlayBetter SimStudio™ COMPLETE Package | Golf Simulator Studio with Impact Screen, Enclosure, Side Barriers, Hitting/Putting Mats & Projector",
    "vendor": "Uneekor",
    "type": "Golf Simulator Studio Package",
@@ -2850,6 +2938,17 @@
    "pct_off": 15,
    "available": true,
    "url": "https://www.playbetter.com/products/uneekor-eye-xo2-front-overhead-golf-launch-monitor-simulator-studio-package"
+  },
+  {
+   "retailer": "PlayBetter",
+   "title": "Garmin Approach S70 Golf GPS Smartwatch",
+   "vendor": "Garmin",
+   "type": "Golf GPS Watch",
+   "price": 549.99,
+   "compare_at": 649.99,
+   "pct_off": 15,
+   "available": true,
+   "url": "https://www.playbetter.com/products/garmin-approach-s70-gps-golf-smartwatch"
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -3015,6 +3114,17 @@
    "pct_off": 15,
    "available": true,
    "url": "https://shopindoorgolf.com/products/front-golf-mat-extension"
+  },
+  {
+   "retailer": "Shop Indoor Golf",
+   "title": "Garmin Approach S70 Golf Watch",
+   "vendor": "Garmin",
+   "type": "Golf Watch",
+   "price": 549.99,
+   "compare_at": 649.99,
+   "pct_off": 15,
+   "available": true,
+   "url": "https://shopindoorgolf.com/products/garmin-approach-s70-golf-watch"
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -3315,6 +3425,17 @@
   },
   {
    "retailer": "PlayBetter",
+   "title": "Garmin Approach R50 with PlayBetter SimStudio™ COMPLETE Package | Golf Simulator Studio with Impact Screen, Enclosure, Side Barriers, Hitting/Putting Mats, Projector & Wireless HDMI Transmitter",
+   "vendor": "Garmin",
+   "type": "Golf Simulator Studio Package",
+   "price": 7694.99,
+   "compare_at": 8994.99,
+   "pct_off": 14,
+   "available": true,
+   "url": "https://www.playbetter.com/products/garmin-approach-r50-home-golf-simulator-studio-package"
+  },
+  {
+   "retailer": "PlayBetter",
    "title": "COROS PACE Pro GPS Sport Watch",
    "vendor": "COROS",
    "type": "",
@@ -3534,6 +3655,17 @@
    "url": "https://www.playbetter.com/products/uneekor-eye-xo2-golf-launch-monitor"
   },
   {
+   "retailer": "PlayBetter",
+   "title": "Garmin Approach S50 Golf GPS Watch",
+   "vendor": "Garmin",
+   "type": "Golf GPS Watch",
+   "price": 349.99,
+   "compare_at": 399.99,
+   "pct_off": 13,
+   "available": true,
+   "url": "https://www.playbetter.com/products/garmin-approach-s50-golf-gps-watch"
+  },
+  {
    "retailer": "Shop Indoor Golf",
    "title": "EPSON PowerLite L790U Golf Simulator Projector",
    "vendor": "Epson",
@@ -3565,6 +3697,39 @@
    "pct_off": 13,
    "available": true,
    "url": "https://shopindoorgolf.com/products/square-golf-sig10-golf-simulator-package"
+  },
+  {
+   "retailer": "Shop Indoor Golf",
+   "title": "Garmin Approach R50 Garage Golf Simulator Package",
+   "vendor": "Garmin",
+   "type": "Golf Simulator",
+   "price": 6499.99,
+   "compare_at": 7499.99,
+   "pct_off": 13,
+   "available": true,
+   "url": "https://shopindoorgolf.com/products/garmin-approach-r50-garage-golf-simulator-package"
+  },
+  {
+   "retailer": "Shop Indoor Golf",
+   "title": "Garmin Approach R50 SIG10 Golf Simulator Package",
+   "vendor": "Garmin",
+   "type": "Golf Simulator",
+   "price": 6699.99,
+   "compare_at": 7699.99,
+   "pct_off": 13,
+   "available": true,
+   "url": "https://shopindoorgolf.com/products/garmin-approach-r50-sig10-golf-simulator-package"
+  },
+  {
+   "retailer": "Shop Indoor Golf",
+   "title": "Garmin Approach R50 SIG8 Golf Simulator Package",
+   "vendor": "Garmin",
+   "type": "Golf Simulator",
+   "price": 6499.99,
+   "compare_at": 7499.99,
+   "pct_off": 13,
+   "available": true,
+   "url": "https://shopindoorgolf.com/products/garmin-approach-r50-sig8-golf-simulator-package"
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -3741,6 +3906,17 @@
    "pct_off": 12,
    "available": true,
    "url": "https://shopindoorgolf.com/products/uneekor-eye-xr-sig-diy-golf-simulator-studio-package"
+  },
+  {
+   "retailer": "Shop Indoor Golf",
+   "title": "Garmin Approach R50 SIG12 Golf Simulator Package",
+   "vendor": "Garmin",
+   "type": "Golf Simulator",
+   "price": 7519.99,
+   "compare_at": 8519.99,
+   "pct_off": 12,
+   "available": true,
+   "url": "https://shopindoorgolf.com/products/garmin-approach-r50-sig12-golf-simulator-package"
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -3931,6 +4107,17 @@
   },
   {
    "retailer": "Rain or Shine Golf",
+   "title": "Garmin Approach R50 Practice Bundle",
+   "vendor": "Garmin",
+   "type": "Golf Simulator Package",
+   "price": 5499,
+   "compare_at": 6198.98,
+   "pct_off": 11,
+   "available": true,
+   "url": "https://rainorshinegolf.com/products/garmin-approach-r50-practice-package"
+  },
+  {
+   "retailer": "Rain or Shine Golf",
    "title": "TruGolf APOGEE",
    "vendor": "TruGolf",
    "type": "Overhead Launch Monitor",
@@ -4008,17 +4195,6 @@
   },
   {
    "retailer": "PlayBetter",
-   "title": "Garmin Approach R50 with PlayBetter SimStudio™ BYO (Build Your Own) Package – Custom Home Golf Simulator Studio Builder with Impact Screen, Enclosure, Optional Mats, Projector & More",
-   "vendor": "Garmin",
-   "type": "Golf Simulator Studio Package",
-   "price": 7194.99,
-   "compare_at": 7994.99,
-   "pct_off": 10,
-   "available": true,
-   "url": "https://www.playbetter.com/products/garmin-approach-r50-playbetter-simstudio-byo-home-golf-studio-package"
-  },
-  {
-   "retailer": "PlayBetter",
    "title": "Uneekor EYE MINI LITE SportScreen Vanish Retractable Golf Studio Complete Package | Home Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Putting Turf & Projector",
    "vendor": "SportScreen",
    "type": "Retractable Golf Simulator Studio Package",
@@ -4049,6 +4225,28 @@
    "pct_off": 10,
    "available": true,
    "url": "https://www.playbetter.com/products/flightscope-x3c-golf-launch-monitor-simulator"
+  },
+  {
+   "retailer": "PlayBetter",
+   "title": "Garmin Approach R50 Golf Simulator & Launch Monitor",
+   "vendor": "Garmin",
+   "type": "Golf Launch Monitor & Simulator",
+   "price": 4499.99,
+   "compare_at": 4999.99,
+   "pct_off": 10,
+   "available": true,
+   "url": "https://www.playbetter.com/products/garmin-approach-r50-golf-launch-monitor-simulator"
+  },
+  {
+   "retailer": "Shop Indoor Golf",
+   "title": "Garmin Approach R50 Launch Monitor & Golf Simulator",
+   "vendor": "Garmin",
+   "type": "Launch Monitor",
+   "price": 4499.99,
+   "compare_at": 4999.99,
+   "pct_off": 10,
+   "available": true,
+   "url": "https://shopindoorgolf.com/products/garmin-approach-r50-launch-monitor-golf-simulator"
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -4117,6 +4315,17 @@
    "url": "https://rainorshinegolf.com/products/trugolf-apogee-retractable-golf-simulator-package"
   },
   {
+   "retailer": "Rain or Shine Golf",
+   "title": "Garmin Approach R50",
+   "vendor": "Garmin",
+   "type": "Portable Launch Monitor",
+   "price": 4499.99,
+   "compare_at": 4999.99,
+   "pct_off": 10,
+   "available": true,
+   "url": "https://rainorshinegolf.com/products/garmin-r50-launch-monitor-and-golf-simulator"
+  },
+  {
    "retailer": "PlayBetter",
    "title": "Garmin Venu 4 Fitness GPS Smartwatch",
    "vendor": "Garmin",
@@ -4162,17 +4371,6 @@
   },
   {
    "retailer": "PlayBetter",
-   "title": "Garmin Approach R50 with PlayBetter SimStudio™ ESSENTIALS Package | Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat & Projector",
-   "vendor": "Garmin",
-   "type": "Golf Simulator Studio Package",
-   "price": 7694.99,
-   "compare_at": 8494.99,
-   "pct_off": 9,
-   "available": true,
-   "url": "https://www.playbetter.com/products/garmin-approach-r50-home-golf-simulator-essentials-studio-package"
-  },
-  {
-   "retailer": "PlayBetter",
    "title": "Uneekor EYE XO2 SportScreen Vanish Retractable Golf Studio Complete Package | Home Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Putting Turf & Projector",
    "vendor": "SportScreen",
    "type": "Retractable Golf Simulator Studio Package",
@@ -4195,14 +4393,14 @@
   },
   {
    "retailer": "PlayBetter",
-   "title": "Garmin Approach R50 with PlayBetter SimStudio™ COMPLETE Package | Golf Simulator Studio with Impact Screen, Enclosure, Side Barriers, Hitting/Putting Mats, Projector & Wireless HDMI Transmitter",
+   "title": "Garmin Approach R50 Golf Launch Monitor Home Net Studio with The Net Return Premium Hitting Net Package",
    "vendor": "Garmin",
-   "type": "Golf Simulator Studio Package",
-   "price": 8194.99,
-   "compare_at": 8994.99,
+   "type": "Golf Simulator Net Package",
+   "price": 5194.99,
+   "compare_at": 5694.99,
    "pct_off": 9,
    "available": true,
-   "url": "https://www.playbetter.com/products/garmin-approach-r50-home-golf-simulator-studio-package"
+   "url": "https://www.playbetter.com/products/garmin-approach-r50-hitting-net-studio-package"
   },
   {
    "retailer": "PlayBetter",
@@ -4225,6 +4423,17 @@
    "pct_off": 9,
    "available": true,
    "url": "https://shopindoorgolf.com/products/trugolf-apogee-sig-diy-golf-simulator-studio-package"
+  },
+  {
+   "retailer": "Shop Indoor Golf",
+   "title": "Garmin R50 Golf Net Practice Bundle",
+   "vendor": "Garmin",
+   "type": "Golf Simulator",
+   "price": 4779.99,
+   "compare_at": 5279.99,
+   "pct_off": 9,
+   "available": true,
+   "url": "https://shopindoorgolf.com/products/garmin-r50-golf-net-practice-bundle"
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -4349,6 +4558,17 @@
   },
   {
    "retailer": "PlayBetter",
+   "title": "Garmin Catalyst 2 Racetrack Driving Performance Optimizer",
+   "vendor": "Garmin",
+   "type": "Racing GPS Performance Optimizer",
+   "price": 1099.99,
+   "compare_at": 1199.99,
+   "pct_off": 8,
+   "available": true,
+   "url": "https://www.playbetter.com/products/garmin-catalyst-2-racetrack-driving-performance-optimizer"
+  },
+  {
+   "retailer": "PlayBetter",
    "title": "Blue Tees Golf Rainmaker Golf Launch Monitor Home Net Studio with The Net Return Premium Hitting Net Package",
    "vendor": "Blue Tees Golf",
    "type": "Golf Simulator Net Package",
@@ -4412,17 +4632,6 @@
    "pct_off": 8,
    "available": true,
    "url": "https://shopindoorgolf.com/products/uneekor-eye-xo2-commercial-golf-simulator-package"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
-   "title": "Garmin Approach R50 SIG DIY Golf Simulator Studio Package",
-   "vendor": "Garmin",
-   "type": "Golf Simulator",
-   "price": 5474.99,
-   "compare_at": 5974.99,
-   "pct_off": 8,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/garmin-approach-r50-sig-diy-golf-simulator-studio-package"
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -4558,6 +4767,17 @@
   },
   {
    "retailer": "Rain or Shine Golf",
+   "title": "Garmin Approach R50 Retractable",
+   "vendor": "Garmin",
+   "type": "Golf Simulator Package",
+   "price": 7999,
+   "compare_at": 8699,
+   "pct_off": 8,
+   "available": true,
+   "url": "https://rainorshinegolf.com/products/garmin-approach-r50-retractable-golf-simulator-package"
+  },
+  {
+   "retailer": "Rain or Shine Golf",
    "title": "BenQ TK710STi 4K",
    "vendor": "BenQ",
    "type": "Golf Simulator Projector",
@@ -4599,28 +4819,6 @@
    "pct_off": 7,
    "available": true,
    "url": "https://www.playbetter.com/products/rapsodo-mlm2pro-golf-simulator-net-return-hitting-net-package"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
-   "title": "Garmin Approach R50 Garage Golf Simulator Package",
-   "vendor": "Garmin",
-   "type": "Golf Simulator",
-   "price": 6999.99,
-   "compare_at": 7499.99,
-   "pct_off": 7,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/garmin-approach-r50-garage-golf-simulator-package"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
-   "title": "Garmin Approach R50 SIG8 Golf Simulator Package",
-   "vendor": "Garmin",
-   "type": "Golf Simulator",
-   "price": 6999.99,
-   "compare_at": 7499.99,
-   "pct_off": 7,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/garmin-approach-r50-sig8-golf-simulator-package"
   },
   {
    "retailer": "Rain or Shine Golf",
@@ -4745,28 +4943,6 @@
   },
   {
    "retailer": "Shop Indoor Golf",
-   "title": "Garmin Approach R50 SIG10 Golf Simulator Package",
-   "vendor": "Garmin",
-   "type": "Golf Simulator",
-   "price": 7199.99,
-   "compare_at": 7699.99,
-   "pct_off": 6,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/garmin-approach-r50-sig10-golf-simulator-package"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
-   "title": "Garmin Approach R50 SIG12 Golf Simulator Package",
-   "vendor": "Garmin",
-   "type": "Golf Simulator",
-   "price": 8019.99,
-   "compare_at": 8519.99,
-   "pct_off": 6,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/garmin-approach-r50-sig12-golf-simulator-package"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
    "title": "ProTee VX Garage Golf Simulator Package",
    "vendor": "Protee United",
    "type": "Golf Simulator",
@@ -4797,6 +4973,17 @@
    "pct_off": 5,
    "available": true,
    "url": "https://www.playbetter.com/products/trugolf-launchbox-sportscreen-vanish-lite-semi-retractable-golf-studio-complete-package"
+  },
+  {
+   "retailer": "PlayBetter",
+   "title": "Garmin Approach R50 SportScreen Vanish LITE Hybrid-Retractable Golf Studio Complete Package | Home Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Putting Turf & Projector",
+   "vendor": "SportScreen",
+   "type": "Retractable Golf Simulator Studio Package",
+   "price": 9399.96,
+   "compare_at": 9899.96,
+   "pct_off": 5,
+   "available": true,
+   "url": "https://www.playbetter.com/products/garmin-approach-r50-sportscreen-vanish-lite-semi-retractable-golf-studio-complete-package"
   },
   {
    "retailer": "PlayBetter",
@@ -4841,6 +5028,17 @@
    "pct_off": 5,
    "available": true,
    "url": "https://www.playbetter.com/products/foresight-gcquad-home-golf-simulator-playbetter-simstudio-essentials-studio-package"
+  },
+  {
+   "retailer": "PlayBetter",
+   "title": "Garmin Approach R50 SportScreen Vanish Retractable Golf Studio Complete Package | Home Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Putting Turf & Projector",
+   "vendor": "SportScreen",
+   "type": "Retractable Golf Simulator Studio Package",
+   "price": 10099.96,
+   "compare_at": 10599.96,
+   "pct_off": 5,
+   "available": true,
+   "url": "https://www.playbetter.com/products/garmin-approach-r50-sportscreen-vanish-retractable-golf-studio-complete-package"
   },
   {
    "retailer": "PlayBetter",
@@ -5229,17 +5427,6 @@
   },
   {
    "retailer": "Rain or Shine Golf",
-   "title": "Garmin Approach R50 Practice Bundle",
-   "vendor": "Garmin",
-   "type": "Golf Simulator Package",
-   "price": 5999,
-   "compare_at": 6198.98,
-   "pct_off": 3,
-   "available": true,
-   "url": "https://rainorshinegolf.com/products/garmin-approach-r50-practice-package"
-  },
-  {
-   "retailer": "Rain or Shine Golf",
    "title": "Full Swing KIT Retractable",
    "vendor": "Full Swing",
    "type": "Golf Simulator Package",
@@ -5358,17 +5545,6 @@
    "pct_off": 2,
    "available": true,
    "url": "https://rainorshinegolf.com/products/uneekor-eye-xo2-retractable-golf-simulator-package"
-  },
-  {
-   "retailer": "Rain or Shine Golf",
-   "title": "Garmin Approach R50 Retractable",
-   "vendor": "Garmin",
-   "type": "Golf Simulator Package",
-   "price": 8499,
-   "compare_at": 8699,
-   "pct_off": 2,
-   "available": true,
-   "url": "https://rainorshinegolf.com/products/garmin-approach-r50-retractable-golf-simulator-package"
   },
   {
    "retailer": "Rain or Shine Golf",
