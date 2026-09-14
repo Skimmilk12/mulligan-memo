@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-13T14:24:26.001Z",
+  "generated_at": "2026-09-14T16:22:56.105Z",
   "products": [
     {
       "product_id": "prd_c8682e21-a1ee-4c80-a16e-7c544c11caf4",
@@ -11,7 +11,7 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-08T23:47:41.248Z",
-      "last_seen": "2026-09-12T13:37:47.525Z",
+      "last_seen": "2026-09-14T16:22:56.105Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
@@ -67,7 +67,7 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-08T23:47:41.248Z",
-      "last_seen": "2026-09-13T14:24:26.001Z",
+      "last_seen": "2026-09-14T16:22:56.105Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
@@ -128,12 +128,12 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-08T23:47:41.248Z",
-      "last_seen": "2026-09-13T14:24:26.001Z",
+      "last_seen": "2026-09-14T16:22:56.105Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
           "item_group_id": "7763613155552",
-          "url": "https://sqairz.com/products/freedom-mesh?variant=44071184531680",
+          "url": "https://sqairz.com/products/freedom-mesh?variant=44071184466144",
           "display_title": "Sqairz Freedom™ Mesh Blackberry",
           "variants": [
             {
@@ -199,7 +199,7 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-08T23:47:41.248Z",
-      "last_seen": "2026-09-13T14:24:26.001Z",
+      "last_seen": "2026-09-14T16:22:56.105Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
@@ -265,7 +265,7 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-08T23:47:41.248Z",
-      "last_seen": "2026-09-13T14:24:26.001Z",
+      "last_seen": "2026-09-14T16:22:56.105Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
@@ -336,7 +336,7 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-08T23:47:41.248Z",
-      "last_seen": "2026-09-13T14:24:26.001Z",
+      "last_seen": "2026-09-14T16:22:56.105Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
@@ -654,7 +654,7 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-15T10:40:28.587Z",
-      "last_seen": "2026-09-13T14:24:26.001Z",
+      "last_seen": "2026-09-14T16:22:56.105Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
@@ -680,7 +680,7 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-15T10:40:28.587Z",
-      "last_seen": "2026-09-13T14:24:26.001Z",
+      "last_seen": "2026-09-14T16:22:56.105Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
@@ -741,12 +741,12 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-15T10:40:28.587Z",
-      "last_seen": "2026-09-13T14:24:26.001Z",
+      "last_seen": "2026-09-14T16:22:56.105Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
           "item_group_id": "8608562217184",
-          "url": "https://sqairz.com/products/the-wave-mens-limited-edition?variant=45963714429152",
+          "url": "https://sqairz.com/products/the-wave-mens-limited-edition?variant=45963714363616",
           "display_title": "Sqairz Wave Limited Edition",
           "variants": [
             {
@@ -792,7 +792,7 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-15T10:40:28.587Z",
-      "last_seen": "2026-09-13T14:24:26.001Z",
+      "last_seen": "2026-09-14T16:22:56.105Z",
       "bindings": [
         {
           "retailer": "Cobra Golf",
@@ -883,7 +883,7 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-15T10:40:28.587Z",
-      "last_seen": "2026-09-13T14:24:26.001Z",
+      "last_seen": "2026-09-14T16:22:56.105Z",
       "bindings": [
         {
           "retailer": "Cobra Golf",

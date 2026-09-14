@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-13T14:23:39.792Z",
- "date": "2026-09-13",
+ "generated_at": "2026-09-14T16:22:10.275Z",
+ "date": "2026-09-14",
  "sources": [
   {
    "retailer": "PlayBetter",
    "status": "ok",
-   "on_sale_items": 263
+   "on_sale_items": 254
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -169,14 +169,14 @@
   },
   {
    "retailer": "PlayBetter",
-   "title": "Blue Tees Golf Playmaker+ GPS Golf Watch",
-   "vendor": "Blue Tees Golf",
-   "type": "Golf GPS Watch",
-   "price": 99.99,
-   "compare_at": 199.99,
+   "title": "Polar Grit X Rugged Outdoor Watch",
+   "vendor": "Polar",
+   "type": "Outdoor GPS Watch",
+   "price": 229.98,
+   "compare_at": 459.95,
    "pct_off": 50,
    "available": true,
-   "url": "https://www.playbetter.com/products/blue-tees-golf-playmaker-gps-golf-watch"
+   "url": "https://www.playbetter.com/products/polar-grit-x-rugged-outdoor-watch"
   },
   {
    "retailer": "PlayBetter",
@@ -1984,17 +1984,6 @@
   },
   {
    "retailer": "PlayBetter",
-   "title": "Garmin Xero C1 Pro Chronograph",
-   "vendor": "Garmin",
-   "type": "Hunting & Archery Scope",
-   "price": 399.99,
-   "compare_at": 499.99,
-   "pct_off": 20,
-   "available": true,
-   "url": "https://www.playbetter.com/products/garmin-xero-c1-pro-chronograph"
-  },
-  {
-   "retailer": "PlayBetter",
    "title": "Garmin Lily 2 Fitness Smartwatch for Women",
    "vendor": "Garmin",
    "type": "Fitness Bands & Trackers",
@@ -2346,39 +2335,6 @@
    "url": "https://www.playbetter.com/products/garmin-approach-r10-golf-simulator-studio-package-playbetter-simstudio-with-impact-screen-enclosure-hitting-putting-mats-projector-1"
   },
   {
-   "retailer": "PlayBetter",
-   "title": "Bushnell Phantom 3 Handheld Golf GPS",
-   "vendor": "Bushnell",
-   "type": "Golf GPS Handheld",
-   "price": 139.99,
-   "compare_at": 169.99,
-   "pct_off": 18,
-   "available": true,
-   "url": "https://www.playbetter.com/products/bushnell-phantom-3-handheld-golf-gps"
-  },
-  {
-   "retailer": "PlayBetter",
-   "title": "Bushnell Wingman 2 Golf GPS Speaker",
-   "vendor": "Bushnell",
-   "type": "Golf GPS Speaker",
-   "price": 139.99,
-   "compare_at": 169.99,
-   "pct_off": 18,
-   "available": true,
-   "url": "https://www.playbetter.com/products/bushnell-wingman-2-golf-gps-speaker"
-  },
-  {
-   "retailer": "PlayBetter",
-   "title": "Bushnell Wingman Mini Golf Speaker",
-   "vendor": "Bushnell",
-   "type": "Golf GPS Speaker",
-   "price": 89.99,
-   "compare_at": 109.99,
-   "pct_off": 18,
-   "available": true,
-   "url": "https://www.playbetter.com/products/bushnell-wingman-mini-golf-speaker"
-  },
-  {
    "retailer": "Shop Indoor Golf",
    "title": "Rapsodo MLM2PRO SIG DIY Golf Simulator Studio Package",
    "vendor": "Rapsodo",
@@ -2553,17 +2509,6 @@
    "pct_off": 17,
    "available": true,
    "url": "https://www.playbetter.com/products/square-golf-simulator-launch-monitor-home-studio-package"
-  },
-  {
-   "retailer": "PlayBetter",
-   "title": "Garmin Lily 2 Active Women's Fitness Smartwatch",
-   "vendor": "Garmin",
-   "type": "Fitness Bands & Trackers",
-   "price": 249.99,
-   "compare_at": 299.99,
-   "pct_off": 17,
-   "available": true,
-   "url": "https://www.playbetter.com/products/garmin-lily-2-active-womens-fitness-smartwatch"
   },
   {
    "retailer": "PlayBetter",
@@ -3326,7 +3271,18 @@
   },
   {
    "retailer": "Shop Indoor Golf",
-   "title": "Big Moss TW Series 10 V2 Putting Green & Chipping Mat",
+   "title": "Big Moss The Original Putting Green & Chipping Mat",
+   "vendor": "Big Moss",
+   "type": "Putting Green",
+   "price": 189,
+   "compare_at": 222,
+   "pct_off": 15,
+   "available": true,
+   "url": "https://shopindoorgolf.com/products/big-moss-the-original-putting-green-chipping-mat"
+  },
+  {
+   "retailer": "Shop Indoor Golf",
+   "title": "Big Moss TW Series 10 Putting Green & Chipping Mat",
    "vendor": "Big Moss",
    "type": "Putting Green",
    "price": 199,
@@ -3886,17 +3842,6 @@
    "url": "https://www.playbetter.com/products/trugolf-launchbox-with-playbetter-simstudio-essentials-package"
   },
   {
-   "retailer": "PlayBetter",
-   "title": "Bushnell Pro X3+ LINK Golf Laser Rangefinder",
-   "vendor": "Bushnell",
-   "type": "Golf Rangefinder",
-   "price": 529.99,
-   "compare_at": 599.99,
-   "pct_off": 12,
-   "available": true,
-   "url": "https://www.playbetter.com/products/bushnell-pro-x3-plus-golf-laser-rangefinder"
-  },
-  {
    "retailer": "Shop Indoor Golf",
    "title": "Uneekor EYE XR SIG DIY Golf Simulator Studio Package",
    "vendor": "Uneekor",
@@ -4170,17 +4115,6 @@
    "pct_off": 10,
    "available": true,
    "url": "https://www.playbetter.com/products/uneekor-eye-xo2-sportscreen-vanish-lite-semi-retractable-golf-studio-complete-package"
-  },
-  {
-   "retailer": "PlayBetter",
-   "title": "Bushnell Tour Hybrid Laser/GPS Rangefinder",
-   "vendor": "Bushnell",
-   "type": "Golf Rangefinder",
-   "price": 449.99,
-   "compare_at": 499.99,
-   "pct_off": 10,
-   "available": true,
-   "url": "https://www.playbetter.com/products/bushnell-tour-hybrid-laser-gps-rangefinder"
   },
   {
    "retailer": "PlayBetter",
