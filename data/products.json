@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-14T16:22:56.105Z",
+  "generated_at": "2026-09-15T15:01:56.340Z",
   "products": [
     {
       "product_id": "prd_c8682e21-a1ee-4c80-a16e-7c544c11caf4",
@@ -11,7 +11,7 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-08T23:47:41.248Z",
-      "last_seen": "2026-09-14T16:22:56.105Z",
+      "last_seen": "2026-09-15T15:01:56.340Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
@@ -67,12 +67,12 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-08T23:47:41.248Z",
-      "last_seen": "2026-09-14T16:22:56.105Z",
+      "last_seen": "2026-09-15T15:01:56.340Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
           "item_group_id": "8206716535008",
-          "url": "https://sqairz.com/products/velo?variant=44537241993440",
+          "url": "https://sqairz.com/products/velo?variant=44537242190048",
           "display_title": "Sqairz Velo™",
           "variants": [
             {
@@ -128,7 +128,7 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-08T23:47:41.248Z",
-      "last_seen": "2026-09-14T16:22:56.105Z",
+      "last_seen": "2026-09-15T15:01:56.340Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
@@ -199,12 +199,12 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-08T23:47:41.248Z",
-      "last_seen": "2026-09-14T16:22:56.105Z",
+      "last_seen": "2026-09-15T15:01:56.340Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
           "item_group_id": "8206713618656",
-          "url": "https://sqairz.com/products/pro-s2?variant=47306877075680",
+          "url": "https://sqairz.com/products/pro-s2?variant=47306877436128",
           "display_title": "Sqairz ProS2™",
           "variants": [
             {
@@ -265,7 +265,7 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-08T23:47:41.248Z",
-      "last_seen": "2026-09-14T16:22:56.105Z",
+      "last_seen": "2026-09-15T15:01:56.340Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
@@ -336,7 +336,7 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-08T23:47:41.248Z",
-      "last_seen": "2026-09-14T16:22:56.105Z",
+      "last_seen": "2026-09-15T15:01:56.340Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
@@ -654,12 +654,12 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-15T10:40:28.587Z",
-      "last_seen": "2026-09-14T16:22:56.105Z",
+      "last_seen": "2026-09-15T15:01:56.340Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
           "item_group_id": "8038823133408",
-          "url": "https://sqairz.com/products/freedom™-ultra?variant=46798532083936",
+          "url": "https://sqairz.com/products/freedom™-ultra?variant=46794973642976",
           "display_title": "Sqairz Freedom™ Ultra",
           "variants": [
             {
@@ -680,7 +680,7 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-15T10:40:28.587Z",
-      "last_seen": "2026-09-14T16:22:56.105Z",
+      "last_seen": "2026-09-15T15:01:56.340Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
@@ -741,12 +741,12 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-15T10:40:28.587Z",
-      "last_seen": "2026-09-14T16:22:56.105Z",
+      "last_seen": "2026-09-15T15:01:56.340Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
           "item_group_id": "8608562217184",
-          "url": "https://sqairz.com/products/the-wave-mens-limited-edition?variant=45963714363616",
+          "url": "https://sqairz.com/products/the-wave-mens-limited-edition?variant=45963714461920",
           "display_title": "Sqairz Wave Limited Edition",
           "variants": [
             {
@@ -792,7 +792,7 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-15T10:40:28.587Z",
-      "last_seen": "2026-09-14T16:22:56.105Z",
+      "last_seen": "2026-09-15T15:01:56.340Z",
       "bindings": [
         {
           "retailer": "Cobra Golf",
@@ -883,7 +883,7 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-15T10:40:28.587Z",
-      "last_seen": "2026-09-14T16:22:56.105Z",
+      "last_seen": "2026-09-15T15:01:56.340Z",
       "bindings": [
         {
           "retailer": "Cobra Golf",

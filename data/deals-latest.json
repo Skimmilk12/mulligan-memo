@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-09-14T16:22:10.275Z",
- "date": "2026-09-14",
+ "generated_at": "2026-09-15T15:01:00.756Z",
+ "date": "2026-09-15",
  "sources": [
   {
    "retailer": "PlayBetter",
    "status": "ok",
-   "on_sale_items": 254
+   "on_sale_items": 250
   },
   {
    "retailer": "Shop Indoor Golf",
    "status": "ok",
-   "on_sale_items": 269
+   "on_sale_items": 245
   },
   {
    "retailer": "Rain or Shine Golf",
@@ -617,6 +617,17 @@
    "pct_off": 35,
    "available": true,
    "url": "https://rainorshinegolf.com/products/flightscope-mevo-2-swingbay-golf-simulator-package"
+  },
+  {
+   "retailer": "Shop Indoor Golf",
+   "title": "Big Moss Commander Putting and Chipping Greens",
+   "vendor": "Big Moss",
+   "type": "Putting Green",
+   "price": 319,
+   "compare_at": 483,
+   "pct_off": 34,
+   "available": true,
+   "url": "https://shopindoorgolf.com/products/big-moss-commander-patio-series-putting-chipping-green"
   },
   {
    "retailer": "Rain or Shine Golf",
@@ -1422,6 +1433,17 @@
    "url": "https://www.playbetter.com/products/skytrak-portable-hitting-net-golf-studio-package"
   },
   {
+   "retailer": "PlayBetter",
+   "title": "Garmin fenix 8 Multisport GPS Smartwatch",
+   "vendor": "Garmin",
+   "type": "Multisport GPS Watch",
+   "price": 849.99,
+   "compare_at": 1099.99,
+   "pct_off": 23,
+   "available": true,
+   "url": "https://www.playbetter.com/products/garmin-fenix-8"
+  },
+  {
    "retailer": "Shop Indoor Golf",
    "title": "SkyTrak ST MAX Garage Golf Simulator Package",
    "vendor": "SkyTrak",
@@ -1695,6 +1717,17 @@
    "pct_off": 22,
    "available": true,
    "url": "https://shopindoorgolf.com/products/uneekor-eye-mini-sig12-golf-simulator-package"
+  },
+  {
+   "retailer": "Shop Indoor Golf",
+   "title": "Big Moss Outdoor Target Putting & Chipping Greens",
+   "vendor": "Big Moss",
+   "type": "Putting Green",
+   "price": 699,
+   "compare_at": 900,
+   "pct_off": 22,
+   "available": true,
+   "url": "https://shopindoorgolf.com/products/big-moss-outdoor-putting-target-green"
   },
   {
    "retailer": "Rain or Shine Golf",
@@ -2512,6 +2545,17 @@
   },
   {
    "retailer": "PlayBetter",
+   "title": "Garmin Lily 2 Active Women's Fitness Smartwatch",
+   "vendor": "Garmin",
+   "type": "Fitness Bands & Trackers",
+   "price": 249.99,
+   "compare_at": 299.99,
+   "pct_off": 17,
+   "available": true,
+   "url": "https://www.playbetter.com/products/garmin-lily-2-active-womens-fitness-smartwatch"
+  },
+  {
+   "retailer": "PlayBetter",
    "title": "Garmin Enduro 3 Ultra-Endurance GPS Smartwatch",
    "vendor": "Garmin",
    "type": "Multisport GPS Watch",
@@ -2809,6 +2853,17 @@
   },
   {
    "retailer": "Shop Indoor Golf",
+   "title": "SIG™ Preferred Finished Golf Impact Screen",
+   "vendor": "Shop Indoor Golf",
+   "type": "Golf Simulator Screen",
+   "price": 519.99,
+   "compare_at": 619.99,
+   "pct_off": 16,
+   "available": true,
+   "url": "https://shopindoorgolf.com/products/sig-preferred-golf-impact-screen"
+  },
+  {
+   "retailer": "Shop Indoor Golf",
    "title": "Big Moss TW Series 15 Putting Green & Chipping Mat",
    "vendor": "Big Moss",
    "type": "Putting Green",
@@ -2897,72 +2952,6 @@
   },
   {
    "retailer": "Shop Indoor Golf",
-   "title": "SIGPRO Commercial Teeline Golf Mat",
-   "vendor": "Shop Indoor Golf",
-   "type": "Golf Mat",
-   "price": 679.99,
-   "compare_at": 799.99,
-   "pct_off": 15,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/sigpro-commercial-teeline-golf-mat"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
-   "title": "SIGPRO Super Softy 4' x 8'4\" Double Sided Golf Mat",
-   "vendor": "Shop Indoor Golf",
-   "type": "Golf Mat",
-   "price": 1529.99,
-   "compare_at": 1799.99,
-   "pct_off": 15,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/sigpro-super-softy-4-x-8-double-sided-golf-mat"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
-   "title": "SIGPRO Super Softy 4' x 6' Single Sided Golf Mat",
-   "vendor": "Shop Indoor Golf",
-   "type": "Golf Mat",
-   "price": 985.99,
-   "compare_at": 1159.99,
-   "pct_off": 15,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/sigpro-super-softy-4-x-6-golf-mat"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
-   "title": "SIGPRO Super Softy 4' x 9' Golf Mat",
-   "vendor": "Shop Indoor Golf",
-   "type": "Golf Mat",
-   "price": 1164.49,
-   "compare_at": 1369.99,
-   "pct_off": 15,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/sigpro-super-softy-4-x-9-golf-mat"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
-   "title": "SIGPRO™ Premier Golf Simulator Impact Screen",
-   "vendor": "Shop Indoor Golf",
-   "type": "Golf Simulator Screen",
-   "price": 586.49,
-   "compare_at": 689.99,
-   "pct_off": 15,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/sigpro-premier-impact-screen"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
-   "title": "SIGPRO 3D LITE Hitting Strip",
-   "vendor": "Shop Indoor Golf",
-   "type": "Hitting Strip",
-   "price": 101.99,
-   "compare_at": 119.99,
-   "pct_off": 15,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/sigpro-3d-lite-hitting-strip"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
    "title": "Garmin R10 Golf Net Practice Bundle",
    "vendor": "Garmin",
    "type": "Golf Simulator",
@@ -2971,94 +2960,6 @@
    "pct_off": 15,
    "available": true,
    "url": "https://shopindoorgolf.com/products/garmin-golf-net-practice-bundle"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
-   "title": "SIGPRO Softy LITE 4' x 10' Golf Mat",
-   "vendor": "Shop Indoor Golf",
-   "type": "Golf Mat",
-   "price": 892.49,
-   "compare_at": 1049.99,
-   "pct_off": 15,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/sigpro-softy-lite-4-x-10-golf-mat"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
-   "title": "SIGPRO Softy LITE 4' x 7' Golf Mat",
-   "vendor": "Shop Indoor Golf",
-   "type": "Golf Mat",
-   "price": 713.99,
-   "compare_at": 839.99,
-   "pct_off": 15,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/sigpro-softy-lite-4-x-7-golf-mat"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
-   "title": "SIGPRO Softy LITE 4' x 5' Golf Mat",
-   "vendor": "Shop Indoor Golf",
-   "type": "Golf Mat",
-   "price": 628.99,
-   "compare_at": 739.99,
-   "pct_off": 15,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/sigpro-softy-lite-4-x-5-golf-mat"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
-   "title": "SIGPRO Softy LITE Hitting Strip",
-   "vendor": "Shop Indoor Golf",
-   "type": "Hitting Strip",
-   "price": 186.99,
-   "compare_at": 219.99,
-   "pct_off": 15,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/sigpro-softy-lite-hitting-strip"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
-   "title": "SIGPRO Softy XL Hitting Strip",
-   "vendor": "Shop Indoor Golf",
-   "type": "Hitting Strip",
-   "price": 339.99,
-   "compare_at": 399.99,
-   "pct_off": 15,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/sigpro-softy-xl-hitting-strip"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
-   "title": "SIGPRO Commercial Enclosure",
-   "vendor": "Shop Indoor Golf",
-   "type": "Golf Simulator Enclosure",
-   "price": 2677.49,
-   "compare_at": 3149.99,
-   "pct_off": 15,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/sigpro-commercial-enclosure"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
-   "title": "Golf Simulator Blackout Screen",
-   "vendor": "Shop Indoor Golf",
-   "type": "Golf Simulator Screen",
-   "price": 509.98,
-   "compare_at": 599.98,
-   "pct_off": 15,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/golf-simulator-enclosure-blackout-screen"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
-   "title": "Front Golf Mat Extension",
-   "vendor": "Shop Indoor Golf",
-   "type": "Golf Mat",
-   "price": 382.49,
-   "compare_at": 449.99,
-   "pct_off": 15,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/front-golf-mat-extension"
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -3073,179 +2974,14 @@
   },
   {
    "retailer": "Shop Indoor Golf",
-   "title": "Rear Golf Mat Extension",
-   "vendor": "Shop Indoor Golf",
-   "type": "Golf Mat",
-   "price": 195.49,
-   "compare_at": 229.99,
-   "pct_off": 15,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/golf-mat-extension"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
-   "title": "SIGPRO 3D 5'x5' Golf Mat",
-   "vendor": "Shop Indoor Golf",
-   "type": "Golf Mat",
-   "price": 450.49,
-   "compare_at": 529.99,
-   "pct_off": 15,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/sig-3d-golf-mat"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
-   "title": "DIY Golf Simulator Enclosure",
-   "vendor": "Shop Indoor Golf",
-   "type": "Golf Simulator Enclosure",
-   "price": 1376.99,
-   "compare_at": 1619.99,
-   "pct_off": 15,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/diy-golf-simulator-enclosure"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
-   "title": "SIGPRO Softy Hitting Strip",
-   "vendor": "Shop Indoor Golf",
-   "type": "Hitting Strip",
-   "price": 212.49,
-   "compare_at": 249.99,
-   "pct_off": 15,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/sigpro-softy-hitting-strip"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
-   "title": "Preferred Hitting Strip",
-   "vendor": "Shop Indoor Golf",
-   "type": "Hitting Strip",
-   "price": 101.99,
-   "compare_at": 119.99,
-   "pct_off": 15,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/preferred-hitting-strip"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
-   "title": "SIGPRO 3D Hitting Strip",
-   "vendor": "Shop Indoor Golf",
-   "type": "Hitting Strip",
-   "price": 135.99,
-   "compare_at": 159.99,
-   "pct_off": 15,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/sigpro-3d-hitting-strip"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
-   "title": "SIG™ Preferred Finished Golf Impact Screen",
-   "vendor": "Shop Indoor Golf",
-   "type": "Golf Simulator Screen",
-   "price": 213.85,
-   "compare_at": 251.59,
-   "pct_off": 15,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/sig-preferred-golf-impact-screen"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
-   "title": "Golf Simulator Impact Screen - SIGPRO™ Premium",
-   "vendor": "Shop Indoor Golf",
-   "type": "Golf Simulator Screen",
-   "price": 356.99,
-   "compare_at": 419.99,
-   "pct_off": 15,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/golf-simulator-screen-premium"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
    "title": "SIGPRO Golf Simulator Flooring",
    "vendor": "Shop Indoor Golf",
    "type": "Golf Mat",
-   "price": 3569.99,
-   "compare_at": 4199.99,
+   "price": 4164.99,
+   "compare_at": 4899.99,
    "pct_off": 15,
    "available": true,
    "url": "https://shopindoorgolf.com/products/sigpro-golf-simulator-flooring"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
-   "title": "SIGPRO Softy 4' x 7' Golf Mat",
-   "vendor": "Shop Indoor Golf",
-   "type": "Golf Mat",
-   "price": 849.99,
-   "compare_at": 999.99,
-   "pct_off": 15,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/sigpro-4-x-7-golf-mat"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
-   "title": "SIGPRO Softy 4' x 10' Golf Mat",
-   "vendor": "Shop Indoor Golf",
-   "type": "Golf Mat",
-   "price": 1019.99,
-   "compare_at": 1199.99,
-   "pct_off": 15,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/sigpro-4x10-golf-mat"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
-   "title": "SIG8 Golf Simulator Enclosure",
-   "vendor": "Shop Indoor Golf",
-   "type": "Golf Simulator Enclosure",
-   "price": 1529.99,
-   "compare_at": 1799.99,
-   "pct_off": 15,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/sig8-golf-simulator-enclosure"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
-   "title": "Fairway Series Golf Mat",
-   "vendor": "Shop Indoor Golf",
-   "type": "Golf Mat",
-   "price": 467.49,
-   "compare_at": 549.99,
-   "pct_off": 15,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/fairway-series-golf-mat"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
-   "title": "SIG12 Golf Simulator Enclosure",
-   "vendor": "Shop Indoor Golf",
-   "type": "Golf Simulator Enclosure",
-   "price": 2124.99,
-   "compare_at": 2499.99,
-   "pct_off": 15,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/sig12-golf-simulator-enclosure"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
-   "title": "SIG10 Golf Simulator Enclosure",
-   "vendor": "Shop Indoor Golf",
-   "type": "Golf Simulator Enclosure",
-   "price": 1699.99,
-   "compare_at": 1999.99,
-   "pct_off": 15,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/sig10-golf-simulator-enclosure"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
-   "title": "SIGPRO Turf Golf Mat",
-   "vendor": "Shop Indoor Golf",
-   "type": "Golf Mat",
-   "price": 509.15,
-   "compare_at": 599,
-   "pct_off": 15,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/sigpro-turf-golf-mat"
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -3257,17 +2993,6 @@
    "pct_off": 15,
    "available": true,
    "url": "https://shopindoorgolf.com/products/big-moss-competitor-putting-green-chipping-mat"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
-   "title": "Big Moss Outdoor Putting & Target Green",
-   "vendor": "Big Moss",
-   "type": "Putting Green",
-   "price": 769,
-   "compare_at": 900,
-   "pct_off": 15,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/big-moss-outdoor-putting-target-green"
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -3524,6 +3249,17 @@
   },
   {
    "retailer": "Shop Indoor Golf",
+   "title": "SIGPRO Turf Golf Mat",
+   "vendor": "Shop Indoor Golf",
+   "type": "Golf Mat",
+   "price": 599,
+   "compare_at": 699,
+   "pct_off": 14,
+   "available": true,
+   "url": "https://shopindoorgolf.com/products/sigpro-turf-golf-mat"
+  },
+  {
+   "retailer": "Shop Indoor Golf",
    "title": "Fiberbuilt Flight Deck Practice Station",
    "vendor": "Fiberbuilt",
    "type": "Golf Mat",
@@ -3620,6 +3356,17 @@
    "pct_off": 13,
    "available": true,
    "url": "https://www.playbetter.com/products/garmin-approach-s50-golf-gps-watch"
+  },
+  {
+   "retailer": "PlayBetter",
+   "title": "Garmin MARQ Golfer (Gen 2) Modern Tool Watch",
+   "vendor": "Garmin",
+   "type": "Golf GPS Watch",
+   "price": 2000,
+   "compare_at": 2300,
+   "pct_off": 13,
+   "available": true,
+   "url": "https://www.playbetter.com/products/garmin-marq-golfer-gen-2-modern-tool-watch"
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -3741,6 +3488,17 @@
    "pct_off": 13,
    "available": true,
    "url": "https://shopindoorgolf.com/products/uneekor-eye-xo-sig8-golf-simulator-package"
+  },
+  {
+   "retailer": "Shop Indoor Golf",
+   "title": "Golf Simulator Impact Screen - SIGPRO™ Premium",
+   "vendor": "Shop Indoor Golf",
+   "type": "Golf Simulator Screen",
+   "price": 709.99,
+   "compare_at": 819.99,
+   "pct_off": 13,
+   "available": true,
+   "url": "https://shopindoorgolf.com/products/golf-simulator-screen-premium"
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -4558,17 +4316,6 @@
   },
   {
    "retailer": "Shop Indoor Golf",
-   "title": "Uneekor EYE XO2 Commercial Golf Simulator Package",
-   "vendor": "Uneekor",
-   "type": "Golf Simulator",
-   "price": 16022.48,
-   "compare_at": 17499.99,
-   "pct_off": 8,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/uneekor-eye-xo2-commercial-golf-simulator-package"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
    "title": "Golfin IDRA II Golf Launch Monitor",
    "vendor": "Golfin",
    "type": "Launch Monitor",
@@ -4599,6 +4346,17 @@
    "pct_off": 8,
    "available": true,
    "url": "https://shopindoorgolf.com/products/benq-ah700st-golf-simulator-projector"
+  },
+  {
+   "retailer": "Shop Indoor Golf",
+   "title": "Golf Simulator Blackout Screen",
+   "vendor": "Shop Indoor Golf",
+   "type": "Golf Simulator Screen",
+   "price": 599.98,
+   "compare_at": 649.98,
+   "pct_off": 8,
+   "available": true,
+   "url": "https://shopindoorgolf.com/products/golf-simulator-enclosure-blackout-screen"
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -5006,6 +4764,17 @@
    "pct_off": 5,
    "available": true,
    "url": "https://shopindoorgolf.com/products/protee-vx-commercial-golf-simulator-package"
+  },
+  {
+   "retailer": "Shop Indoor Golf",
+   "title": "Uneekor EYE XO2 Commercial Golf Simulator Package",
+   "vendor": "Uneekor",
+   "type": "Golf Simulator",
+   "price": 16539.98,
+   "compare_at": 17499.99,
+   "pct_off": 5,
+   "available": true,
+   "url": "https://shopindoorgolf.com/products/uneekor-eye-xo2-commercial-golf-simulator-package"
   },
   {
    "retailer": "Shop Indoor Golf",
