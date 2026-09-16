@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-09-15T15:01:00.756Z",
- "date": "2026-09-15",
+ "generated_at": "2026-09-16T14:58:44.604Z",
+ "date": "2026-09-16",
  "sources": [
   {
    "retailer": "PlayBetter",
@@ -10,7 +10,7 @@
   {
    "retailer": "Shop Indoor Golf",
    "status": "ok",
-   "on_sale_items": 245
+   "on_sale_items": 244
   },
   {
    "retailer": "Rain or Shine Golf",
@@ -20,13 +20,13 @@
   {
    "retailer": "Top Shelf Golf",
    "status": "ok",
-   "on_sale_items": 10
+   "on_sale_items": 13
   }
  ],
  "candidates": [
   {
    "retailer": "Shop Indoor Golf",
-   "title": "E6 APEX Golf Simulation Software",
+   "title": "E6 Golf 26 Golf Simulation Software",
    "vendor": "E6",
    "type": "Golf Simulation Software",
    "price": 150,
@@ -1048,6 +1048,17 @@
    "url": "https://shopindoorgolf.com/products/uneekor-eye-mini-sig-diy-golf-simulator-studio-package"
   },
   {
+   "retailer": "Shop Indoor Golf",
+   "title": "Big Moss True Launch Hitting Mat 4′ x 5′",
+   "vendor": "Big Moss",
+   "type": "Golf Mat",
+   "price": 274,
+   "compare_at": 379,
+   "pct_off": 28,
+   "available": true,
+   "url": "https://shopindoorgolf.com/products/big-moss-high-impact-golf-mat"
+  },
+  {
    "retailer": "Top Shelf Golf",
    "title": "Robera Pro AI-Powered Smart Follow Golf Caddy",
    "vendor": "Robera",
@@ -1288,6 +1299,17 @@
    "pct_off": 25,
    "available": true,
    "url": "https://shopindoorgolf.com/products/mevo-plus-sig10-golf-simulator"
+  },
+  {
+   "retailer": "Top Shelf Golf",
+   "title": "SkyTrak ST MAX All-In-One Golf Simulator",
+   "vendor": "SkyTrak",
+   "type": "Golf Simulator Package",
+   "price": 5461.9,
+   "compare_at": 7301.65,
+   "pct_off": 25,
+   "available": true,
+   "url": "https://www.topshelfgolf.com/products/skytrak-st-max-all-in-one-golf-simulator"
   },
   {
    "retailer": "PlayBetter",
@@ -2292,7 +2314,7 @@
   },
   {
    "retailer": "Shop Indoor Golf",
-   "title": "Big Moss Augusta EX Pro V2 Putting Green & Chipping Mat",
+   "title": "Big Moss The Augusta Pro Putting Green & Chipping Mat",
    "vendor": "Big Moss",
    "type": "Putting Green",
    "price": 389,
@@ -2402,7 +2424,7 @@
   },
   {
    "retailer": "Shop Indoor Golf",
-   "title": "Big Moss Augusta V2 Putting Green & Chipping Mat",
+   "title": "Big Moss The Augusta 412 Putting Green & Chipping Mat",
    "vendor": "Big Moss",
    "type": "Putting Green",
    "price": 329,
@@ -2685,6 +2707,17 @@
    "pct_off": 17,
    "available": true,
    "url": "https://shopindoorgolf.com/products/garmin-r10-launch-monitor"
+  },
+  {
+   "retailer": "Shop Indoor Golf",
+   "title": "Big Moss Michael Breed's \"Let's Do This!\" Training Green",
+   "vendor": "Big Moss",
+   "type": "Putting Green",
+   "price": 249,
+   "compare_at": 299,
+   "pct_off": 17,
+   "available": true,
+   "url": "https://shopindoorgolf.com/products/big-moss-michael-breeds-lets-do-this-training-green"
   },
   {
    "retailer": "Rain or Shine Golf",
@@ -2993,6 +3026,17 @@
    "pct_off": 15,
    "available": true,
    "url": "https://shopindoorgolf.com/products/big-moss-competitor-putting-green-chipping-mat"
+  },
+  {
+   "retailer": "Shop Indoor Golf",
+   "title": "Big Moss The Original EX2 Putting Green & Chipping Mat",
+   "vendor": "Big Moss",
+   "type": "Putting Green",
+   "price": 289,
+   "compare_at": 342,
+   "pct_off": 15,
+   "available": true,
+   "url": "https://shopindoorgolf.com/products/big-moss-original-ex2-putting-green-chipping-mat"
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -3323,6 +3367,17 @@
    "pct_off": 14,
    "available": true,
    "url": "https://www.topshelfgolf.com/products/uneekor-eye-xr-launch-monitor-golf-simulator"
+  },
+  {
+   "retailer": "Top Shelf Golf",
+   "title": "Uneekor EYE XR All-In-One Golf Simulator",
+   "vendor": "Uneekor",
+   "type": "Golf Simulator Package",
+   "price": 9765.9,
+   "compare_at": 11305.65,
+   "pct_off": 14,
+   "available": true,
+   "url": "https://www.topshelfgolf.com/products/uneekor-eye-xr-all-in-one-golf-simulator"
   },
   {
    "retailer": "PlayBetter",
@@ -4535,6 +4590,17 @@
    "url": "https://rainorshinegolf.com/products/square-golf-launch-monitor-retractable-package"
   },
   {
+   "retailer": "Top Shelf Golf",
+   "title": "Foresight Sports GC3S All-In-One Golf Simulator",
+   "vendor": "Foresight Sports",
+   "type": "Golf Simulator Package",
+   "price": 7565.9,
+   "compare_at": 8105.65,
+   "pct_off": 7,
+   "available": true,
+   "url": "https://www.topshelfgolf.com/products/foresight-sports-gc3s-all-in-one-golf-simulator"
+  },
+  {
    "retailer": "PlayBetter",
    "title": "TruGolf APOGEE with PlayBetter SimStudio™ ESSENTIALS Studio Package | Home Golf Simulator Package with Impact Screen, Enclosure, Hitting Mat & Projector",
    "vendor": "TruGolf",
@@ -4657,6 +4723,17 @@
   },
   {
    "retailer": "PlayBetter",
+   "title": "Square Golf Omni Indoor/Outdoor Launch Monitor & Simulator (OPEN BOX)",
+   "vendor": "Square Golf",
+   "type": "Golf Launch Monitor & Simulator",
+   "price": 1520,
+   "compare_at": 1599.99,
+   "pct_off": 5,
+   "available": true,
+   "url": "https://www.playbetter.com/products/square-golf-omni-launch-monitor-simulator-open-box"
+  },
+  {
+   "retailer": "PlayBetter",
    "title": "TruGolf LaunchBox SportScreen Vanish LITE Hybrid-Retractable Golf Studio Complete Package | Home Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Putting Turf & Projector",
    "vendor": "SportScreen",
    "type": "Retractable Golf Simulator Studio Package",
@@ -4742,6 +4819,17 @@
    "pct_off": 5,
    "available": true,
    "url": "https://www.playbetter.com/products/full-swing-kit-golf-launch-monitor-simulator-open-box"
+  },
+  {
+   "retailer": "PlayBetter",
+   "title": "Foresight QuadMAX Golf Launch Monitor & Simulator (Open Box)",
+   "vendor": "Foresight Sports",
+   "type": "Golf Launch Monitor & Simulator",
+   "price": 21374,
+   "compare_at": 22499,
+   "pct_off": 5,
+   "available": true,
+   "url": "https://www.playbetter.com/products/foresight-quadmax-golf-launch-monitor-simulator-open-box"
   },
   {
    "retailer": "PlayBetter",
