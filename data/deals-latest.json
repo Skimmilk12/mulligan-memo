@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-09-16T14:58:44.604Z",
- "date": "2026-09-16",
+ "generated_at": "2026-09-17T15:00:11.248Z",
+ "date": "2026-09-17",
  "sources": [
   {
    "retailer": "PlayBetter",
@@ -10,12 +10,12 @@
   {
    "retailer": "Shop Indoor Golf",
    "status": "ok",
-   "on_sale_items": 244
+   "on_sale_items": 243
   },
   {
    "retailer": "Rain or Shine Golf",
    "status": "ok",
-   "on_sale_items": 99
+   "on_sale_items": 100
   },
   {
    "retailer": "Top Shelf Golf",
@@ -2577,17 +2577,6 @@
    "url": "https://www.playbetter.com/products/garmin-lily-2-active-womens-fitness-smartwatch"
   },
   {
-   "retailer": "PlayBetter",
-   "title": "Garmin Enduro 3 Ultra-Endurance GPS Smartwatch",
-   "vendor": "Garmin",
-   "type": "Multisport GPS Watch",
-   "price": 749.99,
-   "compare_at": 899.99,
-   "pct_off": 17,
-   "available": true,
-   "url": "https://www.playbetter.com/products/garmin-enduro-3"
-  },
-  {
    "retailer": "Shop Indoor Golf",
    "title": "EK-308UK Golf Simulator Projector",
    "vendor": "EIKI",
@@ -3007,17 +2996,6 @@
   },
   {
    "retailer": "Shop Indoor Golf",
-   "title": "SIGPRO Golf Simulator Flooring",
-   "vendor": "Shop Indoor Golf",
-   "type": "Golf Mat",
-   "price": 4164.99,
-   "compare_at": 4899.99,
-   "pct_off": 15,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/sigpro-golf-simulator-flooring"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
    "title": "Big Moss Competitor Putting Green & Chipping Mat",
    "vendor": "Big Moss",
    "type": "Putting Green",
@@ -3356,6 +3334,17 @@
    "pct_off": 14,
    "available": true,
    "url": "https://rainorshinegolf.com/products/swing-caddie-sc4-practice-package"
+  },
+  {
+   "retailer": "Rain or Shine Golf",
+   "title": "Garmin Approach S70 - 47mm Black",
+   "vendor": "Garmin",
+   "type": "Golf GPS Watch",
+   "price": 599.99,
+   "compare_at": 699.99,
+   "pct_off": 14,
+   "available": true,
+   "url": "https://rainorshinegolf.com/products/garmin-approach-s70-47mm-black"
   },
   {
    "retailer": "Top Shelf Golf",
