@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-09-17T15:00:11.248Z",
- "date": "2026-09-17",
+ "generated_at": "2026-09-18T14:31:43.529Z",
+ "date": "2026-09-18",
  "sources": [
   {
    "retailer": "PlayBetter",
@@ -2443,6 +2443,17 @@
    "pct_off": 18,
    "available": true,
    "url": "https://shopindoorgolf.com/products/big-moss-long-putt-signature-putting-green-chipping-mat"
+  },
+  {
+   "retailer": "Shop Indoor Golf",
+   "title": "Cimarron 4' x 6' Ultimate Golf Hitting Mat",
+   "vendor": "Cimarron Sports",
+   "type": "Golf Mat",
+   "price": 279,
+   "compare_at": 339.99,
+   "pct_off": 18,
+   "available": true,
+   "url": "https://shopindoorgolf.com/products/cimarron-4-x-6-ultimate-golf-mat"
   },
   {
    "retailer": "Rain or Shine Golf",
