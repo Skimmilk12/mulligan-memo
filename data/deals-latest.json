@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-09-18T14:31:43.529Z",
- "date": "2026-09-18",
+ "generated_at": "2026-09-19T13:55:34.853Z",
+ "date": "2026-09-19",
  "sources": [
   {
    "retailer": "PlayBetter",
@@ -20,7 +20,7 @@
   {
    "retailer": "Top Shelf Golf",
    "status": "ok",
-   "on_sale_items": 13
+   "on_sale_items": 12
   }
  ],
  "candidates": [
@@ -166,6 +166,17 @@
    "pct_off": 52,
    "available": true,
    "url": "https://shopindoorgolf.com/products/flightscope-mevo-plus"
+  },
+  {
+   "retailer": "PlayBetter",
+   "title": "Blue Tees Golf Playmaker+ GPS Golf Watch",
+   "vendor": "Blue Tees Golf",
+   "type": "Golf GPS Watch",
+   "price": 99.99,
+   "compare_at": 199.99,
+   "pct_off": 50,
+   "available": true,
+   "url": "https://www.playbetter.com/products/blue-tees-golf-playmaker-gps-golf-watch"
   },
   {
    "retailer": "PlayBetter",
@@ -1830,6 +1841,17 @@
   },
   {
    "retailer": "Shop Indoor Golf",
+   "title": "ProTee VX Garage Golf Simulator Package",
+   "vendor": "Protee United",
+   "type": "Golf Simulator",
+   "price": 8219.99,
+   "compare_at": 10459.99,
+   "pct_off": 21,
+   "available": true,
+   "url": "https://shopindoorgolf.com/products/protee-vx-garage-golf-simulator-package"
+  },
+  {
+   "retailer": "Shop Indoor Golf",
    "title": "27\" Touch Screen Monitor - 4K Resolution",
    "vendor": "Tech",
    "type": "PC Monitor",
@@ -2036,17 +2058,6 @@
    "pct_off": 20,
    "available": true,
    "url": "https://www.playbetter.com/products/rapsodo-mlm2pro-golf-launch-monitor-simulator-studio-package-playbetter-simstudio-with-impact-screen-enclosure-hitting-putting-mats-projector"
-  },
-  {
-   "retailer": "PlayBetter",
-   "title": "Garmin Lily 2 Fitness Smartwatch for Women",
-   "vendor": "Garmin",
-   "type": "Fitness Bands & Trackers",
-   "price": 199.99,
-   "compare_at": 249.99,
-   "pct_off": 20,
-   "available": true,
-   "url": "https://www.playbetter.com/products/garmin-lily-2-fitness-smartwatch-for-women"
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -2410,6 +2421,17 @@
    "pct_off": 18,
    "available": true,
    "url": "https://shopindoorgolf.com/products/g-trak-garage-golf-simulator-studio-package"
+  },
+  {
+   "retailer": "Shop Indoor Golf",
+   "title": "ProTee VX SIG12 Golf Simulator Package",
+   "vendor": "Protee United",
+   "type": "Golf Simulator",
+   "price": 9299.99,
+   "compare_at": 11299.99,
+   "pct_off": 18,
+   "available": true,
+   "url": "https://shopindoorgolf.com/products/protee-vx-sig12-golf-simulator-package"
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -3403,17 +3425,6 @@
   },
   {
    "retailer": "PlayBetter",
-   "title": "Garmin Approach S50 Golf GPS Watch",
-   "vendor": "Garmin",
-   "type": "Golf GPS Watch",
-   "price": 349.99,
-   "compare_at": 399.99,
-   "pct_off": 13,
-   "available": true,
-   "url": "https://www.playbetter.com/products/garmin-approach-s50-golf-gps-watch"
-  },
-  {
-   "retailer": "PlayBetter",
    "title": "Garmin MARQ Golfer (Gen 2) Modern Tool Watch",
    "vendor": "Garmin",
    "type": "Golf GPS Watch",
@@ -3510,6 +3521,17 @@
    "pct_off": 13,
    "available": true,
    "url": "https://shopindoorgolf.com/products/uneekor-eye-mini-lite-sig12-golf-simulator-package"
+  },
+  {
+   "retailer": "Shop Indoor Golf",
+   "title": "ProTee VX SIG10 Golf Simulator Package",
+   "vendor": "Protee United",
+   "type": "Golf Simulator",
+   "price": 9199.99,
+   "compare_at": 10599.99,
+   "pct_off": 13,
+   "available": true,
+   "url": "https://shopindoorgolf.com/products/protee-vx-sig10-golf-simulator-package"
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -3821,6 +3843,17 @@
   },
   {
    "retailer": "Shop Indoor Golf",
+   "title": "ProTee VX SIG8 Golf Simulator Package",
+   "vendor": "Protee United",
+   "type": "Golf Simulator",
+   "price": 8899.99,
+   "compare_at": 9999.99,
+   "pct_off": 11,
+   "available": true,
+   "url": "https://shopindoorgolf.com/products/protee-vx-sig8-golf-simulator-package"
+  },
+  {
+   "retailer": "Shop Indoor Golf",
    "title": "TruGolf APOGEE Launch Monitor",
    "vendor": "TruGolf",
    "type": "Launch Monitor",
@@ -3983,6 +4016,17 @@
    "pct_off": 10,
    "available": true,
    "url": "https://www.playbetter.com/products/garmin-approach-r50-golf-launch-monitor-simulator"
+  },
+  {
+   "retailer": "Shop Indoor Golf",
+   "title": "ProTee VX SIG DIY Golf Simulator Studio Package",
+   "vendor": "Protee United",
+   "type": "Golf Simulator",
+   "price": 7349.99,
+   "compare_at": 8209.99,
+   "pct_off": 10,
+   "available": true,
+   "url": "https://shopindoorgolf.com/products/protee-vx-sig-diy-golf-simulator-studio-package"
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -4590,17 +4634,6 @@
    "url": "https://rainorshinegolf.com/products/square-golf-launch-monitor-retractable-package"
   },
   {
-   "retailer": "Top Shelf Golf",
-   "title": "Foresight Sports GC3S All-In-One Golf Simulator",
-   "vendor": "Foresight Sports",
-   "type": "Golf Simulator Package",
-   "price": 7565.9,
-   "compare_at": 8105.65,
-   "pct_off": 7,
-   "available": true,
-   "url": "https://www.topshelfgolf.com/products/foresight-sports-gc3s-all-in-one-golf-simulator"
-  },
-  {
    "retailer": "PlayBetter",
    "title": "TruGolf APOGEE with PlayBetter SimStudio™ ESSENTIALS Studio Package | Home Golf Simulator Package with Impact Screen, Enclosure, Hitting Mat & Projector",
    "vendor": "TruGolf",
@@ -4668,17 +4701,6 @@
   },
   {
    "retailer": "Shop Indoor Golf",
-   "title": "ProTee VX SIG DIY Golf Simulator Studio Package",
-   "vendor": "Protee United",
-   "type": "Golf Simulator",
-   "price": 7299.99,
-   "compare_at": 7799.99,
-   "pct_off": 6,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/protee-vx-sig-diy-golf-simulator-studio-package"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
    "title": "GolfIn IDRA II SIG8 Golf Simulator Package",
    "vendor": "Golfin",
    "type": "Golf Simulator",
@@ -4698,17 +4720,6 @@
    "pct_off": 6,
    "available": true,
    "url": "https://shopindoorgolf.com/products/golfin-idra-ii-sig10-golf-simulator-package"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
-   "title": "ProTee VX Garage Golf Simulator Package",
-   "vendor": "Protee United",
-   "type": "Golf Simulator",
-   "price": 8049.99,
-   "compare_at": 8549.99,
-   "pct_off": 6,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/protee-vx-garage-golf-simulator-package"
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -4874,39 +4885,6 @@
    "pct_off": 5,
    "available": true,
    "url": "https://shopindoorgolf.com/products/trugolf-apogee-garage-golf-simulator-package"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
-   "title": "ProTee VX SIG8 Golf Simulator Package",
-   "vendor": "Protee United",
-   "type": "Golf Simulator",
-   "price": 8799.99,
-   "compare_at": 9299.99,
-   "pct_off": 5,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/protee-vx-sig8-golf-simulator-package"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
-   "title": "ProTee VX SIG12 Golf Simulator Package",
-   "vendor": "Protee United",
-   "type": "Golf Simulator",
-   "price": 9099.99,
-   "compare_at": 9599.99,
-   "pct_off": 5,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/protee-vx-sig12-golf-simulator-package"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
-   "title": "ProTee VX SIG10 Golf Simulator Package",
-   "vendor": "Protee United",
-   "type": "Golf Simulator",
-   "price": 8999.99,
-   "compare_at": 9499.99,
-   "pct_off": 5,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/protee-vx-sig10-golf-simulator-package"
   },
   {
    "retailer": "Shop Indoor Golf",
