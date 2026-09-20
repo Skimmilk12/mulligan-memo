@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-19T13:55:34.853Z",
- "date": "2026-09-19",
+ "generated_at": "2026-09-20T14:14:02.658Z",
+ "date": "2026-09-20",
  "sources": [
   {
    "retailer": "PlayBetter",
    "status": "ok",
-   "on_sale_items": 250
+   "on_sale_items": 247
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -1225,17 +1225,6 @@
   },
   {
    "retailer": "PlayBetter",
-   "title": "Nikon COOLSHOT 20 GIII / COOLSHOT 20i GIII Golf Laser Rangefinder",
-   "vendor": "Nikon",
-   "type": "Golf Rangefinder",
-   "price": 149.95,
-   "compare_at": 199.95,
-   "pct_off": 25,
-   "available": true,
-   "url": "https://www.playbetter.com/products/nikon-coolshot-20-giii-coolshot-20i-giii-golf-laser-rangefinder"
-  },
-  {
-   "retailer": "PlayBetter",
    "title": "Blue Tees Golf Rainmaker with PlayBetter SimStudio™ BYO (Build Your Own) Package – Custom Home Golf Simulator Studio Builder with Impact Screen, Enclosure, Optional Mats, Projector & More",
    "vendor": "Blue Tees Golf",
    "type": "Golf Simulator Studio Package",
@@ -1279,17 +1268,6 @@
    "url": "https://www.playbetter.com/products/uneekor-eye-mini-lite-home-golf-simulator-playbetter-simstudio-essentials-studio-package"
   },
   {
-   "retailer": "PlayBetter",
-   "title": "Nikon COOLSHOT PROIII STABILIZED Golf Laser Rangefinder",
-   "vendor": "Nikon",
-   "type": "Golf Rangefinder",
-   "price": 399.95,
-   "compare_at": 529.95,
-   "pct_off": 25,
-   "available": true,
-   "url": "https://www.playbetter.com/products/nikon-coolshot-proiii-stabilized-golf-laser-rangefinder"
-  },
-  {
    "retailer": "Shop Indoor Golf",
    "title": "Square Golf SIG DIY Golf Simulator Studio Package",
    "vendor": "Square Golf",
@@ -1310,17 +1288,6 @@
    "pct_off": 25,
    "available": true,
    "url": "https://shopindoorgolf.com/products/mevo-plus-sig10-golf-simulator"
-  },
-  {
-   "retailer": "Top Shelf Golf",
-   "title": "SkyTrak ST MAX All-In-One Golf Simulator",
-   "vendor": "SkyTrak",
-   "type": "Golf Simulator Package",
-   "price": 5461.9,
-   "compare_at": 7301.65,
-   "pct_off": 25,
-   "available": true,
-   "url": "https://www.topshelfgolf.com/products/skytrak-st-max-all-in-one-golf-simulator"
   },
   {
    "retailer": "PlayBetter",
@@ -1431,17 +1398,6 @@
    "pct_off": 23,
    "available": true,
    "url": "https://www.playbetter.com/products/playbetter-simstudio-essentials-golf-simulator-studio-package"
-  },
-  {
-   "retailer": "PlayBetter",
-   "title": "Garmin vivoactive 6 Fitness GPS Smartwatch",
-   "vendor": "Garmin",
-   "type": "Fitness GPS Watch",
-   "price": 229.99,
-   "compare_at": 299.99,
-   "pct_off": 23,
-   "available": true,
-   "url": "https://www.playbetter.com/products/garmin-vivoactive-6-fitness-gps-smartwatch"
   },
   {
    "retailer": "PlayBetter",
@@ -1926,6 +1882,17 @@
    "pct_off": 21,
    "available": true,
    "url": "https://rainorshinegolf.com/products/uneekor-eye-mini-retractable-golf-simulator-package"
+  },
+  {
+   "retailer": "Top Shelf Golf",
+   "title": "SkyTrak ST MAX All-In-One Golf Simulator",
+   "vendor": "SkyTrak",
+   "type": "Golf Simulator Package",
+   "price": 5461.9,
+   "compare_at": 6911.65,
+   "pct_off": 21,
+   "available": true,
+   "url": "https://www.topshelfgolf.com/products/skytrak-st-max-all-in-one-golf-simulator"
   },
   {
    "retailer": "PlayBetter",
@@ -2564,17 +2531,6 @@
    "pct_off": 17,
    "available": true,
    "url": "https://www.playbetter.com/products/swing-caddie-sc4-golf-simulator-studio-package-playbetter-simstudio-with-impact-screen-enclosure-hitting-putting-mats-projector"
-  },
-  {
-   "retailer": "PlayBetter",
-   "title": "Nikon COOLSHOT 50i GII Golf Laser Rangefinder",
-   "vendor": "Nikon",
-   "type": "Golf Rangefinder",
-   "price": 249.95,
-   "compare_at": 299.95,
-   "pct_off": 17,
-   "available": true,
-   "url": "https://www.playbetter.com/products/nikon-coolshot-50i-gii-golf-laser-rangefinder"
   },
   {
    "retailer": "PlayBetter",
@@ -3391,17 +3347,6 @@
    "url": "https://www.topshelfgolf.com/products/uneekor-eye-xr-launch-monitor-golf-simulator"
   },
   {
-   "retailer": "Top Shelf Golf",
-   "title": "Uneekor EYE XR All-In-One Golf Simulator",
-   "vendor": "Uneekor",
-   "type": "Golf Simulator Package",
-   "price": 9765.9,
-   "compare_at": 11305.65,
-   "pct_off": 14,
-   "available": true,
-   "url": "https://www.topshelfgolf.com/products/uneekor-eye-xr-all-in-one-golf-simulator"
-  },
-  {
    "retailer": "PlayBetter",
    "title": "TruGolf LaunchBox with PlayBetter SimStudio™ BYO (Build Your Own) Package – Custom Home Golf Simulator Studio Builder with Impact Screen, Enclosure, Optional Mats, Projector & More",
    "vendor": "TruGolf",
@@ -3917,6 +3862,17 @@
    "pct_off": 11,
    "available": true,
    "url": "https://rainorshinegolf.com/products/trugolf-apogee-launch-monitor-simulator"
+  },
+  {
+   "retailer": "Top Shelf Golf",
+   "title": "Uneekor EYE XR All-In-One Golf Simulator",
+   "vendor": "Uneekor",
+   "type": "Golf Simulator Package",
+   "price": 9765.9,
+   "compare_at": 10915.65,
+   "pct_off": 11,
+   "available": true,
+   "url": "https://www.topshelfgolf.com/products/uneekor-eye-xr-all-in-one-golf-simulator"
   },
   {
    "retailer": "Top Shelf Golf",
@@ -4731,17 +4687,6 @@
    "pct_off": 6,
    "available": true,
    "url": "https://shopindoorgolf.com/products/hd-golf-simulator-ultimate-training-package"
-  },
-  {
-   "retailer": "PlayBetter",
-   "title": "Square Golf Omni Indoor/Outdoor Launch Monitor & Simulator (OPEN BOX)",
-   "vendor": "Square Golf",
-   "type": "Golf Launch Monitor & Simulator",
-   "price": 1520,
-   "compare_at": 1599.99,
-   "pct_off": 5,
-   "available": true,
-   "url": "https://www.playbetter.com/products/square-golf-omni-launch-monitor-simulator-open-box"
   },
   {
    "retailer": "PlayBetter",
