@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-09-22T14:54:45.586Z",
- "date": "2026-09-22",
+ "generated_at": "2026-09-23T15:01:55.486Z",
+ "date": "2026-09-23",
  "sources": [
   {
    "retailer": "PlayBetter",
    "status": "ok",
-   "on_sale_items": 226
+   "on_sale_items": 227
   },
   {
    "retailer": "Shop Indoor Golf",
    "status": "ok",
-   "on_sale_items": 240
+   "on_sale_items": 238
   },
   {
    "retailer": "Rain or Shine Golf",
@@ -487,6 +487,17 @@
    "url": "https://shopindoorgolf.com/products/panasonic-vmz51u-golf-simulator-projector"
   },
   {
+   "retailer": "Shop Indoor Golf",
+   "title": "Uneekor EYE MINI SIG12 Golf Simulator Package",
+   "vendor": "Uneekor",
+   "type": "Golf Simulator",
+   "price": 5349.99,
+   "compare_at": 9099.97,
+   "pct_off": 41,
+   "available": true,
+   "url": "https://shopindoorgolf.com/products/uneekor-eye-mini-sig12-golf-simulator-package"
+  },
+  {
    "retailer": "PlayBetter",
    "title": "SkyTrak ST MAX with PlayBetter SimStudio™ ESSENTIALS Package | Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Projector & Protective Case",
    "vendor": "SkyTrak",
@@ -630,6 +641,28 @@
    "url": "https://shopindoorgolf.com/products/skytrak-max-net-practice-bundle"
   },
   {
+   "retailer": "Shop Indoor Golf",
+   "title": "Uneekor EYE Mini SIG DIY Golf Simulator Studio Package",
+   "vendor": "Uneekor",
+   "type": "Golf Simulator",
+   "price": 3999.99,
+   "compare_at": 6209.99,
+   "pct_off": 36,
+   "available": true,
+   "url": "https://shopindoorgolf.com/products/uneekor-eye-mini-sig-diy-golf-simulator-studio-package"
+  },
+  {
+   "retailer": "Shop Indoor Golf",
+   "title": "Uneekor EYE MINI SIG10 Golf Simulator Package",
+   "vendor": "Uneekor",
+   "type": "Golf Simulator",
+   "price": 5349.99,
+   "compare_at": 8399.97,
+   "pct_off": 36,
+   "available": true,
+   "url": "https://shopindoorgolf.com/products/uneekor-eye-mini-sig10-golf-simulator-package"
+  },
+  {
    "retailer": "Rain or Shine Golf",
    "title": "FlightScope Mevo Gen2 SwingBay",
    "vendor": "FlightScope",
@@ -639,6 +672,17 @@
    "pct_off": 35,
    "available": true,
    "url": "https://rainorshinegolf.com/products/flightscope-mevo-2-swingbay-golf-simulator-package"
+  },
+  {
+   "retailer": "Shop Indoor Golf",
+   "title": "Uneekor EYE MINI LITE Garage Golf Simulator Package",
+   "vendor": "Uneekor",
+   "type": "Golf Simulator",
+   "price": 4849.99,
+   "compare_at": 7307.99,
+   "pct_off": 34,
+   "available": true,
+   "url": "https://shopindoorgolf.com/products/uneekor-eye-mini-lite-garage-golf-simulator-package"
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -716,6 +760,17 @@
    "pct_off": 33,
    "available": true,
    "url": "https://www.playbetter.com/products/garmin-alpha-200-200i-handheld-gps-dog-tracker"
+  },
+  {
+   "retailer": "Shop Indoor Golf",
+   "title": "Uneekor EYE Mini LITE SIG DIY Golf Simulator Studio Package",
+   "vendor": "Uneekor",
+   "type": "Golf Simulator",
+   "price": 2998.99,
+   "compare_at": 4459.99,
+   "pct_off": 33,
+   "available": true,
+   "url": "https://shopindoorgolf.com/products/uneekor-eye-mini-lite-sig-diy-golf-simulator-studio-package"
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -850,6 +905,17 @@
    "url": "https://www.playbetter.com/products/uneekor-eye-xr-golf-launch-monitor-simulator"
   },
   {
+   "retailer": "Shop Indoor Golf",
+   "title": "Uneekor EYE MINI SIG8 Golf Simulator Package",
+   "vendor": "Uneekor",
+   "type": "Golf Simulator",
+   "price": 5399.99,
+   "compare_at": 7999.97,
+   "pct_off": 32,
+   "available": true,
+   "url": "https://shopindoorgolf.com/products/uneekor-eye-mini-sig8-golf-simulator-package"
+  },
+  {
    "retailer": "Rain or Shine Golf",
    "title": "Uneekor EYE MINI SwingBay",
    "vendor": "Uneekor",
@@ -905,6 +971,17 @@
    "url": "https://shopindoorgolf.com/products/skytrak-max-sig-diy-golf-simulator-studio-package"
   },
   {
+   "retailer": "Shop Indoor Golf",
+   "title": "Uneekor EYE MINI LITE SIG12 Golf Simulator Package",
+   "vendor": "Uneekor",
+   "type": "Golf Simulator",
+   "price": 5099.99,
+   "compare_at": 7349.97,
+   "pct_off": 31,
+   "available": true,
+   "url": "https://shopindoorgolf.com/products/uneekor-eye-mini-lite-sig12-golf-simulator-package"
+  },
+  {
    "retailer": "PlayBetter",
    "title": "Uneekor EYE XO with PlayBetter SimStudio™ ESSENTIALS Package | Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, & Projector",
    "vendor": "Uneekor",
@@ -914,6 +991,17 @@
    "pct_off": 30,
    "available": true,
    "url": "https://www.playbetter.com/products/uneekor-eye-xo-with-playbetter-simstudio-essentials-package-golf-simulator-studio"
+  },
+  {
+   "retailer": "Shop Indoor Golf",
+   "title": "Uneekor EYE XR SIG12 Golf Simulator Package",
+   "vendor": "Uneekor",
+   "type": "Golf Simulator",
+   "price": 8249.99,
+   "compare_at": 11799,
+   "pct_off": 30,
+   "available": true,
+   "url": "https://shopindoorgolf.com/products/uneekor-eye-xr-sig12-golf-simulator-package"
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -1060,14 +1148,14 @@
   },
   {
    "retailer": "Shop Indoor Golf",
-   "title": "Uneekor EYE Mini SIG DIY Golf Simulator Studio Package",
+   "title": "Uneekor EYE XR SIG10 Golf Simulator Package",
    "vendor": "Uneekor",
    "type": "Golf Simulator",
-   "price": 3949.99,
-   "compare_at": 5449.99,
+   "price": 7899.99,
+   "compare_at": 10899,
    "pct_off": 28,
    "available": true,
-   "url": "https://shopindoorgolf.com/products/uneekor-eye-mini-sig-diy-golf-simulator-studio-package"
+   "url": "https://shopindoorgolf.com/products/uneekor-eye-xr-sig10-golf-simulator-package"
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -1202,6 +1290,17 @@
    "url": "https://www.playbetter.com/products/blue-tees-golf-series-3-max-golf-gps-rangefinder"
   },
   {
+   "retailer": "Shop Indoor Golf",
+   "title": "Uneekor EYE MINI Lite SIG10 Golf Simulator Package",
+   "vendor": "Uneekor",
+   "type": "Golf Simulator",
+   "price": 4899.99,
+   "compare_at": 6649.97,
+   "pct_off": 26,
+   "available": true,
+   "url": "https://shopindoorgolf.com/products/uneekor-eye-mini-lite-sig10-golf-simulator-package"
+  },
+  {
    "retailer": "PlayBetter",
    "title": "Foresight QuadMAX Golf Launch Monitor & Simulator (Certified Pre-Owned)",
    "vendor": "Foresight Sports",
@@ -1277,6 +1376,39 @@
    "pct_off": 25,
    "available": true,
    "url": "https://shopindoorgolf.com/products/square-golf-sig-diy-golf-simulator-studio-package"
+  },
+  {
+   "retailer": "Shop Indoor Golf",
+   "title": "Uneekor EYE XR SIG8 Golf Simulator Package",
+   "vendor": "Uneekor",
+   "type": "Golf Simulator",
+   "price": 9699.99,
+   "compare_at": 12999,
+   "pct_off": 25,
+   "available": true,
+   "url": "https://shopindoorgolf.com/products/uneekor-eye-xr-sig8-golf-simulator-package"
+  },
+  {
+   "retailer": "Shop Indoor Golf",
+   "title": "Uneekor EYE MINI Garage Golf Simulator Package",
+   "vendor": "Uneekor",
+   "type": "Golf Simulator",
+   "price": 6069.99,
+   "compare_at": 8057.99,
+   "pct_off": 25,
+   "available": true,
+   "url": "https://shopindoorgolf.com/products/uneekor-eye-mini-garage-golf-simulator-package"
+  },
+  {
+   "retailer": "Shop Indoor Golf",
+   "title": "Uneekor EYE MINI LITE SIG8 Golf Simulator Package",
+   "vendor": "Uneekor",
+   "type": "Golf Simulator",
+   "price": 4699.99,
+   "compare_at": 6249.97,
+   "pct_off": 25,
+   "available": true,
+   "url": "https://shopindoorgolf.com/products/uneekor-eye-mini-lite-sig8-golf-simulator-package"
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -1453,28 +1585,6 @@
    "pct_off": 23,
    "available": true,
    "url": "https://shopindoorgolf.com/products/bushnell-launch-pro-garage-golf-simulator-package"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
-   "title": "Uneekor EYE MINI SIG8 Golf Simulator Package",
-   "vendor": "Uneekor",
-   "type": "Golf Simulator",
-   "price": 5149.99,
-   "compare_at": 6649.99,
-   "pct_off": 23,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/uneekor-eye-mini-sig8-golf-simulator-package"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
-   "title": "Uneekor EYE MINI SIG10 Golf Simulator Package",
-   "vendor": "Uneekor",
-   "type": "Golf Simulator",
-   "price": 5129.99,
-   "compare_at": 6629.99,
-   "pct_off": 23,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/uneekor-eye-mini-sig10-golf-simulator-package"
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -1665,17 +1775,6 @@
   },
   {
    "retailer": "Shop Indoor Golf",
-   "title": "Uneekor EYE MINI SIG12 Golf Simulator Package",
-   "vendor": "Uneekor",
-   "type": "Golf Simulator",
-   "price": 5199.99,
-   "compare_at": 6699.99,
-   "pct_off": 22,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/uneekor-eye-mini-sig12-golf-simulator-package"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
    "title": "Big Moss Outdoor Target Putting & Chipping Greens",
    "vendor": "Big Moss",
    "type": "Putting Green",
@@ -1863,6 +1962,17 @@
   },
   {
    "retailer": "PlayBetter",
+   "title": "Rapsodo MLM1 Mobile Launch Monitor",
+   "vendor": "Rapsodo",
+   "type": "Golf Launch Monitor & Simulator",
+   "price": 199.99,
+   "compare_at": 249.99,
+   "pct_off": 20,
+   "available": true,
+   "url": "https://www.playbetter.com/products/rapsodo-mlm1-mobile-launch-monitor"
+  },
+  {
+   "retailer": "PlayBetter",
    "title": "Blue Tees Golf Rainmaker with PlayBetter SimStudio™ COMPLETE Package | Golf Simulator Studio with Impact Screen, Enclosure, Side Barriers, Hitting/Putting Mats & Projector",
    "vendor": "Blue Tees Golf",
    "type": "Golf Simulator Studio Package",
@@ -1981,28 +2091,6 @@
    "pct_off": 20,
    "available": true,
    "url": "https://www.playbetter.com/products/rapsodo-mlm2pro-golf-launch-monitor-simulator-studio-package-playbetter-simstudio-with-impact-screen-enclosure-hitting-putting-mats-projector"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
-   "title": "Uneekor EYE Mini LITE SIG DIY Golf Simulator Studio Package",
-   "vendor": "Uneekor",
-   "type": "Golf Simulator",
-   "price": 2948.99,
-   "compare_at": 3698.99,
-   "pct_off": 20,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/uneekor-eye-mini-lite-sig-diy-golf-simulator-studio-package"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
-   "title": "Uneekor EYE MINI Garage Golf Simulator Package",
-   "vendor": "Uneekor",
-   "type": "Golf Simulator",
-   "price": 6069.99,
-   "compare_at": 7567.98,
-   "pct_off": 20,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/uneekor-eye-mini-garage-golf-simulator-package"
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -2223,6 +2311,17 @@
    "pct_off": 19,
    "available": true,
    "url": "https://www.playbetter.com/products/uneekor-eye-xr-overhead-launch-monitor-with-carls-place-curved-enclosure-home-golf-studio-package"
+  },
+  {
+   "retailer": "Shop Indoor Golf",
+   "title": "Uneekor EYE XO SIG DIY Golf Simulator Studio Package",
+   "vendor": "Uneekor",
+   "type": "Golf Simulator",
+   "price": 7849.99,
+   "compare_at": 9709,
+   "pct_off": 19,
+   "available": true,
+   "url": "https://shopindoorgolf.com/products/uneekor-eye-xo-sig-diy-golf-simulator-studio-package"
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -2743,14 +2842,14 @@
   },
   {
    "retailer": "Shop Indoor Golf",
-   "title": "Uneekor EYE XO SIG DIY Golf Simulator Studio Package",
+   "title": "Uneekor EYE XR SIG DIY Golf Simulator Studio Package",
    "vendor": "Uneekor",
    "type": "Golf Simulator",
-   "price": 7799.99,
-   "compare_at": 9299.99,
+   "price": 7348.99,
+   "compare_at": 8709,
    "pct_off": 16,
    "available": true,
-   "url": "https://shopindoorgolf.com/products/uneekor-eye-xo-sig-diy-golf-simulator-studio-package"
+   "url": "https://shopindoorgolf.com/products/uneekor-eye-xr-sig-diy-golf-simulator-studio-package"
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -2864,6 +2963,17 @@
   },
   {
    "retailer": "Shop Indoor Golf",
+   "title": "Uneekor EYE XO Garage Golf Simulator Package",
+   "vendor": "Uneekor",
+   "type": "Golf Simulator",
+   "price": 10619.98,
+   "compare_at": 12557,
+   "pct_off": 15,
+   "available": true,
+   "url": "https://shopindoorgolf.com/products/uneekor-eye-xo-garage-golf-simulator-package"
+  },
+  {
+   "retailer": "Shop Indoor Golf",
    "title": "Garmin R10 Golf Net Practice Bundle",
    "vendor": "Garmin",
    "type": "Golf Simulator",
@@ -2872,6 +2982,28 @@
    "pct_off": 15,
    "available": true,
    "url": "https://shopindoorgolf.com/products/garmin-golf-net-practice-bundle"
+  },
+  {
+   "retailer": "Shop Indoor Golf",
+   "title": "Uneekor EYE XO SIG10 Golf Simulator Package",
+   "vendor": "Uneekor",
+   "type": "Golf Simulator",
+   "price": 10099.99,
+   "compare_at": 11899,
+   "pct_off": 15,
+   "available": true,
+   "url": "https://shopindoorgolf.com/products/uneekor-eye-xo-sig10-golf-simulator"
+  },
+  {
+   "retailer": "Shop Indoor Golf",
+   "title": "Uneekor EYE XO SIG12 Golf Simulator Package",
+   "vendor": "Uneekor",
+   "type": "Golf Simulator",
+   "price": 10699.99,
+   "compare_at": 12599,
+   "pct_off": 15,
+   "available": true,
+   "url": "https://shopindoorgolf.com/products/uneekor-eye-xo-sig12-golf-simulator"
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -3040,39 +3172,6 @@
   },
   {
    "retailer": "Shop Indoor Golf",
-   "title": "Uneekor EYE MINI LITE Garage Golf Simulator Package",
-   "vendor": "Uneekor",
-   "type": "Golf Simulator",
-   "price": 4449.99,
-   "compare_at": 5199.99,
-   "pct_off": 14,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/uneekor-eye-mini-lite-garage-golf-simulator-package"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
-   "title": "Uneekor EYE MINI LITE SIG8 Golf Simulator Package",
-   "vendor": "Uneekor",
-   "type": "Golf Simulator",
-   "price": 4599.99,
-   "compare_at": 5349.99,
-   "pct_off": 14,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/uneekor-eye-mini-lite-sig8-golf-simulator-package"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
-   "title": "Uneekor EYE MINI Lite SIG10 Golf Simulator Package",
-   "vendor": "Uneekor",
-   "type": "Golf Simulator",
-   "price": 4799.99,
-   "compare_at": 5549.99,
-   "pct_off": 14,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/uneekor-eye-mini-lite-sig10-golf-simulator-package"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
    "title": "Bushnell Launch Pro Golf Launch Monitor",
    "vendor": "Bushnell Golf",
    "type": "Launch Monitor",
@@ -3238,28 +3337,6 @@
   },
   {
    "retailer": "Shop Indoor Golf",
-   "title": "Uneekor EYE XO Garage Golf Simulator Package",
-   "vendor": "Uneekor",
-   "type": "Golf Simulator",
-   "price": 9819.98,
-   "compare_at": 11317.98,
-   "pct_off": 13,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/uneekor-eye-xo-garage-golf-simulator-package"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
-   "title": "Uneekor EYE MINI LITE SIG12 Golf Simulator Package",
-   "vendor": "Uneekor",
-   "type": "Golf Simulator",
-   "price": 4949.99,
-   "compare_at": 5699.99,
-   "pct_off": 13,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/uneekor-eye-mini-lite-sig12-golf-simulator-package"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
    "title": "ProTee VX SIG10 Golf Simulator Package",
    "vendor": "Protee United",
    "type": "Golf Simulator",
@@ -3282,28 +3359,6 @@
   },
   {
    "retailer": "Shop Indoor Golf",
-   "title": "Uneekor EYE XO SIG10 Golf Simulator Package",
-   "vendor": "Uneekor",
-   "type": "Golf Simulator",
-   "price": 9819.99,
-   "compare_at": 11319.99,
-   "pct_off": 13,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/uneekor-eye-xo-sig10-golf-simulator"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
-   "title": "Uneekor EYE XO SIG8 Golf Simulator Package",
-   "vendor": "Uneekor",
-   "type": "Golf Simulator",
-   "price": 9999.99,
-   "compare_at": 11499.99,
-   "pct_off": 13,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/uneekor-eye-xo-sig8-golf-simulator-package"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
    "title": "Golf Simulator Impact Screen - SIGPRO™ Premium",
    "vendor": "Shop Indoor Golf",
    "type": "Golf Simulator Screen",
@@ -3323,17 +3378,6 @@
    "pct_off": 13,
    "available": true,
    "url": "https://shopindoorgolf.com/products/landing-pad-mat-for-sig8-golf-simulator-enclosure"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
-   "title": "Uneekor EYE XO SIG12 Golf Simulator Package",
-   "vendor": "Uneekor",
-   "type": "Golf Simulator",
-   "price": 10369.99,
-   "compare_at": 11869.99,
-   "pct_off": 13,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/uneekor-eye-xo-sig12-golf-simulator"
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -3411,17 +3455,6 @@
    "pct_off": 12,
    "available": true,
    "url": "https://www.playbetter.com/products/trugolf-launchbox-with-playbetter-simstudio-essentials-package"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
-   "title": "Uneekor EYE XR SIG DIY Golf Simulator Studio Package",
-   "vendor": "Uneekor",
-   "type": "Golf Simulator",
-   "price": 7298.99,
-   "compare_at": 8298.99,
-   "pct_off": 12,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/uneekor-eye-xr-sig-diy-golf-simulator-studio-package"
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -3521,39 +3554,6 @@
    "pct_off": 11,
    "available": true,
    "url": "https://www.playbetter.com/products/trugolf-apogee-golf-launch-monitor"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
-   "title": "Uneekor EYE XR SIG8 Golf Simulator Package",
-   "vendor": "Uneekor",
-   "type": "Golf Simulator",
-   "price": 7699.99,
-   "compare_at": 8699.99,
-   "pct_off": 11,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/uneekor-eye-xr-sig8-golf-simulator-package"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
-   "title": "Uneekor EYE XR SIG12 Golf Simulator Package",
-   "vendor": "Uneekor",
-   "type": "Golf Simulator",
-   "price": 7999.99,
-   "compare_at": 8999.99,
-   "pct_off": 11,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/uneekor-eye-xr-sig12-golf-simulator-package"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
-   "title": "Uneekor EYE XR SIG10 Golf Simulator Package",
-   "vendor": "Uneekor",
-   "type": "Golf Simulator",
-   "price": 7799.99,
-   "compare_at": 8799.99,
-   "pct_off": 11,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/uneekor-eye-xr-sig10-golf-simulator-package"
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -3983,6 +3983,17 @@
    "pct_off": 9,
    "available": true,
    "url": "https://shopindoorgolf.com/products/trugolf-apogee-sig12-golf-simulator-package"
+  },
+  {
+   "retailer": "Shop Indoor Golf",
+   "title": "Uneekor EYE XO SIG8 Golf Simulator Package",
+   "vendor": "Uneekor",
+   "type": "Golf Simulator",
+   "price": 9999.99,
+   "compare_at": 11049,
+   "pct_off": 9,
+   "available": true,
+   "url": "https://shopindoorgolf.com/products/uneekor-eye-xo-sig8-golf-simulator-package"
   },
   {
    "retailer": "Shop Indoor Golf",
