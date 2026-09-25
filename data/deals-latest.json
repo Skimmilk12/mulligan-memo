@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-09-24T15:07:10.270Z",
- "date": "2026-09-24",
+ "generated_at": "2026-09-25T15:16:39.907Z",
+ "date": "2026-09-25",
  "sources": [
   {
    "retailer": "PlayBetter",
@@ -10,7 +10,7 @@
   {
    "retailer": "Shop Indoor Golf",
    "status": "ok",
-   "on_sale_items": 237
+   "on_sale_items": 236
   },
   {
    "retailer": "Rain or Shine Golf",
@@ -177,17 +177,6 @@
    "pct_off": 52,
    "available": true,
    "url": "https://shopindoorgolf.com/products/flightscope-mevo-plus"
-  },
-  {
-   "retailer": "PlayBetter",
-   "title": "Blue Tees Golf Playmaker+ GPS Golf Watch",
-   "vendor": "Blue Tees Golf",
-   "type": "Golf GPS Watch",
-   "price": 99.99,
-   "compare_at": 199.99,
-   "pct_off": 50,
-   "available": true,
-   "url": "https://www.playbetter.com/products/blue-tees-golf-playmaker-gps-golf-watch"
   },
   {
    "retailer": "PlayBetter",
