@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-25T15:16:39.907Z",
- "date": "2026-09-25",
+ "generated_at": "2026-09-26T14:30:13.703Z",
+ "date": "2026-09-26",
  "sources": [
   {
    "retailer": "PlayBetter",
    "status": "ok",
-   "on_sale_items": 227
+   "on_sale_items": 229
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -15,7 +15,7 @@
   {
    "retailer": "Rain or Shine Golf",
    "status": "ok",
-   "on_sale_items": 99
+   "on_sale_items": 98
   },
   {
    "retailer": "Top Shelf Golf",
@@ -738,6 +738,17 @@
    "pct_off": 33,
    "available": true,
    "url": "https://www.playbetter.com/products/uneekor-eye-xo-golf-launch-monitor"
+  },
+  {
+   "retailer": "PlayBetter",
+   "title": "Pinned Golf Sound Stick Speaker",
+   "vendor": "Pinned Golf",
+   "type": "Golf GPS Speaker",
+   "price": 99.99,
+   "compare_at": 149.99,
+   "pct_off": 33,
+   "available": true,
+   "url": "https://www.playbetter.com/products/pinned-golf-sound-stick-speaker"
   },
   {
    "retailer": "PlayBetter",
@@ -3556,6 +3567,17 @@
    "url": "https://www.playbetter.com/products/trugolf-apogee-golf-launch-monitor"
   },
   {
+   "retailer": "PlayBetter",
+   "title": "Pinned Golf The Caddie Portable GPS Golf Tablet",
+   "vendor": "Pinned Golf",
+   "type": "Golf GPS Handheld",
+   "price": 399.98,
+   "compare_at": 450,
+   "pct_off": 11,
+   "available": true,
+   "url": "https://www.playbetter.com/products/pinned-golf-the-caddie-portable-gps-golf-tablet"
+  },
+  {
    "retailer": "Shop Indoor Golf",
    "title": "Square Golf Indoor Launch Monitor Net Practice Bundle",
    "vendor": "Square Golf",
@@ -5083,17 +5105,6 @@
    "pct_off": 2,
    "available": true,
    "url": "https://rainorshinegolf.com/products/trackman-io-retractable-golf-simulator-package"
-  },
-  {
-   "retailer": "Rain or Shine Golf",
-   "title": "Ernest Sports Eagle Sim",
-   "vendor": "Ernest Sports",
-   "type": "Overhead Launch Monitor",
-   "price": 4400,
-   "compare_at": 4500,
-   "pct_off": 2,
-   "available": true,
-   "url": "https://rainorshinegolf.com/products/ernest-sports-eagle-sim-launch-monitor"
   },
   {
    "retailer": "PlayBetter",
