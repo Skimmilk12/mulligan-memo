@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-09-26T14:30:13.703Z",
- "date": "2026-09-26",
+ "generated_at": "2026-09-27T15:12:03.449Z",
+ "date": "2026-09-27",
  "sources": [
   {
    "retailer": "PlayBetter",
@@ -1962,7 +1962,7 @@
   },
   {
    "retailer": "Top Shelf Golf",
-   "title": "SkyTrak ST MAX All-In-One Golf Simulator",
+   "title": "SkyTrak ST MAX DIY Enclosure Golf Simulator",
    "vendor": "SkyTrak",
    "type": "Golf Simulator Package",
    "price": 5461.9,
@@ -2558,7 +2558,7 @@
    "retailer": "Top Shelf Golf",
    "title": "TruGolf MultiSport ARCADE Interactive Sport Camera",
    "vendor": "TruGolf",
-   "type": "Golf Simulator Package",
+   "type": "Golf Simulator Add-On",
    "price": 4500,
    "compare_at": 5500,
    "pct_off": 18,
@@ -3656,7 +3656,7 @@
   },
   {
    "retailer": "Top Shelf Golf",
-   "title": "Uneekor EYE XR All-In-One Golf Simulator",
+   "title": "Uneekor EYE XR DIY Enclosure Golf Simulator",
    "vendor": "Uneekor",
    "type": "Golf Simulator Package",
    "price": 9765.9,

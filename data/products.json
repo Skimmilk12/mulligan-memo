@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-26T14:31:01.437Z",
+  "generated_at": "2026-09-27T15:12:42.229Z",
   "products": [
     {
       "product_id": "prd_c8682e21-a1ee-4c80-a16e-7c544c11caf4",
@@ -11,12 +11,12 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-08T23:47:41.248Z",
-      "last_seen": "2026-09-25T15:17:32.895Z",
+      "last_seen": "2026-09-27T15:12:42.229Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
           "item_group_id": "8102626951392",
-          "url": "https://sqairz.com/products/freedom-micro?variant=46639214264544",
+          "url": "https://sqairz.com/products/freedom-micro?variant=46639214133472",
           "display_title": "Sqairz Freedom™ Micro",
           "variants": [
             {
@@ -72,7 +72,7 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-08T23:47:41.248Z",
-      "last_seen": "2026-09-26T14:31:01.437Z",
+      "last_seen": "2026-09-27T15:12:42.229Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
@@ -138,12 +138,12 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-08T23:47:41.248Z",
-      "last_seen": "2026-09-26T14:31:01.437Z",
+      "last_seen": "2026-09-27T15:12:42.229Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
           "item_group_id": "7763613155552",
-          "url": "https://sqairz.com/products/freedom-mesh?variant=44071184531680",
+          "url": "https://sqairz.com/products/freedom-mesh?variant=44071184400608",
           "display_title": "Sqairz Freedom™ Mesh Blackberry",
           "variants": [
             {
@@ -209,7 +209,7 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-08T23:47:41.248Z",
-      "last_seen": "2026-09-26T14:31:01.437Z",
+      "last_seen": "2026-09-27T15:12:42.229Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
@@ -280,7 +280,7 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-08T23:47:41.248Z",
-      "last_seen": "2026-09-26T14:31:01.437Z",
+      "last_seen": "2026-09-27T15:12:42.229Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
@@ -356,7 +356,7 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-08T23:47:41.248Z",
-      "last_seen": "2026-09-26T14:31:01.437Z",
+      "last_seen": "2026-09-27T15:12:42.229Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
@@ -684,7 +684,7 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-15T10:40:28.587Z",
-      "last_seen": "2026-09-26T14:31:01.437Z",
+      "last_seen": "2026-09-27T15:12:42.229Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
@@ -710,12 +710,12 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-15T10:40:28.587Z",
-      "last_seen": "2026-09-26T14:31:01.437Z",
+      "last_seen": "2026-09-27T15:12:42.229Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
           "item_group_id": "8608562413792",
-          "url": "https://sqairz.com/products/the-patriot-womens-limited-edition?variant=45963716133088",
+          "url": "https://sqairz.com/products/the-patriot-womens-limited-edition?variant=45963716067552",
           "display_title": "Sqairz Patriot Limited Edition",
           "variants": [
             {
@@ -771,12 +771,12 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-15T10:40:28.587Z",
-      "last_seen": "2026-09-26T14:31:01.437Z",
+      "last_seen": "2026-09-27T15:12:42.229Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
           "item_group_id": "8608562217184",
-          "url": "https://sqairz.com/products/the-wave-mens-limited-edition?variant=45963714330848",
+          "url": "https://sqairz.com/products/the-wave-mens-limited-edition?variant=45963714461920",
           "display_title": "Sqairz Wave Limited Edition",
           "variants": [
             {
@@ -822,7 +822,7 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-15T10:40:28.587Z",
-      "last_seen": "2026-09-26T14:31:01.437Z",
+      "last_seen": "2026-09-27T15:12:42.229Z",
       "bindings": [
         {
           "retailer": "Cobra Golf",
@@ -913,7 +913,7 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-15T10:40:28.587Z",
-      "last_seen": "2026-09-26T14:31:01.437Z",
+      "last_seen": "2026-09-27T15:12:42.229Z",
       "bindings": [
         {
           "retailer": "Cobra Golf",
