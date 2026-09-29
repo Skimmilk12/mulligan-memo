@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-09-28T18:10:09.565Z",
- "date": "2026-09-28",
+ "generated_at": "2026-09-29T16:31:06.730Z",
+ "date": "2026-09-29",
  "sources": [
   {
    "retailer": "PlayBetter",
    "status": "ok",
-   "on_sale_items": 232
+   "on_sale_items": 231
   },
   {
    "retailer": "Shop Indoor Golf",
    "status": "ok",
-   "on_sale_items": 236
+   "on_sale_items": 238
   },
   {
    "retailer": "Rain or Shine Golf",
@@ -334,17 +334,6 @@
   },
   {
    "retailer": "PlayBetter",
-   "title": "FlightScope Pro Package and Face Impact Location",
-   "vendor": "FlightScope",
-   "type": "Golf Launch Monitor Software",
-   "price": 850,
-   "compare_at": 1499,
-   "pct_off": 43,
-   "available": true,
-   "url": "https://www.playbetter.com/products/flightscope-pro-package-and-face-impact-location"
-  },
-  {
-   "retailer": "PlayBetter",
    "title": "SkyTrak ST MAX with PlayBetter SimStudio™ BYO (Build Your Own) Package – Custom Home Golf Simulator Studio Builder with Impact Screen, Enclosure, Optional Mats, Projector & More",
    "vendor": "SkyTrak",
    "type": "Golf Simulator Studio Package",
@@ -386,17 +375,6 @@
    "pct_off": 43,
    "available": true,
    "url": "https://shopindoorgolf.com/products/skytrak-stmax-launch-monitor"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
-   "title": "FlightScope MEVO+ Pro Package & Face Impact Bundle",
-   "vendor": "Flightscope",
-   "type": "Golf Simulation Software",
-   "price": 850,
-   "compare_at": 1500,
-   "pct_off": 43,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/flightscope-mevo-pro-package-face-impact-bundle"
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -510,50 +488,6 @@
   },
   {
    "retailer": "PlayBetter",
-   "title": "FlightScope Face Impact Location Upgrade (Software Only)",
-   "vendor": "FlightScope",
-   "type": "Golf Launch Monitor Software",
-   "price": 299,
-   "compare_at": 499,
-   "pct_off": 40,
-   "available": true,
-   "url": "https://www.playbetter.com/products/flightscope-face-impact-location-software-upgrade"
-  },
-  {
-   "retailer": "PlayBetter",
-   "title": "FlightScope Pro Package Upgrade (Software Only)",
-   "vendor": "FlightScope",
-   "type": "Golf Launch Monitor Software",
-   "price": 599,
-   "compare_at": 1000,
-   "pct_off": 40,
-   "available": true,
-   "url": "https://www.playbetter.com/products/flightscope-mevo-plus-pro-package-upgrade"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
-   "title": "Face Impact Location for MEVO+ Pro Package",
-   "vendor": "Flightscope",
-   "type": "Golf Simulation Software",
-   "price": 299,
-   "compare_at": 499,
-   "pct_off": 40,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/face-impact-location-for-mevo-pro-package"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
-   "title": "FlightScope MEVO+ Pro Package",
-   "vendor": "Flightscope",
-   "type": "Golf Simulation Software",
-   "price": 599,
-   "compare_at": 1000,
-   "pct_off": 40,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/flightscope-mevo-pro-package"
-  },
-  {
-   "retailer": "PlayBetter",
    "title": "SkyTrak ST MAX Golf Launch Monitor Home Net Studio with The Net Return Premium Hitting Net Package",
    "vendor": "PlayBetter",
    "type": "Golf Simulator Net Package",
@@ -663,6 +597,28 @@
    "url": "https://shopindoorgolf.com/products/uneekor-eye-mini-sig10-golf-simulator-package"
   },
   {
+   "retailer": "PlayBetter",
+   "title": "FlightScope Pro Package and Face Impact Location",
+   "vendor": "FlightScope",
+   "type": "Golf Launch Monitor Software",
+   "price": 975,
+   "compare_at": 1499,
+   "pct_off": 35,
+   "available": true,
+   "url": "https://www.playbetter.com/products/flightscope-pro-package-and-face-impact-location"
+  },
+  {
+   "retailer": "Shop Indoor Golf",
+   "title": "FlightScope MEVO+ Pro Package & Face Impact Bundle",
+   "vendor": "Flightscope",
+   "type": "Golf Simulation Software",
+   "price": 975,
+   "compare_at": 1500,
+   "pct_off": 35,
+   "available": true,
+   "url": "https://shopindoorgolf.com/products/flightscope-mevo-pro-package-face-impact-bundle"
+  },
+  {
    "retailer": "Rain or Shine Golf",
    "title": "FlightScope Mevo Gen2 SwingBay",
    "vendor": "FlightScope",
@@ -760,17 +716,6 @@
    "pct_off": 33,
    "available": true,
    "url": "https://www.playbetter.com/products/uneekor-eye-mini-launch-monitor"
-  },
-  {
-   "retailer": "PlayBetter",
-   "title": "Garmin Alpha 200 & 200i / TT 25 / T 20 Bundle Dog GPS Tracking System",
-   "vendor": "Garmin",
-   "type": "GPS Dog Tracking System",
-   "price": 499.99,
-   "compare_at": 749.99,
-   "pct_off": 33,
-   "available": true,
-   "url": "https://www.playbetter.com/products/garmin-alpha-200-200i-handheld-gps-dog-tracker"
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -1004,6 +949,28 @@
    "url": "https://www.playbetter.com/products/uneekor-eye-xo-with-playbetter-simstudio-essentials-package-golf-simulator-studio"
   },
   {
+   "retailer": "PlayBetter",
+   "title": "FlightScope Face Impact Location Upgrade (Software Only)",
+   "vendor": "FlightScope",
+   "type": "Golf Launch Monitor Software",
+   "price": 350,
+   "compare_at": 499,
+   "pct_off": 30,
+   "available": true,
+   "url": "https://www.playbetter.com/products/flightscope-face-impact-location-software-upgrade"
+  },
+  {
+   "retailer": "PlayBetter",
+   "title": "FlightScope Pro Package Upgrade (Software Only)",
+   "vendor": "FlightScope",
+   "type": "Golf Launch Monitor Software",
+   "price": 699,
+   "compare_at": 1000,
+   "pct_off": 30,
+   "available": true,
+   "url": "https://www.playbetter.com/products/flightscope-mevo-plus-pro-package-upgrade"
+  },
+  {
    "retailer": "Shop Indoor Golf",
    "title": "Uneekor EYE XR SIG12 Golf Simulator Package",
    "vendor": "Uneekor",
@@ -1024,6 +991,28 @@
    "pct_off": 30,
    "available": true,
    "url": "https://shopindoorgolf.com/products/optoma-zw350st-golf-simulator-projector"
+  },
+  {
+   "retailer": "Shop Indoor Golf",
+   "title": "Face Impact Location for MEVO+ Pro Package",
+   "vendor": "Flightscope",
+   "type": "Golf Simulation Software",
+   "price": 349,
+   "compare_at": 499,
+   "pct_off": 30,
+   "available": true,
+   "url": "https://shopindoorgolf.com/products/face-impact-location-for-mevo-pro-package"
+  },
+  {
+   "retailer": "Shop Indoor Golf",
+   "title": "FlightScope MEVO+ Pro Package",
+   "vendor": "Flightscope",
+   "type": "Golf Simulation Software",
+   "price": 699,
+   "compare_at": 1000,
+   "pct_off": 30,
+   "available": true,
+   "url": "https://shopindoorgolf.com/products/flightscope-mevo-pro-package"
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -1346,17 +1335,6 @@
   },
   {
    "retailer": "PlayBetter",
-   "title": "FlightScope Mevo Gen2 with PlayBetter SimStudio™ BYO (Build Your Own) Package – Custom Home Golf Simulator Studio Builder with Impact Screen, Enclosure, Optional Mats, Projector & More",
-   "vendor": "FlightScope",
-   "type": "Golf Simulator Studio Package",
-   "price": 4344,
-   "compare_at": 5828,
-   "pct_off": 25,
-   "available": true,
-   "url": "https://www.playbetter.com/products/flightscope-mevo-gen2-playbetter-simstudio-byo-home-golf-studio-package"
-  },
-  {
-   "retailer": "PlayBetter",
    "title": "Rapsodo MLM2PRO with PlayBetter SimStudio™ BYO (Build Your Own) Package – Custom Home Golf Simulator Studio Builder with Impact Screen, Enclosure, Optional Mats, Projector & More",
    "vendor": "Rapsodo",
    "type": "Golf Simulator Studio Package",
@@ -1489,6 +1467,17 @@
   },
   {
    "retailer": "PlayBetter",
+   "title": "FlightScope Mevo Gen2 with PlayBetter SimStudio™ BYO (Build Your Own) Package – Custom Home Golf Simulator Studio Builder with Impact Screen, Enclosure, Optional Mats, Projector & More",
+   "vendor": "FlightScope",
+   "type": "Golf Simulator Studio Package",
+   "price": 4469,
+   "compare_at": 5828,
+   "pct_off": 23,
+   "available": true,
+   "url": "https://www.playbetter.com/products/flightscope-mevo-gen2-playbetter-simstudio-byo-home-golf-studio-package"
+  },
+  {
+   "retailer": "PlayBetter",
    "title": "Full Swing KIT with PlayBetter SimStudio™ BYO (Build Your Own) Package – Custom Home Golf Simulator Studio Builder with Impact Screen, Enclosure, Optional Mats, Projector & More",
    "vendor": "Full Swing Golf",
    "type": "Golf Simulator Studio Package",
@@ -1497,28 +1486,6 @@
    "pct_off": 23,
    "available": true,
    "url": "https://www.playbetter.com/products/full-swing-kit-playbetter-simstudio-byo-home-golf-studio-package"
-  },
-  {
-   "retailer": "PlayBetter",
-   "title": "FlightScope Mevo Gen2 with PlayBetter SimStudio™ ESSENTIALS Package | Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat & Projector",
-   "vendor": "FlightScope",
-   "type": "Golf Simulator Studio Package",
-   "price": 4844,
-   "compare_at": 6328,
-   "pct_off": 23,
-   "available": true,
-   "url": "https://www.playbetter.com/products/flightscope-mevo-gen2-with-playbetter-simstudio-essentials-golf-simulator-studio-package"
-  },
-  {
-   "retailer": "PlayBetter",
-   "title": "FlightScope Mevo Gen2 Golf Launch Monitor",
-   "vendor": "FlightScope",
-   "type": "Golf Launch Monitor & Simulator",
-   "price": 2149,
-   "compare_at": 2798,
-   "pct_off": 23,
-   "available": true,
-   "url": "https://www.playbetter.com/products/flightscope-mevo-gen2-golf-launch-monitor"
   },
   {
    "retailer": "PlayBetter",
@@ -1720,17 +1687,6 @@
   },
   {
    "retailer": "PlayBetter",
-   "title": "FlightScope Mevo Gen2 with PlayBetter SimStudio™ COMPLETE Package | Golf Simulator Studio with Impact Screen, Enclosure, Side Barriers, Hitting/Putting Mats, Projector & Alignment Stand",
-   "vendor": "FlightScope",
-   "type": "Golf Simulator Studio Package",
-   "price": 5344,
-   "compare_at": 6828,
-   "pct_off": 22,
-   "available": true,
-   "url": "https://www.playbetter.com/products/flightscope-mevo-gen2-with-playbetter-simstudio-complete-golf-simulator-studio-package"
-  },
-  {
-   "retailer": "PlayBetter",
    "title": "Rapsodo MLM2PRO with PlayBetter SimStudio™ ESSENTIALS Package | Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Projector & Alignment Stand",
    "vendor": "Rapsodo",
    "type": "Golf Simulator Studio Package",
@@ -1849,6 +1805,17 @@
    "pct_off": 21,
    "available": true,
    "url": "https://www.playbetter.com/products/skytrak-st-max-sportscreen-vanish-lite-semi-retractable-golf-studio-complete-package"
+  },
+  {
+   "retailer": "PlayBetter",
+   "title": "FlightScope Mevo Gen2 with PlayBetter SimStudio™ ESSENTIALS Package | Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat & Projector",
+   "vendor": "FlightScope",
+   "type": "Golf Simulator Studio Package",
+   "price": 4969,
+   "compare_at": 6328,
+   "pct_off": 21,
+   "available": true,
+   "url": "https://www.playbetter.com/products/flightscope-mevo-gen2-with-playbetter-simstudio-essentials-golf-simulator-studio-package"
   },
   {
    "retailer": "PlayBetter",
@@ -2050,6 +2017,17 @@
   },
   {
    "retailer": "PlayBetter",
+   "title": "FlightScope Mevo Gen2 with PlayBetter SimStudio™ COMPLETE Package | Golf Simulator Studio with Impact Screen, Enclosure, Side Barriers, Hitting/Putting Mats, Projector & Alignment Stand",
+   "vendor": "FlightScope",
+   "type": "Golf Simulator Studio Package",
+   "price": 5469,
+   "compare_at": 6828,
+   "pct_off": 20,
+   "available": true,
+   "url": "https://www.playbetter.com/products/flightscope-mevo-gen2-with-playbetter-simstudio-complete-golf-simulator-studio-package"
+  },
+  {
+   "retailer": "PlayBetter",
    "title": "Bushnell Launch Pro Circle B with PlayBetter SimStudio™ ESSENTIALS Package | Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat & Projector",
    "vendor": "Bushnell",
    "type": "Golf Simulator Studio Package",
@@ -2157,6 +2135,17 @@
    "pct_off": 20,
    "available": true,
    "url": "https://shopindoorgolf.com/products/optoma-gt2000hdr-short-throw-golf-simulator-projector"
+  },
+  {
+   "retailer": "Shop Indoor Golf",
+   "title": "Full Swing KIT Launch Monitor",
+   "vendor": "Full Swing",
+   "type": "Launch Monitor",
+   "price": 3999,
+   "compare_at": 4999,
+   "pct_off": 20,
+   "available": true,
+   "url": "https://shopindoorgolf.com/products/full-swing-kit-launch-monitor"
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -2347,6 +2336,17 @@
   },
   {
    "retailer": "PlayBetter",
+   "title": "FlightScope Mevo Gen2 Golf Launch Monitor",
+   "vendor": "FlightScope",
+   "type": "Golf Launch Monitor & Simulator",
+   "price": 2274,
+   "compare_at": 2798,
+   "pct_off": 19,
+   "available": true,
+   "url": "https://www.playbetter.com/products/flightscope-mevo-gen2-golf-launch-monitor"
+  },
+  {
+   "retailer": "PlayBetter",
    "title": "Square Golf with PlayBetter SimStudio™ ESSENTIALS Package | Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, & Projector",
    "vendor": "Square Golf",
    "type": "Golf Simulator Studio Package",
@@ -2377,6 +2377,17 @@
    "pct_off": 19,
    "available": true,
    "url": "https://shopindoorgolf.com/products/uneekor-eye-xo-sig-diy-golf-simulator-studio-package"
+  },
+  {
+   "retailer": "Shop Indoor Golf",
+   "title": "Full Swing KIT Golf Net Practice Bundle",
+   "vendor": "Full Swing",
+   "type": "Golf Simulator",
+   "price": 4279.99,
+   "compare_at": 5279.99,
+   "pct_off": 19,
+   "available": true,
+   "url": "https://shopindoorgolf.com/products/full-swing-golf-net-practice-bundle"
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -2938,6 +2949,17 @@
    "pct_off": 16,
    "available": true,
    "url": "https://shopindoorgolf.com/products/rapsodo-mlm2pro-garage-golf-simulator-package"
+  },
+  {
+   "retailer": "Shop Indoor Golf",
+   "title": "Full Swing KIT Garage Golf Simulator Package",
+   "vendor": "Full Swing",
+   "type": "Golf Simulator",
+   "price": 5099.99,
+   "compare_at": 6099.99,
+   "pct_off": 16,
+   "available": true,
+   "url": "https://shopindoorgolf.com/products/full-swing-kit-garage-golf-simulator-package"
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -3656,6 +3678,28 @@
   },
   {
    "retailer": "Shop Indoor Golf",
+   "title": "Full Swing KIT SIG8 Golf Simulator Package",
+   "vendor": "Full Swing",
+   "type": "Golf Simulator",
+   "price": 7699.99,
+   "compare_at": 8699.99,
+   "pct_off": 11,
+   "available": true,
+   "url": "https://shopindoorgolf.com/products/full-swing-kit-sig8-golf-simulator-package"
+  },
+  {
+   "retailer": "Shop Indoor Golf",
+   "title": "Full Swing KIT SIG10 Golf Simulator Package",
+   "vendor": "Full Swing",
+   "type": "Golf Simulator",
+   "price": 7699.99,
+   "compare_at": 8699.99,
+   "pct_off": 11,
+   "available": true,
+   "url": "https://shopindoorgolf.com/products/full-swing-kit-sig10-golf-simulator-package"
+  },
+  {
+   "retailer": "Shop Indoor Golf",
    "title": "ProTee VX SIG8 Golf Simulator Package",
    "vendor": "Protee United",
    "type": "Golf Simulator",
@@ -3851,6 +3895,17 @@
    "pct_off": 10,
    "available": true,
    "url": "https://shopindoorgolf.com/products/protee-vx-sig-diy-golf-simulator-studio-package"
+  },
+  {
+   "retailer": "Shop Indoor Golf",
+   "title": "Full Swing KIT SIG12 Golf Simulator Package",
+   "vendor": "Full Swing",
+   "type": "Golf Simulator",
+   "price": 8699.99,
+   "compare_at": 9699.99,
+   "pct_off": 10,
+   "available": true,
+   "url": "https://shopindoorgolf.com/products/full-swing-kit-sig12-golf-simulator-package"
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -4214,17 +4269,6 @@
    "pct_off": 8,
    "available": true,
    "url": "https://shopindoorgolf.com/products/golfin-idra-ii-golf-launch-monitor"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
-   "title": "Full Swing KIT Garage Golf Simulator Package",
-   "vendor": "Full Swing",
-   "type": "Golf Simulator",
-   "price": 6699.99,
-   "compare_at": 7299.99,
-   "pct_off": 8,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/full-swing-kit-garage-golf-simulator-package"
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -4896,39 +4940,6 @@
    "pct_off": 3,
    "available": true,
    "url": "https://shopindoorgolf.com/products/epson-powerlite-l790se-4k-golf-simulator-projector"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
-   "title": "Full Swing KIT SIG8 Golf Simulator Package",
-   "vendor": "Full Swing",
-   "type": "Golf Simulator",
-   "price": 8699.99,
-   "compare_at": 8999.99,
-   "pct_off": 3,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/full-swing-kit-sig8-golf-simulator-package"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
-   "title": "Full Swing KIT SIG12 Golf Simulator Package",
-   "vendor": "Full Swing",
-   "type": "Golf Simulator",
-   "price": 9699.99,
-   "compare_at": 9999.99,
-   "pct_off": 3,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/full-swing-kit-sig12-golf-simulator-package"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
-   "title": "Full Swing KIT SIG10 Golf Simulator Package",
-   "vendor": "Full Swing",
-   "type": "Golf Simulator",
-   "price": 8699.99,
-   "compare_at": 9000,
-   "pct_off": 3,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/full-swing-kit-sig10-golf-simulator-package"
   },
   {
    "retailer": "Shop Indoor Golf",
