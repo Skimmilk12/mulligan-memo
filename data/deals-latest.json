@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-09-29T16:31:06.730Z",
- "date": "2026-09-29",
+ "generated_at": "2026-09-30T16:24:58.198Z",
+ "date": "2026-09-30",
  "sources": [
   {
    "retailer": "PlayBetter",
@@ -10,7 +10,7 @@
   {
    "retailer": "Shop Indoor Golf",
    "status": "ok",
-   "on_sale_items": 238
+   "on_sale_items": 239
   },
   {
    "retailer": "Rain or Shine Golf",
@@ -2509,6 +2509,17 @@
    "pct_off": 18,
    "available": true,
    "url": "https://www.playbetter.com/products/garmin-approach-r10-golf-simulator-studio-package-playbetter-simstudio-with-impact-screen-enclosure-hitting-putting-mats-projector-1"
+  },
+  {
+   "retailer": "Shop Indoor Golf",
+   "title": "ClubsHead Travel Golf Bag Cover",
+   "vendor": "ClubsDock",
+   "type": "Golf storage",
+   "price": 89,
+   "compare_at": 109,
+   "pct_off": 18,
+   "available": true,
+   "url": "https://shopindoorgolf.com/products/clubshead"
   },
   {
    "retailer": "Shop Indoor Golf",

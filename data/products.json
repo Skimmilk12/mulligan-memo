@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-29T16:32:15.206Z",
+  "generated_at": "2026-09-30T16:25:58.702Z",
   "products": [
     {
       "product_id": "prd_c8682e21-a1ee-4c80-a16e-7c544c11caf4",
@@ -11,7 +11,7 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-08T23:47:41.248Z",
-      "last_seen": "2026-09-29T16:32:15.206Z",
+      "last_seen": "2026-09-30T16:25:58.702Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
@@ -72,12 +72,12 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-08T23:47:41.248Z",
-      "last_seen": "2026-09-29T16:32:15.206Z",
+      "last_seen": "2026-09-30T16:25:58.702Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
           "item_group_id": "8206716535008",
-          "url": "https://sqairz.com/products/velo?variant=44537242058976",
+          "url": "https://sqairz.com/products/velo?variant=44537242190048",
           "display_title": "Sqairz Velo™",
           "variants": [
             {
@@ -138,12 +138,12 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-08T23:47:41.248Z",
-      "last_seen": "2026-09-29T16:32:15.206Z",
+      "last_seen": "2026-09-30T16:25:58.702Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
           "item_group_id": "7763613155552",
-          "url": "https://sqairz.com/products/freedom-mesh?variant=44071184400608",
+          "url": "https://sqairz.com/products/freedom-mesh?variant=44071184531680",
           "display_title": "Sqairz Freedom™ Mesh Blackberry",
           "variants": [
             {
@@ -285,7 +285,7 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-08T23:47:41.248Z",
-      "last_seen": "2026-09-29T16:32:15.206Z",
+      "last_seen": "2026-09-30T16:25:58.702Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
@@ -361,7 +361,7 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-08T23:47:41.248Z",
-      "last_seen": "2026-09-29T16:32:15.206Z",
+      "last_seen": "2026-09-30T16:25:58.702Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
@@ -781,7 +781,7 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-15T10:40:28.587Z",
-      "last_seen": "2026-09-29T16:32:15.206Z",
+      "last_seen": "2026-09-30T16:25:58.702Z",
       "bindings": [
         {
           "retailer": "SQAIRZ",
@@ -832,7 +832,7 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-15T10:40:28.587Z",
-      "last_seen": "2026-09-29T16:32:15.206Z",
+      "last_seen": "2026-09-30T16:25:58.702Z",
       "bindings": [
         {
           "retailer": "Cobra Golf",
@@ -923,7 +923,7 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-15T10:40:28.587Z",
-      "last_seen": "2026-09-29T16:32:15.206Z",
+      "last_seen": "2026-09-30T16:25:58.702Z",
       "bindings": [
         {
           "retailer": "Cobra Golf",
@@ -1029,7 +1029,7 @@
       "status": "provisional",
       "rating_scope": "product",
       "first_seen": "2026-08-15T10:40:28.587Z",
-      "last_seen": "2026-08-23T10:41:49.311Z",
+      "last_seen": "2026-09-30T16:25:58.702Z",
       "bindings": [
         {
           "retailer": "Cobra Golf",
@@ -1223,6 +1223,20 @@
       "retailer": "PlayBetter",
       "title": "PlayBetter SkyTrak+ Golf Launch Monitor Home Net Studio…",
       "url": "https://www.playbetter.com/products/skytrak-golf-launch-monitor-with-the-net-return-pro-series-v2-golf-simulator-package-old",
+      "note": "source provides no advertiser-scoped product id; needs an approved feed or a manual binding"
+    },
+    {
+      "reason": "no_item_group_id",
+      "retailer": "PlayBetter",
+      "title": "SkyTrak ST MAX Launch Monitor",
+      "url": "https://www.playbetter.com/products/skytrak-st-max-golf-launch-monitor-simulator",
+      "note": "source provides no advertiser-scoped product id; needs an approved feed or a manual binding"
+    },
+    {
+      "reason": "no_item_group_id",
+      "retailer": "PlayBetter",
+      "title": "SkyTrak ST MAX with PlayBetter SimStudio™ BYO Package",
+      "url": "https://www.playbetter.com/products/skytrak-st-max-with-playbetter-simstudio-byo-build-your-own-package",
       "note": "source provides no advertiser-scoped product id; needs an approved feed or a manual binding"
     }
   ]
