@@ -1,21 +1,21 @@
 {
- "generated_at": "2026-09-30T16:24:58.198Z",
- "date": "2026-09-30",
+ "generated_at": "2026-10-01T17:02:04.939Z",
+ "date": "2026-10-01",
  "sources": [
   {
    "retailer": "PlayBetter",
    "status": "ok",
-   "on_sale_items": 231
+   "on_sale_items": 223
   },
   {
    "retailer": "Shop Indoor Golf",
    "status": "ok",
-   "on_sale_items": 239
+   "on_sale_items": 238
   },
   {
    "retailer": "Rain or Shine Golf",
    "status": "ok",
-   "on_sale_items": 98
+   "on_sale_items": 97
   },
   {
    "retailer": "Top Shelf Golf",
@@ -67,6 +67,17 @@
    "pct_off": 75,
    "available": true,
    "url": "https://shopindoorgolf.com/products/sigpro-commercial-enclosure-2-pipe-frame-kit"
+  },
+  {
+   "retailer": "Shop Indoor Golf",
+   "title": "The Net Return Side Barriers – Universal Net Protection",
+   "vendor": "The Net Return",
+   "type": "Golf Net Accessory",
+   "price": 99,
+   "compare_at": 299,
+   "pct_off": 67,
+   "available": true,
+   "url": "https://shopindoorgolf.com/products/the-net-return-universal-side-barriers-pro-series-v2-and-home-series"
   },
   {
    "retailer": "PlayBetter",
@@ -1324,17 +1335,6 @@
   },
   {
    "retailer": "PlayBetter",
-   "title": "Blue Tees Golf Rainmaker with PlayBetter SimStudio™ BYO (Build Your Own) Package – Custom Home Golf Simulator Studio Builder with Impact Screen, Enclosure, Optional Mats, Projector & More",
-   "vendor": "Blue Tees Golf",
-   "type": "Golf Simulator Studio Package",
-   "price": 2694.99,
-   "compare_at": 3594.99,
-   "pct_off": 25,
-   "available": true,
-   "url": "https://www.playbetter.com/products/blue-tees-golf-rainmaker-with-playbetter-simstudio-byo-build-your-own-package"
-  },
-  {
-   "retailer": "PlayBetter",
    "title": "Rapsodo MLM2PRO with PlayBetter SimStudio™ BYO (Build Your Own) Package – Custom Home Golf Simulator Studio Builder with Impact Screen, Enclosure, Optional Mats, Projector & More",
    "vendor": "Rapsodo",
    "type": "Golf Simulator Studio Package",
@@ -1609,6 +1609,17 @@
    "url": "https://shopindoorgolf.com/products/flightscope-mevo-plus-sig12-golf-simulator"
   },
   {
+   "retailer": "Shop Indoor Golf",
+   "title": "The Orange Whip Trainer",
+   "vendor": "Orange Whip",
+   "type": "Accessory",
+   "price": 99.99,
+   "compare_at": 129.99,
+   "pct_off": 23,
+   "available": true,
+   "url": "https://shopindoorgolf.com/products/orange-whip-trainer"
+  },
+  {
    "retailer": "Rain or Shine Golf",
    "title": "Uneekor EYE XO SwingBay",
    "vendor": "Uneekor",
@@ -1643,14 +1654,14 @@
   },
   {
    "retailer": "PlayBetter",
-   "title": "Blue Tees Golf Rainmaker with PlayBetter SimStudio™ ESSENTIALS Package | Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat & Projector",
+   "title": "Blue Tees Golf Rainmaker with PlayBetter SimStudio™ BYO (Build Your Own) Package – Custom Home Golf Simulator Studio Builder with Impact Screen, Enclosure, Optional Mats, Projector & More",
    "vendor": "Blue Tees Golf",
    "type": "Golf Simulator Studio Package",
-   "price": 3194.99,
-   "compare_at": 4094.99,
+   "price": 2794.99,
+   "compare_at": 3594.99,
    "pct_off": 22,
    "available": true,
-   "url": "https://www.playbetter.com/products/blue-tees-golf-rainmaker-with-playbetter-simstudio-essentials-package"
+   "url": "https://www.playbetter.com/products/blue-tees-golf-rainmaker-with-playbetter-simstudio-byo-build-your-own-package"
   },
   {
    "retailer": "PlayBetter",
@@ -1973,25 +1984,14 @@
   },
   {
    "retailer": "PlayBetter",
-   "title": "Blue Tees Golf Rainmaker with PlayBetter SimStudio™ COMPLETE Package | Golf Simulator Studio with Impact Screen, Enclosure, Side Barriers, Hitting/Putting Mats & Projector",
+   "title": "Blue Tees Golf Rainmaker with PlayBetter SimStudio™ ESSENTIALS Package | Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat & Projector",
    "vendor": "Blue Tees Golf",
    "type": "Golf Simulator Studio Package",
-   "price": 3694.99,
-   "compare_at": 4594.99,
+   "price": 3294.99,
+   "compare_at": 4094.99,
    "pct_off": 20,
    "available": true,
-   "url": "https://www.playbetter.com/products/blue-tees-golf-rainmaker-with-playbetter-simstudio-complete-package"
-  },
-  {
-   "retailer": "PlayBetter",
-   "title": "Blue Tees Captain Air Golf Rangefinder",
-   "vendor": "Blue Tees Golf",
-   "type": "Golf Rangefinder",
-   "price": 199,
-   "compare_at": 249,
-   "pct_off": 20,
-   "available": true,
-   "url": "https://www.playbetter.com/products/blue-tees-golf-captain-air-golf-rangefinder"
+   "url": "https://www.playbetter.com/products/blue-tees-golf-rainmaker-with-playbetter-simstudio-essentials-package"
   },
   {
    "retailer": "PlayBetter",
@@ -2644,25 +2644,14 @@
   },
   {
    "retailer": "PlayBetter",
-   "title": "Blue Tees Captain Pro Golf Rangefinder",
+   "title": "Blue Tees Golf Rainmaker with PlayBetter SimStudio™ COMPLETE Package | Golf Simulator Studio with Impact Screen, Enclosure, Side Barriers, Hitting/Putting Mats & Projector",
    "vendor": "Blue Tees Golf",
-   "type": "Golf Rangefinder",
-   "price": 249,
-   "compare_at": 299,
+   "type": "Golf Simulator Studio Package",
+   "price": 3794.99,
+   "compare_at": 4594.99,
    "pct_off": 17,
    "available": true,
-   "url": "https://www.playbetter.com/products/blue-tees-captain-pro-golf-rangefinder"
-  },
-  {
-   "retailer": "PlayBetter",
-   "title": "Blue Tees Golf Rainmaker Portable Golf Launch Monitor & Simulator",
-   "vendor": "Blue Tees Golf",
-   "type": "Golf Launch Monitor & Simulator",
-   "price": 499.99,
-   "compare_at": 599.99,
-   "pct_off": 17,
-   "available": true,
-   "url": "https://www.playbetter.com/products/blue-tees-golf-rainmaker-golf-launch-monitor"
+   "url": "https://www.playbetter.com/products/blue-tees-golf-rainmaker-with-playbetter-simstudio-complete-package"
   },
   {
    "retailer": "PlayBetter",
@@ -2729,28 +2718,6 @@
    "pct_off": 17,
    "available": true,
    "url": "https://shopindoorgolf.com/products/lg-bu53rg-4k-short-throw-laser-golf-simulator-projector"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
-   "title": "The Net Return Mini Pro Series Side Barriers - (4 Sandbags Included)",
-   "vendor": "The Net Return",
-   "type": "Golf Net Accessory",
-   "price": 249,
-   "compare_at": 299,
-   "pct_off": 17,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/the-net-return-mini-pro-series-side-barriers-4-sandbags-included"
-  },
-  {
-   "retailer": "Shop Indoor Golf",
-   "title": "The Net Return Universal Side Barriers - Pro Series V2 and Home Series",
-   "vendor": "The Net Return",
-   "type": "Golf Net Accessory",
-   "price": 249,
-   "compare_at": 299,
-   "pct_off": 17,
-   "available": true,
-   "url": "https://shopindoorgolf.com/products/the-net-return-universal-side-barriers-pro-series-v2-and-home-series"
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -2861,17 +2828,6 @@
    "pct_off": 17,
    "available": true,
    "url": "https://rainorshinegolf.com/products/bushnell-lpi-retractable-package"
-  },
-  {
-   "retailer": "Rain or Shine Golf",
-   "title": "Blue Tees Rainmaker",
-   "vendor": "Blue Tees Golf",
-   "type": "Portable Launch Monitor",
-   "price": 499.98,
-   "compare_at": 599.99,
-   "pct_off": 17,
-   "available": true,
-   "url": "https://rainorshinegolf.com/products/blue-tees-rainmaker-portable-launch-monitor"
   },
   {
    "retailer": "Top Shelf Golf",
@@ -4195,17 +4151,6 @@
   },
   {
    "retailer": "PlayBetter",
-   "title": "Blue Tees Golf Rainmaker Golf Launch Monitor Home Net Studio with The Net Return Premium Hitting Net Package",
-   "vendor": "Blue Tees Golf",
-   "type": "Golf Simulator Net Package",
-   "price": 1194.99,
-   "compare_at": 1294.99,
-   "pct_off": 8,
-   "available": true,
-   "url": "https://www.playbetter.com/products/blue-tees-golf-rainmaker-golf-launch-monitor-home-net-studio"
-  },
-  {
-   "retailer": "PlayBetter",
    "title": "ProTee VX with PlayBetter SimStudio BYO™ (Build Your Own) Package – Custom Home Golf Simulator Studio Builder with Impact Screen, Enclosure, Optional Mats, Projector & More",
    "vendor": "ProTee United",
    "type": "Golf Simulator Studio Package",
@@ -5050,28 +4995,6 @@
    "pct_off": 2,
    "available": true,
    "url": "https://www.playbetter.com/products/rapsodo-mlm2pro-sportscreen-vanish-lite-semi-retractable-golf-studio-complete-package"
-  },
-  {
-   "retailer": "PlayBetter",
-   "title": "Blue Tees Golf Rainmaker SportScreen Vanish LITE Hybrid-Retractable Golf Studio Complete Package | Home Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Putting Turf & Projector",
-   "vendor": "SportScreen",
-   "type": "Retractable Golf Simulator Studio Package",
-   "price": 4899.96,
-   "compare_at": 4999.96,
-   "pct_off": 2,
-   "available": true,
-   "url": "https://www.playbetter.com/products/blue-tees-golf-rainmaker-sportscreen-vanish-lite-semi-retractable-golf-studio-complete-package"
-  },
-  {
-   "retailer": "PlayBetter",
-   "title": "Blue Tees Golf Rainmaker SportScreen Vanish Retractable Golf Studio Complete Package | Home Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Putting Turf & Projector",
-   "vendor": "SportScreen",
-   "type": "Retractable Golf Simulator Studio Package",
-   "price": 5599.96,
-   "compare_at": 5699.96,
-   "pct_off": 2,
-   "available": true,
-   "url": "https://www.playbetter.com/products/blue-tees-golf-rainmaker-sportscreen-vanish-retractable-golf-studio-complete-package"
   },
   {
    "retailer": "PlayBetter",
