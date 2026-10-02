@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-10-01T17:02:04.939Z",
- "date": "2026-10-01",
+ "generated_at": "2026-10-02T16:16:24.694Z",
+ "date": "2026-10-02",
  "sources": [
   {
    "retailer": "PlayBetter",
    "status": "ok",
-   "on_sale_items": 223
+   "on_sale_items": 226
   },
   {
    "retailer": "Shop Indoor Golf",
    "status": "ok",
-   "on_sale_items": 238
+   "on_sale_items": 235
   },
   {
    "retailer": "Rain or Shine Golf",
@@ -313,7 +313,7 @@
   {
    "retailer": "PlayBetter",
    "title": "SkyTrak+ Golf Launch Monitor Home Net Studio with The Net Return Premium Hitting Net Package & 1-Year FREE Foresight Course Play",
-   "vendor": "PlayBetter",
+   "vendor": "SkyTrak",
    "type": "Golf Simulator Net Package",
    "price": 1890,
    "compare_at": 3440,
@@ -500,7 +500,7 @@
   {
    "retailer": "PlayBetter",
    "title": "SkyTrak ST MAX Golf Launch Monitor Home Net Studio with The Net Return Premium Hitting Net Package",
-   "vendor": "PlayBetter",
+   "vendor": "SkyTrak",
    "type": "Golf Simulator Net Package",
    "price": 2390,
    "compare_at": 3940,
@@ -2633,6 +2633,17 @@
   },
   {
    "retailer": "PlayBetter",
+   "title": "Foresight GC2 with PlayBetter SimStudio™ BYO (Build Your Own) Package – Custom Home Golf Simulator Studio Builder with Impact Screen, Enclosure, Optional Mats, Projector & More",
+   "vendor": "Foresight Sports",
+   "type": "Golf Launch Monitor & Simulator",
+   "price": 3894,
+   "compare_at": 4694,
+   "pct_off": 17,
+   "available": true,
+   "url": "https://www.playbetter.com/products/foresight-gc2-with-playbetter-simstudio-byo-package"
+  },
+  {
+   "retailer": "PlayBetter",
    "title": "Uneekor EYE MINI SportScreen Vanish LITE Hybrid-Retractable Golf Studio Complete Package | Home Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat, Putting Turf & Projector",
    "vendor": "SportScreen",
    "type": "Retractable Golf Simulator Studio Package",
@@ -2974,6 +2985,17 @@
   },
   {
    "retailer": "PlayBetter",
+   "title": "Foresight GC2 with PlayBetter SimStudio™ ESSENTIALS Package | Golf Simulator Studio with Impact Screen, Enclosure, Hitting Mat & Projector",
+   "vendor": "Foresight Sports",
+   "type": "Golf Launch Monitor & Simulator",
+   "price": 4394,
+   "compare_at": 5194,
+   "pct_off": 15,
+   "available": true,
+   "url": "https://www.playbetter.com/products/foresight-gc2-with-playbetter-simstudio-essentials-package"
+  },
+  {
+   "retailer": "PlayBetter",
    "title": "TheStack + Stack Radar Bundle",
    "vendor": "The Stack System",
    "type": "Golf Launch Monitor & Simulator",
@@ -3147,6 +3169,17 @@
    "pct_off": 15,
    "available": true,
    "url": "https://rainorshinegolf.com/products/flightscope-x3c-launch-monitor"
+  },
+  {
+   "retailer": "PlayBetter",
+   "title": "Foresight GC2 with PlayBetter SimStudio™ COMPLETE Package | Golf Simulator Studio with Impact Screen, Enclosure, Side Barriers, Hitting/Putting Mats & Projector",
+   "vendor": "Foresight Sports",
+   "type": "Golf Launch Monitor & Simulator",
+   "price": 4894,
+   "compare_at": 5694,
+   "pct_off": 14,
+   "available": true,
+   "url": "https://www.playbetter.com/products/foresight-gc2-with-playbetter-simstudio-complete-package"
   },
   {
    "retailer": "PlayBetter",
@@ -3631,6 +3664,17 @@
    "pct_off": 11,
    "available": true,
    "url": "https://www.playbetter.com/products/pinned-golf-the-caddie-portable-gps-golf-tablet"
+  },
+  {
+   "retailer": "PlayBetter",
+   "title": "Garmin Enduro 3 Ultra-Endurance GPS Smartwatch",
+   "vendor": "Garmin",
+   "type": "Multisport GPS Watch",
+   "price": 799.99,
+   "compare_at": 899.99,
+   "pct_off": 11,
+   "available": true,
+   "url": "https://www.playbetter.com/products/garmin-enduro-3"
   },
   {
    "retailer": "Shop Indoor Golf",
@@ -4383,7 +4427,7 @@
   {
    "retailer": "PlayBetter",
    "title": "Rapsodo MLM2PRO Golf Launch Monitor & Simulator Home Net Studio with The Net Return Premium Hitting Net Package",
-   "vendor": "PlayBetter",
+   "vendor": "Rapsodo",
    "type": "Golf Simulator Net Package",
    "price": 1294.99,
    "compare_at": 1394.99,
